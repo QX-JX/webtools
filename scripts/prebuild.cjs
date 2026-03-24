@@ -88,6 +88,7 @@ async function cleanBuildArtifacts() {
 }
 
 const TEMP_BUILD_DIR = path.resolve('temp_build');
+const BUILD_RESOURCES_DIR = path.resolve('build-resources');
 
 /**
  * 构建前端应用
@@ -147,12 +148,17 @@ async function copyAppIcon() {
   
   const srcIcon = path.resolve('public/app.ico');
   const destIcon = path.resolve('electron/app.ico');
+  const srcPng = path.resolve('public/站长工具.png');
+  const buildWinIcon = path.resolve(BUILD_RESOURCES_DIR, 'icon.ico');
+  const buildLinuxIcon = path.resolve(BUILD_RESOURCES_DIR, '512x512.png');
   
   if (!await fs.pathExists(srcIcon)) {
     logWarning(`图标文件不存在: ${srcIcon}`);
     logWarning('将跳过图标复制，应用可能使用默认图标');
     return;
   }
+
+  await fs.ensureDir(BUILD_RESOURCES_DIR);
   
   log(`  从: ${srcIcon}`);
   log(`  到: ${destIcon}`);
@@ -160,6 +166,18 @@ async function copyAppIcon() {
   await fs.copy(srcIcon, destIcon, {
     overwrite: true
   });
+
+  log(`  到: ${buildWinIcon}`);
+  await fs.copy(srcIcon, buildWinIcon, {
+    overwrite: true
+  });
+
+  if (await fs.pathExists(srcPng)) {
+    log(`  到: ${buildLinuxIcon}`);
+    await fs.copy(srcPng, buildLinuxIcon, {
+      overwrite: true
+    });
+  }
   
   logSuccess('图标复制完成');
 }

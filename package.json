@@ -30,6 +30,7 @@
     "productName": "鍏ㄨ兘绔欓暱宸ュ叿",
     "directories": {
       "app": "electron",
+      "buildResources": "build-resources",
       "output": "dist-release-1.0.1"
     },
     "files": [
@@ -110,7 +111,7 @@
           ]
         }
       ],
-      "icon": "public/app.ico",
+      "icon": "build-resources/icon.ico",
       "requestedExecutionLevel": "asInvoker"
     },
     "mac": {
@@ -130,7 +131,7 @@
           ]
         }
       ],
-      "icon": "public/站长工具.png",
+      "icon": "build-resources/icon.icns",
       "artifactName": "${productName}-${version}-mac-${arch}.${ext}",
       "category": "public.app-category.developer-tools",
       "hardenedRuntime": false,
@@ -160,7 +161,7 @@
           ]
         }
       ],
-      "icon": "public/站长工具.png",
+      "icon": "build-resources",
       "category": "Development",
       "artifactName": "${productName}-${version}-linux-${arch}.${ext}"
     },

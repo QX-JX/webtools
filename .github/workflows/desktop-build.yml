@@ -1,4 +1,4 @@
-name: Desktop Build
+﻿name: Desktop Build
 
 on:
   push:
@@ -40,6 +40,25 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Prepare cross-platform icons
+        shell: bash
+        run: |
+          mkdir -p build-resources
+          cp public/app.ico build-resources/icon.ico
+          cp public/站长工具.png build-resources/512x512.png
+
+      - name: Prepare macOS icns
+        if: runner.os == 'macOS'
+        shell: bash
+        run: |
+          rm -rf build-resources/icon.iconset
+          mkdir -p build-resources/icon.iconset
+          for size in 16 32 64 128 256 512; do
+            sips -z $size $size public/站长工具.png --out build-resources/icon.iconset/icon_${size}x${size}.png
+            sips -z $((size * 2)) $((size * 2)) public/站长工具.png --out build-resources/icon.iconset/icon_${size}x${size}@2x.png
+          done
+          iconutil -c icns build-resources/icon.iconset -o build-resources/icon.icns
 
       - name: Build desktop app
         env:
