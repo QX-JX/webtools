@@ -27,7 +27,8 @@
   },
   "build": {
     "appId": "com.kunqiong.webtools",
-    "productName": "鍏ㄨ兘绔欓暱宸ュ叿",
+    "productName": "Kunqiong WebTools",
+    "executableName": "kunqiong-webtools",
     "directories": {
       "app": "electron",
       "buildResources": "build-resources",
@@ -150,7 +151,7 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "鍏ㄨ兘绔欓暱宸ュ叿",
+      "shortcutName": "Kunqiong WebTools",
       "installerIcon": "public/app.ico",
       "uninstallerIcon": "public/app.ico",
       "differentialPackage": true
