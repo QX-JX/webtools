@@ -1,0 +1,10 @@
+version: '3'
+services:
+  webtools:
+    image: kunqiong-webtools
+    build: .
+    ports:
+      - "8080:80"
+    restart: always
+    environment:
+      - NODE_ENV=production

@@ -1,0 +1,220 @@
+{
+  "name": "kunqiong-webtools",
+  "private": true,
+  "version": "1.0.1",
+  "description": "鍏ㄨ兘绔欓暱宸ュ叿 - 涓€绔欏紡绔欓暱宸ュ叿闆嗗悎",
+  "main": "electron/main.cjs",
+  "author": "Kunqiong",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "dev:api": "node electron/server/index.mjs",
+    "dev:server": "esbuild server/src/index.ts --bundle --platform=node --target=node18 --format=esm --outfile=electron/server/index.mjs --watch=forever --banner:js=\"import { createRequire } from 'module';const require = createRequire(import.meta.url);\"",
+    "start": "electron .",
+    "build": "node scripts/prebuild.cjs",
+    "build:frontend": "vite build",
+    "preview": "vite preview",
+    "prebuild": "node scripts/prebuild.cjs",
+    "build:electron": "electron-builder --win",
+    "build:electron:win": "electron-builder --win",
+    "build:electron:linux": "electron-builder --linux",
+    "build:electron:mac": "electron-builder --mac",
+    "build:electron:all": "electron-builder --win --linux --mac",
+    "pack": "npm run prebuild && npm run build:electron",
+    "pack:dir": "npm run prebuild && electron-builder --win --dir",
+    "i18n:fill-kunqiong": "node scripts/fill-kunqiong-via-api.mjs",
+    "i18n:fill-stale": "node scripts/fill-stale-from-en.mjs"
+  },
+  "build": {
+    "appId": "com.kunqiong.webtools",
+    "productName": "鍏ㄨ兘绔欓暱宸ュ叿",
+    "directories": {
+      "app": "electron",
+      "output": "dist-release-1.0.1"
+    },
+    "files": [
+      "**/*",
+      "!dist/**/*",
+      "!**/*.map",
+      "!**/*.ts",
+      "!**/*.d.ts",
+      "!**/README*",
+      "!**/*.md",
+      "!**/CHANGELOG*",
+      "!**/LICENSE*",
+      "!**/.npmignore",
+      "!**/.gitignore",
+      "!**/test/**",
+      "!**/tests/**",
+      "!**/__tests__/**",
+      "!**/*.test.js",
+      "!**/*.spec.js",
+      "!**/.eslintrc*",
+      "!**/.prettierrc*",
+      "!**/.editorconfig",
+      "!**/tsconfig*.json",
+      "!**/jest.config*",
+      "!**/.DS_Store",
+      "!**/Thumbs.db",
+      "!**/*.log",
+      "!**/npm-debug.log*",
+      "!**/yarn-debug.log*",
+      "!**/yarn-error.log*",
+      "!**/pnpm-debug.log*",
+      "!**/.vscode/**",
+      "!**/.idea/**",
+      "!**/node_modules/*/{CHANGELOG.md,README.md,README,readme.md,readme}",
+      "!**/node_modules/*/{test,__tests__,tests,powered-test,example,examples}",
+      "!**/node_modules/*.d.ts",
+      "!**/node_modules/.bin",
+      "!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+      "!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+      "!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+      "!**/{appveyor.yml,.travis.yml,circle.yml}",
+      "!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}",
+      "!server/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "electron/server/index.mjs",
+        "to": "server/index.mjs"
+      },
+      {
+        "from": "electron/dist",
+        "to": "dist",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "public/app.ico",
+        "to": "app.ico"
+      },
+      {
+        "from": "electron/updater.exe",
+        "to": "updater.exe"
+      }
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "public/app.ico",
+      "requestedExecutionLevel": "asInvoker"
+    },
+    "mac": {
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        },
+        {
+          "target": "zip",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        }
+      ],
+      "icon": "public/站长工具.png",
+      "artifactName": "${productName}-${version}-mac-${arch}.${ext}",
+      "category": "public.app-category.developer-tools",
+      "hardenedRuntime": false,
+      "gatekeeperAssess": false
+    },
+    "dmg": {
+      "artifactName": "${productName}-${version}-mac-${arch}.${ext}"
+    },
+    "linux": {
+      "target": [
+        {
+          "target": "AppImage",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "deb",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "tar.gz",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "public/站长工具.png",
+      "category": "Development",
+      "artifactName": "${productName}-${version}-linux-${arch}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "鍏ㄨ兘绔欓暱宸ュ叿",
+      "installerIcon": "public/app.ico",
+      "uninstallerIcon": "public/app.ico",
+      "differentialPackage": true
+    },
+    "compression": "maximum",
+    "removePackageScripts": true,
+    "publish": null,
+    "electronLanguages": [
+      "zh-CN",
+      "en-US"
+    ]
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^25.0.3",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.2",
+    "@vitejs/plugin-react-swc": "^4.2.2",
+    "autoprefixer": "^10.4.24",
+    "concurrently": "^9.2.1",
+    "cross-env": "^10.1.0",
+    "electron": "^28.0.0",
+    "electron-builder": "^26.4.0",
+    "fs-extra": "^11.3.3",
+    "png-to-ico": "^3.0.1",
+    "postcss": "^8.5.6",
+    "rollup-plugin-visualizer": "^6.0.5",
+    "tailwindcss": "^3.4.19",
+    "terser": "^5.44.1",
+    "typescript": "^5.9.3",
+    "vite": "^6.2.0",
+    "vite-plugin-compression": "^0.5.1",
+    "wait-on": "^9.0.3"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "date-fns": "^4.1.0",
+    "i18next": "^25.8.18",
+    "lucide-react": "^0.562.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-i18next": "^16.5.8",
+    "react-router-dom": "^7.11.0",
+    "web-vitals": "^4.2.4"
+  }
+}

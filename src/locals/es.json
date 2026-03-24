@@ -1,0 +1,2730 @@
+{
+  "common": {
+    "home": "Inicio",
+    "websiteDetection": "Verificación de Sitios Web",
+    "seoTools": "Herramientas SEO",
+    "devTools": "Herramientas para Desarrolladores",
+    "encodingConversion": "Herramientas de Codificación y Conversión",
+    "otherTools": "Otras Herramientas",
+    "feedback": "Comentarios",
+    "customization": "Soluciones Personalizadas / Contáctenos",
+    "back": "Atrás",
+    "appName": "Herramientas para Webmasters Todo en Uno",
+    "brandName": "Producto de Kunqiong",
+    "loading": "Cargando...",
+    "processing": "Procesando",
+    "processingDescription": "Espere mientras procesamos sus datos...",
+    "inProgress": "En progreso",
+    "search": "Buscar herramientas...",
+    "my": "Mi",
+    "menu": "Menú",
+    "settings": "Configuración",
+    "all": "Todo",
+    "category": "Categoría",
+    "noToolsFound": "No se encontraron herramientas coincidentes",
+    "recommended": "Recomendado",
+    "usageCount": "Usado {{count}} veces",
+    "toolsCount": "{{count}} herramientas",
+    "export": "Exportar",
+    "usageInstructions": "Instrucciones de Uso"
+  },
+  "auth": {
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "userInfo": "Información del Usuario",
+    "nickname": "Apodo",
+    "avatar": "Avatar",
+    "user": "Usuario",
+    "loggedIn": "Inició sesión",
+    "loggingOut": "Cerrando sesión...",
+    "loggingIn": "Iniciando sesión...",
+    "loginInstructions": "Complete el inicio de sesión en su navegador",
+    "cancelLogin": "Cancelar inicio de sesión",
+    "loginFailed": "Inicio de sesión fallido",
+    "retry": "Reintentar",
+    "close": "Cerrar",
+    "loginDescription": "Haga clic en el botón a continuación para abrir la página de inicio de sesión en su navegador. Después de completar el inicio de sesión, la aplicación sincronizará automáticamente su estado de inicio de sesión.",
+    "loginTip": "Consejo: Asegúrese de que su navegador permanezca abierto durante el proceso de inicio de sesión.",
+    "openBrowserLogin": "Abrir inicio de sesión en navegador",
+    "cancel": "Cancelar",
+    "loginReminder": "Recordatorio de inicio de sesión",
+    "loginRequiredTitle": "Se requiere iniciar sesión",
+    "loginRequiredDescription": "Necesita iniciar sesión antes de usar esta función. Después de iniciar sesión, podrá disfrutar de la experiencia completa de servicio.",
+    "loginActionDescription": "Haga clic en el botón a continuación para abrir la página de inicio de sesión, luego complete el inicio de sesión allí.",
+    "loginNow": "Iniciar sesión ahora",
+    "loginBenefit": "Inicie sesión para usar todas las funciones",
+    "errors": {
+      "getLoginUrlFailed": "Fallo al obtener la URL de inicio de sesión: {{message}}",
+      "getLoginUrlException": "Error al obtener la URL de inicio de sesión: {{error}}",
+      "loginCancelled": "El inicio de sesión fue cancelado",
+      "pollingAbnormal": "La respuesta de sondeo fue anormal: {{message}}",
+      "pollingFailed": "Fallo en el sondeo: {{error}}",
+      "loginTimeout": "Tiempo de inicio de sesión agotado",
+      "checkLoginStatusFailed": "Fallo al verificar el estado de inicio de sesión, código de estado: {{status}}",
+      "checkLoginException": "Error al verificar el estado de inicio de sesión",
+      "getUserInfoFailed": "Fallo al obtener la información del usuario: {{message}}",
+      "getUserInfoException": "Error al obtener la información del usuario: {{error}}",
+      "logoutFailed": "Fallo al cerrar sesión: {{message}}",
+      "logoutException": "Error al cerrar sesión: {{error}}",
+      "getFeedbackUrlFailed": "Fallo al obtener la URL de comentarios: {{message}}",
+      "getFeedbackUrlException": "Error al obtener la URL de comentarios: {{error}}"
+    }
+  },
+  "favorite": {
+    "add": "Añadir a favoritos",
+    "remove": "Eliminar de favoritos",
+    "label": "Favorito",
+    "failed": "La operación falló"
+  },
+  "errors": {
+    "fetchCustomUrlFailed": "Fallo al obtener la URL de la página personalizada:",
+    "fetchFeedbackUrlFailed": "Fallo al obtener la URL de la página de comentarios:",
+    "copyFailed": "Fallo al copiar",
+    "networkError": "Error de conexión de red",
+    "somethingWentWrong": "Algo salió mal",
+    "unexpectedError": "Lo sentimos, ocurrió un error inesperado",
+    "noData": "No hay datos disponibles",
+    "noRelatedData": "No se encontraron datos relacionados",
+    "noAds": "No hay anuncios disponibles",
+    "fetchAdsError": "Fallo al obtener anuncios",
+    "lookupFailed": "Búsqueda fallida"
+  },
+  "tools": {
+    "csr": {
+      "title": "Generador y Visualizador de CSR",
+      "description": "Genere y vea archivos CSR en línea"
+    },
+    "whois": {
+      "title": "Búsqueda WHOIS de Dominio",
+      "description": "Consulte la información WHOIS y los detalles de registro de dominio en línea"
+    },
+    "dns": {
+      "title": "Búsqueda de Registros DNS",
+      "description": "Busque registros DNS en línea (A, MX, CNAME, etc.)"
+    },
+    "dnsEnhanced": {
+      "title": "Búsqueda de Registros DNS (Mejorada)",
+      "description": "Búsqueda de DNS con optimización de desplazamiento virtual para conjuntos grandes de registros"
+    },
+    "httpStatus": {
+      "title": "Verificador de Código de Estado HTTP",
+      "description": "Una herramienta gratuita en línea para inspeccionar códigos de estado HTTP para páginas web"
+    },
+    "gzip": {
+      "title": "Verificador de Compresión GZIP",
+      "description": "Verifique si una página web está comprimida con GZIP y vea su relación de compresión"
+    },
+    "ssl": {
+      "title": "Verificador de Certificado SSL",
+      "description": "Inspeccione detalles y validez de certificados SSL en línea"
+    },
+    "browserInfo": {
+      "title": "Información del Navegador",
+      "description": "Una herramienta gratuita para ver información detallada sobre su navegador actual"
+    },
+    "useragent": {
+      "title": "Analizador de User-Agent",
+      "description": "Analice información de navegador y dispositivo desde cadenas de User-Agent"
+    },
+    "websocket": {
+      "title": "Prueba de WebSocket",
+      "description": "Una herramienta gratuita para probar APIs de WebSocket en línea"
+    },
+    "viewSource": {
+      "title": "Ver Código Fuente de Página",
+      "description": "Vea el código fuente de páginas web en línea"
+    },
+    "metaGenerator": {
+      "title": "Generador de Etiquetas Meta",
+      "description": "Genere etiquetas meta para páginas web en línea"
+    },
+    "metaCheck": {
+      "title": "Verificación de Etiquetas META",
+      "description": "Inspeccione información de etiquetas META en una página web"
+    },
+    "robots": {
+      "title": "Generador de robots.txt",
+      "description": "Genere archivos robots.txt en línea"
+    },
+    "emailEncrypt": {
+      "title": "Codificador de Direcciones de Correo Electrónico",
+      "description": "Convierta direcciones de correo electrónico a formatos codificados para reducir el robo"
+    },
+    "phpReference": {
+      "title": "Referencia de Funciones PHP",
+      "description": "Lista en línea de funciones PHP"
+    },
+    "htmlPreview": {
+      "title": "Vista Previa de HTML",
+      "description": "Herramienta en línea para edición y vista previa de HTML"
+    },
+    "jsDebug": {
+      "title": "Depurador de JS",
+      "description": "Ejecutar y depurar JavaScript en línea"
+    },
+    "shieldBadge": {
+      "title": "Generador de Marcas de Escudo",
+      "description": "Genere marcas de escudo SVG en línea"
+    },
+    "favicon": {
+      "title": "Generador de Favicon",
+      "description": "Herramienta segura para convertir favicons en línea"
+    },
+    "cssGlassmorphism": {
+      "title": "Generador de CSS Glassmorphism",
+      "description": "Genere código CSS de glassmorphism en un solo clic"
+    },
+    "cssNeumorphism": {
+      "title": "Generador de CSS Neumorfismo",
+      "description": "Genere ejemplos de estilo CSS de neumorfismo en un solo clic"
+    },
+    "pxToRem": {
+      "title": "Convertidor de PX a REM",
+      "description": "Conversión por lotes de unidades PX en CSS a REM"
+    },
+    "cssBorderRadius": {
+      "title": "Generador de Bordes Redondeados CSS",
+      "description": "Ajuste finamente estilos de bordes redondeados en línea"
+    },
+    "cssTextShadow": {
+      "title": "Generador de Sombra de Texto CSS",
+      "description": "Vista previa y generación de código CSS de sombra de texto en línea"
+    },
+    "cssBoxShadow": {
+      "title": "Generador de Sombra de Caja",
+      "description": "Ajuste finamente sombras de div y genere código CSS"
+    },
+    "base64": {
+      "title": "Codificación/Decodificación Base64",
+      "description": "Herramienta en línea para codificación y decodificación Base64"
+    },
+    "urlEncode": {
+      "title": "Codificación/Decodificación URL",
+      "description": "Herramienta en línea para codificación y decodificación URL"
+    },
+    "htmlEntity": {
+      "title": "Codificación/Decodificación de Entidades HTML",
+      "description": "Herramienta en línea para codificación y decodificación de entidades HTML"
+    },
+    "jsMinify": {
+      "title": "Minificación y Belleza de JS",
+      "description": "Herramienta en línea para minificar y bellezar JavaScript"
+    },
+    "cssMinify": {
+      "title": "Minificación y Belleza de CSS",
+      "description": "Herramienta en línea para minificar y bellezar CSS"
+    },
+    "desktopShortcut": {
+      "title": "Atajo de Escritorio para Sitio Web",
+      "description": "Cree un atajo de escritorio para un sitio web para acceso rápido"
+    },
+    "pageRefresh": {
+      "title": "Refresco Automático de Página",
+      "description": "Refresque una página web remota en un horario"
+    },
+    "httpCodes": {
+      "title": "Códigos de Estado HTTP",
+      "description": "Referencia en línea para códigos de estado / respuestas HTTP"
+    },
+    "workerDemo": {
+      "title": "Demostración de Rendimiento de Web Worker",
+      "description": "Vea cómo los Web Workers mejoran el rendimiento para tareas pesadas"
+    },
+    "formValidation": {
+      "title": "Demo de validación de formulario",
+      "description": "Muestra la validación completa de formularios con retroalimentación en tiempo real"
+    }
+  },
+  "categories": {
+    "detection": "Comprobaciones de sitio web",
+    "seo": "Herramientas de SEO",
+    "dev": "Herramientas para desarrolladores",
+    "encode": "Herramientas de codificación",
+    "other": "Otras herramientas"
+  },
+  "kunqiongNav": {
+    "home": "Inicio",
+    "aiTools": "Herramientas de IA",
+    "office": "Oficina",
+    "multimedia": "Multimedia",
+    "development": "Herramientas para desarrolladores",
+    "text": "Texto",
+    "file": "Archivos",
+    "system": "Sistema",
+    "life": "Vida",
+    "news": "Noticias de IA",
+    "custom": "Software personalizado",
+    "consult": "Consultoría",
+    "industryNews": "Noticias de la industria",
+    "feedback": "Retroalimentación",
+    "imageGen": "Generación de imágenes",
+    "codeDev": "Código y desarrollo",
+    "logoAlt": "Caja de herramientas de IA de Kunqiong",
+    "footerLogoAlt": "Kunqiong IA",
+    "loginRegister": "Iniciar sesión / Registrarse",
+    "navExpandAria": "Expandir",
+    "navSearchAria": "Buscar",
+    "navMenuAria": "Menú"
+  },
+  "footer": {
+    "description": "Una caja de herramientas profesional todo en uno para administradores de sitios web con comprobaciones de sitio web, herramientas de SEO, herramientas para desarrolladores y más.",
+    "kunqiongBrandDesc": "Nos comprometemos a proporcionar a individuos y empresas herramientas de IA de alta calidad y servicios de consultoría para ayudarle a mantenerse competitivo en la era de la inteligencia artificial.",
+    "toolCategories": "Categorías de herramientas",
+    "quickLinks": "Enlaces rápidos",
+    "contactTitle": "Contáctenos",
+    "contactCompany": "Jiangxi Hexágono Estrella Technology Co., Ltd.",
+    "contactPhone": "17770307066",
+    "contactRegion": "Shangrao, Jiangxi, China",
+    "contactEmail": "11247931@qq.com",
+    "copyrightLine": "© 2026 Kunqiong AI Tools. Todos los derechos reservados.",
+    "userAgreement": "Condiciones de uso",
+    "privacyPolicy": "Política de privacidad",
+    "brandAI": "Un producto de Kunqiong AI",
+    "brandAlt": "Kunqiong"
+  },
+  "validation": {
+    "required": "{{field}} es obligatorio",
+    "minLength": "{{field}} debe tener al menos {{count}} caracteres",
+    "maxLength": "{{field}} puede tener como máximo {{count}} caracteres",
+    "invalidFormat": "{{field}} tiene un formato inválido",
+    "email": "Ingrese una dirección de correo electrónico válida",
+    "url": "Ingrese una URL válida",
+    "domain": "Ingrese un dominio válido",
+    "ip": "Ingrese una dirección IP válida",
+    "phone": "Ingrese un número de teléfono válido",
+    "password": "La contraseña debe contener letras mayúsculas y minúsculas y números, y tener entre 6 y 20 caracteres"
+  },
+  "exporter": {
+    "unsupportedFormat": "Formato de exportación no compatible: {{format}}",
+    "csvRequiresArrayOrObject": "La exportación a CSV requiere un array o objeto",
+    "toolUsageInfo": "Información de uso de la herramienta",
+    "tool": "Herramienta",
+    "time": "Hora",
+    "url": "URL",
+    "version": "Versión",
+    "dnsReportTitle": "Informe de búsqueda DNS",
+    "dnsReportDescription": "Información detallada sobre registros DNS",
+    "summaryTitle": "Resumen",
+    "domain": "Dominio",
+    "recordCount": "Registros totales",
+    "recordCountValue": "{{count}} registros",
+    "queryTime": "Tiempo de consulta",
+    "typeDescriptions": {
+      "A": "Registro de dirección IPv4",
+      "AAAA": "Registro de dirección IPv6",
+      "MX": "Registro del servidor de correo",
+      "TXT": "Registro de texto",
+      "CNAME": "Registro de alias",
+      "NS": "Registro de servidor de nombres",
+      "SOA": "Registro de autoridad"
+    },
+    "record": "Registro",
+    "otherRecords": "Otros registros",
+    "recordIndex": "Registro {{index}}",
+    "priority": "Prioridad",
+    "class": "Clase",
+    "exportData": "Datos exportados",
+    "dnsToolName": "Herramienta de búsqueda DNS",
+    "exportInfo": "Información de exportación",
+    "exportTime": "Hora de exportación",
+    "formats": {
+      "json": "Formato de datos estructurados, fácil de procesar para programas",
+      "csv": "Formato amigable para hojas de cálculo, adecuado para importar en Excel",
+      "txt": "Formato de texto plano, fácil de leer",
+      "xml": "Formato de marcado, adecuado para intercambio de datos",
+      "pdf": "Formato de documento, adecuado para impresión y compartición"
+    }
+  },
+  "base64": {
+    "title": "Codificación/decodificación Base64",
+    "description": "Herramienta en línea para codificar y decodificar Base64",
+    "encode": "Codificar",
+    "decode": "Decodificar",
+    "originalText": "Texto original",
+    "base64String": "Cadena Base64",
+    "base64Result": "Resultado Base64",
+    "decodeResult": "Resultado de decodificación",
+    "placeholderEncode": "Ingrese texto para codificar...",
+    "placeholderDecode": "Ingrese Base64 para decodificar...",
+    "resultPlaceholder": "El resultado aparecerá aquí...",
+    "inputPlaceholder": "Ingrese contenido para convertir",
+    "decodeError": "La decodificación falló. Por favor, verifique si la entrada es Base64 válida.",
+    "encodeError": "La codificación falló",
+    "charCount": "{{count}} caracteres",
+    "clear": "Limpiar entrada",
+    "copy": "Copiar resultado",
+    "copied": "Copiado",
+    "convert": "Convertir ahora",
+    "swap": "Modo de intercambio",
+    "ariaLabel": "Herramienta de codificación/decodificación Base64",
+    "modeSelection": "Selección de modo de conversión",
+    "encodeMode": "Modo de codificación",
+    "decodeMode": "Modo de decodificación",
+    "inputLabelEncode": "Texto para codificar",
+    "inputLabelDecode": "Cadena Base64 para decodificar",
+    "outputLabelEncode": "Resultado codificado Base64",
+    "outputLabelDecode": "Resultado decodificado Base64",
+    "whatIsBase64": "¿Qué es Base64?",
+    "base64Info": "Base64 es un método de codificación que representa datos binarios con 64 caracteres imprimibles. Se utiliza comúnmente para transferir pequeños datos binarios en URLs, cookies, páginas web o protocolos basados en texto."
+  },
+  "dns": {
+    "title": "Búsqueda de registros DNS",
+    "description": "Buscar registros DNS en línea (A, MX, CNAME, etc.)",
+    "placeholder": "Ingrese un dominio, por ejemplo, example.com",
+    "invalidDomain": "Por favor, ingrese un formato de dominio válido (por ejemplo, example.com)",
+    "domainInput": "Entrada de dominio",
+    "validFormat": "El formato de dominio es válido",
+    "typeSelect": "Tipo de registro DNS",
+    "searchBtn": "Buscar registros DNS",
+    "loadingTitle": "Buscando registros DNS",
+    "loadingDesc": "Espere mientras buscamos los registros DNS para su dominio...",
+    "resultRegion": "Resultado de la búsqueda DNS",
+    "recordCount": "{{count}} registros",
+    "typeRecordRegion": "{{type}} registros",
+    "querying": "Buscando registros DNS",
+    "queryingDesc": "Espere mientras buscamos los registros DNS para su dominio...",
+    "foundRecords": "{{count}} registros encontrados",
+    "queryTime": "Tiempo de consulta: {{time}}",
+    "export": "Exportar resultados",
+    "noRecords": "No se encontraron registros DNS",
+    "noRecordsDesc": "No se encontraron registros DNS para este dominio",
+    "typeInfo": "Tipos de registros DNS",
+    "priority": "Prioridad: {{priority}}",
+    "types": {
+      "ALL": "Todos",
+      "A": "Registro A",
+      "AAAA": "Registro AAAA",
+      "MX": "Registro MX",
+      "TXT": "Registro TXT",
+      "CNAME": "Registro CNAME",
+      "NS": "Registro NS",
+      "SOA": "Registro SOA"
+    },
+    "typeDescs": {
+      "A": "Dirección IPv4",
+      "AAAA": "Dirección IPv6",
+      "MX": "Servidor de correo",
+      "TXT": "Registro de texto",
+      "CNAME": "Registro de alias",
+      "NS": "Servidor de nombres",
+      "SOA": "Registro de inicio de autoridad"
+    },
+    "typeDetails": {
+      "A": "Puntero a una dirección IPv4",
+      "AAAA": "Puntero a una dirección IPv6",
+      "MX": "Especifica la dirección del servidor de correo, donde los números más bajos indican mayor prioridad",
+      "TXT": "Almacena información de texto, a menudo utilizada para SPF y verificación DKIM",
+      "CNAME": "Puntero a otro dominio (alias)",
+      "NS": "Especificar servidores DNS para el dominio"
+    }
+  },
+  "whois": {
+    "title": "Búsqueda WHOIS",
+    "description": "Buscar información de registro en línea",
+    "placeholder": "Ingrese un dominio, por ejemplo, example.com",
+    "invalidDomain": "Por favor, ingrese un formato de dominio válido (por ejemplo, example.com)",
+    "querying": "Consultando información WHOIS",
+    "queryingDesc": "Espere mientras recuperamos la información de registro...",
+    "domainInfo": "Información del dominio",
+    "registrar": "Registrador",
+    "creationDate": "Fecha de creación",
+    "expirationDate": "Fecha de expiración",
+    "updatedDate": "Fecha de actualización",
+    "dnssec": "DNSSEC",
+    "dnssecDisabled": "Deshabilitado",
+    "expired": "Expirado hace {{days}} días",
+    "expiringSoon": "Expira en {{days}} días",
+    "remaining": "{{days}} días restantes",
+    "dnsServer": "Servidores de nombres",
+    "domainStatus": "Estado del dominio",
+    "registrantInfo": "Información del registrante",
+    "name": "Nombre",
+    "organization": "Organización",
+    "country": "País",
+    "email": "Correo electrónico",
+    "noInfo": "No se encontró información relacionada",
+    "domain": "Dominio",
+    "rawData": "Datos sin procesar",
+    "toggleRawData": "Expandir o contraer datos sin procesar",
+    "copyRawData": "Copiar datos sin procesar",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "whatIsWhois": "¿Qué es WHOIS?",
+    "about": "WHOIS es un protocolo utilizado para consultar datos de registro de dominios. A través de una búsqueda WHOIS, puede conocer el registrador, la fecha de registro, la fecha de expiración, los servidores DNS, la información del registrante, entre otros. Esto es útil para la compra y venta de dominios, protección de marcas y investigaciones de seguridad."
+  },
+  "httpStatus": {
+    "title": "Verificador de Códigos de Estado HTTP",
+    "description": "Compruebe códigos de estado y información de respuesta HTTP en línea",
+    "placeholder": "Ingrese una URL, por ejemplo, https://example.com",
+    "check": "Comprobar",
+    "followRedirects": "Seguir redirecciones automáticamente",
+    "urlEmpty": "Por favor, ingrese una URL",
+    "checkFailed": "La comprobación falló",
+    "serverError": "Fallo en la conexión con el servidor, intente nuevamente más tarde",
+    "unknownStatus": "Estado desconocido",
+    "responseTime": "Tiempo de respuesta",
+    "headers": "Encabezados",
+    "redirectUrl": "URL de redirección",
+    "contentType": "Tipo de contenido",
+    "contentLength": "Longitud del contenido",
+    "server": "Servidor",
+    "showHeaders": "Mostrar encabezados de respuesta",
+    "hideHeaders": "Ocultar encabezados de respuesta",
+    "status": {
+      "100": "Continuar",
+      "101": "Cambiar protocolos",
+      "200": "DE ACUERDO",
+      "201": "Creado",
+      "204": "Sin contenido",
+      "301": "Redirección permanente",
+      "302": "Redirección temporal",
+      "304": "No modificado",
+      "307": "Redirección temporal",
+      "308": "Redirección permanente",
+      "400": "Solicitud incorrecta",
+      "401": "No autorizado",
+      "403": "Prohibido",
+      "404": "No encontrado",
+      "405": "Método no permitido",
+      "408": "Tiempo de espera de solicitud",
+      "429": "Demasiadas solicitudes",
+      "500": "Error del servidor",
+      "502": "Puerta de enlace defectuosa",
+      "503": "Servicio no disponible",
+      "504": "Tiempo de espera de puerta de enlace"
+    }
+  },
+  "browserInfo": {
+    "title": "Información del Navegador",
+    "description": "Ver información detallada sobre el navegador actual",
+    "os": "Sistema operativo",
+    "browser": "Navegador",
+    "version": "Versión",
+    "engine": "Motor",
+    "device": "Dispositivo",
+    "screen": "Resolución de pantalla",
+    "viewport": "Tamaño de la ventana",
+    "language": "Idioma",
+    "timezone": "Zona horaria",
+    "cookieEnabled": "Cookies habilitadas",
+    "online": "Conexión",
+    "cpu": "Arquitectura de CPU",
+    "userAgent": "Agente de usuario",
+    "platform": "Plataforma",
+    "vendor": "Proveedor del navegador",
+    "languages": "Idiomas compatibles",
+    "cookie": "Galleta",
+    "onlineStatus": "Estado de conexión",
+    "doNotTrack": "No rastrear",
+    "touchPoints": "Puntos de tacto",
+    "enabled": "Habilitado",
+    "disabled": "Deshabilitado",
+    "offline": "Sin conexión",
+    "hardwareInfo": "Información de hardware",
+    "cpuCores": "Núcleos de CPU",
+    "cpuCoresValue": "{{count}} núcleos",
+    "deviceMemory": "Memoria del dispositivo",
+    "screenInfo": "Información de pantalla",
+    "availArea": "Área disponible",
+    "windowSize": "Tamaño de la ventana",
+    "pixelRatio": "Relación de píxeles del dispositivo",
+    "colorDepth": "Profundidad de color",
+    "screenOrientation": "Orientación de la pantalla",
+    "unknown": "Desconocido",
+    "basicInfo": "Información básica",
+    "networkInfo": "Información de red",
+    "networkType": "Tipo de red",
+    "downlink": "Descarga",
+    "rtt": "RTT",
+    "saveData": "Modo ahorro de datos",
+    "batteryInfo": "Información de batería",
+    "batteryLevel": "Nivel de batería",
+    "chargingStatus": "Estado de carga",
+    "charging": "Cargando",
+    "notCharging": "No cargando",
+    "timezoneInfo": "Información de zona horaria",
+    "utcOffset": "Desplazamiento UTC"
+  },
+  "viewSource": {
+    "title": "Ver Código Fuente de la Página",
+    "description": "Ver código fuente de la página web en línea",
+    "placeholder": "Ingrese una URL, por ejemplo, https://example.com",
+    "fetch": "Obtener código",
+    "urlEmpty": "Por favor, ingrese una URL",
+    "fetchFailed": "Falló al obtener el código",
+    "serverError": "Fallo en la conexión con el servidor",
+    "lineCount": "Líneas: {{count}}",
+    "copy": "Copiar código",
+    "clear": "Limpiar",
+    "usage1": "Ingrese la URL completa de la página web y haga clic para obtener el código",
+    "usage2": "Soporta la visualización del código HTML de cualquier página web pública",
+    "usage3": "Puede copiar o descargar el código fuente para su análisis",
+    "usage4": "Algunos sitios web pueden bloquear la recuperación del código fuente debido a políticas de seguridad"
+  },
+  "urlEncode": {
+    "title": "Codificador/Decodificador de URLs",
+    "description": "Herramienta en línea para codificar y decodificar URLs",
+    "encode": "Codificar",
+    "decode": "Decodificar",
+    "placeholder": "Ingrese el contenido a convertir...",
+    "result": "Resultado",
+    "error": "Error en la codificación/descompresión"
+  },
+  "htmlEntity": {
+    "title": "Codificador/Descodificador de Entidades HTML",
+    "description": "Herramienta en línea para codificar y descodificar entidades HTML",
+    "encode": "Codificar",
+    "decode": "Descodificar",
+    "placeholder": "Ingrese el contenido a convertir...",
+    "result": "Resultado"
+  },
+  "jsMinify": {
+    "title": "Compresión y Formato de JS",
+    "description": "Herramienta en línea para comprimir y formatear código JavaScript",
+    "minify": "Comprimir",
+    "beautify": "Formatear",
+    "placeholder": "Pegue el código JavaScript...",
+    "result": "Resultado del procesamiento",
+    "error": "Error en el procesamiento del código"
+  },
+  "cssMinify": {
+    "title": "Compresión y Formato de CSS",
+    "description": "Herramienta en línea para comprimir y mejorar el formato del código CSS",
+    "minify": "Comprimir",
+    "beautify": "Formatear",
+    "placeholder": "Pegue el código CSS...",
+    "result": "Resultado del procesamiento",
+    "error": "Error en el procesamiento del código"
+  },
+  "pages": {
+    "sslCheck": {
+      "title": "Verificación de Certificado SSL",
+      "description": "Verifique los detalles y la validez del certificado SSL para un dominio",
+      "enterDomain": "Por favor, ingrese un dominio",
+      "checkFailed": "La verificación falló",
+      "serverConnectionFailed": "No se pudo conectar al servidor, intente más tarde",
+      "inputPlaceholder": "Ingrese un dominio, por ejemplo: example.com",
+      "check": "Verificar",
+      "statusExpired": "Expirado",
+      "statusExpiringSoon": "Próximo a expirar",
+      "statusValid": "Válido",
+      "statusProblem": "Problema con el certificado",
+      "expiredDays": "Expirado hace {{count}} días",
+      "remainingDays": "{{count}} días restantes",
+      "warning": "Advertencia: {{message}}",
+      "protocol": "Protocolo",
+      "validityPeriod": "Período de validez",
+      "validFrom": "Válido desde",
+      "validTo": "Válido hasta",
+      "certificateInfo": "Información del certificado",
+      "subject": "Sujeto",
+      "issuer": "Emisor",
+      "commonName": "Nombre común (CN)",
+      "organization": "Organización (O)",
+      "organizationUnit": "Unidad organizativa (OU)",
+      "country": "País (C)",
+      "subjectAltNames": "Nombres alternativos del sujeto (SAN) - {{count}} entradas",
+      "technicalDetails": "Detalles técnicos",
+      "serialNumber": "Número de serie",
+      "fingerprintSha1": "Huella (SHA-1)",
+      "fingerprintSha256": "Huella (SHA-256)",
+      "cipherSuite": "Conjunto de cifrado",
+      "infoTitle": "Notas sobre el certificado SSL",
+      "infoItems": [
+        "Los certificados SSL verifican la identidad del servidor y encriptan la comunicación",
+        "Verifique regularmente las fechas de vencimiento para evitar interrupciones",
+        "Los certificados cercanos a la fecha de vencimiento deben renovarse con anticipación",
+        "Los SAN (Nombres Alternativos del Sujeto) listan los dominios cubiertos por el certificado"
+      ]
+    },
+    "gzipCheck": {
+      "title": "Verificación de Compresión Gzip de Sitio Web",
+      "description": "Verifique si un sitio web admite compresión Gzip / Deflate / Brotli",
+      "enterUrl": "Por favor, ingrese una URL",
+      "checkFailed": "La verificación falló",
+      "serverConnectionFailed": "No se pudo conectar al servidor, intente más tarde",
+      "inputPlaceholder": "Ingrese una URL, por ejemplo: https://example.com",
+      "check": "Verificar",
+      "enabled": "Habilitado",
+      "disabled": "No habilitado",
+      "compressionType": "Tipo de compresión: {{type}}",
+      "enableSuggestion": "Habilite la compresión Gzip para reducir el tamaño de transferencia y mejorar la velocidad de carga",
+      "supportTitle": "Soporte de compresión",
+      "gzipDescription": "Compresión estándar ampliamente utilizada",
+      "deflateDescription": "Algoritmo tradicional de compresión HTTP",
+      "brotliDescription": "Un método de compresión más reciente con mejores ratios",
+      "effectTitle": "Efecto de compresión",
+      "originalSize": "Tamaño original",
+      "compressedSize": "Tamaño comprimido",
+      "ratio": "Relación de compresión",
+      "savedTransfer": "Ahorra {{value}} en tamaño de transferencia",
+      "detailsTitle": "Detalles",
+      "whyTitle": "¿Por qué habilitar la compresión Gzip?",
+      "whyItems": [
+        "Puede reducir el tamaño de los recursos de texto entre un 60% y un 80%",
+        "Transferencias más pequeñas mejoran la velocidad de carga",
+        "Reduce el uso de ancho de banda",
+        "Mejor rendimiento también puede ayudar al SEO y a la experiencia del usuario"
+      ]
+    },
+    "dnsLookupEnhanced": {
+      "title": "Búsqueda de Registros DNS Mejorada",
+      "description": "Consulte múltiples tipos de registros DNS en línea con optimización para conjuntos de resultados grandes",
+      "enterDomain": "Por favor, ingrese un dominio",
+      "lookupFailed": "La búsqueda falló",
+      "serverConnectionFailed": "No se pudo conectar al servidor, intente más tarde",
+      "inputPlaceholder": "Ingrese un dominio, por ejemplo: example.com",
+      "lookup": "Buscar",
+      "priority": "Prioridad: {{value}}",
+      "dnsTypes": [
+        {
+          "value": "TODOS",
+          "label": "Todos"
+        },
+        {
+          "value": "A",
+          "label": "Registro A",
+          "desc": "Dirección IPv4"
+        },
+        {
+          "value": "AAAAA",
+          "label": "Registro AAAA",
+          "desc": "Dirección IPv6"
+        },
+        {
+          "value": "MX",
+          "label": "Registro MX",
+          "desc": "Servidor de correo"
+        },
+        {
+          "value": "TXT",
+          "label": "Registro TXT",
+          "desc": "Datos de texto"
+        },
+        {
+          "value": "CNOMBRE",
+          "label": "Registro CNAME",
+          "desc": "Registro de alias"
+        },
+        {
+          "value": "NS",
+          "label": "Registro NS",
+          "desc": "Servidor de nombres"
+        },
+        {
+          "value": "SOA",
+          "label": "Registro SOA",
+          "desc": "Inicio de autoridad"
+        }
+      ],
+      "foundRecords": "Encontrados {{count}} registros",
+      "queryTime": "Tiempo de consulta: {{time}}",
+      "virtualScrollEnabled": "Desplazamiento virtual habilitado",
+      "recordCount": "{{count}} registros",
+      "virtualScrollTag": "Renderizado optimizado",
+      "noRecords": "No se encontraron registros DNS",
+      "performanceTitle": "Optimización de rendimiento",
+      "performanceItems": [
+        "El renderizado virtual mantiene la búsqueda DNS responsiva con {{count}} registros",
+        "Solo las filas visibles se renderizan para reducir el uso de memoria",
+        "Esto ayuda a evitar retrasos en el DOM cuando los conjuntos de resultados son grandes",
+        "La experiencia permanece responsable incluso con muchos registros"
+      ]
+    },
+    "metaCheck": {
+      "title": "Verificación de Etiquetas META",
+      "description": "Verifique las etiquetas META utilizadas en una página web",
+      "enterUrl": "Por favor, ingrese una URL de sitio web",
+      "checkFailed": "La verificación falló",
+      "urlLabel": "URL del sitio web",
+      "inputPlaceholder": "example.com o https://example.com",
+      "check": "Verificar",
+      "resultTitle": "Resultado de la verificación",
+      "totalCount": "Encontradas {{count}} etiquetas META",
+      "groups": {
+        "pageTitle": "Título de la página",
+        "httpEquiv": "Equivalente a HTTP",
+        "charset": "juego de caracteres",
+        "basicMeta": "META básica"
+      },
+      "emptyContent": "Vacío",
+      "infoTitle": "Acerca de",
+      "infoItems": [
+        "Esta herramienta verifica etiquetas de título, etiquetas meta name, etiquetas meta property (como Open Graph) y etiquetas meta http-equiv",
+        "Ayuda a revisar rápidamente la metainformación SEO de la página",
+        "También ayuda a identificar problemas de etiquetas faltantes o duplicadas"
+      ]
+    },
+    "urlEncode": {
+      "title": "Codificación/Descodificación de URL",
+      "description": "Codifique o decodifique cadenas de URL en línea",
+      "toolName": "Codificación/Descodificación de URL",
+      "toolCategory": "Herramientas de Codificación",
+      "convertFailed": "La conversión falló, por favor verifique su entrada",
+      "copyFailed": "Fallo al copiar el resultado",
+      "modeSelector": "Seleccionar modo",
+      "typeSelector": "Tipo de codificación",
+      "encode": "Codificar",
+      "decode": "Decodificar",
+      "componentTitle": "Componente de URL",
+      "componentDescription": "Codificar solo una parte de una URL",
+      "fullTitle": "URL completa",
+      "fullDescription": "Codificar toda la URL",
+      "inputEncodeLabel": "Texto plano",
+      "inputDecodeLabel": "URL codificada",
+      "clearInput": "Limpiar entrada",
+      "encodePlaceholder": "Ingrese texto para codificar como una URL...",
+      "decodePlaceholder": "Ingrese una URL codificada para decodificar...",
+      "outputEncodeLabel": "Resultado codificado",
+      "outputDecodeLabel": "Resultado decodificado",
+      "copyResult": "Copiar resultado",
+      "resultPlaceholder": "El resultado de la conversión aparecerá aquí...",
+      "copied": "Copiado al portapapeles",
+      "swap": "Intercambiar",
+      "swapInputOutput": "Intercambiar entrada y salida",
+      "infoTitle": "Modos de codificación",
+      "componentModeTitle": "Modo componente",
+      "componentModeDescription": "Ideal para partes individuales de una URL, como parámetros de consulta o segmentos de ruta.",
+      "componentExample": "Ejemplo: hello world → hello%20world",
+      "fullModeTitle": "Modo URL completa",
+      "fullModeDescription": "Úselo cuando necesite codificar una URL completa manteniendo su estructura general reconocible.",
+      "fullExample": "Ejemplo: https://example.com/路径 → https://example.com/%E8%B7%AF%E5%BE%84"
+    },
+    "htmlEntity": {
+      "title": "Codificar/Decodificar Entidades HTML",
+      "description": "Codificar o decodificar entidades HTML en línea",
+      "toolName": "Codificar/Decodificar Entidades HTML",
+      "toolCategory": "Herramientas de Codificación",
+      "convertFailed": "La conversión falló, por favor verifique su entrada",
+      "copyFailed": "No se pudo copiar el resultado",
+      "modeSelector": "Seleccionar modo",
+      "switchToEncode": "Cambiar al modo codificar (Alt+1)",
+      "switchToDecode": "Cambiar al modo decodificar (Alt+2)",
+      "encode": "Codificar",
+      "decode": "Decodificar",
+      "encodeAll": "Codificar todos los caracteres",
+      "inputEncodeLabel": "Texto plano",
+      "inputDecodeLabel": "Entidades HTML",
+      "clearInput": "Limpiar entrada (Ctrl+L)",
+      "encodePlaceholder": "Ingrese texto para convertir en entidades HTML...",
+      "decodePlaceholder": "Ingrese entidades HTML para decodificar...",
+      "inputDescriptionEncode": "Ingrese el texto plano que desea codificar como entidades HTML",
+      "inputDescriptionDecode": "Ingrese las entidades HTML que desea decodificar",
+      "outputEncodeLabel": "Resultado codificado",
+      "outputDecodeLabel": "Resultado decodificado",
+      "copyResult": "Copiar resultado (Ctrl+C)",
+      "resultPlaceholder": "El resultado de la conversión aparecerá aquí...",
+      "outputDescriptionEncode": "La salida de entidades HTML generada",
+      "outputDescriptionDecode": "La salida de texto plano decodificado",
+      "copied": "Copiado al portapapeles",
+      "executeEncode": "Codificar (Ctrl+Enter)",
+      "executeDecode": "Decodificar (Ctrl+Enter)",
+      "swap": "Intercambiar",
+      "swapMode": "Intercambiar entrada y salida (Ctrl+S)",
+      "commonEntities": "Entidades HTML comunes",
+      "space": "(espacio)"
+    },
+    "jsMinify": {
+      "title": "Minificar y Formatear JavaScript",
+      "description": "Minificar o formatear código JavaScript en línea",
+      "toolName": "Minificar / Formatear JavaScript",
+      "toolNameHistory": "Minificar y Formatear JavaScript",
+      "toolCategory": "Herramientas para Desarrolladores",
+      "processFailed": "Error al procesar",
+      "copyFailed": "No se pudo copiar el resultado al portapapeles",
+      "switchToMinify": "Cambiar al modo minificar",
+      "switchToMinifyTitle": "Cambiar al modo minificar (Alt+1)",
+      "switchToBeautify": "Cambiar al modo formatear",
+      "switchToBeautifyTitle": "Cambiar al modo formatear (Alt+2)",
+      "minify": "Minificar",
+      "beautify": "Formatear",
+      "input": "Entrada",
+      "output": "Salida",
+      "inputPlaceholder": "Ingrese código JavaScript aquí...",
+      "inputAria": "Editor de entrada de JavaScript",
+      "inputTitle": "Presione Ctrl+Enter para ejecutar, Ctrl+L para limpiar",
+      "copyOutput": "Copiar salida",
+      "copyOutputTitle": "Copiar salida (Ctrl+C)",
+      "resultPlaceholder": "El resultado procesado aparecerá aquí...",
+      "outputAria": "Resultado de salida de JavaScript",
+      "executeMinify": "Minificar JavaScript",
+      "executeMinifyTitle": "Minificar JavaScript (Ctrl+Enter)",
+      "executeBeautify": "Formatear JavaScript",
+      "executeBeautifyTitle": "Formatear JavaScript (Ctrl+Enter)",
+      "minifyCode": "Minificar código",
+      "beautifyCode": "Formatear código",
+      "swap": "Intercambiar",
+      "swapTitle": "Intercambiar entrada y salida (Ctrl+S)",
+      "clear": "Limpiar",
+      "clearTitle": "Limpiar contenido (Ctrl+L)",
+      "copied": "Copiado al portapapeles",
+      "infoTitle": "Características",
+      "infoItems": [
+        "Elimina espacios y saltos de línea innecesarios para reducir el tamaño del archivo JavaScript",
+        "El modo formatear hace que el código comprimido sea más fácil de leer y mantener",
+        "La calidad de la minificación depende de la implementación del analizador y minificador de JavaScript"
+      ]
+    },
+    "cssMinify": {
+      "title": "Minificar y Formatear CSS",
+      "description": "Minificar o formatear código CSS en línea",
+      "toolName": "Minificar y Formatear CSS",
+      "toolCategory": "Herramientas para Desarrolladores",
+      "processFailed": "Error al procesar",
+      "copyFailed": "No se pudo copiar el resultado al portapapeles",
+      "switchToMinify": "Cambiar al modo minificar",
+      "switchToMinifyTitle": "Cambiar al modo minificar (Alt+1)",
+      "switchToBeautify": "Cambiar al modo formatear",
+      "switchToBeautifyTitle": "Cambiar al modo formatear (Alt+2)",
+      "minify": "Minificar",
+      "beautify": "Formatear",
+      "input": "Entrada",
+      "output": "Salida",
+      "inputPlaceholder": "Ingrese código CSS aquí...\n\nEjemplo:\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 20px;\n}",
+      "inputAria": "Editor de entrada de CSS",
+      "inputTitle": "Presione Ctrl+Enter para ejecutar, Ctrl+L para limpiar",
+      "copyOutput": "Copiar salida",
+      "copyOutputTitle": "Copiar salida (Ctrl+C)",
+      "resultPlaceholder": "El resultado procesado aparecerá aquí...",
+      "outputAria": "Resultado de salida de CSS",
+      "executeMinify": "Minificar CSS",
+      "executeMinifyTitle": "Minificar CSS (Ctrl+Enter)",
+      "executeBeautify": "Formatear CSS",
+      "executeBeautifyTitle": "Formatear CSS (Ctrl+Enter)",
+      "minifyCode": "Minificar código",
+      "beautifyCode": "Formatear código",
+      "swap": "Intercambiar",
+      "swapTitle": "Intercambiar entrada y salida (Ctrl+S)",
+      "clear": "Limpiar",
+      "clearTitle": "Limpiar contenido (Ctrl+L)",
+      "copied": "Copiado al portapapeles",
+      "infoTitle": "Características",
+      "infoItems": [
+        "Elimina espacios y saltos de línea innecesarios para reducir el tamaño del archivo",
+        "El modo formatear hace que el código comprimido sea más fácil de leer y editar",
+        "Archivos CSS más pequeños pueden ayudar a reducir el tamaño de transferencia HTTP y mejorar el rendimiento de carga"
+      ]
+    },
+    "httpCodes": {
+      "title": "Códigos de Estado HTTP",
+      "description": "Referencia para códigos de estado / respuestas HTTP",
+      "searchPlaceholder": "Buscar códigos de estado o descripciones...",
+      "noMatch": "No se encontraron códigos de estado coincidentes",
+      "infoTitle": "Conceptos básicos de los códigos de estado HTTP",
+      "infoItems": [
+        "1xx - Respuestas informativas que significan que la solicitud fue recibida y está siendo procesada",
+        "2xx - Respuestas de éxito que significan que la solicitud fue recibida, entendida y aceptada",
+        "3xx - Respuestas de redirección que requieren acción adicional para completar la solicitud",
+        "4xx - Respuestas de error del cliente que significan que la solicitud tiene sintaxis incorrecta o no se puede cumplir",
+        "5xx - Respuestas de error del servidor que significan que el servidor no pudo cumplir con una solicitud válida"
+      ],
+      "categories": [
+        {
+          "id": "todo",
+          "name": "Todos",
+          "color": "bg-gris-100 texto-gris-700"
+        },
+        {
+          "id": "1xx",
+          "name": "1xx Información",
+          "color": "bg-azul-100 texto-azul-700"
+        },
+        {
+          "id": "2xx",
+          "name": "2xx Éxito",
+          "color": "bg-verde-100 texto-verde-700"
+        },
+        {
+          "id": "3xx",
+          "name": "Redirección 3xx",
+          "color": "bg-amarillo-100 texto-amarillo-700"
+        },
+        {
+          "id": "4xx",
+          "name": "Error de Cliente 4xx",
+          "color": "bg-naranja-100 texto-naranja-700"
+        },
+        {
+          "id": "5xx",
+          "name": "Error del Servidor 5xx",
+          "color": "bg-rojo-100 texto-rojo-700"
+        }
+      ],
+      "codes": [
+        {
+          "code": 100,
+          "name": "Continuar",
+          "desc": "La parte inicial de la solicitud ha sido recibida y el cliente debe continuar enviando el resto.",
+          "category": "1xx"
+        },
+        {
+          "code": 101,
+          "name": "Cambio de Protocolos",
+          "desc": "El servidor acepta cambiar de protocolo según la solicitud del cliente.",
+          "category": "1xx"
+        },
+        {
+          "code": 102,
+          "name": "Procesando",
+          "desc": "El servidor ha recibido y está procesando la solicitud, pero aún no hay respuesta disponible.",
+          "category": "1xx"
+        },
+        {
+          "code": 200,
+          "name": "DE ACUERDO",
+          "desc": "La solicitud fue exitosa, generalmente para solicitudes GET o POST.",
+          "category": "2xx"
+        },
+        {
+          "code": 201,
+          "name": "Creado",
+          "desc": "La solicitud fue exitosa y creó un nuevo recurso.",
+          "category": "2xx"
+        },
+        {
+          "code": 202,
+          "name": "Aceptado",
+          "desc": "La solicitud fue aceptada para su procesamiento, pero aún no se ha completado.",
+          "category": "2xx"
+        },
+        {
+          "code": 203,
+          "name": "Información No Autoritativa",
+          "desc": "Los metadatos de la respuesta provienen de una copia local o de un tercero, en lugar del servidor original.",
+          "category": "2xx"
+        },
+        {
+          "code": 204,
+          "name": "Contenido Vacío",
+          "desc": "La solicitud fue exitosa, pero la respuesta no contiene cuerpo.",
+          "category": "2xx"
+        },
+        {
+          "code": 205,
+          "name": "Restablecer Contenido",
+          "desc": "La solicitud fue exitosa y el cliente debe restablecer la vista actual del documento.",
+          "category": "2xx"
+        },
+        {
+          "code": 206,
+          "name": "Contenido Parcial",
+          "desc": "El servidor está devolviendo solo una parte del recurso debido a una solicitud de rango.",
+          "category": "2xx"
+        },
+        {
+          "code": 300,
+          "name": "Múltiples Opciones",
+          "desc": "El recurso solicitado tiene múltiples representaciones posibles para que el cliente las elija.",
+          "category": "3xx"
+        },
+        {
+          "code": 301,
+          "name": "Movido Permanentemente",
+          "desc": "El recurso solicitado ha sido movido permanentemente a una nueva URI.",
+          "category": "3xx"
+        },
+        {
+          "code": 302,
+          "name": "Encontrado",
+          "desc": "El recurso solicitado está temporalmente ubicado en una URI diferente.",
+          "category": "3xx"
+        },
+        {
+          "code": 303,
+          "name": "Ver Otro",
+          "desc": "La respuesta a la solicitud se puede encontrar bajo otra URI usando GET.",
+          "category": "3xx"
+        },
+        {
+          "code": 304,
+          "name": "No Modificado",
+          "desc": "El recurso en caché no ha cambiado, por lo tanto, el cliente puede usar su copia local.",
+          "category": "3xx"
+        },
+        {
+          "code": 307,
+          "name": "Redirección Temporal",
+          "desc": "El recurso está redirigido temporalmente y el método de solicitud original debe mantenerse.",
+          "category": "3xx"
+        },
+        {
+          "code": 308,
+          "name": "Redirección Permanente",
+          "desc": "El recurso ha cambiado permanentemente y el método de solicitud original debe mantenerse.",
+          "category": "3xx"
+        },
+        {
+          "code": 400,
+          "name": "Solicitud Inválida",
+          "desc": "El servidor no puede procesar la solicitud debido a un error de sintaxis.",
+          "category": "4xx"
+        },
+        {
+          "code": 401,
+          "name": "No Autorizado",
+          "desc": "Es necesario autenticarse antes de que la solicitud pueda completarse.",
+          "category": "4xx"
+        },
+        {
+          "code": 402,
+          "name": "Pago Requerido",
+          "desc": "Reservado para uso futuro, a menudo asociado con sistemas de pago digital.",
+          "category": "4xx"
+        },
+        {
+          "code": 403,
+          "name": "Prohibido",
+          "desc": "El servidor entendió la solicitud pero se niega a autorizarla.",
+          "category": "4xx"
+        },
+        {
+          "code": 404,
+          "name": "No Encontrado",
+          "desc": "El servidor no puede encontrar el recurso solicitado.",
+          "category": "4xx"
+        },
+        {
+          "code": 405,
+          "name": "Método No Permitido",
+          "desc": "El método de solicitud no es permitido para el recurso objetivo.",
+          "category": "4xx"
+        },
+        {
+          "code": 406,
+          "name": "No Aceptable",
+          "desc": "El servidor no puede proporcionar una respuesta que coincida con los formatos aceptables del cliente.",
+          "category": "4xx"
+        },
+        {
+          "code": 407,
+          "name": "Autenticación de Proxy Requerida",
+          "desc": "El cliente debe autenticarse con el proxy antes de continuar.",
+          "category": "4xx"
+        },
+        {
+          "code": 408,
+          "name": "Tiempo de Espera Agotado",
+          "desc": "El servidor agotó el tiempo de espera esperando la solicitud.",
+          "category": "4xx"
+        },
+        {
+          "code": 409,
+          "name": "Conflicto",
+          "desc": "La solicitud entra en conflicto con el estado actual del recurso objetivo.",
+          "category": "4xx"
+        },
+        {
+          "code": 410,
+          "name": "Eliminado",
+          "desc": "El recurso ya no está disponible y no se conoce una dirección de reenvío.",
+          "category": "4xx"
+        },
+        {
+          "code": 411,
+          "name": "Longitud Requerida",
+          "desc": "El servidor requiere un encabezado Content-Length válido.",
+          "category": "4xx"
+        },
+        {
+          "code": 412,
+          "name": "Precondición Fallida",
+          "desc": "Una o más condiciones en los encabezados de la solicitud evaluaron a falso.",
+          "category": "4xx"
+        },
+        {
+          "code": 413,
+          "name": "Cuerpo de Solicitud Demasiado Grande",
+          "desc": "El cuerpo de la solicitud es más grande de lo que el servidor está dispuesto o puede procesar.",
+          "category": "4xx"
+        },
+        {
+          "code": 414,
+          "name": "URI Muy Larga",
+          "desc": "La URI solicitada es más larga de lo que el servidor puede procesar.",
+          "category": "4xx"
+        },
+        {
+          "code": 415,
+          "name": "Tipo de Medio No Soportado",
+          "desc": "El servidor no soporta el tipo de medio usado en la solicitud.",
+          "category": "4xx"
+        },
+        {
+          "code": 418,
+          "name": "Soy una cafetera",
+          "desc": "Un código de estado humorístico que indica que el servidor se niega a preparar café porque es una cafetera.",
+          "category": "4xx"
+        },
+        {
+          "code": 422,
+          "name": "Entidad No Procesable",
+          "desc": "El servidor entiende el formato de la solicitud pero no puede procesar las instrucciones contenidas.",
+          "category": "4xx"
+        },
+        {
+          "code": 429,
+          "name": "Demasiadas Solicitudes",
+          "desc": "El cliente ha enviado demasiadas solicitudes en un período determinado.",
+          "category": "4xx"
+        },
+        {
+          "code": 451,
+          "name": "No Disponible Por Razones Legales",
+          "desc": "El recurso no está disponible debido a restricciones legales.",
+          "category": "4xx"
+        },
+        {
+          "code": 500,
+          "name": "Error Interno del Servidor",
+          "desc": "El servidor encontró un error inesperado al procesar la solicitud.",
+          "category": "5xx"
+        },
+        {
+          "code": 501,
+          "name": "No Implementado",
+          "desc": "El servidor no soporta la funcionalidad requerida para cumplir con la solicitud.",
+          "category": "5xx"
+        },
+        {
+          "code": 502,
+          "name": "Puerta de Enlace Incorrecta",
+          "desc": "Un servidor de puerta de enlace o proxy recibió una respuesta inválida del servidor principal.",
+          "category": "5xx"
+        },
+        {
+          "code": 503,
+          "name": "Servicio No Disponible",
+          "desc": "El servidor no puede manejar la solicitud temporalmente, generalmente debido a sobrecarga o mantenimiento.",
+          "category": "5xx"
+        },
+        {
+          "code": 504,
+          "name": "Tiempo de Espera de Puerta de Enlace",
+          "desc": "Un servidor de puerta de enlace o proxy no recibió una respuesta oportuna del servidor principal.",
+          "category": "5xx"
+        },
+        {
+          "code": 505,
+          "name": "Versión de HTTP No Soportada",
+          "desc": "El servidor no soporta la versión del protocolo HTTP usada en la solicitud.",
+          "category": "5xx"
+        }
+      ]
+    },
+    "phpReference": {
+      "title": "Referencia de Funciones PHP",
+      "description": "Referencia rápida para funciones comunes de PHP",
+      "searchPlaceholder": "Buscar nombres de funciones o descripciones...",
+      "noMatch": "No se encontraron funciones coincidentes",
+      "infoTitle": "Acerca de",
+      "infoDescription": "Esta página lista funciones comúnmente usadas de PHP por categoría para consulta rápida. Está destinada como una visión general útil para desarrolladores y no sustituye la documentación oficial de PHP.",
+      "categories": [
+        "Todos",
+        "Cadena",
+        "Arreglo",
+        "Archivo",
+        "Fecha/Hora",
+        "JSON",
+        "Matemáticas",
+        "Otros"
+      ],
+      "functions": [
+        {
+          "name": "strlen",
+          "desc": "Obtener la longitud de una cadena",
+          "syntax": "strlen(cadena $cadena): int",
+          "category": "Cadena"
+        },
+        {
+          "name": "substrato",
+          "desc": "Devolver una parte de una cadena",
+          "syntax": "substr(cadena $cadena, int $desplazamiento,?int $longitud = nulo): cadena",
+          "category": "Cadena"
+        },
+        {
+          "name": "estropos",
+          "desc": "Buscar la posición de la primera ocurrencia de un subcadena",
+          "syntax": "strpos(cadena $pajar, cadena $aguja, int $desplazamiento = 0): int|falso",
+          "category": "Cadena"
+        },
+        {
+          "name": "str_replace",
+          "desc": "Reemplazar todas las ocurrencias de la cadena de búsqueda",
+          "syntax": "str_replace(mixto $búsqueda, mixto $reemplazar, mixto $asunto): mixto",
+          "category": "Cadena"
+        },
+        {
+          "name": "explotar",
+          "desc": "Dividir una cadena en un array usando un separador",
+          "syntax": "explotar(cadena $separador, cadena $cadena, int $límite = PHP_INT_MAX): matriz",
+          "category": "Cadena"
+        },
+        {
+          "name": "implosionar",
+          "desc": "Unir los elementos de un array en una cadena",
+          "syntax": "implosionar(cadena $separador, matriz $matriz): cadena",
+          "category": "Cadena"
+        },
+        {
+          "name": "recortar",
+          "desc": "Eliminar espacios en blanco u otros caracteres de ambos lados de una cadena",
+          "syntax": "trim(cadena $cadena, cadena $caracteres = \" \\n\\r\\t\\v\\x00\"): cadena",
+          "category": "Cadena"
+        },
+        {
+          "name": "strtolower",
+          "desc": "Convertir una cadena a minúsculas",
+          "syntax": "strtolower(cadena $cadena): cadena",
+          "category": "Cadena"
+        },
+        {
+          "name": "strtoupper",
+          "desc": "Convertir una cadena a mayúsculas",
+          "syntax": "strtoupper(cadena $cadena): cadena",
+          "category": "Cadena"
+        },
+        {
+          "name": "sprintf",
+          "desc": "Devolver una cadena formateada",
+          "syntax": "sprintf(cadena $formato, mixto...$valores): cadena",
+          "category": "Cadena"
+        },
+        {
+          "name": "partido_preg",
+          "desc": "Realizar una coincidencia de expresión regular",
+          "syntax": "preg_match(cadena $patrón, cadena $asunto, matriz &$coincidencias = nulo): int|false",
+          "category": "Cadena"
+        },
+        {
+          "name": "preg_replace",
+          "desc": "Realizar una búsqueda y reemplazo con expresión regular",
+          "syntax": "preg_replace(mixto $patrón, mixto $reemplazo, mixto $sujeto): mixto",
+          "category": "Cadena"
+        },
+        {
+          "name": "contar",
+          "desc": "Contar los elementos de un array o objeto Countable",
+          "syntax": "contar(Contable|matriz $valor, int $modo = COUNT_NORMAL): int",
+          "category": "Formación"
+        },
+        {
+          "name": "matriz_push",
+          "desc": "Añadir uno o más elementos al final de un array",
+          "syntax": "array_push(matriz &$matriz, mixto...$valores): int",
+          "category": "Formación"
+        },
+        {
+          "name": "matriz_pop",
+          "desc": "Eliminar el último elemento de un array",
+          "syntax": "array_pop(matriz &$matriz): mixto",
+          "category": "Formación"
+        },
+        {
+          "name": "matriz_merge",
+          "desc": "Combinar uno o más arrays",
+          "syntax": "array_merge(matriz...$matriz): matriz",
+          "category": "Formación"
+        },
+        {
+          "name": "claves_matriz",
+          "desc": "Devolver todas las claves de un array",
+          "syntax": "array_keys(matriz $matriz, mixta $filtro_valor, bool $estricta = falso): matriz",
+          "category": "Formación"
+        },
+        {
+          "name": "valores_matriz",
+          "desc": "Devolver todos los valores de un array",
+          "syntax": "valores_matriz(matriz $matriz): matriz",
+          "category": "Formación"
+        },
+        {
+          "name": "en_matriz",
+          "desc": "Comprobar si un valor existe en un array",
+          "syntax": "in_array(mixto $aguja, matriz $pajar, bool $estricto = falso): bool",
+          "category": "Formación"
+        },
+        {
+          "name": "búsqueda_matriz",
+          "desc": "Buscar un valor en un array y devolver su clave",
+          "syntax": "array_search(mixto $aguja, matriz $pajar, bool $estricto = falso): int|cadena|falso",
+          "category": "Formación"
+        },
+        {
+          "name": "mapa_matriz",
+          "desc": "Aplicar una función de devolución de llamada a los elementos de un array",
+          "syntax": "array_map(?llamable $devolución de llamada, matriz $matriz, matriz...$matriz): matriz",
+          "category": "Formación"
+        },
+        {
+          "name": "filtro_matriz",
+          "desc": "Filtrar los elementos de un array usando una función de devolución de llamada",
+          "syntax": "array_filter(matriz $matriz,? Llamable $devolución de llamada = nulo, int $modo = 0): matriz",
+          "category": "Formación"
+        },
+        {
+          "name": "clasificar",
+          "desc": "Ordenar un array en orden ascendente",
+          "syntax": "ordenar(matriz &$matriz, int $banderas = SORT_REGULAR): bool",
+          "category": "Formación"
+        },
+        {
+          "name": "usort",
+          "desc": "Ordenar un array con una función de comparación definida por el usuario",
+          "syntax": "usort(matriz &$matriz, $callback invocable): bool",
+          "category": "Formación"
+        },
+        {
+          "name": "archivo_get_contents",
+          "desc": "Leer todo un archivo en una cadena",
+          "syntax": "file_get_contents(cadena $nombre de archivo, ...): cadena|falso",
+          "category": "Archivo"
+        },
+        {
+          "name": "archivo_put_contents",
+          "desc": "Escribir datos en un archivo",
+          "syntax": "file_put_contents(cadena $nombre de archivo, $datos mixtos, int $flags = 0): int|falso",
+          "category": "Archivo"
+        },
+        {
+          "name": "abrir",
+          "desc": "Abrir un archivo o URL",
+          "syntax": "fopen(cadena $nombre de archivo, cadena $modo, ...): recurso|falso",
+          "category": "Archivo"
+        },
+        {
+          "name": "cerrar",
+          "desc": "Cerrar un puntero de archivo abierto",
+          "syntax": "fclose(recurso $flujo): bool",
+          "category": "Archivo"
+        },
+        {
+          "name": "miedo",
+          "desc": "Leer desde un puntero de archivo",
+          "syntax": "fread(recurso $flujo, int $longitud): cadena|falso",
+          "category": "Archivo"
+        },
+        {
+          "name": "escribir",
+          "desc": "Escribir en un puntero de archivo",
+          "syntax": "fwrite(recurso $flujo, cadena $datos, ?int $longitud = nulo): int|falso",
+          "category": "Archivo"
+        },
+        {
+          "name": "archivo_existe",
+          "desc": "Comprobar si un archivo o directorio existe",
+          "syntax": "file_exists(cadena $nombre de archivo): bool",
+          "category": "Archivo"
+        },
+        {
+          "name": "es_archivo",
+          "desc": "Comprobar si la ruta es un archivo regular",
+          "syntax": "is_file(cadena $nombre de archivo): bool",
+          "category": "Archivo"
+        },
+        {
+          "name": "desconectar",
+          "desc": "Eliminar un archivo",
+          "syntax": "desvincular(cadena $nombre de archivo,?recurso $contexto = nulo): bool",
+          "category": "Archivo"
+        },
+        {
+          "name": "mkdir",
+          "desc": "Crear un directorio",
+          "syntax": "mkdir(cadena $directorio, int $permisos = 0777, bool $recursivo = falso): bool",
+          "category": "Archivo"
+        },
+        {
+          "name": "fecha",
+          "desc": "Formatear una fecha y hora locales",
+          "syntax": "fecha(cadena $formato,?int $marca de tiempo = nulo): cadena",
+          "category": "Fecha/Hora"
+        },
+        {
+          "name": "tiempo",
+          "desc": "Obtener la marca de tiempo Unix actual",
+          "syntax": "tiempo(): int",
+          "category": "Fecha/Hora"
+        },
+        {
+          "name": "strtotime",
+          "desc": "Analizar una fecha y hora textual en una marca de tiempo Unix",
+          "syntax": "strtotime(cadena $fechahora,?int $baseTimestamp = null): int|falso",
+          "category": "Fecha/Hora"
+        },
+        {
+          "name": "mktime",
+          "desc": "Obtener una marca de tiempo Unix para una fecha",
+          "syntax": "mktime(int $hora, ?int $minuto = null, ...): int|false",
+          "category": "Fecha/Hora"
+        },
+        {
+          "name": "fecha_crear",
+          "desc": "Crear un objeto DateTime",
+          "syntax": "date_create(string $fecha_hora = \"ahora\", ?DateTimeZone $zona_horaria = null): DateTime|false",
+          "category": "Fecha/Hora"
+        },
+        {
+          "name": "código_json",
+          "desc": "Convertir un valor en una cadena JSON",
+          "syntax": "json_encode(mixed $valor, int $banderas = 0, int $profundidad = 512): string|false",
+          "category": "JSON"
+        },
+        {
+          "name": "json_decode",
+          "desc": "Decodificar una cadena JSON en un valor PHP",
+          "syntax": "json_decode(string $json, ?bool $asociativo = null, int $profundidad = 512): mixed",
+          "category": "JSON"
+        },
+        {
+          "name": "abdominales",
+          "desc": "Obtener el valor absoluto",
+          "syntax": "abs(int|float $número): int|float",
+          "category": "Matemáticas"
+        },
+        {
+          "name": "fortificar techo",
+          "desc": "Redondear fracciones hacia arriba",
+          "syntax": "ceil(int|float $número): float",
+          "category": "Matemáticas"
+        },
+        {
+          "name": "piso",
+          "desc": "Redondear fracciones hacia abajo",
+          "syntax": "floor(int|float $número): float",
+          "category": "Matemáticas"
+        },
+        {
+          "name": "redondo",
+          "desc": "Redondear un número",
+          "syntax": "round(int|float $número, int $precisión = 0, int $modo = PHP_ROUND_HALF_UP): float",
+          "category": "Matemáticas"
+        },
+        {
+          "name": "máximo",
+          "desc": "Encontrar el valor más grande",
+          "syntax": "max(mixed $valor, mixed ...$valores): mixed",
+          "category": "Matemáticas"
+        },
+        {
+          "name": "mín.",
+          "desc": "Encontrar el valor más pequeño",
+          "syntax": "min(mixed $valor, mixed ...$valores): mixed",
+          "category": "Matemáticas"
+        },
+        {
+          "name": "rand",
+          "desc": "Generar un entero aleatorio",
+          "syntax": "rand(int $mínimo, int $máximo): int",
+          "category": "Matemáticas"
+        },
+        {
+          "name": "isset",
+          "desc": "Verificar si una variable está definida y no es nula",
+          "syntax": "isset(mixto $var, mixto...$vars): bool",
+          "category": "Otros"
+        },
+        {
+          "name": "vacío",
+          "desc": "Verificar si una variable está vacía",
+          "syntax": "vacío($var mixto): bool",
+          "category": "Otros"
+        },
+        {
+          "name": "var_volcado",
+          "desc": "Mostrar información sobre una variable",
+          "syntax": "var_dump(mixed $valor, mixed ...$valores): void",
+          "category": "Otros"
+        },
+        {
+          "name": "imprimir_r",
+          "desc": "Imprimir información legible sobre una variable",
+          "syntax": "print_r(mixed $valor, bool $devolver = false): string|bool",
+          "category": "Otros"
+        },
+        {
+          "name": "obtener tipo",
+          "desc": "Obtener el tipo de una variable",
+          "syntax": "gettype(mixed $valor): string",
+          "category": "Otros"
+        },
+        {
+          "name": "es_array",
+          "desc": "Verificar si una variable es un array",
+          "syntax": "is_array(mixed $valor): bool",
+          "category": "Otros"
+        },
+        {
+          "name": "es_cadena",
+          "desc": "Verificar si una variable es una cadena",
+          "syntax": "is_string(mixed $valor): bool",
+          "category": "Otros"
+        },
+        {
+          "name": "es_numérico",
+          "desc": "Verificar si una variable es un número o una cadena numérica",
+          "syntax": "is_numeric(mixed $valor): bool",
+          "category": "Otros"
+        }
+      ]
+    },
+    "cssBorderRadius": {
+      "title": "Generador de Radio de Borde CSS",
+      "description": "Ajuste los valores de border-radius visualmente y genere código CSS",
+      "presetsLabel": "Preestablecidos",
+      "preview": "Vista previa",
+      "settings": "Configuración",
+      "linked": "Esquinas vinculadas",
+      "unlinked": "Esquinas separadas",
+      "corners": {
+        "topLeft": "Superior izquierda",
+        "topRight": "Superior derecha",
+        "bottomLeft": "Inferior izquierda",
+        "bottomRight": "Inferior derecha"
+      },
+      "elementColor": "Color del elemento",
+      "codeTitle": "Código CSS",
+      "copy": "Copiar",
+      "copied": "Copiado",
+      "presets": [
+        {
+          "name": "Ninguno",
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Pequeño",
+          "values": [
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "Medio",
+          "values": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "Grande",
+          "values": [
+            16,
+            16,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "Círculo",
+          "values": [
+            50,
+            50,
+            50,
+            50
+          ]
+        },
+        {
+          "name": "Pildora",
+          "values": [
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "Lado izquierdo",
+          "values": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        {
+          "name": "Lado derecho",
+          "values": [
+            0,
+            16,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "Solo arriba",
+          "values": [
+            16,
+            16,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Solo abajo",
+          "values": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "Diagonal",
+          "values": [
+            16,
+            0,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "Hoja",
+          "values": [
+            0,
+            50,
+            0,
+            50
+          ]
+        }
+      ]
+    },
+    "cssNeumorphism": {
+      "title": "Generador de Estilo Neumorfismo CSS",
+      "description": "Genere código CSS de estilo Neumorfismo en línea",
+      "previewText": "Botón de vista previa",
+      "shapeTitle": "Estilo de forma",
+      "shapeOptions": [
+        {
+          "value": "plano",
+          "label": "Plano"
+        },
+        {
+          "value": "cóncavo",
+          "label": "Cóncavo"
+        },
+        {
+          "value": "convexo",
+          "label": "Convexo"
+        },
+        {
+          "value": "presionado",
+          "label": "Presionado"
+        }
+      ],
+      "colorTitle": "Configuración de color",
+      "presetColors": "Colores preestablecidos",
+      "colorPresets": [
+        {
+          "color": "#e0e5ec",
+          "name": "Clásico"
+        },
+        {
+          "color": "#f0f0f3",
+          "name": "Blanco"
+        },
+        {
+          "color": "#d1d9e6",
+          "name": "Azul"
+        },
+        {
+          "color": "#e8dfd5",
+          "name": "Beige"
+        },
+        {
+          "color": "#dfe6e9",
+          "name": "Gris"
+        },
+        {
+          "color": "#ffeaa7",
+          "name": "Amarillo"
+        },
+        {
+          "color": "#dfe4ea",
+          "name": "Ceniza"
+        },
+        {
+          "color": "#f8e1e7",
+          "name": "Rosa"
+        },
+        {
+          "color": "#d5f5e3",
+          "name": "Menta"
+        },
+        {
+          "color": "#e8daef",
+          "name": "Morado"
+        }
+      ],
+      "backgroundColor": "Color base",
+      "lightColor": "Color claro (destello)",
+      "darkColor": "Color oscuro (sombra)",
+      "sliderTitle": "Configuración de sombra",
+      "size": "Tamaño",
+      "radius": "Radio",
+      "distance": "Distancia de sombra",
+      "blur": "Desenfoque de sombra",
+      "intensity": "Intensidad",
+      "codeTitle": "Código CSS",
+      "copy": "Copiar",
+      "copied": "Copiado",
+      "infoTitle": "¿Qué es el Neumorfismo?",
+      "infoDescription": "Neumorfismo es un estilo de interfaz de usuario suave que combina resaltados y sombras sutiles para hacer que los elementos parezcan elevados o presionados contra el fondo. Funciona mejor con paletas de bajo contraste y diseños limpios y minimalistas."
+    },
+    "cssTextShadow": {
+      "title": "Generador de Sombra de Texto CSS",
+      "description": "Ajuste los valores de sombra de texto visualmente y genere código CSS",
+      "defaultText": "Ejemplo de sombra de texto",
+      "presetsLabel": "Efectos preestablecidos",
+      "textSettings": "Configuración de texto",
+      "previewText": "Texto de vista previa",
+      "fontSize": "Tamaño de fuente",
+      "textColor": "Color del texto",
+      "shadowPrefix": "Sombra {{index}}",
+      "offsetX": "Desplazamiento X",
+      "offsetY": "Desplazamiento Y",
+      "blur": "Difuminado",
+      "opacity": "Opacidad",
+      "color": "Color",
+      "addShadow": "Añadir sombra",
+      "codeTitle": "Código CSS",
+      "copy": "Copiar",
+      "copied": "Copiado",
+      "presets": [
+        {
+          "name": "Sombra suave",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 2,
+              "y": 2,
+              "blur": 4,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Brillo neon",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#00ff00",
+              "opacity": 0.8
+            }
+          ]
+        },
+        {
+          "name": "Brillo púrpura",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 5,
+              "color": "#ff00ff",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#ff00ff",
+              "opacity": 0.8
+            },
+            {
+              "id": 3,
+              "x": 0,
+              "y": 0,
+              "blur": 20,
+              "color": "#ff00ff",
+              "opacity": 0.6
+            }
+          ]
+        },
+        {
+          "name": "3D superpuesto",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 1,
+              "y": 1,
+              "blur": 0,
+              "color": "#666666",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 2,
+              "y": 2,
+              "blur": 0,
+              "color": "#888888",
+              "opacity": 1
+            },
+            {
+              "id": 3,
+              "x": 3,
+              "y": 3,
+              "blur": 0,
+              "color": "#aaaaaa",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "name": "Embossado",
+          "shadows": [
+            {
+              "id": 1,
+              "x": -1,
+              "y": -1,
+              "blur": 1,
+              "color": "#ffffff",
+              "opacity": 0.8
+            },
+            {
+              "id": 2,
+              "x": 1,
+              "y": 1,
+              "blur": 1,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "websocketTest": {
+      "title": "Herramienta de prueba de WebSocket en línea",
+      "description": "Pruebe conexiones y mensajes de WebSocket en línea",
+      "defaultUrl": "wss://echo.websocket.org",
+      "connectingTo": "Conectando a {{url}}...",
+      "connectSuccess": "Conexión exitosa",
+      "connectError": "Error de conexión",
+      "connectionClosed": "Conexión cerrada (Código: {{code}})",
+      "connectFailed": "Fallo al conectar: {{message}}",
+      "disconnecting": "Desconectando...",
+      "urlPlaceholder": "Ingrese una URL de WebSocket, por ejemplo: wss://echo.websocket.org",
+      "disconnect": "Desconectar",
+      "connecting": "Conectando...",
+      "connect": "Conectar",
+      "connected": "Conectado",
+      "notConnected": "No conectado",
+      "messageLog": "Registro de mensajes",
+      "clear": "Limpiar",
+      "noMessages": "Aún no hay mensajes",
+      "messagePlaceholder": "Ingrese un mensaje... (Intro para enviar, Mayús+Intro para nueva línea)",
+      "infoTitle": "Consejos de WebSocket",
+      "infoItems": [
+        "El servicio de eco integrado es útil para pruebas básicas de envío/recibo",
+        "Soporta direcciones ws:// y wss://",
+        "Presione Intro para enviar, Mayús+Intro para insertar una nueva línea",
+        "Asegúrese de que su servicio objetivo permita conexiones de WebSocket desde el navegador"
+      ],
+      "examplesTitle": "Ejemplos comunes",
+      "publicEcho": "Servicio de Eco Público",
+      "defaultTag": "Predeterminado"
+    },
+    "csrGenerator": {
+      "title": "Generador y Visualizador de CSR",
+      "description": "Genere archivos CSR en línea y analice el contenido de CSR",
+      "enterDomain": "Por favor ingrese un dominio",
+      "generateFailed": "Fallo al generar CSR",
+      "parseFailed": "Fallo al analizar CSR",
+      "serverConnectionFailed": "Fallo al conectar con el servidor, intente más tarde",
+      "tabs": {
+        "generate": "Generar CSR",
+        "view": "Ver CSR"
+      },
+      "formTitle": "Información de certificado",
+      "labels": {
+        "commonName": "Dominio (Nombre Común)",
+        "organization": "Organización",
+        "organizationUnit": "Departamento",
+        "city": "Ciudad",
+        "state": "Estado / Provincia",
+        "country": "País / Región",
+        "email": "Correo electrónico",
+        "keySize": "Tamaño de clave"
+      },
+      "placeholders": {
+        "commonName": "Por ejemplo: www.example.com o *.example.com",
+        "organization": "Por ejemplo: Example Inc.",
+        "organizationUnit": "Por ejemplo: Departamento de TI",
+        "city": "Por ejemplo: Beijing",
+        "state": "Por ejemplo: Beijing",
+        "email": "Por ejemplo: admin@example.com",
+        "csr": "Pegue el contenido del CSR aquí, comenzando con -----BEGIN CERTIFICATE REQUEST-----"
+      },
+      "countries": [
+        {
+          "value": "CN",
+          "label": "CN - China"
+        },
+        {
+          "value": "A NOSOTROS",
+          "label": "US - Estados Unidos"
+        },
+        {
+          "value": "J.P.",
+          "label": "JP - Japón"
+        },
+        {
+          "value": "KR",
+          "label": "KR - Corea del Sur"
+        },
+        {
+          "value": "ES",
+          "label": "GB - Reino Unido"
+        },
+        {
+          "value": "Delaware",
+          "label": "DE - Alemania"
+        },
+        {
+          "value": "FR",
+          "label": "FR - Francia"
+        },
+        {
+          "value": "SG",
+          "label": "SG - Singapur"
+        },
+        {
+          "value": "Hong Kong",
+          "label": "Hong Kong-Hong Kong"
+        },
+        {
+          "value": "tw",
+          "label": "TW - Taiwán"
+        }
+      ],
+      "keySizes": [
+        {
+          "value": "2048",
+          "label": "2048 bits (recomendado)"
+        },
+        {
+          "value": "4096",
+          "label": "4096 bits (más seguro)"
+        }
+      ],
+      "generating": "Generando...",
+      "generateAction": "Generar CSR y clave privada",
+      "csrRequest": "Solicitud CSR",
+      "privateKey": "Clave privada (consérvela con seguridad)",
+      "copy": "Copiar",
+      "copied": "Copiado",
+      "download": "Descargar",
+      "privateKeyWarning": "La clave privada es altamente sensible. Consérvela con seguridad y nunca la comparta públicamente. Si se revela, la seguridad de su certificado podría verse comprometida.",
+      "inputCsr": "Introducir contenido CSR",
+      "parsing": "Analizando...",
+      "parseAction": "Analizar CSR",
+      "csrInfo": "Información del CSR",
+      "infoItems": [
+        {
+          "label": "Dominio (CN)",
+          "key": "nombrecomún"
+        },
+        {
+          "label": "Organización (O)",
+          "key": "organización"
+        },
+        {
+          "label": "Departamento (OU)",
+          "key": "organizaciónUnidad"
+        },
+        {
+          "label": "Ciudad (L)",
+          "key": "ciudad"
+        },
+        {
+          "label": "Estado / Provincia (ST)",
+          "key": "estado"
+        },
+        {
+          "label": "País (C)",
+          "key": "país"
+        },
+        {
+          "label": "Correo electrónico",
+          "key": "correo electrónico"
+        },
+        {
+          "label": "Algoritmo de clave",
+          "key": "claveAlgoritmo"
+        },
+        {
+          "label": "Tamaño de clave",
+          "key": "tamaño clave"
+        },
+        {
+          "label": "Algoritmo de firma",
+          "key": "firmaAlgoritmo"
+        }
+      ],
+      "keySizeValue": "{{value}} bits",
+      "aboutTitle": "¿Qué es un CSR?",
+      "aboutDescription": "Un CSR (Solicitud de Firma de Certificado) es un archivo codificado enviado a una autoridad de certificación (CA) al solicitar un certificado SSL/TLS. Contiene información sobre su dominio y organización, así como la clave pública que coincide con su clave privada. Después de la verificación, la CA utiliza el CSR para emitir el certificado SSL."
+    },
+    "metaGenerator": {
+      "title": "Generador de Etiquetas Meta",
+      "description": "Genere etiquetas meta amigables para SEO en páginas web",
+      "basicInfo": "Información básica",
+      "socialMedia": "Redes sociales (Open Graph)",
+      "generatedCode": "Código generado",
+      "copy": "Copiar",
+      "copied": "Copiado",
+      "searchPreview": "Vista previa de búsqueda",
+      "searchPreviewTitleFallback": "Título de la página",
+      "searchPreviewDescriptionFallback": "Tu descripción de página aparecerá aquí...",
+      "socialPreview": "Vista previa social",
+      "socialPreviewTitleFallback": "Título",
+      "socialPreviewDescriptionFallback": "Descripción",
+      "labels": {
+        "title": "Título de la página",
+        "description": "Descripción de la página",
+        "keywords": "Palabras clave",
+        "author": "Autor",
+        "robots": "Directiva robots",
+        "ogTitle": "Título OG",
+        "ogDescription": "Descripción OG",
+        "ogImage": "URL de imagen OG",
+        "ogUrl": "URL de la página",
+        "twitterCard": "Tipo de tarjeta de Twitter"
+      },
+      "placeholders": {
+        "title": "Ingrese un título de página",
+        "description": "Ingrese una descripción de página, idealmente dentro de 150 caracteres",
+        "keywords": "palabraclave1, palabraclave2, palabraclave3",
+        "author": "Ingrese el nombre del autor",
+        "ogTitle": "Ingrese un título para compartir en redes sociales",
+        "ogDescription": "Ingrese una descripción para compartir en redes sociales",
+        "ogImage": "https://ejemplo.com/imagen.jpg",
+        "ogUrl": "https://ejemplo.com/pagina"
+      },
+      "robotsOptions": [
+        {
+          "value": "indexar, seguir",
+          "label": "Permitir indexación y seguimiento"
+        },
+        {
+          "value": "índice, no seguir",
+          "label": "Permitir indexación, prohibir seguimiento"
+        },
+        {
+          "value": "sin índice, seguir",
+          "label": "Prohibir indexación, permitir seguimiento"
+        },
+        {
+          "value": "no índice, no seguir",
+          "label": "Prohibir indexación y seguimiento"
+        }
+      ],
+      "twitterOptions": [
+        {
+          "value": "resumen",
+          "label": "Resumen"
+        },
+        {
+          "value": "resumen_imagen_grande",
+          "label": "Imagen grande"
+        },
+        {
+          "value": "jugador",
+          "label": "Reproductor"
+        }
+      ]
+    },
+    "toolHistoryDemo": {
+      "confirmClear": "¿Estás seguro de que quieres borrar todo el historial de herramientas y favoritos?",
+      "exportTitle": "Exportar datos",
+      "usageCount": "Usado {{count}} veces",
+      "lastUsed": "Último uso: {{time}}",
+      "favorite": "Favorito: {{value}}",
+      "yes": "Sí",
+      "no": "No",
+      "exportFailed": "Exportación fallida",
+      "tabs": {
+        "overview": "Resumen",
+        "history": "Historial",
+        "favorites": "Favoritos",
+        "analytics": "Análisis"
+      },
+      "loading": "Cargando datos del historial de herramientas...",
+      "loadFailed": "Carga fallida: {{error}}",
+      "title": "Demo de Historial de Herramientas",
+      "description": "Muestra el historial de uso de herramientas, favoritos y análisis",
+      "export": "Exportar",
+      "clear": "Limpiar",
+      "searchPlaceholder": "Buscar herramientas...",
+      "stats": {
+        "totalTools": "Herramientas totales",
+        "totalUsage": "Uso total",
+        "favoriteTools": "Herramientas favoritas",
+        "averageUsage": "Uso promedio"
+      },
+      "favoriteToolsTitle": "Herramientas favoritas",
+      "favoriteToolsDescription": "Herramientas que has marcado como favoritas",
+      "noFavoriteTools": "Aún no hay herramientas favoritas",
+      "mostUsed": "Herramientas más usadas",
+      "timesUsed": "Usado {{count}} veces",
+      "recentActivity": "Actividad reciente",
+      "exportDialogTitle": "Exportar historial de herramientas",
+      "exportDialogDescription": "Elige un formato de exportación",
+      "formats": {
+        "json": {
+          "title": "Formato JSON",
+          "description": "Mejor para respaldos y uso de desarrolladores"
+        },
+        "csv": {
+          "title": "Formato CSV",
+          "description": "Bueno para hojas de cálculo como Excel"
+        },
+        "txt": {
+          "title": "Formato TXT",
+          "description": "Resumen de texto plano"
+        }
+      },
+      "cancel": "Cancelar"
+    },
+    "userAgentParser": {
+      "title": "Analizador de User-Agent",
+      "description": "Analizar cadenas User-Agent para identificar información de navegador, sistema y dispositivo",
+      "label": "Cadena User-Agent",
+      "useCurrent": "Usar navegador actual",
+      "inputPlaceholder": "Ingresa una cadena User-Agent...",
+      "parse": "Analizar",
+      "unknownBrowser": "Navegador desconocido",
+      "unknown": "Desconocido",
+      "deviceTypes": {
+        "mobile": "Móvil",
+        "tablet": "Tableta",
+        "desktop": "Escritorio"
+      },
+      "browserInfo": "Información del navegador",
+      "browser": "Navegador",
+      "version": "Versión",
+      "majorVersion": "Versión principal",
+      "operatingSystem": "Sistema operativo",
+      "system": "Sistema",
+      "deviceInfo": "Información del dispositivo",
+      "type": "Tipo",
+      "vendor": "Proveedor",
+      "model": "Modelo",
+      "engineAndCpu": "Motor & CPU",
+      "engine": "Motor",
+      "engineVersion": "Versión del motor",
+      "cpuArchitecture": "Arquitectura de CPU",
+      "examplesTitle": "Cadenas User-Agent de ejemplo"
+    },
+    "cssBoxShadow": {
+      "title": "Generador de Sombra DIV",
+      "description": "Ajusta los valores de sombra de forma visual y genera código CSS",
+      "preview": "Vista previa",
+      "basicSettings": "Configuración básica",
+      "backgroundColor": "Color de fondo",
+      "boxColor": "Color de caja",
+      "borderRadius": "Radio de borde",
+      "shadowPrefix": "Sombra {{index}}",
+      "inset": "Interior",
+      "offsetX": "Desplazamiento X",
+      "offsetY": "Desplazamiento Y",
+      "blur": "Difuminado",
+      "spread": "Extensión",
+      "opacity": "Opacidad",
+      "color": "Color",
+      "addShadow": "Añadir sombra",
+      "codeTitle": "Código CSS",
+      "copy": "Copiar",
+      "copied": "Copiado"
+    },
+    "cssGlassmorphism": {
+      "title": "Generador de Glassmorphism CSS",
+      "description": "Genera código CSS estilo Glassmorphism en línea",
+      "cardTitle": "Tarjeta Glassmorphism",
+      "cardDescription": "Glassmorphism es un estilo de interfaz moderna que utiliza transparencia, difuminado y bordes suaves para crear un efecto de vidrio opaco.",
+      "adjustTitle": "Ajustar configuración",
+      "blur": "Difuminado de fondo",
+      "transparency": "Transparencia",
+      "saturation": "Saturación",
+      "borderRadius": "Radio de borde",
+      "borderOpacity": "Opacidad del borde",
+      "codeTitle": "Código CSS",
+      "copy": "Copiar",
+      "copied": "Copiado",
+      "infoTitle": "Notas sobre compatibilidad",
+      "infoDescription": "La propiedad backdrop-filter requiere soporte de navegadores modernos. Firefox puede requerir ajustes adicionales y Safari puede necesitar el prefijo -webkit-. Considera caídas elegantes para navegadores no compatibles."
+    },
+    "desktopShortcut": {
+      "title": "Atajo de Escritorio para Sitio Web",
+      "description": "Crear atajos de sitio web para el escritorio y ejecutarlos rápidamente",
+      "enterUrl": "Por favor ingrese una URL de sitio web válida",
+      "enterName": "Por favor ingrese un nombre de atajo",
+      "redirectingTo": "Abriendo {{name}}...",
+      "urlLabel": "URL del sitio web",
+      "urlPlaceholder": "ejemplo.com o https://ejemplo.com",
+      "nameLabel": "Nombre del atajo",
+      "namePlaceholder": "Atajo de sitio web",
+      "downloadUrlFile": "Descargar archivo .url",
+      "downloadHtmlFile": "Descargar archivo .html",
+      "infoTitle": "Instrucciones",
+      "urlFileDesc": "Los archivos .url son archivos de acceso directo de Internet de Windows y generalmente abren el sitio web objetivo directamente en tu navegador predeterminado.",
+      "htmlFileDesc": "Los archivos .html funcionan en Windows, macOS y Linux y también se pueden usar como accesos directos de sitios web simples.",
+      "afterDownload": "Después de descargar, mueve el archivo a tu escritorio o pínalo donde sea necesario."
+    },
+    "htmlPreview": {
+      "title": "Vista previa de HTML",
+      "description": "Escribe y previsualiza HTML en línea",
+      "defaultMessage": "Bienvenido a la herramienta de vista previa de HTML",
+      "editorTitle": "Código HTML",
+      "clear": "Limpiar",
+      "editorPlaceholder": "Ingresa código HTML aquí...",
+      "previewTitle": "Vista previa",
+      "run": "Ejecutar",
+      "fullscreen": "Pantalla completa",
+      "exitFullscreen": "Salir de pantalla completa",
+      "usageTitle": "Cómo usarlo",
+      "usageItems": [
+        "Ingresa código HTML completo en el editor de la izquierda",
+        "Haz clic en Ejecutar para ver el resultado",
+        "Se admiten CSS y JavaScript en línea",
+        "El código se ejecuta dentro de un entorno aislado para mayor seguridad"
+      ]
+    },
+    "pageRefresh": {
+      "title": "Refresco Automático de Página",
+      "description": "Refrescar una página web automáticamente en línea",
+      "urlRequired": "Por favor ingrese una URL",
+      "urlPlaceholder": "Ingrese una URL, por ejemplo https://ejemplo.com",
+      "seconds": "seg",
+      "start": "Iniciar",
+      "stop": "Detener",
+      "quickSet": "Preestablecidos rápidos:",
+      "secondsValue": "{{count}}s",
+      "minutesValue": "{{count}} minutos",
+      "running": "En ejecución",
+      "refreshIn": "Refrescará en {{count}} segundos",
+      "refreshedCount": "Refrescado {{count}} veces",
+      "lastRefresh": "Último refresco: {{time}}",
+      "previewTitle": "Vista previa de página",
+      "previewPlaceholder": "Ingrese una URL para comenzar a previsualizar",
+      "usageTitle": "Cómo usarlo",
+      "usageItems": [
+        "Ingrese la URL de la página web y establezca el intervalo de refresco",
+        "Haga clic en Iniciar para comenzar el refresco automático",
+        "Algunos sitios web pueden no mostrarse dentro de un iframe debido a políticas de seguridad",
+        "Es útil para monitorear cambios en la página o mantener sesiones activas"
+      ]
+    },
+    "pxToRem": {
+      "title": "Convertidor PX a REM",
+      "description": "Convierte por lotes unidades PX en código CSS a unidades REM",
+      "baseFontSize": "Tamaño de fuente raíz",
+      "precision": "Precisión decimal",
+      "precisionOptions": {
+        "2": "2 dígitos",
+        "3": "3 dígitos",
+        "4": "4 dígitos",
+        "5": "5 dígitos"
+      },
+      "inputLabel": "Código CSS de entrada",
+      "convertToRem": "PX a REM",
+      "convertToPx": "REM a PX",
+      "outputLabel": "Resultado",
+      "copy": "Copiar",
+      "copied": "Copiado",
+      "outputPlaceholder": "El resultado de la conversión aparecerá aquí...",
+      "quickReferenceTitle": "Referencia rápida (base: {{baseSize}}px)",
+      "whyUseRem": "¿Por qué usar REM?",
+      "infoItems": [
+        "REM es relativo al tamaño de fuente raíz (html)",
+        "Usar REM facilita escalar la tipografía en todo el sitio",
+        "Ayuda en el diseño responsivo y la accesibilidad"
+      ],
+      "formula": "Fórmula: rem = px / {{baseSize}}"
+    },
+    "shieldBadge": {
+      "title": "Generador de Marcas de Escudo",
+      "description": "Generar marcas de escudo SVG en línea",
+      "downloadFailed": "La descarga falló, intente nuevamente más tarde",
+      "basicSettings": "Configuración básica",
+      "labelField": "Etiqueta",
+      "messageField": "Mensaje",
+      "color": "Color",
+      "style": "Estilo",
+      "logoSettings": "Configuración del logotipo",
+      "logo": "Logotipo",
+      "none": "Ninguno",
+      "logoColor": "Color del logotipo",
+      "preview": "Vista previa",
+      "downloadSvg": "Descargar SVG",
+      "codeTitle": "Código",
+      "copiedToClipboard": "Copiado al portapapeles"
+    },
+    "robotsGenerator": {
+      "title": "Generador de robots.txt",
+      "description": "Generar archivos robots.txt en línea",
+      "templatesLabel": "Plantillas rápidas:",
+      "templates": {
+        "allowAll": "Permitir todo",
+        "blockAll": "Bloquear todo",
+        "standard": "Configuración estándar"
+      },
+      "ruleTitle": "Regla {{index}}",
+      "userAgents": {
+        "all": "* (todos los rastreadores)",
+        "baidu": "Araña Baidu (Baidu)",
+        "sogou": "Sogou"
+      },
+      "disallow": "Rutas denegadas",
+      "allow": "Rutas permitidas",
+      "add": "Añadir",
+      "addRule": "Añadir regla",
+      "otherSettings": "Otras configuraciones",
+      "sitemapUrl": "URL del sitemap",
+      "crawlDelay": "Retraso de rastreo (segundos)",
+      "preview": "Vista previa de robots.txt",
+      "copy": "Copiar",
+      "copied": "Copiado",
+      "saveTip": "Guarde este archivo como robots.txt y colóquelo en el directorio raíz de su sitio web"
+    },
+    "emailEncrypt": {
+      "title": "Codificador de Direcciones de Correo Electrónico",
+      "description": "Codificar direcciones de correo electrónico para reducir el raspado por bots",
+      "inputLabel": "Dirección de correo electrónico",
+      "copy": "Copiar",
+      "copied": "Copiado",
+      "infoTitle": "¿Por qué codificar una dirección de correo electrónico?",
+      "infoItems": [
+        "Reducir el riesgo de que los bots raspen su dirección de correo electrónico para spam",
+        "El correo electrónico codificado aún puede mostrarse en el navegador, pero es más difícil de detectar para los bots",
+        "Se pueden combinar múltiples métodos de codificación para una protección más sólida",
+        "Todavía se recomienda utilizar medidas anti-spam del lado del servidor"
+      ],
+      "results": {
+        "unicodeDecimal": {
+          "name": "decimal Unicode",
+          "description": "Convertir caracteres a entidades Unicode decimales"
+        },
+        "unicodeHex": {
+          "name": "Unicode hexadecimal",
+          "description": "Convertir caracteres a entidades Unicode hexadecimales"
+        },
+        "javascript": {
+          "name": "Salida de JavaScript",
+          "description": "Renderizar el correo electrónico dinámicamente con JavaScript"
+        },
+        "mailto": {
+          "name": "Enlace mailto",
+          "description": "Generar un enlace mailto codificado"
+        },
+        "cssReverse": {
+          "name": "Visualización inversa con CSS",
+          "description": "Mostrar el texto en orden inverso usando CSS"
+        }
+      }
+    },
+    "workerDemo": {
+      "title": "Demostración de Rendimiento de Web Worker",
+      "description": "Comparar el rendimiento de cálculo entre Web Workers y el hilo principal",
+      "invalidInteger": "Por favor ingrese un número entero positivo válido",
+      "workerError": "Error en el cálculo del trabajador:",
+      "notice": "Aviso",
+      "settingsTitle": "Configuración de cálculo",
+      "inputLabel": "Valor de entrada",
+      "inputPlaceholder": "Ingrese un número entero positivo",
+      "operationLabel": "Operación",
+      "operations": {
+        "factorial": "Factorial (n!)",
+        "fibonacci": "Secuencia de Fibonacci",
+        "prime": "Verificación de primo",
+        "factorization": "Factorización prima"
+      },
+      "workerCalculate": "Calcular con Web Worker",
+      "mainThreadCalculate": "Calcular en hilo principal",
+      "comparisonTitle": "Comparación de rendimiento",
+      "workerResult": "Resultado del Web Worker",
+      "mainThreadResult": "Resultado del hilo principal",
+      "resultLabel": "Resultado:",
+      "timeLabel": "Tiempo de cálculo:",
+      "calculating": "Calculando...",
+      "emptyState": "Haga clic en un botón de arriba para comenzar a calcular",
+      "infoTitle": "¿Por qué usar Web Workers?",
+      "workerFeaturesTitle": "Características de Web Worker",
+      "workerFeatures": [
+        "Se ejecuta en un hilo de fondo sin bloquear el hilo principal",
+        "Ideal para tareas de cálculo pesado",
+        "Mantiene la interfaz de usuario respondiendo",
+        "Soporta procesamiento paralelo"
+      ],
+      "useCasesTitle": "Casos de uso",
+      "useCases": [
+        "Procesamiento de grandes cantidades de datos",
+        "Algoritmos complejos",
+        "Procesamiento de imágenes",
+        "Cifrado y descifrado"
+      ]
+    },
+    "jsDebug": {
+      "title": "Depurador de JS",
+      "description": "Ejecutar y depurar JavaScript en línea",
+      "defaultCode": "// Escriba código JavaScript aquí\nconsole.log(\"¡Hola, mundo!\");\n\n// Ejemplo: operaciones de matriz\nconst numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(n => n * 2);\nconsole.log(\"Matriz original:\", numbers);\nconsole.log(\"Doblado:\", doubled);\n\n// Ejemplo: objeto\nconst user = {\n  name: \"Zhang San\",\n  age: 25,\n  city: \"Beijing\"\n};\nconsole.log(\"Información del usuario:\", user);\n\n// Ejemplo: operación asincrónica\nsetTimeout(() => {\n  console.log(\"Ejecutado después de 1 segundo\");\n}, 1000);",
+      "editorTitle": "Código JavaScript",
+      "copy": "Copiar",
+      "copied": "¡Copiado!",
+      "clear": "Limpiar",
+      "placeholder": "Ingrese código JavaScript aquí...",
+      "run": "Ejecutar código",
+      "consoleTitle": "Salida del consola",
+      "consolePlaceholder": "Aquí aparecerá la salida del consola...",
+      "usageTitle": "Cómo usar",
+      "usageItems": [
+        "Use console.log(), console.error() y console.warn() para imprimir mensajes",
+        "Soporta sintaxis ES6+ como funciones flecha, desestructuración y cadenas de plantilla",
+        "Soporta operaciones asincrónicas como setTimeout y Promise",
+        "El código se ejecuta en un entorno aislado y no puede acceder al DOM ni a recursos externos"
+      ]
+    },
+    "formValidationDemo": {
+      "title": "Demostración de validación de formulario",
+      "description": "Muestra la validación completa de formularios, incluida la validación en tiempo real, las notificaciones de error y la limpieza de datos",
+      "validation": {
+        "username": "El nombre de usuario solo puede contener letras, números y guiones bajos, y debe tener entre 3 y 20 caracteres",
+        "phone": "Por favor, ingrese un número de teléfono válido",
+        "age": "La edad debe estar entre 1 y 120",
+        "idCard": "Por favor, ingrese un número de documento de identidad válido",
+        "address": "La dirección no debe tener más de 200 caracteres",
+        "bio": "La bio no debe tener más de 500 caracteres"
+      },
+      "submitSuccess": "La validación del formulario fue exitosa! Datos enviados:",
+      "quickTestTitle": "Pruebas rápidas de validación",
+      "quickLabels": {
+        "email": "Validación de correo electrónico",
+        "phone": "Validación de teléfono",
+        "url": "Validación de URL"
+      },
+      "quickPlaceholders": {
+        "email": "Ingrese una dirección de correo electrónico",
+        "phone": "Ingrese un número de teléfono",
+        "url": "Ingrese una URL"
+      },
+      "valid": "Válido",
+      "invalid": "Inválido",
+      "formTitle": "Validación completa del formulario",
+      "placeholders": {
+        "username": "Nombre de usuario (letras, números, guiones bajos)",
+        "email": "Dirección de correo electrónico",
+        "phone": "Número de teléfono móvil",
+        "website": "Sitio web personal (opcional)",
+        "age": "Edad",
+        "idCard": "Número de documento de identidad",
+        "address": "Dirección detallada (opcional)",
+        "bio": "Bio (opcional, máximo 500 caracteres)"
+      },
+      "success": {
+        "username": "El formato del nombre de usuario es válido",
+        "email": "El formato del correo electrónico es válido",
+        "phone": "El formato del número de teléfono es válido",
+        "website": "El formato de la URL es válido",
+        "age": "La edad es válida",
+        "idCard": "El formato del documento de identidad es válido",
+        "address": "La dirección es válida",
+        "bio": "La bio es válida"
+      },
+      "submit": "Enviar formulario",
+      "summaryTitle": "Resumen de validación",
+      "fieldLabels": {
+        "username": "Nombre de usuario",
+        "email": "Correo electrónico",
+        "phone": "Teléfono",
+        "website": "Sitio web",
+        "age": "Edad",
+        "idCard": "Documento de identidad",
+        "address": "Dirección",
+        "bio": "Biografía"
+      },
+      "summaryStatus": {
+        "failed": "La validación falló",
+        "passed": "La validación pasó",
+        "empty": "No lleno"
+      },
+      "infoTitle": "Funciones de validación de formulario",
+      "infoItems": [
+        {
+          "title": "Validación en tiempo real",
+          "description": "Verifica el formato mientras se escribe y vuelve a validar al salir del campo"
+        },
+        {
+          "title": "Múltiples tipos de reglas",
+          "description": "Soporta campos obligatorios, verificación de longitud, expresiones regulares y validación personalizada"
+        },
+        {
+          "title": "Retroalimentación visual",
+          "description": "Muestra claramente el estado de validación con colores, iconos y mensajes"
+        },
+        {
+          "title": "Limpieza de datos",
+          "description": "Elimina automáticamente y normaliza los datos enviados"
+        },
+        {
+          "title": "Mensajes de error útiles",
+          "description": "Proporciona orientación amigable para corregir la entrada"
+        },
+        {
+          "title": "Soporte de accesibilidad",
+          "description": "Ayuda a mantener los formularios utilizables para todos los usuarios"
+        }
+      ]
+    },
+    "faviconGenerator": {
+      "title": "Generador de Favicon",
+      "description": "Convierte imágenes en iconos de favicon para sitios web",
+      "historyTitle": "Generador de Favicon",
+      "historyCategory": "Herramientas de imagen",
+      "uploadImageFile": "Por favor, suba un archivo de imagen",
+      "generateFailed": "Fallo al generar el icono, intente nuevamente",
+      "uploadTitle": "Subir imagen",
+      "uploadAria": "Subir un archivo de imagen",
+      "dropzoneAria": "Haga clic para subir una imagen, admite PNG, JPG, SVG y más",
+      "dropRelease": "Suelte para subir la imagen",
+      "dropClick": "Haga clic o arrastre una imagen aquí",
+      "supportFormats": "Admite PNG, JPG, SVG y más",
+      "clearImage": "Borrar imagen",
+      "clearImageTitle": "Borrar imagen (Ctrl+L)",
+      "settingsTitle": "Configuración",
+      "removeBackground": "Eliminar color de fondo de la imagen",
+      "removeColor": "Color a eliminar",
+      "removeColorPicker": "Elija el color de fondo a eliminar",
+      "removeColorValue": "Valor del color de fondo a eliminar",
+      "tolerance": "Tolerancia: {{value}}",
+      "toleranceAria": "Tolerancia de color",
+      "toleranceTip": "Una tolerancia más alta elimina un rango de colores más amplio",
+      "transparentBackground": "Fondo transparente",
+      "transparentTip": "Nota: Si la imagen original ya tiene un color de fondo, habilite ?Eliminar color de fondo de la imagen?.",
+      "backgroundColor": "Color de fondo",
+      "backgroundColorPicker": "Elija un color de fondo",
+      "backgroundColorValue": "Valor del color de fondo",
+      "selectSize": "Seleccionar tamaños",
+      "selectedState": " (seleccionado)",
+      "sizeAria": "{{size}}x{{size}} tamaño de píxeles{{state}}",
+      "toggleSizeTitle": "Alternar tamaño {{size}}x{{size}} (Alt+{{shortcut}})",
+      "previewTitle": "Vista previa",
+      "generating": "Generando...",
+      "downloadSizeAria": "Descargar icono {{size}}x{{size}}",
+      "download": "Descargar",
+      "uploadFirst": "Por favor, suba una imagen primero",
+      "downloadTitle": "Descargar",
+      "downloadAllPng": "Descargar todos los tamaños (PNG)",
+      "downloadAllPngTitle": "Descargar todos los tamaños PNG (Ctrl+Enter)",
+      "downloadIco": "Descargar favicon.ico",
+      "downloadIcoTitle": "Descargar favicon.ico (Alt+I)",
+      "usageTitle": "Cómo usar",
+      "usageItems": [
+        "Eliminar color de fondo: elimina fondos sólidos como gris o blanco",
+        "Tolerancia: aumente la tolerancia para eliminar colores similares, útil para fondos con degradados",
+        "16x16: icono de pestaña del navegador",
+        "32x32: icono de acceso directo en la barra de tareas",
+        "48x48: acceso directo de sitio web en Windows",
+        "Coloque el icono generado en el directorio raíz de su sitio web"
+      ]
+    }
+  },
+  "components": {
+    "toolHistory": {
+      "usageCount": "Usado {{count}} veces",
+      "recentUsed": "Último uso: {{value}}",
+      "removeFavorite": "Eliminar de favoritos",
+      "addFavorite": "Agregar a favoritos",
+      "removeRecord": "Eliminar registro",
+      "emptyHistory": "Aún no hay historial de herramientas",
+      "confirmClear": "¿Está seguro de que desea borrar todo el historial de herramientas?",
+      "tabs": {
+        "recent": "Recientes",
+        "favorites": "Favoritos",
+        "mostUsed": "Más Usados"
+      },
+      "title": "Historial de Herramientas",
+      "clearHistory": "Borrar historial",
+      "searchPlaceholder": "Buscar historial...",
+      "emptyMessages": {
+        "recent": "No hay registros de uso reciente",
+        "favorites": "Aún no hay herramientas favoritas",
+        "mostUsed": "Aún no hay herramientas más usadas"
+      }
+    },
+    "exportFormatSelector": {
+      "buttonText": "Exportar resultados",
+      "exporting": "Exportando...",
+      "exportFailed": "Falló la exportación, por favor intente de nuevo"
+    },
+    "ads": {
+      "loading": "Cargando anuncios...",
+      "carouselTitle": "Carrusel de anuncios",
+      "checkConsole": "Por favor, consulte la consola del navegador para obtener registros detallados"
+    },
+    "networkStatus": {
+      "online": "En línea",
+      "offline": "Desconectado",
+      "connected": "Red conectada",
+      "disconnected": "Red desconectada",
+      "connectedDescription": "Todas las funciones están disponibles ahora",
+      "disconnectedDescription": "Algunas funciones podrían no estar disponibles. Por favor, verifique su conexión de red.",
+      "requestFailed": "Solicitud fallida"
+    },
+    "keyboardShortcutsHelp": {
+      "title": "Atajos de teclado",
+      "close": "Cerrar",
+      "toggleDescription": "Mostrar o ocultar la ayuda de atajos de teclado",
+      "helpTextBefore": "Presione",
+      "helpTextMiddle": "o",
+      "helpTextAfter": "para mostrar u ocultar esta ayuda",
+      "tipTitle": "Consejos",
+      "tipItems": [
+        "Las etiquetas de los atajos pueden verse ligeramente diferentes según el sistema operativo",
+        "Algunos atajos pueden entrar en conflicto con los atajos del navegador",
+        "Use la tecla Tab para moverse entre los elementos con foco",
+        "Presione Intro para activar botones y enlaces"
+      ],
+      "closeEsc": "Cerrar (ESC)"
+    },
+    "performanceDashboard": {
+      "title": "Panel de rendimiento",
+      "startMonitoring": "Iniciar monitoreo",
+      "stopMonitoring": "Detener monitoreo",
+      "exportReport": "Exportar informe",
+      "notMeasured": "No medido",
+      "metrics": {
+        "fcp": "Primer Pintado de Contenido",
+        "lcp": "Mayor Pintado de Contenido",
+        "fid": "Retardo de Entrada Primera",
+        "cls": "Desplazamiento de Diseño Acumulado",
+        "ttfb": "Tiempo hasta Primer Byte"
+      },
+      "memoryTitle": "Uso de memoria",
+      "memory": {
+        "used": "Memoria utilizada",
+        "total": "Memoria total",
+        "usageRate": "Tasa de uso"
+      },
+      "tipsTitle": "Consejos de optimización",
+      "tips": [
+        "Utilice la aplicación normalmente mientras monitorea; los datos se actualizarán en tiempo real",
+        "FCP < 1,8s, LCP < 2,5s, FID < 100ms y CLS < 0,1 se consideran excelentes",
+        "Si el uso de memoria supera el 80%, considere optimizar el código",
+        "Puede exportar un informe detallado para un análisis más profundo"
+      ],
+      "emptyState": "Haga clic en ?Iniciar monitoreo? para comenzar el análisis de rendimiento"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+server/dist
+electron/dist
+electron/build
+dist-release-1.0.1
+temp_build
+project-backup
+bt-deploy
+webtools-deploy
+webtools-docker
+webtools-minimal
+desktop-to-web-migration
+i18n-rollout
+kunqiong-web-login
+更新
+翻译脚本
+*.zip
+*.tar.gz
+.electron-dev-user-data/
+*.tsbuildinfo
+*.local
+.aiformat-footer.txt
+
+# i18n 翻译缓存（脚本生成，勿提交）
+scripts/.i18n-translate-cache.json
+scripts/.mymemory-kunqiong-cache.json
+scripts/.mymemory-stale-cache.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+!env.example
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

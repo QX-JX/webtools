@@ -1,0 +1,2696 @@
+{
+  "common": {
+    "home": "首页",
+    "websiteDetection": "வலைதள தகவல்",
+    "seoTools": "SEO உதுவர்கள்",
+    "devTools": "வளர்ச்சி உதுவர்கள்",
+    "encodingConversion": "எண்ணியல் மாற்றம்",
+    "otherTools": "மற்ற உதுவர்கள்",
+    "feedback": "மேலோக்கம் தரவு",
+    "customization": "குறிபettaல்/உடைய இருப்பவர்களுடன் இணைந்துகொள்ளுங்கள்",
+    "back": "மையம் திருப்தி",
+    "appName": "அனைத்து சேவைகளின் மலர்ப்பேரரசர் உயர்க்கறை",
+    "brandName": "குன்கூங் தரப்பினல் உறுப்பினர்",
+    "loading": "ல:// இழப்பன்...",
+    "processing": "வரையறுதல் செயலியை நிருவகிக்கப்படுகின்றது",
+    "processingDescription": "கIND2வி போதுகொள்க, நாங்கள் தொடர்புடன் தரவை செயலிழக்கினுள் வருகிறோம்...",
+    "inProgress": "செயலிழக்கின்றோம்",
+    "search": "இயந்திரக் கருவிகளை தேடுக...",
+    "my": "என்",
+    "menu": "மனுப்பட்டவை",
+    "settings": "அமைப்புக் கட்டுகள்",
+    "all": "ஏறு",
+    "category": "வகைப்படுத்தல்",
+    "noToolsFound": "இணைக்கப்படாத உதவிகளை கண்டுபிடிக்கவில்லை",
+    "recommended": "இருத்தாக்குவது",
+    "usageCount": "{{count}} முறைப் பயன்படுத்தப்பட்டது",
+    "toolsCount": "{{count}} ஆற்றுடமியாக்கங்கள்",
+    "export": "வெளியிடு",
+    "usageInstructions": "பயன்பாடு விளக்கம்"
+  },
+  "auth": {
+    "login": "லாகிந்",
+    "logout": "லாகிந் தவறவிடு",
+    "userInfo": "பயனர் தகவல்",
+    "nickname": "昵称",
+    "avatar": "வானக்கருவின் படத்து",
+    "user": "பயனர்",
+    "loggedIn": "இணைக்கப்பட்டுள்ளது",
+    "loggingOut": "வெளியேறலும்...",
+    "loggingIn": "இணைக்கும்...",
+    "loginInstructions": "பிர道林格浏览器中完成登录",
+    "cancelLogin": "ரதியை மறுக்குங்கள்",
+    "loginFailed": "ரதித்தல் தோல்வி",
+    "retry": "மீண்டும் சோதிக்கவும்",
+    "close": "திறக்கவும்",
+    "loginDescription": "கீழே உள்ள பொதுவடிவ கட்டளையை அழுத்தி தொகுப்பில் ரதித்தல் தரையில் தொடங்குவதை திறக்கவும். ரதித்தல் நிபந்தனையை முடக்கினால் பொதுவடிவ கட்டளையின் ரதித்தல் நிபந்தனை மையமாக மாறுவதை அறிமுகமாக்கவும்.",
+    "loginTip": "💡 குறிப்பு: ரதித்தல் நிபந்தனையில் பொதுவடிவ கட்டளையை திறந்து வைக்க உதவியும் ரதித்தல் நிபந்தனையில் பொதுவடிவ கட்டளையை மூட வேண்டும்.",
+    "openBrowserLogin": "பொதுவடிவ கட்டளையில் ரதித்தல் திறக்கவும்",
+    "cancel": "ரதியை மறுக்கவும்",
+    "loginReminder": "登錄.nihao.ai 提醒",
+    "loginRequiredTitle": "該使用者帳號已登出。請重新登入。",
+    "loginRequiredDescription": "該使用者帳號已在另一台裝置上登入。請重新登入。",
+    "loginActionDescription": "கீழே உள்ள பொதுவடிக்கையை அழுகி விநாடிக்கை தரவழக்க பக்கம் திறக்கவும்,\nஇந்த பக்கத்தில் விநாடிக்கையை முடியவும்",
+    "loginNow": "விநாடிக்கையிறக்கு",
+    "loginBenefit": "所有情节和功能都只有在登入後才能使用",
+    "errors": {
+      "getLoginUrlFailed": "புள்ளி மதிப்பெண் கணக்கிடல் தொலைவியோ முகவரியைப் பெற தவறிலை: {{message}}",
+      "getLoginUrlException": "கேட்கவுள்ளத்தின் அந்தவனவழி போர்ச்சு: {{error}}",
+      "loginCancelled": "இணைப்பு தவறாக்கப்பட்டது",
+      "pollingAbnormal": "பார்வையல் போர்ச்சு: {{message}}",
+      "pollingFailed": "பார்வையல் தோல்வி: {{error}}",
+      "loginTimeout": "இணைப்பு மீளவு வரைவியல்",
+      "checkLoginStatusFailed": "இணைப்பு நிலையைச் சரிபார்த்தல் தவறு, நிலை எண்: {{status}}",
+      "checkLoginException": "இணைப்பு போர்ச்சு",
+      "getUserInfoFailed": "கருவியின் தகவல்களை பெறுவதில் தவறம்: {{message}}",
+      "getUserInfoException": "கருத்தாளர் தகவல்களைப் பெறுவதில் பாதிக்கூட்டுதல்: {{error}}",
+      "logoutFailed": "செலவிழுத்தல் தூலத்தில் தோல்வி: {{message}}",
+      "logoutException": "செலவிழுத்தல் தூலத்தில் பாதிக்கூட்டுதல்: {{error}}",
+      "getFeedbackUrlFailed": "கே得 பொருள் வழிமுதலி மாற்றம்: {{message}}",
+      "getFeedbackUrlException": "கே得 பொருள் வழிமுதலி போய்ச்சி: {{error}}"
+    }
+  },
+  "favorite": {
+    "add": "கைவிடப்பட்டுள்ளது",
+    "remove": "கைவிடவில்லை",
+    "label": "குறிப்பேத்தவர்",
+    "failed": "செயல்முறை வலினான்"
+  },
+  "errors": {
+    "fetchCustomUrlFailed": "குறிப்பிடப்பட்ட பக்க இணையதள உருவாக்கம் தொலைந்துகொள்ளப்பட்டது:",
+    "fetchFeedbackUrlFailed": "குறிப்பிடப்பட்ட பக்க அழைப்பு இணையதள உருவாக்கம் தொலைந்துகொள்ளப்பட்டது:",
+    "copyFailed": "இருப்பிடத்தில் வலினான்",
+    "networkError": "இணைய இணைப்பு தவறு",
+    "somethingWentWrong": "தவறுக்கு இடம்",
+    "unexpectedError": "காத்திருப்போம், ஒரு சூழ்நிலை தவறு ஏற்றது",
+    "noData": "இFORMATION இலவசம்",
+    "noRelatedData": "தேவையான இ Nashvilleformation கிட்டவரை கணக்கிட முடியவில்லை",
+    "noAds": "இ இலவசம்",
+    "fetchAdsError": "கிறிப்புக் கட்டுரை விபரப்புகள் மாற்றம் இலக்குகள் அளிக்கவும்",
+    "lookupFailed": "தேர்ந்தவர் செயல்பாடு தோல்வி இலக்குகள் அளிக்கவும்"
+  },
+  "tools": {
+    "csr": {
+      "title": "இணைய உரிமை செயல்பாடுகள் தோல்வி இலக்குகள் அளிக்கவும்",
+      "description": "கிராம வரிசை தோல்வி இலக்குகள் அளிக்கவும்"
+    },
+    "whois": {
+      "title": "தேனாம் WHOIS தேர்ந்தெடுப்பு",
+      "description": "இணையதள தேனாம் WHOIS தகவல்கள் மற்றும் தேனாம் செயல்படுத்தல் தகவல்களை தேர்ந்தெடுக்கவும்"
+    },
+    "dns": {
+      "title": "தேனாம் விளக்கல் குறியீடுகள் தேர்ந்தெடுப்பு",
+      "description": "இணையதள தேனாம் விளக்கல் குறியீடுகள் தகவல்களை தேர்ந்தெடுக்க உபகரத்து (A, MX, CNAME என்னும்)"
+    },
+    "dnsEnhanced": {
+      "title": "தேவை விளையாட குறிப்புகள் தேரலாமான வடிவம்",
+      "description": "வெற்றி சூழல் திருத்தலாகவும் வலுவர்களைப் போலாகவும் தொடர்புடைய குழுவைகளை செயல்படுத்துவதற்கான DNS தேர்வு அமைப்பு உதவி"
+    },
+    "httpStatus": {
+      "title": "HTTP அளவு தேர்ந்தயிரல் உபகரத்து",
+      "description": "ஒரு செல்லாத இணைய பக்க அளவு தேர்ந்தயிரல் மூலம்"
+    },
+    "gzip": {
+      "title": "வலைபத்தின் Gzip குறுக்கம் கணக்கிடுதல்",
+      "description": "ஒரு வலைப்பக்கத்தில் வலைப்பக்கம் என்ன GZIP குறுக்கம் செய்யப்பட்டது மற்றும் குறுக்க விகிதம் என்ன என்பதை கணக்கிடுதல்"
+    },
+    "ssl": {
+      "title": "SSL நிர்வகம் கணக்கிடுதல்",
+      "description": "இணையதளத்தில் SSL நிர்வகத்தை கணக்கிடுதல் உபகரத்து, நிர்வகத்தின் வேலை வருடங்கள் மற்றும் தோற்கையான தரவைக் காண்க"
+    },
+    "browserInfo": {
+      "title": "வலையார் தகவல் கணக்கிடுதல்",
+      "description": "ஒரு நீக்கமிடா வலையார் தகவல் கணக்கிடுதல் உபகரத்து சொந்தமாக காண்க"
+    },
+    "useragent": {
+      "title": "வழக்கரசூலை விதிக்கு கணக்கிடுதலும் தேர்வுசெய்தலும்",
+      "description": "UA இணையதளத்தில் விதிக்கு கணக்கிடுதலும் தேர்வுசெய்தலும் உபகரத்து, வலையார் மற்றும் உருவாக்கம் தகவலை பகுத்துக் கணக்கிடுதல்"
+    },
+    "websocket": {
+      "title": "இணையதளத்தில் WebSocket தொடர்புகள் கணக்கிடுதல்",
+      "description": "ஒரு நீக்கமிடா இணையதளத்தில் WebSocket தொடர்புகள் கணக்கிடுதல் உபகரத்து"
+    },
+    "viewSource": {
+      "title": "வலைப்பக்க விளக்க மொழி கணக்கிடுதல்",
+      "description": "இணையதளத்தில் வலைப்பக்க விளக்க மொழியை கணக்கிடுதல்"
+    },
+    "metaGenerator": {
+      "title": "வலைப்பக்க மெடா குறியீடு உருவாக்கம்",
+      "description": "வலைப்பக்க உருவாக்க உபகரத்து மெடா குறியீடு இணையதளத்தில் உருவாக்கம் உபகரத்து"
+    },
+    "metaCheck": {
+      "title": "வலைப்பக்க மெடா கணக்கிடுதல்",
+      "description": "在线检测网页中的META标签信息检测"
+    },
+    "robots": {
+      "title": "robots.txt文件生成器",
+      "description": "在线网站robots.txt文件生成工具"
+    },
+    "emailEncrypt": {
+      "title": "在线Email邮箱地址加密",
+      "description": "将Email地址转换成Unicode编码格式，防止采集"
+    },
+    "phpReference": {
+      "title": "PHP函数参考表",
+      "description": "PHP在线函数参考列表"
+    },
+    "htmlPreview": {
+      "title": "HTML代码调试预览",
+      "description": "HTML代码在线调试预览工具"
+    },
+    "jsDebug": {
+      "title": "JS代码调试",
+      "description": "JS在线运行调试工具"
+    },
+    "shieldBadge": {
+      "title": "在线Shield Badge生成",
+      "description": "在线生成SVG格式的Shield Badge徽章"
+    },
+    "favicon": {
+      "title": "在线Favicon图标生成",
+      "description": "一款安全的在线Favicon图标转换工具"
+    },
+    "cssGlassmorphism": {
+      "title": "CSS毛玻璃效果生成器",
+      "description": "一键生成CSS毛玻璃效果的代码"
+    },
+    "cssNeumorphism": {
+      "title": "新拟态风格CSS代码生成器",
+      "description": "一键生成新拟态CSS风格样式代码示例"
+    },
+    "pxToRem": {
+      "title": "CSS中PX批量转REM工具",
+      "description": "批量将CSS代码中的PX单位转为REM单位"
+    },
+    "cssBorderRadius": {
+      "title": "CSS圆角效果生成",
+      "description": "在线调试CSS边框圆角样式"
+    },
+    "cssTextShadow": {
+      "title": "CSS文字阴影效果生成",
+      "description": "在线调试CSS文字阴影并生成CSS代码"
+    },
+    "cssBoxShadow": {
+      "title": "DIV元素阴影效果生成",
+      "description": "一键调试DIV元素阴影并生成CSS代码"
+    },
+    "base64": {
+      "title": "Base64编解码",
+      "description": "在线Base64编码解码工具"
+    },
+    "urlEncode": {
+      "title": "URL编解码",
+      "description": "在线URL编码解码工具"
+    },
+    "htmlEntity": {
+      "title": "HTML实体编解码",
+      "description": "在线HTML实体编码解码工具"
+    },
+    "jsMinify": {
+      "title": "JS压缩与格式化",
+      "description": "在线JavaScript代码压缩与美化工具"
+    },
+    "cssMinify": {
+      "title": "CSS压缩与格式化",
+      "description": "在线CSS代码压缩与美化工具"
+    },
+    "desktopShortcut": {
+      "title": "网站桌面快捷方式",
+      "description": "给网站添加一个桌面快捷方式，方便网站访问"
+    },
+    "pageRefresh": {
+      "title": "网页定时刷新",
+      "description": "在线定时刷新指定远程网址"
+    },
+    "httpCodes": {
+      "title": "HTTP状态码",
+      "description": "HTTP状态码/HTTP响应码在线查询工具"
+    },
+    "workerDemo": {
+      "title": "Web Worker 性能演示",
+      "description": "展示Web Worker在处理复杂计算时的性能优势"
+    },
+    "formValidation": {
+      "title": "表单验证演示",
+      "description": "展示完整的表单验证功能，包括实时验证、错误提示等"
+    }
+  },
+  "categories": {
+    "detection": "网站检测",
+    "seo": "SEO工具",
+    "dev": "开发工具",
+    "encode": "编码转换",
+    "other": "其他工具"
+  },
+  "footer": {
+    "description": "专业的在线全能站长工具箱，提供网站检测、SEO优化、开发工具等全方位服务。",
+    "toolCategories": "工具分类",
+    "brandAI": "鲲穹AI旗下产品",
+    "brandAlt": "鲲穹"
+  },
+  "validation": {
+    "required": "{{field}} 是必填项",
+    "minLength": "{{field}} 最少需要 {{count}} 个字符",
+    "maxLength": "{{field}} 最多允许 {{count}} 个字符",
+    "invalidFormat": "{{field}} 格式不正确",
+    "email": "请输入有效的邮箱地址",
+    "url": "请输入有效的URL地址",
+    "domain": "请输入有效的域名",
+    "ip": "请输入有效的IP地址",
+    "phone": "请输入有效的手机号码",
+    "password": "密码必须包含大小写字母和数字，长度6-20位"
+  },
+  "exporter": {
+    "unsupportedFormat": "不支持的导出格式: {{format}}",
+    "csvRequiresArrayOrObject": "CSV 导出需要数组或对象数据",
+    "toolUsageInfo": "工具使用信息",
+    "tool": "工具",
+    "time": "时间",
+    "url": "网址",
+    "version": "版本",
+    "dnsReportTitle": "DNS查询结果报告",
+    "dnsReportDescription": "域名解析记录详细信息",
+    "summaryTitle": "查询概要",
+    "domain": "域名",
+    "recordCount": "记录总数",
+    "recordCountValue": "{{count}} 条",
+    "queryTime": "查询时间",
+    "typeDescriptions": {
+      "A": "IPv4地址记录",
+      "AAAA": "IPv6地址记录",
+      "MX": "邮件服务器记录",
+      "TXT": "文本记录",
+      "CNAME": "别名记录",
+      "NS": "域名服务器记录",
+      "SOA": "授权记录"
+    },
+    "record": "记录",
+    "otherRecords": "其他记录",
+    "recordIndex": "记录 {{index}}",
+    "priority": "优先级",
+    "class": "类别",
+    "exportData": "导出数据",
+    "dnsToolName": "DNS查询工具",
+    "exportInfo": "导出信息",
+    "exportTime": "导出时间",
+    "formats": {
+      "json": "结构化数据格式，易于程序处理",
+      "csv": "表格数据格式，适合Excel导入",
+      "txt": "纯文本格式，易于阅读",
+      "xml": "标记语言格式，适合数据交换",
+      "pdf": "文档格式，适合打印和分享"
+    }
+  },
+  "base64": {
+    "title": "Base64编解码",
+    "description": "在线Base64编码和解码工具",
+    "encode": "编码",
+    "decode": "解码",
+    "originalText": "原始文本",
+    "base64String": "Base64字符串",
+    "base64Result": "Base64结果",
+    "decodeResult": "解码Result",
+    "placeholderEncode": "输入要编码的文本...",
+    "placeholderDecode": "输入要解码的Base64字符串...",
+    "resultPlaceholder": "结果将显示在这里...",
+    "inputPlaceholder": "请输入要转换的内容",
+    "decodeError": "解码失败，请检查输入是否为有效的Base64字符串",
+    "encodeError": "编码失败",
+    "charCount": "字符数: {{count}}",
+    "clear": "清空输入",
+    "copy": "复制结果",
+    "copied": "已复制",
+    "convert": "立即转换",
+    "swap": "交换模式",
+    "ariaLabel": "Base64编解码工具",
+    "modeSelection": "转换模式选择",
+    "encodeMode": "编码模式",
+    "decodeMode": "解码模式",
+    "inputLabelEncode": "输入要编码的文本",
+    "inputLabelDecode": "输入要解码的Base64字符串",
+    "outputLabelEncode": "Base64编码结果",
+    "outputLabelDecode": "Base64解码结果",
+    "whatIsBase64": "什么是 Base64？",
+    "base64Info": "Base64 是一种基于64个可打印字符来表示二进制数据的编码方式。常用于在URL、Cookie、网页中传输少量二进制数据，或者在文本协议中嵌入图片等二进制内容。"
+  },
+  "dns": {
+    "title": "域名解析记录查询",
+    "description": "在线查询域名的DNS解析记录（A、MX、CNAME等）",
+    "placeholder": "输入域名，例如: example.com",
+    "invalidDomain": "请输入有效的域名格式 (如: example.com)",
+    "domainInput": "域名输入",
+    "validFormat": "域名格式正确",
+    "typeSelect": "DNS记录类型选择",
+    "searchBtn": "查询DNS记录",
+    "loadingTitle": "正在查询DNS记录",
+    "loadingDesc": "请稍候，我们正在为您查询域名的DNS记录...",
+    "resultRegion": "DNS查询结果",
+    "recordCount": "{{count}} 条",
+    "typeRecordRegion": "{{type}}记录",
+    "querying": "正在查询DNS记录",
+    "queryingDesc": "请稍候，我们正在为您查询域名的DNS记录...",
+    "foundRecords": "共找到 {{count}} 条记录",
+    "queryTime": "查询时间: {{time}}",
+    "export": "导出结果",
+    "noRecords": "未找到DNS记录",
+    "noRecordsDesc": "该域名没有查询到任何DNS记录",
+    "typeInfo": "DNS记录类型说明",
+    "priority": "优先级: {{priority}}",
+    "types": {
+      "ALL": "全部",
+      "A": "A记录",
+      "AAAA": "AAAA记录",
+      "MX": "MX记录",
+      "TXT": "TXT记录",
+      "CNAME": "CNAME记录",
+      "NS": "NS记录",
+      "SOA": "SOA记录"
+    },
+    "typeDescs": {
+      "A": "IPv4地址",
+      "AAAA": "IPv6地址",
+      "MX": "邮件服务器",
+      "TXT": "文本记录",
+      "CNAME": "别名记录",
+      "NS": "域名服务器",
+      "SOA": "授权记录"
+    },
+    "typeDetails": {
+      "A": "将域名指向一个IPv4地址",
+      "AAAA": "将域名指向一个IPv6地址",
+      "MX": "指定邮件服务器地址，优先级数字越小优先级越高",
+      "TXT": "存储文本信息，常用于SPF、DKIM等验证",
+      "CNAME": "将域名指向另一个域名（别名）",
+      "NS": "指定域名的DNS服务器"
+    }
+  },
+  "whois": {
+    "title": "域名WHOIS信息查询",
+    "description": "在线查询域名的WHOIS信息、注册信息",
+    "placeholder": "输入域名，例如: example.com",
+    "invalidDomain": "请输入有效的域名格式 (如: example.com)",
+    "querying": "正在查询WHOIS信息",
+    "queryingDesc": "请稍候，我们正在为您查询域名的注册信息...",
+    "domainInfo": "域名信息",
+    "registrar": "注册商",
+    "creationDate": "注册日期",
+    "expirationDate": "到期日期",
+    "updatedDate": "更新日期",
+    "dnssec": "DNSSEC",
+    "dnssecDisabled": "未启用",
+    "expired": "已过期 {{days}} 天",
+    "expiringSoon": "{{days}} 天后过期",
+    "remaining": "剩余 {{days}} 天",
+    "dnsServer": "DNS服务器",
+    "domainStatus": "域名状态",
+    "registrantInfo": "注册人信息",
+    "name": "姓名",
+    "organization": "组织",
+    "country": "国家",
+    "email": "邮箱",
+    "noInfo": "未找到相关信息",
+    "domain": "域名",
+    "rawData": "原始数据",
+    "toggleRawData": "展开或收起原始数据",
+    "copyRawData": "复制原始数据",
+    "copy": "复制",
+    "copied": "已复制",
+    "whatIsWhois": "什么是 WHOIS？",
+    "about": "WHOIS 是用于查询域名注册信息的协议。通过 WHOIS 查询，您可以了解域名的注册商、注册日期、到期日期、DNS服务器、注册人信息等。这对于域名交易、品牌保护、网络安全调查等场景非常有用。"
+  },
+  "httpStatus": {
+    "title": "HTTP状态查询工具",
+    "description": "在线检测网页的HTTP状态码和响应信息",
+    "placeholder": "输入URL，例如: https://example.com",
+    "check": "检测",
+    "followRedirects": "自动跟随重定向",
+    "urlEmpty": "请输入URL",
+    "checkFailed": "检测失败",
+    "serverError": "服务器连接失败，请稍后重试",
+    "unknownStatus": "未知状态",
+    "responseTime": "响应时间",
+    "headers": "响应头",
+    "redirectUrl": "重定向地址",
+    "contentType": "内容类型",
+    "contentLength": "内容长度",
+    "server": "服务器",
+    "showHeaders": "显示响应头",
+    "hideHeaders": "隐藏响应头",
+    "status": {
+      "100": "继续",
+      "101": "切换协议",
+      "200": "成功",
+      "201": "已创建",
+      "204": "无内容",
+      "301": "永久重定向",
+      "302": "临时重定向",
+      "304": "未修改",
+      "307": "临时重定向",
+      "308": "永久重定向",
+      "400": "错误请求",
+      "401": "未授权",
+      "403": "禁止访问",
+      "404": "未找到",
+      "405": "方法不允许",
+      "408": "请求超时",
+      "429": "请求过多",
+      "500": "服务器内部错误",
+      "502": "网关错误",
+      "503": "服务不可用",
+      "504": "网关超时"
+    }
+  },
+  "browserInfo": {
+    "title": "浏览器信息查看",
+    "description": "查看当前浏览器的详细信息",
+    "os": "操作系统",
+    "browser": "浏览器",
+    "version": "版本",
+    "engine": "内核",
+    "device": "设备",
+    "screen": "屏幕分辨率",
+    "viewport": "视口大小",
+    "language": "语言",
+    "timezone": "时区",
+    "cookieEnabled": "Cookie已启用",
+    "online": "在线",
+    "cpu": "CPU架构",
+    "userAgent": "UserAgent",
+    "platform": "平台",
+    "vendor": "浏览器厂商",
+    "languages": "支持语言",
+    "cookie": "Cookie",
+    "onlineStatus": "在线状态",
+    "doNotTrack": "Do Not Track",
+    "touchPoints": "触控点数",
+    "enabled": "已启用",
+    "disabled": "已禁用",
+    "offline": "离线",
+    "hardwareInfo": "硬件信息",
+    "cpuCores": "CPU 核心数",
+    "cpuCoresValue": "{{count}} 核",
+    "deviceMemory": "设备内存",
+    "screenInfo": "屏幕信息",
+    "availArea": "可用区域",
+    "windowSize": "窗口大小",
+    "pixelRatio": "设备像素比",
+    "colorDepth": "色彩深度",
+    "screenOrientation": "屏幕方向",
+    "unknown": "未知",
+    "basicInfo": "基本信息",
+    "networkInfo": "网络信息",
+    "networkType": "网络类型",
+    "downlink": "下行带宽",
+    "rtt": "往返时延",
+    "saveData": "省流模式",
+    "batteryInfo": "电池信息",
+    "batteryLevel": "电量",
+    "chargingStatus": "充电状态",
+    "charging": "充电中",
+    "notCharging": "未充电",
+    "timezoneInfo": "时区信息",
+    "utcOffset": "UTC 偏移"
+  },
+  "viewSource": {
+    "title": "查看网页源码",
+    "description": "在线查看网页源代码",
+    "placeholder": "输入URL，例如: https://example.com",
+    "fetch": "获取源码",
+    "urlEmpty": "请输入URL",
+    "fetchFailed": "获取源码失败",
+    "serverError": "服务器连接失败",
+    "lineCount": "行数: {{count}}",
+    "copy": "复制源码",
+    "clear": "清空",
+    "usage1": "输入完整的网页URL，点击获取源码",
+    "usage2": "支持查看任意公开网页的HTML源代码",
+    "usage3": "可以复制或下载源代码进行分析",
+    "usage4": "部分网站可能因为安全策略无法获取"
+  },
+  "urlEncode": {
+    "title": "URL编解码",
+    "description": "在线URL编码和解码工具",
+    "encode": "编码",
+    "decode": "解码",
+    "placeholder": "输入要转换的内容...",
+    "result": "结果",
+    "error": "编解码失败"
+  },
+  "htmlEntity": {
+    "title": "HTML实体编解码",
+    "description": "在线HTML实体编码和解码工具",
+    "encode": "编码",
+    "decode": "解码",
+    "placeholder": "输入要转换的内容...",
+    "result": "结果"
+  },
+  "jsMinify": {
+    "title": "JS压缩与格式化",
+    "description": "在线JavaScript代码压缩与美化工具",
+    "minify": "压缩",
+    "beautify": "美化",
+    "placeholder": "粘贴JavaScript代码...",
+    "result": "处理结果",
+    "error": "代码处理失败"
+  },
+  "cssMinify": {
+    "title": "CSS压缩与格式化",
+    "description": "在线CSS代码压缩与美化工具",
+    "minify": "压缩",
+    "beautify": "美化",
+    "placeholder": "粘贴CSS代码...",
+    "result": "处理结果",
+    "error": "代码处理失败"
+  },
+  "pages": {
+    "sslCheck": {
+      "title": "SSL????",
+      "description": "?????? SSL ????????",
+      "enterDomain": "?????",
+      "checkFailed": "????",
+      "serverConnectionFailed": "?????????????",
+      "inputPlaceholder": "???????: example.com",
+      "check": "??",
+      "statusExpired": "?????",
+      "statusExpiringSoon": "??????",
+      "statusValid": "????",
+      "statusProblem": "??????",
+      "expiredDays": "??? {{count}} ?",
+      "remainingDays": "?? {{count}} ?",
+      "warning": "??: {{message}}",
+      "protocol": "??",
+      "validityPeriod": "???",
+      "validFrom": "????",
+      "validTo": "????",
+      "certificateInfo": "????",
+      "subject": "?? (Subject)",
+      "issuer": "??? (Issuer)",
+      "commonName": "???? (CN)",
+      "organization": "?? (O)",
+      "organizationUnit": "?? (OU)",
+      "country": "?? (C)",
+      "subjectAltNames": "???? (SAN) - {{count}} ???",
+      "technicalDetails": "????",
+      "serialNumber": "???",
+      "fingerprintSha1": "?? (SHA-1)",
+      "fingerprintSha256": "?? (SHA-256)",
+      "cipherSuite": "????",
+      "infoTitle": "SSL????",
+      "infoItems": [
+        "SSL??????????????????",
+        "????????????????",
+        "????????30?????",
+        "SAN (Subject Alternative Name) ????????????"
+      ]
+    },
+    "gzipCheck": {
+      "title": "?? Gzip ????",
+      "description": "???????? Gzip / Deflate / Brotli ??",
+      "enterUrl": "???URL",
+      "checkFailed": "????",
+      "serverConnectionFailed": "?????????????",
+      "inputPlaceholder": "??URL???: https://example.com",
+      "check": "??",
+      "enabled": "?????",
+      "disabled": "?????",
+      "compressionType": "????: {{type}}",
+      "enableSuggestion": "???? Gzip ?????????",
+      "supportTitle": "??????",
+      "gzipDescription": "????????",
+      "deflateDescription": "???????",
+      "brotliDescription": "?????????",
+      "effectTitle": "????",
+      "originalSize": "????",
+      "compressedSize": "?????",
+      "ratio": "???",
+      "savedTransfer": "??? {{value}} ?????",
+      "detailsTitle": "????",
+      "whyTitle": "?????? Gzip ???",
+      "whyItems": [
+        "?????????????? 60-80%",
+        "???????????????",
+        "????????????",
+        "??? SEO???????????????"
+      ]
+    },
+    "dnsLookupEnhanced": {
+      "title": "?????????????",
+      "description": "??????? DNS ?????????????????",
+      "enterDomain": "?????",
+      "lookupFailed": "????",
+      "serverConnectionFailed": "?????????????",
+      "inputPlaceholder": "???????: example.com",
+      "lookup": "??",
+      "priority": "???: {{value}}",
+      "dnsTypes": [
+        {
+          "value": "ALL",
+          "label": "??"
+        },
+        {
+          "value": "A",
+          "label": "A??",
+          "desc": "IPv4??"
+        },
+        {
+          "value": "AAAA",
+          "label": "AAAA??",
+          "desc": "IPv6??"
+        },
+        {
+          "value": "MX",
+          "label": "MX??",
+          "desc": "?????"
+        },
+        {
+          "value": "TXT",
+          "label": "TXT??",
+          "desc": "????"
+        },
+        {
+          "value": "CNAME",
+          "label": "CNAME??",
+          "desc": "????"
+        },
+        {
+          "value": "NS",
+          "label": "NS??",
+          "desc": "?????"
+        },
+        {
+          "value": "SOA",
+          "label": "SOA??",
+          "desc": "????"
+        }
+      ],
+      "foundRecords": "??? {{count}} ???",
+      "queryTime": "????: {{time}}",
+      "virtualScrollEnabled": "?????????",
+      "recordCount": "?{{count}} ??",
+      "virtualScrollTag": "??????",
+      "noRecords": "?????DNS??",
+      "performanceTitle": "????????",
+      "performanceItems": [
+        "? DNS ???? {{count}} ?????????????",
+        "?????????????????????",
+        "??????????? DOM ?????????",
+        "???????????????????"
+      ]
+    },
+    "metaCheck": {
+      "title": "?? META ??",
+      "description": "???????? META ????",
+      "enterUrl": "?????",
+      "checkFailed": "????",
+      "urlLabel": "????",
+      "inputPlaceholder": "example.com ? https://example.com",
+      "check": "??",
+      "resultTitle": "????",
+      "totalCount": "???? {{count}} ? META ??",
+      "groups": {
+        "pageTitle": "????",
+        "httpEquiv": "HTTP??",
+        "charset": "????",
+        "basicMeta": "??META"
+      },
+      "emptyContent": "???",
+      "infoTitle": "??",
+      "infoItems": [
+        "?????????? title?meta name?meta property (Open Graph)?meta http-equiv ???",
+        "???????????????? SEO ????",
+        "?????????????????"
+      ]
+    },
+    "urlEncode": {
+      "title": "URL???",
+      "description": "?? URL ???????",
+      "toolName": "URL???",
+      "toolCategory": "????",
+      "convertFailed": "????????????",
+      "copyFailed": "????????",
+      "modeSelector": "??????",
+      "typeSelector": "??????",
+      "encode": "??",
+      "decode": "??",
+      "componentTitle": "????",
+      "componentDescription": "???? URL ???",
+      "fullTitle": "??URL??",
+      "fullDescription": "?????? URL",
+      "inputEncodeLabel": "????",
+      "inputDecodeLabel": "????URL",
+      "clearInput": "????",
+      "encodePlaceholder": "?????????URL...",
+      "decodePlaceholder": "??????URL...",
+      "outputEncodeLabel": "????",
+      "outputDecodeLabel": "????",
+      "copyResult": "????",
+      "resultPlaceholder": "????????...",
+      "copied": "???????",
+      "swap": "??",
+      "swapInputOutput": "??????",
+      "infoTitle": "??????",
+      "componentModeTitle": "????",
+      "componentModeDescription": "????????????URL???",
+      "componentExample": "???hello world ? hello%20world",
+      "fullModeTitle": "??URL??",
+      "fullModeDescription": "?? URL ??????????URL",
+      "fullExample": "???https://example.com/?? ? https://example.com/%E8%B7%AF%E5%BE%84"
+    },
+    "htmlEntity": {
+      "title": "HTML?????",
+      "description": "?? HTML ?????????",
+      "toolName": "HTML?????",
+      "toolCategory": "????",
+      "convertFailed": "????????????",
+      "copyFailed": "????????",
+      "modeSelector": "??????",
+      "switchToEncode": "??????? (Alt+1)",
+      "switchToDecode": "??????? (Alt+2)",
+      "encode": "??",
+      "decode": "??",
+      "encodeAll": "??????",
+      "inputEncodeLabel": "????",
+      "inputDecodeLabel": "HTML??",
+      "clearInput": "???? (Ctrl+L)",
+      "encodePlaceholder": "??????HTML??...",
+      "decodePlaceholder": "??????HTML??...",
+      "inputDescriptionEncode": "??????? HTML ??",
+      "inputDescriptionDecode": "??????? HTML ??",
+      "outputEncodeLabel": "????",
+      "outputDecodeLabel": "????",
+      "copyResult": "???? (Ctrl+C)",
+      "resultPlaceholder": "????????...",
+      "outputDescriptionEncode": "???? HTML ??",
+      "outputDescriptionDecode": "???? HTML ??",
+      "copied": "???????",
+      "executeEncode": "???? (Ctrl+Enter)",
+      "executeDecode": "???? (Ctrl+Enter)",
+      "swap": "??",
+      "swapMode": "???? (Ctrl+S)",
+      "commonEntities": "??HTML??",
+      "space": "(??)"
+    },
+    "jsMinify": {
+      "title": "JS??????",
+      "description": "?? JavaScript ?????????",
+      "toolName": "JavaScript??/???",
+      "toolNameHistory": "JS??????",
+      "toolCategory": "????",
+      "processFailed": "????",
+      "copyFailed": "??????????",
+      "switchToMinify": "???????",
+      "switchToMinifyTitle": "??????? (Alt+1)",
+      "switchToBeautify": "????????",
+      "switchToBeautifyTitle": "???????? (Alt+2)",
+      "minify": "??",
+      "beautify": "???",
+      "input": "??",
+      "output": "??",
+      "inputPlaceholder": "????? JavaScript ??...",
+      "inputAria": "JavaScript????",
+      "inputTitle": "? Ctrl+Enter ?????Ctrl+L ????",
+      "copyOutput": "??????",
+      "copyOutputTitle": "???? (Ctrl+C)",
+      "resultPlaceholder": "????????...",
+      "outputAria": "JavaScript????",
+      "executeMinify": "????",
+      "executeMinifyTitle": "???? (Ctrl+Enter)",
+      "executeBeautify": "?????",
+      "executeBeautifyTitle": "????? (Ctrl+Enter)",
+      "minifyCode": "????",
+      "beautifyCode": "?????",
+      "swap": "??",
+      "swapTitle": "???? (Ctrl+S)",
+      "clear": "??",
+      "clearTitle": "???? (Ctrl+L)",
+      "copied": "???????",
+      "infoTitle": "????",
+      "infoItems": [
+        "???????????????????",
+        "???????????????????",
+        "???????????????????????? Terser"
+      ]
+    },
+    "cssMinify": {
+      "title": "CSS??????",
+      "description": "?? CSS ?????????",
+      "toolName": "CSS??????",
+      "toolCategory": "????",
+      "processFailed": "????",
+      "copyFailed": "??????????",
+      "switchToMinify": "???????",
+      "switchToMinifyTitle": "??????? (Alt+1)",
+      "switchToBeautify": "????????",
+      "switchToBeautifyTitle": "???????? (Alt+2)",
+      "minify": "??",
+      "beautify": "???",
+      "input": "??",
+      "output": "??",
+      "inputPlaceholder": "????? CSS ??...\n\n??:\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 20px;\n}",
+      "inputAria": "CSS????",
+      "inputTitle": "? Ctrl+Enter ?????Ctrl+L ????",
+      "copyOutput": "??????",
+      "copyOutputTitle": "???? (Ctrl+C)",
+      "resultPlaceholder": "????????...",
+      "outputAria": "CSS????",
+      "executeMinify": "????",
+      "executeMinifyTitle": "???? (Ctrl+Enter)",
+      "executeBeautify": "?????",
+      "executeBeautifyTitle": "????? (Ctrl+Enter)",
+      "minifyCode": "????",
+      "beautifyCode": "?????",
+      "swap": "??",
+      "swapTitle": "???? (Ctrl+S)",
+      "clear": "??",
+      "clearTitle": "???? (Ctrl+L)",
+      "copied": "???????",
+      "infoTitle": "????",
+      "infoItems": [
+        "????????????????????????",
+        "???????????????????",
+        "???? CSS ???? HTTP ???????????"
+      ]
+    },
+    "httpCodes": {
+      "title": "HTTP???",
+      "description": "HTTP ??? / HTTP ?????????",
+      "searchPlaceholder": "????????...",
+      "noMatch": "??????????",
+      "infoTitle": "HTTP?????",
+      "infoItems": [
+        "1xx - ????????????????????",
+        "2xx - ?????????????????????????",
+        "3xx - ???????????????????",
+        "4xx - ??????????????????????",
+        "5xx - ??????????????????????"
+      ],
+      "categories": [
+        {
+          "id": "all",
+          "name": "??",
+          "color": "bg-gray-100 text-gray-700"
+        },
+        {
+          "id": "1xx",
+          "name": "1xx ??",
+          "color": "bg-blue-100 text-blue-700"
+        },
+        {
+          "id": "2xx",
+          "name": "2xx ??",
+          "color": "bg-green-100 text-green-700"
+        },
+        {
+          "id": "3xx",
+          "name": "3xx ???",
+          "color": "bg-yellow-100 text-yellow-700"
+        },
+        {
+          "id": "4xx",
+          "name": "4xx ?????",
+          "color": "bg-orange-100 text-orange-700"
+        },
+        {
+          "id": "5xx",
+          "name": "5xx ?????",
+          "color": "bg-red-100 text-red-700"
+        }
+      ],
+      "codes": [
+        {
+          "code": 100,
+          "name": "Continue",
+          "desc": "????????????",
+          "category": "1xx"
+        },
+        {
+          "code": 101,
+          "name": "Switching Protocols",
+          "desc": "????????????????????",
+          "category": "1xx"
+        },
+        {
+          "code": 102,
+          "name": "Processing",
+          "desc": "????????????????????????",
+          "category": "1xx"
+        },
+        {
+          "code": 200,
+          "name": "OK",
+          "desc": "?????????GET?POST??",
+          "category": "2xx"
+        },
+        {
+          "code": 201,
+          "name": "Created",
+          "desc": "????????????????",
+          "category": "2xx"
+        },
+        {
+          "code": 202,
+          "name": "Accepted",
+          "desc": "?????????????????",
+          "category": "2xx"
+        },
+        {
+          "code": 203,
+          "name": "Non-Authoritative Information",
+          "desc": "???????????????meta?????????",
+          "category": "2xx"
+        },
+        {
+          "code": 204,
+          "name": "No Content",
+          "desc": "??????????????????",
+          "category": "2xx"
+        },
+        {
+          "code": 205,
+          "name": "Reset Content",
+          "desc": "????????????????????????",
+          "category": "2xx"
+        },
+        {
+          "code": 206,
+          "name": "Partial Content",
+          "desc": "???????????????GET??",
+          "category": "2xx"
+        },
+        {
+          "code": 300,
+          "name": "Multiple Choices",
+          "desc": "?????????????????",
+          "category": "3xx"
+        },
+        {
+          "code": 301,
+          "name": "Moved Permanently",
+          "desc": "??????????????????URI",
+          "category": "3xx"
+        },
+        {
+          "code": 302,
+          "name": "Found",
+          "desc": "???????????????????????URI",
+          "category": "3xx"
+        },
+        {
+          "code": 303,
+          "name": "See Other",
+          "desc": "?????????GET?POST????",
+          "category": "3xx"
+        },
+        {
+          "code": 304,
+          "name": "Not Modified",
+          "desc": "??????????????????????",
+          "category": "3xx"
+        },
+        {
+          "code": 307,
+          "name": "Temporary Redirect",
+          "desc": "????????GET?????",
+          "category": "3xx"
+        },
+        {
+          "code": 308,
+          "name": "Permanent Redirect",
+          "desc": "???????????????????????URI??",
+          "category": "3xx"
+        },
+        {
+          "code": 400,
+          "name": "Bad Request",
+          "desc": "??????????????????",
+          "category": "4xx"
+        },
+        {
+          "code": 401,
+          "name": "Unauthorized",
+          "desc": "???????????",
+          "category": "4xx"
+        },
+        {
+          "code": 402,
+          "name": "Payment Required",
+          "desc": "???????",
+          "category": "4xx"
+        },
+        {
+          "code": 403,
+          "name": "Forbidden",
+          "desc": "???????????????????????",
+          "category": "4xx"
+        },
+        {
+          "code": 404,
+          "name": "Not Found",
+          "desc": "?????????????????",
+          "category": "4xx"
+        },
+        {
+          "code": 405,
+          "name": "Method Not Allowed",
+          "desc": "????????????",
+          "category": "4xx"
+        },
+        {
+          "code": 406,
+          "name": "Not Acceptable",
+          "desc": "?????????????????????",
+          "category": "4xx"
+        },
+        {
+          "code": 407,
+          "name": "Proxy Authentication Required",
+          "desc": "???????????",
+          "category": "4xx"
+        },
+        {
+          "code": 408,
+          "name": "Request Timeout",
+          "desc": "????????????????????",
+          "category": "4xx"
+        },
+        {
+          "code": 409,
+          "name": "Conflict",
+          "desc": "?????????????",
+          "category": "4xx"
+        },
+        {
+          "code": 410,
+          "name": "Gone",
+          "desc": "?????????????",
+          "category": "4xx"
+        },
+        {
+          "code": 411,
+          "name": "Length Required",
+          "desc": "???????????????Content-Length?????",
+          "category": "4xx"
+        },
+        {
+          "code": 412,
+          "name": "Precondition Failed",
+          "desc": "??????????????",
+          "category": "4xx"
+        },
+        {
+          "code": 413,
+          "name": "Payload Too Large",
+          "desc": "???????????????",
+          "category": "4xx"
+        },
+        {
+          "code": 414,
+          "name": "URI Too Long",
+          "desc": "???URI??????????",
+          "category": "4xx"
+        },
+        {
+          "code": 415,
+          "name": "Unsupported Media Type",
+          "desc": "????????????????",
+          "category": "4xx"
+        },
+        {
+          "code": 418,
+          "name": "I'm a teapot",
+          "desc": "?????????????",
+          "category": "4xx"
+        },
+        {
+          "code": 422,
+          "name": "Unprocessable Entity",
+          "desc": "??????????????????????",
+          "category": "4xx"
+        },
+        {
+          "code": 429,
+          "name": "Too Many Requests",
+          "desc": "???????????????",
+          "category": "4xx"
+        },
+        {
+          "code": 451,
+          "name": "Unavailable For Legal Reasons",
+          "desc": "????????",
+          "category": "4xx"
+        },
+        {
+          "code": 500,
+          "name": "Internal Server Error",
+          "desc": "??????????????",
+          "category": "5xx"
+        },
+        {
+          "code": 501,
+          "name": "Not Implemented",
+          "desc": "??????????????????",
+          "category": "5xx"
+        },
+        {
+          "code": 502,
+          "name": "Bad Gateway",
+          "desc": "???????????????????????????????????????",
+          "category": "5xx"
+        },
+        {
+          "code": 503,
+          "name": "Service Unavailable",
+          "desc": "?????????????????????????",
+          "category": "5xx"
+        },
+        {
+          "code": 504,
+          "name": "Gateway Timeout",
+          "desc": "?????????????????????????",
+          "category": "5xx"
+        },
+        {
+          "code": 505,
+          "name": "HTTP Version Not Supported",
+          "desc": "?????????HTTP?????",
+          "category": "5xx"
+        }
+      ]
+    },
+    "phpReference": {
+      "title": "PHP?????",
+      "description": "PHP ??????????",
+      "searchPlaceholder": "????????...",
+      "noMatch": "?????????",
+      "infoTitle": "??",
+      "infoDescription": "????????????????? PHP ????????????????? PHP ?????????????????????",
+      "categories": [
+        "??",
+        "???",
+        "??",
+        "??",
+        "????",
+        "JSON",
+        "??",
+        "??"
+      ],
+      "functions": [
+        {
+          "name": "strlen",
+          "desc": "???????",
+          "syntax": "strlen(string $string): int",
+          "category": "???"
+        },
+        {
+          "name": "substr",
+          "desc": "????????",
+          "syntax": "substr(string $string, int $offset, ?int $length = null): string",
+          "category": "???"
+        },
+        {
+          "name": "strpos",
+          "desc": "????????????",
+          "syntax": "strpos(string $haystack, string $needle, int $offset = 0): int|false",
+          "category": "???"
+        },
+        {
+          "name": "str_replace",
+          "desc": "??????",
+          "syntax": "str_replace(mixed $search, mixed $replace, mixed $subject): mixed",
+          "category": "???"
+        },
+        {
+          "name": "explode",
+          "desc": "???????????????",
+          "syntax": "explode(string $separator, string $string, int $limit = PHP_INT_MAX): array",
+          "category": "???"
+        },
+        {
+          "name": "implode",
+          "desc": "???????????",
+          "syntax": "implode(string $separator, array $array): string",
+          "category": "???"
+        },
+        {
+          "name": "trim",
+          "desc": "???????????",
+          "syntax": "trim(string $string, string $characters = \" \\n\\r\\t\\v\\x00\"): string",
+          "category": "???"
+        },
+        {
+          "name": "strtolower",
+          "desc": "?????????",
+          "syntax": "strtolower(string $string): string",
+          "category": "???"
+        },
+        {
+          "name": "strtoupper",
+          "desc": "?????????",
+          "syntax": "strtoupper(string $string): string",
+          "category": "???"
+        },
+        {
+          "name": "sprintf",
+          "desc": "????????",
+          "syntax": "sprintf(string $format, mixed ...$values): string",
+          "category": "???"
+        },
+        {
+          "name": "preg_match",
+          "desc": "?????????",
+          "syntax": "preg_match(string $pattern, string $subject, array &$matches = null): int|false",
+          "category": "???"
+        },
+        {
+          "name": "preg_replace",
+          "desc": "????????????",
+          "syntax": "preg_replace(mixed $pattern, mixed $replacement, mixed $subject): mixed",
+          "category": "???"
+        },
+        {
+          "name": "count",
+          "desc": "??????????",
+          "syntax": "count(Countable|array $value, int $mode = COUNT_NORMAL): int",
+          "category": "??"
+        },
+        {
+          "name": "array_push",
+          "desc": "??????????????",
+          "syntax": "array_push(array &$array, mixed ...$values): int",
+          "category": "??"
+        },
+        {
+          "name": "array_pop",
+          "desc": "??????????",
+          "syntax": "array_pop(array &$array): mixed",
+          "category": "??"
+        },
+        {
+          "name": "array_merge",
+          "desc": "?????????",
+          "syntax": "array_merge(array ...$arrays): array",
+          "category": "??"
+        },
+        {
+          "name": "array_keys",
+          "desc": "??????????",
+          "syntax": "array_keys(array $array, mixed $filter_value, bool $strict = false): array",
+          "category": "??"
+        },
+        {
+          "name": "array_values",
+          "desc": "?????????",
+          "syntax": "array_values(array $array): array",
+          "category": "??"
+        },
+        {
+          "name": "in_array",
+          "desc": "????????????",
+          "syntax": "in_array(mixed $needle, array $haystack, bool $strict = false): bool",
+          "category": "??"
+        },
+        {
+          "name": "array_search",
+          "desc": "??????????",
+          "syntax": "array_search(mixed $needle, array $haystack, bool $strict = false): int|string|false",
+          "category": "??"
+        },
+        {
+          "name": "array_map",
+          "desc": "??????????????",
+          "syntax": "array_map(?callable $callback, array $array, array ...$arrays): array",
+          "category": "??"
+        },
+        {
+          "name": "array_filter",
+          "desc": "?????????????",
+          "syntax": "array_filter(array $array, ?callable $callback = null, int $mode = 0): array",
+          "category": "??"
+        },
+        {
+          "name": "sort",
+          "desc": "?????",
+          "syntax": "sort(array &$array, int $flags = SORT_REGULAR): bool",
+          "category": "??"
+        },
+        {
+          "name": "usort",
+          "desc": "?????????????????",
+          "syntax": "usort(array &$array, callable $callback): bool",
+          "category": "??"
+        },
+        {
+          "name": "file_get_contents",
+          "desc": "????????????",
+          "syntax": "file_get_contents(string $filename, ...): string|false",
+          "category": "??"
+        },
+        {
+          "name": "file_put_contents",
+          "desc": "????????",
+          "syntax": "file_put_contents(string $filename, mixed $data, int $flags = 0): int|false",
+          "category": "??"
+        },
+        {
+          "name": "fopen",
+          "desc": "?????? URL",
+          "syntax": "fopen(string $filename, string $mode, ...): resource|false",
+          "category": "??"
+        },
+        {
+          "name": "fclose",
+          "desc": "????????????",
+          "syntax": "fclose(resource $stream): bool",
+          "category": "??"
+        },
+        {
+          "name": "fread",
+          "desc": "????",
+          "syntax": "fread(resource $stream, int $length): string|false",
+          "category": "??"
+        },
+        {
+          "name": "fwrite",
+          "desc": "????",
+          "syntax": "fwrite(resource $stream, string $data, ?int $length = null): int|false",
+          "category": "??"
+        },
+        {
+          "name": "file_exists",
+          "desc": "???????????",
+          "syntax": "file_exists(string $filename): bool",
+          "category": "??"
+        },
+        {
+          "name": "is_file",
+          "desc": "?????????????????",
+          "syntax": "is_file(string $filename): bool",
+          "category": "??"
+        },
+        {
+          "name": "unlink",
+          "desc": "????",
+          "syntax": "unlink(string $filename, ?resource $context = null): bool",
+          "category": "??"
+        },
+        {
+          "name": "mkdir",
+          "desc": "????",
+          "syntax": "mkdir(string $directory, int $permissions = 0777, bool $recursive = false): bool",
+          "category": "??"
+        },
+        {
+          "name": "date",
+          "desc": "??????????",
+          "syntax": "date(string $format, ?int $timestamp = null): string",
+          "category": "????"
+        },
+        {
+          "name": "time",
+          "desc": "????? Unix ???",
+          "syntax": "time(): int",
+          "category": "????"
+        },
+        {
+          "name": "strtotime",
+          "desc": "????????????????????",
+          "syntax": "strtotime(string $datetime, ?int $baseTimestamp = null): int|false",
+          "category": "????"
+        },
+        {
+          "name": "mktime",
+          "desc": "??????? Unix ???",
+          "syntax": "mktime(int $hour, ?int $minute = null, ...): int|false",
+          "category": "????"
+        },
+        {
+          "name": "date_create",
+          "desc": "???? DateTime ??",
+          "syntax": "date_create(string $datetime = \"now\", ?DateTimeZone $timezone = null): DateTime|false",
+          "category": "????"
+        },
+        {
+          "name": "json_encode",
+          "desc": "????? JSON ??",
+          "syntax": "json_encode(mixed $value, int $flags = 0, int $depth = 512): string|false",
+          "category": "JSON"
+        },
+        {
+          "name": "json_decode",
+          "desc": "? JSON ??????????",
+          "syntax": "json_decode(string $json, ?bool $associative = null, int $depth = 512): mixed",
+          "category": "JSON"
+        },
+        {
+          "name": "abs",
+          "desc": "???",
+          "syntax": "abs(int|float $num): int|float",
+          "category": "??"
+        },
+        {
+          "name": "ceil",
+          "desc": "????",
+          "syntax": "ceil(int|float $num): float",
+          "category": "??"
+        },
+        {
+          "name": "floor",
+          "desc": "????",
+          "syntax": "floor(int|float $num): float",
+          "category": "??"
+        },
+        {
+          "name": "round",
+          "desc": "????",
+          "syntax": "round(int|float $num, int $precision = 0, int $mode = PHP_ROUND_HALF_UP): float",
+          "category": "??"
+        },
+        {
+          "name": "max",
+          "desc": "?????",
+          "syntax": "max(mixed $value, mixed ...$values): mixed",
+          "category": "??"
+        },
+        {
+          "name": "min",
+          "desc": "?????",
+          "syntax": "min(mixed $value, mixed ...$values): mixed",
+          "category": "??"
+        },
+        {
+          "name": "rand",
+          "desc": "????????",
+          "syntax": "rand(int $min, int $max): int",
+          "category": "??"
+        },
+        {
+          "name": "isset",
+          "desc": "???????????? NULL",
+          "syntax": "isset(mixed $var, mixed ...$vars): bool",
+          "category": "??"
+        },
+        {
+          "name": "empty",
+          "desc": "??????????",
+          "syntax": "empty(mixed $var): bool",
+          "category": "??"
+        },
+        {
+          "name": "var_dump",
+          "desc": "?????????",
+          "syntax": "var_dump(mixed $value, mixed ...$values): void",
+          "category": "??"
+        },
+        {
+          "name": "print_r",
+          "desc": "????????????",
+          "syntax": "print_r(mixed $value, bool $return = false): string|bool",
+          "category": "??"
+        },
+        {
+          "name": "gettype",
+          "desc": "???????",
+          "syntax": "gettype(mixed $value): string",
+          "category": "??"
+        },
+        {
+          "name": "is_array",
+          "desc": "?????????",
+          "syntax": "is_array(mixed $value): bool",
+          "category": "??"
+        },
+        {
+          "name": "is_string",
+          "desc": "??????????",
+          "syntax": "is_string(mixed $value): bool",
+          "category": "??"
+        },
+        {
+          "name": "is_numeric",
+          "desc": "???????????????",
+          "syntax": "is_numeric(mixed $value): bool",
+          "category": "??"
+        }
+      ]
+    },
+    "cssBorderRadius": {
+      "title": "CSS??????",
+      "description": "????? border-radius ??? CSS ??",
+      "presetsLabel": "???",
+      "preview": "????",
+      "settings": "????",
+      "linked": "???",
+      "unlinked": "????",
+      "corners": {
+        "topLeft": "???",
+        "topRight": "???",
+        "bottomLeft": "???",
+        "bottomRight": "???"
+      },
+      "elementColor": "????",
+      "codeTitle": "CSS ??",
+      "copy": "??",
+      "copied": "???",
+      "presets": [
+        {
+          "name": "???",
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "???",
+          "values": [
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "???",
+          "values": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "???",
+          "values": [
+            16,
+            16,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "??",
+          "values": [
+            50,
+            50,
+            50,
+            50
+          ]
+        },
+        {
+          "name": "??",
+          "values": [
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "???",
+          "values": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        {
+          "name": "???",
+          "values": [
+            0,
+            16,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "???",
+          "values": [
+            16,
+            16,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "???",
+          "values": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "??",
+          "values": [
+            16,
+            0,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "??",
+          "values": [
+            0,
+            50,
+            0,
+            50
+          ]
+        }
+      ]
+    },
+    "cssNeumorphism": {
+      "title": "????? CSS ?????",
+      "description": "???? Neumorphism ????? CSS ??",
+      "previewText": "???",
+      "shapeTitle": "????",
+      "shapeOptions": [
+        {
+          "value": "flat",
+          "label": "??"
+        },
+        {
+          "value": "concave",
+          "label": "??"
+        },
+        {
+          "value": "convex",
+          "label": "??"
+        },
+        {
+          "value": "pressed",
+          "label": "??"
+        }
+      ],
+      "colorTitle": "????",
+      "presetColors": "????",
+      "colorPresets": [
+        {
+          "color": "#e0e5ec",
+          "name": "???"
+        },
+        {
+          "color": "#f0f0f3",
+          "name": "??"
+        },
+        {
+          "color": "#d1d9e6",
+          "name": "??"
+        },
+        {
+          "color": "#e8dfd5",
+          "name": "??"
+        },
+        {
+          "color": "#dfe6e9",
+          "name": "??"
+        },
+        {
+          "color": "#ffeaa7",
+          "name": "??"
+        },
+        {
+          "color": "#dfe4ea",
+          "name": "??"
+        },
+        {
+          "color": "#f8e1e7",
+          "name": "??"
+        },
+        {
+          "color": "#d5f5e3",
+          "name": "??"
+        },
+        {
+          "color": "#e8daef",
+          "name": "??"
+        }
+      ],
+      "backgroundColor": "???",
+      "lightColor": "?? (????)",
+      "darkColor": "?? (????)",
+      "sliderTitle": "????",
+      "size": "??",
+      "radius": "??",
+      "distance": "????",
+      "blur": "????",
+      "intensity": "???",
+      "codeTitle": "CSS ??",
+      "copy": "??",
+      "copied": "???",
+      "infoTitle": "?????? (Neumorphism)?",
+      "infoDescription": "?????? UI ?????????????????????????????????????????????????????????????????????????????????????????????"
+    },
+    "cssTextShadow": {
+      "title": "CSS????????",
+      "description": "????? text-shadow ??? CSS ??",
+      "defaultText": "??????",
+      "presetsLabel": "?????",
+      "textSettings": "????",
+      "previewText": "????",
+      "fontSize": "??",
+      "textColor": "????",
+      "shadowPrefix": "?? {{index}}",
+      "offsetX": "X ??",
+      "offsetY": "Y ??",
+      "blur": "??",
+      "opacity": "???",
+      "color": "??",
+      "addShadow": "?????",
+      "codeTitle": "CSS ??",
+      "copy": "??",
+      "copied": "???",
+      "presets": [
+        {
+          "name": "????",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 2,
+              "y": 2,
+              "blur": 4,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        },
+        {
+          "name": "????",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#00ff00",
+              "opacity": 0.8
+            }
+          ]
+        },
+        {
+          "name": "???",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 5,
+              "color": "#ff00ff",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#ff00ff",
+              "opacity": 0.8
+            },
+            {
+              "id": 3,
+              "x": 0,
+              "y": 0,
+              "blur": 20,
+              "color": "#ff00ff",
+              "opacity": 0.6
+            }
+          ]
+        },
+        {
+          "name": "????",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 1,
+              "y": 1,
+              "blur": 0,
+              "color": "#666666",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 2,
+              "y": 2,
+              "blur": 0,
+              "color": "#888888",
+              "opacity": 1
+            },
+            {
+              "id": 3,
+              "x": 3,
+              "y": 3,
+              "blur": 0,
+              "color": "#aaaaaa",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "name": "????",
+          "shadows": [
+            {
+              "id": 1,
+              "x": -1,
+              "y": -1,
+              "blur": 1,
+              "color": "#ffffff",
+              "opacity": 0.8
+            },
+            {
+              "id": 2,
+              "x": 1,
+              "y": 1,
+              "blur": 1,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "websocketTest": {
+      "title": "?? WebSocket ????",
+      "description": "?? WebSocket ???????",
+      "defaultUrl": "wss://echo.websocket.org",
+      "connectingTo": "???? {{url}}...",
+      "connectSuccess": "? ????",
+      "connectError": "? ????",
+      "connectionClosed": "????? (Code: {{code}})",
+      "connectFailed": "? ????: {{message}}",
+      "disconnecting": "??????...",
+      "urlPlaceholder": "?? WebSocket URL???: wss://echo.websocket.org",
+      "disconnect": "??",
+      "connecting": "???...",
+      "connect": "??",
+      "connected": "???",
+      "notConnected": "???",
+      "messageLog": "????",
+      "clear": "??",
+      "noMessages": "????",
+      "messagePlaceholder": "????????... (Enter ??, Shift+Enter ??)",
+      "infoTitle": "WebSocket ????",
+      "infoItems": [
+        "???? echo.websocket.org ????????????????",
+        "?? ws:// ? wss:// ??",
+        "? Enter ?????Shift+Enter ??",
+        "?????????????????????"
+      ],
+      "examplesTitle": "???????",
+      "publicEcho": "?? Echo ???",
+      "defaultTag": "????"
+    },
+    "csrGenerator": {
+      "title": "CSR?????",
+      "description": "???? CSR ?????????",
+      "enterDomain": "?????",
+      "generateFailed": "????",
+      "parseFailed": "????",
+      "serverConnectionFailed": "?????????????",
+      "tabs": {
+        "generate": "??CSR",
+        "view": "??CSR"
+      },
+      "formTitle": "??????",
+      "labels": {
+        "commonName": "?? (Common Name)",
+        "organization": "????",
+        "organizationUnit": "??",
+        "city": "??",
+        "state": "??",
+        "country": "????",
+        "email": "??",
+        "keySize": "????"
+      },
+      "placeholders": {
+        "commonName": "??: www.example.com ? *.example.com",
+        "organization": "??: Example Inc.",
+        "organizationUnit": "??: IT Department",
+        "city": "??: Beijing",
+        "state": "??: Beijing",
+        "email": "??: admin@example.com",
+        "csr": "???CSR???? -----BEGIN CERTIFICATE REQUEST----- ??"
+      },
+      "countries": [
+        {
+          "value": "CN",
+          "label": "CN - ??"
+        },
+        {
+          "value": "US",
+          "label": "US - ??"
+        },
+        {
+          "value": "JP",
+          "label": "JP - ??"
+        },
+        {
+          "value": "KR",
+          "label": "KR - ??"
+        },
+        {
+          "value": "GB",
+          "label": "GB - ??"
+        },
+        {
+          "value": "DE",
+          "label": "DE - ??"
+        },
+        {
+          "value": "FR",
+          "label": "FR - ??"
+        },
+        {
+          "value": "SG",
+          "label": "SG - ???"
+        },
+        {
+          "value": "HK",
+          "label": "HK - ??"
+        },
+        {
+          "value": "TW",
+          "label": "TW - ??"
+        }
+      ],
+      "keySizes": [
+        {
+          "value": "2048",
+          "label": "2048 ? (??)"
+        },
+        {
+          "value": "4096",
+          "label": "4096 ? (???)"
+        }
+      ],
+      "generating": "???...",
+      "generateAction": "?? CSR ???",
+      "csrRequest": "CSR ????",
+      "privateKey": "?? (?????)",
+      "copy": "??",
+      "copied": "???",
+      "download": "??",
+      "privateKeyWarning": "?? ???????????????????????????????????",
+      "inputCsr": "??CSR??",
+      "parsing": "???...",
+      "parseAction": "?? CSR",
+      "csrInfo": "CSR ??",
+      "infoItems": [
+        {
+          "label": "?? (CN)",
+          "key": "commonName"
+        },
+        {
+          "label": "?? (O)",
+          "key": "organization"
+        },
+        {
+          "label": "?? (OU)",
+          "key": "organizationUnit"
+        },
+        {
+          "label": "?? (L)",
+          "key": "city"
+        },
+        {
+          "label": "?? (ST)",
+          "key": "state"
+        },
+        {
+          "label": "?? (C)",
+          "key": "country"
+        },
+        {
+          "label": "??",
+          "key": "email"
+        },
+        {
+          "label": "????",
+          "key": "keyAlgorithm"
+        },
+        {
+          "label": "????",
+          "key": "keySize"
+        },
+        {
+          "label": "????",
+          "key": "signatureAlgorithm"
+        }
+      ],
+      "keySizeValue": "{{value}} ?",
+      "aboutTitle": "??? CSR?",
+      "aboutDescription": "CSR (Certificate Signing Request) ??????????????????? (CA) ?? SSL/TLS ???CSR ?????????????????????CA ???????????? SSL ??????????????????? SSL ??????"
+    },
+    "metaGenerator": {
+      "title": "?? Meta ????",
+      "description": "???? SEO ??? Meta ??",
+      "basicInfo": "????",
+      "socialMedia": "???? (Open Graph)",
+      "generatedCode": "?????",
+      "copy": "??",
+      "copied": "???",
+      "searchPreview": "??????",
+      "searchPreviewTitleFallback": "????",
+      "searchPreviewDescriptionFallback": "??????????...",
+      "socialPreview": "??????",
+      "socialPreviewTitleFallback": "??",
+      "socialPreviewDescriptionFallback": "??",
+      "labels": {
+        "title": "????",
+        "description": "????",
+        "keywords": "???",
+        "author": "??",
+        "robots": "??????",
+        "ogTitle": "OG ??",
+        "ogDescription": "OG ??",
+        "ogImage": "OG ??URL",
+        "ogUrl": "??URL",
+        "twitterCard": "Twitter ????"
+      },
+      "placeholders": {
+        "title": "????",
+        "description": "???????150????",
+        "keywords": "???1, ???2, ???3",
+        "author": "????",
+        "ogTitle": "?????????",
+        "ogDescription": "?????????",
+        "ogImage": "https://example.com/image.jpg",
+        "ogUrl": "https://example.com/page"
+      },
+      "robotsOptions": [
+        {
+          "value": "index, follow",
+          "label": "?????????"
+        },
+        {
+          "value": "index, nofollow",
+          "label": "??????????"
+        },
+        {
+          "value": "noindex, follow",
+          "label": "????????"
+        },
+        {
+          "value": "noindex, nofollow",
+          "label": "?????????"
+        }
+      ],
+      "twitterOptions": [
+        {
+          "value": "summary",
+          "label": "??"
+        },
+        {
+          "value": "summary_large_image",
+          "label": "????"
+        },
+        {
+          "value": "player",
+          "label": "???"
+        }
+      ]
+    },
+    "toolHistoryDemo": {
+      "confirmClear": "???????????????????????",
+      "exportTitle": "????",
+      "usageCount": "????: {{count}}",
+      "lastUsed": "????: {{time}}",
+      "favorite": "??: {{value}}",
+      "yes": "?",
+      "no": "?",
+      "exportFailed": "????????",
+      "tabs": {
+        "overview": "??",
+        "history": "????",
+        "favorites": "???",
+        "analytics": "????"
+      },
+      "loading": "????????...",
+      "loadFailed": "????: {{error}}",
+      "title": "??????",
+      "description": "??????????????????????",
+      "export": "??",
+      "clear": "??",
+      "searchPlaceholder": "??????...",
+      "stats": {
+        "totalTools": "????",
+        "totalUsage": "?????",
+        "favoriteTools": "????",
+        "averageUsage": "????"
+      },
+      "favoriteToolsTitle": "?????",
+      "favoriteToolsDescription": "????????????",
+      "noFavoriteTools": "???????",
+      "mostUsed": "??????",
+      "timesUsed": "???",
+      "recentActivity": "????",
+      "exportDialogTitle": "??????",
+      "exportDialogDescription": "???????",
+      "formats": {
+        "json": {
+          "title": "JSON ??",
+          "description": "????????????"
+        },
+        "csv": {
+          "title": "CSV ??",
+          "description": "???????Excel??"
+        },
+        "txt": {
+          "title": "TXT ??",
+          "description": "??????????"
+        }
+      },
+      "cancel": "??"
+    },
+    "userAgentParser": {
+      "title": "UserAgent?????",
+      "description": "?? User-Agent ??????????????",
+      "label": "User-Agent ???",
+      "useCurrent": "???????",
+      "inputPlaceholder": "?? User-Agent ???...",
+      "parse": "??",
+      "unknownBrowser": "?????",
+      "unknown": "??",
+      "deviceTypes": {
+        "mobile": "????",
+        "tablet": "????",
+        "desktop": "????"
+      },
+      "browserInfo": "?????",
+      "browser": "???",
+      "version": "??",
+      "majorVersion": "???",
+      "operatingSystem": "????",
+      "system": "??",
+      "deviceInfo": "????",
+      "type": "??",
+      "vendor": "??",
+      "model": "??",
+      "engineAndCpu": "?????",
+      "engine": "????",
+      "engineVersion": "????",
+      "cpuArchitecture": "CPU??",
+      "examplesTitle": "?? User-Agent ??"
+    },
+    "cssBoxShadow": {
+      "title": "DIV????????",
+      "description": "????? box-shadow ??? CSS ??",
+      "preview": "????",
+      "basicSettings": "????",
+      "backgroundColor": "????",
+      "boxColor": "????",
+      "borderRadius": "??",
+      "shadowPrefix": "?? {{index}}",
+      "inset": "???",
+      "offsetX": "X ??",
+      "offsetY": "Y ??",
+      "blur": "??",
+      "spread": "??",
+      "opacity": "???",
+      "color": "??",
+      "addShadow": "?????",
+      "codeTitle": "CSS ??",
+      "copy": "??",
+      "copied": "???"
+    },
+    "cssGlassmorphism": {
+      "title": "CSS????????",
+      "description": "???? Glassmorphism ????? CSS ??",
+      "cardTitle": "?????",
+      "cardDescription": "Glassmorphism ?????UI???????????????????",
+      "adjustTitle": "????",
+      "blur": "????",
+      "transparency": "?????",
+      "saturation": "???",
+      "borderRadius": "??",
+      "borderOpacity": "?????",
+      "codeTitle": "CSS ??",
+      "copy": "??",
+      "copied": "???",
+      "infoTitle": "??????",
+      "infoDescription": "backdrop-filter ?????????????? Firefox ?????????????? -webkit- ????? Safari??????????????????????????"
+    },
+    "desktopShortcut": {
+      "title": "????????",
+      "description": "???????????????????",
+      "enterUrl": "?????",
+      "enterName": "?????????",
+      "redirectingTo": "?????",
+      "urlLabel": "????",
+      "urlPlaceholder": "example.com ? https://example.com",
+      "nameLabel": "??????",
+      "namePlaceholder": "????",
+      "downloadUrlFile": "?? .url ??",
+      "downloadHtmlFile": "?? .html ??",
+      "infoTitle": "????",
+      "urlFileDesc": ".url ???Windows ??????????????????????????????",
+      "htmlFileDesc": ".html ????????????????? Windows?macOS?Linux ??????",
+      "afterDownload": "???????????????????????????"
+    },
+    "htmlPreview": {
+      "title": "HTML代码调试预览",
+      "description": "在线编写和预览HTML代码",
+      "defaultMessage": "欢迎使用 HTML 代码调试预览工具",
+      "editorTitle": "HTML 代码",
+      "clear": "清空",
+      "editorPlaceholder": "在这里输入 HTML 代码...",
+      "previewTitle": "预览",
+      "run": "运行",
+      "fullscreen": "全屏",
+      "exitFullscreen": "退出全屏",
+      "usageTitle": "使用说明",
+      "usageItems": [
+        "在左侧编辑器中输入完整的 HTML 代码",
+        "点击“运行”按钮查看预览效果",
+        "支持内联 CSS 和 JavaScript",
+        "代码在沙箱环境中运行，确保安全"
+      ]
+    },
+    "pageRefresh": {
+      "title": "网页定时刷新",
+      "description": "在线定时刷新指定网页",
+      "urlRequired": "请输入URL",
+      "urlPlaceholder": "输入URL，例如: https://example.com",
+      "seconds": "秒",
+      "start": "开始",
+      "stop": "停止",
+      "quickSet": "快速设置：",
+      "secondsValue": "{{count}}秒",
+      "minutesValue": "{{count}}分钟",
+      "running": "运行中",
+      "refreshIn": "{{count}} 秒后刷新",
+      "refreshedCount": "已刷新 {{count}} 次",
+      "lastRefresh": "上次刷新: {{time}}",
+      "previewTitle": "页面预览",
+      "previewPlaceholder": "输入URL后开始预览",
+      "usageTitle": "使用说明",
+      "usageItems": [
+        "输入要刷新的网页URL，设置刷新间隔",
+        "点击“开始”按钮启动定时刷新",
+        "部分网站可能因安全策略无法在 iframe 中显示",
+        "适用于监控页面变化、保持登录状态等场景"
+      ]
+    },
+    "pxToRem": {
+      "title": "CSS中PX批量转REM工具",
+      "description": "批量将CSS代码中的PX单位转为REM单位",
+      "baseFontSize": "基准字号 (Root Font Size)",
+      "precision": "小数精度",
+      "precisionOptions": {
+        "2": "2位",
+        "3": "3位",
+        "4": "4位",
+        "5": "5位"
+      },
+      "inputLabel": "输入 CSS 代码",
+      "convertToRem": "PX → REM",
+      "convertToPx": "REM → PX",
+      "outputLabel": "转换结果",
+      "copy": "复制",
+      "copied": "已复制",
+      "outputPlaceholder": "转换结果将显示在这里...",
+      "quickReferenceTitle": "快速参考表 (基准: {{baseSize}}px)",
+      "whyUseRem": "为什么使用 REM？",
+      "infoItems": [
+        "REM 是相对于根元素 (html) 字体大小的单位",
+        "使用 REM 可以实现整站字体大小的统一缩放",
+        "有利于响应式设计和无障碍访问"
+      ],
+      "formula": "公式：rem = px / {{baseSize}}"
+    },
+    "shieldBadge": {
+      "title": "在线Shield Badge生成",
+      "description": "在线生成SVG格式的 Shield Badge 徽章",
+      "downloadFailed": "下载失败，请稍后重试",
+      "basicSettings": "基本设置",
+      "labelField": "标签 (Label)",
+      "messageField": "内容 (Message)",
+      "color": "颜色",
+      "style": "样式",
+      "logoSettings": "Logo 设置",
+      "logo": "Logo",
+      "none": "无",
+      "logoColor": "Logo 颜色",
+      "preview": "预览",
+      "downloadSvg": "下载 SVG",
+      "codeTitle": "代码",
+      "copiedToClipboard": "已复制到剪贴板"
+    },
+    "robotsGenerator": {
+      "title": "robots.txt文件生成器",
+      "description": "在线生成robots.txt文件",
+      "templatesLabel": "快速模板：",
+      "templates": {
+        "allowAll": "允许所有",
+        "blockAll": "禁止所有",
+        "standard": "标准配置"
+      },
+      "ruleTitle": "规则 {{index}}",
+      "userAgents": {
+        "all": "* (所有爬虫)",
+        "baidu": "Baiduspider (百度)",
+        "sogou": "Sogou (搜狗)"
+      },
+      "disallow": "Disallow (禁止路径)",
+      "allow": "Allow (允许路径)",
+      "add": "添加",
+      "addRule": "添加规则",
+      "otherSettings": "其他设置",
+      "sitemapUrl": "Sitemap URL",
+      "crawlDelay": "Crawl-delay (秒)",
+      "preview": "robots.txt 预览",
+      "copy": "复制",
+      "copied": "已复制",
+      "saveTip": "将此文件保存为 robots.txt 并放置在网站根目录下"
+    },
+    "emailEncrypt": {
+      "title": "在线Email邮箱地址加密",
+      "description": "将邮箱地址加密防止被爬虫采集",
+      "inputLabel": "输入邮箱地址",
+      "copy": "复制",
+      "copied": "已复制",
+      "infoTitle": "为什么要加密邮箱地址？",
+      "infoItems": [
+        "防止垃圾邮件发送者通过爬虫采集您的邮箱地址",
+        "加密后的邮箱在浏览器中正常显示，但爬虫难以识别",
+        "多种加密方式可以组合使用，提高防护效果",
+        "建议同时使用服务器端的反垃圾邮件措施"
+      ],
+      "results": {
+        "unicodeDecimal": {
+          "name": "Unicode 十进制编码",
+          "description": "将字符转换为十进制Unicode编码"
+        },
+        "unicodeHex": {
+          "name": "Unicode 十六进制编码",
+          "description": "将字符转换为十六进制Unicode编码"
+        },
+        "javascript": {
+          "name": "JavaScript 编码",
+          "description": "使用JavaScript动态输出邮箱"
+        },
+        "mailto": {
+          "name": "Mailto 链接",
+          "description": "生成加密的mailto链接"
+        },
+        "cssReverse": {
+          "name": "CSS 反向显示",
+          "description": "使用CSS反向显示文本"
+        }
+      }
+    },
+    "workerDemo": {
+      "title": "Web Worker 性能演示",
+      "description": "对比 Web Worker 与主线程的计算性能",
+      "invalidInteger": "请输入有效的正整数",
+      "workerError": "Worker计算错误:",
+      "notice": "提示",
+      "settingsTitle": "计算设置",
+      "inputLabel": "输入数值",
+      "inputPlaceholder": "输入正整数",
+      "operationLabel": "计算类型",
+      "operations": {
+        "factorial": "阶乘 (n!)",
+        "fibonacci": "斐波那契数列",
+        "prime": "质数判断",
+        "factorization": "质因数分解"
+      },
+      "workerCalculate": "Web Worker 计算",
+      "mainThreadCalculate": "主线程计算",
+      "comparisonTitle": "性能对比",
+      "workerResult": "Web Worker 结果",
+      "mainThreadResult": "主线程结果",
+      "resultLabel": "结果:",
+      "timeLabel": "计算时间:",
+      "calculating": "计算中...",
+      "emptyState": "点击上方按钮开始计算",
+      "infoTitle": "Web Worker 优势",
+      "workerFeaturesTitle": "Web Worker 特点",
+      "workerFeatures": [
+        "在后台线程运行，不阻塞主线程",
+        "适合处理复杂计算任务",
+        "保持UI响应性",
+        "支持并行计算"
+      ],
+      "useCasesTitle": "使用场景",
+      "useCases": [
+        "大量数据处理",
+        "复杂算法计算",
+        "图像处理",
+        "加密解密操作"
+      ]
+    },
+    "jsDebug": {
+      "title": "JS代码调试",
+      "description": "在线运行和调试JavaScript代码",
+      "defaultCode": "// 在这里编写 JavaScript 代码\nconsole.log(\"Hello, World!\");\n\n// 示例：数组操作\nconst numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(n => n * 2);\nconsole.log(\"原数组:\", numbers);\nconsole.log(\"翻倍后:\", doubled);\n\n// 示例：对象\nconst user = {\n  name: \"张三\",\n  age: 25,\n  city: \"北京\"\n};\nconsole.log(\"用户信息:\", user);\n\n// 示例：异步操作\nsetTimeout(() => {\n  console.log(\"延迟1秒后执行\");\n}, 1000);",
+      "editorTitle": "JavaScript 代码",
+      "copy": "复制",
+      "copied": "已复制!",
+      "clear": "清空",
+      "placeholder": "在这里输入 JavaScript 代码...",
+      "run": "运行代码",
+      "consoleTitle": "控制台输出",
+      "consolePlaceholder": "控制台输出将显示在这里...",
+      "usageTitle": "使用说明",
+      "usageItems": [
+        "使用 console.log()、console.error()、console.warn() 输出信息",
+        "支持 ES6+ 语法（箭头函数、解构、模板字符串等）",
+        "支持异步操作（setTimeout、Promise 等）",
+        "代码在沙箱环境中运行，无法访问 DOM 和外部资源"
+      ]
+    },
+    "formValidationDemo": {
+      "title": "表单验证演示",
+      "description": "展示完整的表单验证功能，包括实时验证、错误提示、数据清理等",
+      "validation": {
+        "username": "用户名只能包含字母、数字和下划线，长度3-20位",
+        "phone": "请输入有效的手机号码",
+        "age": "年龄必须在1-120之间",
+        "idCard": "请输入有效的身份证号码",
+        "address": "地址长度不能超过200字符",
+        "bio": "个人简介长度不能超过500字符"
+      },
+      "submitSuccess": "表单验证通过！提交的数据：",
+      "quickTestTitle": "快速验证测试",
+      "quickLabels": {
+        "email": "邮箱验证",
+        "phone": "手机号验证",
+        "url": "URL验证"
+      },
+      "quickPlaceholders": {
+        "email": "输入邮箱地址",
+        "phone": "输入手机号码",
+        "url": "输入网址"
+      },
+      "valid": "✅ 有效",
+      "invalid": "❌ 无效",
+      "formTitle": "完整表单验证",
+      "placeholders": {
+        "username": "用户名 (字母、数字、下划线)",
+        "email": "邮箱地址",
+        "phone": "手机号码",
+        "website": "个人网站 (可选)",
+        "age": "年龄",
+        "idCard": "身份证号码",
+        "address": "详细地址 (可选)",
+        "bio": "个人简介 (可选，最多500字)"
+      },
+      "success": {
+        "username": "✓ 用户名格式正确",
+        "email": "✓ 邮箱格式正确",
+        "phone": "✓ 手机号格式正确",
+        "website": "✓ 网址格式正确",
+        "age": "✓ 年龄有效",
+        "idCard": "✓ 身份证格式正确",
+        "address": "✓ 地址有效",
+        "bio": "✓ 简介有效"
+      },
+      "submit": "提交表单",
+      "summaryTitle": "验证结果总结",
+      "fieldLabels": {
+        "username": "用户名",
+        "email": "邮箱",
+        "phone": "手机号",
+        "website": "网站",
+        "age": "年龄",
+        "idCard": "身份证",
+        "address": "地址",
+        "bio": "个人简介"
+      },
+      "summaryStatus": {
+        "failed": "❌ 验证失败",
+        "passed": "✅ 验证通过",
+        "empty": "⚪ 未填写"
+      },
+      "infoTitle": "表单验证功能说明",
+      "infoItems": [
+        {
+          "title": "实时验证",
+          "description": "输入时实时检查格式，失去焦点时触发验证"
+        },
+        {
+          "title": "多种验证规则",
+          "description": "支持必填、长度、正则表达式、自定义验证等"
+        },
+        {
+          "title": "视觉反馈",
+          "description": "通过颜色、图标、文字提供清晰的验证状态"
+        },
+        {
+          "title": "数据清理",
+          "description": "自动清理和标准化用户输入的数据"
+        },
+        {
+          "title": "错误提示",
+          "description": "提供友好的错误信息，指导用户正确输入"
+        },
+        {
+          "title": "无障碍支持",
+          "description": "确保表单对所有用户都可用"
+        }
+      ]
+    },
+    "faviconGenerator": {
+      "title": "在线Favicon图标生成",
+      "description": "将图片转换为网站Favicon图标",
+      "historyTitle": "Favicon图标生成",
+      "historyCategory": "图片处理",
+      "uploadImageFile": "请上传图片文件",
+      "generateFailed": "生成图标失败，请重试",
+      "uploadTitle": "上传图片",
+      "uploadAria": "上传图片文件",
+      "dropzoneAria": "点击上传图片，支持 PNG、JPG、SVG 等格式",
+      "dropRelease": "松开鼠标上传图片",
+      "dropClick": "点击或拖拽上传图片",
+      "supportFormats": "支持 PNG、JPG、SVG 等格式",
+      "clearImage": "清空图片",
+      "clearImageTitle": "清空图片 (Ctrl+L)",
+      "settingsTitle": "设置",
+      "removeBackground": "移除图片背景色",
+      "removeColor": "要移除的颜色",
+      "removeColorPicker": "选择要移除的背景颜色",
+      "removeColorValue": "要移除的背景颜色值",
+      "tolerance": "容差值: {{value}}",
+      "toleranceAria": "颜色容差值",
+      "toleranceTip": "容差越大，移除的颜色范围越广",
+      "transparentBackground": "透明背景",
+      "transparentTip": "⚠️ 注意：如果原图本身有背景色，请勾选“移除图片背景色”",
+      "backgroundColor": "背景颜色",
+      "backgroundColorPicker": "选择背景颜色",
+      "backgroundColorValue": "背景颜色值",
+      "selectSize": "选择尺寸",
+      "selectedState": "（已选中）",
+      "sizeAria": "{{size}}x{{size}}像素尺寸{{state}}",
+      "toggleSizeTitle": "切换{{size}}x{{size}}尺寸（Alt+{{shortcut}}）",
+      "previewTitle": "预览",
+      "generating": "生成中...",
+      "downloadSizeAria": "下载{{size}}x{{size}}像素图标",
+      "download": "下载",
+      "uploadFirst": "请先上传图片",
+      "downloadTitle": "下载",
+      "downloadAllPng": "下载所有尺寸 (PNG)",
+      "downloadAllPngTitle": "下载所有尺寸PNG文件 (Ctrl+Enter)",
+      "downloadIco": "下载 favicon.ico",
+      "downloadIcoTitle": "下载favicon.ico文件 (Alt+I)",
+      "usageTitle": "使用说明",
+      "usageItems": [
+        "移除背景色：可以去除图片中的纯色背景（如灰色、白色等）",
+        "容差值：调整容差可以移除相似的颜色，适合渐变背景",
+        "16x16: 浏览器标签页图标",
+        "32x32: 任务栏快捷方式",
+        "48x48: Windows 网站快捷方式",
+        "将生成的图标放在网站根目录"
+      ]
+    }
+  },
+  "components": {
+    "toolHistory": {
+      "usageCount": "????: {{count}}",
+      "recentUsed": "????: {{value}}",
+      "removeFavorite": "????",
+      "addFavorite": "?????",
+      "removeRecord": "????",
+      "emptyHistory": "??????",
+      "confirmClear": "?????????????",
+      "tabs": {
+        "recent": "????",
+        "favorites": "????",
+        "mostUsed": "????"
+      },
+      "title": "????",
+      "clearHistory": "????",
+      "searchPlaceholder": "??????...",
+      "emptyMessages": {
+        "recent": "????????",
+        "favorites": "??????",
+        "mostUsed": "????????"
+      }
+    },
+    "exportFormatSelector": {
+      "buttonText": "导出结果",
+      "exporting": "导出中...",
+      "exportFailed": "导出失败，请重试"
+    },
+    "ads": {
+      "loading": "加载广告中...",
+      "carouselTitle": "广告轮播",
+      "checkConsole": "请检查浏览器控制台查看详细日志"
+    },
+    "networkStatus": {
+      "online": "在线",
+      "offline": "离线",
+      "connected": "网络已连接",
+      "disconnected": "网络已断开",
+      "connectedDescription": "您现在可以正常使用所有功能",
+      "disconnectedDescription": "部分功能可能无法使用，请检查网络连接",
+      "requestFailed": "请求失败"
+    },
+    "keyboardShortcutsHelp": {
+      "title": "键盘快捷键",
+      "close": "关闭",
+      "toggleDescription": "显示/隐藏快捷键帮助",
+      "helpTextBefore": "按下",
+      "helpTextMiddle": "或",
+      "helpTextAfter": "键可以显示或隐藏此帮助",
+      "tipTitle": "提示",
+      "tipItems": [
+        "快捷键在不同操作系统上可能有不同的显示方式",
+        "某些快捷键可能与浏览器快捷键冲突",
+        "使用 Tab 键可以在页面元素间导航",
+        "按 Enter 键可以激活按钮和链接"
+      ],
+      "closeEsc": "关闭 (ESC)"
+    },
+    "performanceDashboard": {
+      "title": "性能监控仪表板",
+      "startMonitoring": "开始监控",
+      "stopMonitoring": "停止监控",
+      "exportReport": "导出报告",
+      "notMeasured": "未测量",
+      "metrics": {
+        "fcp": "首次内容绘制",
+        "lcp": "最大内容绘制",
+        "fid": "首次输入延迟",
+        "cls": "累积布局偏移",
+        "ttfb": "首字节时间"
+      },
+      "memoryTitle": "内存使用情况",
+      "memory": {
+        "used": "已用内存",
+        "total": "总内存",
+        "usageRate": "使用率"
+      },
+      "tipsTitle": "优化建议",
+      "tips": [
+        "监控期间请正常使用应用，数据将实时更新",
+        "FCP < 1.8s, LCP < 2.5s, FID < 100ms, CLS < 0.1 为优秀指标",
+        "内存使用率超过 80% 时建议优化代码",
+        "可以导出详细报告进行深度分析"
+      ],
+      "emptyState": "点击“开始监控”按钮开始性能分析"
+    }
+  }
+}

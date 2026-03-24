@@ -1,0 +1,2730 @@
+{
+  "common": {
+    "home": "Laman Utama",
+    "websiteDetection": "Pemeriksaan Laman Web",
+    "seoTools": "Alat SEO",
+    "devTools": "Alat Pembangun",
+    "encodingConversion": "Alat Penukaran Kod",
+    "otherTools": "Alat Lain-Lain",
+    "feedback": "Umpan Balas",
+    "customization": "Penyesuaian / Hubungi Kami",
+    "back": "Kembali",
+    "appName": "Alat Webmaster Semua Dalam Satu",
+    "brandName": "Produk A Kunqiong",
+    "loading": "Memuatkan...",
+    "processing": "Sedang Diproses",
+    "processingDescription": "Sila tunggu semasa kami memproses data anda...",
+    "inProgress": "Dalam Proses",
+    "search": "Cari alat...",
+    "my": "Saya",
+    "menu": "Menu",
+    "settings": "Tetapan",
+    "all": "Semua",
+    "category": "Kategori",
+    "noToolsFound": "Tiada alat yang sepadan ditemui",
+    "recommended": "Disarankan",
+    "usageCount": "Digunakan {{count}} kali",
+    "toolsCount": "{{count}} alat",
+    "export": "Eksport",
+    "usageInstructions": "Arahan Penggunaan"
+  },
+  "auth": {
+    "login": "Log Masuk",
+    "logout": "Log Keluar",
+    "userInfo": "Maklumat Pengguna",
+    "nickname": "Nama Panggilan",
+    "avatar": "Avatar",
+    "user": "Pengguna",
+    "loggedIn": "Sudah Log Masuk",
+    "loggingOut": "Log keluar...",
+    "loggingIn": "Log masuk...",
+    "loginInstructions": "Sila lengkapkan log masuk di browser anda",
+    "cancelLogin": "Batal log masuk",
+    "loginFailed": "Log masuk gagal",
+    "retry": "Cuba Semula",
+    "close": "Tutup",
+    "loginDescription": "Klik butang di bawah untuk membuka halaman log masuk di browser anda. Selepas anda lengkapkan log masuk, aplikasi akan menyegerakan status log masuk anda secara automatik.",
+    "loginTip": "Tips: Pastikan browser anda tetap terbuka semasa proses log masuk.",
+    "openBrowserLogin": "Buka Log Masuk Browser",
+    "cancel": "Batal",
+    "loginReminder": "Pemanggilan log masuk",
+    "loginRequiredTitle": "Log masuk diperlukan",
+    "loginRequiredDescription": "Anda perlu log masuk sebelum menggunakan ciri ini. Selepas log masuk, anda boleh menikmati pengalaman perkhidmatan penuh.",
+    "loginActionDescription": "Klik butang di bawah untuk membuka halaman log masuk, kemudian lengkapkan log masuk di sana.",
+    "loginNow": "Log masuk sekarang",
+    "loginBenefit": "Log masuk untuk menggunakan semua ciri",
+    "errors": {
+      "getLoginUrlFailed": "Gagal mendapatkan URL log masuk: {{message}}",
+      "getLoginUrlException": "Ralat semasa mendapatkan URL log masuk: {{error}}",
+      "loginCancelled": "Log masuk dibatalkan",
+      "pollingAbnormal": "Respons polling tidak normal: {{message}}",
+      "pollingFailed": "Polling gagal: {{error}}",
+      "loginTimeout": "Log masuk tamat tempoh",
+      "checkLoginStatusFailed": "Gagal memeriksa status log masuk, kod status: {{status}}",
+      "checkLoginException": "Ralat semasa memeriksa status log masuk",
+      "getUserInfoFailed": "Gagal mendapatkan maklumat pengguna: {{message}}",
+      "getUserInfoException": "Ralat semasa mendapatkan maklumat pengguna: {{error}}",
+      "logoutFailed": "Gagal log keluar: {{message}}",
+      "logoutException": "Ralat semasa log keluar: {{error}}",
+      "getFeedbackUrlFailed": "Gagal mendapatkan URL umpan balas: {{message}}",
+      "getFeedbackUrlException": "Ralat semasa mendapatkan URL umpan balas: {{error}}"
+    }
+  },
+  "favorite": {
+    "add": "Tambah ke Kegemaran",
+    "remove": "Buang daripada Kegemaran",
+    "label": "Kegemaran",
+    "failed": "Operasi gagal"
+  },
+  "errors": {
+    "fetchCustomUrlFailed": "Gagal memperoleh URL halaman khusus:",
+    "fetchFeedbackUrlFailed": "Gagal memperoleh URL halaman umpan balas:",
+    "copyFailed": "Salin gagal",
+    "networkError": "Ralat sambungan rangkaian",
+    "somethingWentWrong": "Ada sesuatu yang salah",
+    "unexpectedError": "Maaf, berlaku ralat yang tidak diduga",
+    "noData": "Tiada data tersedia",
+    "noRelatedData": "Tiada data berkaitan ditemui",
+    "noAds": "Tiada iklan tersedia",
+    "fetchAdsError": "Gagal memperoleh iklan",
+    "lookupFailed": "Pencarian gagal"
+  },
+  "tools": {
+    "csr": {
+      "title": "Penghasil dan Pemeriksa CSR",
+      "description": "Hasilkan dan lihat fail CSR secara dalam talian"
+    },
+    "whois": {
+      "title": "Pemeriksa WHOIS Domain",
+      "description": "Semak maklumat WHOIS dan butiran pendaftaran domain secara dalam talian"
+    },
+    "dns": {
+      "title": "Pemeriksa Rekod DNS",
+      "description": "Cari rekod DNS secara dalam talian (A, MX, CNAME, dll.)"
+    },
+    "dnsEnhanced": {
+      "title": "Pemeriksa Rekod DNS (Peningkatan)",
+      "description": "Pemeriksaan DNS dengan pengoptimuman scroll virtual untuk set rekod besar"
+    },
+    "httpStatus": {
+      "title": "Pemeriksa Kod Status HTTP",
+      "description": "Alat percuma dalam talian untuk menyemak kod status HTTP untuk laman web"
+    },
+    "gzip": {
+      "title": "Pemeriksa Kompresi Gzip",
+      "description": "Semak sama ada laman web dikompresi dengan GZIP dan lihat nisbah kompresinya"
+    },
+    "ssl": {
+      "title": "Pemeriksa Sijil SSL",
+      "description": "Semak butiran dan sahnya sijil SSL secara dalam talian"
+    },
+    "browserInfo": {
+      "title": "Maklumat Penjelajah",
+      "description": "Alat percuma untuk melihat maklumat terperinci tentang penjelajah semasa anda"
+    },
+    "useragent": {
+      "title": "Analisis User-Agent",
+      "description": "Analisis maklumat penjelajah dan peranti dari string User-Agent"
+    },
+    "websocket": {
+      "title": "Penguji WebSocket",
+      "description": "Alat ujian API WebSocket percuma dalam talian"
+    },
+    "viewSource": {
+      "title": "Lihat Sumber Halaman",
+      "description": "Lihat kod sumber laman web secara dalam talian"
+    },
+    "metaGenerator": {
+      "title": "Penghasil Tag Meta",
+      "description": "Hasilkan tag meta laman web secara dalam talian"
+    },
+    "metaCheck": {
+      "title": "Pemeriksa Tag META",
+      "description": "Semak maklumat tag META pada laman web"
+    },
+    "robots": {
+      "title": "Penghasil robots.txt",
+      "description": "Hasilkan fail robots.txt secara dalam talian"
+    },
+    "emailEncrypt": {
+      "title": "Pengenkod Alamat Emel",
+      "description": "Tukar alamat emel kepada format enkod untuk mengurangkan pencarikan"
+    },
+    "phpReference": {
+      "title": "Rujukan Fungsi PHP",
+      "description": "Senarai rujukan fungsi PHP dalam talian"
+    },
+    "htmlPreview": {
+      "title": "Pralihat HTML",
+      "description": "Alat penyuntingan dan pralihan HTML dalam talian"
+    },
+    "jsDebug": {
+      "title": "Pembolehjadian JS",
+      "description": "Jalankan dan debug JavaScript dalam talian"
+    },
+    "shieldBadge": {
+      "title": "Penghasil Badge Shield",
+      "description": "Hasilkan badge Shield SVG dalam talian"
+    },
+    "favicon": {
+      "title": "Penghasil Favicon",
+      "description": "Alat tukar favicon yang selamat dalam talian"
+    },
+    "cssGlassmorphism": {
+      "title": "Penghasil CSS Glassmorphism",
+      "description": "Hasilkan kod CSS glassmorphism dalam satu klik"
+    },
+    "cssNeumorphism": {
+      "title": "Penghasil CSS Neumorphism",
+      "description": "Hasilkan contoh gaya CSS neumorphism dalam satu klik"
+    },
+    "pxToRem": {
+      "title": "Penukaran PX ke REM",
+      "description": "Tukar unit PX dalam CSS kepada REM secara berumpulan"
+    },
+    "cssBorderRadius": {
+      "title": "Penghasil Radius Border CSS",
+      "description": "Tune border bulat secara dalam talian"
+    },
+    "cssTextShadow": {
+      "title": "Penghasil Bayangan Teks CSS",
+      "description": "Pralihat dan hasilkan kod CSS text-shadow secara dalam talian"
+    },
+    "cssBoxShadow": {
+      "title": "Penghasil Bayangan Kotak",
+      "description": "Tune bayangan div dan hasilkan kod CSS"
+    },
+    "base64": {
+      "title": "Enkod/Deenkod Base64",
+      "description": "Alat enkod dan deenkod Base64 dalam talian"
+    },
+    "urlEncode": {
+      "title": "Enkod/Deenkod URL",
+      "description": "Alat enkod dan deenkod URL dalam talian"
+    },
+    "htmlEntity": {
+      "title": "Enkod/Deenkod Entiti HTML",
+      "description": "Alat enkod dan deenkod entiti HTML dalam talian"
+    },
+    "jsMinify": {
+      "title": "JS Minify & Beautify",
+      "description": "Alat minifikasi dan beautify JavaScript dalam talian"
+    },
+    "cssMinify": {
+      "title": "CSS Minify & Beautify",
+      "description": "Alat minifikasi dan beautify CSS dalam talian"
+    },
+    "desktopShortcut": {
+      "title": "Pintasan Desktop Laman Web",
+      "description": "Cipta pintasan desktop untuk laman web untuk akses pantas"
+    },
+    "pageRefresh": {
+      "title": "Pembaruan Laman Automatik",
+      "description": "Muat semula laman jauh pada jadual"
+    },
+    "httpCodes": {
+      "title": "Kod Status HTTP",
+      "description": "Rujukan dalam talian untuk kod status / respons HTTP"
+    },
+    "workerDemo": {
+      "title": "Demo Prestasi Web Worker",
+      "description": "Lihat bagaimana Web Workers meningkatkan prestasi untuk tugas berat"
+    },
+    "formValidation": {
+      "title": "Demo Pengesahan Borang",
+      "description": "Menunjukkan pengesahan borang lengkap dengan umpan balik secara langsung"
+    }
+  },
+  "categories": {
+    "detection": "Pemeriksaan Laman Web",
+    "seo": "Alat SEO",
+    "dev": "Alat Pembangun",
+    "encode": "Alat Pengekodan",
+    "other": "Alat Lain-Lain"
+  },
+  "kunqiongNav": {
+    "home": "Laman Utama",
+    "aiTools": "Alat AI",
+    "office": "Pejabat",
+    "multimedia": "Multimedia",
+    "development": "Alat Pembangunan",
+    "text": "Teks",
+    "file": "Fail",
+    "system": "Sistem",
+    "life": "Kehidupan",
+    "news": "Berita AI",
+    "custom": "Perisian Khusus",
+    "consult": "Konsultasi",
+    "industryNews": "Berita Industri",
+    "feedback": "Umpan Balik",
+    "imageGen": "Penghasilan Imej",
+    "codeDev": "Kod & Pembangunan",
+    "logoAlt": "Kotak Alat AI Kunqiong",
+    "footerLogoAlt": "Kunqiong AI",
+    "loginRegister": "Log Masuk / Daftar",
+    "navExpandAria": "Buka Seluas Mungkin",
+    "navSearchAria": "Cari",
+    "navMenuAria": "Menu"
+  },
+  "footer": {
+    "description": "Kotak alat web profesional yang menyeluruh dengan pemeriksaan laman web, alat SEO, alat pembangun, dan lain-lain.",
+    "kunqiongBrandDesc": "Kami komited untuk menyediakan alat AI berkualiti tinggi dan perkhidmatan konsultasi kepada individu dan syarikat untuk membantu anda kekal kompetitif dalam era kecerdasan buatan.",
+    "toolCategories": "Kategori Alat",
+    "quickLinks": "Pautan Pantas",
+    "contactTitle": "Hubungi Kami",
+    "contactCompany": "Jiangxi Hexagon Star Technology Co., Ltd.",
+    "contactPhone": "17770307066",
+    "contactRegion": "Shangrao, Jiangxi, China",
+    "contactEmail": "11247931@qq.com",
+    "copyrightLine": "© 2026 Kunqiong AI Tools. Hak Cipta Terpelihara.",
+    "userAgreement": "Syarat Penggunaan",
+    "privacyPolicy": "Dasar Privasi",
+    "brandAI": "Produk Kunqiong AI",
+    "brandAlt": "Kunqiong"
+  },
+  "validation": {
+    "required": "{{field}} diperlukan",
+    "minLength": "{{field}} mesti sekurang-kurangnya {{count}} aksara",
+    "maxLength": "{{field}} boleh maksimum {{count}} aksara",
+    "invalidFormat": "{{field}} mempunyai format yang tidak sah",
+    "email": "Sila masukkan alamat emel yang sah",
+    "url": "Sila masukkan URL yang sah",
+    "domain": "Sila masukkan domain yang sah",
+    "ip": "Sila masukkan alamat IP yang sah",
+    "phone": "Sila masukkan nombor telefon yang sah",
+    "password": "Kata laluan mestilah mengandungi huruf besar dan kecil serta nombor, dan panjangnya antara 6-20 aksara"
+  },
+  "exporter": {
+    "unsupportedFormat": "Format eksport tidak disokong: {{format}}",
+    "csvRequiresArrayOrObject": "Eksport CSV memerlukan tatasusunan atau objek",
+    "toolUsageInfo": "Maklumat Penggunaan Alat",
+    "tool": "Alat",
+    "time": "Masa",
+    "url": "URL",
+    "version": "Versi",
+    "dnsReportTitle": "Laporan Pencarian DNS",
+    "dnsReportDescription": "Maklumat rekod DNS terperinci",
+    "summaryTitle": "Ringkasan",
+    "domain": "Domain",
+    "recordCount": "Rekod keseluruhan",
+    "recordCountValue": "{{count}} rekod",
+    "queryTime": "Masa soalan",
+    "typeDescriptions": {
+      "A": "Rekod alamat IPv4",
+      "AAAA": "Rekod alamat IPv6",
+      "MX": "Rekod server e-mel",
+      "TXT": "Rekod teks",
+      "CNAME": "Rekod alias",
+      "NS": "Rekod pelayan nama",
+      "SOA": "Rekod autoriti"
+    },
+    "record": "Rekod",
+    "otherRecords": "Rekod lain",
+    "recordIndex": "Rekod {{index}}",
+    "priority": "Prioriti",
+    "class": "Kelas",
+    "exportData": "Data yang Dikeluarkan",
+    "dnsToolName": "Alat Pencarian DNS",
+    "exportInfo": "Maklumat Eksport",
+    "exportTime": "Masa eksport",
+    "formats": {
+      "json": "Format data struktur, mudah diproses oleh program",
+      "csv": "Format yang sesuai untuk spreadsheet, sesuai untuk import ke Excel",
+      "txt": "Format teks biasa, mudah dibaca",
+      "xml": "Format markup, sesuai untuk pertukaran data",
+      "pdf": "Format dokumen, sesuai untuk cetakan dan perkongsian"
+    }
+  },
+  "base64": {
+    "title": "Enkod/Proses Base64",
+    "description": "Alat enkod dan proses Base64 secara dalam talian",
+    "encode": "Enkod",
+    "decode": "Proses",
+    "originalText": "Teks asal",
+    "base64String": "Tali Base64",
+    "base64Result": "Keputusan Base64",
+    "decodeResult": "Keputusan Proses",
+    "placeholderEncode": "Masukkan teks untuk dienkod...",
+    "placeholderDecode": "Masukkan Base64 untuk diproses...",
+    "resultPlaceholder": "Keputusan akan muncul di sini...",
+    "inputPlaceholder": "Masukkan kandungan untuk ditukar",
+    "decodeError": "Proses gagal. Sila semak sama ada input adalah Base64 yang sah.",
+    "encodeError": "Enkod gagal",
+    "charCount": "{{count}} aksara",
+    "clear": "Kosongkan input",
+    "copy": "Salin hasil",
+    "copied": "Disalin",
+    "convert": "Tukar sekarang",
+    "swap": "Mod Tukar",
+    "ariaLabel": "Alat enkod/proses Base64",
+    "modeSelection": "Pilihan mod penukaran",
+    "encodeMode": "Mod Enkod",
+    "decodeMode": "Mod Proses",
+    "inputLabelEncode": "Teks untuk dienkod",
+    "inputLabelDecode": "Tali Base64 untuk diproses",
+    "outputLabelEncode": "Keputusan enkod Base64",
+    "outputLabelDecode": "Keputusan proses Base64",
+    "whatIsBase64": "Apa itu Base64?",
+    "base64Info": "Base64 adalah kaedah penyandian yang mewakili data binari dengan 64 aksara yang boleh dicetak. Ia sering digunakan untuk memindahkan data binari kecil dalam URL, cookie, halaman web, atau protokol berdasarkan teks."
+  },
+  "dns": {
+    "title": "Pencarian Rekod DNS",
+    "description": "Cari rekod DNS dalam talian (A, MX, CNAME, dll.)",
+    "placeholder": "Masukkan domain, contohnya example.com",
+    "invalidDomain": "Sila masukkan format domain yang sah (contohnya example.com)",
+    "domainInput": "Input domain",
+    "validFormat": "Format domain sah",
+    "typeSelect": "Jenis rekod DNS",
+    "searchBtn": "Cari rekod DNS",
+    "loadingTitle": "Mencari rekod DNS",
+    "loadingDesc": "Sila tunggu sementara kami mencari rekod DNS untuk domain anda...",
+    "resultRegion": "Keputusan pencarian DNS",
+    "recordCount": "{{count}} rekod",
+    "typeRecordRegion": "{{type}} rekod",
+    "querying": "Mencari rekod DNS",
+    "queryingDesc": "Sila tunggu sementara kami mencari rekod DNS untuk domain anda...",
+    "foundRecords": "{{count}} rekod ditemui",
+    "queryTime": "Masa soalan: {{time}}",
+    "export": "Eksport hasil",
+    "noRecords": "Tiada rekod DNS ditemui",
+    "noRecordsDesc": "Tiada rekod DNS ditemui untuk domain ini",
+    "typeInfo": "Jenis rekod DNS",
+    "priority": "Prioriti: {{priority}}",
+    "types": {
+      "ALL": "Semua",
+      "A": "Rekod A",
+      "AAAA": "Rekod AAAA",
+      "MX": "Rekod MX",
+      "TXT": "Rekod TXT",
+      "CNAME": "Rekod CNAME",
+      "NS": "Rekod NS",
+      "SOA": "Rekod SOA"
+    },
+    "typeDescs": {
+      "A": "Alamat IPv4",
+      "AAAA": "Alamat IPv6",
+      "MX": "Pelayan e-mel",
+      "TXT": "Rekod teks",
+      "CNAME": "Rekod alias",
+      "NS": "Pelayan nama",
+      "SOA": "Rekod permulaan kuasa"
+    },
+    "typeDetails": {
+      "A": "Menghala domain ke alamat IPv4",
+      "AAAA": "Menghala domain ke alamat IPv6",
+      "MX": "Menentukan alamat pelayan e-mel, nombor prioriti yang lebih rendah menunjukkan prioriti yang lebih tinggi",
+      "TXT": "Menyimpan maklumat teks, biasanya digunakan untuk SPF dan pengesahan DKIM",
+      "CNAME": "Menghala domain ke domain lain (alias)",
+      "NS": "Menentukan pelayan DNS untuk domain"
+    }
+  },
+  "whois": {
+    "title": "Pencarian WHOIS",
+    "description": "Lakukan pencarian maklumat pendaftaran secara dalam talian",
+    "placeholder": "Masukkan domain, contohnya example.com",
+    "invalidDomain": "Sila masukkan format domain yang sah (contoh: example.com)",
+    "querying": "Mencari maklumat WHOIS",
+    "queryingDesc": "Sila tunggu sementara kami mendapatkan maklumat pendaftaran...",
+    "domainInfo": "Maklumat domain",
+    "registrar": "Pendaftar",
+    "creationDate": "Tarikh penciptaan",
+    "expirationDate": "Tarikh tamat tempoh",
+    "updatedDate": "Tarikh kemaskini",
+    "dnssec": "DNSSEC",
+    "dnssecDisabled": "Dilumpuhkan",
+    "expired": "Tamat tempoh {{days}} hari yang lalu",
+    "expiringSoon": "Tamat tempoh dalam {{days}} hari",
+    "remaining": "{{days}} hari yang tinggal",
+    "dnsServer": "Pelayan nama",
+    "domainStatus": "Status domain",
+    "registrantInfo": "Maklumat pendaftar",
+    "name": "Nama",
+    "organization": "Organisasi",
+    "country": "Negara",
+    "email": "E-mel",
+    "noInfo": "Tiada maklumat berkaitan ditemui",
+    "domain": "Domain",
+    "rawData": "Data kasar",
+    "toggleRawData": "Buka atau tutup data kasar",
+    "copyRawData": "Salin data kasar",
+    "copy": "Salin",
+    "copied": "Telah disalin",
+    "whatIsWhois": "Apa itu WHOIS?",
+    "about": "WHOIS adalah protokol yang digunakan untuk mencari data pendaftaran domain. Melalui pencarian WHOIS, anda boleh mengetahui pendaftar, tarikh pendaftaran, tarikh tamat tempoh, pelayan DNS, maklumat pendaftar, dan sebagainya. Ini berguna untuk perdagangan domain, perlindungan jenama, dan penyiasatan keselamatan."
+  },
+  "httpStatus": {
+    "title": "Pemeriksa Kekadaran HTTP",
+    "description": "Semak kod kekadaran dan maklumat respons HTTP secara dalam talian",
+    "placeholder": "Masukkan URL, contoh: https://example.com",
+    "check": "Semak",
+    "followRedirects": "Ikuti alih suai automatik",
+    "urlEmpty": "Sila masukkan URL",
+    "checkFailed": "Semakan gagal",
+    "serverError": "Kegagalan sambungan server, sila cuba lagi kemudian",
+    "unknownStatus": "Status tidak diketahui",
+    "responseTime": "Masa respons",
+    "headers": "Header",
+    "redirectUrl": "URL alih suai",
+    "contentType": "Jenis kandungan",
+    "contentLength": "Panjang kandungan",
+    "server": "Server",
+    "showHeaders": "Tunjukkan header respons",
+    "hideHeaders": "Sembunyikan header respons",
+    "status": {
+      "100": "Teruskan",
+      "101": "Menukar Protokol",
+      "200": "OK",
+      "201": "Dicipta",
+      "204": "Tiada Kandungan",
+      "301": "Alih suai Kekal",
+      "302": "Alih suai Sementara",
+      "304": "Tidak Diubahsuai",
+      "307": "Alih suai Sementara",
+      "308": "Alih suai Kekekalan",
+      "400": "Permintaan Tidak Sah",
+      "401": "Tidak Disahkan",
+      "403": "Dilarang",
+      "404": "Tidak Dijumpai",
+      "405": "Kaedah Tidak Dibenarkan",
+      "408": "Masa Tamat Permintaan",
+      "429": "Banyak Permintaan",
+      "500": "Ralat Server Dalaman",
+      "502": "Gateway Tidak Sah",
+      "503": "Perkhidmatan Tidak Tersedia",
+      "504": "Masa Tamat Gateway"
+    }
+  },
+  "browserInfo": {
+    "title": "Maklumat Browser",
+    "description": "Lihat maklumat terperinci tentang browser semasa",
+    "os": "Sistem Operasi",
+    "browser": "Browser",
+    "version": "Versi",
+    "engine": "Enjin",
+    "device": "Peranti",
+    "screen": "Keterangannya skrin",
+    "viewport": "Saiz Viewport",
+    "language": "Bahasa",
+    "timezone": "Zon masa",
+    "cookieEnabled": "Kuki Dibenarkan",
+    "online": "Sedang Online",
+    "cpu": "Arka CPU",
+    "userAgent": "User-Agent",
+    "platform": "Platform",
+    "vendor": "Pembekal browser",
+    "languages": "Bahasa yang disokong",
+    "cookie": "Kuki",
+    "onlineStatus": "Status online",
+    "doNotTrack": "Jangan Jejaki",
+    "touchPoints": "Titik sentuh",
+    "enabled": "Dibenarkan",
+    "disabled": "Dilumpuhkan",
+    "offline": "Offline",
+    "hardwareInfo": "Maklumat peranti keras",
+    "cpuCores": "Bilangan inti CPU",
+    "cpuCoresValue": "{{count}} inti",
+    "deviceMemory": "Memori peranti",
+    "screenInfo": "Maklumat skrin",
+    "availArea": "Kawasan yang tersedia",
+    "windowSize": "Saiz tetingkap",
+    "pixelRatio": "Nisbah pixel peranti",
+    "colorDepth": "Kedalaman warna",
+    "screenOrientation": "Orientasi skrin",
+    "unknown": "Tidak diketahui",
+    "basicInfo": "Maklumat asas",
+    "networkInfo": "Maklumat rangkaian",
+    "networkType": "Jenis rangkaian",
+    "downlink": "Downlink",
+    "rtt": "RTT",
+    "saveData": "Penjimatan data",
+    "batteryInfo": "Maklumat bateri",
+    "batteryLevel": " aras bateri",
+    "chargingStatus": "Status cas",
+    "charging": "Cas sedang berlangsung",
+    "notCharging": "Tidak sedang dicaskan",
+    "timezoneInfo": "Maklumat zon masa",
+    "utcOffset": "Peralihan UTC"
+  },
+  "viewSource": {
+    "title": "Lihat Sumber Halaman",
+    "description": "Lihat kod sumber halaman web secara dalam talian",
+    "placeholder": "Masukkan URL, contoh: https://example.com",
+    "fetch": "Dapatkan sumber",
+    "urlEmpty": "Sila masukkan URL",
+    "fetchFailed": "Gagal mendapatkan sumber",
+    "serverError": "Kegagalan sambungan server",
+    "lineCount": "Baris: {{count}}",
+    "copy": "Salin sumber",
+    "clear": "Kosongkan",
+    "usage1": "Masukkan URL lengkap halaman web dan klik untuk dapatkan sumber",
+    "usage2": "Menyokong melihat sumber HTML mana-mana halaman web awam",
+    "usage3": "Anda boleh salin atau muat turun kod sumber untuk analisis",
+    "usage4": "Beberapa laman web mungkin menghalang pemulihan sumber kerana dasar keselamatan"
+  },
+  "urlEncode": {
+    "title": "Penghujung/Penyahhujung URL",
+    "description": "Alat penghujung dan penyahhujung URL dalam talian",
+    "encode": "Hujungkan",
+    "decode": "Penyahhujungkan",
+    "placeholder": "Masukkan kandungan untuk diubah...",
+    "result": "Keputusan",
+    "error": "Penghujahan/Penyelesaian Gagal"
+  },
+  "htmlEntity": {
+    "title": "Penyaring Entiti HTML",
+    "description": "Alat penyaring entiti HTML dalam talian",
+    "encode": "Hujahkan",
+    "decode": "Selesaikan",
+    "placeholder": "Masukkan kandungan untuk dikonversi...",
+    "result": "Keputusan"
+  },
+  "jsMinify": {
+    "title": "Mengecilkan & Menyempurnakan JS",
+    "description": "Alat pengecilan dan penyempurnaan kod JavaScript dalam talian",
+    "minify": "Kecilkan",
+    "beautify": "Sempurnakan",
+    "placeholder": "Letakkan kod JavaScript...",
+    "result": "Keputusan Pemprosesan",
+    "error": "Pemprosesan Kod Gagal"
+  },
+  "cssMinify": {
+    "title": "Mengecilkan & Menyempurnakan CSS",
+    "description": "Alat Pengecilan & Penyempurnaan Kod CSS Dalam Talian",
+    "minify": "Kecilkan",
+    "beautify": "Sempurnakan",
+    "placeholder": "Letakkan Kod CSS...",
+    "result": "Keputusan Pemprosesan",
+    "error": "Pemprosesan Kod Gagal"
+  },
+  "pages": {
+    "sslCheck": {
+      "title": "Pemeriksa Sijil SSL",
+      "description": "Semak butiran dan sah sijil SSL untuk domain",
+      "enterDomain": "Sila masukkan domain",
+      "checkFailed": "Pemeriksaan gagal",
+      "serverConnectionFailed": "Gagal menyambung ke server, sila cuba lagi nanti",
+      "inputPlaceholder": "Masukkan domain, contohnya: example.com",
+      "check": "Semak",
+      "statusExpired": "Tamat Tempoh",
+      "statusExpiringSoon": "Tamat Tempoh Tidak Lama Lagi",
+      "statusValid": "Sah",
+      "statusProblem": "Masalah Sijil",
+      "expiredDays": "Tamat {{count}} hari yang lalu",
+      "remainingDays": "{{count}} hari yang tinggal",
+      "warning": "Amaran: {{message}}",
+      "protocol": "Protokol",
+      "validityPeriod": "Tempoh Sah",
+      "validFrom": "Sah dari",
+      "validTo": "Sah hingga",
+      "certificateInfo": "Maklumat Sijil",
+      "subject": "Subjek",
+      "issuer": "Pemberi",
+      "commonName": "Nama Biasa (CN)",
+      "organization": "Organisasi (O)",
+      "organizationUnit": "Unit Organisasi (OU)",
+      "country": "Negara (C)",
+      "subjectAltNames": "Nama Alternatif Subjek (SAN) - {{count}} entri",
+      "technicalDetails": "Butiran Teknikal",
+      "serialNumber": "Nombor Siri",
+      "fingerprintSha1": "Jejak (SHA-1)",
+      "fingerprintSha256": "Jejak (SHA-256)",
+      "cipherSuite": "Set Kriptografi",
+      "infoTitle": "Catatan Sijil SSL",
+      "infoItems": [
+        "Sijil SSL mengesahkan identiti server dan menyahkodkan komunikasi",
+        "Semak tarikh tamat tempoh secara kerap untuk mengelakkan gangguan",
+        "Sijil yang hampir tamat tempoh perlu diperbaharui awal",
+        "SAN (Nama Alternatif Subjek) senarai domain yang dilindungi oleh sijil"
+      ]
+    },
+    "gzipCheck": {
+      "title": "Pemeriksaan Segera Gzip Laman Web",
+      "description": "Semak sama ada laman web menyokong Segera Gzip / Deflate / Brotli",
+      "enterUrl": "Sila masukkan URL",
+      "checkFailed": "Pemeriksaan gagal",
+      "serverConnectionFailed": "Gagal menyambung ke server, sila cuba lagi nanti",
+      "inputPlaceholder": "Masukkan URL, contohnya: https://example.com",
+      "check": "Semak",
+      "enabled": "Dibenarkan",
+      "disabled": "Tidak dibenarkan",
+      "compressionType": "Jenis Segera: {{type}}",
+      "enableSuggestion": "Benarkan Segera Gzip untuk mengurangkan saiz pemindahan dan meningkatkan kelajuan muat turun",
+      "supportTitle": "Sokongan Segera",
+      "gzipDescription": "Standard segera yang biasa digunakan",
+      "deflateDescription": "Algoritma segera tradisional untuk HTTP",
+      "brotliDescription": "Kaedah segera yang lebih baru dengan nisbah yang lebih baik",
+      "effectTitle": "Kesan Segera",
+      "originalSize": "Saiz asal",
+      "compressedSize": "Saiz disegera",
+      "ratio": "Nisbah Segera",
+      "savedTransfer": "Menjimatkan {{value}} dalam saiz pemindahan",
+      "detailsTitle": "Butiran",
+      "whyTitle": "Mengapa membenarkan Segera Gzip?",
+      "whyItems": [
+        "Ia boleh mengurangkan saiz sumber teks antara 60% hingga 80%",
+        "Pemindahan yang lebih kecil meningkatkan kelajuan muat turun",
+        "Ia mengurangkan penggunaan bandwidth",
+        "Prestasi yang lebih baik juga boleh membantu SEO dan pengalaman pengguna"
+      ]
+    },
+    "dnsLookupEnhanced": {
+      "title": "Pencarian Rekod DNS Lanjutan",
+      "description": "Mencari pelbagai jenis rekod DNS secara dalam talian dengan pengoptimuman untuk set hasil yang besar",
+      "enterDomain": "Sila masukkan domain",
+      "lookupFailed": "Pencarian gagal",
+      "serverConnectionFailed": "Gagal menyambung ke server, sila cuba lagi nanti",
+      "inputPlaceholder": "Masukkan domain, contohnya: example.com",
+      "lookup": "Cari",
+      "priority": "Prioriti: {{value}}",
+      "dnsTypes": [
+        {
+          "value": "SEMUA",
+          "label": "Semua"
+        },
+        {
+          "value": "A",
+          "label": "Rekod A",
+          "desc": "Alamat IPv4"
+        },
+        {
+          "value": "AAAA",
+          "label": "Rekod AAAA",
+          "desc": "Alamat IPv6"
+        },
+        {
+          "value": "MX",
+          "label": "Rekod MX",
+          "desc": "Server e-mel"
+        },
+        {
+          "value": "TXT",
+          "label": "Rekod TXT",
+          "desc": "Data teks"
+        },
+        {
+          "value": "CNAME",
+          "label": "Rekod CNAME",
+          "desc": "Rekod alias"
+        },
+        {
+          "value": "NS",
+          "label": "Rekod NS",
+          "desc": "Server nama"
+        },
+        {
+          "value": "SOA",
+          "label": "Rekod SOA",
+          "desc": "Mulai otoriti"
+        }
+      ],
+      "foundRecords": "Ditemui {{count}} rekod",
+      "queryTime": "Masa Query: {{time}}",
+      "virtualScrollEnabled": "Sedutan virtual diaktifkan",
+      "recordCount": "{{count}} rekod",
+      "virtualScrollTag": "Paparan yang dioptimumkan",
+      "noRecords": "Tiada rekod DNS ditemui",
+      "performanceTitle": "Optimisasi Prestasi",
+      "performanceItems": [
+        "Paparan yang disedut menjadikan Pencarian DNS responsif dengan {{count}} rekod",
+        "Hanya baris yang terlihat yang dipaparkan untuk mengurangkan penggunaan memori",
+        "Ini membantu mengelakkan ketinggalan DOM apabila set hasil besar",
+        "Pengalaman tetap responsif walaupun terdapat banyak rekod"
+      ]
+    },
+    "metaCheck": {
+      "title": "Pemeriksaan Tag META",
+      "description": "Semak tag META yang digunakan pada halaman web",
+      "enterUrl": "Sila masukkan URL laman web",
+      "checkFailed": "Pemeriksaan gagal",
+      "urlLabel": "URL Laman Web",
+      "inputPlaceholder": "example.com atau https://example.com",
+      "check": "Semak",
+      "resultTitle": "Keputusan semakan",
+      "totalCount": "Ditemui {{count}} tag META",
+      "groups": {
+        "pageTitle": "Tajuk Halaman",
+        "httpEquiv": "HTTP-Equiv",
+        "charset": "Charset",
+        "basicMeta": "META Asas"
+      },
+      "emptyContent": "Kosong",
+      "infoTitle": "Mengenai",
+      "infoItems": [
+        "Alat ini menyemak tag tajuk, tag meta name, tag meta property (seperti Open Graph), dan tag meta http-equiv",
+        "Ia membantu meninjau metadata SEO halaman dengan cepat",
+        "Ia juga membantu mengenal pasti isu tag yang hilang atau berganda"
+      ]
+    },
+    "urlEncode": {
+      "title": "Hujahan/Selesaian URL",
+      "description": "Hujahkan atau selesaikan rentetan URL dalam talian",
+      "toolName": "Hujahan/Selesaian URL",
+      "toolCategory": "Alat Hujahan",
+      "convertFailed": "Penukaran gagal, sila semak input anda",
+      "copyFailed": "Gagal menyalin keputusan",
+      "modeSelector": "Pilih mod",
+      "typeSelector": "Jenis penyahkodan",
+      "encode": "Kodkan",
+      "decode": "Sahkan",
+      "componentTitle": "Komponen URL",
+      "componentDescription": "Kodkan hanya sebahagian URL",
+      "fullTitle": "URL Penuh",
+      "fullDescription": "Kodkan keseluruhan URL",
+      "inputEncodeLabel": "Teks biasa",
+      "inputDecodeLabel": "URL yang dikodkan",
+      "clearInput": "Buang input",
+      "encodePlaceholder": "Masukkan teks untuk dikodkan sebagai URL...",
+      "decodePlaceholder": "Masukkan URL yang dikodkan untuk disahkan...",
+      "outputEncodeLabel": "Keputusan kodan",
+      "outputDecodeLabel": "Keputusan sah",
+      "copyResult": "Salin keputusan",
+      "resultPlaceholder": "Keputusan pemprosesan akan muncul di sini...",
+      "copied": "Disalin ke skrin bacaan",
+      "swap": "Tukar",
+      "swapInputOutput": "Tukar input dan output",
+      "infoTitle": "Mod penyahkodan",
+      "componentModeTitle": "Mod komponen",
+      "componentModeDescription": "Paling sesuai untuk bahagian URL individu seperti parameter soalan atau segmen laluan.",
+      "componentExample": "Contoh: hello world → hello%20world",
+      "fullModeTitle": "Mod URL penuh",
+      "fullModeDescription": "Gunakan ini apabila anda perlu mengkodkan URL lengkap sambil mengekalkan struktur keseluruhan URL tetap dikenali.",
+      "fullExample": "Contoh: https://example.com/路径 → https://example.com/%E8%B7%AF%E5%BE%84"
+    },
+    "htmlEntity": {
+      "title": "Kodan & Sahkan Entiti HTML",
+      "description": "Kodkan atau sahkan entiti HTML secara dalam talian",
+      "toolName": "Kodan & Sahkan Entiti HTML",
+      "toolCategory": "Alat Penyahkodan",
+      "convertFailed": "Penukaran gagal, sila semak input anda",
+      "copyFailed": "Gagal menyalin keputusan",
+      "modeSelector": "Pilih mod",
+      "switchToEncode": "Tukar ke mod kodan (Alt+1)",
+      "switchToDecode": "Tukar ke mod sahan (Alt+2)",
+      "encode": "Kodkan",
+      "decode": "Sahkan",
+      "encodeAll": "Kodkan semua aksara",
+      "inputEncodeLabel": "Teks biasa",
+      "inputDecodeLabel": "Entiti HTML",
+      "clearInput": "Buang input (Ctrl+L)",
+      "encodePlaceholder": "Masukkan teks untuk ditukar kepada entiti HTML...",
+      "decodePlaceholder": "Masukkan entiti HTML untuk disahkan...",
+      "inputDescriptionEncode": "Masukkan teks biasa yang ingin anda kodkan sebagai entiti HTML",
+      "inputDescriptionDecode": "Masukkan entiti HTML yang ingin anda sahkan",
+      "outputEncodeLabel": "Keputusan kodan",
+      "outputDecodeLabel": "Keputusan sahan",
+      "copyResult": "Salin keputusan (Ctrl+C)",
+      "resultPlaceholder": "Keputusan pemprosesan akan muncul di sini...",
+      "outputDescriptionEncode": "Keluaran entiti HTML yang dihasilkan",
+      "outputDescriptionDecode": "Keluaran teks biasa yang diperolehi",
+      "copied": "Disalin ke skrin bacaan",
+      "executeEncode": "Kodkan (Ctrl+Enter)",
+      "executeDecode": "Sahkan (Ctrl+Enter)",
+      "swap": "Tukar",
+      "swapMode": "Tukar input dan output (Ctrl+S)",
+      "commonEntities": "Entiti HTML umum",
+      "space": "(ruang kosong)"
+    },
+    "jsMinify": {
+      "title": "JS Minify & Beautify",
+      "description": "Minify atau beautify kod JavaScript secara dalam talian",
+      "toolName": "JavaScript Minify / Beautify",
+      "toolNameHistory": "JS Minify & Beautify",
+      "toolCategory": "Alat Pembangun",
+      "processFailed": "Pemprosesan gagal",
+      "copyFailed": "Gagal menyalin keputusan ke skrin bacaan",
+      "switchToMinify": "Tukar ke mod minify",
+      "switchToMinifyTitle": "Tukar ke mod minify (Alt+1)",
+      "switchToBeautify": "Tukar ke mod beautify",
+      "switchToBeautifyTitle": "Tukar ke mod beautify (Alt+2)",
+      "minify": "Minify",
+      "beautify": "Beautify",
+      "input": "Input",
+      "output": "Output",
+      "inputPlaceholder": "Masukkan kod JavaScript di sini...",
+      "inputAria": "Penyunting input JavaScript",
+      "inputTitle": "Tekan Ctrl+Enter untuk menjalankan, Ctrl+L untuk membuang",
+      "copyOutput": "Salin output",
+      "copyOutputTitle": "Salin output (Ctrl+C)",
+      "resultPlaceholder": "Keputusan diproses akan muncul di sini...",
+      "outputAria": "Keputusan output JavaScript",
+      "executeMinify": "Minify JavaScript",
+      "executeMinifyTitle": "Minify JavaScript (Ctrl+Enter)",
+      "executeBeautify": "Beautify JavaScript",
+      "executeBeautifyTitle": "Beautify JavaScript (Ctrl+Enter)",
+      "minifyCode": "Minify kod",
+      "beautifyCode": "Beautify kod",
+      "swap": "Tukar",
+      "swapTitle": "Tukar input dan output (Ctrl+S)",
+      "clear": "Buang",
+      "clearTitle": "Buang kandungan (Ctrl+L)",
+      "copied": "Disalin ke skrin bacaan",
+      "infoTitle": "Ciri-ciri",
+      "infoItems": [
+        "Menghapus ruang dan baris yang tidak perlu untuk mengurangkan saiz fail JavaScript",
+        "Mod beautify membuat kod yang dikompresi lebih mudah dibaca dan dikelola",
+        "Kualiti minifikasi bergantung pada parser dan implementasi minifier JavaScript"
+      ]
+    },
+    "cssMinify": {
+      "title": "CSS Minify & Beautify",
+      "description": "Minify atau beautify kod CSS secara dalam talian",
+      "toolName": "CSS Minify & Beautify",
+      "toolCategory": "Alat Pembangun",
+      "processFailed": "Pemprosesan gagal",
+      "copyFailed": "Gagal menyalin keputusan ke skrin bacaan",
+      "switchToMinify": "Tukar ke mod minify",
+      "switchToMinifyTitle": "Tukar ke mod minify (Alt+1)",
+      "switchToBeautify": "Tukar ke mod beautify",
+      "switchToBeautifyTitle": "Tukar ke mod beautify (Alt+2)",
+      "minify": "Minify",
+      "beautify": "Beautify",
+      "input": "Input",
+      "output": "Output",
+      "inputPlaceholder": "Masukkan kod CSS di sini...\n\nContoh:\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 20px;\n}",
+      "inputAria": "Penyunting input CSS",
+      "inputTitle": "Tekan Ctrl+Enter untuk menjalankan, Ctrl+L untuk membuang",
+      "copyOutput": "Salin output",
+      "copyOutputTitle": "Salin output (Ctrl+C)",
+      "resultPlaceholder": "Keputusan diproses akan muncul di sini...",
+      "outputAria": "Keputusan output CSS",
+      "executeMinify": "Minify CSS",
+      "executeMinifyTitle": "Minify CSS (Ctrl+Enter)",
+      "executeBeautify": "Beautify CSS",
+      "executeBeautifyTitle": "Beautify CSS (Ctrl+Enter)",
+      "minifyCode": "Minify kod",
+      "beautifyCode": "Beautify kod",
+      "swap": "Tukar",
+      "swapTitle": "Tukar input dan output (Ctrl+S)",
+      "clear": "Buang",
+      "clearTitle": "Buang kandungan (Ctrl+L)",
+      "copied": "Disalin ke skrin bacaan",
+      "infoTitle": "Ciri-ciri",
+      "infoItems": [
+        "Menghapus ruang dan baris yang tidak perlu untuk mengurangkan saiz fail",
+        "Mod beautify membuat kod yang dikompresi lebih mudah dibaca dan diedit",
+        "Fail CSS yang lebih kecil boleh membantu mengurangkan saiz transfer HTTP dan meningkatkan prestasi muat turun"
+      ]
+    },
+    "httpCodes": {
+      "title": "Kod Status HTTP",
+      "description": "Rujukan untuk kod status / respons HTTP",
+      "searchPlaceholder": "Cari kod status atau deskripsi...",
+      "noMatch": "Tiada kod status yang sepadan ditemui",
+      "infoTitle": "Asas kod status HTTP",
+      "infoItems": [
+        "1xx - Respons maklumat yang bermaksud permintaan telah diterima dan sedang diproses",
+        "2xx - Respons kejayaan yang bermaksud permintaan telah diterima, difahami, dan diterima",
+        "3xx - Respons penyesuaian yang memerlukan tindakan lanjut untuk menyelesaikan permintaan",
+        "4xx - Respons ralat pelanggan yang bermaksud permintaan mempunyai sintaks yang salah atau tidak dapat dipenuhi",
+        "5xx - Respons ralat server yang bermaksud server gagal memenuhi permintaan yang sah"
+      ],
+      "categories": [
+        {
+          "id": "all",
+          "name": "Semua",
+          "color": "bg-gray-100 text-gray-700"
+        },
+        {
+          "id": "1xx",
+          "name": "1xx Maklumat",
+          "color": "bg-blue-100 text-blue-700"
+        },
+        {
+          "id": "2xx",
+          "name": "2xx Kejayaan",
+          "color": "bg-green-100 text-green-700"
+        },
+        {
+          "id": "3xx",
+          "name": "Pengalihan 3xx",
+          "color": "bg-yellow-100 text-yellow-700"
+        },
+        {
+          "id": "4xx",
+          "name": "Ralat Pelanggan 4xx",
+          "color": "bg-orange-100 text-orange-700"
+        },
+        {
+          "id": "5xx",
+          "name": "Ralat Server 5xx",
+          "color": "bg-red-100 text-red-700"
+        }
+      ],
+      "codes": [
+        {
+          "code": 100,
+          "name": "Teruskan",
+          "desc": "Bahagian awal permintaan telah diterima dan klien perlu terus menghantar bahagian selebihnya.",
+          "category": "1xx"
+        },
+        {
+          "code": 101,
+          "name": "Menukar Protokol",
+          "desc": "Server bersetuju untuk menukar protokol mengikut permintaan pelanggan.",
+          "category": "1xx"
+        },
+        {
+          "code": 102,
+          "name": "Sedang Diproses",
+          "desc": "Server telah menerima dan sedang memproses permintaan, tetapi tiada respons yang tersedia lagi.",
+          "category": "1xx"
+        },
+        {
+          "code": 200,
+          "name": "OK",
+          "desc": "Permintaan berjaya, biasanya untuk permintaan GET atau POST.",
+          "category": "2xx"
+        },
+        {
+          "code": 201,
+          "name": "Dicipta",
+          "desc": "Permintaan berjaya dan mencipta sumber baru.",
+          "category": "2xx"
+        },
+        {
+          "code": 202,
+          "name": "Diterima",
+          "desc": "Permintaan diterima untuk diproses, tetapi belum selesai yet.",
+          "category": "2xx"
+        },
+        {
+          "code": 203,
+          "name": "Maklumat Tidak Berkuasa",
+          "desc": "Metadata respons berasal dari salinan tempatan atau pihak ketiga bukan daripada server asal.",
+          "category": "2xx"
+        },
+        {
+          "code": 204,
+          "name": "Tiada Kandungan",
+          "desc": "Permintaan berjaya, tetapi respons tidak mengandungi badan.",
+          "category": "2xx"
+        },
+        {
+          "code": 205,
+          "name": "Reset Kandungan",
+          "desc": "Permintaan berjaya dan klien perlu menetapkan semula paparan dokumen semasa.",
+          "category": "2xx"
+        },
+        {
+          "code": 206,
+          "name": "Kandungan Sebahagian",
+          "desc": "Server sedang mengembalikan hanya sebahagian sumber kerana permintaan julat.",
+          "category": "2xx"
+        },
+        {
+          "code": 300,
+          "name": "Pilihan Banyak",
+          "desc": "Sumber yang diminta mempunyai beberapa representasi mungkin untuk pelanggan memilih dari.",
+          "category": "3xx"
+        },
+        {
+          "code": 301,
+          "name": "Dipindahkan Secara Tetap",
+          "desc": "Sumber yang diminta telah dipindahkan secara tetap ke URI baru.",
+          "category": "3xx"
+        },
+        {
+          "code": 302,
+          "name": "Dijumpai",
+          "desc": "Sumber yang diminta sementara terletak di URI yang berbeza.",
+          "category": "3xx"
+        },
+        {
+          "code": 303,
+          "name": "Lihat Lain",
+          "desc": "Respons kepada permintaan boleh ditemui di URI lain menggunakan GET.",
+          "category": "3xx"
+        },
+        {
+          "code": 304,
+          "name": "Tidak Diubahsuai",
+          "desc": "Sumber terbuka tidak berubah, jadi pelanggan boleh menggunakan salinan tempatan.",
+          "category": "3xx"
+        },
+        {
+          "code": 307,
+          "name": "Peralihan Sementara",
+          "desc": "Sumber diralat secara sementara dan kaedah permintaan asal mestilah dikekalkan.",
+          "category": "3xx"
+        },
+        {
+          "code": 308,
+          "name": "Peralihan Tetap",
+          "desc": "Sumber telah bergerak secara tetap dan kaedah permintaan asal mestilah dikekalkan.",
+          "category": "3xx"
+        },
+        {
+          "code": 400,
+          "name": "Permintaan Tidak Sah",
+          "desc": "Server tidak dapat memproses permintaan kerana sintaks yang tidak sah.",
+          "category": "4xx"
+        },
+        {
+          "code": 401,
+          "name": "Tidak Disahkan",
+          "desc": "Autentikasi diperlukan sebelum permintaan boleh disiapkan.",
+          "category": "4xx"
+        },
+        {
+          "code": 402,
+          "name": "Bayaran Diperlukan",
+          "desc": "Ditugaskan untuk penggunaan masa depan, sering dikaitkan dengan sistem pembayaran digital.",
+          "category": "4xx"
+        },
+        {
+          "code": 403,
+          "name": "Dilarang",
+          "desc": "Server memahami permintaan tetapi menolak untuk mengesahkannya.",
+          "category": "4xx"
+        },
+        {
+          "code": 404,
+          "name": "Tidak Dijumpai",
+          "desc": "Server tidak dapat mencari sumber yang diminta.",
+          "category": "4xx"
+        },
+        {
+          "code": 405,
+          "name": "Kaedah Tidak Dibenarkan",
+          "desc": "Kaedah permintaan tidak dibenarkan untuk sumber tujuan.",
+          "category": "4xx"
+        },
+        {
+          "code": 406,
+          "name": "Tidak Diterima",
+          "desc": "Server tidak dapat memberikan respons yang sepadan dengan format yang diterima pelanggan.",
+          "category": "4xx"
+        },
+        {
+          "code": 407,
+          "name": "Pengesahan Proksi Diperlukan",
+          "desc": "Klien perlu mengesahkan dirinya dengan proksi sebelum teruskan.",
+          "category": "4xx"
+        },
+        {
+          "code": 408,
+          "name": "Masa Tamat Permintaan",
+          "desc": "Server tamat masa menunggu permintaan.",
+          "category": "4xx"
+        },
+        {
+          "code": 409,
+          "name": "Konflik",
+          "desc": "Permintaan berkonflik dengan keadaan semasa sumber tujuan.",
+          "category": "4xx"
+        },
+        {
+          "code": 410,
+          "name": "Hilang",
+          "desc": "Sumber tidak lagi tersedia dan tiada alamat penghantaran yang diketahui.",
+          "category": "4xx"
+        },
+        {
+          "code": 411,
+          "name": "Panjang Perlu",
+          "desc": "Server memerlukan header Content-Length yang sah.",
+          "category": "4xx"
+        },
+        {
+          "code": 412,
+          "name": "Prasyarat Gagal",
+          "desc": "Satu atau lebih syarat dalam tajuk permintaan dinilai sebagai palsu.",
+          "category": "4xx"
+        },
+        {
+          "code": 413,
+          "name": "Muatan Terlalu Besar",
+          "desc": "Badan permintaan lebih besar daripada yang boleh atau mahu server proseskan.",
+          "category": "4xx"
+        },
+        {
+          "code": 414,
+          "name": "URI Terlalu Panjang",
+          "desc": "URI yang diminta lebih panjang daripada yang boleh server proseskan.",
+          "category": "4xx"
+        },
+        {
+          "code": 415,
+          "name": "Jenis Media Tidak Didukung",
+          "desc": "Server tidak menyokong jenis media yang digunakan dalam permintaan.",
+          "category": "4xx"
+        },
+        {
+          "code": 418,
+          "name": "Aku adalah teapot",
+          "desc": "Kod status lucu yang menunjukkan server menolak untuk membuat kopi kerana ia adalah teapot.",
+          "category": "4xx"
+        },
+        {
+          "code": 422,
+          "name": "Entiti Tidak Dapat Diproses",
+          "desc": "Server memahami format permintaan tetapi tidak dapat memproses arahan yang terkandung.",
+          "category": "4xx"
+        },
+        {
+          "code": 429,
+          "name": "Banyak Permintaan Terlalu Banyak",
+          "desc": "Klien telah menghantar terlalu banyak permintaan dalam tempoh tertentu.",
+          "category": "4xx"
+        },
+        {
+          "code": 451,
+          "name": "Tidak Tersedia Kerana Alasan Undang-Undang",
+          "desc": "Sumber tidak tersedia kerana hadiran undang-undang.",
+          "category": "4xx"
+        },
+        {
+          "code": 500,
+          "name": "Ralat Server Dalaman",
+          "desc": "Server mengalami ralat yang tidak diduga semasa memproses permintaan.",
+          "category": "5xx"
+        },
+        {
+          "code": 501,
+          "name": "Tidak Dilaksanakan",
+          "desc": "Server tidak menyokong fungsi yang diperlukan untuk memenuhi permintaan.",
+          "category": "5xx"
+        },
+        {
+          "code": 502,
+          "name": "Gateway Tidak Sah",
+          "desc": "Server gateway atau proksi menerima respons yang tidak sah daripada server hulu.",
+          "category": "5xx"
+        },
+        {
+          "code": 503,
+          "name": "Perkhidmatan Tidak Tersedia",
+          "desc": "Server sementara tidak dapat mengendalikan permintaan, biasanya kerana beban atau penyelenggaraan.",
+          "category": "5xx"
+        },
+        {
+          "code": 504,
+          "name": "Waktu Tamat Gateway",
+          "desc": "Server gateway atau proksi tidak menerima respons yang cepat daripada server hulu.",
+          "category": "5xx"
+        },
+        {
+          "code": 505,
+          "name": "Versi HTTP Tidak Didukung",
+          "desc": "Server tidak menyokong versi protokol HTTP yang digunakan dalam permintaan.",
+          "category": "5xx"
+        }
+      ]
+    },
+    "phpReference": {
+      "title": "Rujukan Fungsi PHP",
+      "description": "Rujukan pantas untuk fungsi PHP yang biasa digunakan",
+      "searchPlaceholder": "Cari nama fungsi atau deskripsi...",
+      "noMatch": "Tiada fungsi yang sepadan ditemui",
+      "infoTitle": "Mengenai",
+      "infoDescription": "Halaman ini senarai fungsi PHP yang biasa digunakan mengikut kategori untuk rujukan pantas. Ia ditujukan sebagai gambaran keseluruhan yang berguna bagi pembangun dan tidak menggantikan dokumentasi rasmi PHP.",
+      "categories": [
+        "Semua",
+        "Teks",
+        "Aturcara",
+        "Fail",
+        "Tarikh/Masa",
+        "JSON",
+        "Matematik",
+        "Lain-lain"
+      ],
+      "functions": [
+        {
+          "name": "strlen",
+          "desc": "Dapatkan panjang satu tali",
+          "syntax": "strlen(string $string): int",
+          "category": "Tali"
+        },
+        {
+          "name": "substr",
+          "desc": "Kembalikan sebahagian daripada satu tali",
+          "syntax": "substr(string $string, int $offset, ?int $length = null): string",
+          "category": "Tali"
+        },
+        {
+          "name": "strpos",
+          "desc": "Cari kedudukan kejadian pertama satu sub-tali",
+          "syntax": "strpos(string $haystack, string $needle, int $offset = 0): int|false",
+          "category": "Tali"
+        },
+        {
+          "name": "str_replace",
+          "desc": "Gantikan semua kejadian tali carian",
+          "syntax": "str_replace(mixed $search, mixed $replace, mixed $subject): mixed",
+          "category": "Tali"
+        },
+        {
+          "name": "explode",
+          "desc": "Bahagikan satu tali kepada satu tatasusunan menggunakan pemisah",
+          "syntax": "explode(string $separator, string $string, int $limit = PHP_INT_MAX): array",
+          "category": "Tali"
+        },
+        {
+          "name": "implode",
+          "desc": "Gabungkan elemen tatasusunan kepada satu tali",
+          "syntax": "implode(string $separator, array $array): string",
+          "category": "Tali"
+        },
+        {
+          "name": "trim",
+          "desc": "Buang ruang putih atau aksara lain dari kedua hujung satu tali",
+          "syntax": "trim(string $string, string $characters = \" \\n\\r\\t\\v\\x00\"): string",
+          "category": "Tali"
+        },
+        {
+          "name": "strtolower",
+          "desc": "Tukar satu tali kepada huruf kecil",
+          "syntax": "strtolower(string $string): string",
+          "category": "Tali"
+        },
+        {
+          "name": "strtoupper",
+          "desc": "Tukar satu tali kepada huruf besar",
+          "syntax": "strtoupper(string $string): string",
+          "category": "Tali"
+        },
+        {
+          "name": "sprintf",
+          "desc": "Kembalikan satu tali yang diformat",
+          "syntax": "sprintf(string $format, mixed ...$values): string",
+          "category": "Tali"
+        },
+        {
+          "name": "preg_match",
+          "desc": "Lakukan padanan ekspresi biasa",
+          "syntax": "preg_match(string $pattern, string $subject, array &$matches = null): int|false",
+          "category": "Tali"
+        },
+        {
+          "name": "preg_replace",
+          "desc": "Lakukan carian dan gantian ekspresi biasa",
+          "syntax": "preg_replace(mixed $pattern, mixed $replacement, mixed $subject): mixed",
+          "category": "Tali"
+        },
+        {
+          "name": "count",
+          "desc": "Kira elemen dalam satu tatasusunan atau objek Countable",
+          "syntax": "count(Countable|array $value, int $mode = COUNT_NORMAL): int",
+          "category": "Tatasusunan"
+        },
+        {
+          "name": "array_push",
+          "desc": "Tambahkan satu atau lebih elemen ke hujung satu tatasusunan",
+          "syntax": "array_push(array &$array, mixed ...$values): int",
+          "category": "Tatasusunan"
+        },
+        {
+          "name": "array_pop",
+          "desc": "Buang elemen terakhir daripada satu tatasusunan",
+          "syntax": "array_pop(array &$array): mixed",
+          "category": "Tatasusunan"
+        },
+        {
+          "name": "array_merge",
+          "desc": "Gabungkan satu atau lebih tatasusunan",
+          "syntax": "array_merge(array ...$arrays): array",
+          "category": "Tatasusunan"
+        },
+        {
+          "name": "array_keys",
+          "desc": "Kembalikan semua kunci satu tatasusunan",
+          "syntax": "array_keys(array $array, mixed $filter_value, bool $strict = false): array",
+          "category": "Tatasusunan"
+        },
+        {
+          "name": "array_values",
+          "desc": "Kembalikan semua nilai satu tatasusunan",
+          "syntax": "array_values(array $array): array",
+          "category": "Tatasusunan"
+        },
+        {
+          "name": "in_array",
+          "desc": "Semak sama ada satu nilai wujud dalam satu tatasusunan",
+          "syntax": "in_array(mixed $needle, array $haystack, bool $strict = false): bool",
+          "category": "Tatasusunan"
+        },
+        {
+          "name": "array_search",
+          "desc": "Cari satu tatasusunan untuk satu nilai dan kembalikan kuncinya",
+          "syntax": "array_search(mixed $needle, array $haystack, bool $strict = false): int|string|false",
+          "category": "Tatasusunan"
+        },
+        {
+          "name": "array_map",
+          "desc": "Terapkan satu fungsi panggilan balik kepada elemen satu tatasusunan",
+          "syntax": "array_map(?callable $callback, array $array, array ...$arrays): array",
+          "category": "Tatasusunan"
+        },
+        {
+          "name": "array_filter",
+          "desc": "Saring elemen satu tatasusunan menggunakan satu fungsi panggilan balik",
+          "syntax": "array_filter(array $array, ?callable $callback = null, int $mode = 0): array",
+          "category": "Tatasusunan"
+        },
+        {
+          "name": "sort",
+          "desc": "Susun satu tatasusunan dalam urutan menaik",
+          "syntax": "sort(array &$array, int $flags = SORT_REGULAR): bool",
+          "category": "Tatasusunan"
+        },
+        {
+          "name": "usort",
+          "desc": "Susun satu tatasusunan dengan satu fungsi perbandingan pengguna",
+          "syntax": "usort(array &$array, callable $callback): bool",
+          "category": "Tatasusunan"
+        },
+        {
+          "name": "file_get_contents",
+          "desc": "Baca seluruh fail kepada satu tali",
+          "syntax": "file_get_contents(string $filename, ...): string|false",
+          "category": "Fail"
+        },
+        {
+          "name": "file_put_contents",
+          "desc": "Tulis data kepada satu fail",
+          "syntax": "file_put_contents(string $filename, mixed $data, int $flags = 0): int|false",
+          "category": "Fail"
+        },
+        {
+          "name": "fopen",
+          "desc": "Buka satu fail atau URL",
+          "syntax": "fopen(string $filename, string $mode, ...): resource|false",
+          "category": "Fail"
+        },
+        {
+          "name": "fclose",
+          "desc": "Tutup penunjuk fail yang terbuka",
+          "syntax": "fclose(resource $stream): bool",
+          "category": "Fail"
+        },
+        {
+          "name": "fread",
+          "desc": "Baca daripada penunjuk fail",
+          "syntax": "fread(resource $stream, int $length): string|false",
+          "category": "Fail"
+        },
+        {
+          "name": "fwrite",
+          "desc": "Tulis kepada penunjuk fail",
+          "syntax": "fwrite(resource $stream, string $data, ?int $length = null): int|false",
+          "category": "Fail"
+        },
+        {
+          "name": "file_exists",
+          "desc": "Semak sama ada satu fail atau direktori wujud",
+          "syntax": "file_exists(string $filename): bool",
+          "category": "Fail"
+        },
+        {
+          "name": "is_file",
+          "desc": "Semak sama ada laluan adalah fail biasa",
+          "syntax": "is_file(string $filename): bool",
+          "category": "Fail"
+        },
+        {
+          "name": "unlink",
+          "desc": "Padam satu fail",
+          "syntax": "unlink(string $filename, ?resource $context = null): bool",
+          "category": "Fail"
+        },
+        {
+          "name": "mkdir",
+          "desc": "Cipta satu direktori",
+          "syntax": "mkdir(string $directory, int $permissions = 0777, bool $recursive = false): bool",
+          "category": "Fail"
+        },
+        {
+          "name": "date",
+          "desc": "Formatkan tarikh dan masa tempatan",
+          "syntax": "date(string $format, ?int $timestamp = null): string",
+          "category": "Tarikh/Masa"
+        },
+        {
+          "name": "time",
+          "desc": "Dapatkan timestamp Unix semasa",
+          "syntax": "time(): int",
+          "category": "Tarikh/Masa"
+        },
+        {
+          "name": "strtotime",
+          "desc": "Parse satu tarikh masa teks kepada timestamp Unix",
+          "syntax": "strtotime(string $datetime, ?int $baseTimestamp = null): int|false",
+          "category": "Tarikh/Masa"
+        },
+        {
+          "name": "mktime",
+          "desc": "Dapatkan tanda masa Unix untuk tarikh",
+          "syntax": "mktime(int $jam, ?int $minit = null, ...): int|false",
+          "category": "Tarikh/Masa"
+        },
+        {
+          "name": "date_create",
+          "desc": "Cipta objek DateTime",
+          "syntax": "date_create(string $datetime = \"now\", ?DateTimeZone $timezone = null): DateTime|false",
+          "category": "Tarikh/Masa"
+        },
+        {
+          "name": "json_encode",
+          "desc": "Menukar nilai kepada string JSON",
+          "syntax": "json_encode(mixed $nilai, int $bendera = 0, int $kedalaman = 512): string|false",
+          "category": "JSON"
+        },
+        {
+          "name": "json_decode",
+          "desc": "Mendekodkan string JSON kepada nilai PHP",
+          "syntax": "json_decode(string $json, ?bool $associative = null, int $kedalaman = 512): mixed",
+          "category": "JSON"
+        },
+        {
+          "name": "abs",
+          "desc": "Dapatkan nilai mutlak",
+          "syntax": "abs(int|float $num): int|float",
+          "category": "Matematik"
+        },
+        {
+          "name": "ceil",
+          "desc": "Bundarkan pecahan ke atas",
+          "syntax": "ceil(int|float $num): float",
+          "category": "Matematik"
+        },
+        {
+          "name": "floor",
+          "desc": "Bundarkan pecahan ke bawah",
+          "syntax": "floor(int|float $num): float",
+          "category": "Matematik"
+        },
+        {
+          "name": "round",
+          "desc": "Bundarkan nombor",
+          "syntax": "round(int|float $num, int $presisi = 0, int $mod = PHP_ROUND_HALF_UP): float",
+          "category": "Matematik"
+        },
+        {
+          "name": "max",
+          "desc": "Cari nilai terbesar",
+          "syntax": "max(mixed $nilai, mixed ...$nilai): mixed",
+          "category": "Matematik"
+        },
+        {
+          "name": "min",
+          "desc": "Cari nilai terkecil",
+          "syntax": "min(mixed $nilai, mixed ...$nilai): mixed",
+          "category": "Matematik"
+        },
+        {
+          "name": "rand",
+          "desc": "Jana nombor bulat rawak",
+          "syntax": "rand(int $min, int $max): int",
+          "category": "Matematik"
+        },
+        {
+          "name": "isset",
+          "desc": "Semak sama ada pembolehubah diatur dan bukan null",
+          "syntax": "isset(mixed $var, mixed ...$vars): bool",
+          "category": "Lain-lain"
+        },
+        {
+          "name": "empty",
+          "desc": "Semak sama ada pembolehubah kosong",
+          "syntax": "empty(mixed $var): bool",
+          "category": "Lain-lain"
+        },
+        {
+          "name": "var_dump",
+          "desc": "Simpan maklumat tentang pembolehubah",
+          "syntax": "var_dump(mixed $nilai, mixed ...$nilai): void",
+          "category": "Lain-lain"
+        },
+        {
+          "name": "print_r",
+          "desc": "Cetak maklumat yang mudah dibaca tentang pembolehubah",
+          "syntax": "print_r(mixed $nilai, bool $return = false): string|bool",
+          "category": "Lain-lain"
+        },
+        {
+          "name": "gettype",
+          "desc": "Dapatkan jenis pembolehubah",
+          "syntax": "gettype(mixed $nilai): string",
+          "category": "Lain-lain"
+        },
+        {
+          "name": "is_array",
+          "desc": "Semak sama ada pembolehubah adalah array",
+          "syntax": "is_array(mixed $nilai): bool",
+          "category": "Lain-lain"
+        },
+        {
+          "name": "is_string",
+          "desc": "Semak sama ada pembolehubah adalah string",
+          "syntax": "is_string(mixed $nilai): bool",
+          "category": "Lain-lain"
+        },
+        {
+          "name": "is_numeric",
+          "desc": "Semak sama ada pembolehubah adalah nombor atau string nombor",
+          "syntax": "is_numeric(mixed $nilai): bool",
+          "category": "Lain-lain"
+        }
+      ]
+    },
+    "cssBorderRadius": {
+      "title": "Penghasil Radius Border CSS",
+      "description": "Sesuaikan nilai border-radius secara visual dan hasilkan kod CSS",
+      "presetsLabel": "Preset",
+      "preview": "Paparan",
+      "settings": "Tetapan",
+      "linked": "Sudut berasingan",
+      "unlinked": "Sudut berasingan",
+      "corners": {
+        "topLeft": "Kiri atas",
+        "topRight": "Kanan atas",
+        "bottomLeft": "Kiri bawah",
+        "bottomRight": "Kanan bawah"
+      },
+      "elementColor": "Warna elemen",
+      "codeTitle": "Kod CSS",
+      "copy": "Salin",
+      "copied": "Disalin",
+      "presets": [
+        {
+          "name": "Tiada",
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Kecil",
+          "values": [
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "Sederhana",
+          "values": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "Besar",
+          "values": [
+            16,
+            16,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "Bulat",
+          "values": [
+            50,
+            50,
+            50,
+            50
+          ]
+        },
+        {
+          "name": "Pill",
+          "values": [
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "Sisi kiri",
+          "values": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        {
+          "name": "Sisi kanan",
+          "values": [
+            0,
+            16,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "Hanya atas",
+          "values": [
+            16,
+            16,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Hanya bawah",
+          "values": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "Diagonal",
+          "values": [
+            16,
+            0,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "Daun",
+          "values": [
+            0,
+            50,
+            0,
+            50
+          ]
+        }
+      ]
+    },
+    "cssNeumorphism": {
+      "title": "Penghasil CSS Neumorphism",
+      "description": "Hasilkan kod CSS gaya Neumorphism secara dalam talian",
+      "previewText": "Butang Paparan",
+      "shapeTitle": "Gaya bentuk",
+      "shapeOptions": [
+        {
+          "value": "flat",
+          "label": "Rata"
+        },
+        {
+          "value": "concave",
+          "label": "Cekung"
+        },
+        {
+          "value": "convex",
+          "label": "Cembung"
+        },
+        {
+          "value": "pressed",
+          "label": "Ditekan"
+        }
+      ],
+      "colorTitle": "Tetapan warna",
+      "presetColors": "Warna praset",
+      "colorPresets": [
+        {
+          "color": "#e0e5ec",
+          "name": "Klasik"
+        },
+        {
+          "color": "#f0f0f3",
+          "name": "Putih"
+        },
+        {
+          "color": "#d1d9e6",
+          "name": "Biru"
+        },
+        {
+          "color": "#e8dfd5",
+          "name": "Kepala"
+        },
+        {
+          "color": "#dfe6e9",
+          "name": "Kelabu"
+        },
+        {
+          "color": "#ffeaa7",
+          "name": "Kuning"
+        },
+        {
+          "color": "#dfe4ea",
+          "name": "Batu"
+        },
+        {
+          "color": "#f8e1e7",
+          "name": "Merah jambu"
+        },
+        {
+          "color": "#d5f5e3",
+          "name": "Mint"
+        },
+        {
+          "color": "#e8daef",
+          "name": "Ungu"
+        }
+      ],
+      "backgroundColor": "Warna asas",
+      "lightColor": "Warna cerah (highlight)",
+      "darkColor": "Warna gelap (shadow)",
+      "sliderTitle": "Tetapan bayang",
+      "size": "Saiz",
+      "radius": "Jejari",
+      "distance": "Jarak bayang",
+      "blur": "Kecerahan bayang",
+      "intensity": "Kekuatan",
+      "codeTitle": "Kod CSS",
+      "copy": "Salin",
+      "copied": "Disalin",
+      "infoTitle": "Apa itu Neumorphism?",
+      "infoDescription": "Neumorphism adalah gaya UI yang lembut yang menggabungkan highlight dan bayangan halus untuk membuat elemen terlihat naik atau tertekan ke dalam latar belakang. Ia bekerja paling baik dengan palet kontras rendah dan tata letak bersih serta minimalis."
+    },
+    "cssTextShadow": {
+      "title": "Penghasil Text Shadow CSS",
+      "description": "Atur nilai text-shadow secara visual dan hasilkan kode CSS",
+      "defaultText": "Contoh Text Shadow",
+      "presetsLabel": "Efek preset",
+      "textSettings": "Pengaturan teks",
+      "previewText": "Teks pratinjau",
+      "fontSize": "Saiz fon",
+      "textColor": "Warna teks",
+      "shadowPrefix": "Bayangan {{index}}",
+      "offsetX": "Peralihan X",
+      "offsetY": "Peralihan Y",
+      "blur": "Kabur",
+      "opacity": "Kepejalan",
+      "color": "Warna",
+      "addShadow": "Tambah bayangan",
+      "codeTitle": "Kod CSS",
+      "copy": "Salin",
+      "copied": "Disalin",
+      "presets": [
+        {
+          "name": "Bayangan lembut",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 2,
+              "y": 2,
+              "blur": 4,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Glow neon",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#00ff00",
+              "opacity": 0.8
+            }
+          ]
+        },
+        {
+          "name": "Glow ungu",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 5,
+              "color": "#ff00ff",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#ff00ff",
+              "opacity": 0.8
+            },
+            {
+              "id": 3,
+              "x": 0,
+              "y": 0,
+              "blur": 20,
+              "color": "#ff00ff",
+              "opacity": 0.6
+            }
+          ]
+        },
+        {
+          "name": "3D berlapis",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 1,
+              "y": 1,
+              "blur": 0,
+              "color": "#666666",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 2,
+              "y": 2,
+              "blur": 0,
+              "color": "#888888",
+              "opacity": 1
+            },
+            {
+              "id": 3,
+              "x": 3,
+              "y": 3,
+              "blur": 0,
+              "color": "#aaaaaa",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "name": "Embossed",
+          "shadows": [
+            {
+              "id": 1,
+              "x": -1,
+              "y": -1,
+              "blur": 1,
+              "color": "#ffffff",
+              "opacity": 0.8
+            },
+            {
+              "id": 2,
+              "x": 1,
+              "y": 1,
+              "blur": 1,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "websocketTest": {
+      "title": "Alat Ujian WebSocket Online",
+      "description": "Uji koneksi dan pesan WebSocket secara online",
+      "defaultUrl": "wss://echo.websocket.org",
+      "connectingTo": "Sedang menyambung ke {{url}}...",
+      "connectSuccess": "Berjaya menyambung",
+      "connectError": "Ralat sambungan",
+      "connectionClosed": "Sambungan ditutup (Kod: {{code}})",
+      "connectFailed": "Gagal menyambung: {{message}}",
+      "disconnecting": "Sedang memutuskan...",
+      "urlPlaceholder": "Masukkan URL WebSocket, contohnya: wss://echo.websocket.org",
+      "disconnect": "Putuskan",
+      "connecting": "Sedang menyambung...",
+      "connect": "Sambungkan",
+      "connected": "Sambung",
+      "notConnected": "Tidak tersambung",
+      "messageLog": "Log pesanan",
+      "clear": "Kosongkan",
+      "noMessages": "Tiada pesanan lagi",
+      "messagePlaceholder": "Masukkan pesanan... (Enter untuk hantar, Shift+Enter untuk baris baru)",
+      "infoTitle": "Tips WebSocket",
+      "infoItems": [
+        "Servis echo bawaan berguna untuk ujian hantar/menerima asas",
+        "Mendukung alamat ws:// dan wss://",
+        "Tekan Enter untuk hantar, Shift+Enter untuk masukkan baris baru",
+        "Pastikan perkhidmatan sasaran anda membenarkan sambungan WebSocket dari browser"
+      ],
+      "examplesTitle": "Contoh biasa",
+      "publicEcho": "Servis Echo Awam",
+      "defaultTag": "Lalai"
+    },
+    "csrGenerator": {
+      "title": "Pembina & Pemeriksa CSR",
+      "description": "Bina fail CSR secara atas talian dan analisis kandungan CSR",
+      "enterDomain": "Sila masukkan domain",
+      "generateFailed": "Gagal membina CSR",
+      "parseFailed": "Gagal menganalisis CSR",
+      "serverConnectionFailed": "Gagal menyambung ke server, sila cuba lagi kemudian",
+      "tabs": {
+        "generate": "Bina CSR",
+        "view": "Lihat CSR"
+      },
+      "formTitle": "Maklumat sijil",
+      "labels": {
+        "commonName": "Domain (Nama Umum)",
+        "organization": "Organisasi",
+        "organizationUnit": "Bahagian",
+        "city": "Bandar",
+        "state": "Negeri / Wilayah",
+        "country": "Negara / Kawasan",
+        "email": "E-mel",
+        "keySize": "Saiz kunci"
+      },
+      "placeholders": {
+        "commonName": "Contohnya: www.example.com atau *.example.com",
+        "organization": "Contohnya: Example Inc.",
+        "organizationUnit": "Contohnya: Bahagian IT",
+        "city": "Contohnya: Beijing",
+        "state": "Contohnya: Beijing",
+        "email": "Contohnya: admin@example.com",
+        "csr": "Letakkan kandungan CSR di sini, bermula dengan -----BEGIN CERTIFICATE REQUEST-----"
+      },
+      "countries": [
+        {
+          "value": "CN",
+          "label": "CN - China"
+        },
+        {
+          "value": "US",
+          "label": "US - Amerika Syarikat"
+        },
+        {
+          "value": "JP",
+          "label": "JP - Jepun"
+        },
+        {
+          "value": "KR",
+          "label": "KR - Korea Selatan"
+        },
+        {
+          "value": "GB",
+          "label": "GB - United Kingdom"
+        },
+        {
+          "value": "DE",
+          "label": "DE - Jerman"
+        },
+        {
+          "value": "FR",
+          "label": "FR - Perancis"
+        },
+        {
+          "value": "SG",
+          "label": "SG - Singapura"
+        },
+        {
+          "value": "HK",
+          "label": "HK - Hong Kong"
+        },
+        {
+          "value": "TW",
+          "label": "TW - Taiwan"
+        }
+      ],
+      "keySizes": [
+        {
+          "value": "2048",
+          "label": "2048 bit (disarankan)"
+        },
+        {
+          "value": "4096",
+          "label": "4096 bit (lebih selamat)"
+        }
+      ],
+      "generating": "Sedang membina...",
+      "generateAction": "Bina CSR dan kunci persendirian",
+      "csrRequest": "Permintaan CSR",
+      "privateKey": "Kunci persendirian (simpan dengan selamat)",
+      "copy": "Salin",
+      "copied": "Disalin",
+      "download": "Muat turun",
+      "privateKeyWarning": "Kunci persendirian sangat sensitif. Simpan dengan selamat dan jangan berkongsi secara awam. Jika terdedah, keselamatan sijil anda mungkin terjejas.",
+      "inputCsr": "Letakkan kandungan CSR",
+      "parsing": "Sedang menganalisis...",
+      "parseAction": "Analisis CSR",
+      "csrInfo": "Maklumat CSR",
+      "infoItems": [
+        {
+          "label": "Domain (CN)",
+          "key": "commonName"
+        },
+        {
+          "label": "Organisasi (O)",
+          "key": "organization"
+        },
+        {
+          "label": "Bahagian (OU)",
+          "key": "organizationUnit"
+        },
+        {
+          "label": "Bandar (L)",
+          "key": "city"
+        },
+        {
+          "label": "Negeri / Wilayah (ST)",
+          "key": "state"
+        },
+        {
+          "label": "Negara (C)",
+          "key": "country"
+        },
+        {
+          "label": "E-mel",
+          "key": "email"
+        },
+        {
+          "label": "Algoritma kunci",
+          "key": "keyAlgorithm"
+        },
+        {
+          "label": "Saiz kunci",
+          "key": "keySize"
+        },
+        {
+          "label": "Algoritma tanda tangan",
+          "key": "signatureAlgorithm"
+        }
+      ],
+      "keySizeValue": "{{value}} bit",
+      "aboutTitle": "Apa itu CSR?",
+      "aboutDescription": "CSR (Certificate Signing Request) adalah fail yang dienkodkan yang dihantar kepada pengesah sijil (CA) semasa memohon sijil SSL/TLS. Ia mengandungi maklumat tentang domain dan organisasi anda, serta kunci awam yang sepadan dengan kunci persendirian anda. Selepas pengesahan, CA menggunakan CSR untuk menerbitkan sijil SSL."
+    },
+    "metaGenerator": {
+      "title": "Pembina Tag Meta",
+      "description": "Bina tag meta halaman yang mesra SEO",
+      "basicInfo": "Maklumat asas",
+      "socialMedia": "Media sosial (Open Graph)",
+      "generatedCode": "Kod yang dihasilkan",
+      "copy": "Salin",
+      "copied": "Dipetik",
+      "searchPreview": "Pratonton carian",
+      "searchPreviewTitleFallback": "Tajuk halaman",
+      "searchPreviewDescriptionFallback": "Keterangan halaman anda akan muncul di sini...",
+      "socialPreview": "Pratonton media sosial",
+      "socialPreviewTitleFallback": "Tajuk",
+      "socialPreviewDescriptionFallback": "Keterangan",
+      "labels": {
+        "title": "Tajuk halaman",
+        "description": "Keterangan halaman",
+        "keywords": "Kata kunci",
+        "author": "Penulis",
+        "robots": "arah robot",
+        "ogTitle": "OG tajuk",
+        "ogDescription": "OG keterangan",
+        "ogImage": "URL imej OG",
+        "ogUrl": "URL halaman",
+        "twitterCard": "Jenis kad Twitter"
+      },
+      "placeholders": {
+        "title": "Masukkan tajuk halaman",
+        "description": "Masukkan keterangan halaman, idealnya dalam 150 aksara",
+        "keywords": "kata kunci1, kata kunci2, kata kunci3",
+        "author": "Masukkan nama penulis",
+        "ogTitle": "Masukkan tajuk perkongsian media sosial",
+        "ogDescription": "Masukkan keterangan perkongsian media sosial",
+        "ogImage": "https://example.com/image.jpg",
+        "ogUrl": "https://example.com/page"
+      },
+      "robotsOptions": [
+        {
+          "value": "index, follow",
+          "label": "Benarkan indeks dan mengikuti"
+        },
+        {
+          "value": "index, nofollow",
+          "label": "Benarkan indeks, larang mengikuti"
+        },
+        {
+          "value": "noindex, follow",
+          "label": "Larang indeks, benarkan mengikuti"
+        },
+        {
+          "value": "noindex, nofollow",
+          "label": "Larang indeks dan mengikuti"
+        }
+      ],
+      "twitterOptions": [
+        {
+          "value": "summary",
+          "label": "Ringkasan"
+        },
+        {
+          "value": "summary_large_image",
+          "label": "Gambar besar"
+        },
+        {
+          "value": "player",
+          "label": "Pemain"
+        }
+      ]
+    },
+    "toolHistoryDemo": {
+      "confirmClear": "Adakah anda pasti ingin memadam semua sejarah alatan dan kegemaran?",
+      "exportTitle": "Muat turun data",
+      "usageCount": "Digunakan {{count}} kali",
+      "lastUsed": "Terakhir digunakan: {{time}}",
+      "favorite": "Kegemaran: {{value}}",
+      "yes": "Ya",
+      "no": "Tidak",
+      "exportFailed": "Muat turun gagal",
+      "tabs": {
+        "overview": "Pandangan Keseluruhan",
+        "history": "Sejarah",
+        "favorites": "Kegemaran",
+        "analytics": "Analitik"
+      },
+      "loading": "Memuatkan data sejarah alatan...",
+      "loadFailed": "Muat turun gagal: {{error}}",
+      "title": "Demo Sejarah Alatan",
+      "description": "Menunjukkan sejarah penggunaan alatan, kegemaran, dan analitik",
+      "export": "Muat turun",
+      "clear": "Padam",
+      "searchPlaceholder": "Cari alatan...",
+      "stats": {
+        "totalTools": "Alatan jumlah",
+        "totalUsage": "Penggunaan jumlah",
+        "favoriteTools": "Alatan kegemaran",
+        "averageUsage": "Penggunaan purata"
+      },
+      "favoriteToolsTitle": "Alatan kegemaran",
+      "favoriteToolsDescription": "Alatan yang anda telah tanda sebagai kegemaran",
+      "noFavoriteTools": "Tiada alatan kegemaran lagi",
+      "mostUsed": "Alatan paling kerap digunakan",
+      "timesUsed": "Digunakan {{count}} kali",
+      "recentActivity": "Aktiviti terkini",
+      "exportDialogTitle": "Muat turun sejarah alatan",
+      "exportDialogDescription": "Pilih format muat turun",
+      "formats": {
+        "json": {
+          "title": "Format JSON",
+          "description": "Terbaik untuk cadangan dan penggunaan pembangun"
+        },
+        "csv": {
+          "title": "Format CSV",
+          "description": "Baik untuk jadual seperti Excel"
+        },
+        "txt": {
+          "title": "Format TXT",
+          "description": "Ringkasan teks biasa"
+        }
+      },
+      "cancel": "Batal"
+    },
+    "userAgentParser": {
+      "title": "Pemecah User-Agent",
+      "description": "Menganalisis string User-Agent untuk mengenal pasti maklumat browser, sistem, dan peranti",
+      "label": "String User-Agent",
+      "useCurrent": "Gunakan browser semasa",
+      "inputPlaceholder": "Masukkan string User-Agent...",
+      "parse": "Parse",
+      "unknownBrowser": "Browser tidak diketahui",
+      "unknown": "Tidak diketahui",
+      "deviceTypes": {
+        "mobile": "Mobil",
+        "tablet": "Tablet",
+        "desktop": "Desktop"
+      },
+      "browserInfo": "Maklumat browser",
+      "browser": "Browser",
+      "version": "Versi",
+      "majorVersion": "Versi utama",
+      "operatingSystem": "Sistem operasi",
+      "system": "Sistem",
+      "deviceInfo": "Maklumat peranti",
+      "type": "Jenis",
+      "vendor": "Vendor",
+      "model": "Model",
+      "engineAndCpu": "Engine & CPU",
+      "engine": "Engine",
+      "engineVersion": "Versi engine",
+      "cpuArchitecture": "Arkaitektur CPU",
+      "examplesTitle": "Contoh string User-Agent"
+    },
+    "cssBoxShadow": {
+      "title": "Pembina Bayangan DIV",
+      "description": "Atur nilai bayangan secara visual dan hasilkan kod CSS",
+      "preview": "Pratonton",
+      "basicSettings": "Seting asas",
+      "backgroundColor": "Warna latar belakang",
+      "boxColor": "Warna kotak",
+      "borderRadius": "Jejarian sempadan",
+      "shadowPrefix": "Bayangan {{index}}",
+      "inset": "Inset",
+      "offsetX": "Peralihan X",
+      "offsetY": "Peralihan Y",
+      "blur": "Kabur",
+      "spread": "Sebar",
+      "opacity": "Kepejalan",
+      "color": "Warna",
+      "addShadow": "Tambah bayangan",
+      "codeTitle": "Kod CSS",
+      "copy": "Salin",
+      "copied": "Dipetik"
+    },
+    "cssGlassmorphism": {
+      "title": "Pembina CSS Glassmorphism",
+      "description": "Hasilkan kod CSS gaya Glassmorphism secara atas talian",
+      "cardTitle": "Kad Glassmorphism",
+      "cardDescription": "Glassmorphism adalah gaya UI moden yang menggunakan ketransparanan, kabur, dan sempadan lembut untuk mencipta kesan kaca beku.",
+      "adjustTitle": "Atur tetapan",
+      "blur": "Kabur latar belakang",
+      "transparency": "Ketransparanan",
+      "saturation": "Kepuasan",
+      "borderRadius": "Jejarian sempadan",
+      "borderOpacity": "Kepejalan sempadan",
+      "codeTitle": "Kod CSS",
+      "copy": "Salin",
+      "copied": "Dipetik",
+      "infoTitle": "Catatan kompatibiliti",
+      "infoDescription": "Properti backdrop-filter memerlukan sokongan browser moden. Firefox mungkin memerlukan tetapan tambahan, dan Safari mungkin memerlukan prefiks -webkit-. Pertimbangkan fallback yang baik untuk browser yang tidak menyokong."
+    },
+    "desktopShortcut": {
+      "title": "Pintasan Desktop Laman Web",
+      "description": "Cipta pintasan laman web untuk desktop dan jalankan dengan cepat",
+      "enterUrl": "Sila masukkan URL laman web sah",
+      "enterName": "Sila masukkan nama pintasan",
+      "redirectingTo": "Membuka {{name}}...",
+      "urlLabel": "URL Laman Web",
+      "urlPlaceholder": "example.com atau https://example.com",
+      "nameLabel": "Nama Pintasan",
+      "namePlaceholder": "Pintasan laman web",
+      "downloadUrlFile": "Muat turun fail .url",
+      "downloadHtmlFile": "Muat turun fail .html",
+      "infoTitle": "Arahan",
+      "urlFileDesc": "Fail .url adalah fail pintasan Internet Windows dan biasanya terbuka laman web tujuan secara langsung dalam pelayar default anda.",
+      "htmlFileDesc": "Fail HTML berfungsi di Windows, macOS, dan Linux dan juga boleh digunakan sebagai pintasan laman sesawang yang mudah.",
+      "afterDownload": "Selepas muat turun, pindahkan fail itu ke desktop anda atau pin di tempat yang diperlukan."
+    },
+    "htmlPreview": {
+      "title": "Pratonton HTML",
+      "description": "Tulis dan pratonton HTML secara dalam talian",
+      "defaultMessage": "Selamat datang ke alat pratonton HTML",
+      "editorTitle": "Kod HTML",
+      "clear": "Kosongkan",
+      "editorPlaceholder": "Masukkan kod HTML di sini...",
+      "previewTitle": "Pratonton",
+      "run": "Jalankan",
+      "fullscreen": "Skrin penuh",
+      "exitFullscreen": "Keluar skrin penuh",
+      "usageTitle": "Cara menggunakan",
+      "usageItems": [
+        "Masukkan kod HTML lengkap di editor sebelah kiri",
+        "Klik Jalankan untuk pratonton hasilnya",
+        "CSS dan JavaScript dalaman disokong",
+        "Kod dijalankan dalam sandbox untuk keselamatan"
+      ]
+    },
+    "pageRefresh": {
+      "title": "Pemutakhiran Laman Automatik",
+      "description": "Muat semula laman web secara automatik secara dalam talian",
+      "urlRequired": "Sila masukkan URL",
+      "urlPlaceholder": "Masukkan URL, contoh: https://example.com",
+      "seconds": "saat",
+      "start": "Mulakan",
+      "stop": "Henti",
+      "quickSet": "Preset pantas:",
+      "secondsValue": "{{count}}s",
+      "minutesValue": "{{count}} minit",
+      "running": "Berjalan",
+      "refreshIn": "Muat semula dalam {{count}} saat",
+      "refreshedCount": "Muat semula {{count}} kali",
+      "lastRefresh": "Muat semula terakhir: {{time}}",
+      "previewTitle": "Pratonton laman",
+      "previewPlaceholder": "Masukkan URL untuk memulakan pratonton",
+      "usageTitle": "Cara menggunakan",
+      "usageItems": [
+        "Masukkan URL laman web dan tetapkan sela pemutakhiran",
+        "Klik Mulakan untuk memulakan pemutakhiran automatik",
+        "Beberapa laman web mungkin tidak dipaparkan dalam iframe kerana dasar keselamatan",
+        "Ia berguna untuk mengawasi perubahan laman atau mengekalkan sesi aktif"
+      ]
+    },
+    "pxToRem": {
+      "title": "Penukar PX kepada REM",
+      "description": "Menukar unit PX dalam kod CSS kepada unit REM secara berbilang",
+      "baseFontSize": "Saiz fon asas",
+      "precision": "Kejituan perpuluhan",
+      "precisionOptions": {
+        "2": "2 digit",
+        "3": "3 digit",
+        "4": "4 digit",
+        "5": "5 digit"
+      },
+      "inputLabel": "Kod CSS input",
+      "convertToRem": "PX ke REM",
+      "convertToPx": "REM ke PX",
+      "outputLabel": "Keputusan",
+      "copy": "Salin",
+      "copied": "Disalin",
+      "outputPlaceholder": "Keputusan penukaran akan muncul di sini...",
+      "quickReferenceTitle": "Rujukan pantas (asas: {{baseSize}}px)",
+      "whyUseRem": "Mengapa guna REM?",
+      "infoItems": [
+        "REM adalah relatif kepada saiz fon asas (html)",
+        "Menggunakan REM membuatnya lebih mudah untuk melaras tipografi di seluruh laman",
+        "Ia membantu dalam reka bentuk responsif dan aksesibiliti"
+      ],
+      "formula": "Formula: rem = px / {{baseSize}}"
+    },
+    "shieldBadge": {
+      "title": "Penghasil Badge Perisai",
+      "description": "Hasilkan badge perisai SVG secara dalam talian",
+      "downloadFailed": "Muat turun gagal, sila cuba lagi kemudian",
+      "basicSettings": "Tetapan asas",
+      "labelField": "Label",
+      "messageField": "Mesej",
+      "color": "Warna",
+      "style": "Gaya",
+      "logoSettings": "Tetapan logo",
+      "logo": "Logo",
+      "none": "Tiada",
+      "logoColor": "Warna logo",
+      "preview": "Pratonton",
+      "downloadSvg": "Muat Turun SVG",
+      "codeTitle": "Kod",
+      "copiedToClipboard": "Disalin ke clipboard"
+    },
+    "robotsGenerator": {
+      "title": "Penghasil robots.txt",
+      "description": "Hasilkan fail robots.txt secara dalam talian",
+      "templatesLabel": "Templat pantas:",
+      "templates": {
+        "allowAll": "Benarkan semua",
+        "blockAll": "Blok semua",
+        "standard": "Konfigurasi piawai"
+      },
+      "ruleTitle": "Aturan {{index}}",
+      "userAgents": {
+        "all": "* (semua pengayam)",
+        "baidu": "Baiduspider (Baidu)",
+        "sogou": "Sogou"
+      },
+      "disallow": "Laluan yang dilarang",
+      "allow": "Laluan yang dibenarkan",
+      "add": "Tambah",
+      "addRule": "Tambah aturan",
+      "otherSettings": "Tetapan lain",
+      "sitemapUrl": "URL Peta Laman",
+      "crawlDelay": "Kelayapan (saat)",
+      "preview": "Pratonton robots.txt",
+      "copy": "Salin",
+      "copied": "Disalin",
+      "saveTip": "Simpan fail ini sebagai robots.txt dan letakkan di direktori asas laman web anda"
+    },
+    "emailEncrypt": {
+      "title": "Pengenkod Alamat Emel",
+      "description": "Enkod alamat emel untuk mengurangkan pencarikan oleh bot",
+      "inputLabel": "Alamat emel",
+      "copy": "Salin",
+      "copied": "Disalin",
+      "infoTitle": "Mengapa enkod alamat emel?",
+      "infoItems": [
+        "Mengurangkan risiko bot mencari alamat emel anda untuk spam",
+        "Alamat emel yang dienkod masih boleh dipaparkan di browser tetapi lebih sukar untuk bot mengesan",
+        "Beberapa kaedah enkod boleh dikombinasikan untuk perlindungan yang lebih kuat",
+        "Masih disarankan untuk menggunakan langkah anti-spam di sisi server"
+      ],
+      "results": {
+        "unicodeDecimal": {
+          "name": "Unicode nombor perpuluhan",
+          "description": "Menukar karakter kepada entiti Unicode perpuluhan"
+        },
+        "unicodeHex": {
+          "name": "Unicode heksadesimal",
+          "description": "Menukar karakter kepada entiti Unicode heksadesimal"
+        },
+        "javascript": {
+          "name": "Output JavaScript",
+          "description": "Menampilkan emel secara dinamik dengan JavaScript"
+        },
+        "mailto": {
+          "name": "Pautan mailto",
+          "description": "Mencipta pautan mailto yang dienkod"
+        },
+        "cssReverse": {
+          "name": "Paparan balik CSS",
+          "description": "Memaparkan teks dalam urutan terbalik menggunakan CSS"
+        }
+      }
+    },
+    "workerDemo": {
+      "title": "Demo Prestasi Web Worker",
+      "description": "Bandingkan prestasi pengiraan antara Web Worker dan thread utama",
+      "invalidInteger": "Sila masukkan integer positif yang sah",
+      "workerError": "Ralat pengiraan Worker:",
+      "notice": "Notis",
+      "settingsTitle": "Tetapan pengiraan",
+      "inputLabel": "Nilai input",
+      "inputPlaceholder": "Masukkan integer positif",
+      "operationLabel": "Operasi",
+      "operations": {
+        "factorial": "Faktorial (n!)",
+        "fibonacci": "Jujukan Fibonacci",
+        "prime": "Pengekalan perdana",
+        "factorization": "Faktorisasi perdana"
+      },
+      "workerCalculate": "Hitung dengan Web Worker",
+      "mainThreadCalculate": "Hitung pada thread utama",
+      "comparisonTitle": "Perbandingan prestasi",
+      "workerResult": "Keputusan Web Worker",
+      "mainThreadResult": "Keputusan thread utama",
+      "resultLabel": "Keputusan:",
+      "timeLabel": "Masa pengiraan:",
+      "calculating": "Mengira...",
+      "emptyState": "Klik butang di atas untuk memulakan pengiraan",
+      "infoTitle": "Mengapa guna Web Workers?",
+      "workerFeaturesTitle": "Ciri-ciri Web Worker",
+      "workerFeatures": [
+        "Berjalan dalam thread latar belakang tanpa mengganggu thread utama",
+        "Ideal untuk tugas pengiraan yang berat",
+        "Menjaga UI tetap responsif",
+        "Menyokong pemprosesan selari"
+      ],
+      "useCasesTitle": "Kes-kes penggunaan",
+      "useCases": [
+        "Pemrosesan data besar",
+        "Algoritma kompleks",
+        "Pemrosesan imej",
+        "Penyulitan dan penyahsulitan"
+      ]
+    },
+    "jsDebug": {
+      "title": "Penapis JS",
+      "description": "Jalankan dan debug JavaScript secara dalam talian",
+      "defaultCode": "// Tulis kod JavaScript di sini\nconsole.log(\"Hello, World!\");\n\n// Contoh: Operasi array\nconst numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(n => n * 2);\nconsole.log(\"Array asal:\", numbers);\nconsole.log(\"Ditambah dua:\", doubled);\n\n// Contoh: Objek\nconst user = {\n  name: \"Zhang San\",\n  age: 25,\n  city: \"Beijing\"\n};\nconsole.log(\"Maklumat pengguna:\", user);\n\n// Contoh: Operasi asinkron\nsetTimeout(() => {\n  console.log(\"Dijalankan selepas 1 saat\");\n}, 1000);",
+      "editorTitle": "Kod JavaScript",
+      "copy": "Salin",
+      "copied": "Disalin!",
+      "clear": "Kosongkan",
+      "placeholder": "Masukkan kod JavaScript di sini...",
+      "run": "Jalankan kod",
+      "consoleTitle": "Output konsol",
+      "consolePlaceholder": "Output konsol akan muncul di sini...",
+      "usageTitle": "Cara menggunakan",
+      "usageItems": [
+        "Gunakan console.log(), console.error(), dan console.warn() untuk mencetak mesej",
+        "Menyokong sintaks ES6+ seperti fungsi anak panah, destructuring, dan string template",
+        "Menyokong operasi asinkron seperti setTimeout dan Promise",
+        "Kod berjalan dalam sandbox dan tidak dapat mengakses DOM atau sumber luaran"
+      ]
+    },
+    "formValidationDemo": {
+      "title": "Demo Pengesahan Borang",
+      "description": "Memperlihatkan pengesahan borang lengkap, termasuk pengesahan langsung, pemberitahuan ralat, dan penyingkiran data",
+      "validation": {
+        "username": "Nama pengguna hanya boleh mengandungi huruf, nombor, dan garis bawah, dan mesti 3-20 aksara panjangnya",
+        "phone": "Sila masukkan nombor telefon yang sah",
+        "age": "Umur mestilah antara 1 hingga 120",
+        "idCard": "Sila masukkan nombor kad pengenalan yang sah",
+        "address": "Alamat mestilah tidak melebihi 200 aksara",
+        "bio": "Bio mestilah tidak melebihi 500 aksara"
+      },
+      "submitSuccess": "Pengesahan borang berjaya! Data yang dikemukakan:",
+      "quickTestTitle": "Ujian pengesahan pantas",
+      "quickLabels": {
+        "email": "Pengesahan emel",
+        "phone": "Pengesahan telefon",
+        "url": "Pengesahan URL"
+      },
+      "quickPlaceholders": {
+        "email": "Masukkan alamat emel",
+        "phone": "Masukkan nombor telefon",
+        "url": "Masukkan URL"
+      },
+      "valid": "Sah",
+      "invalid": "Tidak sah",
+      "formTitle": "Pengesahan borang lengkap",
+      "placeholders": {
+        "username": "Nama pengguna (huruf, nombor, garis bawah)",
+        "email": "Alamat emel",
+        "phone": "Nombor telefon",
+        "website": "Laman web peribadi (pilihan)",
+        "age": "Umur",
+        "idCard": "Nombor kad pengenalan",
+        "address": "Alamat terperinci (pilihan)",
+        "bio": "Bio (pilihan, maksimum 500 aksara)"
+      },
+      "success": {
+        "username": "Format nama pengguna sah",
+        "email": "Format emel sah",
+        "phone": "Format nombor telefon sah",
+        "website": "Format URL sah",
+        "age": "Umur sah",
+        "idCard": "Format kad pengenalan sah",
+        "address": "Alamat sah",
+        "bio": "Bio sah"
+      },
+      "submit": "Hantar borang",
+      "summaryTitle": "Ringkasan pengesahan",
+      "fieldLabels": {
+        "username": "Nama pengguna",
+        "email": "Emel",
+        "phone": "Telefon",
+        "website": "Laman web",
+        "age": "Umur",
+        "idCard": "Kad Pengenalan",
+        "address": "Alamat",
+        "bio": "Bio"
+      },
+      "summaryStatus": {
+        "failed": "Pengesahan gagal",
+        "passed": "Pengesahan lulus",
+        "empty": "Tidak diisi"
+      },
+      "infoTitle": "Ciri-ciri pengesahan borang",
+      "infoItems": [
+        {
+          "title": "Pengesahan langsung",
+          "description": "Semak format semasa menaip dan semak semula pada blur"
+        },
+        {
+          "title": "Banyak jenis aturan",
+          "description": "Menyokong medan wajib, semakan panjang, ungkapan biasa, dan pengesahan tersuai"
+        },
+        {
+          "title": "Respons visual",
+          "description": "Menunjukkan status pengesahan dengan jelas dengan warna, ikon, dan mesej"
+        },
+        {
+          "title": "Penyingkiran data",
+          "description": "Automatik memotong dan menyelaraskan data yang dikemukakan"
+        },
+        {
+          "title": "Panduan ralat berguna",
+          "description": "Menyediakan panduan pengguna yang mudah untuk membetulkan input"
+        },
+        {
+          "title": " Sokongan aksesibiliti",
+          "description": "Membantu menjaga kebolehgunakan borang bagi semua pengguna"
+        }
+      ]
+    },
+    "faviconGenerator": {
+      "title": "Penghasil Favicon",
+      "description": "Menukar imej kepada icon favicon laman sesawang",
+      "historyTitle": "Penghasil Favicon",
+      "historyCategory": "Alat Imej",
+      "uploadImageFile": "Sila unggah fail imej",
+      "generateFailed": "Gagal menghasilkan ikon, sila cuba lagi",
+      "uploadTitle": "Unggah imej",
+      "uploadAria": "Unggah fail imej",
+      "dropzoneAria": "Klik untuk unggah imej, menyokong PNG, JPG, SVG dan lain-lain",
+      "dropRelease": "Lepas untuk unggah imej",
+      "dropClick": "Klik atau seret imej di sini",
+      "supportFormats": "Menyokong PNG, JPG, SVG dan lain-lain",
+      "clearImage": "Buang imej",
+      "clearImageTitle": "Buang imej (Ctrl+L)",
+      "settingsTitle": "Tetapan",
+      "removeBackground": "Buang warna latar belakang imej",
+      "removeColor": "Warna yang ingin dibuang",
+      "removeColorPicker": "Pilih warna latar belakang yang ingin dibuang",
+      "removeColorValue": "Nilai warna latar belakang yang ingin dibuang",
+      "tolerance": "Toleransi: {{value}}",
+      "toleranceAria": "Toleransi warna",
+      "toleranceTip": "Toleransi yang lebih tinggi akan menghapus julat warna yang lebih luas",
+      "transparentBackground": "Latar belakang transparen",
+      "transparentTip": "Catatan: Jika imej asal sudah mempunyai warna latar belakang, aktifkan ?Buang warna latar belakang imej?.",
+      "backgroundColor": "Warna latar belakang",
+      "backgroundColorPicker": "Pilih warna latar belakang",
+      "backgroundColorValue": "Nilai warna latar belakang",
+      "selectSize": "Pilih saiz",
+      "selectedState": " (dipilih)",
+      "sizeAria": "{{size}}x{{size}} saiz pixel{{state}}",
+      "toggleSizeTitle": "Tukar saiz {{size}}x{{size}} (Alt+{{shortcut}})",
+      "previewTitle": "Pratonton",
+      "generating": "Menghasilkan...",
+      "downloadSizeAria": "Muat turun ikon {{size}}x{{size}}",
+      "download": "Muat turun",
+      "uploadFirst": "Sila unggah imej terlebih dahulu",
+      "downloadTitle": "Muat turun",
+      "downloadAllPng": "Muat turun semua saiz (PNG)",
+      "downloadAllPngTitle": "Muat turun semua saiz PNG (Ctrl+Enter)",
+      "downloadIco": "Muat turun favicon.ico",
+      "downloadIcoTitle": "Muat turun favicon.ico (Alt+I)",
+      "usageTitle": "Cara menggunakan",
+      "usageItems": [
+        "Buang warna latar belakang: buang latar belakang pepejal seperti kelabu atau putih",
+        "Toleransi: tingkatkan toleransi untuk buang warna yang serupa, berguna untuk latar belakang gradasi",
+        "16x16: ikon tab browser",
+        "32x32: ikon pintasan taskbar",
+        "48x48: ikon pintasan laman sesawang Windows",
+        "Letakkan ikon yang dihasilkan dalam direktori utama laman sesawang anda"
+      ]
+    }
+  },
+  "components": {
+    "toolHistory": {
+      "usageCount": "Digunakan {{count}} kali",
+      "recentUsed": "Terakhir digunakan: {{value}}",
+      "removeFavorite": "Buang daripada favorit",
+      "addFavorite": "Tambahkan ke favorit",
+      "removeRecord": "Buang rekod",
+      "emptyHistory": "Tiada sejarah alat yet",
+      "confirmClear": "Adakah anda pasti ingin memadamkan kesemua sejarah alat?",
+      "tabs": {
+        "recent": "Baru-baru ini",
+        "favorites": "Favorit",
+        "mostUsed": "Paling Kerap Digunakan"
+      },
+      "title": "Sejarah Alat",
+      "clearHistory": "Padam sejarah",
+      "searchPlaceholder": "Cari sejarah...",
+      "emptyMessages": {
+        "recent": "Tiada rekod penggunaan baru-baru ini",
+        "favorites": "Tiada alat favorit yet",
+        "mostUsed": "Tiada alat paling kerap digunakan yet"
+      }
+    },
+    "exportFormatSelector": {
+      "buttonText": "Eksport hasil",
+      "exporting": "Eksport sedang berlangsung...",
+      "exportFailed": "Eksport gagal, sila cuba lagi"
+    },
+    "ads": {
+      "loading": "Memuatkan iklan...",
+      "carouselTitle": "Kereta berita iklan",
+      "checkConsole": "Sila semak konsol pelayar untuk log lanjut"
+    },
+    "networkStatus": {
+      "online": "Sambungan",
+      "offline": "Luar talian",
+      "connected": "Rangkaian bersambung",
+      "disconnected": "Rangkaian terputus",
+      "connectedDescription": "Semua ciri tersedia sekarang",
+      "disconnectedDescription": "Sesetengah ciri mungkin tidak tersedia. Sila semak sambungan rangkaian anda.",
+      "requestFailed": "Permintaan gagal"
+    },
+    "keyboardShortcutsHelp": {
+      "title": "Pintasan Kekunci",
+      "close": "Tutup",
+      "toggleDescription": "Tunjukkan atau sembunyikan bantuan pintasan kekunci",
+      "helpTextBefore": "Tekan",
+      "helpTextMiddle": "atau",
+      "helpTextAfter": "untuk menunjukkan atau menyembunyikan bantuan ini",
+      "tipTitle": "Tips",
+      "tipItems": [
+        "Label pintasan mungkin kelihatan sedikit berbeza di atas sistem operasi yang berbeza",
+        "Sesetengah pintasan mungkin bertindih dengan pintasan pelayar",
+        "Gunakan kunci Tab untuk bergerak antara elemen yang boleh diberi fokus",
+        "Tekan Enter untuk mengaktifkan butang dan pautan"
+      ],
+      "closeEsc": "Tutup (ESC)"
+    },
+    "performanceDashboard": {
+      "title": "Papan Pemantau Prestasi",
+      "startMonitoring": "Mulakan pemantauan",
+      "stopMonitoring": "Hentikan pemantauan",
+      "exportReport": "Eksport laporan",
+      "notMeasured": "Tidak diukur",
+      "metrics": {
+        "fcp": "Penciptaan Kandungan Pertama",
+        "lcp": "Penciptaan Kandungan Terbesar Pertama",
+        "fid": "Kemalasan Input Pertama",
+        "cls": "Perubahan Susun Atur Kumulatif",
+        "ttfb": "Masa Ke Mula Membaca"
+      },
+      "memoryTitle": "Penggunaan Memori",
+      "memory": {
+        "used": "Memori yang digunakan",
+        "total": "Memori jumlah",
+        "usageRate": "Kadar penggunaan"
+      },
+      "tipsTitle": "Tip penambahbaikan",
+      "tips": [
+        "Gunakan aplikasi seperti biasa semasa memantau; data akan dikemaskini secara real-time",
+        "FCP < 1.8s, LCP < 2.5s, FID < 100ms, dan CLS < 0.1 dianggap hebat",
+        "Jika penggunaan memori melebihi 80%, pertimbangkan untuk menambahbaik kod",
+        "Anda boleh eksport laporan terperinci untuk analisis yang lebih mendalam"
+      ],
+      "emptyState": "Klik ?Mulakan pemantauan? untuk memulakan analisis prestasi"
+    }
+  }
+}

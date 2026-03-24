@@ -1,0 +1,14 @@
+{
+  "name": "kunqiong-webtools",
+  "version": "1.0.1",
+  "description": "全能站长工具 - 专业的在线站长工具箱",
+  "main": "main.js",
+  "author": "全能站长工具",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^28.0.0"
+  }
+}

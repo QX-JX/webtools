@@ -1,0 +1,2730 @@
+{
+  "common": {
+    "home": "Startpagina",
+    "websiteDetection": "Website Controles",
+    "seoTools": "SEO Hulpmiddelen",
+    "devTools": "Ontwikkelaars Tools",
+    "encodingConversion": "Coderingsconversie",
+    "otherTools": "Overige Hulpmiddelen",
+    "feedback": "Feedback",
+    "customization": "Aangepaste Oplossingen / Neem contact op",
+    "back": "Terug",
+    "appName": "All-in-One Webmaster Tools",
+    "brandName": "Een Kunqiong Product",
+    "loading": "Laden...",
+    "processing": "Verwerken",
+    "processingDescription": "Wacht alstublieft terwijl we uw gegevens verwerken...",
+    "inProgress": "In uitvoering",
+    "search": "Zoek hulpmiddelen...",
+    "my": "Mijn",
+    "menu": "Menu",
+    "settings": "Instellingen",
+    "all": "Allemaal",
+    "category": "Categorie",
+    "noToolsFound": "Geen overeenkomende hulpmiddelen gevonden",
+    "recommended": "Aanbevolen",
+    "usageCount": "Gebruikt {{count}} keer",
+    "toolsCount": "{{count}} hulpmiddelen",
+    "export": "Exporteren",
+    "usageInstructions": "Gebruiksinstructies"
+  },
+  "auth": {
+    "login": "Inloggen",
+    "logout": "Uitloggen",
+    "userInfo": "Gebruikersinformatie",
+    "nickname": "Pseudoniem",
+    "avatar": "Avatar",
+    "user": "Gebruiker",
+    "loggedIn": "Ingelogd",
+    "loggingOut": "Uitloggen...",
+    "loggingIn": "Inloggen...",
+    "loginInstructions": "Vul het inlogformulier in uw browser volledig in",
+    "cancelLogin": "Inloggen annuleren",
+    "loginFailed": "Inloggen mislukt",
+    "retry": "Opnieuw proberen",
+    "close": "Sluiten",
+    "loginDescription": "Klik op de knop hieronder om de inlogpagina in uw browser te openen. Nadat u het inloggen hebt voltooid, synchroniseert de app automatisch uw inlogstatus.",
+    "loginTip": "Tip: Zorg ervoor dat uw browser tijdens het inlogproces geopend blijft.",
+    "openBrowserLogin": "Open browser inloggen",
+    "cancel": "Annuleren",
+    "loginReminder": "Inlogherinnering",
+    "loginRequiredTitle": "Inloggen vereist",
+    "loginRequiredDescription": "U moet zich aanmelden voordat u deze functie kunt gebruiken. Na het inloggen kunt u de volledige service-ervaring genieten.",
+    "loginActionDescription": "Klik op de knop hieronder om de inlogpagina te openen en voltooi het inloggen daar.",
+    "loginNow": "Nu inloggen",
+    "loginBenefit": "Log in om alle functies te gebruiken",
+    "errors": {
+      "getLoginUrlFailed": "Het ophalen van de inlog-URL is mislukt: {{message}}",
+      "getLoginUrlException": "Fout bij het ophalen van de inlog-URL: {{error}}",
+      "loginCancelled": "Inloggen geannuleerd",
+      "pollingAbnormal": "Polling retourneerde een ongewone respons: {{message}}",
+      "pollingFailed": "Polling mislukt: {{error}}",
+      "loginTimeout": "Inloggen verlopen",
+      "checkLoginStatusFailed": "Het controleren van de inlogstatus is mislukt, statuscode: {{status}}",
+      "checkLoginException": "Fout bij het controleren van de inlogstatus",
+      "getUserInfoFailed": "Het ophalen van gebruikersinformatie is mislukt: {{message}}",
+      "getUserInfoException": "Fout bij het ophalen van gebruikersinformatie: {{error}}",
+      "logoutFailed": "Uitloggen mislukt: {{message}}",
+      "logoutException": "Fout bij het uitloggen: {{error}}",
+      "getFeedbackUrlFailed": "Het ophalen van de feedback-URL is mislukt: {{message}}",
+      "getFeedbackUrlException": "Fout bij het ophalen van de feedback-URL: {{error}}"
+    }
+  },
+  "favorite": {
+    "add": "Toevoegen aan favorieten",
+    "remove": "Verwijderen uit favorieten",
+    "label": "Favoriet",
+    "failed": "Bewerking mislukt"
+  },
+  "errors": {
+    "fetchCustomUrlFailed": "Het ophalen van de aangepaste pagina-URL is mislukt:",
+    "fetchFeedbackUrlFailed": "Het ophalen van de feedback-pagina-URL is mislukt:",
+    "copyFailed": "Kopiëren mislukt",
+    "networkError": "Netwerkverbinding fout",
+    "somethingWentWrong": "Er ging iets mis",
+    "unexpectedError": "Sorry, er is een onverwachte fout opgetreden",
+    "noData": "Geen gegevens beschikbaar",
+    "noRelatedData": "Geen gerelateerde gegevens gevonden",
+    "noAds": "Geen advertenties beschikbaar",
+    "fetchAdsError": "Het ophalen van advertenties is mislukt",
+    "lookupFailed": "Zoeken mislukt"
+  },
+  "tools": {
+    "csr": {
+      "title": "CSR Generator & Viewer",
+      "description": "Genereer en bekijk CSR-bestanden online"
+    },
+    "whois": {
+      "title": "Domain WHOIS Zoeken",
+      "description": "Controleer WHOIS informatie en domeinregistratie details online"
+    },
+    "dns": {
+      "title": "DNS Record Zoeken",
+      "description": "Zoek DNS records online (A, MX, CNAME, etc.)"
+    },
+    "dnsEnhanced": {
+      "title": "DNS Record Zoeken (Verbeterd)",
+      "description": "DNS zoekopdracht met virtuele scroll-optimalisatie voor grote recordsets"
+    },
+    "httpStatus": {
+      "title": "HTTP Status Checker",
+      "description": "Een gratis online tool om HTTP-statuscodes voor webpagina's te inspecteren"
+    },
+    "gzip": {
+      "title": "Gzip Compressie Check",
+      "description": "Controleer of een webpagina GZIP-gecomprimeerd is en bekijk de compressieverhouding"
+    },
+    "ssl": {
+      "title": "SSL Certificaat Check",
+      "description": "Inspecteer SSL-certificaatdetails en geldigheid online"
+    },
+    "browserInfo": {
+      "title": "Browser Info",
+      "description": "Een gratis tool om gedetailleerde informatie over uw huidige browser te zien"
+    },
+    "useragent": {
+      "title": "User-Agent Analyzer",
+      "description": "Analyseer browser- en apparaatinformatie van User-Agent strings"
+    },
+    "websocket": {
+      "title": "WebSocket Tester",
+      "description": "Een gratis online WebSocket API testtool"
+    },
+    "viewSource": {
+      "title": "Pagina Bronbekijken",
+      "description": "Bekijk webpagina broncode online"
+    },
+    "metaGenerator": {
+      "title": "Meta Tag Generator",
+      "description": "Genereer webpagina meta tags online"
+    },
+    "metaCheck": {
+      "title": "META Tag Check",
+      "description": "Inspecteer META tag informatie op een webpagina"
+    },
+    "robots": {
+      "title": "robots.txt Generator",
+      "description": "Genereer robots.txt bestanden online"
+    },
+    "emailEncrypt": {
+      "title": "Email Adres Encoder",
+      "description": "Converteer e-mailadressen naar gecodeerde formaten om scrapen te verminderen"
+    },
+    "phpReference": {
+      "title": "PHP Functie Referentie",
+      "description": "Online referentielijst voor PHP-functies"
+    },
+    "htmlPreview": {
+      "title": "HTML Voorbeeld",
+      "description": "Online HTML bewerkings- en voorbeeldtool"
+    },
+    "jsDebug": {
+      "title": "JS Debugger",
+      "description": "Voer en debug JavaScript online uit"
+    },
+    "shieldBadge": {
+      "title": "Shield Badge Generator",
+      "description": "Genereer SVG Shield badges online"
+    },
+    "favicon": {
+      "title": "Favicon Generator",
+      "description": "Een veilige online favicon conversie tool"
+    },
+    "cssGlassmorphism": {
+      "title": "CSS Glassmorphism Generator",
+      "description": "Genereer CSS glassmorphism code in één klik"
+    },
+    "cssNeumorphism": {
+      "title": "Neumorphism CSS Generator",
+      "description": "Genereer neumorphism CSS stijlvoorbeelden in één klik"
+    },
+    "pxToRem": {
+      "title": "PX naar REM Converter",
+      "description": "Batch converteer PX eenheden in CSS naar REM"
+    },
+    "cssBorderRadius": {
+      "title": "CSS Border Radius Generator",
+      "description": "Fijnafstelbare ronde randstijlen online"
+    },
+    "cssTextShadow": {
+      "title": "CSS Text Shadow Generator",
+      "description": "Voorbeeld en genereer CSS text-shadow code online"
+    },
+    "cssBoxShadow": {
+      "title": "Box Shadow Generator",
+      "description": "Fijnafstelbare div schaduwen en genereer CSS code"
+    },
+    "base64": {
+      "title": "Base64 Encode/Decode",
+      "description": "Online Base64 codering en decodering tool"
+    },
+    "urlEncode": {
+      "title": "URL Encode/Decode",
+      "description": "Online URL codering en decodering tool"
+    },
+    "htmlEntity": {
+      "title": "HTML Entiteit Encode/Decode",
+      "description": "Online HTML entiteit codering en decodering tool"
+    },
+    "jsMinify": {
+      "title": "JS Minify & Beautify",
+      "description": "Online JavaScript minificatie en beautification tool"
+    },
+    "cssMinify": {
+      "title": "CSS Minify & Beautify",
+      "description": "Online CSS minificatie en beautification tool"
+    },
+    "desktopShortcut": {
+      "title": "Website Desktop Shortcut",
+      "description": "Maak een desktop shortcut voor een website voor snelle toegang"
+    },
+    "pageRefresh": {
+      "title": "Auto Pagina Verfrissen",
+      "description": "Verfris een externe webpagina op een schema"
+    },
+    "httpCodes": {
+      "title": "HTTP Status Codes",
+      "description": "Online referentie voor HTTP status / response codes"
+    },
+    "workerDemo": {
+      "title": "Web Worker Prestatiedemo",
+      "description": "Zie hoe Web Workers prestaties verbeteren voor zware taken"
+    },
+    "formValidation": {
+      "title": "Formulier Validering Demo",
+      "description": "Toont volledige formuliervalidering met live feedback"
+    }
+  },
+  "categories": {
+    "detection": "Website Controles",
+    "seo": "SEO Tools",
+    "dev": "Ontwikkelaars Tools",
+    "encode": "Coderings Tools",
+    "other": "Andere Tools"
+  },
+  "kunqiongNav": {
+    "home": "Home",
+    "aiTools": "AI tools",
+    "office": "Office",
+    "multimedia": "Multimedia",
+    "development": "Ontwikkelings Tools",
+    "text": "Tekst",
+    "file": "Bestanden",
+    "system": "Systeem",
+    "life": "Leven",
+    "news": "AI nieuws",
+    "custom": "Aangepaste software",
+    "consult": "Consulting",
+    "industryNews": "Industrie nieuws",
+    "feedback": "Feedback",
+    "imageGen": "Beeld generatie",
+    "codeDev": "Code & ontwikkeling",
+    "logoAlt": "Kunqiong AI Toolbox",
+    "footerLogoAlt": "Kunqiong AI",
+    "loginRegister": "Inloggen / Registreren",
+    "navExpandAria": "Uitbreiden",
+    "navSearchAria": "Zoeken",
+    "navMenuAria": "Menu"
+  },
+  "footer": {
+    "description": "Een professionele all-in-one webmaster toolbox met websitecontroles, SEO tools, ontwikkelaars tools en meer.",
+    "kunqiongBrandDesc": "We zijn toegewijd om individuen en bedrijven te voorzien van hoogwaardige AI tools en consultancies om u in de levensfase van kunstmatige intelligentie competitief te houden.",
+    "toolCategories": "Tool Categorieën",
+    "quickLinks": "Snel koppelingen",
+    "contactTitle": "Neem contact met ons op",
+    "contactCompany": "Jiangxi Hexagon Star Technology Co., Ltd.",
+    "contactPhone": "17770307066",
+    "contactRegion": "Shangrao, Jiangxi, China",
+    "contactEmail": "11247931@qq.com",
+    "copyrightLine": "© 2026 Kunqiong AI Tools. Alle rechten voorbehouden.",
+    "userAgreement": "Gebruiksvoorwaarden",
+    "privacyPolicy": "Privacybeleid",
+    "brandAI": "Een Kunqiong AI Product",
+    "brandAlt": "Kunqiong"
+  },
+  "validation": {
+    "required": "{{field}} is verplicht",
+    "minLength": "{{field}} moet minimaal {{count}} tekens zijn",
+    "maxLength": "{{field}} mag maximaal {{count}} tekens zijn",
+    "invalidFormat": "{{field}} heeft een ongeldig formaat",
+    "email": "Voer een geldig e-mailadres in",
+    "url": "Voer een geldige URL in",
+    "domain": "Voer een geldige domeinnaam in",
+    "ip": "Voer een geldig IP-adres in",
+    "phone": "Voer een geldig telefoonnummer in",
+    "password": "Wachtwoord moet hoofd- en kleine letters en cijfers bevatten en 6-20 tekens lang zijn"
+  },
+  "exporter": {
+    "unsupportedFormat": "Niet ondersteund exportformaat: {{format}}",
+    "csvRequiresArrayOrObject": "CSV-export vereist een array of object",
+    "toolUsageInfo": "Tool Gebruik Info",
+    "tool": "Tool",
+    "time": "Tijd",
+    "url": "URL",
+    "version": "Versie",
+    "dnsReportTitle": "DNS Zoekrapport",
+    "dnsReportDescription": "Gedetailleerde DNS record informatie",
+    "summaryTitle": "Overzicht",
+    "domain": "Domein",
+    "recordCount": "Totaal records",
+    "recordCountValue": "{{count}} records",
+    "queryTime": "Query tijd",
+    "typeDescriptions": {
+      "A": "IPv4 adresrecord",
+      "AAAA": "IPv6 adresrecord",
+      "MX": "Mailserverrecord",
+      "TXT": "Tekstrecord",
+      "CNAME": "Aliasrecord",
+      "NS": "Naamserversrecord",
+      "SOA": "Autoriteitsrecord"
+    },
+    "record": "Record",
+    "otherRecords": "Andere records",
+    "recordIndex": "Record {{index}}",
+    "priority": "Prioriteit",
+    "class": "Class",
+    "exportData": "Geëxporteerde Data",
+    "dnsToolName": "DNS Zoektool",
+    "exportInfo": "Export Info",
+    "exportTime": "Export tijd",
+    "formats": {
+      "json": "Gestructureerd gegevensformaat, makkelijk voor programma's om te verwerken",
+      "csv": "Bladrekening-vriendelijk formaat, geschikt voor Excel import",
+      "txt": "Platte tekstformaat, makkelijk te lezen",
+      "xml": "Markering formaat, geschikt voor gegevensuitwisseling",
+      "pdf": "Documentformaat, geschikt voor printen en delen"
+    }
+  },
+  "base64": {
+    "title": "Base64 Encode/Decode",
+    "description": "Online Base64 coderings- en decodering tool",
+    "encode": "Encode",
+    "decode": "Decode",
+    "originalText": "Oorspronkelijke tekst",
+    "base64String": "Base64 string",
+    "base64Result": "Base64 resultaat",
+    "decodeResult": "Gedecodeerd resultaat",
+    "placeholderEncode": "Voer tekst in om te encoderen...",
+    "placeholderDecode": "Voer Base64 in om te decoderen...",
+    "resultPlaceholder": "Het resultaat verschijnt hier...",
+    "inputPlaceholder": "Voer inhoud in om te converteren",
+    "decodeError": "Decoderen mislukt. Controleer of de invoer geldige Base64 is.",
+    "encodeError": "Encoderen mislukt",
+    "charCount": "{{count}} tekens",
+    "clear": "Wis invoer",
+    "copy": "Kopieer resultaat",
+    "copied": "Gekopieerd",
+    "convert": "Converteer nu",
+    "swap": "Wissel modus",
+    "ariaLabel": "Base64 encode/decode tool",
+    "modeSelection": "Conversiemodus selectie",
+    "encodeMode": "Encode modus",
+    "decodeMode": "Decode modus",
+    "inputLabelEncode": "Tekst om te encoderen",
+    "inputLabelDecode": "Base64 string om te decoderen",
+    "outputLabelEncode": "Base64 gecodeerd resultaat",
+    "outputLabelDecode": "Base64 gedecodeerd resultaat",
+    "whatIsBase64": "Wat is Base64?",
+    "base64Info": "Base64 is een coderingsmethode die binaire data vertegenwoordigt met 64 leesbare tekens. Het wordt vaak gebruikt om kleine binaire data over te dragen in URLs, cookies, webpagina's of tekstgebaseerde protocollen."
+  },
+  "dns": {
+    "title": "DNS Record Zoekopdracht",
+    "description": "Zoek DNS records online (A, MX, CNAME, etc.)",
+    "placeholder": "Voer een domein in, bijv. example.com",
+    "invalidDomain": "Voer een geldig domeinformaat in (bijv. example.com)",
+    "domainInput": "Domeininvoer",
+    "validFormat": "Domeinformaat is geldig",
+    "typeSelect": "DNS record type",
+    "searchBtn": "Zoek DNS records",
+    "loadingTitle": "DNS records zoeken",
+    "loadingDesc": "Wacht alstublieft terwijl we DNS records voor uw domein zoeken...",
+    "resultRegion": "DNS zoekresultaat",
+    "recordCount": "{{count}} records",
+    "typeRecordRegion": "{{type}} records",
+    "querying": "DNS records zoeken",
+    "queryingDesc": "Wacht alstublieft terwijl we DNS records voor uw domein zoeken...",
+    "foundRecords": "{{count}} records gevonden",
+    "queryTime": "Zoektijd: {{time}}",
+    "export": "Resultaten exporteren",
+    "noRecords": "Geen DNS records gevonden",
+    "noRecordsDesc": "Er zijn geen DNS records gevonden voor dit domein",
+    "typeInfo": "DNS record types",
+    "priority": "Prioriteit: {{priority}}",
+    "types": {
+      "ALL": "Alle",
+      "A": "A Record",
+      "AAAA": "AAAA Record",
+      "MX": "MX Record",
+      "TXT": "TXT Record",
+      "CNAME": "CNAME Record",
+      "NS": "NS Record",
+      "SOA": "SOA Record"
+    },
+    "typeDescs": {
+      "A": "IPv4 Adres",
+      "AAAA": "IPv6 Adres",
+      "MX": "E-mailserver",
+      "TXT": "Tekstrecord",
+      "CNAME": "Aliasrecord",
+      "NS": "Naamserver",
+      "SOA": "Start of autoriteit record"
+    },
+    "typeDetails": {
+      "A": "Verwijst een domein naar een IPv4-adres",
+      "AAAA": "Verwijst een domein naar een IPv6-adres",
+      "MX": "Specificeert het e-mailserveradres, met lagere prioriteitsnummers die hogere prioriteit aangeven",
+      "TXT": "Bewaart tekstinformatie, vaak gebruikt voor SPF en DKIM-verificatie",
+      "CNAME": "Verwijst een domein naar een ander domein (alias)",
+      "NS": "Specificeer DNS-servers voor het domein"
+    }
+  },
+  "whois": {
+    "title": "WHOIS-zoektocht",
+    "description": "Zoek WHOIS- en registratieinformatie online",
+    "placeholder": "Voer een domein in, bijv. example.com",
+    "invalidDomain": "Voer een geldig domeinformaat in (bijv. example.com)",
+    "querying": "WHOIS-informatie ophalen",
+    "queryingDesc": "Wacht alstublieft terwijl we de registratieinformatie ophalen...",
+    "domainInfo": "Domeininformatie",
+    "registrar": "Registrant",
+    "creationDate": "Aanmaakdatum",
+    "expirationDate": "Vervaldatum",
+    "updatedDate": "Laatst bijgewerkte datum",
+    "dnssec": "DNSSEC",
+    "dnssecDisabled": "Uitgeschakeld",
+    "expired": "Verlopen {{days}} dagen geleden",
+    "expiringSoon": "Verloopt over {{days}} dagen",
+    "remaining": "{{days}} dagen resterend",
+    "dnsServer": "Naamservers",
+    "domainStatus": "Domeinstatus",
+    "registrantInfo": "Registrantinformatie",
+    "name": "Naam",
+    "organization": "Organisatie",
+    "country": "Land",
+    "email": "E-mail",
+    "noInfo": "Geen gerelateerde informatie gevonden",
+    "domain": "Domein",
+    "rawData": "Ruwe gegevens",
+    "toggleRawData": "Ruwe gegevens uitvouwen of samenvouwen",
+    "copyRawData": "Ruwe gegevens kopiëren",
+    "copy": "Kopiëren",
+    "copied": "Gekopieerd",
+    "whatIsWhois": "Wat is WHOIS?",
+    "about": "WHOIS is een protocol dat wordt gebruikt om domeinregistratiegegevens op te vragen. Door middel van een WHOIS-zoektocht kunt u leren wat de registrant, registratiedatum, vervaldatum, DNS-servers en registrantinformatie zijn. Dit is nuttig voor domeinhandel, merkbescherming en beveiligingsonderzoek."
+  },
+  "httpStatus": {
+    "title": "HTTP-statuscontrole",
+    "description": "Controleer HTTP-statuscodes en reactieinformatie online",
+    "placeholder": "Voer een URL in, bijv. https://example.com",
+    "check": "Controleer",
+    "followRedirects": "Volg omleidingen automatisch",
+    "urlEmpty": "Voer een URL in",
+    "checkFailed": "Controle mislukt",
+    "serverError": "Serververbinding gefaald, probeer het later opnieuw",
+    "unknownStatus": "Onbekende status",
+    "responseTime": "Reactietijd",
+    "headers": "Headers",
+    "redirectUrl": "Omleidings-URL",
+    "contentType": "Inhoudstype",
+    "contentLength": "Inhoudslengte",
+    "server": "Server",
+    "showHeaders": "Toon reactieheaders",
+    "hideHeaders": "Verberg reactieheaders",
+    "status": {
+      "100": "Doorgaan",
+      "101": "Protocolverandering",
+      "200": "OK",
+      "201": "Aangemaakt",
+      "204": "Geen inhoud",
+      "301": "Permanente omleiding",
+      "302": "Tijdelijke omleiding",
+      "304": "Niet gewijzigd",
+      "307": "Tijdelijke omleiding",
+      "308": "Permanente omleiding",
+      "400": "Ongeldig verzoek",
+      "401": "Niet geautoriseerd",
+      "403": "Verboden",
+      "404": "Niet gevonden",
+      "405": "Methode niet toegestaan",
+      "408": "Verzoek time-out",
+      "429": "Te veel verzoeken",
+      "500": "Interne serverfout",
+      "502": "Slechte gateway",
+      "503": "Dienst onbeschikbaar",
+      "504": "Gateway time-out"
+    }
+  },
+  "browserInfo": {
+    "title": "Browserinformatie",
+    "description": "Bekijk gedetailleerde informatie over de huidige browser",
+    "os": "Besturingssysteem",
+    "browser": "Browser",
+    "version": "Versie",
+    "engine": "Engine",
+    "device": "Apparaat",
+    "screen": "Schermresolutie",
+    "viewport": "Viewport-grootte",
+    "language": "Taal",
+    "timezone": "Tijdzone",
+    "cookieEnabled": "Cookies ingeschakeld",
+    "online": "Online",
+    "cpu": "CPU-architectuur",
+    "userAgent": "User-Agent",
+    "platform": "Platform",
+    "vendor": "Browserleverancier",
+    "languages": "Ondersteunde talen",
+    "cookie": "Cookie",
+    "onlineStatus": "Online-status",
+    "doNotTrack": "Niet volgen",
+    "touchPoints": "Aanstootpunten",
+    "enabled": "Ingeschakeld",
+    "disabled": "Uitgeschakeld",
+    "offline": "Offline",
+    "hardwareInfo": "Hardwareinformatie",
+    "cpuCores": "CPU-kernen",
+    "cpuCoresValue": "{{count}} kernen",
+    "deviceMemory": "Apparaatgeheugen",
+    "screenInfo": "Scherminfo",
+    "availArea": "Beschikbare area",
+    "windowSize": "Venstergrootte",
+    "pixelRatio": "Apparaatpixelratio",
+    "colorDepth": "Kleurdiepte",
+    "screenOrientation": "Schermoriëntatie",
+    "unknown": "Onbekend",
+    "basicInfo": "Basisinformatie",
+    "networkInfo": "Netwerkinfo",
+    "networkType": "Netwerktype",
+    "downlink": "Downlink",
+    "rtt": "RTT",
+    "saveData": "Gegevensbesparing",
+    "batteryInfo": "Accu-info",
+    "batteryLevel": "Accuniveau",
+    "chargingStatus": "Ladingstatus",
+    "charging": "Aan het opladen",
+    "notCharging": "Niet aan het opladen",
+    "timezoneInfo": "Tijdzone-info",
+    "utcOffset": "UTC-offset"
+  },
+  "viewSource": {
+    "title": "Pagina broncode bekijken",
+    "description": "Bekijk webpagina broncode online",
+    "placeholder": "Voer een URL in, bijv. https://example.com",
+    "fetch": "Bron ophalen",
+    "urlEmpty": "Voer een URL in",
+    "fetchFailed": "Fout bij het ophalen van de bron",
+    "serverError": "Serververbinding gefaald",
+    "lineCount": "Regels: {{count}}",
+    "copy": "Bron kopiëren",
+    "clear": "Leegmaken",
+    "usage1": "Voer de volledige webpagina-URL in en klik om de bron op te halen",
+    "usage2": "Ondersteunt het bekijken van de HTML-bron van elke publieke webpagina",
+    "usage3": "Je kunt de broncode kopiëren of downloaden voor analyse",
+    "usage4": "Enkele websites blokkeren bronopvraging vanwege beveiligingsbeleid"
+  },
+  "urlEncode": {
+    "title": "URL Encoder/Decoder",
+    "description": "Online tool voor URL codering en decodering",
+    "encode": "Coderen",
+    "decode": "Decoderen",
+    "placeholder": "Voer inhoud in om te converteren...",
+    "result": "Resultaat",
+    "error": "Coderen/Decoderen mislukt"
+  },
+  "htmlEntity": {
+    "title": "HTML Entiteit Encoder/Decoder",
+    "description": "Online HTML entiteit encoder en decoder tool",
+    "encode": "Encoderen",
+    "decode": "Decoderen",
+    "placeholder": "Voer inhoud in om te converteren...",
+    "result": "Resultaat"
+  },
+  "jsMinify": {
+    "title": "JS Compressie & Opmaak",
+    "description": "Online JavaScript code compressie en opmaak tool",
+    "minify": "Comprimeren",
+    "beautify": "Opmaken",
+    "placeholder": "Plak JavaScript code...",
+    "result": "Verwerking Resultaat",
+    "error": "Code Verwerking Mislukt"
+  },
+  "cssMinify": {
+    "title": "CSS Compressie & Opmaak",
+    "description": "Online CSS Code Compressie & Opmaak Tool",
+    "minify": "Comprimeren",
+    "beautify": "Opmaken",
+    "placeholder": "Plak CSS Code...",
+    "result": "Verwerking Resultaat",
+    "error": "Code Verwerking Mislukt"
+  },
+  "pages": {
+    "sslCheck": {
+      "title": "SSL Certificaat Check",
+      "description": "Controleer SSL certificaat details en geldigheid voor een domein",
+      "enterDomain": "Voer a.u.b. een domein in",
+      "checkFailed": "Controle mislukt",
+      "serverConnectionFailed": "Het is niet mogelijk om verbinding te maken met de server, probeer het later opnieuw",
+      "inputPlaceholder": "Voer een domein in, bijvoorbeeld: example.com",
+      "check": "Controleer",
+      "statusExpired": "Verlopen",
+      "statusExpiringSoon": "Verloopt binnenkort",
+      "statusValid": "Geldig",
+      "statusProblem": "Certificaat probleem",
+      "expiredDays": "Verlopen {{count}} dagen geleden",
+      "remainingDays": "{{count}} dagen over",
+      "warning": "Waarschuwing: {{message}}",
+      "protocol": "Protocol",
+      "validityPeriod": "Geldigheidsperiode",
+      "validFrom": "Geldig vanaf",
+      "validTo": "Geldig tot",
+      "certificateInfo": "Certificaat informatie",
+      "subject": "Onderwerp",
+      "issuer": "Uitgever",
+      "commonName": "Algemene Naam (CN)",
+      "organization": "Organisatie (O)",
+      "organizationUnit": "Organisatie Eenheid (OU)",
+      "country": "Land (C)",
+      "subjectAltNames": "Onderwerp Alternatieve Namen (SAN) - {{count}} items",
+      "technicalDetails": "Technische details",
+      "serialNumber": "Serienummer",
+      "fingerprintSha1": "Vingerafdruk (SHA-1)",
+      "fingerprintSha256": "Vingerafdruk (SHA-256)",
+      "cipherSuite": "Cipher Suite",
+      "infoTitle": "SSL certificaat notities",
+      "infoItems": [
+        "SSL certificaten verifiëren de server identiteit en versleutelen communicatie",
+        "Controleer regelmatig verloopdatum om uitval te voorkomen",
+        "Certificaten die dicht bij het vervallen zijn moeten vroeg vernieuwd worden",
+        "SAN (Subject Alternative Name) geeft de domeinen weer die door het certificaat gedekt worden"
+      ]
+    },
+    "gzipCheck": {
+      "title": "Website Gzip Compressie Check",
+      "description": "Controleer of een website Gzip / Deflate / Brotli compressie ondersteunt",
+      "enterUrl": "Voer a.u.b. een URL in",
+      "checkFailed": "Controle mislukt",
+      "serverConnectionFailed": "Het is niet mogelijk om verbinding te maken met de server, probeer het later opnieuw",
+      "inputPlaceholder": "Voer een URL in, bijvoorbeeld: https://example.com",
+      "check": "Controleer",
+      "enabled": "Ingeschakeld",
+      "disabled": "Niet ingeschakeld",
+      "compressionType": "Compressietype: {{type}}",
+      "enableSuggestion": "Schakel Gzip compressie in om de overdrachtsgrootte te verminderen en de laadtijd te verbeteren",
+      "supportTitle": "Compressie ondersteuning",
+      "gzipDescription": "Bekende standaard compressie",
+      "deflateDescription": "Traditionele HTTP compressie algoritme",
+      "brotliDescription": "Een nieuwere compressiemethode met betere ratios",
+      "effectTitle": "Compressie effect",
+      "originalSize": "Originele grootte",
+      "compressedSize": "Gecomprimeerde grootte",
+      "ratio": "Compressieratio",
+      "savedTransfer": "Bespaart {{value}} in overdrachtsgrootte",
+      "detailsTitle": "Details",
+      "whyTitle": "Waarom Gzip compressie inschakelen?",
+      "whyItems": [
+        "Het kan de grootte van tekstbronnen vaak verminderen met 60% tot 80%",
+        "Kleine overdrachten verbeteren de laadtijd",
+        "Het vermindert bandbreedtegebruik",
+        "Beter presteren kan ook helpen bij SEO en gebruikerservaring"
+      ]
+    },
+    "dnsLookupEnhanced": {
+      "title": "Geavanceerde DNS Record Zoekopdracht",
+      "description": "Query meerdere DNS record types online met optimalisatie voor grote resultaten",
+      "enterDomain": "Voer a.u.b. een domein in",
+      "lookupFailed": "Zoekopdracht mislukt",
+      "serverConnectionFailed": "Het is niet mogelijk om verbinding te maken met de server, probeer het later opnieuw",
+      "inputPlaceholder": "Voer een domein in, bijvoorbeeld: example.com",
+      "lookup": "Zoek",
+      "priority": "Prioriteit: {{value}}",
+      "dnsTypes": [
+        {
+          "value": "ALLES",
+          "label": "Alle"
+        },
+        {
+          "value": "A",
+          "label": "A record",
+          "desc": "IPv4 adres"
+        },
+        {
+          "value": "AAAA",
+          "label": "AAAA record",
+          "desc": "IPv6 adres"
+        },
+        {
+          "value": "MX",
+          "label": "MX record",
+          "desc": "Mailserver"
+        },
+        {
+          "value": "TXT",
+          "label": "TXT record",
+          "desc": "Tekstdata"
+        },
+        {
+          "value": "CNAME",
+          "label": "CNAME record",
+          "desc": "Alias record"
+        },
+        {
+          "value": "NS",
+          "label": "NS record",
+          "desc": "Naamservers"
+        },
+        {
+          "value": "SOA",
+          "label": "SOA record",
+          "desc": "Start van autoriteit"
+        }
+      ],
+      "foundRecords": "Gevonden {{count}} records",
+      "queryTime": "Query tijd: {{time}}",
+      "virtualScrollEnabled": "Virtueel scrollen ingeschakeld",
+      "recordCount": "{{count}} records",
+      "virtualScrollTag": "Optimalisatie weergave",
+      "noRecords": "Geen DNS records gevonden",
+      "performanceTitle": "Prestatie optimalisatie",
+      "performanceItems": [
+        "Virtueel weergave houdt DNS Lookup responsief met {{count}} records",
+        "Alleen zichtbare rijen worden weergegeven om het geheugenverbruik te verlagen",
+        "Dit helpt om DOM vertraging te voorkomen bij grote resultaten",
+        "De ervaring blijft responsief zelfs met veel records"
+      ]
+    },
+    "metaCheck": {
+      "title": "META Tag Check",
+      "description": "Controleer de META tags die gebruikt worden op een webpagina",
+      "enterUrl": "Voer a.u.b. een website URL in",
+      "checkFailed": "Controle mislukt",
+      "urlLabel": "Website URL",
+      "inputPlaceholder": "example.com of https://example.com",
+      "check": "Controleer",
+      "resultTitle": "Controle resultaat",
+      "totalCount": "Gevonden {{count}} META tags",
+      "groups": {
+        "pageTitle": "Pagina titel",
+        "httpEquiv": "HTTP-Equiv",
+        "charset": "Charset",
+        "basicMeta": "Basis META"
+      },
+      "emptyContent": "Leeg",
+      "infoTitle": "Over",
+      "infoItems": [
+        "Deze tool controleert titel tags, meta name tags, meta property tags (zoals Open Graph), en meta http-equiv tags",
+        "Het helpt snel de SEO gerelateerde metadata van de pagina te beoordelen",
+        "Het helpt ook om ontbrekende of dubbele tag problemen te identificeren"
+      ]
+    },
+    "urlEncode": {
+      "title": "URL Encode/Decode",
+      "description": "Encodeer of decodeer URL strings online",
+      "toolName": "URL Encode/Decode",
+      "toolCategory": "Codering Tools",
+      "convertFailed": "Conversie mislukt, controleer uw invoer",
+      "copyFailed": "Resultaat kopiëren mislukt",
+      "modeSelector": "Selecteer modus",
+      "typeSelector": "Coderingstype",
+      "encode": "Coderen",
+      "decode": "Decoderen",
+      "componentTitle": "URL-component",
+      "componentDescription": "Alleen een deel van een URL coderen",
+      "fullTitle": "Volledige URL",
+      "fullDescription": "De hele URL coderen",
+      "inputEncodeLabel": "Platte tekst",
+      "inputDecodeLabel": "Gecodeerde URL",
+      "clearInput": "Invoer wissen",
+      "encodePlaceholder": "Voer tekst in om te coderen als URL...",
+      "decodePlaceholder": "Voer een gecodeerde URL in om te decoderen...",
+      "outputEncodeLabel": "Gecodeerd resultaat",
+      "outputDecodeLabel": "Gedecodeerd resultaat",
+      "copyResult": "Resultaat kopiëren",
+      "resultPlaceholder": "Het conversieresultaat verschijnt hier...",
+      "copied": "Naar het klembord gekopieerd",
+      "swap": "Wisselen",
+      "swapInputOutput": "Wissel invoer en uitvoer",
+      "infoTitle": "Coderingsmodi",
+      "componentModeTitle": "Componentmodus",
+      "componentModeDescription": "Meest geschikt voor individuele URL-onderdelen zoals queryparameters of padsegmenten.",
+      "componentExample": "Voorbeeld: hello world → hello%20world",
+      "fullModeTitle": "Volledige URL-modus",
+      "fullModeDescription": "Gebruik dit wanneer u een volledige URL wilt coderen terwijl de algemene structuur herkenbaar blijft.",
+      "fullExample": "Voorbeeld: https://example.com/路径 → https://example.com/%E8%B7%AF%E5%BE%84"
+    },
+    "htmlEntity": {
+      "title": "HTML-entiteit coderen/decoderen",
+      "description": "Codeer of decodeer HTML-entiteiten online",
+      "toolName": "HTML-entiteit coderen/decoderen",
+      "toolCategory": "Coderingshulpen",
+      "convertFailed": "Conversie mislukt, controleer uw invoer",
+      "copyFailed": "Kopiëren van het resultaat mislukt",
+      "modeSelector": "Selecteer modus",
+      "switchToEncode": "Schakel over naar coderingsmodus (Alt+1)",
+      "switchToDecode": "Schakel over naar decoderingsmodus (Alt+2)",
+      "encode": "Coderen",
+      "decode": "Decoderen",
+      "encodeAll": "Alle tekens coderen",
+      "inputEncodeLabel": "Platte tekst",
+      "inputDecodeLabel": "HTML-entiteiten",
+      "clearInput": "Invoer wissen (Ctrl+L)",
+      "encodePlaceholder": "Voer tekst in om te converteren naar HTML-entiteiten...",
+      "decodePlaceholder": "Voer HTML-entiteiten in om te decoderen...",
+      "inputDescriptionEncode": "Voer de platte tekst in die u wilt coderen als HTML-entiteiten",
+      "inputDescriptionDecode": "Voer de HTML-entiteiten in die u wilt decoderen",
+      "outputEncodeLabel": "Gecodeerd resultaat",
+      "outputDecodeLabel": "Gedecodeerd resultaat",
+      "copyResult": "Resultaat kopiëren (Ctrl+C)",
+      "resultPlaceholder": "Het conversieresultaat verschijnt hier...",
+      "outputDescriptionEncode": "Het gegenereerde HTML-entiteitenuitvoer",
+      "outputDescriptionDecode": "Het gedecodeerde platte-tekstuitvoer",
+      "copied": "Naar het klembord gekopieerd",
+      "executeEncode": "Coderen (Ctrl+Enter)",
+      "executeDecode": "Decoderen (Ctrl+Enter)",
+      "swap": "Wisselen",
+      "swapMode": "Wissel invoer en uitvoer (Ctrl+S)",
+      "commonEntities": "Gewone HTML-entiteiten",
+      "space": "(spatie)"
+    },
+    "jsMinify": {
+      "title": "JS Minifier & Vormgever",
+      "description": "JavaScript-code minifieren of vormgeven online",
+      "toolName": "JavaScript Minifier / Vormgever",
+      "toolNameHistory": "JS Minifier & Vormgever",
+      "toolCategory": "Ontwikkelaarsgereedschappen",
+      "processFailed": "Verwerking mislukt",
+      "copyFailed": "Het resultaat kon niet worden gekopieerd naar het klembord",
+      "switchToMinify": "Schakel over naar minifieringsmodus",
+      "switchToMinifyTitle": "Schakel over naar minifieringsmodus (Alt+1)",
+      "switchToBeautify": "Schakel over naar vormgevermodus",
+      "switchToBeautifyTitle": "Schakel over naar vormgevermodus (Alt+2)",
+      "minify": "Minifieren",
+      "beautify": "Vormgeven",
+      "input": "Invoer",
+      "output": "Uitvoer",
+      "inputPlaceholder": "Voer JavaScript-code hier in...",
+      "inputAria": "JavaScript invoereditor",
+      "inputTitle": "Druk op Ctrl+Enter om te laten draaien, Ctrl+L om te wissen",
+      "copyOutput": "Kopieer uitvoer",
+      "copyOutputTitle": "Kopieer uitvoer (Ctrl+C)",
+      "resultPlaceholder": "Het verwerkte resultaat verschijnt hier...",
+      "outputAria": "JavaScript uitvoerresultaat",
+      "executeMinify": "JavaScript minifieren",
+      "executeMinifyTitle": "JavaScript minifieren (Ctrl+Enter)",
+      "executeBeautify": "JavaScript vormgeven",
+      "executeBeautifyTitle": "JavaScript vormgeven (Ctrl+Enter)",
+      "minifyCode": "Code minifieren",
+      "beautifyCode": "Code vormgeven",
+      "swap": "Wisselen",
+      "swapTitle": "Wissel invoer en uitvoer (Ctrl+S)",
+      "clear": "Wissen",
+      "clearTitle": "Inhoud wissen (Ctrl+L)",
+      "copied": "Naar het klembord gekopieerd",
+      "infoTitle": "Kenmerken",
+      "infoItems": [
+        "Verwijdert onnodige ruimtes en regels om de bestandsgrootte van JavaScript te verminderen",
+        "Vormgevermodus maakt gecomprimeerde code makkelijker leesbaar en onderhoudbaar",
+        "De kwaliteit van de minifiering hangt af van de JavaScript-parser en de implementatie van de minifier"
+      ]
+    },
+    "cssMinify": {
+      "title": "CSS Minifier & Vormgever",
+      "description": "CSS-code minifieren of vormgeven online",
+      "toolName": "CSS Minifier & Vormgever",
+      "toolCategory": "Ontwikkelaarsgereedschappen",
+      "processFailed": "Verwerking mislukt",
+      "copyFailed": "Het resultaat kon niet worden gekopieerd naar het klembord",
+      "switchToMinify": "Schakel over naar minifieringsmodus",
+      "switchToMinifyTitle": "Schakel over naar minifieringsmodus (Alt+1)",
+      "switchToBeautify": "Schakel over naar vormgevermodus",
+      "switchToBeautifyTitle": "Schakel over naar vormgevermodus (Alt+2)",
+      "minify": "Minifieren",
+      "beautify": "Vormgeven",
+      "input": "Invoer",
+      "output": "Uitvoer",
+      "inputPlaceholder": "Voer CSS-code hier in...\n\nVoorbeeld:\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 20px;\n}",
+      "inputAria": "CSS invoereditor",
+      "inputTitle": "Druk op Ctrl+Enter om te laten draaien, Ctrl+L om te wissen",
+      "copyOutput": "Kopieer uitvoer",
+      "copyOutputTitle": "Kopieer uitvoer (Ctrl+C)",
+      "resultPlaceholder": "Het verwerkte resultaat verschijnt hier...",
+      "outputAria": "CSS-uitvoerresultaat",
+      "executeMinify": "CSS minifieren",
+      "executeMinifyTitle": "CSS minifieren (Ctrl+Enter)",
+      "executeBeautify": "CSS vormgeven",
+      "executeBeautifyTitle": "CSS vormgeven (Ctrl+Enter)",
+      "minifyCode": "Code minifieren",
+      "beautifyCode": "Code vormgeven",
+      "swap": "Wisselen",
+      "swapTitle": "Wissel invoer en uitvoer (Ctrl+S)",
+      "clear": "Wissen",
+      "clearTitle": "Inhoud wissen (Ctrl+L)",
+      "copied": "Naar het klembord gekopieerd",
+      "infoTitle": "Kenmerken",
+      "infoItems": [
+        "Verwijdert onnodige ruimtes en regels om de bestandsgrootte te verkleinen",
+        "Vormgevermodus maakt gecomprimeerde code makkelijker leesbaar en te bewerken",
+        "Kleine CSS-bestanden kunnen helpen bij het verminderen van de HTTP-overdrachtsgrootte en het verbeteren van de laadtijd"
+      ]
+    },
+    "httpCodes": {
+      "title": "HTTP-statuscodes",
+      "description": "Referentie voor HTTP-status-/antwoordcodes",
+      "searchPlaceholder": "Zoek statuscodes of beschrijvingen...",
+      "noMatch": "Geen overeenkomende statuscodes gevonden",
+      "infoTitle": "Basisinformatie over HTTP-statuscodes",
+      "infoItems": [
+        "1xx - Informatieve antwoorden die betekenen dat de aanvraag is ontvangen en wordt verwerkt",
+        "2xx - Succesantwoorden die betekenen dat de aanvraag is ontvangen, begrepen en geaccepteerd",
+        "3xx - Doorverwijzingsantwoorden die extra actie vereisen om de aanvraag te voltooien",
+        "4xx - Clientfoutantwoorden die betekenen dat de aanvraag slechte syntaxis heeft of niet kan worden vervuld",
+        "5xx - Serverfoutantwoorden die betekenen dat de server een geldige aanvraag niet kan voltooien"
+      ],
+      "categories": [
+        {
+          "id": "all",
+          "name": "Alle",
+          "color": "bg-gray-100 text-gray-700"
+        },
+        {
+          "id": "1xx",
+          "name": "1xx Informatief",
+          "color": "bg-blue-100 text-blue-700"
+        },
+        {
+          "id": "2xx",
+          "name": "2xx Succes",
+          "color": "bg-green-100 text-green-700"
+        },
+        {
+          "id": "3xx",
+          "name": "3xx Herleiding",
+          "color": "bg-yellow-100 text-yellow-700"
+        },
+        {
+          "id": "4xx",
+          "name": "4xx Client Fout",
+          "color": "bg-orange-100 text-orange-700"
+        },
+        {
+          "id": "5xx",
+          "name": "5xx Server Fout",
+          "color": "bg-red-100 text-red-700"
+        }
+      ],
+      "codes": [
+        {
+          "code": 100,
+          "name": "Doorgaan",
+          "desc": "Het eerste deel van de aanvraag is ontvangen en het client moet doorgaan met het verzenden van de rest.",
+          "category": "1xx"
+        },
+        {
+          "code": 101,
+          "name": "Protocol Wisselen",
+          "desc": "De server is akkoord met het wisselen van protocollen volgens de verzoek van de client.",
+          "category": "1xx"
+        },
+        {
+          "code": 102,
+          "name": "In behandeling",
+          "desc": "De server heeft de aanvraag ontvangen en verwerkt, maar er is nog geen antwoord beschikbaar.",
+          "category": "1xx"
+        },
+        {
+          "code": 200,
+          "name": "OK",
+          "desc": "De aanvraag was succesvol, meestal voor GET of POST aanvragen.",
+          "category": "2xx"
+        },
+        {
+          "code": 201,
+          "name": "Gemaakt",
+          "desc": "De aanvraag was succesvol en heeft een nieuw resource gecreëerd.",
+          "category": "2xx"
+        },
+        {
+          "code": 202,
+          "name": "Aanvaard",
+          "desc": "De aanvraag is aangenomen voor verwerking, maar het is nog niet voltooid.",
+          "category": "2xx"
+        },
+        {
+          "code": 203,
+          "name": "Niet Autorisatie Informatie",
+          "desc": "De respons metadata komt uit een lokale of derde partij kopie in plaats van de oorspronkelijke server.",
+          "category": "2xx"
+        },
+        {
+          "code": 204,
+          "name": "Geen Inhoud",
+          "desc": "De aanvraag was succesvol, maar het antwoord bevat geen lichaam.",
+          "category": "2xx"
+        },
+        {
+          "code": 205,
+          "name": "Reset Inhoud",
+          "desc": "De aanvraag was succesvol en de client moet de huidige documentweergave resetten.",
+          "category": "2xx"
+        },
+        {
+          "code": 206,
+          "name": "Gedeeltelijke Inhoud",
+          "desc": "De server retourneert alleen een deel van de resource vanwege een bereik aanvraag.",
+          "category": "2xx"
+        },
+        {
+          "code": 300,
+          "name": "Meerdere Keuzes",
+          "desc": "De gevraagde resource heeft meerdere mogelijke representaties voor de client om te kiezen uit.",
+          "category": "3xx"
+        },
+        {
+          "code": 301,
+          "name": "Permanently Verplaatst",
+          "desc": "De gevraagde resource is permanent verplaatst naar een nieuw URI.",
+          "category": "3xx"
+        },
+        {
+          "code": 302,
+          "name": "Vindbaar",
+          "desc": "De gevraagde resource is tijdelijk geplaatst op een ander URI.",
+          "category": "3xx"
+        },
+        {
+          "code": 303,
+          "name": "Zie Andere",
+          "desc": "Het antwoord op de aanvraag kan worden gevonden onder een andere URI met GET.",
+          "category": "3xx"
+        },
+        {
+          "code": 304,
+          "name": "Niet Gewijzigd",
+          "desc": "Het gecacheerde resource is niet gewijzigd, dus de client kan zijn lokale kopie gebruiken.",
+          "category": "3xx"
+        },
+        {
+          "code": 307,
+          "name": "Tijdelijke Redirect",
+          "desc": "De resource wordt tijdelijk omgeleid en de oorspronkelijke aanvraag methode moet behouden blijven.",
+          "category": "3xx"
+        },
+        {
+          "code": 308,
+          "name": "Permanente Redirect",
+          "desc": "De resource is permanent verplaatst en de oorspronkelijke aanvraag methode moet behouden blijven.",
+          "category": "3xx"
+        },
+        {
+          "code": 400,
+          "name": "Ongeldige Aanvraag",
+          "desc": "De server kan de aanvraag niet verwerken vanwege ongeldig syntax.",
+          "category": "4xx"
+        },
+        {
+          "code": 401,
+          "name": "Ongeautoriseerd",
+          "desc": "Authenticatie is vereist voordat de aanvraag kan worden voltooid.",
+          "category": "4xx"
+        },
+        {
+          "code": 402,
+          "name": "Betaling Vereist",
+          "desc": "Reserveren voor toekomstig gebruik, vaak verbonden met digitale betalingssystemen.",
+          "category": "4xx"
+        },
+        {
+          "code": 403,
+          "name": "Verboden",
+          "desc": "De server begrijpt de aanvraag, maar weigert deze te autoriseren.",
+          "category": "4xx"
+        },
+        {
+          "code": 404,
+          "name": "Niet Gevonden",
+          "desc": "De server kan de gevraagde resource niet vinden.",
+          "category": "4xx"
+        },
+        {
+          "code": 405,
+          "name": "Methode Niet Toegestaan",
+          "desc": "De aanvraagmethode is niet toegestaan voor de doelresource.",
+          "category": "4xx"
+        },
+        {
+          "code": 406,
+          "name": "Niet Acceptabel",
+          "desc": "De server kan geen antwoord leveren dat overeenkomt met de acceptabele indelingen van de client.",
+          "category": "4xx"
+        },
+        {
+          "code": 407,
+          "name": "Proxy Authenticatie Vereist",
+          "desc": "De client moet zich authenticeren bij de proxy voordat het verder kan gaan.",
+          "category": "4xx"
+        },
+        {
+          "code": 408,
+          "name": "Aanvraag Tijdslimiet Overschreden",
+          "desc": "De server heeft te lang gewacht op de aanvraag.",
+          "category": "4xx"
+        },
+        {
+          "code": 409,
+          "name": "Conflict",
+          "desc": "De aanvraag conflicteert met de huidige staat van de doelresource.",
+          "category": "4xx"
+        },
+        {
+          "code": 410,
+          "name": "Verwijderd",
+          "desc": "De resource is niet meer beschikbaar en er is geen doorstuuradres bekend.",
+          "category": "4xx"
+        },
+        {
+          "code": 411,
+          "name": "Lengte Vereist",
+          "desc": "De server vereist een geldige Content-Length header.",
+          "category": "4xx"
+        },
+        {
+          "code": 412,
+          "name": "Voorwaarde Mislukt",
+          "desc": "Eén of meer voorwaarden in de aanvraagheaders hebben zich als fout bevonden.",
+          "category": "4xx"
+        },
+        {
+          "code": 413,
+          "name": "Payload Te Groot",
+          "desc": "De aanvraagbody is groter dan wat de server wil of kan verwerken.",
+          "category": "4xx"
+        },
+        {
+          "code": 414,
+          "name": "URI Te Lang",
+          "desc": "De gevraagde URI is langer dan wat de server kan verwerken.",
+          "category": "4xx"
+        },
+        {
+          "code": 415,
+          "name": "Niet Ondersteund Media Type",
+          "desc": "De server ondersteunt het media type dat in de aanvraag is gebruikt niet.",
+          "category": "4xx"
+        },
+        {
+          "code": 418,
+          "name": "Ik ben een theepot",
+          "desc": "Een humoristische statuscode die aangeeft dat de server weigert koffie te brouwen omdat het een theepot is.",
+          "category": "4xx"
+        },
+        {
+          "code": 422,
+          "name": "Niet Verwerkbaar Entiteit",
+          "desc": "De server begrijpt het aanvraagformaat, maar kan de bevatte instructies niet verwerken.",
+          "category": "4xx"
+        },
+        {
+          "code": 429,
+          "name": "Te Veel Aanvragen",
+          "desc": "De client heeft te veel aanvragen gestuurd binnen een bepaalde tijdperiode.",
+          "category": "4xx"
+        },
+        {
+          "code": 451,
+          "name": "Niet Beschikbaar Vanwege Juridische Redenen",
+          "desc": "De resource is niet beschikbaar vanwege juridische beperkingen.",
+          "category": "4xx"
+        },
+        {
+          "code": 500,
+          "name": "Interne Server Fout",
+          "desc": "De server liep tijdens het verwerken van de aanvraag tegen een onverwachte fout aan.",
+          "category": "5xx"
+        },
+        {
+          "code": 501,
+          "name": "Niet Geimplementeerd",
+          "desc": "De server ondersteunt de functionaliteit niet die nodig is om de aanvraag te voldoen.",
+          "category": "5xx"
+        },
+        {
+          "code": 502,
+          "name": "Slechte Gateway",
+          "desc": "Een gateway of proxy server ontving een ongeldig antwoord van de upstream server.",
+          "category": "5xx"
+        },
+        {
+          "code": 503,
+          "name": "Dienst Niet Beschikbaar",
+          "desc": "De server is tijdelijk niet in staat om de aanvraag te verwerken, meestal vanwege overbelasting of onderhoud.",
+          "category": "5xx"
+        },
+        {
+          "code": 504,
+          "name": "Gateway Tijdslimiet Overschreden",
+          "desc": "Een gateway of proxy server ontving geen timely reactie van de upstream server.",
+          "category": "5xx"
+        },
+        {
+          "code": 505,
+          "name": "HTTP Versie Niet Ondersteund",
+          "desc": "De server ondersteunt de HTTP protocolversie die in de aanvraag is gebruikt niet.",
+          "category": "5xx"
+        }
+      ]
+    },
+    "phpReference": {
+      "title": "PHP Functie Referentie",
+      "description": "Snel referentie voor veelgebruikte PHP functies",
+      "searchPlaceholder": "Zoek functienaam of beschrijving...",
+      "noMatch": "Geen overeenkomende functies gevonden",
+      "infoTitle": "Over",
+      "infoDescription": "Deze pagina lijst veelgebruikte PHP functies per categorie voor snelle zoekopdracht. Het is bedoeld als handige overzicht voor ontwikkelaars en vervangt niet de officiële PHP documentatie.",
+      "categories": [
+        "Alle",
+        "String",
+        "Array",
+        "Bestand",
+        "Datum/Tijd",
+        "JSON",
+        "Wiskunde",
+        "Overig"
+      ],
+      "functions": [
+        {
+          "name": "strlen",
+          "desc": "Haal de lengte van een string op",
+          "syntax": "strlen(string $string): int",
+          "category": "String"
+        },
+        {
+          "name": "substr",
+          "desc": "Retourneer een deel van een string",
+          "syntax": "substr(string $string, int $offset, ?int $length = null): string",
+          "category": "String"
+        },
+        {
+          "name": "strpos",
+          "desc": "Vind de positie van het eerste voorkomen van een substring",
+          "syntax": "strpos(string $haystack, string $needle, int $offset = 0): int|false",
+          "category": "String"
+        },
+        {
+          "name": "str_replace",
+          "desc": "Vervang alle voorkomens van de zoekstring",
+          "syntax": "str_replace(mixed $search, mixed $replace, mixed $subject): mixed",
+          "category": "String"
+        },
+        {
+          "name": "explode",
+          "desc": "Splits een string in een array met een separator",
+          "syntax": "explode(string $separator, string $string, int $limit = PHP_INT_MAX): array",
+          "category": "String"
+        },
+        {
+          "name": "implode",
+          "desc": "Verenig array elementen tot een string",
+          "syntax": "implode(string $separator, array $array): string",
+          "category": "String"
+        },
+        {
+          "name": "trim",
+          "desc": "Verwijder witruimte of andere tekens aan beide kanten van een string",
+          "syntax": "trim(string $string, string $characters = \" \\n\\r\\t\\v\\x00\"): string",
+          "category": "String"
+        },
+        {
+          "name": "strtolower",
+          "desc": "Converteer een string naar kleine letters",
+          "syntax": "strtolower(string $string): string",
+          "category": "String"
+        },
+        {
+          "name": "strtoupper",
+          "desc": "Converteer een string naar hoofdletters",
+          "syntax": "strtoupper(string $string): string",
+          "category": "String"
+        },
+        {
+          "name": "sprintf",
+          "desc": "Geef een opgemaakte string terug",
+          "syntax": "sprintf(string $format, mixed ...$values): string",
+          "category": "String"
+        },
+        {
+          "name": "preg_match",
+          "desc": "Voer een reguliere expressie match uit",
+          "syntax": "preg_match(string $pattern, string $subject, array &$matches = null): int|false",
+          "category": "String"
+        },
+        {
+          "name": "preg_replace",
+          "desc": "Voer een reguliere expressie zoek- en vervang uit",
+          "syntax": "preg_replace(mixed $pattern, mixed $replacement, mixed $subject): mixed",
+          "category": "String"
+        },
+        {
+          "name": "count",
+          "desc": "Tel elementen in een array of Countable object",
+          "syntax": "count(Countable|array $value, int $mode = COUNT_NORMAL): int",
+          "category": "Array"
+        },
+        {
+          "name": "array_push",
+          "desc": "Voeg één of meer elementen toe aan het einde van een array",
+          "syntax": "array_push(array &$array, mixed ...$values): int",
+          "category": "Array"
+        },
+        {
+          "name": "array_pop",
+          "desc": "Haal het laatste element uit een array",
+          "syntax": "array_pop(array &$array): mixed",
+          "category": "Array"
+        },
+        {
+          "name": "array_merge",
+          "desc": "Voeg één of meer arrays samen",
+          "syntax": "array_merge(array ...$arrays): array",
+          "category": "Array"
+        },
+        {
+          "name": "array_keys",
+          "desc": "Geef alle sleutels van een array terug",
+          "syntax": "array_keys(array $array, mixed $filter_value, bool $strict = false): array",
+          "category": "Array"
+        },
+        {
+          "name": "array_values",
+          "desc": "Geef alle waarden van een array terug",
+          "syntax": "array_values(array $array): array",
+          "category": "Array"
+        },
+        {
+          "name": "in_array",
+          "desc": "Controleer of een waarde in een array voorkomt",
+          "syntax": "in_array(mixed $needle, array $haystack, bool $strict = false): bool",
+          "category": "Array"
+        },
+        {
+          "name": "array_search",
+          "desc": "Zoek in een array naar een waarde en retourneer zijn sleutel",
+          "syntax": "array_search(mixed $needle, array $haystack, bool $strict = false): int|string|false",
+          "category": "Array"
+        },
+        {
+          "name": "array_map",
+          "desc": "Pas een callback toe op de elementen van een array",
+          "syntax": "array_map(?callable $callback, array $array, array ...$arrays): array",
+          "category": "Array"
+        },
+        {
+          "name": "array_filter",
+          "desc": "Filter elementen van een array met een callback",
+          "syntax": "array_filter(array $array, ?callable $callback = null, int $mode = 0): array",
+          "category": "Array"
+        },
+        {
+          "name": "sort",
+          "desc": "Sorteer een array in oplopende volgorde",
+          "syntax": "sort(array &$array, int $flags = SORT_REGULAR): bool",
+          "category": "Array"
+        },
+        {
+          "name": "usort",
+          "desc": "Sorteer een array met een gebruikersgedefinieerde vergelijkingsfunctie",
+          "syntax": "usort(array &$array, callable $callback): bool",
+          "category": "Array"
+        },
+        {
+          "name": "file_get_contents",
+          "desc": "Lees een geheel bestand in een string",
+          "syntax": "file_get_contents(string $filename, ...): string|false",
+          "category": "Bestand"
+        },
+        {
+          "name": "file_put_contents",
+          "desc": "Schrijf gegevens naar een bestand",
+          "syntax": "file_put_contents(string $filename, mixed $data, int $flags = 0): int|false",
+          "category": "Bestand"
+        },
+        {
+          "name": "fopen",
+          "desc": "Open een bestand of URL",
+          "syntax": "fopen(string $filename, string $mode, ...): resource|false",
+          "category": "Bestand"
+        },
+        {
+          "name": "fclose",
+          "desc": "Sluit een open bestandspointer",
+          "syntax": "fclose(resource $stream): bool",
+          "category": "Bestand"
+        },
+        {
+          "name": "fread",
+          "desc": "Lees van een bestandspointer",
+          "syntax": "fread(resource $stream, int $length): string|false",
+          "category": "Bestand"
+        },
+        {
+          "name": "fwrite",
+          "desc": "Schrijf naar een bestandspointer",
+          "syntax": "fwrite(resource $stream, string $data, ?int $length = null): int|false",
+          "category": "Bestand"
+        },
+        {
+          "name": "file_exists",
+          "desc": "Controleer of een bestand of directory bestaat",
+          "syntax": "file_exists(string $filename): bool",
+          "category": "Bestand"
+        },
+        {
+          "name": "is_file",
+          "desc": "Controleer of het pad een gewoon bestand is",
+          "syntax": "is_file(string $filename): bool",
+          "category": "Bestand"
+        },
+        {
+          "name": "unlink",
+          "desc": "Verwijder een bestand",
+          "syntax": "unlink(string $filename, ?resource $context = null): bool",
+          "category": "Bestand"
+        },
+        {
+          "name": "mkdir",
+          "desc": "Maak een map aan",
+          "syntax": "mkdir(string $directory, int $permissions = 0777, bool $recursive = false): bool",
+          "category": "Bestand"
+        },
+        {
+          "name": "date",
+          "desc": "Formateer een lokale datum en tijd",
+          "syntax": "date(string $format, ?int $timestamp = null): string",
+          "category": "Datum/Tijd"
+        },
+        {
+          "name": "time",
+          "desc": "Haal de huidige Unix-timestamp op",
+          "syntax": "time(): int",
+          "category": "Datum/Tijd"
+        },
+        {
+          "name": "strtotime",
+          "desc": "Parse een tekstuele datum/tijd naar een Unix-timestamp",
+          "syntax": "strtotime(string $datetime, ?int $baseTimestamp = null): int|false",
+          "category": "Datum/Tijd"
+        },
+        {
+          "name": "mktime",
+          "desc": "Haal een Unix-timestamp op voor een datum",
+          "syntax": "mktime(int $hour, ?int $minute = null, ...): int|false",
+          "category": "Datum/Tijd"
+        },
+        {
+          "name": "date_create",
+          "desc": "Maak een DateTime-object aan",
+          "syntax": "date_create(string $datetime = \"nu\", ?DateTimeZone $timezone = null): DateTime|false",
+          "category": "Datum/Tijd"
+        },
+        {
+          "name": "json_encode",
+          "desc": "Converteer een waarde naar een JSON-tekst",
+          "syntax": "json_encode(mixed $value, int $flags = 0, int $depth = 512): string|false",
+          "category": "JSON"
+        },
+        {
+          "name": "json_decode",
+          "desc": "Decodeer een JSON-tekst naar een PHP-waarde",
+          "syntax": "json_decode(string $json, ?bool $associative = null, int $depth = 512): mixed",
+          "category": "JSON"
+        },
+        {
+          "name": "abs",
+          "desc": "Haal de absolute waarde op",
+          "syntax": "abs(int|float $num): int|float",
+          "category": "Wiskunde"
+        },
+        {
+          "name": "ceil",
+          "desc": "Rond breuken omhoog af",
+          "syntax": "ceil(int|float $num): float",
+          "category": "Wiskunde"
+        },
+        {
+          "name": "floor",
+          "desc": "Rond breuken omlaag af",
+          "syntax": "floor(int|float $num): float",
+          "category": "Wiskunde"
+        },
+        {
+          "name": "round",
+          "desc": "Rond een getal af",
+          "syntax": "round(int|float $num, int $precision = 0, int $mode = PHP_ROUND_HALF_UP): float",
+          "category": "Wiskunde"
+        },
+        {
+          "name": "max",
+          "desc": "Vind de grootste waarde",
+          "syntax": "max(mixed $value, mixed ...$values): mixed",
+          "category": "Wiskunde"
+        },
+        {
+          "name": "min",
+          "desc": "Vind de kleinste waarde",
+          "syntax": "min(mixed $value, mixed ...$values): mixed",
+          "category": "Wiskunde"
+        },
+        {
+          "name": "rand",
+          "desc": "Genereer een willekeurig geheel getal",
+          "syntax": "rand(int $min, int $max): int",
+          "category": "Wiskunde"
+        },
+        {
+          "name": "isset",
+          "desc": "Controleer of een variabele is ingesteld en niet null is",
+          "syntax": "isset(mixed $var, mixed ...$vars): bool",
+          "category": "Overige"
+        },
+        {
+          "name": "empty",
+          "desc": "Controleer of een variabele leeg is",
+          "syntax": "empty(mixed $var): bool",
+          "category": "Overige"
+        },
+        {
+          "name": "var_dump",
+          "desc": "Doe informatie over een variabele zien",
+          "syntax": "var_dump(mixed $value, mixed ...$values): void",
+          "category": "Overige"
+        },
+        {
+          "name": "print_r",
+          "desc": "Toon menselijke leesbare informatie over een variabele",
+          "syntax": "print_r(mixed $value, bool $return = false): string|bool",
+          "category": "Overige"
+        },
+        {
+          "name": "gettype",
+          "desc": "Haal het type van een variabele op",
+          "syntax": "gettype(mixed $value): string",
+          "category": "Overige"
+        },
+        {
+          "name": "is_array",
+          "desc": "Controleer of een variabele een array is",
+          "syntax": "is_array(mixed $value): bool",
+          "category": "Overige"
+        },
+        {
+          "name": "is_string",
+          "desc": "Controleer of een variabele een string is",
+          "syntax": "is_string(mixed $value): bool",
+          "category": "Overige"
+        },
+        {
+          "name": "is_numeric",
+          "desc": "Controleer of een variabele een nummer of numerieke string is",
+          "syntax": "is_numeric(mixed $value): bool",
+          "category": "Overige"
+        }
+      ]
+    },
+    "cssBorderRadius": {
+      "title": "CSS Border Radius Generator",
+      "description": "Pas border-radius waarden visueel aan en genereer CSS code",
+      "presetsLabel": "Presetten",
+      "preview": "Voorbeeld",
+      "settings": "Instellingen",
+      "linked": "Gekoppelde hoeken",
+      "unlinked": "Afzonderlijke hoeken",
+      "corners": {
+        "topLeft": "Boven links",
+        "topRight": "Boven rechts",
+        "bottomLeft": "Onder links",
+        "bottomRight": "Onder rechts"
+      },
+      "elementColor": "Element kleur",
+      "codeTitle": "CSS code",
+      "copy": "Kopiëren",
+      "copied": "Gekopieerd",
+      "presets": [
+        {
+          "name": "Geen",
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Klein",
+          "values": [
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "Middelgroot",
+          "values": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "Groot",
+          "values": [
+            16,
+            16,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "Cirkel",
+          "values": [
+            50,
+            50,
+            50,
+            50
+          ]
+        },
+        {
+          "name": "Pill",
+          "values": [
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "Linkerkant",
+          "values": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        {
+          "name": "Rechterkant",
+          "values": [
+            0,
+            16,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "Alleen boven",
+          "values": [
+            16,
+            16,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Alleen onder",
+          "values": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "Diagonaal",
+          "values": [
+            16,
+            0,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "Blad",
+          "values": [
+            0,
+            50,
+            0,
+            50
+          ]
+        }
+      ]
+    },
+    "cssNeumorphism": {
+      "title": "Neumorphism CSS Generator",
+      "description": "Genereer Neumorphism-stijl CSS code online",
+      "previewText": "Voorbeeld Knop",
+      "shapeTitle": "Vorm stijl",
+      "shapeOptions": [
+        {
+          "value": "flat",
+          "label": "Vlak"
+        },
+        {
+          "value": "concave",
+          "label": "Ingedrukt"
+        },
+        {
+          "value": "convex",
+          "label": "Uitgesproken"
+        },
+        {
+          "value": "pressed",
+          "label": "Ingedrukt"
+        }
+      ],
+      "colorTitle": "Kleur instellingen",
+      "presetColors": "Vooraf gedefinieerde kleuren",
+      "colorPresets": [
+        {
+          "color": "#e0e5ec",
+          "name": "Klassiek"
+        },
+        {
+          "color": "#f0f0f3",
+          "name": "Wit"
+        },
+        {
+          "color": "#d1d9e6",
+          "name": "Blauw"
+        },
+        {
+          "color": "#e8dfd5",
+          "name": "Beige"
+        },
+        {
+          "color": "#dfe6e9",
+          "name": "Grijs"
+        },
+        {
+          "color": "#ffeaa7",
+          "name": "Geel"
+        },
+        {
+          "color": "#dfe4ea",
+          "name": "Slate"
+        },
+        {
+          "color": "#f8e1e7",
+          "name": "Roze"
+        },
+        {
+          "color": "#d5f5e3",
+          "name": "Mint"
+        },
+        {
+          "color": "#e8daef",
+          "name": "Paars"
+        }
+      ],
+      "backgroundColor": "Basiskleur",
+      "lightColor": "Lichte kleur (highlight)",
+      "darkColor": "Donkere kleur (shadow)",
+      "sliderTitle": "Schaduw instellingen",
+      "size": "Grootte",
+      "radius": "Radius",
+      "distance": "Schaduw afstand",
+      "blur": "Schaduw vervaag",
+      "intensity": "Intensiteit",
+      "codeTitle": "CSS code",
+      "copy": "Kopiëren",
+      "copied": "Gekopieerd",
+      "infoTitle": "Wat is Neumorphism?",
+      "infoDescription": "Neumorfisme is een zachte UI-stijl die subtile highlights en shadows combineert om elementen erop te laten lijken alsof ze op de achtergrond zijn ingedrukt. Het werkt het beste met lage-contrast kleurenpaletten en schone, minimale lay-outs."
+    },
+    "cssTextShadow": {
+      "title": "CSS Text Shadow Generator",
+      "description": "Pas text-shadow waarden visueel aan en genereer CSS code",
+      "defaultText": "Text Shadow Voorbeeld",
+      "presetsLabel": "Voorinstellingen effecten",
+      "textSettings": "Tekst instellingen",
+      "previewText": "Voorbeeld tekst",
+      "fontSize": "Font grootte",
+      "textColor": "Tekst kleur",
+      "shadowPrefix": "Shadow {{index}}",
+      "offsetX": "X offset",
+      "offsetY": "Y offset",
+      "blur": "Blur",
+      "opacity": "Doorzichtigheid",
+      "color": "Kleur",
+      "addShadow": "Voeg shadow toe",
+      "codeTitle": "CSS code",
+      "copy": "Kopiëren",
+      "copied": "Kopieerd",
+      "presets": [
+        {
+          "name": "Zacht schaduw",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 2,
+              "y": 2,
+              "blur": 4,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Neon gloed",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#00ff00",
+              "opacity": 0.8
+            }
+          ]
+        },
+        {
+          "name": "Paarse gloed",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 5,
+              "color": "#ff00ff",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#ff00ff",
+              "opacity": 0.8
+            },
+            {
+              "id": 3,
+              "x": 0,
+              "y": 0,
+              "blur": 20,
+              "color": "#ff00ff",
+              "opacity": 0.6
+            }
+          ]
+        },
+        {
+          "name": "Laag 3D",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 1,
+              "y": 1,
+              "blur": 0,
+              "color": "#666666",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 2,
+              "y": 2,
+              "blur": 0,
+              "color": "#888888",
+              "opacity": 1
+            },
+            {
+              "id": 3,
+              "x": 3,
+              "y": 3,
+              "blur": 0,
+              "color": "#aaaaaa",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "name": "Embossed",
+          "shadows": [
+            {
+              "id": 1,
+              "x": -1,
+              "y": -1,
+              "blur": 1,
+              "color": "#ffffff",
+              "opacity": 0.8
+            },
+            {
+              "id": 2,
+              "x": 1,
+              "y": 1,
+              "blur": 1,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "websocketTest": {
+      "title": "Online WebSocket Test Tool",
+      "description": "Test WebSocket verbindingen en berichten online",
+      "defaultUrl": "wss://echo.websocket.org",
+      "connectingTo": "Verbinden met {{url}}...",
+      "connectSuccess": "Succesvol verbonden",
+      "connectError": "Verbindingsfout",
+      "connectionClosed": "Verbinding gesloten (Code: {{code}})",
+      "connectFailed": "Verbinding mislukt: {{message}}",
+      "disconnecting": "Afschakelen...",
+      "urlPlaceholder": "Voer een WebSocket URL in, bijvoorbeeld: wss://echo.websocket.org",
+      "disconnect": "Afschakelen",
+      "connecting": "Verbinden...",
+      "connect": "Verbinden",
+      "connected": "Verbonden",
+      "notConnected": "Niet verbonden",
+      "messageLog": "Bericht log",
+      "clear": "Wissen",
+      "noMessages": "Geen berichten nog",
+      "messagePlaceholder": "Voer een bericht in... (Enter om te verzenden, Shift+Enter voor nieuwe regel)",
+      "infoTitle": "WebSocket tips",
+      "infoItems": [
+        "De ingebouwde echo service is handig voor basis send/receive testen",
+        "Ondersteunt zowel ws:// als wss:// adressen",
+        "Druk op Enter om te verzenden, Shift+Enter om een nieuwe regel in te voegen",
+        "Zorg ervoor dat uw doel-service WebSocket verbindingen toestaat vanaf de browser"
+      ],
+      "examplesTitle": "Veelvoorkomende voorbeelden",
+      "publicEcho": "Publieke Echo Service",
+      "defaultTag": "Standaard"
+    },
+    "csrGenerator": {
+      "title": "CSR Generator & Viewer",
+      "description": "Genereer CSR bestanden online en parseer CSR inhoud",
+      "enterDomain": "Voer aub een domein in",
+      "generateFailed": "Het genereren van CSR is mislukt",
+      "parseFailed": "Het parseren van CSR is mislukt",
+      "serverConnectionFailed": "Het verbinden met de server is mislukt, probeer het later opnieuw",
+      "tabs": {
+        "generate": "Genereer CSR",
+        "view": "Bekijk CSR"
+      },
+      "formTitle": "Certificaat informatie",
+      "labels": {
+        "commonName": "Domein (Common Name)",
+        "organization": "Organisatie",
+        "organizationUnit": "Afdeling",
+        "city": "Stad",
+        "state": "Staat / Provincie",
+        "country": "Land / Regio",
+        "email": "E-mail",
+        "keySize": "Sleutel grootte"
+      },
+      "placeholders": {
+        "commonName": "Bijvoorbeeld: www.example.com of *.example.com",
+        "organization": "Bijvoorbeeld: Example Inc.",
+        "organizationUnit": "Bijvoorbeeld: IT Afdeling",
+        "city": "Bijvoorbeeld: Beijing",
+        "state": "Bijvoorbeeld: Beijing",
+        "email": "Bijvoorbeeld: admin@example.com",
+        "csr": "Plak de CSR inhoud hier, begint met -----BEGIN CERTIFICATE REQUEST-----"
+      },
+      "countries": [
+        {
+          "value": "CN",
+          "label": "CN - China"
+        },
+        {
+          "value": "US",
+          "label": "US - Verenigde Staten"
+        },
+        {
+          "value": "JP",
+          "label": "JP - Japan"
+        },
+        {
+          "value": "KR",
+          "label": "KR - Zuid-Korea"
+        },
+        {
+          "value": "GB",
+          "label": "GB - Verenigd Koninkrijk"
+        },
+        {
+          "value": "DE",
+          "label": "DE - Duitsland"
+        },
+        {
+          "value": "FR",
+          "label": "FR - Frankrijk"
+        },
+        {
+          "value": "SG",
+          "label": "SG - Singapore"
+        },
+        {
+          "value": "HK",
+          "label": "HK - Hongkong"
+        },
+        {
+          "value": "TW",
+          "label": "TW - Taiwan"
+        }
+      ],
+      "keySizes": [
+        {
+          "value": "2048",
+          "label": "2048 bit (aanbevolen)"
+        },
+        {
+          "value": "4096",
+          "label": "4096 bit (veiliger)"
+        }
+      ],
+      "generating": "Genereert...",
+      "generateAction": "Genereer CSR en privé sleutel",
+      "csrRequest": "CSR verzoek",
+      "privateKey": "Privé sleutel (houd het veilig)",
+      "copy": "Kopiëren",
+      "copied": "Gekopieerd",
+      "download": "Download",
+      "privateKeyWarning": "De privé sleutel is zeer gevoelig. Houd het veilig en deel het nooit openbaar. Als het wordt gelekt, kan uw certificaatveiligheid worden bedreigd.",
+      "inputCsr": "Plak CSR inhoud",
+      "parsing": "Parsing...",
+      "parseAction": "Parse CSR",
+      "csrInfo": "CSR informatie",
+      "infoItems": [
+        {
+          "label": "Domein (CN)",
+          "key": "commonName"
+        },
+        {
+          "label": "Organisatie (O)",
+          "key": "organization"
+        },
+        {
+          "label": "Afdeling (OU)",
+          "key": "organizationUnit"
+        },
+        {
+          "label": "Stad (L)",
+          "key": "city"
+        },
+        {
+          "label": "Staat / Provincie (ST)",
+          "key": "state"
+        },
+        {
+          "label": "Land (C)",
+          "key": "country"
+        },
+        {
+          "label": "E-mail",
+          "key": "email"
+        },
+        {
+          "label": "Sleutel algoritme",
+          "key": "keyAlgorithm"
+        },
+        {
+          "label": "Sleutel grootte",
+          "key": "keySize"
+        },
+        {
+          "label": "Handtekening algoritme",
+          "key": "signatureAlgorithm"
+        }
+      ],
+      "keySizeValue": "{{value}} bit",
+      "aboutTitle": "Wat is een CSR?",
+      "aboutDescription": "Een CSR (Certificate Signing Request) is een gecodeerd bestand dat wordt gestuurd naar een certificeringsinstantie (CA) bij het aanvragen van een SSL/TLS certificaat. Het bevat informatie over uw domein en organisatie, evenals de publieke sleutel die overeenkomt met uw privé sleutel. Na verificatie gebruikt de CA de CSR om het SSL certificaat uit te geven."
+    },
+    "metaGenerator": {
+      "title": "Meta Tag Generator",
+      "description": "Genereer SEO-vriendelijke webpagina meta tags",
+      "basicInfo": "Basis informatie",
+      "socialMedia": "Sociale media (Open Graph)",
+      "generatedCode": "Gegenereerde code",
+      "copy": "Kopiëren",
+      "copied": "Gekopieerd",
+      "searchPreview": "Zoekvoorbeeld",
+      "searchPreviewTitleFallback": "Paginatitel",
+      "searchPreviewDescriptionFallback": "Uw pagina beschrijving verschijnt hier...",
+      "socialPreview": "Sociale voorbeeld",
+      "socialPreviewTitleFallback": "Titel",
+      "socialPreviewDescriptionFallback": "Beschrijving",
+      "labels": {
+        "title": "Paginatitel",
+        "description": "Pagina beschrijving",
+        "keywords": "Sleutelwoorden",
+        "author": "Auteur",
+        "robots": "Robots richtlijn",
+        "ogTitle": "OG titel",
+        "ogDescription": "OG beschrijving",
+        "ogImage": "OG beeld URL",
+        "ogUrl": "Pagina URL",
+        "twitterCard": "Twitter kaarttype"
+      },
+      "placeholders": {
+        "title": "Voer een paginatitel in",
+        "description": "Voer een paginabeschrijving in, idealiter binnen 150 tekens",
+        "keywords": "sleutelwoord1, sleutelwoord2, sleutelwoord3",
+        "author": "Voer de auteur naam in",
+        "ogTitle": "Voer een sociale deling titel in",
+        "ogDescription": "Voer een sociale deling beschrijving in",
+        "ogImage": "https://voorbeeld.com/afbeelding.jpg",
+        "ogUrl": "https://voorbeeld.com/pagina"
+      },
+      "robotsOptions": [
+        {
+          "value": "index, follow",
+          "label": "Indexen en volgen toestaan"
+        },
+        {
+          "value": "index, nofollow",
+          "label": "Indexen toestaan, volgen verbieden"
+        },
+        {
+          "value": "noindex, follow",
+          "label": "Indexen verbieden, volgen toestaan"
+        },
+        {
+          "value": "noindex, nofollow",
+          "label": "Indexen en volgen verbieden"
+        }
+      ],
+      "twitterOptions": [
+        {
+          "value": "summary",
+          "label": "Samenvatting"
+        },
+        {
+          "value": "summary_large_image",
+          "label": "Grote afbeelding"
+        },
+        {
+          "value": "player",
+          "label": "Speler"
+        }
+      ]
+    },
+    "toolHistoryDemo": {
+      "confirmClear": "Weet u zeker dat u de volledige toolgeschiedenis en favorieten wilt wissen?",
+      "exportTitle": "Gegevens exporteren",
+      "usageCount": "Gebruikt {{count}} keer",
+      "lastUsed": "Laatst gebruikt: {{time}}",
+      "favorite": "Favoriet: {{value}}",
+      "yes": "Ja",
+      "no": "Nee",
+      "exportFailed": "Export mislukt",
+      "tabs": {
+        "overview": "Overzicht",
+        "history": "Geschiedenis",
+        "favorites": "Favorieten",
+        "analytics": "Analyse"
+      },
+      "loading": "Toolgeschiedenis gegevens laden...",
+      "loadFailed": "Laden mislukt: {{error}}",
+      "title": "Tool Geschiedenis Demo",
+      "description": "Toont toolgebruiksgeschiedenis, favorieten en analyse",
+      "export": "Export",
+      "clear": "Wissen",
+      "searchPlaceholder": "Zoek naar tools...",
+      "stats": {
+        "totalTools": "Totaal tools",
+        "totalUsage": "Totale gebruik",
+        "favoriteTools": "Favoriete tools",
+        "averageUsage": "Gemiddeld gebruik"
+      },
+      "favoriteToolsTitle": "Favoriete tools",
+      "favoriteToolsDescription": "Tools die u als favoriet hebt gemarkeerd",
+      "noFavoriteTools": "Nog geen favoriete tools",
+      "mostUsed": "Meest gebruikt tools",
+      "timesUsed": "Gebruikt {{count}} keer",
+      "recentActivity": "Recente activiteit",
+      "exportDialogTitle": "Exporteer toolgeschiedenis",
+      "exportDialogDescription": "Kies een exportformaat",
+      "formats": {
+        "json": {
+          "title": "JSON formaat",
+          "description": "Best voor back-up en ontwikkelaarsgebruik"
+        },
+        "csv": {
+          "title": "CSV formaat",
+          "description": "Goed voor spreadsheet programma's zoals Excel"
+        },
+        "txt": {
+          "title": "TXT formaat",
+          "description": "Platte tekst samenvatting"
+        }
+      },
+      "cancel": "Annuleren"
+    },
+    "userAgentParser": {
+      "title": "User-Agent Parser",
+      "description": "Parse User-Agent strings om browser, systeem en apparaatinformatie te identificeren",
+      "label": "User-Agent string",
+      "useCurrent": "Gebruik huidige browser",
+      "inputPlaceholder": "Voer een User-Agent string in...",
+      "parse": "Parse",
+      "unknownBrowser": "Onbekende browser",
+      "unknown": "Onbekend",
+      "deviceTypes": {
+        "mobile": "Mobiel",
+        "tablet": "Tablet",
+        "desktop": "Desktop"
+      },
+      "browserInfo": "Browser informatie",
+      "browser": "Browser",
+      "version": "Versie",
+      "majorVersion": "Hoofdversie",
+      "operatingSystem": "Besturingssysteem",
+      "system": "Systeem",
+      "deviceInfo": "Apparaatinformatie",
+      "type": "Type",
+      "vendor": "Fabrikant",
+      "model": "Model",
+      "engineAndCpu": "Engine & CPU",
+      "engine": "Engine",
+      "engineVersion": "Engine versie",
+      "cpuArchitecture": "CPU architectuur",
+      "examplesTitle": "Voorbeeld User-Agent strings"
+    },
+    "cssBoxShadow": {
+      "title": "DIV Box Shadow Generator",
+      "description": "Pas box-shadow waarden visueel aan en genereer CSS code",
+      "preview": "Voorbeeld",
+      "basicSettings": "Basisinstellingen",
+      "backgroundColor": "Achtergrondkleur",
+      "boxColor": "Box kleur",
+      "borderRadius": "Randradius",
+      "shadowPrefix": "Schaduw {{index}}",
+      "inset": "Inset",
+      "offsetX": "X verplaatsing",
+      "offsetY": "Y verplaatsing",
+      "blur": "Vervagen",
+      "spread": "Verspreiding",
+      "opacity": "Doorzichtigheid",
+      "color": "Kleur",
+      "addShadow": "Voeg schaduw toe",
+      "codeTitle": "CSS code",
+      "copy": "Kopiëren",
+      "copied": "Gekopieerd"
+    },
+    "cssGlassmorphism": {
+      "title": "CSS Glassmorphism Generator",
+      "description": "Genereer Glassmorphism-stijl CSS code online",
+      "cardTitle": "Glassmorphism Kaart",
+      "cardDescription": "Glassmorphism is een moderne UI-stijl die transparantie, vervaging en zachte randen gebruikt om een glasachtig effect te creëren.",
+      "adjustTitle": "Pas instellingen aan",
+      "blur": "Achtergrond vervagen",
+      "transparency": "Transparantie",
+      "saturation": "Verzadiging",
+      "borderRadius": "Randradius",
+      "borderOpacity": "Rand doorzichtigheid",
+      "codeTitle": "CSS code",
+      "copy": "Kopiëren",
+      "copied": "Gekopieerd",
+      "infoTitle": "Compatibiliteitsnotities",
+      "infoDescription": "De eigenschap backdrop-filter vereist moderne browserondersteuning. Firefox kan extra instellingen vereisen en Safari kan het -webkit- voorvoegsel nodig hebben. Overweeg gracieuze terugvalopties voor niet-ondersteunde browsers."
+    },
+    "desktopShortcut": {
+      "title": "Website Desktop Shortcut",
+      "description": "Maak website snelkoppelingen voor de bureaublad en start ze snel op",
+      "enterUrl": "Voer een geldige website URL in",
+      "enterName": "Voer een snelkoppelingnaam in",
+      "redirectingTo": "Open {{name}}...",
+      "urlLabel": "Website URL",
+      "urlPlaceholder": "voorbeeld.com of https://voorbeeld.com",
+      "nameLabel": "Snelkoppelingnaam",
+      "namePlaceholder": "Website snelkoppeling",
+      "downloadUrlFile": "Download .url bestand",
+      "downloadHtmlFile": "Download .html bestand",
+      "infoTitle": "Instructies",
+      "urlFileDesc": ".url bestanden zijn Windows Internet Shortcut bestanden en openen meestal direct de doelwebsite in uw standaardbrowser.",
+      "htmlFileDesc": ".html-bestanden werken op Windows, macOS en Linux en kunnen ook worden gebruikt als eenvoudige website-afkortingen.",
+      "afterDownload": "Na het downloaden, verplaats het bestand naar je bureaublad of prik het waar nodig."
+    },
+    "htmlPreview": {
+      "title": "HTML-voorbeeldweergave",
+      "description": "Schrijf en bekijk HTML online",
+      "defaultMessage": "Welkom bij het HTML-voorbeeldgereedschap",
+      "editorTitle": "HTML-code",
+      "clear": "Wissen",
+      "editorPlaceholder": "Voer HTML-code in hier...",
+      "previewTitle": "Voorbeeld",
+      "run": "Uitvoeren",
+      "fullscreen": "Volledig scherm",
+      "exitFullscreen": "Volledig scherm verlaten",
+      "usageTitle": "Hoe te gebruiken",
+      "usageItems": [
+        "Voer volledige HTML-code in de editor aan de linkerkant in",
+        "Klik op Uitvoeren om het resultaat te bekijken",
+        "Ingebedde CSS en JavaScript worden ondersteund",
+        "De code wordt uitgevoerd binnen een sandbox voor veiligheid"
+      ]
+    },
+    "pageRefresh": {
+      "title": "Automatische pagina vernieuwing",
+      "description": "Vernieuw een webpagina automatisch online",
+      "urlRequired": "Voer alstublieft een URL in",
+      "urlPlaceholder": "Voer een URL in, bijv. https://example.com",
+      "seconds": "sec",
+      "start": "Start",
+      "stop": "Stop",
+      "quickSet": "Snelinstellingen:",
+      "secondsValue": "{{count}}s",
+      "minutesValue": "{{count}} min",
+      "running": "Lopend",
+      "refreshIn": "Vernieuwt over {{count}} seconden",
+      "refreshedCount": "Vernieuwd {{count}} keer",
+      "lastRefresh": "Laatste vernieuwing: {{time}}",
+      "previewTitle": "Pagina-voorbeeld",
+      "previewPlaceholder": "Voer een URL in om te beginnen met het voorbeeld",
+      "usageTitle": "Hoe te gebruiken",
+      "usageItems": [
+        "Voer de webpagina-URL en stel het vernieuwingsinterval in",
+        "Klik op Start om automatisch te vernieuwen",
+        "Sommige websites kunnen niet worden weergegeven in een iframe vanwege beveiligingsbeleid",
+        "Handig voor het bewaken van pagina-veranderingen of het actief houden van sessies"
+      ]
+    },
+    "pxToRem": {
+      "title": "PX naar REM Converter",
+      "description": "Batch-converter PX-eenheden in CSS-code naar REM-eenheden",
+      "baseFontSize": "Hoofdlettergrootte",
+      "precision": "Decimale precisie",
+      "precisionOptions": {
+        "2": "2 cijfers",
+        "3": "3 cijfers",
+        "4": "4 cijfers",
+        "5": "5 cijfers"
+      },
+      "inputLabel": "Invoer CSS-code",
+      "convertToRem": "PX naar REM",
+      "convertToPx": "REM naar PX",
+      "outputLabel": "Resultaat",
+      "copy": "Kopiëren",
+      "copied": "Gekopieerd",
+      "outputPlaceholder": "Het conversieresultaat verschijnt hier...",
+      "quickReferenceTitle": "Snelreferentie (basis: {{baseSize}}px)",
+      "whyUseRem": "Waarom REM gebruiken?",
+      "infoItems": [
+        "REM is relatief ten opzichte van de hoofdlettergrootte (html)",
+        "Het gebruik van REM maakt het gemakkelijker om typografie over een site te schalen",
+        "Het helpt bij responsieve ontwerp en toegankelijkheid"
+      ],
+      "formula": "Formule: rem = px / {{baseSize}}"
+    },
+    "shieldBadge": {
+      "title": "Schild Badge Generator",
+      "description": "Genereer SVG schild badges online",
+      "downloadFailed": "Download mislukt, probeer later opnieuw",
+      "basicSettings": "Basisinstellingen",
+      "labelField": "Label",
+      "messageField": "Bericht",
+      "color": "Kleur",
+      "style": "Stijl",
+      "logoSettings": "Logo-instellingen",
+      "logo": "Logo",
+      "none": "Geen",
+      "logoColor": "Logo-kleur",
+      "preview": "Voorbeeld",
+      "downloadSvg": "Download SVG",
+      "codeTitle": "Code",
+      "copiedToClipboard": "Gekopieerd naar klembord"
+    },
+    "robotsGenerator": {
+      "title": "robots.txt Generator",
+      "description": "Genereer robots.txt-bestanden online",
+      "templatesLabel": "Snel sjablonen:",
+      "templates": {
+        "allowAll": "Alles toestaan",
+        "blockAll": "Alles blokkeren",
+        "standard": "Standaard configuratie"
+      },
+      "ruleTitle": "Regel {{index}}",
+      "userAgents": {
+        "all": "* (alle crawlers)",
+        "baidu": "Baiduspider (Baidu)",
+        "sogou": "Sogou"
+      },
+      "disallow": "Verwijder paden",
+      "allow": "Toegestane paden",
+      "add": "Toevoegen",
+      "addRule": "Regel toevoegen",
+      "otherSettings": "Andere instellingen",
+      "sitemapUrl": "Sitemap URL",
+      "crawlDelay": "Crawl-vertraging (seconden)",
+      "preview": "robots.txt Voorbeeld",
+      "copy": "Kopiëren",
+      "copied": "Gekopieerd",
+      "saveTip": "Sla dit bestand op als robots.txt en plaats het in de hoofdmap van je website"
+    },
+    "emailEncrypt": {
+      "title": "E-mailadres Encoder",
+      "description": "Coderen van e-mailadressen om scrapen door bots te verminderen",
+      "inputLabel": "E-mailadres",
+      "copy": "Kopiëren",
+      "copied": "Gekopieerd",
+      "infoTitle": "Waarom e-mailadres coderen?",
+      "infoItems": [
+        "Verlaag het risico dat bots je e-mailadres scrapen voor spam",
+        "Het gecodeerde e-mailadres kan nog steeds worden weergegeven in de browser terwijl het moeilijker is voor bots om te detecteren",
+        "Meerdere coderingsmethoden kunnen worden gecombineerd voor sterker bescherming",
+        "Het wordt nog steeds aangeraden om serverzijde anti-spammaatregelen te gebruiken"
+      ],
+      "results": {
+        "unicodeDecimal": {
+          "name": "Unicode decimaal",
+          "description": "Converteer tekens naar decimale Unicode entiteiten"
+        },
+        "unicodeHex": {
+          "name": "Unicode hexadecimaal",
+          "description": "Converteer tekens naar hexadecimale Unicode entiteiten"
+        },
+        "javascript": {
+          "name": "JavaScript output",
+          "description": "Tonen van het e-mailadres dynamisch met JavaScript"
+        },
+        "mailto": {
+          "name": "Mailto link",
+          "description": "Genereer een gecodeerde mailto-link"
+        },
+        "cssReverse": {
+          "name": "CSS omgekeerde weergave",
+          "description": "Weergave van de tekst in omgekeerde volgorde met CSS"
+        }
+      }
+    },
+    "workerDemo": {
+      "title": "Web Worker Prestatiedemo",
+      "description": "Vergelijk berekeningsprestaties tussen Web Workers en de hoofdthread",
+      "invalidInteger": "Voer alstublieft een geldig positief geheel getal in",
+      "workerError": "Worker berekening fout:",
+      "notice": "Opmerking",
+      "settingsTitle": "Berekeningsinstellingen",
+      "inputLabel": "Invoerwaarde",
+      "inputPlaceholder": "Voer een positief geheel getal in",
+      "operationLabel": "Operatie",
+      "operations": {
+        "factorial": "Factoriaal (n!)",
+        "fibonacci": "Fibonacci-reeks",
+        "prime": "Priemcontrole",
+        "factorization": "Priemfactorisatie"
+      },
+      "workerCalculate": "Bereken met Web Worker",
+      "mainThreadCalculate": "Bereken op hoofdthread",
+      "comparisonTitle": "Prestatievergelijking",
+      "workerResult": "Web Worker resultaat",
+      "mainThreadResult": "Hoofdthread resultaat",
+      "resultLabel": "Resultaat:",
+      "timeLabel": "Berekeningstijd:",
+      "calculating": "Berekenen...",
+      "emptyState": "Klik op een knop boven om te beginnen met berekenen",
+      "infoTitle": "Waarom Web Workers gebruiken?",
+      "workerFeaturesTitle": "Web Worker functies",
+      "workerFeatures": [
+        "Werkt in een achtergrondthread zonder de hoofdthread te blokkeren",
+        "Ideaal voor zware berekeningsopdrachten",
+        "Houdt de UI responsief",
+        "Ondersteunt parallelle verwerking"
+      ],
+      "useCasesTitle": "Gebruikscases",
+      "useCases": [
+        "Grote gegevensverwerking",
+        "Complexe algoritmen",
+        "Beeldverwerking",
+        "Versleuteling en ontsleuteling"
+      ]
+    },
+    "jsDebug": {
+      "title": "JS Debugger",
+      "description": "Voer en debug JavaScript online",
+      "defaultCode": "// Hier JavaScript-code schrijven\nconsole.log(\"Hallo, Wereld!\");\n\n// Voorbeeld: array bewerkingen\nconst numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(n => n * 2);\nconsole.log(\"Oorspronkelijke array:\", numbers);\nconsole.log(\"Verdubbeld:\", doubled);\n\n// Voorbeeld: object\nconst user = {\n  name: \"Zhang San\",\n  age: 25,\n  city: \"Beijing\"\n};\nconsole.log(\"Gebruikersinformatie:\", user);\n\n// Voorbeeld: asynchrone bewerking\nsetTimeout(() => {\n  console.log(\"Uitgevoerd na 1 seconde\");\n}, 1000);",
+      "editorTitle": "JavaScript Code",
+      "copy": "Kopiëren",
+      "copied": "Gekopieerd!",
+      "clear": "Leegmaken",
+      "placeholder": "Voer JavaScript code hier in...",
+      "run": "Code uitvoeren",
+      "consoleTitle": "Console output",
+      "consolePlaceholder": "Console output verschijnt hier...",
+      "usageTitle": "Hoe te gebruiken",
+      "usageItems": [
+        "Gebruik console.log(), console.error() en console.warn() om berichten te tonen",
+        "Ondersteunt ES6+ syntaxis zoals pijlfuncties, destructuring en sjablonenreeksen",
+        "Ondersteunt asynchrone bewerkingen zoals setTimeout en Promise",
+        "De code wordt uitgevoerd in een sandbox en kan geen toegang krijgen tot het DOM of externe resources"
+      ]
+    },
+    "formValidationDemo": {
+      "title": "Formulier Validatie Demo",
+      "description": "Toont volledige formuliervalidatie, inclusief live validatie, foutmeldingen en gegevensopschoning",
+      "validation": {
+        "username": "Gebruikersnaam mag alleen letters, cijfers en onderstreep bevatten en moet 3-20 tekens lang zijn",
+        "phone": "Voer een geldig mobiel nummer in",
+        "age": "Leeftijd moet tussen 1 en 120 zijn",
+        "idCard": "Voer een geldig ID-nummer in",
+        "address": "Adres mag niet langer zijn dan 200 tekens",
+        "bio": "Bio mag niet langer zijn dan 500 tekens"
+      },
+      "submitSuccess": "Formuliervalidatie geslaagd! Ingezonden gegevens:",
+      "quickTestTitle": "Snel validatietests",
+      "quickLabels": {
+        "email": "E-mailvalidatie",
+        "phone": "Telefoonnummervalidatie",
+        "url": "URL-validatie"
+      },
+      "quickPlaceholders": {
+        "email": "Voer een e-mailadres in",
+        "phone": "Voer een telefoonnummer in",
+        "url": "Voer een URL in"
+      },
+      "valid": "Geldig",
+      "invalid": "Ongeldig",
+      "formTitle": "Volledige formuliervalidatie",
+      "placeholders": {
+        "username": "Gebruikersnaam (letters, cijfers, onderstreep)",
+        "email": "E-mailadres",
+        "phone": "Mobiel nummer",
+        "website": "Persoonlijke website (optioneel)",
+        "age": "Leeftijd",
+        "idCard": "ID-nummer",
+        "address": "Gedetailleerde adres (optioneel)",
+        "bio": "Bio (optioneel, maximaal 500 tekens)"
+      },
+      "success": {
+        "username": "Gebruikersnaam formaat is geldig",
+        "email": "E-mail formaat is geldig",
+        "phone": "Telefoonnummer formaat is geldig",
+        "website": "URL formaat is geldig",
+        "age": "Leeftijd is geldig",
+        "idCard": "ID-formaat is geldig",
+        "address": "Adres is geldig",
+        "bio": "Bio is geldig"
+      },
+      "submit": "Formulier indienen",
+      "summaryTitle": "Validatiesamenvatting",
+      "fieldLabels": {
+        "username": "Gebruikersnaam",
+        "email": "E-mail",
+        "phone": "Telefoon",
+        "website": "Website",
+        "age": "Leeftijd",
+        "idCard": "ID Kaart",
+        "address": "Adres",
+        "bio": "Bio"
+      },
+      "summaryStatus": {
+        "failed": "Validatie mislukt",
+        "passed": "Validatie geslaagd",
+        "empty": "Niet ingevuld"
+      },
+      "infoTitle": "Formulier validatie functies",
+      "infoItems": [
+        {
+          "title": "Live validatie",
+          "description": "Controleert het formaat terwijl je typt en valideert opnieuw bij het verlaten van het veld"
+        },
+        {
+          "title": "Meerdere regeltypen",
+          "description": "Ondersteunt verplichte velden, lengtecontroles, reguliere expressies en aangepaste validatie"
+        },
+        {
+          "title": "Visuele feedback",
+          "description": "Toont de validatiestatus duidelijk met kleuren, iconen en berichten"
+        },
+        {
+          "title": "Gegevensopschoning",
+          "description": "Maakt automatisch de ingediende gegevens schoon en normaliseert ze"
+        },
+        {
+          "title": "Helpende foutmeldingen",
+          "description": "Biedt gebruikersvriendelijke richtlijnen voor het corrigeren van invoer"
+        },
+        {
+          "title": "Toegankelijkheidssupport",
+          "description": "Houdt formuliervorming gebruikersvriendelijk voor alle gebruikers"
+        }
+      ]
+    },
+    "faviconGenerator": {
+      "title": "Favicon Generator",
+      "description": "Converteer afbeeldingen naar website favicon iconen",
+      "historyTitle": "Favicon Generator",
+      "historyCategory": "Afbeelding Tools",
+      "uploadImageFile": "Upload een afbeeldingsbestand",
+      "generateFailed": "Het genereren van het pictogram is mislukt, probeer het opnieuw",
+      "uploadTitle": "Upload afbeelding",
+      "uploadAria": "Upload een afbeeldingsbestand",
+      "dropzoneAria": "Klik om een afbeelding te uploaden, ondersteunt PNG, JPG, SVG en meer",
+      "dropRelease": "Laat los om afbeelding te uploaden",
+      "dropClick": "Klik of sleep een afbeelding hierheen",
+      "supportFormats": "Ondersteunt PNG, JPG, SVG en meer",
+      "clearImage": "Afbeelding wissen",
+      "clearImageTitle": "Afbeelding wissen (Ctrl+L)",
+      "settingsTitle": "Instellingen",
+      "removeBackground": "Verwijder afbeeldingsachtergrondkleur",
+      "removeColor": "Kleur om te verwijderen",
+      "removeColorPicker": "Kies de achtergrondkleur om te verwijderen",
+      "removeColorValue": "Achtergrondkleurwaarde om te verwijderen",
+      "tolerance": "Tolerantie: {{value}}",
+      "toleranceAria": "Kleurtolerantie",
+      "toleranceTip": "Een hogere tolerantie verwijderd een bredere kleurreeks",
+      "transparentBackground": "Transparante achtergrond",
+      "transparentTip": "Opmerking: Als de oorspronkelijke afbeelding al een achtergrondkleur heeft, zet ?Verwijder afbeeldingsachtergrondkleur? aan.",
+      "backgroundColor": "Achtergrondkleur",
+      "backgroundColorPicker": "Kies een achtergrondkleur",
+      "backgroundColorValue": "Achtergrondkleurwaarde",
+      "selectSize": "Selecteer groottes",
+      "selectedState": " (geselecteerd)",
+      "sizeAria": "{{size}}x{{size}} pixel grootte{{state}}",
+      "toggleSizeTitle": "Schakel {{size}}x{{size}} grootte (Alt+{{shortcut}})",
+      "previewTitle": "Voorbeeld",
+      "generating": "Aan het genereren...",
+      "downloadSizeAria": "Download {{size}}x{{size}} pictogram",
+      "download": "Download",
+      "uploadFirst": "Upload eerst een afbeelding",
+      "downloadTitle": "Download",
+      "downloadAllPng": "Alle groottes downloaden (PNG)",
+      "downloadAllPngTitle": "Alle PNG-groottes downloaden (Ctrl+Enter)",
+      "downloadIco": "Download favicon.ico",
+      "downloadIcoTitle": "Download favicon.ico (Alt+I)",
+      "usageTitle": "Hoe te gebruiken",
+      "usageItems": [
+        "Achtergrondkleur verwijderen: verwijderd solide achtergronden zoals grijs of wit",
+        "Tolerantie: verhoog de tolerantie om vergelijkbare kleuren te verwijderen, handig voor gradient achtergronden",
+        "16x16: browser tab-pictogram",
+        "32x32: taakbalk snelkoppeling pictogram",
+        "48x48: Windows website snelkoppeling",
+        "Plaats het gegenereerde pictogram in de hoofdmap van uw website"
+      ]
+    }
+  },
+  "components": {
+    "toolHistory": {
+      "usageCount": "Gebruikt {{count}} keer",
+      "recentUsed": "Laatst gebruikt: {{value}}",
+      "removeFavorite": "Verwijder uit favorieten",
+      "addFavorite": "Voeg toe aan favorieten",
+      "removeRecord": "Verwijder record",
+      "emptyHistory": "Nog geen toolgeschiedenis",
+      "confirmClear": "Weet u zeker dat u de hele toolgeschiedenis wilt wissen?",
+      "tabs": {
+        "recent": "Recent",
+        "favorites": "Favorieten",
+        "mostUsed": "Meest gebruikt"
+      },
+      "title": "Tool Geschiedenis",
+      "clearHistory": "Geschiedenis leegmaken",
+      "searchPlaceholder": "Zoek in de geschiedenis...",
+      "emptyMessages": {
+        "recent": "Geen recente gebruiksgeschiedenis",
+        "favorites": "Nog geen favoriete tools",
+        "mostUsed": "Nog geen meest gebruikte tools"
+      }
+    },
+    "exportFormatSelector": {
+      "buttonText": "Resultaten exporteren",
+      "exporting": "Bezig met exporteren...",
+      "exportFailed": "Export mislukt, probeer het opnieuw"
+    },
+    "ads": {
+      "loading": "Advertenties laden...",
+      "carouselTitle": "Advertentie carousel",
+      "checkConsole": "Controleer de browser console voor gedetailleerde logboeken"
+    },
+    "networkStatus": {
+      "online": "Online",
+      "offline": "Offline",
+      "connected": "Netwerk verbonden",
+      "disconnected": "Netwerk losgekoppeld",
+      "connectedDescription": "Alle functies zijn beschikbaar",
+      "disconnectedDescription": "Sommige functies kunnen niet beschikbaar zijn. Controleer uw netwerkverbinding.",
+      "requestFailed": "Aanvraag mislukt"
+    },
+    "keyboardShortcutsHelp": {
+      "title": "Toetsenbordverkortingen",
+      "close": "Sluiten",
+      "toggleDescription": "Toon of verberg toetsenbordverkortingen",
+      "helpTextBefore": "Druk op",
+      "helpTextMiddle": "of",
+      "helpTextAfter": "om deze hulp te tonen of te verbergen",
+      "tipTitle": "Tips",
+      "tipItems": [
+        "Verkortingslabels kunnen er iets anders uitzien op verschillende besturingssystemen",
+        "Sommige verkortingen kunnen conflicten opleveren met browserverkortingen",
+        "Gebruik de Tab-toets om tussen focusbare elementen te bewegen",
+        "Druk op Enter om knoppen en links te activeren"
+      ],
+      "closeEsc": "Sluiten (ESC)"
+    },
+    "performanceDashboard": {
+      "title": "Prestatiedashboard",
+      "startMonitoring": "Start monitoring",
+      "stopMonitoring": "Stop monitoring",
+      "exportReport": "Rapport exporteren",
+      "notMeasured": "Niet gemeten",
+      "metrics": {
+        "fcp": "First Contentful Paint",
+        "lcp": "Largest Contentful Paint",
+        "fid": "First Input Delay",
+        "cls": "Cumulative Layout Shift",
+        "ttfb": "Time to First Byte"
+      },
+      "memoryTitle": "Geheugengebruik",
+      "memory": {
+        "used": "Gebruikt geheugen",
+        "total": "Totaal geheugen",
+        "usageRate": "Gebruikscijfer"
+      },
+      "tipsTitle": "Optimalisatie tips",
+      "tips": [
+        "Gebruik de app normaal tijdens het monitoren; de data wordt in real-time bijgewerkt",
+        "FCP < 1,8s, LCP < 2,5s, FID < 100ms en CLS < 0,1 worden als uitstekend beschouwd",
+        "Als het geheugengebruik meer dan 80% overschrijdt, overweeg dan code te optimaliseren",
+        "U kunt een gedetailleerd rapport exporteren voor dieper analyse"
+      ],
+      "emptyState": "Klik op ?Start monitoring? om prestatieanalyse te starten"
+    }
+  }
+}

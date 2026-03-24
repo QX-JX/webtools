@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/app.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>全能站长工具 - 专业的在线站长工具箱</title>
+    <meta name="description" content="全能站长工具提供CSR生成、WHOIS查询、DNS解析、SSL检测、HTTP状态码检测等专业站长工具" />
+    
+    <!-- PWA 配置 -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#3b82f6" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="全能站长工具" />
+    
+    <!-- 图标 -->
+    <link rel="apple-touch-icon" href="/app.ico" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Service Worker 注册 -->
+    <script type="module">
+      // 仅在生产环境且启用 Service Worker 时注册
+      const ENABLE_SERVICE_WORKER = import.meta.env.VITE_ENABLE_SERVICE_WORKER === 'true';
+      
+      if ('serviceWorker' in navigator && ENABLE_SERVICE_WORKER && window.location.hostname !== 'localhost') {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then((registration) => {
+              console.log('ServiceWorker 注册成功:', registration.scope);
+              
+              // 检查更新
+              registration.addEventListener('updatefound', () => {
+                const newWorker = registration.installing;
+                if (newWorker) {
+                  newWorker.addEventListener('statechange', () => {
+                    if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                      // 新版本可用，通知用户刷新
+                      console.log('新版本可用，请刷新页面');
+                    }
+                  });
+                }
+              });
+            })
+            .catch((error) => {
+              console.log('ServiceWorker 注册失败:', error);
+            });
+        });
+      } else if ('serviceWorker' in navigator && window.location.hostname === 'localhost') {
+        // 开发环境：注销已有的 Service Worker
+        navigator.serviceWorker.getRegistrations().then((registrations) => {
+          for (const registration of registrations) {
+            registration.unregister();
+            console.log('开发环境：已注销 ServiceWorker');
+          }
+        });
+      }
+      
+      // 网络状态检测
+      window.addEventListener('online', () => {
+        console.log('网络已连接');
+      });
+      
+      window.addEventListener('offline', () => {
+        console.log('网络已断开');
+      });
+    </script>
+  </body>
+</html>

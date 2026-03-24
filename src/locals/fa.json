@@ -1,0 +1,2730 @@
+{
+  "common": {
+    "home": "خانه",
+    "websiteDetection": "بررسی سایت‌ها",
+    "seoTools": "ابزارهای بهینه‌سازی موتورهای جستجو (SEO)",
+    "devTools": "ابزارهای توسعه‌دهنده",
+    "encodingConversion": "ابزارهای تبدیل کدگذاری",
+    "otherTools": "ابزارهای دیگر",
+    "feedback": "بازخورد",
+    "customization": "راهکارهای سفارشی / تماس با ما",
+    "back": "بازگشت",
+    "appName": "ابزارهای تمام در یک برای مدیر سایت",
+    "brandName": "محصول کونقیونگ",
+    "loading": "در حال بارگذاری...",
+    "processing": "پردازش",
+    "processingDescription": "لطفاً صبر کنید تا داده‌های شما پردازش شوند...",
+    "inProgress": "در حال انجام",
+    "search": "جستجو ابزارها...",
+    "my": "من",
+    "menu": "منو",
+    "settings": "تنظیمات",
+    "all": "همه",
+    "category": "دسته",
+    "noToolsFound": "ابزاری پیدا نشد",
+    "recommended": "پیشنهادی",
+    "usageCount": "استفاده {{count}} بار",
+    "toolsCount": "{{count}} ابزار",
+    "export": "صادر کردن",
+    "usageInstructions": "دستورالعمل استفاده"
+  },
+  "auth": {
+    "login": "ورود",
+    "logout": "خروج",
+    "userInfo": "اطلاعات کاربر",
+    "nickname": "نام مستعار",
+    "avatar": "آواتار",
+    "user": "کاربر",
+    "loggedIn": "وارد شده",
+    "loggingOut": "در حال خروج...",
+    "loggingIn": "در حال ورود...",
+    "loginInstructions": "لطفاً ورود را در مرورگر خود انجام دهید",
+    "cancelLogin": "لغو ورود",
+    "loginFailed": "ورود ناموفق بود",
+    "retry": "تلاش مجدد",
+    "close": "بستن",
+    "loginDescription": "روی دکمه زیر کلیک کنید تا صفحه ورود را در مرورگر شما باز کنید. پس از اتمام ورود، اپلیکیشن به طور خودکار وضعیت ورود شما را همگام خواهد کرد.",
+    "loginTip": "نکته: مطمئن شوید که مرورگر شما در حین فرآیند ورود باز می‌ماند.",
+    "openBrowserLogin": "باز کردن ورود در مرورگر",
+    "cancel": "لغو",
+    "loginReminder": "یادآور ورود",
+    "loginRequiredTitle": "ورود لازم است",
+    "loginRequiredDescription": "شما باید وارد شوید قبل از استفاده از این ویژگی. پس از ورود، می‌توانید تجربه کامل خدمات را داشته باشید.",
+    "loginActionDescription": "روی دکمه زیر کلیک کنید تا صفحه ورود را باز کنید، سپس آن را در آنجا انجام دهید.",
+    "loginNow": "ورود الآن",
+    "loginBenefit": "ورود برای استفاده از تمام ویژگی‌ها",
+    "errors": {
+      "getLoginUrlFailed": "دریافت URL ورود ناموفق بود: {{message}}",
+      "getLoginUrlException": "خطا در دریافت URL ورود: {{error}}",
+      "loginCancelled": "ورود لغو شد",
+      "pollingAbnormal": "پاسخ غیرمعمولی از پُلینگ دریافت شد: {{message}}",
+      "pollingFailed": "پُلینگ ناموفق بود: {{error}}",
+      "loginTimeout": "زمان ورود به پایان رسید",
+      "checkLoginStatusFailed": "چک کردن وضعیت ورود ناموفق بود، کد وضعیت: {{status}}",
+      "checkLoginException": "خطا در چک کردن وضعیت ورود",
+      "getUserInfoFailed": "دریافت اطلاعات کاربر ناموفق بود: {{message}}",
+      "getUserInfoException": "خطا در دریافت اطلاعات کاربر: {{error}}",
+      "logoutFailed": "خروج ناموفق بود: {{message}}",
+      "logoutException": "خطا در خروج: {{error}}",
+      "getFeedbackUrlFailed": "دریافت URL بازخورد ناموفق بود: {{message}}",
+      "getFeedbackUrlException": "خطا در دریافت URL بازخورد: {{error}}"
+    }
+  },
+  "favorite": {
+    "add": "افزودن به علاقه‌مندی‌ها",
+    "remove": "حذف از علاقه‌مندی‌ها",
+    "label": "علاقه‌مندی",
+    "failed": "عملیات ناموفق بود"
+  },
+  "errors": {
+    "fetchCustomUrlFailed": "دریافت URL صفحه سفارشی ناموفق بود:",
+    "fetchFeedbackUrlFailed": "دریافت URL صفحه بازخورد ناموفق بود:",
+    "copyFailed": "کپی ناموفق بود",
+    "networkError": "خطای اتصال شبکه",
+    "somethingWentWrong": "چیزی اشتباه بود",
+    "unexpectedError": "متاسفانه خطای غیرمنتظره‌ای رخ داد",
+    "noData": "داده‌ای موجود نیست",
+    "noRelatedData": "داده‌ای مرتبط پیدا نشد",
+    "noAds": "هیچ اعلانی موجود نیست",
+    "fetchAdsError": "دریافت اعلان‌ها ناموفق بود",
+    "lookupFailed": "جستجو ناموفق بود"
+  },
+  "tools": {
+    "csr": {
+      "title": "تولیدکننده و نمایشگر CSR",
+      "description": "فایل‌های CSR را به صورت آنلاین تولید و نمایش دهید"
+    },
+    "whois": {
+      "title": "جستجوی WHOIS دامنه",
+      "description": "اطلاعات WHOIS و جزئیات ثبت دامنه را به صورت آنلاین بررسی کنید"
+    },
+    "dns": {
+      "title": "جستجوی رکوردهای DNS",
+      "description": "رکوردهای DNS را به صورت آنلاین (A, MX, CNAME و غیره) جستجو کنید"
+    },
+    "dnsEnhanced": {
+      "title": "جستجوی رکوردهای DNS (بهبود یافته)",
+      "description": "جستجوی DNS با بهینه‌سازی اسکرول مجازی برای مجموعه‌های بزرگ رکوردها"
+    },
+    "httpStatus": {
+      "title": "چک کردن کدهای حالت HTTP",
+      "description": "ابزار آنلاین رایگان برای بررسی کدهای حالت HTTP برای صفحات وب"
+    },
+    "gzip": {
+      "title": "چک کردن فشرده‌سازی Gzip",
+      "description": "بررسی کنید که یک صفحه وب فشرده شده با Gzip است یا نه و نسبت فشرده‌سازی آن را مشاهده کنید"
+    },
+    "ssl": {
+      "title": "چک کردن گواهی SSL",
+      "description": "اطلاعات و اعتبار گواهی SSL را به صورت آنلاین بررسی کنید"
+    },
+    "browserInfo": {
+      "title": "اطلاعات مرورگر",
+      "description": "ابزار رایگان برای مشاهده اطلاعات جزئیات مرورگر فعلی شما"
+    },
+    "useragent": {
+      "title": "تحلیلگر User-Agent",
+      "description": "اطلاعات مرورگر و دستگاه را از رشته‌های User-Agent تحلیل کنید"
+    },
+    "websocket": {
+      "title": "تست کننده WebSocket",
+      "description": "ابزار آنلاین رایگان برای تست API WebSocket"
+    },
+    "viewSource": {
+      "title": "نمایش منبع صفحه",
+      "description": "کد منبع صفحه وب را به صورت آنلاین نمایش دهید"
+    },
+    "metaGenerator": {
+      "title": "تولیدکننده تگ‌های Meta",
+      "description": "تگ‌های Meta صفحه وب را به صورت آنلاین تولید کنید"
+    },
+    "metaCheck": {
+      "title": "بررسی تگ‌های META",
+      "description": "اطلاعات تگ‌های META روی یک صفحه وب را بررسی کنید"
+    },
+    "robots": {
+      "title": "تولیدکننده robots.txt",
+      "description": "فایل‌های robots.txt را به صورت آنلاین تولید کنید"
+    },
+    "emailEncrypt": {
+      "title": "کدکننده آدرس ایمیل",
+      "description": "آدرس‌های ایمیل را به فرمت‌های کدشده تبدیل کنید تا از اسکریپت‌های آنها جلوگیری شود"
+    },
+    "phpReference": {
+      "title": "مرجع توابع PHP",
+      "description": "لیست مرجع توابع PHP به صورت آنلاین"
+    },
+    "htmlPreview": {
+      "title": "پیش‌نمایش HTML",
+      "description": "ابزار ویرایش و پیش‌نمایش HTML به صورت آنلاین"
+    },
+    "jsDebug": {
+      "title": "دیباگر JS",
+      "description": "اجرای و دیباگ کردن JavaScript به صورت آنلاین"
+    },
+    "shieldBadge": {
+      "title": "تولیدکننده نمادهای Shield",
+      "description": "نمادهای Shield SVG را به صورت آنلاین تولید کنید"
+    },
+    "favicon": {
+      "title": "تولیدکننده Favicon",
+      "description": "ابزار تبدیل Favicon امن به صورت آنلاین"
+    },
+    "cssGlassmorphism": {
+      "title": "تولیدکننده CSS Glassmorphism",
+      "description": "کد Glassmorphism CSS را در یک کلیک تولید کنید"
+    },
+    "cssNeumorphism": {
+      "title": "تولیدکننده CSS Neumorphism",
+      "description": "مثال‌های سبک CSS Neumorphism را در یک کلیک تولید کنید"
+    },
+    "pxToRem": {
+      "title": "تبدیل PX به REM",
+      "description": "واحد PX در CSS را به REM تبدیل کنید"
+    },
+    "cssBorderRadius": {
+      "title": "تولیدکننده Border Radius CSS",
+      "description": "سایر گزینه‌های گرد کردن لبه‌ها را به صورت آنلاین تنظیم کنید"
+    },
+    "cssTextShadow": {
+      "title": "تولیدکننده Text Shadow CSS",
+      "description": "کد text-shadow CSS را به صورت آنلاین پیش‌نمایش و تولید کنید"
+    },
+    "cssBoxShadow": {
+      "title": "تولیدکننده Box Shadow",
+      "description": "سایر گزینه‌های سایه‌های دیو را به صورت آنلاین تنظیم کنید و کد CSS تولید کنید"
+    },
+    "base64": {
+      "title": "کدکننده و دکدکننده Base64",
+      "description": "ابزار کدکننده و دکدکننده Base64 به صورت آنلاین"
+    },
+    "urlEncode": {
+      "title": "کدکننده و دکدکننده URL",
+      "description": "ابزار کدکننده و دکدکننده URL به صورت آنلاین"
+    },
+    "htmlEntity": {
+      "title": "کدکننده و دکدکننده موجودیت‌های HTML",
+      "description": "ابزار کدکننده و دکدکننده موجودیت‌های HTML به صورت آنلاین"
+    },
+    "jsMinify": {
+      "title": "کم‌حجم کردن و زیبایی‌بخشی JS",
+      "description": "ابزار کم‌حجم کردن و زیبایی‌بخشی JavaScript به صورت آنلاین"
+    },
+    "cssMinify": {
+      "title": "کم‌حجم کردن و زیبایی‌بخشی CSS",
+      "description": "ابزار کم‌حجم کردن و زیبایی‌بخشی CSS به صورت آنلاین"
+    },
+    "desktopShortcut": {
+      "title": "سرویس دسکتاپ برای سایت",
+      "description": "یک دکمه سریع برای یک سایت ایجاد کنید"
+    },
+    "pageRefresh": {
+      "title": "تازه‌سازی خودکار صفحه",
+      "description": "صفحه وب را به صورت دوره‌ای تازه کنید"
+    },
+    "httpCodes": {
+      "title": "کدهای حالت HTTP",
+      "description": "مرجع آنلاین کدهای حالت / پاسخ HTTP"
+    },
+    "workerDemo": {
+      "title": "نمونه‌ای از عملکرد Web Worker",
+      "description": "ببینید Web Workers چگونه عملکرد را برای وظایف سنگین بهبود می‌بخشند"
+    },
+    "formValidation": {
+      "title": "نمونه اعتبارسنجی فرم",
+      "description": "نمایش کامل اعتبارسنجی فرم با بازخورد زنگ زنی"
+    }
+  },
+  "categories": {
+    "detection": "چک‌های سایت",
+    "seo": "ابزارهای بهینه‌سازی موتور جستجو",
+    "dev": "ابزارهای توسعه‌دهنده",
+    "encode": "ابزارهای کدگذاری",
+    "other": "ابزارهای دیگر"
+  },
+  "kunqiongNav": {
+    "home": "خانه",
+    "aiTools": "ابزارهای هوش مصنوعی",
+    "office": "د vănی",
+    "multimedia": "چند رسانه‌ای",
+    "development": "ابزارهای توسعه",
+    "text": "متن",
+    "file": "فایلها",
+    "system": "سیستم",
+    "life": "زندگی",
+    "news": "اخبار هوش مصنوعی",
+    "custom": "نرم‌افزار سفارشی",
+    "consult": "مشاوره",
+    "industryNews": "اخبار صنعتی",
+    "feedback": "بازخورد",
+    "imageGen": "ایجاد تصویر",
+    "codeDev": "کد و توسعه",
+    "logoAlt": "صندوق ابزارهای هوش مصنوعی کونقیونگ",
+    "footerLogoAlt": "هوش مصنوعی کونقیونگ",
+    "loginRegister": "ورود / ثبت نام",
+    "navExpandAria": "باز کردن",
+    "navSearchAria": "جستجو",
+    "navMenuAria": "منو"
+  },
+  "footer": {
+    "description": "صندوق ابزارهای حرفه‌ای تمام در یک، شامل چک‌های سایت، ابزارهای بهینه‌سازی موتور جستجو، ابزارهای توسعه‌دهنده و بیشتر.",
+    "kunqiongBrandDesc": "ما به ارائه ابزارهای هوش مصنوعی با کیفیت بالا و خدمات مشاوره‌ای به افراد و شرکت‌ها علاقه‌مند هستیم تا به شما کمک کنیم در دوران هوش مصنوعی رقابتی باقی بمانید.",
+    "toolCategories": "دسته‌بندی ابزارها",
+    "quickLinks": "پیوندهای سریع",
+    "contactTitle": "با ما تماس بگیرید",
+    "contactCompany": "شرکت فناوری هکساقونگ استار، چین",
+    "contactPhone": "17770307066",
+    "contactRegion": "شانگراو، چنگ لی، چین",
+    "contactEmail": "11247931@qq.com",
+    "copyrightLine": "© 2026 ابزارهای هوش مصنوعی کونقیونگ. تمامی حقوق محفوظ است.",
+    "userAgreement": "شرایط استفاده",
+    "privacyPolicy": "سیاست حریم خصوصی",
+    "brandAI": "یک محصول هوش مصنوعی کونقیونگ",
+    "brandAlt": "کونقیونگ"
+  },
+  "validation": {
+    "required": "{{field}} الزامی است",
+    "minLength": "{{field}} باید حداقل {{count}} کاراکتر باشد",
+    "maxLength": "{{field}} نباید بیشتر از {{count}} کاراکتر باشد",
+    "invalidFormat": "{{field}} فرمت نامعتبری دارد",
+    "email": "لطفاً یک آدرس ایمیل معتبر وارد کنید",
+    "url": "لطفاً یک URL معتبر وارد کنید",
+    "domain": "لطفاً یک دامنه معتبر وارد کنید",
+    "ip": "لطفاً یک آدرس IP معتبر وارد کنید",
+    "phone": "لطفاً یک شماره تلفن معتبر وارد کنید",
+    "password": "رمز عبور باید شامل حروف بزرگ و کوچک و اعداد باشد و طول آن 6-20 کاراکتر باشد"
+  },
+  "exporter": {
+    "unsupportedFormat": "فرمت خروجی پشتیبانی نشده: {{format}}",
+    "csvRequiresArrayOrObject": "خروجی CSV نیاز به یک آرایه یا شی دارد",
+    "toolUsageInfo": "اطلاعات استفاده از ابزار",
+    "tool": "ابزار",
+    "time": "زمان",
+    "url": "URL",
+    "version": "نسخه",
+    "dnsReportTitle": "گزارش جستجوی DNS",
+    "dnsReportDescription": "اطلاعات دقیق رکوردهای DNS",
+    "summaryTitle": "خلاصه",
+    "domain": "دامنه",
+    "recordCount": "تعداد کل رکوردها",
+    "recordCountValue": "{{count}} رکورد",
+    "queryTime": "زمان جستجو",
+    "typeDescriptions": {
+      "A": "رکورد آدرس IPv4",
+      "AAAA": "رکورد آدرس IPv6",
+      "MX": "رکورد سرور ایمیل",
+      "TXT": "رکورد متنی",
+      "CNAME": "رکورد نام مستعار",
+      "NS": "رکورد سرور نام",
+      "SOA": "رکورد مرجع"
+    },
+    "record": "رکورد",
+    "otherRecords": "رکوردهای دیگر",
+    "recordIndex": "رکورد {{index}}",
+    "priority": "اولویت",
+    "class": "کلاس",
+    "exportData": "داده‌های خروجی",
+    "dnsToolName": "ابزار جستجوی DNS",
+    "exportInfo": "اطلاعات خروجی",
+    "exportTime": "زمان خروجی",
+    "formats": {
+      "json": "فرمت داده‌های ساختاری، برای پردازش برنامه‌ها مناسب است",
+      "csv": "فرمت جداول، مناسب برای وارد کردن به اکسل",
+      "txt": "فرمت متن ساده، ساده برای خواندن",
+      "xml": "فرمت نشانه‌گذاری، مناسب برای تعامل داده",
+      "pdf": "فرمت سند، مناسب برای چاپ و اشتراک گذاری"
+    }
+  },
+  "base64": {
+    "title": "کدگذاری/دکدگذاری Base64",
+    "description": "ابزار کدگذاری و دکدگذاری Base64 آنلاین",
+    "encode": "کدگذاری",
+    "decode": "دکدگذاری",
+    "originalText": "متن اصلی",
+    "base64String": "رشته Base64",
+    "base64Result": "نتیجه Base64",
+    "decodeResult": "نتیجه دکدگذاری",
+    "placeholderEncode": "متنی را وارد کنید که بخواهید کدگذاری کنید...",
+    "placeholderDecode": "رشته Base64 را وارد کنید که بخواهید دکدگذاری کنید...",
+    "resultPlaceholder": "نتیجه در اینجا نمایش داده خواهد شد...",
+    "inputPlaceholder": "محتوایی را وارد کنید که بخواهید تبدیل کنید",
+    "decodeError": "دکدگذاری ناموفق بود. لطفاً مطمئن شوید که ورودی شما Base64 معتبر است.",
+    "encodeError": "کدگذاری ناموفق بود",
+    "charCount": "{{count}} کاراکتر",
+    "clear": "حذف ورودی",
+    "copy": "کپی نتیجه",
+    "copied": "کپی شد",
+    "convert": "تبدیل الان",
+    "swap": "حالت جابجایی",
+    "ariaLabel": "ابزار کدگذاری/دکدگذاری Base64",
+    "modeSelection": "انتخاب حالت تبدیل",
+    "encodeMode": "حالت کدگذاری",
+    "decodeMode": "حالت دکدگذاری",
+    "inputLabelEncode": "متن برای کدگذاری",
+    "inputLabelDecode": "رشته Base64 برای دکدگذاری",
+    "outputLabelEncode": "نتیجه کدگذاری Base64",
+    "outputLabelDecode": "نتیجه دکدگذاری Base64",
+    "whatIsBase64": "Base64 چیست؟",
+    "base64Info": "Base64 یک روش کدگذاری است که داده‌های باینری را با 64 کاراکتر قابل چاپ نشان می‌دهد. این روش معمولاً برای انتقال داده‌های باینری کوچک در URLها، کوکی‌ها، صفحات وب یا پروتکل‌های مبتنی بر متن استفاده می‌شود."
+  },
+  "dns": {
+    "title": "جستجوی رکوردهای DNS",
+    "description": "جستجوی رکوردهای DNS آنلاین (A, MX, CNAME و غیره)",
+    "placeholder": "یک دامنه را وارد کنید، مثلاً example.com",
+    "invalidDomain": "لطفاً فرمت دامنه معتبری وارد کنید (مثلاً example.com)",
+    "domainInput": "ورودی دامنه",
+    "validFormat": "فرمت دامنه معتبر است",
+    "typeSelect": "نوع رکورد DNS",
+    "searchBtn": "جستجوی رکوردهای DNS",
+    "loadingTitle": "در حال جستجوی رکوردهای DNS",
+    "loadingDesc": "لطفاً منتظر بمانید تا ما رکوردهای DNS دامنه شما را جستجو کنیم...",
+    "resultRegion": "نتیجه جستجوی DNS",
+    "recordCount": "{{count}} رکورد",
+    "typeRecordRegion": "{{type}} رکوردها",
+    "querying": "در حال جستجوی رکوردهای DNS",
+    "queryingDesc": "لطفاً منتظر بمانید تا ما رکوردهای DNS دامنه شما را جستجو کنیم...",
+    "foundRecords": "{{count}} رکورد پیدا شد",
+    "queryTime": "زمان جستجو: {{time}}",
+    "export": "خروجی نتایج",
+    "noRecords": "رکوردی DNS پیدا نشد",
+    "noRecordsDesc": "هیچ رکورد DNS برای این دامنه پیدا نشد",
+    "typeInfo": "نوع‌های رکورد DNS",
+    "priority": "اولویت: {{priority}}",
+    "types": {
+      "ALL": "همه",
+      "A": "رکورد A",
+      "AAAA": "رکورد AAAA",
+      "MX": "رکورد MX",
+      "TXT": "رکورد TXT",
+      "CNAME": "رکورد CNAME",
+      "NS": "رکورد NS",
+      "SOA": "رکورد SOA"
+    },
+    "typeDescs": {
+      "A": "آدرس IPv4",
+      "AAAA": "آدرس IPv6",
+      "MX": "سرور ایمیل",
+      "TXT": "رکورد متنی",
+      "CNAME": "رکورد نام مستعار",
+      "NS": "سرور نام",
+      "SOA": "رکورد شروع اختیار"
+    },
+    "typeDetails": {
+      "A": "یک دومین را به یک آدرس IPv4 نشان می‌دهد",
+      "AAAA": "یک دومین را به یک آدرس IPv6 نشان می‌دهد",
+      "MX": "آدرس سرور ایمیل را مشخص می‌کند، اعداد پایین‌تر نشانه‌ی اولویت بالاتر است",
+      "TXT": "اطلاعات متنی را ذخیره می‌کند، معمولاً برای تأیید SPF و DKIM استفاده می‌شود",
+      "CNAME": "یک دومین را به دومین دیگری نشان می‌دهد (نام مستعار)",
+      "NS": "سرورهای DNS را برای دومین مشخص می‌کند"
+    }
+  },
+  "whois": {
+    "title": "جستجوی WHOIS",
+    "description": "اطلاعات ثبت و WHOIS را به صورت آنلاین جستجو کنید",
+    "placeholder": "یک دومین را وارد کنید، مثلاً example.com",
+    "invalidDomain": "لطفاً فرمت دومین معتبری وارد کنید (مثلاً example.com)",
+    "querying": "در حال جستجوی اطلاعات WHOIS",
+    "queryingDesc": "لطفاً منتظر بمانید تا ما اطلاعات ثبت را دریافت کنیم...",
+    "domainInfo": "اطلاعات دومین",
+    "registrar": "ثبت‌کننده",
+    "creationDate": "تاریخ ایجاد",
+    "expirationDate": "تاریخ انقضا",
+    "updatedDate": "تاریخ به‌روزرسانی",
+    "dnssec": "DNSSEC",
+    "dnssecDisabled": "غیرفعال",
+    "expired": "از {{days}} روز پیش منقضی شده",
+    "expiringSoon": "در {{days}} روز دیگر منقضی می‌شود",
+    "remaining": "{{days}} روز باقی مانده",
+    "dnsServer": "سرورهای نام",
+    "domainStatus": "وضعیت دومین",
+    "registrantInfo": "اطلاعات ثبت‌کننده",
+    "name": "نام",
+    "organization": "سازمان",
+    "country": "کشور",
+    "email": "ایمیل",
+    "noInfo": "هیچ اطلاعات مرتبطی پیدا نشد",
+    "domain": "دومین",
+    "rawData": "داده‌های خام",
+    "toggleRawData": "باز کردن یا بستن داده‌های خام",
+    "copyRawData": "کپی داده‌های خام",
+    "copy": "کپی",
+    "copied": "کپی شد",
+    "whatIsWhois": "WHOIS چیست؟",
+    "about": "WHOIS یک پروتکل است که برای جستجوی اطلاعات ثبت دومین استفاده می‌شود. از طریق یک جستجوی WHOIS، می‌توانید اطلاعات ثبت‌کننده، تاریخ ثبت، تاریخ انقضا، سرورهای DNS، اطلاعات ثبت‌کننده و غیره را بیابید. این کار برای معاملات دومین، محافظت از برند و تحقیقات امنیتی مفید است."
+  },
+  "httpStatus": {
+    "title": "چک کردن کد حالت HTTP",
+    "description": "کدهای حالت HTTP و اطلاعات پاسخ را به صورت آنلاین چک کنید",
+    "placeholder": "یک URL وارد کنید، مثلاً https://example.com",
+    "check": "چک کن",
+    "followRedirects": "بازگشت به سرور را به طور خودکار انجام بده",
+    "urlEmpty": "لطفاً یک URL وارد کنید",
+    "checkFailed": "چک ناموفق بود",
+    "serverError": "اتصال به سرور ناموفق بود، لطفاً بعداً دوباره تلاش کنید",
+    "unknownStatus": "حالت ناشناخته",
+    "responseTime": "زمان پاسخ",
+    "headers": "سربروها",
+    "redirectUrl": "URL بازگشت",
+    "contentType": "نوع محتوا",
+    "contentLength": "طول محتوا",
+    "server": "سرور",
+    "showHeaders": "نمایش سربروی پاسخ",
+    "hideHeaders": "پنهان کردن سربروی پاسخ",
+    "status": {
+      "100": "ادامه",
+      "101": "تغییر پروتکل",
+      "200": "باشه",
+      "201": "ایجاد شده",
+      "204": "بدون محتوا",
+      "301": "بازگشت دائمی",
+      "302": "بازگشت موقتی",
+      "304": "تغییر نکرده",
+      "307": "بازگشت موقتی",
+      "308": "بازگشت دائمی",
+      "400": "درخواست نادرست",
+      "401": "عدم اجازه",
+      "403": "ممنوع",
+      "404": "پیدا نشد",
+      "405": "روش مجاز نیست",
+      "408": "زمان پاسخ به پایان رسید",
+      "429": "درخواست بیش از حد",
+      "500": "خطای سرور داخلی",
+      "502": "گیت‌وی نامناسب",
+      "503": "خدمت در دسترس نیست",
+      "504": "زمان پاسخ گیت‌وی به پایان رسید"
+    }
+  },
+  "browserInfo": {
+    "title": "اطلاعات مرورگر",
+    "description": "اطلاعات جزئیات مرورگر فعلی را نمایش دهید",
+    "os": "سیستم عامل",
+    "browser": "مرورگر",
+    "version": "نسخه",
+    "engine": "موتور",
+    "device": "دستگاه",
+    "screen": "دقت نمایشگر",
+    "viewport": "اندازه نمایش",
+    "language": "زبان",
+    "timezone": "زمان منطقه‌ای",
+    "cookieEnabled": "کوکی‌ها فعال هستند",
+    "online": "آنلاین",
+    "cpu": "معماری CPU",
+    "userAgent": "کاربر-عامل",
+    "platform": "پلتفرم",
+    "vendor": "تولیدکننده مرورگر",
+    "languages": "زبان‌های پشتیبانی شده",
+    "cookie": "کوکی",
+    "onlineStatus": "وضعیت آنلاین",
+    "doNotTrack": "Track نکن",
+    "touchPoints": "نقاط لمس",
+    "enabled": "فعال",
+    "disabled": "غیرفعال",
+    "offline": "آفلاین",
+    "hardwareInfo": "اطلاعات سخت‌افزاری",
+    "cpuCores": "هسته‌های CPU",
+    "cpuCoresValue": "{{count}} هسته",
+    "deviceMemory": "حافظه دستگاه",
+    "screenInfo": "اطلاعات نمایشگر",
+    "availArea": "منطقه قابل استفاده",
+    "windowSize": "اندازه پنجره",
+    "pixelRatio": "نسبت پیکسل",
+    "colorDepth": "عمق رنگ",
+    "screenOrientation": "جهت نمایشگر",
+    "unknown": "نامعلوم",
+    "basicInfo": "اطلاعات پایه",
+    "networkInfo": "اطلاعات شبکه",
+    "networkType": "نوع شبکه",
+    "downlink": "دریافت",
+    "rtt": "زمان پاسخ",
+    "saveData": "سبک داده",
+    "batteryInfo": "اطلاعات باتری",
+    "batteryLevel": "سطح باتری",
+    "chargingStatus": "وضعیت شارژ",
+    "charging": "شارژ شدن",
+    "notCharging": "در حال شارژ نیست",
+    "timezoneInfo": "اطلاعات زمان منطقه‌ای",
+    "utcOffset": "اختلاف UTC"
+  },
+  "viewSource": {
+    "title": "نمایش کد منبع صفحه",
+    "description": "کد منبع صفحه وب را به صورت آنلاین نمایش دهید",
+    "placeholder": "یک URL وارد کنید، مثلاً https://example.com",
+    "fetch": "دریافت منبع",
+    "urlEmpty": "لطفاً یک URL وارد کنید",
+    "fetchFailed": "دریافت منبع ناموفق بود",
+    "serverError": "اتصال به سرور ناموفق بود",
+    "lineCount": "سطر: {{count}}",
+    "copy": "کپی منبع",
+    "clear": "پاک کردن",
+    "usage1": "URL کامل صفحه وب را وارد کنید و روی گزینه Fetch کلیک کنید",
+    "usage2": "این ابزار امکان نمایش کد HTML هر صفحه وب عمومی را فراهم می‌کند",
+    "usage3": "شما می‌توانید کد منبع را برای تحلیل کپی یا دانلود کنید",
+    "usage4": "برخی وب‌سایت‌ها ممکن است باعث محدود کردن دریافت منبع شوند، به دلیل س polítیک‌های امنیتی"
+  },
+  "urlEncode": {
+    "title": "کدگذاری/decode کردن URL",
+    "description": "ابزار کدگذاری و decode کردن URL آنلاین",
+    "encode": "کدگذاری",
+    "decode": "decode",
+    "placeholder": "محتوایی را وارد کنید که بخواهید تبدیل کنید...",
+    "result": "نتیجه",
+    "error": "خطا در رمزنگاری/رمزگشایی"
+  },
+  "htmlEntity": {
+    "title": "رماهای HTML رمزگذار/رمزگشای",
+    "description": "ابزار رمزنگاری و رمزگشایی متن HTML آنلاین",
+    "encode": "رمزنگاری",
+    "decode": "رمزگشایی",
+    "placeholder": "محتوای خود را وارد کنید...",
+    "result": "نتیجه"
+  },
+  "jsMinify": {
+    "title": "فشرده سازی و زیباسازی جاوا اسکریپت",
+    "description": "ابزار فشرده سازی و زیباسازی کد جاوا اسکریپت آنلاین",
+    "minify": "فشرده سازی",
+    "beautify": "زیباسازی",
+    "placeholder": "کد جاوا اسکریپت خود را جایگذاری کنید...",
+    "result": "نتیجه پردازش",
+    "error": "خطا در پردازش کد"
+  },
+  "cssMinify": {
+    "title": "فشرده سازی و زیباسازی CSS",
+    "description": "ابزار فشرده سازی و زیباسازی کد CSS آنلاین",
+    "minify": "فشرده سازی",
+    "beautify": "زیباسازی",
+    "placeholder": "کد CSS خود را جایگذاری کنید...",
+    "result": "نتیجه پردازش",
+    "error": "خطا در پردازش کد"
+  },
+  "pages": {
+    "sslCheck": {
+      "title": "چک کردن گواهی SSL",
+      "description": "بررسی جزئیات و اعتبار گواهی SSL برای یک دامنه",
+      "enterDomain": "لطفا یک دامنه وارد کنید",
+      "checkFailed": "چک شدید",
+      "serverConnectionFailed": "اتصال به سرور ناموفق بود، لطفا بعدا دوباره تلاش کنید",
+      "inputPlaceholder": "یک دامنه را وارد کنید، مثلاً: example.com",
+      "check": "چک کردن",
+      "statusExpired": "منقضی شده",
+      "statusExpiringSoon": "به زودی منقضی خواهد شد",
+      "statusValid": "معتبر",
+      "statusProblem": "مشکل در گواهی",
+      "expiredDays": "منقضی شده {{count}} روز پیش",
+      "remainingDays": "{{count}} روز باقی مانده",
+      "warning": "هشدار: {{message}}",
+      "protocol": "پروتکل",
+      "validityPeriod": "دوره اعتبار",
+      "validFrom": "اعتبار از",
+      "validTo": "اعتبار تا",
+      "certificateInfo": "اطلاعات گواهی",
+      "subject": "موضوع",
+      "issuer": "صادرکننده",
+      "commonName": "نام مشترک (CN)",
+      "organization": "سازمان (O)",
+      "organizationUnit": "واحد سازمانی (OU)",
+      "country": "کشور (C)",
+      "subjectAltNames": "نام های جایگزین موضوع (SAN) - {{count}} مورد",
+      "technicalDetails": "جزئیات فنی",
+      "serialNumber": "شماره سریال",
+      "fingerprintSha1": "فingeprint (SHA-1)",
+      "fingerprintSha256": "فingeprint (SHA-256)",
+      "cipherSuite": "جفت الگوریتم رمزنگاری",
+      "infoTitle": "نکات گواهی SSL",
+      "infoItems": [
+        "گواهی های SSL هویت سرور را تأیید کرده و ارتباط را رمزنگاری می کنند",
+        "تاریخ های منقضی شدن را به طور منظم چک کنید تا از قطعیت جلوگیری کنید",
+        "گواهی هایی که به زودی منقضی می شوند باید زودتر تمدید شوند",
+        "نام های جایگزین موضوع (SAN) لیست دامنه هایی را که گواهی آنها را پوشش می دهد نشان می دهد"
+      ]
+    },
+    "gzipCheck": {
+      "title": "چک کردن فشرده سازی Gzip وب سایت",
+      "description": "بررسی اینکه یک وب سایت از فشرده سازی Gzip / Deflate / Brotli پشتیبانی می کند یا خیر",
+      "enterUrl": "لطفا یک URL وارد کنید",
+      "checkFailed": "چک شدید",
+      "serverConnectionFailed": "اتصال به سرور ناموفق بود، لطفا بعدا دوباره تلاش کنید",
+      "inputPlaceholder": "URL را وارد کنید، مثلاً: https://example.com",
+      "check": "چک کردن",
+      "enabled": "فعال",
+      "disabled": "غیرفعال",
+      "compressionType": "نوع فشرده سازی: {{type}}",
+      "enableSuggestion": "فشرده سازی Gzip را فعال کنید تا اندازه انتقال را کاهش داده و سرعت بارگذاری را بهبود بخشید",
+      "supportTitle": "پشتیبانی فشرده سازی",
+      "gzipDescription": "استاندارد محبوب فشرده سازی",
+      "deflateDescription": "الگوریتم فشرده سازی قدیمی HTTP",
+      "brotliDescription": "روش جدید فشرده سازی با نسبت بهتر",
+      "effectTitle": "اثر فشرده سازی",
+      "originalSize": "اندازه اصلی",
+      "compressedSize": "اندازه فشرده شده",
+      "ratio": "نسبت فشرده سازی",
+      "savedTransfer": "صرفه جویی {{value}} در حجم انتقال",
+      "detailsTitle": "جزئیات",
+      "whyTitle": "چرا فشرده سازی Gzip را فعال کنیم؟",
+      "whyItems": [
+        "این می تواند اندازه منابع متنی را تا 60% تا 80% کاهش دهد",
+        "انتقال های کوچکتر سرعت بارگذاری را بهبود می بخشد",
+        "این کاهش مصرف باند را انجام می دهد",
+        " عملکرد بهتر می تواند به بهبود SEO و تجربه کاربر کمک کند"
+      ]
+    },
+    "dnsLookupEnhanced": {
+      "title": "جستجوی رکوردهای DNS بهبود یافته",
+      "description": "درخواست چند نوع رکورد DNS آنلاین با بهینه سازی برای مجموعه های نتیجه بزرگ",
+      "enterDomain": "لطفا یک دامنه وارد کنید",
+      "lookupFailed": "جستجو ناموفق بود",
+      "serverConnectionFailed": "اتصال به سرور ناموفق بود، لطفا بعدا دوباره تلاش کنید",
+      "inputPlaceholder": "دامنه را وارد کنید، مثلاً: example.com",
+      "lookup": "جستجو",
+      "priority": "اولویت: {{value}}",
+      "dnsTypes": [
+        {
+          "value": "همه",
+          "label": "همه"
+        },
+        {
+          "value": "الف",
+          "label": "رکورد A",
+          "desc": "آدرس IPv4"
+        },
+        {
+          "value": "AAAA",
+          "label": "رکورد AAAA",
+          "desc": "آدرس IPv6"
+        },
+        {
+          "value": "MX",
+          "label": "رکورد MX",
+          "desc": "سرور ایمیل"
+        },
+        {
+          "value": "TXT",
+          "label": "رکورد TXT",
+          "desc": "داده های متنی"
+        },
+        {
+          "value": "CNAME",
+          "label": "رکورد CNAME",
+          "desc": "رکورد نام مستعار"
+        },
+        {
+          "value": "NS",
+          "label": "رکورد NS",
+          "desc": "سرور نام"
+        },
+        {
+          "value": "SOA",
+          "label": "رکورد SOA",
+          "desc": "شروع امور"
+        }
+      ],
+      "foundRecords": "{{count}} رکورد پیدا شد",
+      "queryTime": "زمان درخواست: {{time}}",
+      "virtualScrollEnabled": "اسکرول مجازی فعال است",
+      "recordCount": "{{count}} رکورد",
+      "virtualScrollTag": "نمایش بهینه شده",
+      "noRecords": "رکورد DNS پیدا نشد",
+      "performanceTitle": "بهینه سازی عملکرد",
+      "performanceItems": [
+        "نمایش بهینه شده با {{count}} رکورد به DNS Lookup پاسخگو می ماند",
+        "فقط ردیف های قابل مشاهده نمایش داده می شوند تا مصرف حافظه کاهش یابد",
+        "این کمک می کند تا تأخیر DOM در مجموعه های نتیجه بزرگ جلوگیری شود",
+        "تجربه به طور پیوسته پاسخگو می ماند حتی با تعداد زیادی رکورد"
+      ]
+    },
+    "metaCheck": {
+      "title": "چک کردن تگ META",
+      "description": "بررسی تگ های META استفاده شده روی یک صفحه وب",
+      "enterUrl": "لطفا یک URL وب سایت وارد کنید",
+      "checkFailed": "چک شدید",
+      "urlLabel": "URL وب سایت",
+      "inputPlaceholder": "example.com یا https://example.com",
+      "check": "چک کردن",
+      "resultTitle": "نتیجه چک کردن",
+      "totalCount": "تگ های META {{count}} پیدا شد",
+      "groups": {
+        "pageTitle": "عنوان صفحه",
+        "httpEquiv": "HTTP-Equiv",
+        "charset": "Charset",
+        "basicMeta": "تگ های META پایه"
+      },
+      "emptyContent": "خالی",
+      "infoTitle": "درباره",
+      "infoItems": [
+        "این ابزار عنوان تگ ها، تگ های meta name، تگ های meta property (مثل Open Graph)، و تگ های meta http-equiv را چک می کند",
+        "این به سرعت بررسی متدای SEO صفحه کمک می کند",
+        "همچنین به شناسایی مشکلات تگ های گم شده یا تکراری کمک می کند"
+      ]
+    },
+    "urlEncode": {
+      "title": "رمزنگاری/رمزگشایی URL",
+      "description": "رمزنگاری یا رمزگشایی رشته های URL آنلاین",
+      "toolName": "رمزنگاری/رمزگشایی URL",
+      "toolCategory": "ابزارهای رمزنگاری",
+      "convertFailed": "تبدیل ناموفق بود، لطفا ورودی خود را بررسی کنید",
+      "copyFailed": "نکات نتیجه کپی نشد",
+      "modeSelector": "حالت را انتخاب کنید",
+      "typeSelector": "نوع کدگذاری",
+      "encode": "کدگذاری",
+      "decode": "کدگذاری برگشت",
+      "componentTitle": "جزء URL",
+      "componentDescription": "فقط بخشی از یک URL را کدگذاری کنید",
+      "fullTitle": "URL کامل",
+      "fullDescription": "URL کامل را کدگذاری کنید",
+      "inputEncodeLabel": "متن ساده",
+      "inputDecodeLabel": "URL کدشده",
+      "clearInput": "پاک کردن ورودی",
+      "encodePlaceholder": "متنی را وارد کنید تا به عنوان URL کدگذاری شود...",
+      "decodePlaceholder": "URL کدشده را وارد کنید تا کدگذاری آن برگشت داده شود...",
+      "outputEncodeLabel": "نتیجه کدگذاری",
+      "outputDecodeLabel": "نتیجه کدگذاری برگشت",
+      "copyResult": "کپی نتیجه",
+      "resultPlaceholder": "نتیجه تبدیل در اینجا نمایش داده خواهد شد...",
+      "copied": "کپی شده به حافظه نمایشی",
+      "swap": "تعویض",
+      "swapInputOutput": "تعویض ورودی و خروجی",
+      "infoTitle": "حالت‌های کدگذاری",
+      "componentModeTitle": "حالت جزء",
+      "componentModeDescription": "بهترین گزینه برای بخش‌های جداگانه URL مانند پارامترهای سوال یا قطعات مسیر.",
+      "componentExample": "مثال: hello world → hello%20world",
+      "fullModeTitle": "حالت URL کامل",
+      "fullModeDescription": "در صورتی که می‌خواهید یک URL کامل را بدون تغییر ساختار کلی آن کدگذاری کنید، از این حالت استفاده کنید.",
+      "fullExample": "مثال: https://example.com/路径 → https://example.com/%E8%B7%AF%E5%BE%84"
+    },
+    "htmlEntity": {
+      "title": "کدگذاری / کدگذاری مجدد موجودیت‌های HTML",
+      "description": "کدگذاری یا کدگذاری مجدد موجودیت‌های HTML به صورت آنلاین",
+      "toolName": "کدگذاری / کدگذاری مجدد موجودیت‌های HTML",
+      "toolCategory": "ابزارهای کدگذاری",
+      "convertFailed": "تبدیل با شکست مواجه شد، لطفاً ورودی خود را بررسی کنید",
+      "copyFailed": "کپی نتیجه با شکست مواجه شد",
+      "modeSelector": "حالت انتخاب کنید",
+      "switchToEncode": "انتقال به حالت کدگذاری (Alt+1)",
+      "switchToDecode": "انتقال به حالت کدگذاری مجدد (Alt+2)",
+      "encode": "کدگذاری",
+      "decode": "کدگذاری مجدد",
+      "encodeAll": "همه کاراکترها را کدگذاری کنید",
+      "inputEncodeLabel": "متن ساده",
+      "inputDecodeLabel": " موجودیت‌های HTML",
+      "clearInput": "پاک کردن ورودی (Ctrl+L)",
+      "encodePlaceholder": "متنی را وارد کنید تا به موجودیت‌های HTML تبدیل شود...",
+      "decodePlaceholder": "موجودیت‌های HTML را وارد کنید تا کدگذاری مجدد شوند...",
+      "inputDescriptionEncode": "متن ساده‌ای که می‌خواهید به موجودیت‌های HTML کدگذاری کنید",
+      "inputDescriptionDecode": "موجودیت‌های HTMLی که می‌خواهید کدگذاری مجدد کنید",
+      "outputEncodeLabel": "نتیجه کدگذاری",
+      "outputDecodeLabel": "نتیجه کدگذاری مجدد",
+      "copyResult": "کپی نتیجه (Ctrl+C)",
+      "resultPlaceholder": "نتیجه تبدیل در اینجا نمایش داده خواهد شد...",
+      "outputDescriptionEncode": "خروجی موجودیت‌های HTML تولید شده",
+      "outputDescriptionDecode": "خروجی متن ساده کدگذاری مجدد شده",
+      "copied": "کپی شده به حافظه نمایشی",
+      "executeEncode": "کدگذاری (Ctrl+Enter)",
+      "executeDecode": "کدگذاری مجدد (Ctrl+Enter)",
+      "swap": "تعویض",
+      "swapMode": "تعویض ورودی و خروجی (Ctrl+S)",
+      "commonEntities": " موجودیت‌های رایج HTML",
+      "space": "(فاصله)"
+    },
+    "jsMinify": {
+      "title": "کم‌حجم‌سازی و زیبایی‌سازی JS",
+      "description": "کم‌حجم‌سازی یا زیبایی‌سازی کد JavaScript به صورت آنلاین",
+      "toolName": "کم‌حجم‌سازی / زیبایی‌سازی JavaScript",
+      "toolNameHistory": "کم‌حجم‌سازی و زیبایی‌سازی JS",
+      "toolCategory": "ابزارهای توسعه‌دهنده",
+      "processFailed": "پردازش با شکست مواجه شد",
+      "copyFailed": "کپی نتیجه به حافظه نمایشی با شکست مواجه شد",
+      "switchToMinify": "انتقال به حالت کم‌حجم‌سازی",
+      "switchToMinifyTitle": "انتقال به حالت کم‌حجم‌سازی (Alt+1)",
+      "switchToBeautify": "انتقال به حالت زیبایی‌سازی",
+      "switchToBeautifyTitle": "انتقال به حالت زیبایی‌سازی (Alt+2)",
+      "minify": "کم‌حجم‌سازی",
+      "beautify": "زیبایی‌سازی",
+      "input": "ورودی",
+      "output": "خروجی",
+      "inputPlaceholder": "کد JavaScript خود را وارد کنید...",
+      "inputAria": "ویرایشگر ورودی JavaScript",
+      "inputTitle": "Ctrl+Enter را فشار دهید تا اجرا شود، Ctrl+L را فشار دهید تا پاک شود",
+      "copyOutput": "کپی خروجی",
+      "copyOutputTitle": "کپی خروجی (Ctrl+C)",
+      "resultPlaceholder": "نتیجه پردازش در اینجا نمایش داده خواهد شد...",
+      "outputAria": "نتیجه خروجی JavaScript",
+      "executeMinify": "کم‌حجم‌سازی JavaScript",
+      "executeMinifyTitle": "کم‌حجم‌سازی JavaScript (Ctrl+Enter)",
+      "executeBeautify": "زیبایی‌سازی JavaScript",
+      "executeBeautifyTitle": "زیبایی‌سازی JavaScript (Ctrl+Enter)",
+      "minifyCode": "کم‌حجم‌سازی کد",
+      "beautifyCode": "زیبایی‌سازی کد",
+      "swap": "تعویض",
+      "swapTitle": "تعویض ورودی و خروجی (Ctrl+S)",
+      "clear": "پاک کردن",
+      "clearTitle": "پاک کردن محتوا (Ctrl+L)",
+      "copied": "کپی شده به حافظه نمایشی",
+      "infoTitle": "ویژگی‌ها",
+      "infoItems": [
+        "فضاهای غیرضروری و خطوط جدید را حذف می‌کند تا اندازه فایل JavaScript کاهش یابد",
+        "حالت زیبایی‌سازی کد کم‌حجم‌شده را برای خواندن و نگهداری ساده‌تر می‌کند",
+        "کیفیت کم‌حجم‌سازی به پردازشگر و اجرای کم‌حجم‌سازی JavaScript بستگی دارد"
+      ]
+    },
+    "cssMinify": {
+      "title": "کم‌حجم‌سازی و زیبایی‌سازی CSS",
+      "description": "کم‌حجم‌سازی یا زیبایی‌سازی کد CSS به صورت آنلاین",
+      "toolName": "کم‌حجم‌سازی و زیبایی‌سازی CSS",
+      "toolCategory": "ابزارهای توسعه‌دهنده",
+      "processFailed": "پردازش با شکست مواجه شد",
+      "copyFailed": "کپی نتیجه به حافظه نمایشی با شکست مواجه شد",
+      "switchToMinify": "انتقال به حالت کم‌حجم‌سازی",
+      "switchToMinifyTitle": "انتقال به حالت کم‌حجم‌سازی (Alt+1)",
+      "switchToBeautify": "انتقال به حالت زیبایی‌سازی",
+      "switchToBeautifyTitle": "انتقال به حالت زیبایی‌سازی (Alt+2)",
+      "minify": "کم‌حجم‌سازی",
+      "beautify": "زیبایی‌سازی",
+      "input": "ورودی",
+      "output": "خروجی",
+      "inputPlaceholder": "کد CSS خود را وارد کنید...\n\nمثال:\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 20px;\n}",
+      "inputAria": "ویرایشگر ورودی CSS",
+      "inputTitle": "Ctrl+Enter را فشار دهید تا اجرا شود، Ctrl+L را فشار دهید تا پاک شود",
+      "copyOutput": "کپی خروجی",
+      "copyOutputTitle": "کپی خروجی (Ctrl+C)",
+      "resultPlaceholder": "نتیجه پردازش در اینجا نمایش داده خواهد شد...",
+      "outputAria": "نتیجه خروجی CSS",
+      "executeMinify": "کم‌حجم‌سازی CSS",
+      "executeMinifyTitle": "کم‌حجم‌سازی CSS (Ctrl+Enter)",
+      "executeBeautify": "زیبایی‌سازی CSS",
+      "executeBeautifyTitle": "زیبایی‌سازی CSS (Ctrl+Enter)",
+      "minifyCode": "کم‌حجم‌سازی کد",
+      "beautifyCode": "زیبایی‌سازی کد",
+      "swap": "تعویض",
+      "swapTitle": "تعویض ورودی و خروجی (Ctrl+S)",
+      "clear": "پاک کردن",
+      "clearTitle": "پاک کردن محتوا (Ctrl+L)",
+      "copied": "کپی شده به حافظه نمایشی",
+      "infoTitle": "ویژگی‌ها",
+      "infoItems": [
+        "فضاهای غیرضروری و خطوط جدید را حذف می‌کند تا اندازه فایل کاهش یابد",
+        "حالت زیبایی‌سازی کد کم‌حجم‌شده را برای خواندن و ویرایش ساده‌تر می‌کند",
+        "فایل‌های CSS کوچک‌تر می‌توانند به کاهش حجم انتقال HTTP و بهبود عملکرد بارگذاری کمک کنند"
+      ]
+    },
+    "httpCodes": {
+      "title": "کدهای حالت HTTP",
+      "description": "مرجعی برای کدهای حالت / پاسخ HTTP",
+      "searchPlaceholder": "کدهای حالت یا توضیحات را جستجو کنید...",
+      "noMatch": "کد حالتی یافت نشد",
+      "infoTitle": "اصول کدهای حالت HTTP",
+      "infoItems": [
+        "1xx - پاسخ‌های اطلاعی که نشان می‌دهد درخواست دریافت شده و در حال پردازش است",
+        "2xx - پاسخ‌های موفقیت که نشان می‌دهد درخواست دریافت، درک و قبول شده است",
+        "3xx - پاسخ‌های تجدید مسیر که نیاز به اقدام بیشتری برای تکمیل درخواست دارند",
+        "4xx - پاسخ‌های خطا در سمت مشتری که نشان می‌دهد درخواست دارای سینتکس نادرست یا قابل انجام نیست",
+        "5xx - پاسخ‌های خطا در سمت سرور که نشان می‌دهد سرور قادر به انجام درخواست معتبری نیست"
+      ],
+      "categories": [
+        {
+          "id": "همه",
+          "name": "همه",
+          "color": "bg-gray-100 text-grey-700"
+        },
+        {
+          "id": "1xx",
+          "name": "1xx اطلاعاتی",
+          "color": "bg-blue-100 text-blue-700"
+        },
+        {
+          "id": "2xx",
+          "name": "2xx موفقیت",
+          "color": "bg-green-100 text-green-700"
+        },
+        {
+          "id": "3xx",
+          "name": "تغییر مسیر 3xx",
+          "color": "bg-yellow-100 text-yellow-700"
+        },
+        {
+          "id": "4xx",
+          "name": "خطای مشتری 4xx",
+          "color": "bg-orange-100 text-orange-700"
+        },
+        {
+          "id": "5xx",
+          "name": "خطای سرور 5xx",
+          "color": "bg-red-100 text-red-700"
+        }
+      ],
+      "codes": [
+        {
+          "code": 100,
+          "name": "ادامه",
+          "desc": "بخش اول درخواست دریافت شده و کلاینت باید ادامه دهد.",
+          "category": "1xx"
+        },
+        {
+          "code": 101,
+          "name": "تغییر پروتکل",
+          "desc": "سرور به تغییر پروتکل بر اساس درخواست کاربر موافقت می‌کند.",
+          "category": "1xx"
+        },
+        {
+          "code": 102,
+          "name": "در حال پردازش",
+          "desc": "سرور دریافت کرده است و در حال پردازش درخواست است، اما هنوز پاسخی موجود نیست.",
+          "category": "1xx"
+        },
+        {
+          "code": 200,
+          "name": "موفق",
+          "desc": "درخواست با موفقیت انجام شد، معمولاً برای درخواست‌های GET یا POST.",
+          "category": "2xx"
+        },
+        {
+          "code": 201,
+          "name": "ایجاد شد",
+          "desc": "درخواست با موفقیت انجام شد و منبع جدیدی ایجاد شد.",
+          "category": "2xx"
+        },
+        {
+          "code": 202,
+          "name": "پذیرفته شد",
+          "desc": "درخواست برای پردازش پذیرفته شده است، اما هنوز اتمام نشده است.",
+          "category": "2xx"
+        },
+        {
+          "code": 203,
+          "name": "اطلاعات غیر رسمی",
+          "desc": "داده‌های پاسخ از یک کپی محلی یا سوم‌طرفی به جای سرور اصلی می‌آید.",
+          "category": "2xx"
+        },
+        {
+          "code": 204,
+          "name": "بدون محتوا",
+          "desc": "درخواست با موفقیت انجام شد، اما پاسخ هیچ بدنی ندارد.",
+          "category": "2xx"
+        },
+        {
+          "code": 205,
+          "name": "بازنشانی محتوا",
+          "desc": "درخواست با موفقیت انجام شد و کلاینت باید نمایش فعلی اسناد خود را بازنشانی کند.",
+          "category": "2xx"
+        },
+        {
+          "code": 206,
+          "name": "محتوای جزئی",
+          "desc": "سرور فقط بخشی از منبع را به دلیل درخواست محدودیتی ارسال می‌کند.",
+          "category": "2xx"
+        },
+        {
+          "code": 300,
+          "name": "گزینش‌های چندگانه",
+          "desc": "منبع درخواستی چندین نمایش ممکن برای کاربر دارد.",
+          "category": "3xx"
+        },
+        {
+          "code": 301,
+          "name": "انتقال دائمی",
+          "desc": "منبع درخواستی به URI جدید به طور دائم منتقل شده است.",
+          "category": "3xx"
+        },
+        {
+          "code": 302,
+          "name": "پیدا شد",
+          "desc": "منبع درخواستی به طور موقت در URI دیگری قرار دارد.",
+          "category": "3xx"
+        },
+        {
+          "code": 303,
+          "name": "دیدن دیگر",
+          "desc": "پاسخ درخواست تحت URI دیگری با استفاده از GET موجود است.",
+          "category": "3xx"
+        },
+        {
+          "code": 304,
+          "name": "تغییر نکرده",
+          "desc": "منبع ذخیره شده تغییر نکرده است، بنابراین کلاینت می‌تواند نسخه محلی خود را استفاده کند.",
+          "category": "3xx"
+        },
+        {
+          "code": 307,
+          "name": "تغییر مسیر موقت",
+          "desc": "منبع به طور موقت به سمت دیگری تغییر مسیر داده شده و روش درخواست اصلی باید حفظ شود.",
+          "category": "3xx"
+        },
+        {
+          "code": 308,
+          "name": "تغییر مسیر دائمی",
+          "desc": "منبع به طور دائمی به جای دیگری منتقل شده و روش درخواست اصلی باید حفظ شود.",
+          "category": "3xx"
+        },
+        {
+          "code": 400,
+          "name": "درخواست نامعتبر",
+          "desc": "سرور قادر به پردازش درخواست نیست زیرا سینتکس نامعتبر است.",
+          "category": "4xx"
+        },
+        {
+          "code": 401,
+          "name": "عدم دسترسی",
+          "desc": "ا autentification قبل از اتمام درخواست لازم است.",
+          "category": "4xx"
+        },
+        {
+          "code": 402,
+          "name": "پرداخت الزامی",
+          "desc": "برای استفاده آینده، معمولاً مرتبط با سیستم‌های پرداخت دیجیتالی.",
+          "category": "4xx"
+        },
+        {
+          "code": 403,
+          "name": "مسدود شده",
+          "desc": "سرور درخواست را درک کرده است اما آن را مجاز نمی‌داند.",
+          "category": "4xx"
+        },
+        {
+          "code": 404,
+          "name": "یافت نشد",
+          "desc": "سرور منبع درخواستی را پیدا نمی‌کند.",
+          "category": "4xx"
+        },
+        {
+          "code": 405,
+          "name": "روش مجاز نیست",
+          "desc": "روش درخواست برای منبع هدف مجاز نیست.",
+          "category": "4xx"
+        },
+        {
+          "code": 406,
+          "name": "پذیرفته نشد",
+          "desc": "سرور نمی‌تواند پاسخی ارائه دهد که با فرمت‌های قابل قبول کلاینت مطابقت داشته باشد.",
+          "category": "4xx"
+        },
+        {
+          "code": 407,
+          "name": "اعلامیت پروکسی لازم است",
+          "desc": "کلاینت باید خود را با پروکسی احراز هویت کند تا ادامه دهد.",
+          "category": "4xx"
+        },
+        {
+          "code": 408,
+          "name": "زمان تمام شد",
+          "desc": "سرور زمان انتظار برای درخواست را به پایان رساند.",
+          "category": "4xx"
+        },
+        {
+          "code": 409,
+          "name": "تداخل",
+          "desc": "درخواست با وضعیت فعلی منبع هدف تداخل دارد.",
+          "category": "4xx"
+        },
+        {
+          "code": 410,
+          "name": "پاک شده",
+          "desc": "منبع دیگری وجود ندارد و آدرس جدیدی نیز نیست.",
+          "category": "4xx"
+        },
+        {
+          "code": 411,
+          "name": "طول محتوا لازم است",
+          "desc": "سرور به یک سربرگ Content-Length معتبر نیاز دارد.",
+          "category": "4xx"
+        },
+        {
+          "code": 412,
+          "name": "شرایط نامعتبر",
+          "desc": "یک یا چند شرط در سربرگ‌های درخواست به درستی ارزیابی شده است.",
+          "category": "4xx"
+        },
+        {
+          "code": 413,
+          "name": "حجم محتوا بیش از حد است",
+          "desc": "Body درخواست بزرگتر از آن است که سرور بتواند پردازش کند.",
+          "category": "4xx"
+        },
+        {
+          "code": 414,
+          "name": "URI بسیار طولانی است",
+          "desc": "URI درخواستی طولانی‌تر از آن است که سرور بتواند پردازش کند.",
+          "category": "4xx"
+        },
+        {
+          "code": 415,
+          "name": "نوع رسانه پشتیبانی نمی‌شود",
+          "desc": "سرور نوع رسانه‌ای که در درخواست استفاده شده است را پشتیبانی نمی‌کند.",
+          "category": "4xx"
+        },
+        {
+          "code": 418,
+          "name": "من یک چای سری است",
+          "desc": "کد حالت ساخری که نشان می‌دهد سرور به دلیل اینکه یک چای سری است، قهوه نمی‌پزد.",
+          "category": "4xx"
+        },
+        {
+          "code": 422,
+          "name": "مورد پردازش نشدنی",
+          "desc": "سرور فرمت درخواست را می‌فهمد اما نمی‌تواند دستورات موجود در آن را پردازش کند.",
+          "category": "4xx"
+        },
+        {
+          "code": 429,
+          "name": "درخواست‌های بیش از حد",
+          "desc": "کلاینت در یک دوره زمانی مشخص بیش از حد درخواست ارسال کرده است.",
+          "category": "4xx"
+        },
+        {
+          "code": 451,
+          "name": "به دلیل دلایل قانونی دسترسی ندارد",
+          "desc": "منبع به دلیل محدودیت‌های قانونی دسترسی ندارد.",
+          "category": "4xx"
+        },
+        {
+          "code": 500,
+          "name": "خطای داخلی سرور",
+          "desc": "سرور در حال پردازش درخواست یک خطا غیرمنتظره را تجربه کرد.",
+          "category": "5xx"
+        },
+        {
+          "code": 501,
+          "name": "پیاده‌سازی نشده",
+          "desc": "سرور عملکرد لازم برای انجام درخواست را پشتیبانی نمی‌کند.",
+          "category": "5xx"
+        },
+        {
+          "code": 502,
+          "name": "نادرستی گیت‌وی",
+          "desc": "سرور گیت‌وی یا پروکسی پاسخ نامعتبری از سرور بالاتر دریافت کرده است.",
+          "category": "5xx"
+        },
+        {
+          "code": 503,
+          "name": "خدمات دسترسی نیست",
+          "desc": "سرور قادر به پاسخگویی به درخواست نیست، معمولاً به دلیل بار زیاد یا نگهداری.",
+          "category": "5xx"
+        },
+        {
+          "code": 504,
+          "name": "گیت‌وی زمان‌بندی نشده",
+          "desc": "سرور گیت‌وی یا پروکسی پاسخی در زمان تعیین شده از سرور بالاتر دریافت نکرده است.",
+          "category": "5xx"
+        },
+        {
+          "code": 505,
+          "name": "نسخه HTTP پشتیبانی نمی‌شود",
+          "desc": "سرور نسخه پروتکل HTTP استفاده شده در درخواست را پشتیبانی نمی‌کند.",
+          "category": "5xx"
+        }
+      ]
+    },
+    "phpReference": {
+      "title": "مرجع توابع PHP",
+      "description": "مرجع سریع برای توابع PHP رایج",
+      "searchPlaceholder": "نام توابع یا توضیحات را جستجو کنید...",
+      "noMatch": "هیچ تابعی پیدا نشد",
+      "infoTitle": "درباره",
+      "infoDescription": "این صفحه توابع PHP رایج را بر اساس دسته‌بندی برای جستجوی سریع لیست می‌کند. این صفحه به عنوان یک نمای کلی برای توسعه‌دهندگان طراحی شده است و جایگزین مستندات رسمی PHP نیست.",
+      "categories": [
+        "همه",
+        "رشته",
+        "آرایه",
+        "فایل",
+        "تاریخ/زمان",
+        "JSON",
+        "ریاضیات",
+        "سایر"
+      ],
+      "functions": [
+        {
+          "name": "strlen",
+          "desc": "طول یک رشته را دریافت کنید",
+          "syntax": "strlen(string $string): int",
+          "category": "رشته"
+        },
+        {
+          "name": "substr",
+          "desc": "بخشی از یک رشته را برگردانید",
+          "syntax": "substr(string $string, int $offset, ?int $length = null): رشته",
+          "category": "رشته"
+        },
+        {
+          "name": "strpos",
+          "desc": "موقعیت اولین ظهور یک زیررشته را پیدا کنید",
+          "syntax": "strpos(string $haystack, string $needle, int $offset = 0): int|false",
+          "category": "رشته"
+        },
+        {
+          "name": "str_replace",
+          "desc": "همه وقوعهای رشته جستجو را جایگزین کنید",
+          "syntax": "str_replace(مخلوط $جستجو، مختلط $replace، مختلط $subject): مختلط",
+          "category": "رشته"
+        },
+        {
+          "name": "منفجر شود",
+          "desc": "یک رشته را به یک آرایه با استفاده از یک جداکننده تقسیم کنید",
+          "syntax": "explode(string $separator, string $string, int $limit = PHP_INT_MAX): آرایه",
+          "category": "رشته"
+        },
+        {
+          "name": "منفجر شدن",
+          "desc": "عناصر آرایه را به یک رشته ادغام کنید",
+          "syntax": "implode(string $separator, array $array): رشته",
+          "category": "رشته"
+        },
+        {
+          "name": "کوتاه کردن",
+          "desc": "فضای خالی یا سایر کاراکترها را از دو طرف یک رشته حذف کنید",
+          "syntax": "trim(string $string, string $characters = \" \\n\\r\\t\\v\\x00\"): رشته",
+          "category": "رشته"
+        },
+        {
+          "name": "strtolower",
+          "desc": "یک رشته را به حروف کوچک تبدیل کنید",
+          "syntax": "strtolower(string $string): رشته",
+          "category": "رشته"
+        },
+        {
+          "name": "استرتوپر",
+          "desc": "یک رشته را به حروف بزرگ تبدیل کنید",
+          "syntax": "strtoupper(string $string): رشته",
+          "category": "رشته"
+        },
+        {
+          "name": "sprintf",
+          "desc": "رشته فرمت شده را برگردانید",
+          "syntax": "sprintf(string $format، mixed ...$values): رشته",
+          "category": "رشته"
+        },
+        {
+          "name": "preg_match",
+          "desc": "یک مطابقت عبارت منظم انجام دهید",
+          "syntax": "preg_match(string $pattern، string $subject، array &$matches = null): int|false",
+          "category": "رشته"
+        },
+        {
+          "name": "preg_replace",
+          "desc": "جستجو و جایگزینی با عبارت منظم انجام دهید",
+          "syntax": "preg_replace($pattern مختلط، $جایگزین مختلط، $subject مختلط): مختلط",
+          "category": "رشته"
+        },
+        {
+          "name": "شمارش",
+          "desc": "تعداد عناصر در یک آرایه یا شیء قابل شمارش",
+          "syntax": "count(قابل شمارش|آرایه $value، int $mode = COUNT_NORMAL): int",
+          "category": "آرایه"
+        },
+        {
+          "name": "array_push",
+          "desc": "یک یا چند عنصر را به انتهای یک آرایه اضافه کنید",
+          "syntax": "array_push(array &$array, mixed ...$values): int",
+          "category": "آرایه"
+        },
+        {
+          "name": "آرایه_پاپ",
+          "desc": "آخرین عنصر یک آرایه را حذف کنید",
+          "syntax": "array_pop(array &$array): مختلط",
+          "category": "آرایه"
+        },
+        {
+          "name": "array_merge",
+          "desc": "یک یا چند آرایه را ادغام کنید",
+          "syntax": "array_merge(array ...$arrays): آرایه",
+          "category": "آرایه"
+        },
+        {
+          "name": "کلیدهای آرایه",
+          "desc": "تمام کلیدهای یک آرایه را برگردانید",
+          "syntax": "array_keys (آرایه $array، مخلوط $filter_value، bool $strict = false): آرایه",
+          "category": "آرایه"
+        },
+        {
+          "name": "مقادیر_آرایه",
+          "desc": "تمام مقادیر یک آرایه را برگردانید",
+          "syntax": "array_values ​​(array $array): آرایه",
+          "category": "آرایه"
+        },
+        {
+          "name": "در آرایه",
+          "desc": "بررسی کنید که یک مقدار در یک آرایه وجود دارد یا نه",
+          "syntax": "in_array (مخلوط $needle، آرایه $haystack، bool $strict = false): bool",
+          "category": "آرایه"
+        },
+        {
+          "name": "آرایه_جستجو",
+          "desc": "یک آرایه را جستجو کنید و کلید آن را برگردانید",
+          "syntax": "array_search(مخلوط $needle، آرایه $haystack، bool $strict = false): int|string|false",
+          "category": "آرایه"
+        },
+        {
+          "name": "آرایه_نقشه",
+          "desc": "یک تابع بازگشتی را روی عناصر یک آرایه اعمال کنید",
+          "syntax": "array_map(?callable $callback, array $array, array ...$arrays): آرایه",
+          "category": "آرایه"
+        },
+        {
+          "name": "آرایه_فیلتر",
+          "desc": "عناصر یک آرایه را با یک تابع بازگشتی فیلتر کنید",
+          "syntax": "array_filter(آرایه $array، ?callable $callback = null، int $mode = 0): آرایه",
+          "category": "آرایه"
+        },
+        {
+          "name": "مرتب کردن",
+          "desc": "آرایه را به صورت صعودی مرتب کنید",
+          "syntax": "sort(array &$array, int $flags = SORT_REGULAR): bool",
+          "category": "آرایه"
+        },
+        {
+          "name": "استفاده کنید",
+          "desc": "آرایه را با یک تابع مقایسه‌ای کاربر تعریف شده مرتب کنید",
+          "syntax": "usort(array &$array, callback $callback): bool",
+          "category": "آرایه"
+        },
+        {
+          "name": "file_get_contents",
+          "desc": "یک فایل را به یک رشته خواند",
+          "syntax": "file_get_contents(string $filename, ...): رشته|نادرست",
+          "category": "فایل"
+        },
+        {
+          "name": "file_put_contents",
+          "desc": "داده‌ها را به یک فایل بنویسید",
+          "syntax": "file_put_contents(string $filename، مختلط $data، int $flags = 0): int|نادرست",
+          "category": "فایل"
+        },
+        {
+          "name": "باز کردن",
+          "desc": "یک فایل یا URL را باز کنید",
+          "syntax": "fopen(string $filename, string $mode, ...): منبع|نادرست",
+          "category": "فایل"
+        },
+        {
+          "name": "fclose",
+          "desc": "نشانگر فایل باز را ببندید",
+          "syntax": "fclose(منبع $stream): bool",
+          "category": "فایل"
+        },
+        {
+          "name": "فرید",
+          "desc": "از نشانگر فایل بخوانید",
+          "syntax": "fread(منبع $stream، int $length): string|false",
+          "category": "فایل"
+        },
+        {
+          "name": "fwrite",
+          "desc": "به نشانگر فایل بنویسید",
+          "syntax": "fwrite(منبع $stream، رشته $data، ?int $length = null): int|false",
+          "category": "فایل"
+        },
+        {
+          "name": "file_exists",
+          "desc": "بررسی کنید که یک فایل یا دایرکتوری وجود دارد یا نه",
+          "syntax": "file_exists (رشته $filename): bool",
+          "category": "فایل"
+        },
+        {
+          "name": "is_file",
+          "desc": "بررسی کنید که مسیر یک فایل عادی است یا نه",
+          "syntax": "is_file(string $filename): bool",
+          "category": "فایل"
+        },
+        {
+          "name": "لغو پیوند",
+          "desc": "یک فایل را حذف کنید",
+          "syntax": "unlink(string $filename, ?source $context = null): bool",
+          "category": "فایل"
+        },
+        {
+          "name": "mkdir",
+          "desc": "یک دایرکتوری ایجاد کنید",
+          "syntax": "mkdir(string $directory, int $permissions = 0777, bool $recursive = false): bool",
+          "category": "فایل"
+        },
+        {
+          "name": "تاریخ",
+          "desc": "تاریخ و زمان محلی را فرمت کنید",
+          "syntax": "date(string $format, ?int $timestamp = null): رشته",
+          "category": "تاریخ/زمان"
+        },
+        {
+          "name": "زمان",
+          "desc": "زمان امروز Unix را دریافت کنید",
+          "syntax": "time(): بین المللی",
+          "category": "تاریخ/زمان"
+        },
+        {
+          "name": "strtotime",
+          "desc": "تاریخ و زمان متنی را به یک زمان Unix تجزیه کنید",
+          "syntax": "strtotime(string $datetime, ?int $baseTimestamp = null): int|false",
+          "category": "تاریخ/زمان"
+        },
+        {
+          "name": "mktime",
+          "desc": "دریافت یک زمان اچت (Unix timestamp) برای تاریخ",
+          "syntax": "mktime(int $hour, ?int $minute = null, ...): int|false",
+          "category": "تاریخ/زمان"
+        },
+        {
+          "name": "date_create",
+          "desc": "ایجاد یک شیء DateTime",
+          "syntax": "date_create(string $datetime = \"اکنون\"، ?DateTimeZone $timezone = null): DateTime|نادرست",
+          "category": "تاریخ/زمان"
+        },
+        {
+          "name": "json_encode",
+          "desc": "مقدار را به یک رشته JSON تبدیل کنید",
+          "syntax": "json_encode(مخلوط $value، int $flags = 0، int $depth = 512): رشته|نادرست",
+          "category": "JSON"
+        },
+        {
+          "name": "json_decode",
+          "desc": "رکورد JSON را به یک مقدار PHP تبدیل کنید",
+          "syntax": "json_decode(string $json، ?bool $associative = null، int $depth = 512): مخلوط",
+          "category": "JSON"
+        },
+        {
+          "name": "عضلات شکم",
+          "desc": "مقدار مطلق را دریافت کنید",
+          "syntax": "abs(int|float $num): int|float",
+          "category": "ریاضیات"
+        },
+        {
+          "name": "سقف",
+          "desc": "اعداد کسری را بالا گرد کنید",
+          "syntax": "ceil(int|float $num): شناور",
+          "category": "ریاضیات"
+        },
+        {
+          "name": "طبقه",
+          "desc": "اعداد کسری را پایین گرد کنید",
+          "syntax": "floor(int|float $num): شناور",
+          "category": "ریاضیات"
+        },
+        {
+          "name": "گرد",
+          "desc": "عددی را گرد کنید",
+          "syntax": "round(int| float $num, int $precision = 0, int $mode = PHP_ROUND_HALF_UP): شناور",
+          "category": "ریاضیات"
+        },
+        {
+          "name": "حداکثر",
+          "desc": "بزرگترین مقدار را پیدا کنید",
+          "syntax": "max(مخلوط $value، مختلط ...$values): مختلط",
+          "category": "ریاضیات"
+        },
+        {
+          "name": "دقیقه",
+          "desc": "کوچکترین مقدار را پیدا کنید",
+          "syntax": "min(مخلوط $value، مختلط ...$values): مختلط",
+          "category": "ریاضیات"
+        },
+        {
+          "name": "رند",
+          "desc": "یک عدد صحیح تصادفی تولید کنید",
+          "syntax": "rand(int $min، int $max): int",
+          "category": "ریاضیات"
+        },
+        {
+          "name": "isset",
+          "desc": "بررسی کنید که یک متغیر تعیین شده و null نباشد",
+          "syntax": "isset(مخلوط $var، مختلط ...$vars): bool",
+          "category": "سایر"
+        },
+        {
+          "name": "خالی",
+          "desc": "بررسی کنید که یک متغیر خالی باشد",
+          "syntax": "خالی (مخلوط $var): bool",
+          "category": "سایر"
+        },
+        {
+          "name": "var_dump",
+          "desc": "اطلاعاتی در مورد یک متغیر چاپ کنید",
+          "syntax": "var_dump(مخلوط $value، مختلط ...$values): باطل",
+          "category": "سایر"
+        },
+        {
+          "name": "print_r",
+          "desc": "اطلاعات قابل خواندن برای انسان در مورد یک متغیر چاپ کنید",
+          "syntax": "print_r(مخلوط $value، bool $return = false): string|bool",
+          "category": "سایر"
+        },
+        {
+          "name": "gettype",
+          "desc": "نوع یک متغیر را دریافت کنید",
+          "syntax": "gettype(مخلوط $value): رشته",
+          "category": "سایر"
+        },
+        {
+          "name": "is_array",
+          "desc": "بررسی کنید که یک متغیر آرایه باشد",
+          "syntax": "is_array (مخلوط $value): bool",
+          "category": "سایر"
+        },
+        {
+          "name": "is_string",
+          "desc": "بررسی کنید که یک متغیر رشته باشد",
+          "syntax": "is_string(مخلوط $value): bool",
+          "category": "سایر"
+        },
+        {
+          "name": "is_numeric",
+          "desc": "بررسی کنید که یک متغیر عدد یا رشته عددی باشد",
+          "syntax": "is_numeric(مخلوط $value): bool",
+          "category": "سایر"
+        }
+      ]
+    },
+    "cssBorderRadius": {
+      "title": "ساختار مرزهای دایره‌ای CSS",
+      "description": "مقدارهای border-radius را به صورت بصری تنظیم کنید و کد CSS تولید کنید",
+      "presetsLabel": "پیش‌تنظیمات",
+      "preview": "مشاهده",
+      "settings": "تنظیمات",
+      "linked": "گوشه‌های متصل",
+      "unlinked": "گوشه‌های جدا",
+      "corners": {
+        "topLeft": "گوشه بالایی چپ",
+        "topRight": "گوشه بالایی راست",
+        "bottomLeft": "گوشه پایینی چپ",
+        "bottomRight": "گوشه پایینی راست"
+      },
+      "elementColor": "رنگ عنصر",
+      "codeTitle": "کد CSS",
+      "copy": "کپی کردن",
+      "copied": "کپی شده",
+      "presets": [
+        {
+          "name": "هیچکدام",
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "کوچک",
+          "values": [
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "متوسط",
+          "values": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "بزرگ",
+          "values": [
+            16,
+            16,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "دایره",
+          "values": [
+            50,
+            50,
+            50,
+            50
+          ]
+        },
+        {
+          "name": "قرص",
+          "values": [
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "طرف چپ",
+          "values": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        {
+          "name": "طرف راست",
+          "values": [
+            0,
+            16,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "فقط بالا",
+          "values": [
+            16,
+            16,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "فقط پایین",
+          "values": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "قطری",
+          "values": [
+            16,
+            0,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "برگ",
+          "values": [
+            0,
+            50,
+            0,
+            50
+          ]
+        }
+      ]
+    },
+    "cssNeumorphism": {
+      "title": "ساختار CSS Neumorphism",
+      "description": "کد CSS سبک Neumorphism را به طور آنلاین تولید کنید",
+      "previewText": "دکمه نمایش",
+      "shapeTitle": "سبک شکل",
+      "shapeOptions": [
+        {
+          "value": "تخت",
+          "label": "فلات"
+        },
+        {
+          "value": "مقعر",
+          "label": "مقعر"
+        },
+        {
+          "value": "محدب",
+          "label": "محدب"
+        },
+        {
+          "value": "فشرده شده است",
+          "label": "فشرده"
+        }
+      ],
+      "colorTitle": "تنظیمات رنگ",
+      "presetColors": "رنگ‌های پیش‌فرض",
+      "colorPresets": [
+        {
+          "color": "#e0e5ec",
+          "name": "کلاسیک"
+        },
+        {
+          "color": "#f0f0f3",
+          "name": "سفید"
+        },
+        {
+          "color": "#d1d9e6",
+          "name": "آبی"
+        },
+        {
+          "color": "#e8dfd5",
+          "name": "بیج"
+        },
+        {
+          "color": "#dfe6e9",
+          "name": "خاکستری"
+        },
+        {
+          "color": "#ffeaa7",
+          "name": "زرد"
+        },
+        {
+          "color": "#dfe4ea",
+          "name": "سلاط"
+        },
+        {
+          "color": "#f8e1e7",
+          "name": "صورتی"
+        },
+        {
+          "color": "#d5f5e3",
+          "name": "مینت"
+        },
+        {
+          "color": "#e8daef",
+          "name": "بنفش"
+        }
+      ],
+      "backgroundColor": "رنگ پس زمینه",
+      "lightColor": "رنگ روشن (هم‌نوا)",
+      "darkColor": "رنگ تیره (سایه)",
+      "sliderTitle": "تنظیمات سایه",
+      "size": "اندازه",
+      "radius": "شعاع",
+      "distance": "فاصله سایه",
+      "blur": "آشفتگی سایه",
+      "intensity": "شدت",
+      "codeTitle": "کد CSS",
+      "copy": "کپی کردن",
+      "copied": "کپی شده",
+      "infoTitle": "Neumorphism چیست؟",
+      "infoDescription": "نئومورفیسم یک سبک UI نرم است که از ترکیب سایه‌های خفیف و سایه‌های نرم برای ایجاد احساس اینکه عناصر به جلو یا درون پس زمینه فرو می‌روند، استفاده می‌کند. این سبک بهترین نتیجه را با دامنه‌های رنگی کم‌ترکیب و طراحی‌های تمیز و ساده ارائه می‌دهد."
+    },
+    "cssTextShadow": {
+      "title": "تولیدکننده سایه متن CSS",
+      "description": "مقادیر سایه متن را به صورت بصری تنظیم کنید و کد CSS تولید کنید",
+      "defaultText": "مثال سایه متن",
+      "presetsLabel": "اثرات پیش‌فرض",
+      "textSettings": "تنظیمات متن",
+      "previewText": "متن نمایشی",
+      "fontSize": "اندازه فونت",
+      "textColor": "رنگ متن",
+      "shadowPrefix": "سایه {{index}}",
+      "offsetX": "جابجایی X",
+      "offsetY": "جابجایی Y",
+      "blur": "آشفتگی",
+      "opacity": "شفافیت",
+      "color": "رنگ",
+      "addShadow": "اضافه کردن سایه",
+      "codeTitle": "کد CSS",
+      "copy": "کپی کردن",
+      "copied": "کپی شد",
+      "presets": [
+        {
+          "name": "سایه نرم",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 2,
+              "y": 2,
+              "blur": 4,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        },
+        {
+          "name": "درخشش نوری",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#00ff00",
+              "opacity": 0.8
+            }
+          ]
+        },
+        {
+          "name": "درخشش بنفش",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 5,
+              "color": "#ff00ff",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#ff00ff",
+              "opacity": 0.8
+            },
+            {
+              "id": 3,
+              "x": 0,
+              "y": 0,
+              "blur": 20,
+              "color": "#ff00ff",
+              "opacity": 0.6
+            }
+          ]
+        },
+        {
+          "name": "لایه‌های ۳D",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 1,
+              "y": 1,
+              "blur": 0,
+              "color": "#666666",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 2,
+              "y": 2,
+              "blur": 0,
+              "color": "#888888",
+              "opacity": 1
+            },
+            {
+              "id": 3,
+              "x": 3,
+              "y": 3,
+              "blur": 0,
+              "color": "#آآآآآآ",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "name": "حالت چاپ شده",
+          "shadows": [
+            {
+              "id": 1,
+              "x": -1,
+              "y": -1,
+              "blur": 1,
+              "color": "#ففففف",
+              "opacity": 0.8
+            },
+            {
+              "id": 2,
+              "x": 1,
+              "y": 1,
+              "blur": 1,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "websocketTest": {
+      "title": "ابزار تست WebSocket آنلاین",
+      "description": "تست اتصالات WebSocket و ارسال پیام‌ها به صورت آنلاین",
+      "defaultUrl": "wss://echo.websocket.org",
+      "connectingTo": "در حال اتصال به {{url}}...",
+      "connectSuccess": "اتصال موفقیت‌آمیز بود",
+      "connectError": "خطا در اتصال",
+      "connectionClosed": "اتصال قطع شد (کد: {{code}})",
+      "connectFailed": "اتصال ناموفق: {{message}}",
+      "disconnecting": "در حال اتمام اتصال...",
+      "urlPlaceholder": "URL WebSocket را وارد کنید، مثلاً: wss://echo.websocket.org",
+      "disconnect": "قطع اتصال",
+      "connecting": "در حال اتصال...",
+      "connect": "اتصال",
+      "connected": "اتصال برقرار شد",
+      "notConnected": "اتصال نشده",
+      "messageLog": "سوابق پیام",
+      "clear": "پاک کردن",
+      "noMessages": "هیچ پیامی وجود ندارد",
+      "messagePlaceholder": "پیام را وارد کنید... (Enter برای ارسال، Shift+Enter برای خط جدید)",
+      "infoTitle": "نکات WebSocket",
+      "infoItems": [
+        "خدمت اکو داخلی برای تست‌های پایه ارسال/دریافت مفید است",
+        "از آدرس‌های ws:// و wss:// پشتیبانی می‌کند",
+        "Enter را فشار دهید تا پیام را ارسال کنید، Shift+Enter برای وارد کردن خط جدید",
+        "مطمئن شوید که خدمات هدف شما اجازه اتصال WebSocket از طریق مرورگر را می‌دهد"
+      ],
+      "examplesTitle": "مثال‌های متداول",
+      "publicEcho": "خدمت اکو عمومی",
+      "defaultTag": "پیش‌فرض"
+    },
+    "csrGenerator": {
+      "title": "تولیدکننده و نمایشگر CSR",
+      "description": "فایل‌های CSR را به صورت آنلاین تولید کنید و محتوای CSR را تحلیل کنید",
+      "enterDomain": "لطفاً یک دامنه وارد کنید",
+      "generateFailed": "تولید CSR ناموفق بود",
+      "parseFailed": "تحلیل CSR ناموفق بود",
+      "serverConnectionFailed": "اتصال به سرور ناموفق بود، لطفاً بعداً دوباره سعی کنید",
+      "tabs": {
+        "generate": "تولید CSR",
+        "view": "مشاهده CSR"
+      },
+      "formTitle": "اطلاعات گواهی",
+      "labels": {
+        "commonName": "دامنه (نام مشترک)",
+        "organization": "سازمان",
+        "organizationUnit": "بخش",
+        "city": "شهر",
+        "state": "استان / منطقه",
+        "country": "کشور / منطقه",
+        "email": "ایمیل",
+        "keySize": "اندازه کلید"
+      },
+      "placeholders": {
+        "commonName": "مثلاً: www.example.com یا *.example.com",
+        "organization": "مثلاً: شرکت مثال",
+        "organizationUnit": "مثلاً: بخش IT",
+        "city": "مثلاً: چنگچو",
+        "state": "مثلاً: چنگچو",
+        "email": "مثلاً: admin@example.com",
+        "csr": "CSR را در اینجا قرار دهید، شروع با -----BEGIN CERTIFICATE REQUEST-----"
+      },
+      "countries": [
+        {
+          "value": "CN",
+          "label": "CN - چین"
+        },
+        {
+          "value": "ایالات متحده",
+          "label": "US - ایالات متحده آمریکا"
+        },
+        {
+          "value": "JP",
+          "label": "JP - ژاپن"
+        },
+        {
+          "value": "KR",
+          "label": "KR - کره جنوبی"
+        },
+        {
+          "value": "گیگابایت",
+          "label": "GB - بریتانیای بزرگ"
+        },
+        {
+          "value": "DE",
+          "label": "DE - آلمان"
+        },
+        {
+          "value": "FR",
+          "label": "FR - فرانسه"
+        },
+        {
+          "value": "SG",
+          "label": "SG - سنگاپور"
+        },
+        {
+          "value": "HK",
+          "label": "HK - هنگ کنگ"
+        },
+        {
+          "value": "TW",
+          "label": "TW - تایوان"
+        }
+      ],
+      "keySizes": [
+        {
+          "value": "2048",
+          "label": "2048 بیت (توصیه شده)"
+        },
+        {
+          "value": "4096",
+          "label": "4096 بیت (امن‌تر)"
+        }
+      ],
+      "generating": "در حال تولید...",
+      "generateAction": "تولید CSR و کلید خصوصی",
+      "csrRequest": "درخواست CSR",
+      "privateKey": "کلید خصوصی (آن را امن نگه دارید)",
+      "copy": "کپی کردن",
+      "copied": "کپی شد",
+      "download": "دانلود",
+      "privateKeyWarning": "کلید خصوصی بسیار حساس است. آن را امن نگه دارید و هرگز آن را به صورت عمومی اشتراک ندهید. اگر به اشتراک رود، امنیت گواهی شما ممکن است آسیب ببیند.",
+      "inputCsr": "محتوای CSR را وارد کنید",
+      "parsing": "تحلیل...",
+      "parseAction": "تحلیل CSR",
+      "csrInfo": "اطلاعات CSR",
+      "infoItems": [
+        {
+          "label": "دامنه (CN)",
+          "key": "نام مشترک"
+        },
+        {
+          "label": "سازمان (O)",
+          "key": "سازمان"
+        },
+        {
+          "label": "بخش (OU)",
+          "key": "واحد سازمانی"
+        },
+        {
+          "label": "شهر (L)",
+          "key": "شهر"
+        },
+        {
+          "label": "استان / منطقه (ST)",
+          "key": "دولت"
+        },
+        {
+          "label": "کشور (C)",
+          "key": "کشور"
+        },
+        {
+          "label": "ایمیل",
+          "key": "ایمیل"
+        },
+        {
+          "label": "الگوریتم کلید",
+          "key": "الگوریتم کلید"
+        },
+        {
+          "label": "اندازه کلید",
+          "key": "اندازه کلید"
+        },
+        {
+          "label": "الگوریتم امضای",
+          "key": "الگوریتم امضا"
+        }
+      ],
+      "keySizeValue": "{{value}} بیت",
+      "aboutTitle": "CSR چیست؟",
+      "aboutDescription": "CSR (درخواست امضای گواهی) یک فایل کد شده است که وقتی برای دریافت گواهی SSL/TLS ارسال می‌شود، به یک ا autority گواهی (CA) ارسال می‌شود. این فایل شامل اطلاعاتی در مورد دامنه و سازمان شما، همچنین کلید عمومی که با کلید خصوصی شما مطابقت دارد، است. پس از تأیید، CA از CSR برای اعطای گواهی SSL استفاده می‌کند."
+    },
+    "metaGenerator": {
+      "title": "تولیدکننده تگ‌های Meta",
+      "description": "تگ‌های Meta صفحه وب دوستدار SEO را تولید کنید",
+      "basicInfo": "اطلاعات پایه",
+      "socialMedia": "شبکه‌های اجتماعی (Open Graph)",
+      "generatedCode": "کد تولید شده",
+      "copy": "کپی کردن",
+      "copied": "کپی شد",
+      "searchPreview": "نمایش جستجو",
+      "searchPreviewTitleFallback": "عنوان صفحه",
+      "searchPreviewDescriptionFallback": "توضیحات صفحه شما در اینجا نمایش داده خواهد شد...",
+      "socialPreview": "نمایش اجتماعی",
+      "socialPreviewTitleFallback": "عنوان",
+      "socialPreviewDescriptionFallback": "توضیحات",
+      "labels": {
+        "title": "عنوان صفحه",
+        "description": "توضیحات صفحه",
+        "keywords": "کلمات کلیدی",
+        "author": "نویسنده",
+        "robots": "دستورات روبوت‌ها",
+        "ogTitle": "عنوان OG",
+        "ogDescription": "توضیحات OG",
+        "ogImage": "آدرس URL تصویر OG",
+        "ogUrl": "آدرس URL صفحه",
+        "twitterCard": "نوع کارت تیتر"
+      },
+      "placeholders": {
+        "title": "عنوان صفحه را وارد کنید",
+        "description": "توضیحات صفحه را وارد کنید، به طور کلی در حد 150 کاراکتر",
+        "keywords": "کلمه کلیدی1، کلمه کلیدی2، کلمه کلیدی3",
+        "author": "نام نویسنده را وارد کنید",
+        "ogTitle": "عنوان اشتراک گذاری اجتماعی را وارد کنید",
+        "ogDescription": "توضیحات اشتراک گذاری اجتماعی را وارد کنید",
+        "ogImage": "https://example.com/image.jpg",
+        "ogUrl": "https://example.com/page"
+      },
+      "robotsOptions": [
+        {
+          "value": "فهرست کردن، دنبال کردن",
+          "label": "اجازه ایندکس کردن و دنبال کردن"
+        },
+        {
+          "value": "ایندکس، نوفالو",
+          "label": "اجازه ایندکس کردن، ممنوعیت دنبال کردن"
+        },
+        {
+          "value": "noindex، دنبال کنید",
+          "label": "ممنوعیت ایندکس کردن، اجازه دنبال کردن"
+        },
+        {
+          "value": "noindex، nofollow",
+          "label": "ممنوعیت ایندکس کردن و دنبال کردن"
+        }
+      ],
+      "twitterOptions": [
+        {
+          "value": "خلاصه",
+          "label": "خلاصه"
+        },
+        {
+          "value": "خلاصه_تصویر_بزرگ",
+          "label": "تصویر بزرگ"
+        },
+        {
+          "value": "بازیکن",
+          "label": "پلیر"
+        }
+      ]
+    },
+    "toolHistoryDemo": {
+      "confirmClear": "آیا مطمئن هستید که می‌خواهید تمام تاریخچه ابزار و علاقه مندی‌ها را پاک کنید؟",
+      "exportTitle": "صادر کردن داده",
+      "usageCount": "استفاده شده {{count}} بار",
+      "lastUsed": "آخرین استفاده: {{time}}",
+      "favorite": "علاقه مندی: {{value}}",
+      "yes": "بله",
+      "no": "خیر",
+      "exportFailed": "صادر کردن ناموفق بود",
+      "tabs": {
+        "overview": "بررسی کلی",
+        "history": "تاریخچه",
+        "favorites": "علاقه مندی‌ها",
+        "analytics": "آنالیتیکس"
+      },
+      "loading": "در حال بارگذاری داده‌های تاریخچه ابزار...",
+      "loadFailed": "بارگذاری ناموفق: {{error}}",
+      "title": "نمونه تاریخچه ابزار",
+      "description": "نمایش استفاده از ابزارها، علاقه مندی‌ها و آنالیتیکس",
+      "export": "صادر کردن",
+      "clear": "پاک کردن",
+      "searchPlaceholder": "جستجوی ابزارها...",
+      "stats": {
+        "totalTools": "ابزارهای کلی",
+        "totalUsage": "استفاده کلی",
+        "favoriteTools": "ابزارهای علاقه مندی",
+        "averageUsage": "متوسط استفاده"
+      },
+      "favoriteToolsTitle": "ابزارهای علاقه مندی",
+      "favoriteToolsDescription": "ابزارهایی که شما به عنوان علاقه مندی مشخص کرده‌اید",
+      "noFavoriteTools": "هنوز ابزار علاقه مندی وجود ندارد",
+      "mostUsed": "ابزارهای بیشترین استفاده",
+      "timesUsed": "استفاده شده {{count}} بار",
+      "recentActivity": "فعالیت‌های اخیر",
+      "exportDialogTitle": "صادر کردن تاریخچه ابزار",
+      "exportDialogDescription": "فرمت صادر کردن را انتخاب کنید",
+      "formats": {
+        "json": {
+          "title": "فرمت JSON",
+          "description": "بهترین برای پشتیبانی و استفاده توسعه دهندگان"
+        },
+        "csv": {
+          "title": "فرمت CSV",
+          "description": "خوب برای اکسل و جداول فرمت‌های مشابه"
+        },
+        "txt": {
+          "title": "فرمت TXT",
+          "description": "خلاصه متن ساده"
+        }
+      },
+      "cancel": "لغو"
+    },
+    "userAgentParser": {
+      "title": "پارسر User-Agent",
+      "description": "رشته‌های User-Agent را تجزیه کنید تا اطلاعات مرورگر، سیستم و دستگاه را شناسایی کنید",
+      "label": "رشته User-Agent",
+      "useCurrent": "از مرورگر فعلی استفاده کنید",
+      "inputPlaceholder": "رشته User-Agent را وارد کنید...",
+      "parse": "تجزیه کردن",
+      "unknownBrowser": "مرورگر ناشناخته",
+      "unknown": "ناشناخته",
+      "deviceTypes": {
+        "mobile": "موبایل",
+        "tablet": "تبلت",
+        "desktop": "دسکتاپ"
+      },
+      "browserInfo": "اطلاعات مرورگر",
+      "browser": "مرورگر",
+      "version": "نسخه",
+      "majorVersion": "نسخه اصلی",
+      "operatingSystem": "سیستم عامل",
+      "system": "سیستم",
+      "deviceInfo": "اطلاعات دستگاه",
+      "type": "نوع",
+      "vendor": "سازنده",
+      "model": "مدل",
+      "engineAndCpu": "موتور & CPU",
+      "engine": "موتور",
+      "engineVersion": "نسخه موتور",
+      "cpuArchitecture": "معماری CPU",
+      "examplesTitle": "رشته‌های User-Agent مثال"
+    },
+    "cssBoxShadow": {
+      "title": "سازنده سایه DIV",
+      "description": "مقادیر سایه را به صورت چشمی تنظیم کنید و کد CSS تولید کنید",
+      "preview": "نمونه نمایشی",
+      "basicSettings": "تنظیمات پایه",
+      "backgroundColor": "رنگ پس زمینه",
+      "boxColor": "رنگ جعبه",
+      "borderRadius": "شعاع مرز",
+      "shadowPrefix": "سایه {{index}}",
+      "inset": "داخلی",
+      "offsetX": "جابجایی X",
+      "offsetY": "جابجایی Y",
+      "blur": "اضافه کردن",
+      "spread": "پخش کردن",
+      "opacity": "شفافیت",
+      "color": "رنگ",
+      "addShadow": "اضافه کردن سایه",
+      "codeTitle": "کد CSS",
+      "copy": "کپی کردن",
+      "copied": "کپی شد"
+    },
+    "cssGlassmorphism": {
+      "title": "سازنده CSS Glassmorphism",
+      "description": "کد CSS سبک Glassmorphism را به صورت آنلاین تولید کنید",
+      "cardTitle": "کارت Glassmorphism",
+      "cardDescription": "Glassmorphism یک سبک UI مدرن است که از شفافیت، بلوریت و لبه‌های نرم برای ایجاد اثر شیشه‌ای فروسته استفاده می‌کند.",
+      "adjustTitle": "تنظیمات را تنظیم کنید",
+      "blur": "بلوریت پس زمینه",
+      "transparency": "شفافیت",
+      "saturation": "اساتوراسیون",
+      "borderRadius": "شعاع لبه",
+      "borderOpacity": "شفافیت لبه",
+      "codeTitle": "کد CSS",
+      "copy": "کپی کردن",
+      "copied": "کپی شد",
+      "infoTitle": "نکات سازگاری",
+      "infoDescription": "ویژگی backdrop-filter نیاز به حمایت مرورگرهای مدرن دارد. فایرفاکس ممکن است نیاز به تنظیمات اضافی داشته باشد و سفاری ممکن است نیاز به پیشوند -webkit- داشته باشد. بهتر است برای مرورگرهای ناسازگار، فرآیند بازگشتی در نظر گرفته شود."
+    },
+    "desktopShortcut": {
+      "title": "سرویس دسکتاپ وب سایت",
+      "description": "سرویس‌های وب سایت را برای دسکتاپ ایجاد کنید و آنها را به سرعت اجرا کنید",
+      "enterUrl": "لطفاً یک URL وب سایت معتبر وارد کنید",
+      "enterName": "لطفاً نام یک سرویس وارد کنید",
+      "redirectingTo": "در حال باز کردن {{name}}...",
+      "urlLabel": "URL وب سایت",
+      "urlPlaceholder": "example.com یا https://example.com",
+      "nameLabel": "نام سرویس",
+      "namePlaceholder": "سرویس وب سایت",
+      "downloadUrlFile": "دانلود فایل .url",
+      "downloadHtmlFile": "دانلود فایل .html",
+      "infoTitle": "دستورالعمل",
+      "urlFileDesc": "فایل‌های .url فایل‌های اینترنتی ویندوز هستند و معمولاً وب سایت هدف را مستقیماً در مرورگر پیش فرض شما باز می‌کنند.",
+      "htmlFileDesc": "فایل‌های .html در Windows، macOS و Linux کار می‌کنند و می‌توانند به عنوان لینک ساده وب سایت نیز استفاده شوند.",
+      "afterDownload": "پس از دانلود، فایل را به دسکتاپ خود منتقل کنید یا جایی که لازم است پین کنید."
+    },
+    "htmlPreview": {
+      "title": "نمایش HTML",
+      "description": "نوشتن و نمایش HTML آنلاین",
+      "defaultMessage": "خوش آمدید به ابزار نمایش HTML",
+      "editorTitle": "کد HTML",
+      "clear": "پاک کردن",
+      "editorPlaceholder": "کد HTML خود را اینجا وارد کنید...",
+      "previewTitle": "نمایش",
+      "run": "اجرای",
+      "fullscreen": "تمام صفحه",
+      "exitFullscreen": "خروج از تمام صفحه",
+      "usageTitle": "چگونگی استفاده",
+      "usageItems": [
+        "کد HTML کامل را در ویرایشگر سمت چپ وارد کنید",
+        "روی اجرای کلیک کنید تا نتیجه را نمایش دهید",
+        "CSS و JavaScript درون خطی پشتیبانی می‌شوند",
+        "کد داخل یک ساندبوک اجرا می‌شود برای امنیت"
+      ]
+    },
+    "pageRefresh": {
+      "title": "تازه سازی خودکار صفحه",
+      "description": "صفحه را به طور خودکار آنلاین تازه کنید",
+      "urlRequired": "لطفا یک URL وارد کنید",
+      "urlPlaceholder": "URL را وارد کنید مثلاً https://example.com",
+      "seconds": "ثانیه",
+      "start": "شروع",
+      "stop": "پایان",
+      "quickSet": "پیش‌فرض‌های سریع:",
+      "secondsValue": "{{count}} ثانیه",
+      "minutesValue": "{{count}} دقیقه",
+      "running": "در حال اجرا",
+      "refreshIn": "تازه سازی در {{count}} ثانیه",
+      "refreshedCount": "تازه سازی {{count}} بار",
+      "lastRefresh": "آخرین تازه سازی: {{time}}",
+      "previewTitle": "نمایش صفحه",
+      "previewPlaceholder": "URL را وارد کنید تا نمایش را شروع کنید",
+      "usageTitle": "چگونگی استفاده",
+      "usageItems": [
+        "URL صفحه را وارد کنید و بازه زمانی تازه سازی را تنظیم کنید",
+        "روی شروع کلیک کنید تا تازه سازی خودکار شروع شود",
+        "برخی وب سایت‌ها ممکن است داخل یک iframe نمایش داده نشوند به دلیل س polítیک‌های امنیتی",
+        "برای نظارت بر تغییرات صفحه یا حفظ جلسات فعال مفید است"
+      ]
+    },
+    "pxToRem": {
+      "title": "تبدیل PX به REM",
+      "description": "تبدیل چندگانه واحد PX در کد CSS به واحد REM",
+      "baseFontSize": "سایز فونت ریشه",
+      "precision": "دقت اعشاری",
+      "precisionOptions": {
+        "2": "2 رقم",
+        "3": "3 رقم",
+        "4": "4 رقم",
+        "5": "5 رقم"
+      },
+      "inputLabel": "کد CSS ورودی",
+      "convertToRem": "PX به REM",
+      "convertToPx": "REM به PX",
+      "outputLabel": "نتیجه",
+      "copy": "کپی کردن",
+      "copied": "کپی شد",
+      "outputPlaceholder": "نتیجه تبدیل اینجا نمایش داده خواهد شد...",
+      "quickReferenceTitle": "مرجع سریع (پایه: {{baseSize}}px)",
+      "whyUseRem": "چرا از REM استفاده کنیم؟",
+      "infoItems": [
+        "REM نسبت به سایز فونت ریشه (html) است",
+        "استفاده از REM باعث ساده‌تر شدن مقیاس‌بندی تایپوگرافی در سایت می‌شود",
+        "به طراحی پاسخ‌گو و دسترسی‌پذیر کمک می‌کند"
+      ],
+      "formula": "فرمول: rem = px / {{baseSize}}"
+    },
+    "shieldBadge": {
+      "title": "تولید کننده نشانه حفاظتی",
+      "description": "نشانه‌های SVG حفاظتی را به صورت آنلاین تولید کنید",
+      "downloadFailed": "دانلود ناموفق، لطفا بعدا دوباره تلاش کنید",
+      "basicSettings": "تنظیمات پایه",
+      "labelField": "برچسب",
+      "messageField": "پیام",
+      "color": "رنگ",
+      "style": "سیلوئت",
+      "logoSettings": "تنظیمات لوگو",
+      "logo": "لوگو",
+      "none": "هیچکدام",
+      "logoColor": "رنگ لوگو",
+      "preview": "نمایش",
+      "downloadSvg": "دانلود SVG",
+      "codeTitle": "کد",
+      "copiedToClipboard": "کپی شد به حافظه یادداشت"
+    },
+    "robotsGenerator": {
+      "title": "تولید کننده فایل robots.txt",
+      "description": "فایل‌های robots.txt را به صورت آنلاین تولید کنید",
+      "templatesLabel": "قالب‌های سریع:",
+      "templates": {
+        "allowAll": "همه را مجاز کن",
+        "blockAll": "همه را مسدود کن",
+        "standard": "پیکربندی استاندارد"
+      },
+      "ruleTitle": "قوانین {{index}}",
+      "userAgents": {
+        "all": "* (همه روبوت‌ها)",
+        "baidu": "Baiduspider (بایدو)",
+        "sogou": "سوگو"
+      },
+      "disallow": "مسیرهای مسدود شده",
+      "allow": "مسیرهای مجاز",
+      "add": "افزودن",
+      "addRule": "افزودن قانون",
+      "otherSettings": "تنظیمات دیگر",
+      "sitemapUrl": "آدرس سایت مپ",
+      "crawlDelay": "تاخیر چاپ (ثانیه)",
+      "preview": "نمایش robots.txt",
+      "copy": "کپی کردن",
+      "copied": "کپی شد",
+      "saveTip": "این فایل را به عنوان robots.txt ذخیره کنید و در دایرکتوری ریشه وب سایت قرار دهید"
+    },
+    "emailEncrypt": {
+      "title": "کدگذاری آدرس ایمیل",
+      "description": "آدرس ایمیل را کدگذاری کنید تا از اسکریپت‌های روبوت‌ها کمتر شود",
+      "inputLabel": "آدرس ایمیل",
+      "copy": "کپی کردن",
+      "copied": "کپی شد",
+      "infoTitle": "چرا آدرس ایمیل را کدگذاری کنیم؟",
+      "infoItems": [
+        " riske اسکریپت‌های روبوت‌ها برای اسپم کمتر می‌شود",
+        "ایمیل کدگذاری شده همچنان در مرورگر نمایش داده می‌شود اما برای روبوت‌ها تشخیص داده شدن سخت‌تر است",
+        "چندین روش کدگذاری می‌تواند برای امنیت بیشتر ترکیب شود",
+        "همچنین توصیه می‌شود از روشهای ضد اسپم سرور جانبی استفاده کنید"
+      ],
+      "results": {
+        "unicodeDecimal": {
+          "name": "Unicode عددی",
+          "description": "کاراکترها را به موجودیت‌های Unicode عددی تبدیل کنید"
+        },
+        "unicodeHex": {
+          "name": "Unicode دهدهی",
+          "description": "کاراکترها را به موجودیت‌های Unicode دهدهی تبدیل کنید"
+        },
+        "javascript": {
+          "name": "خروجی جاوا اسکریپت",
+          "description": "ایمیل را به صورت دینامیک با جاوا اسکریپت نمایش دهید"
+        },
+        "mailto": {
+          "name": "لینک mailto",
+          "description": "یک لینک mailto کدگذاری شده ایجاد کنید"
+        },
+        "cssReverse": {
+          "name": "معکوس نمایش CSS",
+          "description": "متن را با استفاده از CSS به ترتیب معکوس نمایش دهید"
+        }
+      }
+    },
+    "workerDemo": {
+      "title": "نمونه عملکرد Web Worker",
+      "description": "عملکرد محاسباتی را بین Web Worker و ترد اصلی مقایسه کنید",
+      "invalidInteger": "لطفا یک عدد صحیح مثبت وارد کنید",
+      "workerError": "خطای محاسبات Web Worker:",
+      "notice": "اعلام",
+      "settingsTitle": "تنظیمات محاسبات",
+      "inputLabel": "مقدار ورودی",
+      "inputPlaceholder": "یک عدد صحیح مثبت وارد کنید",
+      "operationLabel": "عملیات",
+      "operations": {
+        "factorial": "فاکتوریل (n!)",
+        "fibonacci": "دنباله فیبوناچی",
+        "prime": "بررسی اول بودن",
+        "factorization": "تجزیه عوامل اول"
+      },
+      "workerCalculate": "محاسبه با Web Worker",
+      "mainThreadCalculate": "محاسبه در ترد اصلی",
+      "comparisonTitle": "مقایسه عملکرد",
+      "workerResult": "نتیجه Web Worker",
+      "mainThreadResult": "نتیجه ترد اصلی",
+      "resultLabel": "نتیجه:",
+      "timeLabel": "زمان محاسبات:",
+      "calculating": "در حال محاسبه...",
+      "emptyState": "روی یک دکمه بالا کلیک کنید تا محاسبه شروع شود",
+      "infoTitle": "چرا از Web Workers استفاده کنیم؟",
+      "workerFeaturesTitle": "ویژگی‌های Web Worker",
+      "workerFeatures": [
+        "در یک ترد پس زمینه اجرا می‌شود بدون مسدود کردن ترد اصلی",
+        "برای وظایف محاسباتی سنگین مناسب است",
+        "UI را پاسخگو نگه می‌دارد",
+        "پردازش موازی را پشتیبانی می‌کند"
+      ],
+      "useCasesTitle": "کاربردها",
+      "useCases": [
+        "پردازش داده‌های بزرگ",
+        "الگوریتم‌های پیچیده",
+        "پردازش تصویر",
+        "رمزنگاری و رمزگشایی"
+      ]
+    },
+    "jsDebug": {
+      "title": "دیباگر جاوا اسکریپت",
+      "description": "اجرای و اشکال زدایی JavaScript آنلاین",
+      "defaultCode": "// در اینجا کد JavaScript خود را بنویسید\nconsole.log(\"سلام دنیا\");\n\n// مثال: عملیات روی آرایه\nconst numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(n => n * 2);\nconsole.log(\"آرایه اصلی:\", numbers);\nconsole.log(\"دو برابر شده:\", doubled);\n\n// مثال: شیء\nconst user = {\n  name: \"چن سان\",\n  age: 25,\n  city: \"پکن\"\n};\nconsole.log(\"اطلاعات کاربر:\", user);\n\n// مثال: عملیات غیرهمزمان\nsetTimeout(() => {\n  console.log(\"اجرای پس از یک ثانیه\");\n}, 1000);",
+      "editorTitle": "کد JavaScript",
+      "copy": "کپی کردن",
+      "copied": "کپی شد!",
+      "clear": "پاک کردن",
+      "placeholder": "کد JavaScript خود را اینجا وارد کنید...",
+      "run": "اجرا کردن کد",
+      "consoleTitle": "خروجی کنسول",
+      "consolePlaceholder": "خروجی کنسول اینجا نمایش داده خواهد شد...",
+      "usageTitle": "چگونگی استفاده",
+      "usageItems": [
+        "از console.log(), console.error() و console.warn() برای چاپ پیام‌ها استفاده کنید",
+        "ساختارهای ES6+ مانند توابع فلش، تفکیک و رشته‌های الگو را پشتیبانی می‌کند",
+        "عملیات‌های غیرهمزمان مانند setTimeout و Promise را پشتیبانی می‌کند",
+        "کد در یک محیط قفل شده اجرا می‌شود و نمی‌تواند به DOM یا منابع خارجی دسترسی داشته باشد"
+      ]
+    },
+    "formValidationDemo": {
+      "title": "نمونه اعتبارسنجی فرم",
+      "description": "نمایش کامل اعتبارسنجی فرم، شامل اعتبارسنجی زنده، پیام‌های خطا و تمیز کردن داده‌ها",
+      "validation": {
+        "username": "نام کاربری فقط می‌تواند شامل حروف، اعداد و خط زیر باشد و باید 3 تا 20 کاراکتر باشد",
+        "phone": "لطفاً یک شماره موبایل معتبر وارد کنید",
+        "age": "سن باید بین 1 تا 120 باشد",
+        "idCard": "لطفاً یک شماره کارت ملی معتبر وارد کنید",
+        "address": "آدرس باید کمتر از 200 کاراکتر باشد",
+        "bio": "بیوگرافی باید کمتر از 500 کاراکتر باشد"
+      },
+      "submitSuccess": "اعتبارسنجی فرم موفق بود! داده‌های ارسال شده:",
+      "quickTestTitle": "آزمایش‌های سریع اعتبارسنجی",
+      "quickLabels": {
+        "email": "اعتبارسنجی ایمیل",
+        "phone": "اعتبارسنجی شماره تلفن",
+        "url": "اعتبارسنجی URL"
+      },
+      "quickPlaceholders": {
+        "email": "ایمیل را وارد کنید",
+        "phone": "شماره تلفن را وارد کنید",
+        "url": "URL را وارد کنید"
+      },
+      "valid": "معتبر",
+      "invalid": "غیرمعتبر",
+      "formTitle": "اعتبارسنجی فرم کامل",
+      "placeholders": {
+        "username": "نام کاربری (حروف، اعداد، خط زیر)",
+        "email": "آدرس ایمیل",
+        "phone": "شماره موبایل",
+        "website": "وبسایت شخصی (اختیاری)",
+        "age": "سن",
+        "idCard": "شماره کارت ملی",
+        "address": "آدرس جزئیات (اختیاری)",
+        "bio": "بیوگرافی (اختیاری، حداکثر 500 کاراکتر)"
+      },
+      "success": {
+        "username": "فرمت نام کاربری معتبر است",
+        "email": "فرمت ایمیل معتبر است",
+        "phone": "فرمت شماره تلفن معتبر است",
+        "website": "فرمت URL معتبر است",
+        "age": "سن معتبر است",
+        "idCard": "فرمت کارت ملی معتبر است",
+        "address": "آدرس معتبر است",
+        "bio": "بیوگرافی معتبر است"
+      },
+      "submit": "ارسال فرم",
+      "summaryTitle": "خلاصه اعتبارسنجی",
+      "fieldLabels": {
+        "username": "نام کاربری",
+        "email": "ایمیل",
+        "phone": "تلفن",
+        "website": "وبسایت",
+        "age": "سن",
+        "idCard": "کارت ملی",
+        "address": "آدرس",
+        "bio": "بیوگرافی"
+      },
+      "summaryStatus": {
+        "failed": "اعتبارسنجی ناموفق بود",
+        "passed": "اعتبارسنجی موفق بود",
+        "empty": "پر نشده"
+      },
+      "infoTitle": "ویژگی‌های اعتبارسنجی فرم",
+      "infoItems": [
+        {
+          "title": "اعتبارسنجی زنده",
+          "description": "فرمت را هنگام تایپ بررسی می‌کند و دوباره در زمان چشمک زدن بررسی می‌شود"
+        },
+        {
+          "title": "نوع‌های قاعده چندگانه",
+          "description": "پشتیبانی از فیلدهای الزامی، بررسی طول، عبارات منظم و اعتبارسنجی سفارشی"
+        },
+        {
+          "title": "بازخورد بصری",
+          "description": "وضعیت اعتبارسنجی را با رنگ‌ها، ایکون‌ها و پیام‌ها به وضوح نشان می‌دهد"
+        },
+        {
+          "title": "تمیز کردن داده‌ها",
+          "description": "داده‌های ارسال شده را به طور خودکار تمیز و استاندارد می‌کند"
+        },
+        {
+          "title": "پیام‌های خطا مفید",
+          "description": "راهنمایی‌های کاربر دوستانه برای اصلاح ورودی ارائه می‌دهد"
+        },
+        {
+          "title": "پشتیبانی از دسترسی‌پذیری",
+          "description": "به حفظ قابلیت استفاده فرم برای تمام کاربران کمک می‌کند"
+        }
+      ]
+    },
+    "faviconGenerator": {
+      "title": "سازنده فاوانیک",
+      "description": "تصاویر را به عنوان یک فاوانیک وب سایت تبدیل کنید",
+      "historyTitle": "سازنده فاوانیک",
+      "historyCategory": "ابزارهای تصویر",
+      "uploadImageFile": "لطفاً یک فایل تصویر را بارگذاری کنید",
+      "generateFailed": "ایکون ساخته نشد، لطفاً دوباره سعی کنید",
+      "uploadTitle": "بارگذاری تصویر",
+      "uploadAria": "یک فایل تصویر بارگذاری کنید",
+      "dropzoneAria": "روی اینجا کلیک کنید تا تصویر را بارگذاری کنید، پشتیبانی از PNG، JPG، SVG و بیشتر",
+      "dropRelease": "حرکت دهید تا تصویر را بارگذاری کنید",
+      "dropClick": "روی اینجا کلیک یا یک تصویر را بکشید",
+      "supportFormats": "PNG، JPG، SVG و بیشتر را پشتیبانی می‌کند",
+      "clearImage": "پاک کردن تصویر",
+      "clearImageTitle": "پاک کردن تصویر (Ctrl+L)",
+      "settingsTitle": "تنظیمات",
+      "removeBackground": "حذف رنگ پس زمینه تصویر",
+      "removeColor": "رنگی که باید حذف شود",
+      "removeColorPicker": "رنگ پس زمینه را انتخاب کنید که باید حذف شود",
+      "removeColorValue": "مقدار رنگ پس زمینه که باید حذف شود",
+      "tolerance": "تحلیل: {{value}}",
+      "toleranceAria": "تحلیل رنگ",
+      "toleranceTip": "تحلیل بالاتر رنگ‌های بیشتری را حذف می‌کند",
+      "transparentBackground": "پس زمینه شفاف",
+      "transparentTip": "توضیح: اگر تصویر اصلی رنگ پس زمینه داشته باشد، لطفاً ?حذف رنگ پس زمینه تصویر? را فعال کنید.",
+      "backgroundColor": "رنگ پس زمینه",
+      "backgroundColorPicker": "یک رنگ پس زمینه انتخاب کنید",
+      "backgroundColorValue": "مقدار رنگ پس زمینه",
+      "selectSize": "سایزهای انتخابی",
+      "selectedState": " (انتخاب شده)",
+      "sizeAria": "{{size}}x{{size}} سایز پیکسل{{state}}",
+      "toggleSizeTitle": "تغییر سایز {{size}}x{{size}} (Alt+{{shortcut}})",
+      "previewTitle": "پیش نمایش",
+      "generating": "در حال ساخت...",
+      "downloadSizeAria": "دریافت {{size}}x{{size}} ایکون",
+      "download": "دریافت",
+      "uploadFirst": "لطفاً ابتدا یک تصویر بارگذاری کنید",
+      "downloadTitle": "دریافت",
+      "downloadAllPng": "دریافت تمام سایزها (PNG)",
+      "downloadAllPngTitle": "دریافت تمام سایزهای PNG (Ctrl+Enter)",
+      "downloadIco": "دریافت favicon.ico",
+      "downloadIcoTitle": "دریافت favicon.ico (Alt+I)",
+      "usageTitle": "چگونگی استفاده",
+      "usageItems": [
+        "حذف رنگ پس زمینه: رنگ‌های صاف مانند خاکستری یا سفید را حذف می‌کند",
+        "تحلیل: افزایش تحلیل برای حذف رنگ‌های مشابه، مفید برای پس زمینه‌های گرادیانی است",
+        "16x16: ایکون نوار مرورگر",
+        "32x32: ایکون مسیر چند کاربری",
+        "48x48: ایکون وب سایت در ویندوز",
+        "ایکون تولید شده را در دایرکتوری ریشه وب سایت قرار دهید"
+      ]
+    }
+  },
+  "components": {
+    "toolHistory": {
+      "usageCount": "استفاده شده {{count}} بار",
+      "recentUsed": "آخرین استفاده: {{value}}",
+      "removeFavorite": "حذف از علاقه مندی‌ها",
+      "addFavorite": "افزودن به علاقه مندی‌ها",
+      "removeRecord": "حذف رکورد",
+      "emptyHistory": "هیچ تاریخچه ابزاری وجود ندارد",
+      "confirmClear": "آیا مطمئن هستید که می‌خواهید تمام تاریخچه ابزار را پاک کنید؟",
+      "tabs": {
+        "recent": "اخیر",
+        "favorites": "علاقه مندی‌ها",
+        "mostUsed": "پرکاربردترین"
+      },
+      "title": "تاریخچه ابزار",
+      "clearHistory": "پاک کردن تاریخچه",
+      "searchPlaceholder": "جستجوی تاریخچه...",
+      "emptyMessages": {
+        "recent": "رکورد استفاده اخیری وجود ندارد",
+        "favorites": "هیچ ابزار علاقه مندی وجود ندارد",
+        "mostUsed": "هیچ ابزار پرکاربرد وجود ندارد"
+      }
+    },
+    "exportFormatSelector": {
+      "buttonText": "صادر کردن نتایج",
+      "exporting": "در حال صادر کردن...",
+      "exportFailed": "صادر کردن ناموفق بود، لطفاً دوباره سعی کنید"
+    },
+    "ads": {
+      "loading": "در حال بارگذاری اعلان‌ها...",
+      "carouselTitle": "چراغ دوچرخه اعلان",
+      "checkConsole": "لطفاً لاگ‌های دقیق را در کنسول مرورگر بررسی کنید"
+    },
+    "networkStatus": {
+      "online": "آنلاین",
+      "offline": "آفلاین",
+      "connected": "شبکه متصل است",
+      "disconnected": "شبکه قطع شده است",
+      "connectedDescription": "تمام ویژگی‌ها در دسترس هستند",
+      "disconnectedDescription": "برخی از ویژگی‌ها ممکن است غیر فعال باشند. لطفاً اتصال شبکه خود را بررسی کنید.",
+      "requestFailed": "درخواست ناموفق بود"
+    },
+    "keyboardShortcutsHelp": {
+      "title": "دکمه‌های میان‌بر",
+      "close": "بستن",
+      "toggleDescription": "نمایش یا پنهان کردن کمک‌های دکمه‌های میان‌بر",
+      "helpTextBefore": "فشار دهید",
+      "helpTextMiddle": "یا",
+      "helpTextAfter": "برای نمایش یا پنهان کردن این کمک",
+      "tipTitle": "نصیحه‌ها",
+      "tipItems": [
+        "برچسب‌های دکمه‌های میان‌بر ممکن است در سیستم‌های عامل مختلف کمی متفاوت به نظر برسند",
+        "برخی از دکمه‌های میان‌بر ممکن است با دکمه‌های میان‌بر مرورگر تداخل داشته باشند",
+        "از کلید Tab برای حرکت بین عناصر قابل فوکوس استفاده کنید",
+        "کلید Enter را فشار دهید تا دکمه‌ها و لینک‌ها فعال شوند"
+      ],
+      "closeEsc": "بستن (ESC)"
+    },
+    "performanceDashboard": {
+      "title": "داشبورد عملکرد",
+      "startMonitoring": "شروع نظارت",
+      "stopMonitoring": "پایان نظارت",
+      "exportReport": "صادر کردن گزارش",
+      "notMeasured": "اندازه‌گیری نشده",
+      "metrics": {
+        "fcp": "اولین پیکسل محتوا",
+        "lcp": "بزرگترین پیکسل محتوا",
+        "fid": "تاخیر اولین ورودی",
+        "cls": "تغییر جایگاه تجمعی",
+        "ttfb": "زمان تا اولین بایت"
+      },
+      "memoryTitle": "مصرف حافظه",
+      "memory": {
+        "used": "حافظه مورد استفاده",
+        "total": "کل حافظه",
+        "usageRate": "نرخ مصرف"
+      },
+      "tipsTitle": "نکات بهینه‌سازی",
+      "tips": [
+        "همانند استفاده عادی از برنامه در حال نظارت؛ داده‌ها به صورت زنده به روز می‌شوند",
+        "FCP کمتر از 1.8 ثانیه، LCP کمتر از 2.5 ثانیه، FID کمتر از 100 میلی‌ثانیه و CLS کمتر از 0.1 به عنوان فوق‌العاده در نظر گرفته می‌شود",
+        "اگر مصرف حافظه بیش از 80% باشد، بهینه‌سازی کد را در نظر بگیرید",
+        "شما می‌توانید یک گزارش دقیق را صادر کنید برای تحلیل عمیق‌تر"
+      ],
+      "emptyState": "روی ?شروع نظارت? کلیک کنید تا تحلیل عملکرد را شروع کنید"
+    }
+  }
+}

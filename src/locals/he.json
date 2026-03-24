@@ -1,0 +1,2730 @@
+{
+  "common": {
+    "home": "בית",
+    "websiteDetection": "בדיקה של אתרי אינטרנט",
+    "seoTools": "เครื่องมือ SEO",
+    "devTools": "เครื่องมือนักพัฒนา",
+    "encodingConversion": "เครื่องมือแปลงการเข้ารหัส",
+    "otherTools": "เครื่องมืออื่น ๆ",
+    "feedback": "ข้อเสนอแนะ",
+    "customization": "โซลูชันที่ปรับแต่งได้ / ติดต่อเรา",
+    "back": "กลับ",
+    "appName": "เครื่องมือสำหรับเว็บมาสเตอร์แบบครบวงจร",
+    "brandName": "ผลิตภัณฑ์ของ A Kunqiong",
+    "loading": "กำลังโหลด...",
+    "processing": "กำลังประมวลผล",
+    "processingDescription": "กรุณารอสักครู่ขณะที่เราประมวลผลข้อมูลของคุณ...",
+    "inProgress": "กำลังดำเนินการ",
+    "search": "เครื่องมือค้นหา...",
+    "my": "ของฉัน",
+    "menu": "เมนู",
+    "settings": "การตั้งค่า",
+    "all": "ทั้งหมด",
+    "category": "ประเภท",
+    "noToolsFound": "ไม่พบเครื่องมือที่ตรงกัน",
+    "recommended": "แนะนำ",
+    "usageCount": "ใช้ {{count}} ครั้ง",
+    "toolsCount": "{{count}} เครื่องมือ",
+    "export": "ส่งออก",
+    "usageInstructions": "คำแนะนำการใช้งาน"
+  },
+  "auth": {
+    "login": "เข้าสู่ระบบ",
+    "logout": "ออกจากระบบ",
+    "userInfo": "ข้อมูลผู้ใช้",
+    "nickname": "ชื่อเล่น",
+    "avatar": "รูปโปรไฟล์",
+    "user": "ผู้ใช้",
+    "loggedIn": "เข้าสู่ระบบแล้ว",
+    "loggingOut": "กำลังออกจากระบบ...",
+    "loggingIn": "กำลังเข้าสู่ระบบ...",
+    "loginInstructions": "โปรดดำเนินการเข้าสู่ระบบในเบราว์เซอร์ของคุณ",
+    "cancelLogin": "ยกเลิกการเข้าสู่ระบบ",
+    "loginFailed": "การเข้าสู่ระบบล้มเหลว",
+    "retry": "ลองใหม่",
+    "close": "ปิด",
+    "loginDescription": "คลิกปุ่มด้านล่างเพื่อเปิดหน้าเข้าสู่ระบบในเบราว์เซอร์ของคุณ หลังจากที่คุณดำเนินการเข้าสู่ระบบเสร็จแล้ว แอปจะซิงค์สถานะการเข้าสู่ระบบของคุณโดยอัตโนมัติ",
+    "loginTip": "เคล็ดลับ: ให้แน่ใจว่าเบราว์เซอร์ยังคงเปิดอยู่ระหว่างกระบวนการเข้าสู่ระบบ",
+    "openBrowserLogin": "เปิดหน้าเข้าสู่ระบบในเบราว์เซอร์",
+    "cancel": "ยกเลิก",
+    "loginReminder": "เตือนการเข้าสู่ระบบ",
+    "loginRequiredTitle": "จำเป็นต้องเข้าสู่ระบบ",
+    "loginRequiredDescription": "คุณต้องเข้าสู่ระบบก่อนที่จะใช้คุณสมบัตินี้ หลังจากเข้าสู่ระบบแล้ว คุณสามารถใช้บริการทั้งหมดได้อย่างเต็มที่",
+    "loginActionDescription": "คลิกปุ่มด้านล่างเพื่อเปิดหน้าเข้าสู่ระบบ จากนั้นดำเนินการเข้าสู่ระบบที่นั่น",
+    "loginNow": "เข้าสู่ระบบตอนนี้",
+    "loginBenefit": "เข้าสู่ระบบเพื่อใช้คุณสมบัติทั้งหมด",
+    "errors": {
+      "getLoginUrlFailed": "ไม่สามารถรับ URL การเข้าสู่ระบบได้: {{message}}",
+      "getLoginUrlException": "เกิดข้อผิดพลาดขณะรับ URL การเข้าสู่ระบบ: {{error}}",
+      "loginCancelled": "การเข้าสู่ระบบถูกยกเลิก",
+      "pollingAbnormal": "การสอบถามคืนค่าผิดปกติ: {{message}}",
+      "pollingFailed": "การสอบถามล้มเหลว: {{error}}",
+      "loginTimeout": "การเข้าสู่ระบบหมดเวลา",
+      "checkLoginStatusFailed": "ตรวจสอบสถานะการเข้าสู่ระบบล้มเหลว โค้ดสถานะ: {{status}}",
+      "checkLoginException": "เกิดข้อผิดพลาดขณะตรวจสอบสถานะการเข้าสู่ระบบ",
+      "getUserInfoFailed": "ไม่สามารถรับข้อมูลผู้ใช้ได้: {{message}}",
+      "getUserInfoException": "เกิดข้อผิดพลาดขณะรับข้อมูลผู้ใช้: {{error}}",
+      "logoutFailed": "การออกจากระบบล้มเหลว: {{message}}",
+      "logoutException": "เกิดข้อผิดพลาดขณะออกจากระบบ: {{error}}",
+      "getFeedbackUrlFailed": "ไม่สามารถรับ URL ข้อเสนอแนะได้: {{message}}",
+      "getFeedbackUrlException": "เกิดข้อผิดพลาดขณะรับ URL ข้อเสนอแนะ: {{error}}"
+    }
+  },
+  "favorite": {
+    "add": "เพิ่มไปยังรายการโปรด",
+    "remove": "ลบออกจากรายการโปรด",
+    "label": "รายการโปรด",
+    "failed": "การดำเนินการล้มเหลว"
+  },
+  "errors": {
+    "fetchCustomUrlFailed": "ไม่สามารถดึง URL หน้ากำหนดเองได้:",
+    "fetchFeedbackUrlFailed": "ไม่สามารถดึง URL หน้าข้อเสนอแนะได้:",
+    "copyFailed": "การคัดลอกล้มเหลว",
+    "networkError": "ข้อผิดพลาดของการเชื่อมต่อเครือข่าย",
+    "somethingWentWrong": "บางอย่างผิดพลาด",
+    "unexpectedError": "ขออภัย ได้เกิดข้อผิดพลาดที่ไม่คาดคิด",
+    "noData": "ไม่มีข้อมูล",
+    "noRelatedData": "ไม่พบข้อมูลที่เกี่ยวข้อง",
+    "noAds": "ไม่มีโฆษณา",
+    "fetchAdsError": "ไม่สามารถดึงโฆษณาได้",
+    "lookupFailed": "การค้นหาล้มเหลว"
+  },
+  "tools": {
+    "csr": {
+      "title": "ตัวสร้างและผู้ดู CSR",
+      "description": "สร้างและดูไฟล์ CSR ออนไลน์"
+    },
+    "whois": {
+      "title": "การค้นหา WHOIS ของโดเมน",
+      "description": "ตรวจสอบข้อมูล WHOIS และรายละเอียดการลงทะเบียนโดเมนออนไลน์"
+    },
+    "dns": {
+      "title": "การค้นหา DNS Record",
+      "description": "ค้นหา DNS Records ออนไลน์ (A, MX, CNAME, etc.)"
+    },
+    "dnsEnhanced": {
+      "title": "การค้นหา DNS Record (แบบปรับปรุง)",
+      "description": "การค้นหา DNS พร้อมการปรับปรุงการเลื่อนด้วยการเสมือนสำหรับชุดข้อมูลขนาดใหญ่"
+    },
+    "httpStatus": {
+      "title": "เครื่องมือตรวจสอบสถานะ HTTP",
+      "description": "เครื่องมือฟรีสำหรับตรวจสอบรหัสสถานะ HTTP ของหน้าเว็บ"
+    },
+    "gzip": {
+      "title": "เครื่องมือตรวจสอบการบีบอัด GZIP",
+      "description": "ตรวจสอบว่าหน้าเว็บถูกบีบอัดด้วย GZIP หรือไม่ และดูอัตราการบีบอัด"
+    },
+    "ssl": {
+      "title": "เครื่องมือตรวจสอบใบรับรอง SSL",
+      "description": "ตรวจสอบรายละเอียดและอายุของใบรับรอง SSL ออนไลน์"
+    },
+    "browserInfo": {
+      "title": "ข้อมูลเบราว์เซอร์",
+      "description": "เครื่องมือฟรีสำหรับดูข้อมูลรายละเอียดเกี่ยวกับเบราว์เซอร์ปัจจุบันของคุณ"
+    },
+    "useragent": {
+      "title": "ตัววิเคราะห์ User-Agent",
+      "description": "วิเคราะห์ข้อมูลเบราว์เซอร์และอุปกรณ์จากสายอักขระ User-Agent"
+    },
+    "websocket": {
+      "title": "ตัวทดสอบ WebSocket",
+      "description": "เครื่องมือทดสอบ API WebSocket ฟรีออนไลน์"
+    },
+    "viewSource": {
+      "title": "ดูแหล่งที่มาของหน้า",
+      "description": "ดูโค้ดแหล่งที่มาของหน้าเว็บออนไลน์"
+    },
+    "metaGenerator": {
+      "title": "ตัวสร้างแท็ก META",
+      "description": "สร้างแท็ก META ของหน้าเว็บออนไลน์"
+    },
+    "metaCheck": {
+      "title": "ตรวจสอบแท็ก META",
+      "description": "ตรวจสอบข้อมูลแท็ก META บนหน้าเว็บ"
+    },
+    "robots": {
+      "title": "ตัวสร้าง robots.txt",
+      "description": "สร้างไฟล์ robots.txt ออนไลน์"
+    },
+    "emailEncrypt": {
+      "title": "ตัวเข้ารหัสที่อยู่อีเมล",
+      "description": "แปลงที่อยู่อีเมลเป็นรูปแบบที่เข้ารหัสเพื่อลดการรวบรวม"
+    },
+    "phpReference": {
+      "title": "รายการอ้างอิงฟังก์ชัน PHP",
+      "description": "รายการอ้างอิงฟังก์ชัน PHP ออนไลน์"
+    },
+    "htmlPreview": {
+      "title": "การดูตัวอย่าง HTML",
+      "description": "เครื่องมือแก้ไขและดูตัวอย่าง HTML ออนไลน์"
+    },
+    "jsDebug": {
+      "title": "ตัวตรวจสอบ JavaScript",
+      "description": "ทำงานและตรวจสอบ JavaScript ออนไลน์"
+    },
+    "shieldBadge": {
+      "title": "ตัวสร้างป้าย Shield",
+      "description": "สร้างป้าย Shield SVG ออนไลน์"
+    },
+    "favicon": {
+      "title": "ตัวสร้าง Favicon",
+      "description": "เครื่องมือแปลง Favicon ที่ปลอดภัยออนไลน์"
+    },
+    "cssGlassmorphism": {
+      "title": "ตัวสร้าง CSS Glassmorphism",
+      "description": "สร้างโค้ด CSS Glassmorphism ได้ในหนึ่งคลิก"
+    },
+    "cssNeumorphism": {
+      "title": "ตัวสร้าง CSS Neumorphism",
+      "description": "สร้างตัวอย่างสไตล์ Neumorphism CSS ได้ในหนึ่งคลิก"
+    },
+    "pxToRem": {
+      "title": "ตัวแปลง PX เป็น REM",
+      "description": "แปลงหน่วย PX ใน CSS เป็น REM แบบแบตช์"
+    },
+    "cssBorderRadius": {
+      "title": "ตัวสร้าง Border Radius CSS",
+      "description": "ปรับแต่งสไตล์ขอบวงกลมออนไลน์"
+    },
+    "cssTextShadow": {
+      "title": "ตัวสร้าง Text Shadow CSS",
+      "description": "ดูตัวอย่างและสร้างโค้ด text-shadow CSS ออนไลน์"
+    },
+    "cssBoxShadow": {
+      "title": "ตัวสร้าง Box Shadow",
+      "description": "ปรับแต่งเงาของ div และสร้างโค้ด CSS"
+    },
+    "base64": {
+      "title": "การเข้ารหัส/ถอดรหัส Base64",
+      "description": "เครื่องมือเข้ารหัสและถอดรหัส Base64 ออนไลน์"
+    },
+    "urlEncode": {
+      "title": "การเข้ารหัส/ถอดรหัส URL",
+      "description": "เครื่องมือเข้ารหัสและถอดรหัส URL ออนไลน์"
+    },
+    "htmlEntity": {
+      "title": "การเข้ารหัส/ถอดรหัส Entity HTML",
+      "description": "เครื่องมือเข้ารหัสและถอดรหัส Entity HTML ออนไลน์"
+    },
+    "jsMinify": {
+      "title": "JS Minify & Beautify",
+      "description": "เครื่องมือ Minify และ Beautify JavaScript ออนไลน์"
+    },
+    "cssMinify": {
+      "title": "CSS Minify & Beautify",
+      "description": "เครื่องมือ Minify และ Beautify CSS ออนไลน์"
+    },
+    "desktopShortcut": {
+      "title": "ไอคอนเดสก์ท็อปสำหรับเว็บไซต์",
+      "description": "สร้างไอคอนเดสก์ท็อปสำหรับเว็บไซต์เพื่อเข้าถึงได้เร็ว"
+    },
+    "pageRefresh": {
+      "title": "การรีเฟรชหน้าอัตโนมัติ",
+      "description": "รีเฟรชหน้าเว็บระยะไกลตามตารางเวลา"
+    },
+    "httpCodes": {
+      "title": "รหัสสถานะ HTTP",
+      "description": "อ้างอิงออนไลน์สำหรับรหัสสถานะ / คำตอบ HTTP"
+    },
+    "workerDemo": {
+      "title": "สาธิตประสิทธิภาพ Web Worker",
+      "description": "ดูว่า Web Workers ช่วยเพิ่มประสิทธิภาพสำหรับงานหนักได้อย่างไร"
+    },
+    "formValidation": {
+      "title": "הצגת אימות טופס",
+      "description": "מציג אימות טופס מלא עם משוב חי"
+    }
+  },
+  "categories": {
+    "detection": "בדיקות אתרי וيب",
+    "seo": "เครื่องมือ SEO",
+    "dev": "เครื่องมือพัฒนา",
+    "encode": "เครื่องมือการเข้ารหัส",
+    "other": "เครื่องมืออื่น ๆ"
+  },
+  "kunqiongNav": {
+    "home": "בית",
+    "aiTools": "เครื่องมือ AI",
+    "office": "สำนักงาน",
+    "multimedia": "สื่อหลายรูปแบบ",
+    "development": "เครื่องมือพัฒนา",
+    "text": "ข้อความ",
+    "file": "ไฟล์",
+    "system": "ระบบ",
+    "life": "ชีวิต",
+    "news": "ข่าว AI",
+    "custom": "ซอฟต์แวร์เฉพาะ",
+    "consult": "ที่ปรึกษา",
+    "industryNews": "ข่าวอุตสาหกรรม",
+    "feedback": "ข้อเสนอแนะ",
+    "imageGen": "การสร้างภาพ",
+    "codeDev": "โค้ด & การพัฒนา",
+    "logoAlt": "กล่องเครื่องมือ AI Kunqiong",
+    "footerLogoAlt": "Kunqiong AI",
+    "loginRegister": "เข้าสู่ระบบ / ลงทะเบียน",
+    "navExpandAria": "ขยาย",
+    "navSearchAria": "ค้นหา",
+    "navMenuAria": "เมนู"
+  },
+  "footer": {
+    "description": "กล่องเครื่องมือครบวงจรสำหรับผู้ดูแลเว็บที่มีเครื่องมือตรวจสอบเว็บไซต์ เครื่องมือ SEO เครื่องมือพัฒนา และอื่น ๆ อีกมากมาย",
+    "kunqiongBrandDesc": "เราให้ความสำคัญกับการให้บริการเครื่องมือ AI คุณภาพสูงและบริการที่ปรึกษาแก่บุคคลและองค์กร เพื่อช่วยให้คุณแข่งขันได้ในยุคของปัญญาประดิษฐ์",
+    "toolCategories": "ประเภทเครื่องมือ",
+    "quickLinks": "ลิงก์เร็ว",
+    "contactTitle": "ติดต่อเรา",
+    "contactCompany": "บริษัท Hezhou Star Technology Co., Ltd. จังหวัดเจียงซี",
+    "contactPhone": "17770307066",
+    "contactRegion": "ซางราโอ จังหวัดเจียงซี ประเทศจีน",
+    "contactEmail": "11247931@qq.com",
+    "copyrightLine": "© 2026 Kunqiong AI Tools. สงวนลิขสิทธิ์ทั้งหมด",
+    "userAgreement": "เงื่อนไขการใช้งาน",
+    "privacyPolicy": "นโยบายความเป็นส่วนตัว",
+    "brandAI": "ผลิตภัณฑ์ Kunqiong AI",
+    "brandAlt": "Kunqiong"
+  },
+  "validation": {
+    "required": "{{field}} เป็นสิ่งจำเป็น",
+    "minLength": "{{field}} ต้องมีอย่างน้อย {{count}} ตัวอักษร",
+    "maxLength": "{{field}} สามารถมีได้ไม่เกิน {{count}} ตัวอักษร",
+    "invalidFormat": "{{field}} มีรูปแบบที่ไม่ถูกต้อง",
+    "email": "โปรดระบุอีเมลที่ถูกต้อง",
+    "url": "โปรดระบุ URL ที่ถูกต้อง",
+    "domain": "โปรดระบุโดเมนที่ถูกต้อง",
+    "ip": "โปรดระบุที่อยู่ IP ที่ถูกต้อง",
+    "phone": "โปรดระบุเบอร์โทรศัพท์ที่ถูกต้อง",
+    "password": "รหัสผ่านต้องมีตัวอักษรพิมพ์ใหญ่ ตัวอักษรพิมพ์เล็ก และตัวเลข และมีความยาว 6-20 ตัวอักษร"
+  },
+  "exporter": {
+    "unsupportedFormat": "รูปแบบการส่งออกที่ไม่รองรับ: {{format}}",
+    "csvRequiresArrayOrObject": "การส่งออก CSV ต้องใช้อาร์เรย์หรือวัตถุ",
+    "toolUsageInfo": "ข้อมูลการใช้งานเครื่องมือ",
+    "tool": "เครื่องมือ",
+    "time": "เวลา",
+    "url": "כתובת אתר",
+    "version": "เวอร์ชัน",
+    "dnsReportTitle": "รายงานการค้นหา DNS",
+    "dnsReportDescription": "ข้อมูลการบันทึก DNS แบบละเอียด",
+    "summaryTitle": "สรุป",
+    "domain": "โดเมน",
+    "recordCount": "จำนวนบันทึกทั้งหมด",
+    "recordCountValue": "{{count}} บันทึก",
+    "queryTime": "เวลาการสอบถาม",
+    "typeDescriptions": {
+      "A": "บันทึกที่อยู่ IPv4",
+      "AAAA": "บันทึกที่อยู่ IPv6",
+      "MX": "บันทึกเซิร์ฟเวอร์อีเมล",
+      "TXT": "บันทึกข้อความ",
+      "CNAME": "บันทึกชื่อทางลัด",
+      "NS": "บันทึกเซิร์ฟเวอร์ชื่อ",
+      "SOA": "บันทึกผู้เชี่ยวชาญ"
+    },
+    "record": "บันทึก",
+    "otherRecords": "บันทึกอื่น ๆ",
+    "recordIndex": "บันทึก {{index}}",
+    "priority": "ลำดับความสำคัญ",
+    "class": "คลาส",
+    "exportData": "ข้อมูลที่ส่งออก",
+    "dnsToolName": "เครื่องมือค้นหา DNS",
+    "exportInfo": "ข้อมูลการส่งออก",
+    "exportTime": "เวลาการส่งออก",
+    "formats": {
+      "json": "รูปแบบข้อมูลที่โครงสร้าง สะดวกสำหรับโปรแกรมให้ประมวลผล",
+      "csv": "รูปแบบที่เหมาะกับสเปรดชีต เหมาะสมสำหรับการนำเข้า Excel",
+      "txt": "รูปแบบข้อความธรรมดา ง่ายต่อการอ่าน",
+      "xml": "รูปแบบเครื่องหมาย เหมาะสมสำหรับการแลกเปลี่ยนข้อมูล",
+      "pdf": "รูปแบบเอกสาร เหมาะสมสำหรับการพิมพ์และการแบ่งปัน"
+    }
+  },
+  "base64": {
+    "title": "การเข้ารหัส/ถอดรหัส Base64",
+    "description": "เครื่องมือเข้ารหัสและถอดรหัส Base64 ออนไลน์",
+    "encode": "เข้ารหัส",
+    "decode": "ถอดรหัส",
+    "originalText": "ข้อความเดิม",
+    "base64String": "สาย Base64",
+    "base64Result": "ผลลัพธ์ Base64",
+    "decodeResult": "ผลลัพธ์การถอดรหัส",
+    "placeholderEncode": "ใส่ข้อความเพื่อเข้ารหัส...",
+    "placeholderDecode": "ใส่ Base64 เพื่อถอดรหัส...",
+    "resultPlaceholder": "ผลลัพธ์จะแสดงที่นี่...",
+    "inputPlaceholder": "ใส่เนื้อหาเพื่อแปลง",
+    "decodeError": "การถอดรหัสล้มเหลว กรุณาตรวจสอบว่าอินพุตเป็น Base64 ที่ถูกต้อง",
+    "encodeError": "การเข้ารหัสล้มเหลว",
+    "charCount": "{{count}} ตัวอักษร",
+    "clear": "ลบข้อมูล",
+    "copy": "คัดลอกผลลัพธ์",
+    "copied": "คัดลอกแล้ว",
+    "convert": "แปลงทันที",
+    "swap": "โหมดสลับ",
+    "ariaLabel": "เครื่องมือเข้ารหัส/ถอดรหัส Base64",
+    "modeSelection": "การเลือกโหมดการแปลง",
+    "encodeMode": "โหมดเข้ารหัส",
+    "decodeMode": "โหมดถอดรหัส",
+    "inputLabelEncode": "ข้อความที่ต้องการเข้ารหัส",
+    "inputLabelDecode": "สาย Base64 ที่ต้องการถอดรหัส",
+    "outputLabelEncode": "ผลลัพธ์การเข้ารหัส Base64",
+    "outputLabelDecode": "ผลลัพธ์การถอดรหัส Base64",
+    "whatIsBase64": "Base64 คืออะไร?",
+    "base64Info": "Base64 เป็นวิธีการเข้ารหัสที่นำเสนอข้อมูลไบนารีด้วยตัวอักษร 64 ตัวที่สามารถพิมพ์ได้ มักใช้ในการส่งข้อมูลไบนารีขนาดเล็กใน URLs, cookies, หน้าเว็บ หรือโปรโตคอลที่ใช้ข้อความ"
+  },
+  "dns": {
+    "title": "การค้นหาบันทึก DNS",
+    "description": "ค้นหาบันทึก DNS ออนไลน์ (A, MX, CNAME, เป็นต้น)",
+    "placeholder": "ใส่โดเมน เช่น example.com",
+    "invalidDomain": "โปรดใส่รูปแบบโดเมนที่ถูกต้อง (เช่น example.com)",
+    "domainInput": "การป้อนโดเมน",
+    "validFormat": "รูปแบบโดเมนถูกต้อง",
+    "typeSelect": "ประเภทบันทึก DNS",
+    "searchBtn": "ค้นหาบันทึก DNS",
+    "loadingTitle": "กำลังค้นหาบันทึก DNS",
+    "loadingDesc": "กรุณารอสักครู่ขณะที่เราค้นหาบันทึก DNS สำหรับโดเมนของคุณ...",
+    "resultRegion": "ผลลัพธ์การค้นหา DNS",
+    "recordCount": "{{count}} บันทึก",
+    "typeRecordRegion": "{{type}} บันทึก",
+    "querying": "กำลังค้นหาบันทึก DNS",
+    "queryingDesc": "กรุณารอสักครู่ขณะที่เราค้นหาบันทึก DNS สำหรับโดเมนของคุณ...",
+    "foundRecords": "{{count}} บันทึกพบ",
+    "queryTime": "เวลาการสอบถาม: {{time}}",
+    "export": "ส่งออกผลลัพธ์",
+    "noRecords": "ไม่พบบันทึก DNS",
+    "noRecordsDesc": "ไม่มีบันทึก DNS พบสำหรับโดเมนนี้",
+    "typeInfo": "ประเภทบันทึก DNS",
+    "priority": "ลำดับความสำคัญ: {{priority}}",
+    "types": {
+      "ALL": "ทั้งหมด",
+      "A": "บันทึก A",
+      "AAAA": "บันทึก AAAA",
+      "MX": "บันทึก MX",
+      "TXT": "บันทึก TXT",
+      "CNAME": "บันทึก CNAME",
+      "NS": "บันทึก NS",
+      "SOA": "บันทึก SOA"
+    },
+    "typeDescs": {
+      "A": "ที่อยู่ IPv4",
+      "AAAA": "ที่อยู่ IPv6",
+      "MX": "שרת דואר",
+      "TXT": "רשומה טקסטית",
+      "CNAME": "רשומה של שם אלטרנטיבי",
+      "NS": "שרת שם",
+      "SOA": "רשומה להתחלה של סמכות"
+    },
+    "typeDetails": {
+      "A": "מצביע על דומיין לכתובת IPv4",
+      "AAAA": "מצביע על דומיין לכתובת IPv6",
+      "MX": "מפרט את כתובת שרת הדואר, מספרים נמוכים יותר מצביעים על עדיפות גבוהה יותר",
+      "TXT": "שמור מידע טקסטואלי, נפוץ לשימוש ב-SPF ובחינת DKIM",
+      "CNAME": "מצביע על דומיין אחר (שם אלטרנטיבי)",
+      "NS": "הגדרת שרתים ל-DNS לדומיין"
+    }
+  },
+  "whois": {
+    "title": "חיפוש WHOIS",
+    "description": "בצע חיפוש WHOIS ומידע רישום מקוון",
+    "placeholder": "הכנס דומיין, לדוגמה example.com",
+    "invalidDomain": "אנא הכנס צורת דומיין תקינה (למשל example.com)",
+    "querying": "מבצע שאילתה למידע WHOIS",
+    "queryingDesc": "אנא המתן בזמן שהמידע הרשמי מונפק...",
+    "domainInfo": "معلومات הדומיין",
+    "registrar": "רישוי",
+    "creationDate": "תאריך יצירה",
+    "expirationDate": "תאריך פגיעה",
+    "updatedDate": "תאריך עדכון",
+    "dnssec": "DNSSEC",
+    "dnssecDisabled": "מבוטל",
+    "expired": "פג תוקפו {{days}} ימים לפני",
+    "expiringSoon": "פג תוקפו בעוד {{days}} ימים",
+    "remaining": "{{days}} ימים נותרו",
+    "dnsServer": "שרתים",
+    "domainStatus": "מצב הדומיין",
+    "registrantInfo": "מידע המירשום",
+    "name": "שם",
+    "organization": "ארגון",
+    "country": "מדינה",
+    "email": "אימייל",
+    "noInfo": "לא נמצאה מידע קשור",
+    "domain": "דומיין",
+    "rawData": "נתונים גסים",
+    "toggleRawData": "הצג או כביכול נתוני גסים",
+    "copyRawData": "העתק נתוני גסים",
+    "copy": "העתק",
+    "copied": "הועתק",
+    "whatIsWhois": "מה זה WHOIS?",
+    "about": "WHOIS הוא פרוטוקול המשמש לחיפוש מידע רישום דומיין. באמצעות חיפוש WHOIS, תוכל לגלות את הרישוי, תאריך הרישום, תאריך פגיעה, שרתים של DNS, מידע על המירשום, ועוד. זה שימושי עבור מסחר בדומיינים, הגנה על שמות thương, וتحقيقات בטחון."
+  },
+  "httpStatus": {
+    "title": "מחלק קוד סטטוס HTTP",
+    "description": "בדוק קודים של סטטוס HTTP ומידע על תשובה מקוון",
+    "placeholder": "הכנס URL, לדוגמה https://example.com",
+    "check": "בדוק",
+    "followRedirects": "הלך אוטומטית ל redirections",
+    "urlEmpty": "אנא הכנס URL",
+    "checkFailed": "הבדיקה נכשלה",
+    "serverError": "חיבור לשרת נכשל, אנא נסה שוב מאוחר יותר",
+    "unknownStatus": "סטטוס לא ידוע",
+    "responseTime": "זמן תשובה",
+    "headers": "כותרות",
+    "redirectUrl": "URL של redirection",
+    "contentType": "סוג תוכן",
+    "contentLength": "אורך תוכן",
+    "server": "שרת",
+    "showHeaders": "הצג כותרות תשובה",
+    "hideHeaders": "הסתר כותרות תשובה",
+    "status": {
+      "100": "המשך",
+      "101": "מעבר לפרוטוקולים",
+      "200": "בְּסֵדֶר",
+      "201": "נוצר",
+      "204": "אין תוכן",
+      "301": "הפניה קבועה",
+      "302": "הפניה זמנית",
+      "304": "לא שונו",
+      "307": "הפניה זמנית",
+      "308": "הפניה קבועה",
+      "400": "בקשה לא נכונה",
+      "401": "לא מורשה",
+      "403": "אסור",
+      "404": "לא נמצא",
+      "405": "שיטה לא מותאמת",
+      "408": "המתנה לבקשה נגמרה",
+      "429": "בקשות רבות מדי",
+      "500": "שגיאה בשרת",
+      "502": "_gateway לא נכון",
+      "503": "שירות לא זמין",
+      "504": "タイムアウト של gateway"
+    }
+  },
+  "browserInfo": {
+    "title": "מידע על המבrowsers",
+    "description": "הצג מידע מפורט על המבrowsers הנוכחי",
+    "os": "מערכת הפעולה",
+    "browser": "מפלט",
+    "version": "גרסה",
+    "engine": "מנוע",
+    "device": "מכשיר",
+    "screen": "רזולוציית מסך",
+    "viewport": "גודל נוף",
+    "language": "שפה",
+    "timezone": "אזור זמן",
+    "cookieEnabled": "עוגיות פעילות",
+    "online": "מחובר",
+    "cpu": "ארכיטקטורת CPU",
+    "userAgent": "משתמש-סוכן",
+    "platform": "פלטפורמה",
+    "vendor": "מוכר המבrowsers",
+    "languages": "שפות 지원",
+    "cookie": "עוגייה",
+    "onlineStatus": "מצב מחבר",
+    "doNotTrack": "אל תלווה",
+    "touchPoints": "נקודות מגע",
+    "enabled": "מופעל",
+    "disabled": "מושבת",
+    "offline": "לא מחובר",
+    "hardwareInfo": "מידע על חומרה",
+    "cpuCores": "גרסאות CPU",
+    "cpuCoresValue": "{{count}} גרפים",
+    "deviceMemory": "זכרון מכשיר",
+    "screenInfo": "מידע על מסך",
+    "availArea": "אזור זמין",
+    "windowSize": "גודל окно",
+    "pixelRatio": "יחס פיקסלים",
+    "colorDepth": "עומק צבע",
+    "screenOrientation": "הכוון של המסך",
+    "unknown": "לא ידוע",
+    "basicInfo": "מידע בסיסי",
+    "networkInfo": "מידע רשת",
+    "networkType": "סוג רשת",
+    "downlink": "הורדה",
+    "rtt": "RTT",
+    "saveData": "שמירת נתונים",
+    "batteryInfo": "מידע על البطارية",
+    "batteryLevel": "רמת البطارية",
+    "chargingStatus": "מצב טעינה",
+    "charging": "טעינה",
+    "notCharging": "לא מטעין",
+    "timezoneInfo": "מידע על אזור זמן",
+    "utcOffset": "הפרש UTC"
+  },
+  "viewSource": {
+    "title": "הצגת קוד עמוד",
+    "description": "הצג קוד HTML של עמוד מקוון",
+    "placeholder": "הכנס URL, לדוגמה https://example.com",
+    "fetch": "קבל קוד",
+    "urlEmpty": "אנא הכנס URL",
+    "fetchFailed": "נכשלה הפעולה",
+    "serverError": "חיבור לשרת נכשל",
+    "lineCount": "שורות: {{count}}",
+    "copy": "העתק קוד",
+    "clear": "מחק",
+    "usage1": "הכנס את URL העמוד המלא ולחץ כדי לקבל את הקוד",
+    "usage2": "מגביר את הצגת הקוד ה-HTML של כל עמוד ציבורי",
+    "usage3": "אתה יכול להעתיק או להוריד את הקוד לניתוח",
+    "usage4": "חלק מהאתרים יכולים להגביל את הכניסה לקוד בגלל políticas של אבטחה"
+  },
+  "urlEncode": {
+    "title": "ממיר URL/מפענח",
+    "description": "כליแปล והפענוח מקוון של URL",
+    "encode": "קודד",
+    "decode": "פענח",
+    "placeholder": "הכנס תוכן להמרה...",
+    "result": " نتيجة",
+    "error": "העטיפה/הפעולה נכשלה"
+  },
+  "htmlEntity": {
+    "title": "ממיר/מפענח תווים HTML",
+    "description": "כלי המרת תווים HTML אונליין",
+    "encode": "המר",
+    "decode": "הסר",
+    "placeholder": "הזן תוכן להמרה...",
+    "result": "תוצאה"
+  },
+  "jsMinify": {
+    "title": "צמצום ועיצוב JS",
+    "description": "כלי צמצום ועיצוב קוד JavaScript אונליין",
+    "minify": "צמצם",
+    "beautify": "שפר",
+    "placeholder": "הדבק קוד JavaScript...",
+    "result": "ผล processing",
+    "error": "הפעולה על הקוד נכשלה"
+  },
+  "cssMinify": {
+    "title": "צמצום ועיצוב CSS",
+    "description": "כלי צמצום ועיצוב קוד CSS אונליין",
+    "minify": "צמצם",
+    "beautify": "שפר",
+    "placeholder": "הדבק קוד CSS...",
+    "result": "ผล processing",
+    "error": "הפעולה על הקוד נכשלה"
+  },
+  "pages": {
+    "sslCheck": {
+      "title": "בדיקה של רישיון SSL",
+      "description": "בדוק פרטי רישיון SSL ותקופת התחייבות עבור דומיין",
+      "enterDomain": "אנא הזן דומיין",
+      "checkFailed": "הבדיקה נכשלה",
+      "serverConnectionFailed": "נכשל להתחבר לשרת, נסה שוב מאוחר יותר",
+      "inputPlaceholder": "הזן דומיין, לדוגמה: example.com",
+      "check": "בדוק",
+      "statusExpired": "פג תוקפו",
+      "statusExpiringSoon": "יתנהל בקרוב",
+      "statusValid": "סדור",
+      "statusProblem": "בעיה ברישיון",
+      "expiredDays": "פג {{count}} ימים לפני",
+      "remainingDays": "{{count}} ימים שנותרו",
+      "warning": "אזהרה: {{message}}",
+      "protocol": "פרוטוקול",
+      "validityPeriod": "תקופת תקופת התחייבות",
+      "validFrom": "סודר מ-",
+      "validTo": "סודר עד",
+      "certificateInfo": "מידע על הרישיון",
+      "subject": "נושא",
+      "issuer": "מוציא",
+      "commonName": "שם משותף (CN)",
+      "organization": "ארגון (O)",
+      "organizationUnit": "יחידה ארגונית (OU)",
+      "country": "מדינה (C)",
+      "subjectAltNames": "שמות חלופיים של הנושא (SAN) - {{count}} רשומות",
+      "technicalDetails": "פרטים טכנולוגיים",
+      "serialNumber": "מספר סידורי",
+      "fingerprintSha1": "זיהוי (SHA-1)",
+      "fingerprintSha256": "זיהוי (SHA-256)",
+      "cipherSuite": "קבוצת ציפר",
+      "infoTitle": "הערות על רישיון SSL",
+      "infoItems": [
+        "רישיונות SSL מאמתים את זהות המארח ומקטינים את ההעברה",
+        "בדוק תאריכי פגיעה באופן קבוע כדי למנוע קצרים",
+        "רישיונות שקרובים לפגיעה צריכים להישאר מוכרים מוקדם",
+        "SAN (שם חלופי של הנושא) מפרט את הדומיינים שהרישיון מכסה"
+      ]
+    },
+    "gzipCheck": {
+      "title": "בדיקה של ג'יפס לเวbsite",
+      "description": "בדוק אם אתר אינטרנט תומך בג'יפס / דפלט / ברטלי",
+      "enterUrl": "אנא הזן URL",
+      "checkFailed": "הבדיקה נכשלה",
+      "serverConnectionFailed": "נכשל להתחבר לשרת, נסה שוב מאוחר יותר",
+      "inputPlaceholder": "הזן URL, לדוגמה: https://example.com",
+      "check": "בדוק",
+      "enabled": "מופעל",
+      "disabled": "לא מופעל",
+      "compressionType": "סוג הצמצום: {{type}}",
+      "enableSuggestion": "הפעל ג'יפס כדי להקטין את גודל העברה ולשפר את מהירות הטעינה",
+      "supportTitle": "תמיכה בצמצום",
+      "gzipDescription": "צמצום סטנדרטי נפוץ",
+      "deflateDescription": "אלגוריתם צמצום ישן ל-HTTP",
+      "brotliDescription": "שיטה חדשה לצמצום עם יחס טוב יותר",
+      "effectTitle": "השפעת הצמצום",
+      "originalSize": "גודל מקורי",
+      "compressedSize": "גודל מצמצם",
+      "ratio": "יחס צמצום",
+      "savedTransfer": "économise {{value}} dans la taille de transfert",
+      "detailsTitle": "פרטים",
+      "whyTitle": "מדוע להפעיל צמצום ג'יפס?",
+      "whyItems": [
+        "הוא יכול למחוק גודל משאבים טקסטואליים ב-60% עד 80%",
+        "העבורה הקטנה מגדילה את מהירות הטעינה",
+        "זה מפחית את השימוש_BANDWIDTH",
+        "ביצוע טוב יותר יכול גם לעזור ל-seo וتجربת משתמש"
+      ]
+    },
+    "dnsLookupEnhanced": {
+      "title": "איתור ראיות DNS מוגדלים",
+      "description": "שאלה על סוגי ראיות DNS מרובים אונליין עם אופטימיזציה לרשימות Ergebnis גדולות",
+      "enterDomain": "אנא הזן דומיין",
+      "lookupFailed": "החיפוש נכשלה",
+      "serverConnectionFailed": "נכשל להתחבר לשרת, נסה שוב מאוחר יותר",
+      "inputPlaceholder": "הזן דומיין, לדוגמה: example.com",
+      "lookup": "חפש",
+      "priority": "עדיפות: {{value}}",
+      "dnsTypes": [
+        {
+          "value": "כל",
+          "label": "כולל"
+        },
+        {
+          "value": "א",
+          "label": "רשומה A",
+          "desc": "כתובת IPv4"
+        },
+        {
+          "value": "AAAA",
+          "label": "רשומה AAAA",
+          "desc": "כתובת IPv6"
+        },
+        {
+          "value": "MX",
+          "label": "רשומה MX",
+          "desc": "שרת דואר"
+        },
+        {
+          "value": "TXT",
+          "label": "רשומה TXT",
+          "desc": "נתונים טקסטואליים"
+        },
+        {
+          "value": "CNAME",
+          "label": "רשומה CNAME",
+          "desc": "רשומה Alias"
+        },
+        {
+          "value": "נ.ס",
+          "label": "רשומה NS",
+          "desc": "שרת שם"
+        },
+        {
+          "value": "SOA",
+          "label": "רשומה SOA",
+          "desc": "תחילת סמכות"
+        }
+      ],
+      "foundRecords": "נמצאו {{count}} רשומות",
+      "queryTime": "זמן שאילתה: {{time}}",
+      "virtualScrollEnabled": "הוספת Scroll מוחלט פעילה",
+      "recordCount": "{{count}} רשומות",
+      "virtualScrollTag": "Rendering מותאם",
+      "noRecords": "לא נמצאו רשומות DNS",
+      "performanceTitle": "אופטימיזציה ביצועים",
+      "performanceItems": [
+        "ה_RENDERING מותאם 유지 את ה-DNS Lookup רגיש עם {{count}} רשומות",
+        "רק השורות הנצפות מוצגות כדי להפחית שימוש בזיכרון",
+        "זה עוזר להימנע מ Lag ב-DOM כאשר קבוצות התוצאה גדולות",
+        "הتجربה נשארת רגישה אפילו עם הרבה רשומות"
+      ]
+    },
+    "metaCheck": {
+      "title": "בדיקה של תגיות META",
+      "description": "בדוק את תגיות META בשימוש בדף וيب",
+      "enterUrl": "אנא הזן כתובת URL של אתר",
+      "checkFailed": "הבדיקה נכשלה",
+      "urlLabel": "כתובת URL של האתר",
+      "inputPlaceholder": "example.com או https://example.com",
+      "check": "בדוק",
+      "resultTitle": " نتيجة הבדיקה",
+      "totalCount": "נמצאו {{count}} תגיות META",
+      "groups": {
+        "pageTitle": "כותרת הדף",
+        "httpEquiv": "HTTP-Equiv",
+        "charset": "סט תווים",
+        "basicMeta": "META בסיסי"
+      },
+      "emptyContent": "ריק",
+      "infoTitle": "אודות",
+      "infoItems": [
+        "הכלי בודק תגיות כותרת, תגיות META name, תגיות META property (כמו Open Graph), ותגיות HTTP-Equiv",
+        "הוא עוזר לסקור במהירות את המטאדטאות הקשורות ל-SEO של הדף",
+        "הוא גם עוזר לזהות בעיות של תגיות חסרות או מكرרות"
+      ]
+    },
+    "urlEncode": {
+      "title": "המרת URL/הסרת התרגם",
+      "description": "המר או הסר מחרוזות URL אונליין",
+      "toolName": "המרת URL/הסרת התרגם",
+      "toolCategory": "เครื่องมือการเข้ารหัส",
+      "convertFailed": "ההמרה נכשלה, נסה לבדוק את הכניסה שלך",
+      "copyFailed": "העתקת התוצאה נכשלה",
+      "modeSelector": "בחר מצב",
+      "typeSelector": "סוג ת_ENCODE",
+      "encode": "הצפנה",
+      "decode": "פעולה",
+      "componentTitle": "רכיב URL",
+      "componentDescription": "הצפנה רק חלק מ-URL",
+      "fullTitle": "כתובת URL מלאה",
+      "fullDescription": "הצפנה של הכתובת_URL כולה",
+      "inputEncodeLabel": "טקסט רגיל",
+      "inputDecodeLabel": "כתובת URL מוצפנת",
+      "clearInput": "איפוס קלט",
+      "encodePlaceholder": "הזן טקסט להצפנה ככתובת URL...",
+      "decodePlaceholder": "הזן כתובת URL מוצפנת לפעולה...",
+      "outputEncodeLabel": "ผลון הצפנה",
+      "outputDecodeLabel": "ผลון פעולה",
+      "copyResult": "העתק نتيجة",
+      "resultPlaceholder": "התוצאה של ההמרה תופיע כאן...",
+      "copied": "הועתק ללוח הגזירים",
+      "swap": "החלף",
+      "swapInputOutput": "החלף קלט ופלט",
+      "infoTitle": "מצבים של הצפנה",
+      "componentModeTitle": "מצב רכיב",
+      "componentModeDescription": "הכי מתאים לחלקים נפרדים של URL כמו פרמטרי שאילתה או קטעי מסלול.",
+      "componentExample": "דוגמה: hello world → hello%20world",
+      "fullModeTitle": "מצב כתובת URL מלאה",
+      "fullModeDescription": "השתמש בזה כאשר אתה צריך להצפיל כתובת URL שלמה תוך שמירה על מבנה זהותי זיהויי.",
+      "fullExample": "דוגמה: https://example.com/路径 → https://example.com/%E8%B7%AF%E5%BE%84"
+    },
+    "htmlEntity": {
+      "title": "הצפנה/פעולה של תתי-קוד HTML",
+      "description": "הצפנה או פעולה של תתי-קוד HTML באנלינית",
+      "toolName": "הצפנה/פעולה של תתי-קוד HTML",
+      "toolCategory": "เครื่องมือการเข้ารหัส",
+      "convertFailed": "ההמרה נכשלה, אנא בדוק את הקלט שלך",
+      "copyFailed": "נכשלה ההפצה של התוצאה",
+      "modeSelector": "בחר מצב",
+      "switchToEncode": "החלף למצב הצפנה (Alt+1)",
+      "switchToDecode": "החלף למצב פעולה (Alt+2)",
+      "encode": "הצפנה",
+      "decode": "פעולה",
+      "encodeAll": "הצפן כל הסימנים",
+      "inputEncodeLabel": "טקסט רגיל",
+      "inputDecodeLabel": "תתי-קוד HTML",
+      "clearInput": "איפוס קלט (Ctrl+L)",
+      "encodePlaceholder": "הזן טקסט להמרה לתתי-קוד HTML...",
+      "decodePlaceholder": "הזן תתי-קוד HTML לפעולה...",
+      "inputDescriptionEncode": "הזן את הטקסט הרגיל שברצונך להמיר לתתי-קוד HTML",
+      "inputDescriptionDecode": "הזן את תתי-הקודים שברצונך לפעולה",
+      "outputEncodeLabel": "نتוץ הצפנה",
+      "outputDecodeLabel": "نتוץ פעולה",
+      "copyResult": "העתק התוצאה (Ctrl+C)",
+      "resultPlaceholder": "התוצאה של ההמרה תופיע כאן...",
+      "outputDescriptionEncode": "התוצאה של תתי-קוד HTML שנוצר",
+      "outputDescriptionDecode": "התוצאה של טקסט רגיל שנוצר",
+      "copied": "הועתק ללוח הגזירים",
+      "executeEncode": "הצפנה (Ctrl+Enter)",
+      "executeDecode": "פעולה (Ctrl+Enter)",
+      "swap": "החלף",
+      "swapMode": "החלף קלט ופלט (Ctrl+S)",
+      "commonEntities": "תתי-קודים נפוצים של HTML",
+      "space": "(רווח)"
+    },
+    "jsMinify": {
+      "title": "הקטנת/ה beautification של JavaScript",
+      "description": "הקטנת או Beautification של קוד JavaScript באנלינית",
+      "toolName": "הקטנת / Beautification של JavaScript",
+      "toolNameHistory": "הקטנת JS & Beautify",
+      "toolCategory": "เครื่องมือสำหรับนักพัฒนา",
+      "processFailed": "העיבוד נכשל",
+      "copyFailed": "נכשלה ההפצה של התוצאה ללוח הגזירים",
+      "switchToMinify": "החלף למצב הקטנת",
+      "switchToMinifyTitle": "החלף למצב הקטנת (Alt+1)",
+      "switchToBeautify": "החלף למצב Beautification",
+      "switchToBeautifyTitle": "החלף למצב Beautification (Alt+2)",
+      "minify": "הקטנת",
+      "beautify": "לְפַאֵר",
+      "input": "קלט",
+      "output": "פלט",
+      "inputPlaceholder": "הזן קוד JavaScript כאן...",
+      "inputAria": "ממשק קלט JavaScript",
+      "inputTitle": "לחץ Ctrl+Enter כדי לרוץ, Ctrl+L כדי לאפס",
+      "copyOutput": "העתק פלט",
+      "copyOutputTitle": "העתק פלט (Ctrl+C)",
+      "resultPlaceholder": "התוצאה המעובדת תופיע כאן...",
+      "outputAria": " نتيجة פלט JavaScript",
+      "executeMinify": "הקטנת JavaScript",
+      "executeMinifyTitle": "הקטנת JavaScript (Ctrl+Enter)",
+      "executeBeautify": "לייפות את JavaScript",
+      "executeBeautifyTitle": "ייפוי JavaScript (Ctrl+Enter)",
+      "minifyCode": "הקטנת קוד",
+      "beautifyCode": "Beautify קוד",
+      "swap": "החלף",
+      "swapTitle": "החלף קלט ופלט (Ctrl+S)",
+      "clear": "איפוס",
+      "clearTitle": "איפוס תוכן (Ctrl+L)",
+      "copied": "הועתק ללוח הגזירים",
+      "infoTitle": "מאפיינים",
+      "infoItems": [
+        "מסיר מרחיקים לא חסרי והשורות כדי להקטין את גודל ملف JavaScript",
+        "מצב Beautify עוזר לקוד מכווץ להיות קל יותר לקריאה ותחזוקה",
+        "איכות ההקטנה תלוי במנקה ובהישום של מנגנון ההקטנה"
+      ]
+    },
+    "cssMinify": {
+      "title": "הקטנת CSS & Beautify",
+      "description": "הקטנת או Beautify של קוד CSS באנלינית",
+      "toolName": "הקטנת CSS & Beautify",
+      "toolCategory": "เครื่องมือสำหรับนักพัฒนา",
+      "processFailed": "העיבוד נכשל",
+      "copyFailed": "נכשלה ההפצה של התוצאה ללוח הגזירים",
+      "switchToMinify": "החלף למצב הקטנת",
+      "switchToMinifyTitle": "החלף למצב הקטנת (Alt+1)",
+      "switchToBeautify": "החלף למצב Beautify",
+      "switchToBeautifyTitle": "החלף למצב Beautify (Alt+2)",
+      "minify": "הקטנת",
+      "beautify": "לְפַאֵר",
+      "input": "קלט",
+      "output": "פלט",
+      "inputPlaceholder": "הזן קוד CSS כאן...\n\nדוגמה:\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 20px;\n}",
+      "inputAria": "ממשק קלט CSS",
+      "inputTitle": "לחץ Ctrl+Enter כדי לרוץ, Ctrl+L כדי לאפס",
+      "copyOutput": "העתק פלט",
+      "copyOutputTitle": "העתק פלט (Ctrl+C)",
+      "resultPlaceholder": "התוצאה המעובדת תופיע כאן...",
+      "outputAria": " نتيجة פלט CSS",
+      "executeMinify": "הקטנת CSS",
+      "executeMinifyTitle": "הקטנת CSS (Ctrl+Enter)",
+      "executeBeautify": "לייפות CSS",
+      "executeBeautifyTitle": "ייפוי CSS (Ctrl+Enter)",
+      "minifyCode": "הקטנת קוד",
+      "beautifyCode": "Beautify קוד",
+      "swap": "החלף",
+      "swapTitle": "החלף קלט ופלט (Ctrl+S)",
+      "clear": "איפוס",
+      "clearTitle": "איפוס תוכן (Ctrl+L)",
+      "copied": "הועתק ללוח הגזירים",
+      "infoTitle": "מאפיינים",
+      "infoItems": [
+        "מסיר מרחיקים לא חסרי והשורות כדי להקטין את גודל הקובץ",
+        "מצב Beautify עוזר לקוד מכווץ להיות קל יותר לקריאה ועריכה",
+        "קובצי CSS קטנים יכולים לעזור להקטין את גודל ה-HTTP ולחסוך זמן טעינה"
+      ]
+    },
+    "httpCodes": {
+      "title": "קודים של סטטוס HTTP",
+      "description": "הפניה לקודים של סטטוס / תשובות HTTP",
+      "searchPlaceholder": "חפש קודים של סטטוס או תיאורים...",
+      "noMatch": "לא נמצאו קודים של סטטוס מתאימים",
+      "infoTitle": "יסודות של קוד סטטוס HTTP",
+      "infoItems": [
+        "1xx - תשובות מידע שמשמעותה שהבקשה התקבלה ומעבדת",
+        "2xx - תשובות הצלחה שמשמעותה שהבקשה התקבלה, נחלה והניבה",
+        "3xx - תשובות העברה שדורשות פעולה נוספת כדי להשלים את הבקשה",
+        "4xx - תשובות שגיאה של הלקוח שמשמעותה שהבקשה מכילה סינטקס שגוי או לא יכולה להושם",
+        "5xx - תשובות שגיאה של 서בר שמשמעותה שהשרת נכשל בהישום בקשה תקינה"
+      ],
+      "categories": [
+        {
+          "id": "כֹּל",
+          "name": "כל",
+          "color": "bg-grey-100 text-grey-700"
+        },
+        {
+          "id": "1xx",
+          "name": "1xx מידע",
+          "color": "bg-blue-100 text-blue-700"
+        },
+        {
+          "id": "2xx",
+          "name": "2xx הצלחה",
+          "color": "bg-green-100 text-green-700"
+        },
+        {
+          "id": "3xx",
+          "name": "העתקה 3xx",
+          "color": "bg-yellow-100 text-yellow-700"
+        },
+        {
+          "id": "4xx",
+          "name": "שגיאת לקוח 4xx",
+          "color": "bg-orange-100 text-orange-700"
+        },
+        {
+          "id": "5xx",
+          "name": "שגיאת 서רבר 5xx",
+          "color": "bg-red-100 text-red-700"
+        }
+      ],
+      "codes": [
+        {
+          "code": 100,
+          "name": "המשך",
+          "desc": "החלק הראשון של הבקשה נשלח והלקוח צריך להמשיך לשלוח את שארית הבקשה.",
+          "category": "1xx"
+        },
+        {
+          "code": 101,
+          "name": "החלפת פרוטוקולים",
+          "desc": "השרת מסכים להחליף פרוטוקולים לפי בקשת הלקוח.",
+          "category": "1xx"
+        },
+        {
+          "code": 102,
+          "name": "מעבד",
+          "desc": "השרת קיבלה את הבקשה ומעבד אותה, אך עדיין אין תשובה доступית.",
+          "category": "1xx"
+        },
+        {
+          "code": 200,
+          "name": "הצלחה",
+          "desc": "הבקשה הצליחה, בדרך כלל עבור בקשות GET או POST.",
+          "category": "2xx"
+        },
+        {
+          "code": 201,
+          "name": "נוצר",
+          "desc": "הבקשה הצליחה ויצרה tàiן משאב חדש.",
+          "category": "2xx"
+        },
+        {
+          "code": 202,
+          "name": "אומץ",
+          "desc": "הבקשה אומצה לمعالجة, אך היא עדיין לא הושלמה.",
+          "category": "2xx"
+        },
+        {
+          "code": 203,
+          "name": "מידע לא רשמי",
+          "desc": "הנתונים המותאמים לתשובה מגיעים מنسخה מקומית או של צד שלישי ולא מהשרת הראשי.",
+          "category": "2xx"
+        },
+        {
+          "code": 204,
+          "name": "אין תוכן",
+          "desc": "הבקשה הצליחה, אך התשובה אינה מכילה גוף.",
+          "category": "2xx"
+        },
+        {
+          "code": 205,
+          "name": "אפס את התוכן",
+          "desc": "הבקשה הצליחה והלקוח צריך לאפס את תצוגת המסמך הנוכחי.",
+          "category": "2xx"
+        },
+        {
+          "code": 206,
+          "name": "תוכן חלקית",
+          "desc": "השרת מחזיר רק חלק מהресурс בגלל בקשת טווח.",
+          "category": "2xx"
+        },
+        {
+          "code": 300,
+          "name": "אפשרויות רבות",
+          "desc": "הресурс הנדרש יש לו מספר אפשרויות מייצג ללקוח לבחור ביניהן.",
+          "category": "3xx"
+        },
+        {
+          "code": 301,
+          "name": "הועבר לצמיתות",
+          "desc": "הресурс הנדרש עבר לצמיתות לכתובת URI חדשה.",
+          "category": "3xx"
+        },
+        {
+          "code": 302,
+          "name": "נמצא",
+          "desc": "הресурс הנדרש נמצא זמנית בכתובת URI שונה.",
+          "category": "3xx"
+        },
+        {
+          "code": 303,
+          "name": "ראו אחר",
+          "desc": "התשובה לבקשה יכולה להיות נמצאת בכתובת URI אחרת באמצעות GET.",
+          "category": "3xx"
+        },
+        {
+          "code": 304,
+          "name": "לא שונו",
+          "desc": "המזהה המבוסס על חיפוש לא השתנה, לכן הלקוח יכול להשתמש בהפסקה המקומית שלו.",
+          "category": "3xx"
+        },
+        {
+          "code": 307,
+          "name": "הפניה זמינה",
+          "desc": "הресурс מופנה זמנים והשם המקורי של הבקשה חייב להישאר.",
+          "category": "3xx"
+        },
+        {
+          "code": 308,
+          "name": "הפניה לצמיתות",
+          "desc": "הресурс עבר לצמיתות והשם המקורי של הבקשה חייב להישאר.",
+          "category": "3xx"
+        },
+        {
+          "code": 400,
+          "name": "طلب غير صحيح",
+          "desc": "השרת לא יכול לעבד את הבקשה בגלל סינטקס שגוי.",
+          "category": "4xx"
+        },
+        {
+          "code": 401,
+          "name": "غير مصرح",
+          "desc": "נדרשת אימות לפני שהבקשה תוכל להكتمل.",
+          "category": "4xx"
+        },
+        {
+          "code": 402,
+          "name": "دفع مطلوب",
+          "desc": "משמש לاستخدام مستقبلي, غالبًا ما يرتبط بأنظمة الدفع الرقمية.",
+          "category": "4xx"
+        },
+        {
+          "code": 403,
+          "name": "ممنوع",
+          "desc": "الخادم فهم الطلب لكنه يرفض تأكيده.",
+          "category": "4xx"
+        },
+        {
+          "code": 404,
+          "name": "لم يتم العثور عليه",
+          "desc": "الخادم لا يستطيع العثور على الموارد المطلوبة.",
+          "category": "4xx"
+        },
+        {
+          "code": 405,
+          "name": "طريقة غير مسموح بها",
+          "desc": "طريقة الطلب غير مسموح بها للمنتج المستهدف.",
+          "category": "4xx"
+        },
+        {
+          "code": 406,
+          "name": "غير مقبول",
+          "desc": "الخادم لا يمكن أن يقدم إجابة تتوافق مع التنسيقات المقبولة من العميل.",
+          "category": "4xx"
+        },
+        {
+          "code": 407,
+          "name": "المصادقة مع الوكيل مطلوبة",
+          "desc": "يجب على العميل التحقق من هويته مع الوكيل قبل الاستمرار.",
+          "category": "4xx"
+        },
+        {
+          "code": 408,
+          "name": "وقت الانتظار نفذ",
+          "desc": "انتهى وقت انتظار الخادم للطلب.",
+          "category": "4xx"
+        },
+        {
+          "code": 409,
+          "name": "تداخل",
+          "desc": "الطلب يتعارض مع الحالة الحالية للمورد المستهدف.",
+          "category": "4xx"
+        },
+        {
+          "code": 410,
+          "name": "غائب",
+          "desc": "الموارد لم تعد متاحة ولا يوجد عنوان تحويل معروف.",
+          "category": "4xx"
+        },
+        {
+          "code": 411,
+          "name": "طول المحتوى مطلوب",
+          "desc": "يحتاج الخادم إلى رأس Content-Length صالح.",
+          "category": "4xx"
+        },
+        {
+          "code": 412,
+          "name": "فشل الشروط المسبقة",
+          "desc": "واحدة أو أكثر من الشروط في رؤوس الطلب تم تقييمها كخاطئة.",
+          "category": "4xx"
+        },
+        {
+          "code": 413,
+          "name": "الحجم كبير جدًا",
+          "desc": "جسم الطلب أكبر من ما يرغب الخادم فيه أو يستطيع معالجته.",
+          "category": "4xx"
+        },
+        {
+          "code": 414,
+          "name": "عنوان URL طويل جدًا",
+          "desc": "عنوان URL المطلوب أطول من ما يمكن للخادم معالجته.",
+          "category": "4xx"
+        },
+        {
+          "code": 415,
+          "name": "نوع وسائط غير مدعوم",
+          "desc": "الخادم لا يدعم نوع الوسائط المستخدم في الطلب.",
+          "category": "4xx"
+        },
+        {
+          "code": 418,
+          "name": "أنا قهوة",
+          "desc": "كود حالة مضحك يشير إلى أن الخادم يرفض طهي القهوة لأنه عبارة عن قهوة.",
+          "category": "4xx"
+        },
+        {
+          "code": 422,
+          "name": "العنصر غير قابل معالجة",
+          "desc": "الخادم يفهم تنسيق الطلب ولكن لا يمكنه معالجة التعليمات الموجودة فيه.",
+          "category": "4xx"
+        },
+        {
+          "code": 429,
+          "name": "عدد كبير جداً من الطلبات",
+          "desc": "العميل أرسل عددًا كبيرًا من الطلبات في فترة زمنية معينة.",
+          "category": "4xx"
+        },
+        {
+          "code": 451,
+          "name": "غير متاح لأسباب قانونية",
+          "desc": "الموارد غير متاحة بسبب قيود قانونية.",
+          "category": "4xx"
+        },
+        {
+          "code": 500,
+          "name": "خطأ داخلي في الخادم",
+          "desc": "واجه الخادم خطأ غير متوقع أثناء معالجة الطلب.",
+          "category": "5xx"
+        },
+        {
+          "code": 501,
+          "name": "غير مدعوم",
+          "desc": "الخادم لا يدعم الوظائف المطلوبة لتنفيذ الطلب.",
+          "category": "5xx"
+        },
+        {
+          "code": 502,
+          "name": "عائق غير صحيح",
+          "desc": "تلقت خدمة بوابة أو وكيل استجابة غير صحيحة من الخادم الأعلى.",
+          "category": "5xx"
+        },
+        {
+          "code": 503,
+          "name": "الخدمة غير متاحة",
+          "desc": "الخادم غير قادر مؤقتًا على التعامل مع الطلب، عادة بسبب تحميل زائد أو صيانة.",
+          "category": "5xx"
+        },
+        {
+          "code": 504,
+          "name": "وقت انتظار العائق",
+          "desc": "خدمة بوابة أو وكيل لم تتلقى استجابة مناسبة من الخادم الأعلى.",
+          "category": "5xx"
+        },
+        {
+          "code": 505,
+          "name": "نسخة بروتوكول HTTP غير مدعومة",
+          "desc": "الخادم لا يدعم إصدار بروتوكول HTTP المستخدم في الطلب.",
+          "category": "5xx"
+        }
+      ]
+    },
+    "phpReference": {
+      "title": "مرجع دوال PHP",
+      "description": "مرجع سريع للدوال الشائعة في PHP",
+      "searchPlaceholder": "ابحث عن أسماء الدوال أو وصفها...",
+      "noMatch": "لم يتم العثور على دوال متوافقة",
+      "infoTitle": "معلومات",
+      "infoDescription": "يُظهر هذا الصفحة الدوال الشائعة في PHP حسب الفئة للاستعراض السريع. يُقصد به أن يكون ملخصًا مفيدًا للمطورين ولا يستبدل الوثائق الرسمية لـ PHP.",
+      "categories": [
+        "الكل",
+        "سلسلة",
+        "مصفوفة",
+        "ملف",
+        "التاريخ والوقت",
+        "JSON",
+        "מתמטיקה",
+        "אחר"
+      ],
+      "functions": [
+        {
+          "name": "סטרלן",
+          "desc": "קבל את אורך מחרוזת",
+          "syntax": "strlen(string $string): int",
+          "category": "מחרוזת"
+        },
+        {
+          "name": "substr",
+          "desc": "הצטבר חלק מחרוזת",
+          "syntax": "substr(string $string, int $offset, ?int $length = null): מחרוזת",
+          "category": "מחרוזת"
+        },
+        {
+          "name": "strpos",
+          "desc": "מצא את המיקום של הופעה ראשונה של תת-מחרוזת",
+          "syntax": "strpos(string $haystack, string $needle, int $offset = 0): int|false",
+          "category": "מחרוזת"
+        },
+        {
+          "name": "str_replace",
+          "desc": "החלף כל הופעות של מחרוזת חיפוש",
+          "syntax": "str_replace(מעורב $search, מעורב $replace, מעורב $subject): מעורב",
+          "category": "מחרוזת"
+        },
+        {
+          "name": "לְהִתְפּוֹצֵץ",
+          "desc": "חצות מחרוזת לרשימה באמצעות מפריד",
+          "syntax": "explode(string $separator, string $string, int $limit = PHP_INT_MAX): מערך",
+          "category": "מחרוזת"
+        },
+        {
+          "name": "להתפוצץ",
+          "desc": "חבר אלמנטים של רשימה לחרוזת",
+          "syntax": "implode(string $separator, array $array): מחרוזת",
+          "category": "מחרוזת"
+        },
+        {
+          "name": "מְטוּפָּח",
+          "desc": "הסר רווח או תווים אחרים מהשני קצוות של מחרוזת",
+          "syntax": "trim(string $string, string $characters = \" \\n\\r\\t\\v\\x00\"): מחרוזת",
+          "category": "מחרוזת"
+        },
+        {
+          "name": "strtolower",
+          "desc": "המר מחרוזת לאותיות קטנות",
+          "syntax": "strtolower(string $string): מחרוזת",
+          "category": "מחרוזת"
+        },
+        {
+          "name": "strtoupper",
+          "desc": "המר מחרוזת לאותיות גדולות",
+          "syntax": "strtoupper(string $string): מחרוזת",
+          "category": "מחרוזת"
+        },
+        {
+          "name": "sprintf",
+          "desc": "החזיר מחרוזת ממוקדת",
+          "syntax": "sprintf(string $format, mixed ...$values): מחרוזת",
+          "category": "מחרוזת"
+        },
+        {
+          "name": "preg_match",
+          "desc": "בצע התאמה של ביטוי רגולרי",
+          "syntax": "preg_match(string $pattern, string $subject, array &$matches = null): int|false",
+          "category": "מחרוזת"
+        },
+        {
+          "name": "preg_replace",
+          "desc": "בצע חיפוש וחלפת ביטוי רגולרי",
+          "syntax": "preg_replace(מעורב $pattern, מעורב $replacement, מעורב $subject): מעורב",
+          "category": "מחרוזת"
+        },
+        {
+          "name": "לִסְפּוֹר",
+          "desc": "ספירת אלמנטים ברשימת או אובייקט Countable",
+          "syntax": "count(Countable|מערך $value, int $mode = COUNT_NORMAL): int",
+          "category": "מערך"
+        },
+        {
+          "name": "array_push",
+          "desc": "הוסף אחד או יותר אלמנטים לסוף מערך",
+          "syntax": "array_push(מערך &$מערך, מעורב ...$values): int",
+          "category": "מערך"
+        },
+        {
+          "name": "array_pop",
+          "desc": "הסר את האלמנט האחרון ממערך",
+          "syntax": "array_pop(array &$array): מעורב",
+          "category": "מערך"
+        },
+        {
+          "name": "array_merge",
+          "desc": "העתק אחד או יותר מערכים",
+          "syntax": "array_merge(array ...$ arrays): מערך",
+          "category": "מערך"
+        },
+        {
+          "name": "array_keys",
+          "desc": "החזיר את כל המפתחות של מערך",
+          "syntax": "array_keys(array $array, $filter_value מעורב, bool $strict = false): מערך",
+          "category": "מערך"
+        },
+        {
+          "name": "array_values",
+          "desc": "החזיר את כל הערכים של מערך",
+          "syntax": "array_values(מערך $array): מערך",
+          "category": "מערך"
+        },
+        {
+          "name": "in_array",
+          "desc": "בדוק אם ערך קיים במערך",
+          "syntax": "in_array(mixed $needle, array $haystack, bool $strict = false): bool",
+          "category": "מערך"
+        },
+        {
+          "name": "array_search",
+          "desc": "חפש מערך עבור ערך ומחזיר את מפתחו",
+          "syntax": "array_search(mixed $needle, array $haystack, bool $strict = false): int|string|false",
+          "category": "מערך"
+        },
+        {
+          "name": "array_map",
+          "desc": "ה applied Callback לאלמנטים של מערך",
+          "syntax": "array_map(?callable $callback, array $array, array ...$arrays): מערך",
+          "category": "מערך"
+        },
+        {
+          "name": "array_filter",
+          "desc": "סנן אלמנטים של מערך עם Callback",
+          "syntax": "array_filter(array $array, ?callable $callback = null, int $mode = 0): מערך",
+          "category": "מערך"
+        },
+        {
+          "name": "סוּג",
+          "desc": "מיין מערך בסדר עולה",
+          "syntax": "sort(array &$array, int $flags = SORT_REGULAR): bool",
+          "category": "מערך"
+        },
+        {
+          "name": "להשתמש",
+          "desc": "מיין מערך עם פונקציה להשוואה מוגדרת על ידי משתמש",
+          "syntax": "usort(array &$array, $callback הניתן להתקשרות): bool",
+          "category": "מערך"
+        },
+        {
+          "name": "file_get_contents",
+          "desc": "קרא קובץ שלם לחרוזת",
+          "syntax": "file_get_contents(string $filename, ...): string|false",
+          "category": "קובץ"
+        },
+        {
+          "name": "file_put_contents",
+          "desc": "כתוב נתונים לקובץ",
+          "syntax": "file_put_contents(מחרוזת $filename, $data מעורב, int $flags = 0): int|false",
+          "category": "קובץ"
+        },
+        {
+          "name": "fopen",
+          "desc": "פתח קובץ או URL",
+          "syntax": "fopen(string $filename, string $mode, ...): resource|false",
+          "category": "קובץ"
+        },
+        {
+          "name": "לסגור",
+          "desc": "סגור מצביע קובץ פתוח",
+          "syntax": "fclose(משאב $stream): bool",
+          "category": "קובץ"
+        },
+        {
+          "name": "לפחד",
+          "desc": "קריאת מצביע קובץ",
+          "syntax": "fread(משאב $stream, int $length): string|false",
+          "category": "קובץ"
+        },
+        {
+          "name": "לכתוב",
+          "desc": "כתיבה למצביע קובץ",
+          "syntax": "fwrite(משאב $stream, מחרוזת $data, ?int $length = null): int|false",
+          "category": "קובץ"
+        },
+        {
+          "name": "קובץ_קיים",
+          "desc": "בדוק האם קובץ או תיקייה קיימים",
+          "syntax": "file_exists(מחרוזת $filename): bool",
+          "category": "קובץ"
+        },
+        {
+          "name": "is_file",
+          "desc": "בדוק האם המסלול הוא קובץ רגיל",
+          "syntax": "is_file(string $filename): bool",
+          "category": "קובץ"
+        },
+        {
+          "name": "לבטל את הקישור",
+          "desc": "מחק קובץ",
+          "syntax": "unlink(מחרוזת $filename, ?resource $context = null): bool",
+          "category": "קובץ"
+        },
+        {
+          "name": "mkdir",
+          "desc": "צור תיקייה",
+          "syntax": "mkdir(string $directory, int $permissions = 0777, bool $recursive = false): bool",
+          "category": "קובץ"
+        },
+        {
+          "name": "תַאֲרִיך",
+          "desc": "הצג תאריך וזמן מקומי",
+          "syntax": "date(string $format, ?int $timestamp = null): מחרוזת",
+          "category": "תאריך/זמן"
+        },
+        {
+          "name": "זְמַן",
+          "desc": "קבל את הסימן הנוכחי של Unix",
+          "syntax": "זמן(): int",
+          "category": "תאריך/זמן"
+        },
+        {
+          "name": "strtotime",
+          "desc": "הפרש טקסטואלי של תאריך ושעה ל סימן Unix",
+          "syntax": "strtotime(string $datetime, ?int $baseTimestamp = null): int|false",
+          "category": "תאריך/זמן"
+        },
+        {
+          "name": "mktime",
+          "desc": "קבל תאריך Unix לתאריך",
+          "syntax": "mktime(int $שעון, ?int $דקה = null, ...): int|false",
+          "category": "תאריך/זמן"
+        },
+        {
+          "name": "תאריך_צור",
+          "desc": "יצירת אובייקט DateTime",
+          "syntax": "date_create(string $datetime = \"עכשיו\", ?DateTimeZone $timezone = null): DateTime|false",
+          "category": "תאריך/זמן"
+        },
+        {
+          "name": "json_encode",
+          "desc": "המרת ערך לسلسلת JSON",
+          "syntax": "json_encode(mixed $value, int $flags = 0, int $depth = 512): string|false",
+          "category": "JSON"
+        },
+        {
+          "name": "json_decode",
+          "desc": "הפעלת מחרוזת JSON לערך PHP",
+          "syntax": "json_decode(string $json, ?bool $associative = null, int $depth = 512): מעורב",
+          "category": "JSON"
+        },
+        {
+          "name": "שרירי הבטן",
+          "desc": "לקבל את הערך המוחלט",
+          "syntax": "abs(int|float $num): int|float",
+          "category": "מתמטיקה"
+        },
+        {
+          "name": "תקרה",
+          "desc": "ל rond fractions up",
+          "syntax": "ceil(int|float $num): float",
+          "category": "מתמטיקה"
+        },
+        {
+          "name": "קוֹמָה",
+          "desc": "ל rond fractions down",
+          "syntax": "floor(int|float $num): float",
+          "category": "מתמטיקה"
+        },
+        {
+          "name": "עִגוּל",
+          "desc": "ל rond מספר",
+          "syntax": "round(int|float $num, int $precision = 0, int $mode = PHP_ROUND_HALF_UP): float",
+          "category": "מתמטיקה"
+        },
+        {
+          "name": "מקסימום",
+          "desc": "למצוא את הערך הגדול ביותר",
+          "syntax": "max(mixed $value, mixed ...$values): מעורב",
+          "category": "מתמטיקה"
+        },
+        {
+          "name": "דקה",
+          "desc": "למצוא את הערך הקטן ביותר",
+          "syntax": "min(mixed $value, mixed ...$values): מעורב",
+          "category": "מתמטיקה"
+        },
+        {
+          "name": "ראנד",
+          "desc": "ליצור מספר שלם אקראי",
+          "syntax": "rand(int $min, int $max): int",
+          "category": "מתמטיקה"
+        },
+        {
+          "name": "isset",
+          "desc": "לבדוק האם משתנה קיים ו ليس null",
+          "syntax": "isset(mixed $var, mixed ...$vars): bool",
+          "category": "אחר"
+        },
+        {
+          "name": "רֵיק",
+          "desc": "לבדוק האם משתנה ריק",
+          "syntax": "ריק (מעורב $var): bool",
+          "category": "אחר"
+        },
+        {
+          "name": "var_dump",
+          "desc": "להדפיס מידע על משתנה",
+          "syntax": "var_dump(mixed $value, mixed ...$values): void",
+          "category": "אחר"
+        },
+        {
+          "name": "print_r",
+          "desc": "להדפיס מידע קריא לאדם על משתנה",
+          "syntax": "print_r(מעורב $value, bool $return = false): string|bool",
+          "category": "אחר"
+        },
+        {
+          "name": "gettype",
+          "desc": "לקבל את סוג המשתנה",
+          "syntax": "gettype(mixed $value): מחרוזת",
+          "category": "אחר"
+        },
+        {
+          "name": "הוא_מערך",
+          "desc": "לבדוק האם משתנה הוא מערך",
+          "syntax": "is_array(mixed $value): bool",
+          "category": "אחר"
+        },
+        {
+          "name": "is_string",
+          "desc": "לבדוק האם משתנה הוא מחרוזת",
+          "syntax": "is_string(מעורב $value): bool",
+          "category": "אחר"
+        },
+        {
+          "name": "הוא_מספרי",
+          "desc": "לבדוק האם משתנה הוא מספר או מחרוזת מספרית",
+          "syntax": "is_numeric(מעורב $value): bool",
+          "category": "אחר"
+        }
+      ]
+    },
+    "cssBorderRadius": {
+      "title": "מוצר CSS Border Radius",
+      "description": "התאמת ערכים של border-radius במבט ויצירת קוד CSS",
+      "presetsLabel": "הגדרות מוגדרות",
+      "preview": "סקירה",
+      "settings": "הגדרות",
+      "linked": "זויות מקושרות",
+      "unlinked": "זויות נפרדות",
+      "corners": {
+        "topLeft": "שמאלה עליונה",
+        "topRight": "ימינה עליונה",
+        "bottomLeft": "שמאלה תחתונה",
+        "bottomRight": "ימינה תחתונה"
+      },
+      "elementColor": "צבע אלמנט",
+      "codeTitle": "קוד CSS",
+      "copy": "העתק",
+      "copied": "הועתק",
+      "presets": [
+        {
+          "name": "אין",
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "קטן",
+          "values": [
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "בינוני",
+          "values": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "גדול",
+          "values": [
+            16,
+            16,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "מעגל",
+          "values": [
+            50,
+            50,
+            50,
+            50
+          ]
+        },
+        {
+          "name": "כיפת שיניים",
+          "values": [
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "צד שמאל",
+          "values": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        {
+          "name": "צד ימין",
+          "values": [
+            0,
+            16,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "רק מעלה",
+          "values": [
+            16,
+            16,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "רק למטה",
+          "values": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "אלכסון",
+          "values": [
+            16,
+            0,
+            16,
+            0
+          ]
+        },
+        {
+          "name": " Fogel",
+          "values": [
+            0,
+            50,
+            0,
+            50
+          ]
+        }
+      ]
+    },
+    "cssNeumorphism": {
+      "title": "מוצר CSS Neumorphism",
+      "description": " взводить CSS עם סגנון Neumorphism",
+      "previewText": "הצגת כפתור",
+      "shapeTitle": "סגנון צורה",
+      "shapeOptions": [
+        {
+          "value": "שָׁטוּחַ",
+          "label": "שטוח"
+        },
+        {
+          "value": "קָעוּר",
+          "label": "קעור"
+        },
+        {
+          "value": "קָמוּר",
+          "label": "קמור"
+        },
+        {
+          "value": "לָחוּץ",
+          "label": "נלחץ"
+        }
+      ],
+      "colorTitle": "הגדרות צבע",
+      "presetColors": "צבעים מוגדרים",
+      "colorPresets": [
+        {
+          "color": "#e0e5ec",
+          "name": "كلاسيكي"
+        },
+        {
+          "color": "#f0f0f3",
+          "name": "לבן"
+        },
+        {
+          "color": "#d1d9e6",
+          "name": "כחול"
+        },
+        {
+          "color": "#e8dfd5",
+          "name": "בז"
+        },
+        {
+          "color": "#dfe6e9",
+          "name": "חום"
+        },
+        {
+          "color": "#ffeaa7",
+          "name": "זהוב"
+        },
+        {
+          "color": "#dfe4ea",
+          "name": "סלייט"
+        },
+        {
+          "color": "#f8e1e7",
+          "name": "אדום"
+        },
+        {
+          "color": "#d5f5e3",
+          "name": "מינג"
+        },
+        {
+          "color": "#e8daef",
+          "name": "אפור"
+        }
+      ],
+      "backgroundColor": "צבע בסיס",
+      "lightColor": "צבע בהירים (הדגשה)",
+      "darkColor": "צבע חשוכים (צל)",
+      "sliderTitle": "הגדרות צל",
+      "size": "גודל",
+      "radius": "רדיוס",
+      "distance": "מרחק צל",
+      "blur": "בלור צל",
+      "intensity": "עוצמה",
+      "codeTitle": "קוד CSS",
+      "copy": "העתק",
+      "copied": "הועתק",
+      "infoTitle": "מה זה Neumorphism?",
+      "infoDescription": "ניאומורפיזם הוא סגנון UI רך שמשלב צללים ותאורה עדינים כדי שהאלמנטים ייראו מונחים או לחוצים למאחורי הרקע. הוא עובד טוב במיוחד עם פlettes נמוכות תצוגה ומערכות אינטראקציה נקייה ופשוטה."
+    },
+    "cssTextShadow": {
+      "title": "מוצר צל טקסט CSS",
+      "description": "התאם ערכים של text-shadow בזיהוי וצור קוד CSS",
+      "defaultText": "דוגמה לצל טקסט",
+      "presetsLabel": "אפקטים מוגדרים",
+      "textSettings": "הגדרות טקסט",
+      "previewText": "טקסט להצצה",
+      "fontSize": "גודל_font",
+      "textColor": "צבע הטקסט",
+      "shadowPrefix": "צל {{index}}",
+      "offsetX": "העתקה X",
+      "offsetY": "העתקה Y",
+      "blur": "בלור",
+      "opacity": "שקיפות",
+      "color": "צבע",
+      "addShadow": "הוסף צל",
+      "codeTitle": "קוד CSS",
+      "copy": "העתק",
+      "copied": "הועתק",
+      "presets": [
+        {
+          "name": "צל רך",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 2,
+              "y": 2,
+              "blur": 4,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        },
+        {
+          "name": "הארה קולנית",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#00ff00",
+              "opacity": 0.8
+            }
+          ]
+        },
+        {
+          "name": "הארה כחולה",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 5,
+              "color": "#ff00ff",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#ff00ff",
+              "opacity": 0.8
+            },
+            {
+              "id": 3,
+              "x": 0,
+              "y": 0,
+              "blur": 20,
+              "color": "#ff00ff",
+              "opacity": 0.6
+            }
+          ]
+        },
+        {
+          "name": "שכבתי 3D",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 1,
+              "y": 1,
+              "blur": 0,
+              "color": "#666666",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 2,
+              "y": 2,
+              "blur": 0,
+              "color": "#888888",
+              "opacity": 1
+            },
+            {
+              "id": 3,
+              "x": 3,
+              "y": 3,
+              "blur": 0,
+              "color": "#aaaaa",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "name": "מעוטר",
+          "shadows": [
+            {
+              "id": 1,
+              "x": -1,
+              "y": -1,
+              "blur": 1,
+              "color": "#ffffff",
+              "opacity": 0.8
+            },
+            {
+              "id": 2,
+              "x": 1,
+              "y": 1,
+              "blur": 1,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "websocketTest": {
+      "title": "כלי בדיקה של WebSocket מקוון",
+      "description": "בדוק חיבורים וMessaging של WebSocket מקוון",
+      "defaultUrl": "wss://echo.websocket.org",
+      "connectingTo": "מחבר ל{{url}}...",
+      "connectSuccess": "מחובר בהצלחה",
+      "connectError": "שגיאה במחבר",
+      "connectionClosed": "חיבור נסגר (קוד: {{code}})",
+      "connectFailed": "המחבר נכשל: {{message}}",
+      "disconnecting": "מתנתק...",
+      "urlPlaceholder": "הזן URL של WebSocket, לדוגמה: wss://echo.websocket.org",
+      "disconnect": "הסרת חיבור",
+      "connecting": "מחבר...",
+      "connect": "מחבר",
+      "connected": "מחובר",
+      "notConnected": "לא מחובר",
+      "messageLog": "سجل ההודעות",
+      "clear": "נקה",
+      "noMessages": "אין הודעות עדיין",
+      "messagePlaceholder": "הזן הודעה... (Enter לשליחה, Shift+Enter ליצירת שורה חדשה)",
+      "infoTitle": "טיפים לWebSocket",
+      "infoItems": [
+        "שירות האקו של המערכת שימושי לבדיקות בסיסיות של שליחה/استقبال",
+        "מפתח את ws:// ו wss:// כתובות",
+        "לחץ על Enter לשליחה, Shift+Enter לכניסת שורה חדשה",
+        "הتأكد שהשירות היעד מאפשר חיבורים של WebSocket מהמוניטור"
+      ],
+      "examplesTitle": "דוגמאות נפוצות",
+      "publicEcho": " שירות אקו ציבורי",
+      "defaultTag": "ברירת מחדל"
+    },
+    "csrGenerator": {
+      "title": "מוצר CSR ומציג",
+      "description": " взיצר קבצי CSR מקוון וחלץ את תוכן CSR",
+      "enterDomain": "אנא הזן דומיין",
+      "generateFailed": "נכשל ביצירת CSR",
+      "parseFailed": "נכשל בניתוח CSR",
+      "serverConnectionFailed": "נכשל במחבר לשרת, אנא נסה שוב מאוחר יותר",
+      "tabs": {
+        "generate": " взיצר CSR",
+        "view": " הצגת CSR"
+      },
+      "formTitle": "מידע על התעודה",
+      "labels": {
+        "commonName": "דומיין (שם משותף)",
+        "organization": "ארגון",
+        "organizationUnit": "מחלקה",
+        "city": "עיר",
+        "state": "מדינה / פרובינציה",
+        "country": "מדינה / אזור",
+        "email": "אימייל",
+        "keySize": "גודל מפתח"
+      },
+      "placeholders": {
+        "commonName": "למשל: www.example.com או *.example.com",
+        "organization": "למשל: Example Inc.",
+        "organizationUnit": "למשל: מחלקת IT",
+        "city": "למשל: 베이징",
+        "state": "למשל: 베이징",
+        "email": "למשל: admin@example.com",
+        "csr": "הדבק את תוכן CSR כאן, החל מ-----BEGIN CERTIFICATE REQUEST-----"
+      },
+      "countries": [
+        {
+          "value": "CN",
+          "label": "CN - סין"
+        },
+        {
+          "value": "לָנוּ",
+          "label": "US -สหรัฐอเมริกา"
+        },
+        {
+          "value": "JP",
+          "label": "JP - יפן"
+        },
+        {
+          "value": "KR",
+          "label": "KR - קוריאה הדרומית"
+        },
+        {
+          "value": "GB",
+          "label": "GB - בריטניה"
+        },
+        {
+          "value": "DE",
+          "label": "DE - גרמניה"
+        },
+        {
+          "value": "FR",
+          "label": "FR - צרפת"
+        },
+        {
+          "value": "SG",
+          "label": "SG - סינגפור"
+        },
+        {
+          "value": "HK",
+          "label": "HK - הונג קונג"
+        },
+        {
+          "value": "TW",
+          "label": "TW - טאיוואן"
+        }
+      ],
+      "keySizes": [
+        {
+          "value": "2048",
+          "label": "2048 סיבית (מומלץ)"
+        },
+        {
+          "value": "4096",
+          "label": "4096 סיבית (בטוח יותר)"
+        }
+      ],
+      "generating": "מפיק...",
+      "generateAction": " взיצר CSR וключ פרטי",
+      "csrRequest": "בקשה CSR",
+      "privateKey": "מפתח פרטי (שמור אותו)",
+      "copy": "העתק",
+      "copied": "הועתק",
+      "download": "הורד",
+      "privateKeyWarning": "המפתח הפרטי הוא רגיש מאוד. שמור אותו ומעדיף לא לשתף אותו לציבור. אם הוא נחשף, הבטחון של התעודה שלך עשוי להיחשב מושבש.",
+      "inputCsr": "הדבק תוכן CSR",
+      "parsing": "מפענח...",
+      "parseAction": "פענח CSR",
+      "csrInfo": "מידע על CSR",
+      "infoItems": [
+        {
+          "label": "דומיין (CN)",
+          "key": "commonName"
+        },
+        {
+          "label": "ארגון (O)",
+          "key": "אִרגוּן"
+        },
+        {
+          "label": "מחלקה (OU)",
+          "key": "ארגון יחידה"
+        },
+        {
+          "label": "עיר (L)",
+          "key": "עִיר"
+        },
+        {
+          "label": "מדינה / פרובינציה (ST)",
+          "key": "מְדִינָה"
+        },
+        {
+          "label": "מדינה (C)",
+          "key": "מְדִינָה"
+        },
+        {
+          "label": "אימייל",
+          "key": "אֶלֶקטרוֹנִי"
+        },
+        {
+          "label": "אלגוריתם מפתח",
+          "key": "אלגוריתם מפתח"
+        },
+        {
+          "label": "גודל מפתח",
+          "key": "keySize"
+        },
+        {
+          "label": "אלגוריתם חתימה",
+          "key": "אלגוריתם חתימה"
+        }
+      ],
+      "keySizeValue": "{{value}} סיבית",
+      "aboutTitle": "מה זה CSR?",
+      "aboutDescription": "CSR (Certificate Signing Request) הוא קובץ מוצפן שנשלח למנהל רשיונות (CA) כאשר מבקש רשיון SSL/TLS. הוא מכיל מידע על הדומיין והארגון שלך, וכן את המפתח הציבורי שמתאים למפתח הפרטי שלך. לאחר אימות, ה-CA משתמש ב-CSR כדי לдать את רשיון SSL."
+    },
+    "metaGenerator": {
+      "title": "מוצר תגיות Meta",
+      "description": " взיצר תגיות Meta שמתאימות ל-seo",
+      "basicInfo": "معلومات בסיסית",
+      "socialMedia": "מדיה חברתית (Open Graph)",
+      "generatedCode": "קוד שנוצר",
+      "copy": "העתק",
+      "copied": "הועתק",
+      "searchPreview": "תצוגת חיפוש",
+      "searchPreviewTitleFallback": "כותרת דף",
+      "searchPreviewDescriptionFallback": "תיאור הדף יופיע כאן...",
+      "socialPreview": "תצוגת רשתות חברתיות",
+      "socialPreviewTitleFallback": "כותרת",
+      "socialPreviewDescriptionFallback": "תיאור",
+      "labels": {
+        "title": "כותרת דף",
+        "description": "תיאור דף",
+        "keywords": "מילות מפתח",
+        "author": "מחבר",
+        "robots": "הנחיות רובוטים",
+        "ogTitle": "כותרת OG",
+        "ogDescription": "תיאור OG",
+        "ogImage": "כתובת URL של תמונה OG",
+        "ogUrl": "כתובת URL של הדף",
+        "twitterCard": "סוג כרטיס טוויטר"
+      },
+      "placeholders": {
+        "title": "הזן כותרת דף",
+        "description": "הזן תיאור דף, מומלץ עד 150 תווים",
+        "keywords": "מילת מפתח 1, מילת מפתח 2, מילת מפתח 3",
+        "author": "הזן את שם המחבר",
+        "ogTitle": "הזן כותרת לשתף ברשתות חברתיות",
+        "ogDescription": "הזן תיאור לשתף ברשתות חברתיות",
+        "ogImage": "https://example.com/image.jpg",
+        "ogUrl": "https://example.com/page"
+      },
+      "robotsOptions": [
+        {
+          "value": "אינדקס, עקוב",
+          "label": "אפשר אינדקס ועקבות"
+        },
+        {
+          "value": "אינדקס, nofollow",
+          "label": "אפשר אינדקס, לאפשר עקיבה"
+        },
+        {
+          "value": "noindex, בצע",
+          "label": "לא אפשר אינדקס, אפשר עקיבה"
+        },
+        {
+          "value": "noindex, nofollow",
+          "label": "לא אפשר אינדקס ולא עקיבה"
+        }
+      ],
+      "twitterOptions": [
+        {
+          "value": "תַקצִיר",
+          "label": "סיכום"
+        },
+        {
+          "value": "סיכום_תמונה_גדולה",
+          "label": "תמונה גדולה"
+        },
+        {
+          "value": "נַגָן",
+          "label": "נגן"
+        }
+      ]
+    },
+    "toolHistoryDemo": {
+      "confirmClear": "האם אתה בטוח שברצונך למחוק את כל ההיסטוריה והסימני ניקוד?",
+      "exportTitle": "יצוא נתונים",
+      "usageCount": "שומש {{count}} פעמים",
+      "lastUsed": "הפעם האחרונה שמשתמש: {{time}}",
+      "favorite": "סימן ניקוד: {{value}}",
+      "yes": "כן",
+      "no": "לא",
+      "exportFailed": "יצוא נכשל",
+      "tabs": {
+        "overview": "סקירת סטטיסטיקות",
+        "history": "היסטוריה",
+        "favorites": "סימני ניקוד",
+        "analytics": "אנליטיקה"
+      },
+      "loading": "טעינת נתוני ההיסטוריה של הכלים...",
+      "loadFailed": "טעינה נכשלה: {{error}}",
+      "title": "דемו היסטוריית כלי",
+      "description": "מציג את ההיסטוריה של שימוש בכלי, סימני ניקוד וניתוחים",
+      "export": "יצוא",
+      "clear": "איפוס",
+      "searchPlaceholder": "חיפושเครגלים...",
+      "stats": {
+        "totalTools": "כל הכלי",
+        "totalUsage": "שימוש כולל",
+        "favoriteTools": "כלי מועדפים",
+        "averageUsage": "שימוש ממוצע"
+      },
+      "favoriteToolsTitle": "כלי מועדפים",
+      "favoriteToolsDescription": "כלי שסימנת כמועדים",
+      "noFavoriteTools": "אין עדיין כלי מועדפים",
+      "mostUsed": "כלי שנדרשו הכי הרבה",
+      "timesUsed": "שומש {{count}} פעמים",
+      "recentActivity": "פעילות אחרונה",
+      "exportDialogTitle": "יצוא היסטוריית כלי",
+      "exportDialogDescription": "בחר צורת יצוא",
+      "formats": {
+        "json": {
+          "title": "צורת JSON",
+          "description": "הכי טוב לنسخות גיבוי ולשימוש של מפתחים"
+        },
+        "csv": {
+          "title": "צורת CSV",
+          "description": "جيد לשימוש במחשבון כמו Excel"
+        },
+        "txt": {
+          "title": "צורת TXT",
+          "description": "טקסט פשוט"
+        }
+      },
+      "cancel": "отмена"
+    },
+    "userAgentParser": {
+      "title": "מנתח User-Agent",
+      "description": "לחלץ מידע על המבrowsers, מערכת הפעולה והמכשירים מהמחרוזות של User-Agent",
+      "label": "מחרוזת User-Agent",
+      "useCurrent": "השתמש במבrowser הנוכחי",
+      "inputPlaceholder": "הזן מחרוזת User-Agent...",
+      "parse": "חלץ",
+      "unknownBrowser": "מחלקת מנוע חסר זיהוי",
+      "unknown": "לא ידוע",
+      "deviceTypes": {
+        "mobile": "מובייל",
+        "tablet": "טאבלט",
+        "desktop": "מחשב שולחני"
+      },
+      "browserInfo": "מידע על המחלקת",
+      "browser": "מחלקת",
+      "version": "גרסה",
+      "majorVersion": "גרסה עיקרית",
+      "operatingSystem": "מערכת הפעולה",
+      "system": "מערכת",
+      "deviceInfo": "מידע על המכשיר",
+      "type": "סוג",
+      "vendor": "יצרן",
+      "model": "מודל",
+      "engineAndCpu": "מנוע & מעבד",
+      "engine": "מנוע",
+      "engineVersion": "גרסה של מנוע",
+      "cpuArchitecture": "ארכיטקטורת מעבד",
+      "examplesTitle": "מחרוזות User-Agent לדוגמה"
+    },
+    "cssBoxShadow": {
+      "title": "יוצר צל של DIV",
+      "description": "התאם ערכים של צל וצור קוד CSS",
+      "preview": "הצצה",
+      "basicSettings": "הגדרות בסיסיות",
+      "backgroundColor": "צבע רקע",
+      "boxColor": "צבע קופסה",
+      "borderRadius": "ק Radius",
+      "shadowPrefix": "צל {{index}}",
+      "inset": "פנימי",
+      "offsetX": "הזזה X",
+      "offsetY": "הزזה Y",
+      "blur": "בלור",
+      "spread": "הרחבה",
+      "opacity": "שקיפות",
+      "color": "צבע",
+      "addShadow": "הוסף צל",
+      "codeTitle": "קוד CSS",
+      "copy": "העתק",
+      "copied": "הועתק"
+    },
+    "cssGlassmorphism": {
+      "title": "יוצר CSS Glassmorphism",
+      "description": " взгенерировать CSS-код стиля glassmorphism онлайн",
+      "cardTitle": "קלף Glassmorphism",
+      "cardDescription": "Glassmorphism הוא סגנון UI מודרני המשלב שקיפות, בלור וגבולות רכים כדי ליצור Effekt של זכוכית מקרר.",
+      "adjustTitle": "התאם הגדרות",
+      "blur": "בלור רקע",
+      "transparency": "שקיפות",
+      "saturation": "הרמה",
+      "borderRadius": "ק Radius",
+      "borderOpacity": "שקיפות מסגרת",
+      "codeTitle": "קוד CSS",
+      "copy": "העתק",
+      "copied": "הועתק",
+      "infoTitle": "הערות התאימות",
+      "infoDescription": "המאפיין backdrop-filter דורש תמיכה מודרנית בדפדפן. Firefox עשוי להידרש להגדרות נוספות, ו-Safari עשוי להידרש להוספת префикс -webkit-. יש לשקול פתרונות חלופיים למכונות שלא תומכות."
+    },
+    "desktopShortcut": {
+      "title": "ראשי גישה לדesktop של אתר",
+      "description": "יצירת ראשיכים לדesktop של אתר והפניה מהירה אליהם",
+      "enterUrl": "אנא הזן כתובת URL תקינה",
+      "enterName": "אנא הזן שם ראשית",
+      "redirectingTo": "פותח {{name}}...",
+      "urlLabel": "כתובת URL של אתר",
+      "urlPlaceholder": "example.com או https://example.com",
+      "nameLabel": "שם הראשית",
+      "namePlaceholder": "ראשית אתר",
+      "downloadUrlFile": "הורד קובץ .url",
+      "downloadHtmlFile": "הורד קובץ .html",
+      "infoTitle": "הוראות",
+      "urlFileDesc": "קובצי .url הם קבצים של מקשי רשת של Windows וعادة פותחים את האתר היעד ישירות בדפדפן הסטנדרטי שלך.",
+      "htmlFileDesc": " fichiers .html fonctionnent sur Windows, macOS et Linux et peuvent également être utilisés comme raccourcis de sites web simples.",
+      "afterDownload": "Après le téléchargement, déplacez le fichier sur votre bureau ou attachez-le là où nécessaire."
+    },
+    "htmlPreview": {
+      "title": "Aperçu HTML",
+      "description": "Écrivez et apercevez du HTML en ligne",
+      "defaultMessage": "Bienvenue dans l'outil d'aperçu HTML",
+      "editorTitle": "Code HTML",
+      "clear": "Effacer",
+      "editorPlaceholder": "Entrez le code HTML ici...",
+      "previewTitle": "Aperçu",
+      "run": "Exécuter",
+      "fullscreen": "Plein écran",
+      "exitFullscreen": "Quitter le plein écran",
+      "usageTitle": "Comment utiliser",
+      "usageItems": [
+        "Entrer le code HTML complet dans l'éditeur à gauche",
+        "Cliquez sur Exécuter pour apercevoir le résultat",
+        "Le CSS et JavaScript en ligne sont pris en charge",
+        "Le code s'exécute dans un bac de sécurité pour la sécurité"
+      ]
+    },
+    "pageRefresh": {
+      "title": "Rafraîchissement automatique de la page",
+      "description": "Rafraîchir une page web automatiquement en ligne",
+      "urlRequired": "Veuillez entrer une URL",
+      "urlPlaceholder": "Entrez une URL, par exemple https://example.com",
+      "seconds": "שניות",
+      "start": "Démarrer",
+      "stop": "Arrêter",
+      "quickSet": "Préréglages rapides:",
+      "secondsValue": "{{count}}ש'",
+      "minutesValue": "{{count}} דקות",
+      "running": "En cours",
+      "refreshIn": "Rafraîchit dans {{count}} secondes",
+      "refreshedCount": "Rafraîchi {{count}} fois",
+      "lastRefresh": "Dernier rafraîchissement: {{time}}",
+      "previewTitle": "Aperçu de la page",
+      "previewPlaceholder": "Entrez une URL pour commencer à apercevoir",
+      "usageTitle": "Comment utiliser",
+      "usageItems": [
+        "Entrez l'URL de la page web et définissez l'intervalle de rafraîchissement",
+        "Cliquez sur Démarrer pour commencer le rafraîchissement automatique",
+        "Certaines pages web ne s'affichent pas dans un iframe en raison des politiques de sécurité",
+        "Utile pour surveiller les changements de page ou maintenir les sessions actives"
+      ]
+    },
+    "pxToRem": {
+      "title": "Convertisseur PX en REM",
+      "description": "Convertir par lot les unités PX en unités REM dans le code CSS",
+      "baseFontSize": "Taille de police racine",
+      "precision": "Précision décimale",
+      "precisionOptions": {
+        "2": "2 chiffres",
+        "3": "3 chiffres",
+        "4": "4 chiffres",
+        "5": "5 chiffres"
+      },
+      "inputLabel": "Code CSS d'entrée",
+      "convertToRem": "PX à REM",
+      "convertToPx": "REM à PX",
+      "outputLabel": "Résultat",
+      "copy": "Copier",
+      "copied": "Copié",
+      "outputPlaceholder": "Le résultat de la conversion apparaîtra ici...",
+      "quickReferenceTitle": "Référence rapide (base: {{baseSize}}px)",
+      "whyUseRem": "Pourquoi utiliser REM ?",
+      "infoItems": [
+        "REM est relatif à la taille de police racine (html)",
+        "L'utilisation de REM facilite l'échelle de la typographie sur un site",
+        "Cela aide à la conception responsive et à l'accessibilité"
+      ],
+      "formula": "Formule: rem = px / {{baseSize}}"
+    },
+    "shieldBadge": {
+      "title": "Générateur de médaille de bouclier",
+      "description": "Générer des médailles SVG en ligne",
+      "downloadFailed": "Le téléchargement a échoué, veuillez réessayer plus tard",
+      "basicSettings": "Paramètres de base",
+      "labelField": "Étiquette",
+      "messageField": "הוֹדָעָה",
+      "color": "Couleur",
+      "style": "סִגְנוֹן",
+      "logoSettings": "Paramètres du logo",
+      "logo": "סֵמֶל",
+      "none": "Aucun",
+      "logoColor": "Couleur du logo",
+      "preview": "Aperçu",
+      "downloadSvg": "Télécharger SVG",
+      "codeTitle": "קוד",
+      "copiedToClipboard": "Copié dans le presse-papier"
+    },
+    "robotsGenerator": {
+      "title": "Générateur de robots.txt",
+      "description": "Générer des fichiers robots.txt en ligne",
+      "templatesLabel": "Modèles rapides :",
+      "templates": {
+        "allowAll": "Autoriser tout",
+        "blockAll": "Bloquer tout",
+        "standard": "Configuration standard"
+      },
+      "ruleTitle": "Règle {{index}}",
+      "userAgents": {
+        "all": "* (tous les robots)",
+        "baidu": "Baiduspider (Baidu)",
+        "sogou": "סוגאו"
+      },
+      "disallow": "Chemins interdits",
+      "allow": "Chemins autorisés",
+      "add": "Ajouter",
+      "addRule": "Ajouter une règle",
+      "otherSettings": "Autres paramètres",
+      "sitemapUrl": "URL de la carte du site",
+      "crawlDelay": "Délai de navigation (secondes)",
+      "preview": "Aperçu de robots.txt",
+      "copy": "Copier",
+      "copied": "Copié",
+      "saveTip": "Enregistrez ce fichier sous le nom de robots.txt et placez-le dans le répertoire racine de votre site web"
+    },
+    "emailEncrypt": {
+      "title": "Encodeur d'adresse e-mail",
+      "description": "Encoder les adresses e-mail pour réduire le scraping par les bots",
+      "inputLabel": "Adresse e-mail",
+      "copy": "Copier",
+      "copied": "Copié",
+      "infoTitle": "Pourquoi encoder une adresse e-mail ?",
+      "infoItems": [
+        "Réduire le risque que les bots scannent votre adresse e-mail pour le spam",
+        "L'e-mail encodé peut toujours s'afficher dans le navigateur tout en étant plus difficile pour les bots de détecter",
+        "Plusieurs méthodes d'encodage peuvent être combinées pour une protection renforcée",
+        "Il est toujours recommandé d'utiliser des mesures anti-spam côté serveur"
+      ],
+      "results": {
+        "unicodeDecimal": {
+          "name": "Unicode décimal",
+          "description": "Convertir les caractères en entités Unicode décimales"
+        },
+        "unicodeHex": {
+          "name": "Unicode hexadécimal",
+          "description": "Convertir les caractères en entités Unicode hexadécimales"
+        },
+        "javascript": {
+          "name": "Sortie JavaScript",
+          "description": "Afficher l'e-mail dynamiquement avec JavaScript"
+        },
+        "mailto": {
+          "name": "Lien mailto",
+          "description": "Générer un lien mailto encodé"
+        },
+        "cssReverse": {
+          "name": "Affichage inversé CSS",
+          "description": "Afficher le texte dans l'ordre inverse à l'aide de CSS"
+        }
+      }
+    },
+    "workerDemo": {
+      "title": "Démonstration de performance Web Worker",
+      "description": "Comparer les performances de calcul entre Web Workers et le thread principal",
+      "invalidInteger": "Veuillez entrer un entier positif valide",
+      "workerError": "Erreur de calcul du worker :",
+      "notice": "Avis",
+      "settingsTitle": "Paramètres de calcul",
+      "inputLabel": "Valeur d'entrée",
+      "inputPlaceholder": "Entrez un entier positif",
+      "operationLabel": "Opération",
+      "operations": {
+        "factorial": "Factorielle (n!)",
+        "fibonacci": "Séquence de Fibonacci",
+        "prime": "Vérification des nombres premiers",
+        "factorization": "Factorisation en nombres premiers"
+      },
+      "workerCalculate": "Calculer avec Web Worker",
+      "mainThreadCalculate": "Calculer sur le thread principal",
+      "comparisonTitle": "Comparaison des performances",
+      "workerResult": "Résultat du Web Worker",
+      "mainThreadResult": "Résultat du thread principal",
+      "resultLabel": "Résultat :",
+      "timeLabel": "Temps de calcul :",
+      "calculating": "Calcul en cours...",
+      "emptyState": "Cliquez sur un bouton ci-dessus pour commencer le calcul",
+      "infoTitle": "Pourquoi utiliser Web Workers ?",
+      "workerFeaturesTitle": "Fonctionnalités de Web Worker",
+      "workerFeatures": [
+        "S'exécute dans un thread en arrière-plan sans bloquer le thread principal",
+        "Idéal pour les tâches de calcul intensif",
+        "Maintient l'interface utilisateur réactive",
+        "Supporte le traitement parallèle"
+      ],
+      "useCasesTitle": "Cas d'utilisation",
+      "useCases": [
+        "Traitement de grands ensembles de données",
+        "Algorithmes complexes",
+        "Traitement d'images",
+        "Chiffrement et déchiffrement"
+      ]
+    },
+    "jsDebug": {
+      "title": "Débogueur JS",
+      "description": "הרץ ודרג JavaScript אונליין",
+      "defaultCode": "// כתוב קוד JavaScript כאן\nconsole.log(\"Hello, World!\");\n\n// דוגמה: פעולות על מערך\nconst numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(n => n * 2);\nconsole.log(\"מערך מקור:\", numbers);\nconsole.log(\"מוכפל ב-2:\", doubled);\n\n// דוגמה: אובייקט\nconst user = {\n  name: \"장 산\",\n  age: 25,\n  city: \"베이징\"\n};\nconsole.log(\"معلومات المستخدم:\", user);\n\n// דוגמה: פעולה异步\nsetTimeout(() => {\n  console.log(\" executed after 1 second\");\n}, 1000);",
+      "editorTitle": "קוד JavaScript",
+      "copy": "העתק",
+      "copied": "הועתק!",
+      "clear": "נקה",
+      "placeholder": "הזן קוד JavaScript כאן...",
+      "run": "הרץ את הקוד",
+      "consoleTitle": "פלט קונסול",
+      "consolePlaceholder": "פלט קונסול יופיע כאן...",
+      "usageTitle": "איך להשתמש",
+      "usageItems": [
+        "השתמש ב console.log(), console.error(), ו console.warn() כדי להדפיס הודעות",
+        "מدعم סינטקס ES6+ כמו פונקציות חץ, פירוק, וסטרינגים עם תבנית",
+        "ממשיך פעולות异步 כמו setTimeout ו Promise",
+        "הקוד רץ במדור ויכול להגיעה ל DOM או tài nguyên חיצוניים"
+      ]
+    },
+    "formValidationDemo": {
+      "title": "הדגמה לשלמות טופס",
+      "description": "מציג שלמות טופס מלאה, כולל בדיקה בזמן אמת, התרעות שגיאה, וניקוי נתונים",
+      "validation": {
+        "username": "שם משתמש יכול להכיל רק אותיות, מספרים ואישורים, וחייב להיות באורך 3-20 תווים",
+        "phone": "אנא הזן מספר טלפון נייד חוקי",
+        "age": "גיל חייב להיות בין 1 ל-120",
+        "idCard": "אנא הזן מספר תעודת זהות חוקי",
+        "address": "כתובת חייבת להיות קצרה מ-200 תווים",
+        "bio": "био חייב להיות קצר מ-500 תווים"
+      },
+      "submitSuccess": "הבדיקה של הטופס הושלמה! הנתונים שהוגשו:",
+      "quickTestTitle": "בדיקות בדיקה מהירות",
+      "quickLabels": {
+        "email": "בדיקת אימייל",
+        "phone": "בדיקת טלפון",
+        "url": "בדיקת URL"
+      },
+      "quickPlaceholders": {
+        "email": "הזן כתובת אימייל",
+        "phone": "הזן מספר טלפון",
+        "url": "הזן URL"
+      },
+      "valid": "נכון",
+      "invalid": "לא נכון",
+      "formTitle": "שלמות טופס מלאה",
+      "placeholders": {
+        "username": "שם משתמש (אותיות, מספרים, תתי-שנים)",
+        "email": "כתובת אימייל",
+        "phone": "מספר טלפון נייד",
+        "website": "אתר אישי (אופציונלי)",
+        "age": "גיל",
+        "idCard": "מספר תעודת זהות",
+        "address": "כתובת מפורטת (אופציונלי)",
+        "bio": "био (אופציונלי, עד 500 תווים)"
+      },
+      "success": {
+        "username": "פורמט שם משתמש תקין",
+        "email": "פורמט אימייל תקין",
+        "phone": "פורמט מספר טלפון תקין",
+        "website": "פורמט URL תקין",
+        "age": "גיל תקין",
+        "idCard": "פורמט תעודת זהות תקין",
+        "address": "כתובת תקינה",
+        "bio": "биو תקין"
+      },
+      "submit": "שלח טופס",
+      "summaryTitle": "סיכום בדיקה",
+      "fieldLabels": {
+        "username": "שם משתמש",
+        "email": "ایمیل",
+        "phone": "טלפון",
+        "website": "เว็บไซต์",
+        "age": "อายุ",
+        "idCard": "บัตรประจำตัวประชาชน",
+        "address": "ที่อยู่",
+        "bio": "ชีวประวัติ"
+      },
+      "summaryStatus": {
+        "failed": "הבדיקה נכשלה",
+        "passed": "הבדיקה עברה",
+        "empty": "לא נמסר"
+      },
+      "infoTitle": "תכונות שלמות טופס",
+      "infoItems": [
+        {
+          "title": "בדיקה בזמן אמת",
+          "description": "בודק פורמט במהלך הקלדה ומבצע בדיקה מחדש כאשר מוסר את המוקד"
+        },
+        {
+          "title": "סוגי כלל מרובים",
+          "description": "מstütם שדות חובה, בדיקות אורך, ביטויים רגולריים ובדיקה מותאמת"
+        },
+        {
+          "title": "החזרה חזותית",
+          "description": "מציג את מצב הבדיקה בצורה ברורה עם צבעים, סמלים וرسائل"
+        },
+        {
+          "title": "ניקוי נתונים",
+          "description": "מחזיר ומנקה את הנתונים שהוגשו אוטומטית"
+        },
+        {
+          "title": "הנחיות שגיאה מועילות",
+          "description": "מספק הדרכה ידידותית לתקן קלט"
+        },
+        {
+          "title": "תמיכה באקססיביליות",
+          "description": "מאפשר לשמור על שימוש בטופס עבור כל משתמש"
+        }
+      ]
+    },
+    "faviconGenerator": {
+      "title": "מיוצר פavicon",
+      "description": "המר תמונות לאייקונים של אתר אינטרנט",
+      "historyTitle": "מיוצר פavicon",
+      "historyCategory": "เครื่องมือรูปภาพ",
+      "uploadImageFile": "אנא העלה קובץ תמונה",
+      "generateFailed": "נכשלה יצירת הסמל, אנא נסה שוב",
+      "uploadTitle": "העלה תמונה",
+      "uploadAria": "העלה קובץ תמונה",
+      "dropzoneAria": "לחץ להעלאה של תמונה, מומשא PNG, JPG, SVG ועוד",
+      "dropRelease": "הקליק להעלאה של תמונה",
+      "dropClick": "לחץ או גרור תמונה הנה",
+      "supportFormats": "מ supported PNG, JPG, SVG ועוד",
+      "clearImage": "מחק תמונה",
+      "clearImageTitle": "מחק תמונה (Ctrl+L)",
+      "settingsTitle": "הגדרות",
+      "removeBackground": "הסר צבע רקע של התמונה",
+      "removeColor": "צבע להסרה",
+      "removeColorPicker": "בחר את הצבע של הרקע להסרה",
+      "removeColorValue": "ערך צבע של הרקע להסרה",
+      "tolerance": "ספיקה: {{value}}",
+      "toleranceAria": "ספיקה צבע",
+      "toleranceTip": "ספיקה גבוהה מוחקת רחבי צבע יותר",
+      "transparentBackground": "רקע שקוף",
+      "transparentTip": "หมายה: אם התמונה המקורית יש לה צבע רקע,启用 ?הסר צבע רקע של התמונה?.",
+      "backgroundColor": "צבע רקע",
+      "backgroundColorPicker": "בחר צבע רקע",
+      "backgroundColorValue": "ערך צבע רקע",
+      "selectSize": "בחר גודל",
+      "selectedState": " (נבחר)",
+      "sizeAria": "{{size}}x{{size}} גודל ביטס{{state}}",
+      "toggleSizeTitle": "החלף {{size}}x{{size}} גודל (Alt+{{shortcut}})",
+      "previewTitle": "סקירה",
+      "generating": "מוצר...",
+      "downloadSizeAria": "הורד {{size}}x{{size}} סמל",
+      "download": "הורד",
+      "uploadFirst": "אנא העלה תמונה ראשונה",
+      "downloadTitle": "הורד",
+      "downloadAllPng": "הורד כל הגודלים (PNG)",
+      "downloadAllPngTitle": "הורד כל הגודלים PNG (Ctrl+Enter)",
+      "downloadIco": "הורד favicon.ico",
+      "downloadIcoTitle": "הורד favicon.ico (Alt+I)",
+      "usageTitle": "איך להשתמש",
+      "usageItems": [
+        "הסר צבע רקע: מוחק רקעים קצרים כמו אפור או לבן",
+        "ספיקה: הגדל את הספיקה כדי להסיר צבעים דומים, שימושי לרקעים גראדיינטים",
+        "16x16: סמל לסלט בדפדפן",
+        "32x32: סמל לرابط משימה",
+        "48x48: סמל לرابط אתר Windows",
+        "הוסף את הסמל שנוצר לקטגוריה הראשית של האתר שלך"
+      ]
+    }
+  },
+  "components": {
+    "toolHistory": {
+      "usageCount": "השתמש {{count}} פעמים",
+      "recentUsed": "השתמש לאחרונה: {{value}}",
+      "removeFavorite": "הסר ממועדפים",
+      "addFavorite": "הוסף למועדפים",
+      "removeRecord": "הסר רשומה",
+      "emptyHistory": "אין היסטוריה של כלי עדיין",
+      "confirmClear": "אתה בטוח שברצונך למחוק את כל ההיסטוריה של הכלי?",
+      "tabs": {
+        "recent": "אחרון",
+        "favorites": "מועדפים",
+        "mostUsed": "כיום נפוץ"
+      },
+      "title": "היסטוריה של כלי",
+      "clearHistory": "מחק היסטוריה",
+      "searchPlaceholder": "חפש היסטוריה...",
+      "emptyMessages": {
+        "recent": "אין רשומות שימוש אחרונות",
+        "favorites": "אין כלים מועדפים עדיין",
+        "mostUsed": "אין כלים נפוצים ביותר עדיין"
+      }
+    },
+    "exportFormatSelector": {
+      "buttonText": "הוציאผล",
+      "exporting": "מוציא...",
+      "exportFailed": "הإخراج נכשל, אנא נסה שוב"
+    },
+    "ads": {
+      "loading": "טעינת פרסומות...",
+      "carouselTitle": "הקרוסל של פרסומות",
+      "checkConsole": "אנא בדוק את קונסול הדפדפן לسجلים מفصلים"
+    },
+    "networkStatus": {
+      "online": "ออนไลין",
+      "offline": "לא מקושר",
+      "connected": "شبكة متصلة",
+      "disconnected": "شبكة منفصلة",
+      "connectedDescription": "כל המנגנונים זמינים עכשיו",
+      "disconnectedDescription": "חלק מהמנגנונים עשויים להיות לא זמינים. אנא בדוק את חיבור הרשת שלך.",
+      "requestFailed": "הבקשה נכשלה"
+    },
+    "keyboardShortcutsHelp": {
+      "title": "קיצורי מקלדה",
+      "close": "סגור",
+      "toggleDescription": "הצגת או הוסרת עזרת קיצורים",
+      "helpTextBefore": "לחץ על",
+      "helpTextMiddle": "או",
+      "helpTextAfter": "כדי להציג או להסתיר את ההעוזר הזה",
+      "tipTitle": "טיפים",
+      "tipItems": [
+        "תווית הקיצורים עלולה להראות מעט שונה בין מערכות הפעלה",
+        "חלק מקיצורים עשויים להתנגח עם קיצורים של דפדפן",
+        "השתמש במקלדת Tab כדי לנוע בין איברים שניתן להדגיש",
+        "לחץ על Enter כדי להפעיל כפתורים ומקלטים"
+      ],
+      "closeEsc": "סגור (ESC)"
+    },
+    "performanceDashboard": {
+      "title": "לוח ביצועים",
+      "startMonitoring": "התחל ניטור",
+      "stopMonitoring": "עצור ניטור",
+      "exportReport": "יצא תיאום",
+      "notMeasured": "לא נמדד",
+      "metrics": {
+        "fcp": "העטיפה הראשונה של תוכן",
+        "lcp": "העטיפה הגדולה ביותר של תוכן",
+        "fid": "הتأחרון הראשון",
+        "cls": "השינוי הסופי של מבנה",
+        "ttfb": "זמן עד הפעם הראשונה של האות"
+      },
+      "memoryTitle": "שימוש בזיכרון",
+      "memory": {
+        "used": "זכרון שנעשה בו שימוש",
+        "total": "זכרון כולל",
+        "usageRate": "שיעור השימוש"
+      },
+      "tipsTitle": "טיפים לשיפור",
+      "tips": [
+        "השתמש באפליקציה באופן רגיל במהלך הניטור; הנתונים יעדכנו בזמן אמת",
+        "FCP < 1.8s, LCP < 2.5s, FID < 100ms, ו-CLS < 0.1 נחשבים לעדינות",
+        "אם השימוש בזיכרון עולה על 80%, פكפק בהזזה של הקוד",
+        "אתה יכול לייצא תיאום מפורט לניתוח עמוק"
+      ],
+      "emptyState": "לחץ על ?התחל ניטור? כדי להתחיל בניתוח ביצועים"
+    }
+  }
+}

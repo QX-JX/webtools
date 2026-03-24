@@ -1,0 +1,2730 @@
+{
+  "common": {
+    "home": "Ana Sayfa",
+    "websiteDetection": "Web Sitesi Kontrolleri",
+    "seoTools": "SEO Araçları",
+    "devTools": "Geliştirici Araçları",
+    "encodingConversion": "Kodlama Dönüşüm Araçları",
+    "otherTools": "Diğer Araçlar",
+    "feedback": "Geribildirim",
+    "customization": "Özel Çözümler / Bize Ulaşın",
+    "back": "Geri",
+    "appName": "Tümü Bir Arada Webmaster Araçları",
+    "brandName": "A Kunqiong Ürünü",
+    "loading": "Yükleniyor...",
+    "processing": "İşleniyor",
+    "processingDescription": "Lütfen verileriniz işlenirken bekleyin...",
+    "inProgress": "İşlemde",
+    "search": "Araçları ara...",
+    "my": "Benim",
+    "menu": "Menü",
+    "settings": "Ayarlar",
+    "all": "Tümü",
+    "category": "Kategori",
+    "noToolsFound": "Eşleşen araç bulunamadı",
+    "recommended": "Önerilen",
+    "usageCount": "Kullanıldı {{count}} kez",
+    "toolsCount": "{{count}} araç",
+    "export": "Dışa Aktar",
+    "usageInstructions": "Kullanım Talimatları"
+  },
+  "auth": {
+    "login": "Giriş Yap",
+    "logout": "Çıkış Yap",
+    "userInfo": "Kullanıcı Bilgisi",
+    "nickname": "Biyografi",
+    "avatar": "Avatar",
+    "user": "Kullanıcı",
+    "loggedIn": "Giriş yapıldı",
+    "loggingOut": "Çıkış yapılıyor...",
+    "loggingIn": "Giriş yapılıyor...",
+    "loginInstructions": "Lütfen tarayıcınızda giriş yapmayı tamamlayın",
+    "cancelLogin": "Giriş iptal edildi",
+    "loginFailed": "Giriş başarısız oldu",
+    "retry": "Tekrar Dene",
+    "close": "Kapat",
+    "loginDescription": "Aşağıdaki düğmeye tıklayarak tarayıcınızda giriş sayfasını açın. Girişiniz tamamlandıktan sonra uygulama otomatik olarak giriş durumunuzu senkronize edecek.",
+    "loginTip": "İpucu: Giriş süreci boyunca tarayıcınızın açık kalmasını sağlayın.",
+    "openBrowserLogin": "Tarayıcıda Giriş Yap",
+    "cancel": "İptal",
+    "loginReminder": "Giriş Hatırlatması",
+    "loginRequiredTitle": "Giriş gerekli",
+    "loginRequiredDescription": "Bu özelliğin kullanılması için giriş yapmanız gerekir. Giriş yaptıktan sonra tüm hizmet deneyiminden yararlanabilirsiniz.",
+    "loginActionDescription": "Aşağıdaki düğmeye tıklayarak giriş sayfasını açın ve orada giriş işlemini tamamlayın.",
+    "loginNow": "Şimdi Giriş Yap",
+    "loginBenefit": "Tüm özellikleri kullanmak için giriş yapın",
+    "errors": {
+      "getLoginUrlFailed": "Giriş URL'si alınamadı: {{message}}",
+      "getLoginUrlException": "Giriş URL'si alınırken bir hata oluştu: {{error}}",
+      "loginCancelled": "Giriş iptal edildi",
+      "pollingAbnormal": "Sorgulama anormal yanıt döndürdü: {{message}}",
+      "pollingFailed": "Sorgulama başarısız oldu: {{error}}",
+      "loginTimeout": "Giriş zaman aşımına uğradı",
+      "checkLoginStatusFailed": "Giriş durumu kontrol edilemedi, durum kodu: {{status}}",
+      "checkLoginException": "Giriş durumu kontrol edilirken bir hata oluştu",
+      "getUserInfoFailed": "Kullanıcı bilgisi alınamadı: {{message}}",
+      "getUserInfoException": "Kullanıcı bilgisi alınırken bir hata oluştu: {{error}}",
+      "logoutFailed": "Çıkış yaparken hata oluştu: {{message}}",
+      "logoutException": "Çıkış yaparken bir hata oluştu: {{error}}",
+      "getFeedbackUrlFailed": "Geribildirim URL'si alınamadı: {{message}}",
+      "getFeedbackUrlException": "Geribildirim URL'si alınırken bir hata oluştu: {{error}}"
+    }
+  },
+  "favorite": {
+    "add": "Favorilere Ekle",
+    "remove": "Favorilerden Kaldır",
+    "label": "Favori",
+    "failed": "İşlem başarısız oldu"
+  },
+  "errors": {
+    "fetchCustomUrlFailed": "Özel sayfa URL'si alınmadı:",
+    "fetchFeedbackUrlFailed": "Geribildirim sayfa URL'si alınmadı:",
+    "copyFailed": "Kopyalama başarısız oldu",
+    "networkError": "Ağ bağlantısı hatası",
+    "somethingWentWrong": "Bir şeyler yanlış gitti",
+    "unexpectedError": "Maalesef beklenmeyen bir hata oluştu",
+    "noData": "Kullanılabilir veri yok",
+    "noRelatedData": "İlgili veri bulunamadı",
+    "noAds": "Reklam bulunamadı",
+    "fetchAdsError": "Reklam getirme başarısız oldu",
+    "lookupFailed": "Arama başarısız oldu"
+  },
+  "tools": {
+    "csr": {
+      "title": "CSR Oluşturucu & Görüntüleyici",
+      "description": "Online CSR dosyaları oluşturun ve görüntüleyin"
+    },
+    "whois": {
+      "title": "Alan Adı WHOIS Araması",
+      "description": "WHOIS bilgilerini ve alan adı kayıt detaylarını çevrimiçi inceleyin"
+    },
+    "dns": {
+      "title": "DNS Kayıt Araması",
+      "description": "DNS kayıtlarını çevrimiçi arayın (A, MX, CNAME vb.)"
+    },
+    "dnsEnhanced": {
+      "title": "DNS Kayıt Araması (Geliştirilmiş)",
+      "description": "Büyük kayıt kümeleri için sanal kaydırma optimizasyonu ile DNS araması"
+    },
+    "httpStatus": {
+      "title": "HTTP Durum Kodu Kontrolü",
+      "description": "Web sayfaları için HTTP durum kodlarını incelemek için ücretsiz çevrimiçi araç"
+    },
+    "gzip": {
+      "title": "Gzip Sıkıştırma Kontrolü",
+      "description": "Bir web sayfasının GZIP sıkıştırılmış olup olmadığını kontrol edin ve sıkıştırma oranını görün"
+    },
+    "ssl": {
+      "title": "SSL Sertifika Kontrolü",
+      "description": "SSL sertifikası detaylarını ve geçerliliğini çevrimiçi inceleyin"
+    },
+    "browserInfo": {
+      "title": "Tarayıcı Bilgisi",
+      "description": "Mevcut tarayıcınız hakkında ayrıntılı bilgi görüntüleyen ücretsiz araç"
+    },
+    "useragent": {
+      "title": "User-Agent Analizörü",
+      "description": "User-Agent dizelerinden tarayıcı ve cihaz bilgilerini analiz edin"
+    },
+    "websocket": {
+      "title": "WebSocket Tester",
+      "description": "Ücretsiz çevrimiçi WebSocket API test aracı"
+    },
+    "viewSource": {
+      "title": "Sayfa Kaynağını Görüntüle",
+      "description": "Web sayfası kaynak kodunu çevrimiçi görüntüleyin"
+    },
+    "metaGenerator": {
+      "title": "Meta Etiketi Oluşturucu",
+      "description": "Çevrimiçi web sayfası meta etiketleri oluşturun"
+    },
+    "metaCheck": {
+      "title": "META Etiketi Kontrolü",
+      "description": "Bir web sayfasındaki META etiket bilgilerini inceleyin"
+    },
+    "robots": {
+      "title": "robots.txt Oluşturucu",
+      "description": "Çevrimiçi robots.txt dosyaları oluşturun"
+    },
+    "emailEncrypt": {
+      "title": "E-posta Adresi Kodlayıcı",
+      "description": "E-posta adreslerini çaprazlamayı azaltmak için kodlanmış formlara dönüştürün"
+    },
+    "phpReference": {
+      "title": "PHP Fonksiyon Referansı",
+      "description": "PHP fonksiyonları için çevrimiçi referans listesi"
+    },
+    "htmlPreview": {
+      "title": "HTML Önizleme",
+      "description": "Çevrimiçi HTML düzenleme ve önizleme aracı"
+    },
+    "jsDebug": {
+      "title": "JS Hata Ayıklayıcı",
+      "description": "JavaScript'i çevrimiçi çalıştırın ve hata ayıklayın"
+    },
+    "shieldBadge": {
+      "title": "Shield Badge Oluşturucu",
+      "description": "Çevrimiçi SVG Shield badjeleri oluşturun"
+    },
+    "favicon": {
+      "title": "Favicon Oluşturucu",
+      "description": "Güvenli çevrimiçi favicon dönüştürme aracı"
+    },
+    "cssGlassmorphism": {
+      "title": "CSS Glassmorphism Oluşturucu",
+      "description": "Bir tıklamayla CSS glassmorphism kodu oluşturun"
+    },
+    "cssNeumorphism": {
+      "title": "Neumorphism CSS Oluşturucu",
+      "description": "Bir tıklamayla neumorphism CSS stil örnekleri oluşturun"
+    },
+    "pxToRem": {
+      "title": "PX'den REM'ye Dönüştürücü",
+      "description": "CSS'deki PX birimlerini REM'e toplu dönüştürün"
+    },
+    "cssBorderRadius": {
+      "title": "CSS Kenar Yarıçapı Oluşturucu",
+      "description": "Çevrimiçi keskin kenarlı sınır stillerini inceleyin"
+    },
+    "cssTextShadow": {
+      "title": "CSS Metin Gölgelendirme Oluşturucu",
+      "description": "Çevrimiçi CSS metin gölgelendirme kodu örneği ve ön izleme"
+    },
+    "cssBoxShadow": {
+      "title": "Kutu Gölgelendirme Oluşturucu",
+      "description": "Div gölgelerini inceleyin ve CSS kodu oluşturun"
+    },
+    "base64": {
+      "title": "Base64 Kodlama/Çözme",
+      "description": "Çevrimiçi Base64 kodlama ve çözme aracı"
+    },
+    "urlEncode": {
+      "title": "URL Kodlama/Çözme",
+      "description": "Çevrimiçi URL kodlama ve çözme aracı"
+    },
+    "htmlEntity": {
+      "title": "HTML Varlığı Kodlama/Çözme",
+      "description": "Çevrimiçi HTML varlık kodlama ve çözme aracı"
+    },
+    "jsMinify": {
+      "title": "JS Minify & Beautify",
+      "description": "Çevrimiçi JavaScript minification ve beautification aracı"
+    },
+    "cssMinify": {
+      "title": "CSS Minify & Beautify",
+      "description": "Çevrimiçi CSS minification ve beautification aracı"
+    },
+    "desktopShortcut": {
+      "title": "Web Sitesi Masaüstü Kısayolu",
+      "description": "Hızlı erişim için bir web sitesi için masaüstü kısayolu oluşturun"
+    },
+    "pageRefresh": {
+      "title": "Otomatik Sayfa Yenileme",
+      "description": "Belirli aralıklarla uzak bir web sayfasını yenileyin"
+    },
+    "httpCodes": {
+      "title": "HTTP Durum Kodları",
+      "description": "HTTP durum / yanıt kodları için çevrimiçi referans"
+    },
+    "workerDemo": {
+      "title": "Web Worker Performans Demo",
+      "description": "Ağır görevler için Web Workers'ın performansı nasıl artıracağını görün"
+    },
+    "formValidation": {
+      "title": "Form Doğrulama Demo",
+      "description": "Canlı geri bildirimle tam form doğrulamasını gösterir"
+    }
+  },
+  "categories": {
+    "detection": "Web Sitesi Kontrolleri",
+    "seo": "SEO Araçları",
+    "dev": "Geliştirici Araçları",
+    "encode": "Kodlama Araçları",
+    "other": "Diğer Araçlar"
+  },
+  "kunqiongNav": {
+    "home": "Ana Sayfa",
+    "aiTools": "AI Araçları",
+    "office": "Ofis",
+    "multimedia": "Çoklu Ortam",
+    "development": "Geliştirici Araçları",
+    "text": "Metin",
+    "file": "Dosyalar",
+    "system": "Sistem",
+    "life": "Hayat",
+    "news": "AI Haberleri",
+    "custom": "Özel Yazılım",
+    "consult": "Danışmanlık",
+    "industryNews": "Endüstri Haberleri",
+    "feedback": "Geribildirim",
+    "imageGen": "Resim Üretimi",
+    "codeDev": "Kod & Geliştirme",
+    "logoAlt": "Kunqiong AI Kutusu",
+    "footerLogoAlt": "Kunqiong AI",
+    "loginRegister": "Giriş Yap / Kayıt Ol",
+    "navExpandAria": "Genişlet",
+    "navSearchAria": "Arama",
+    "navMenuAria": "Menü"
+  },
+  "footer": {
+    "description": "Web sitesi kontrolleri, SEO araçları, geliştirici araçları ve daha fazlası ile profesyonel tüm bir arada webmaster kutu aracı.",
+    "kunqiongBrandDesc": "Bireysel ve kurumsal kullanıcılar için kaliteli AI araçları ve danışmanlık hizmetleri sunmaya kararlıyız, yapay zeka çağındaki rekabet avantajınızı korumanıza yardımcı olmak için.",
+    "toolCategories": "Araç Kategorileri",
+    "quickLinks": "Hızlı Bağlantılar",
+    "contactTitle": "Bize Ulaşın",
+    "contactCompany": "Jiangxi Hexagon Star Teknoloji Ltd. Şti.",
+    "contactPhone": "17770307066",
+    "contactRegion": "Shangrao, Jiangxi, Çin",
+    "contactEmail": "11247931@qq.com",
+    "copyrightLine": "© 2026 Kunqiong AI Araçları. Tüm hakları saklıdır.",
+    "userAgreement": "Kullanım Koşulları",
+    "privacyPolicy": "Gizlilik Politikası",
+    "brandAI": "Kunqiong AI Ürünü",
+    "brandAlt": "Kunqiong"
+  },
+  "validation": {
+    "required": "{{field}} gerekli",
+    "minLength": "{{field}} en az {{count}} karakter olmalıdır",
+    "maxLength": "{{field}} en fazla {{count}} karakter olabilir",
+    "invalidFormat": "{{field}} geçersiz format",
+    "email": "Geçerli bir e-posta adresi girin",
+    "url": "Geçerli bir URL girin",
+    "domain": "Geçerli bir domain girin",
+    "ip": "Geçerli bir IP adresi girin",
+    "phone": "Geçerli bir telefon numarası girin",
+    "password": "Şifre büyük ve küçük harf ve sayı içermelidir ve 6-20 karakter uzunluğunda olmalıdır"
+  },
+  "exporter": {
+    "unsupportedFormat": "Desteklenmeyen dışa aktarma biçimi: {{format}}",
+    "csvRequiresArrayOrObject": "CSV dışa aktarması bir dizi veya nesne gerektirir",
+    "toolUsageInfo": "Araç Kullanım Bilgisi",
+    "tool": "Araç",
+    "time": "Zaman",
+    "url": "URL",
+    "version": "Sürüm",
+    "dnsReportTitle": "DNS Arama Raporu",
+    "dnsReportDescription": "Detaylı DNS kayıt bilgisi",
+    "summaryTitle": "Özet",
+    "domain": "Alan Adı",
+    "recordCount": "Toplam kayıtlar",
+    "recordCountValue": "{{count}} kayıt",
+    "queryTime": "Sorgu süresi",
+    "typeDescriptions": {
+      "A": "IPv4 adres kaydı",
+      "AAAA": "IPv6 adres kaydı",
+      "MX": "Posta sunucusu kaydı",
+      "TXT": "Metin kaydı",
+      "CNAME": "Yakın ad kaydı",
+      "NS": "Ad sunucusu kaydı",
+      "SOA": "Yetki kaydı"
+    },
+    "record": "Kayıt",
+    "otherRecords": "Diğer kayıtlar",
+    "recordIndex": "Kayıt {{index}}",
+    "priority": "Öncelik",
+    "class": "Sınıf",
+    "exportData": "Dışa Aktarılan Veri",
+    "dnsToolName": "DNS Arama Araçları",
+    "exportInfo": "Dışa Aktarma Bilgisi",
+    "exportTime": "Dışa aktarma zamanı",
+    "formats": {
+      "json": "Yapılandırılmış veri formatı, programların işleyebileceği kolaydır",
+      "csv": "Elektronik tablo dostu format, Excel'e aktarılabilir",
+      "txt": "Basit metin formatı, kolay okunur",
+      "xml": "İşaretleme formatı, veri alışverişi için uygun",
+      "pdf": "Belge formatı, yazdırma ve paylaşım için uygun"
+    }
+  },
+  "base64": {
+    "title": "Base64 Kodlama/Çözme",
+    "description": "Online Base64 kodlama ve çözme aracı",
+    "encode": "Kodla",
+    "decode": "Çöz",
+    "originalText": "Orijinal metin",
+    "base64String": "Base64 dizisi",
+    "base64Result": "Base64 sonucu",
+    "decodeResult": "Çözülmüş sonuç",
+    "placeholderEncode": "Kodlamak için metin girin...",
+    "placeholderDecode": "Çözmek için Base64 girin...",
+    "resultPlaceholder": "Sonuç burada görünecek...",
+    "inputPlaceholder": "Dönüştürmek için içerik girin",
+    "decodeError": "Çözme başarısız. Girişin geçerli Base64 olup olmadığını kontrol edin.",
+    "encodeError": "Kodlama başarısız",
+    "charCount": "{{count}} karakter",
+    "clear": "Giriş temizle",
+    "copy": "Sonucu kopyala",
+    "copied": "Kopyalandı",
+    "convert": "Şimdi dönüştür",
+    "swap": "Modu değiştir",
+    "ariaLabel": "Base64 kodlama/çözme aracı",
+    "modeSelection": "Dönüşüm modu seçimi",
+    "encodeMode": "Kodlama modu",
+    "decodeMode": "Çözme modu",
+    "inputLabelEncode": "Kodlamak için metin",
+    "inputLabelDecode": "Çözmek için Base64 dizisi",
+    "outputLabelEncode": "Base64 kodlanmış sonuç",
+    "outputLabelDecode": "Base64 çözülmüş sonuç",
+    "whatIsBase64": "Base64 nedir?",
+    "base64Info": "Binary veriyi 64 basılı karakterle temsil eden bir kodlama yöntemidir. URL'ler, çerezler, web sayfaları veya metin tabanlı protokollerde küçük ikili veri transferi için yaygın olarak kullanılır."
+  },
+  "dns": {
+    "title": "DNS Kayıt Araması",
+    "description": "DNS kayıtlarını (A, MX, CNAME vb.) çevrimiçi olarak arayın",
+    "placeholder": "Bir alan adı girin, örneğin example.com",
+    "invalidDomain": "Lütfen geçerli bir alan adı formatı girin (örneğin example.com)",
+    "domainInput": "Alan adı girişi",
+    "validFormat": "Alan adı formatı geçerlidir",
+    "typeSelect": "DNS kaydı türü",
+    "searchBtn": "DNS kayıtlarını ara",
+    "loadingTitle": "DNS kayıtları aranıyor",
+    "loadingDesc": "Alan adınız için DNS kayıtlarını aramamızı bekleyin...",
+    "resultRegion": "DNS arama sonucu",
+    "recordCount": "{{count}} kayıt",
+    "typeRecordRegion": "{{type}} kayıtları",
+    "querying": "DNS kayıtları aranıyor",
+    "queryingDesc": "Alan adınız için DNS kayıtlarını aramamızı bekleyin...",
+    "foundRecords": "{{count}} kayıt bulundu",
+    "queryTime": "Sorgu süresi: {{time}}",
+    "export": "Sonuçları dışa aktar",
+    "noRecords": "DNS kaydı bulunamadı",
+    "noRecordsDesc": "Bu alan adı için DNS kaydı bulunamadı",
+    "typeInfo": "DNS kayıt türleri",
+    "priority": "Öncelik: {{priority}}",
+    "types": {
+      "ALL": "Tümü",
+      "A": "A Kaydı",
+      "AAAA": "AAAA Kaydı",
+      "MX": "MX Kaydı",
+      "TXT": "TXT Kaydı",
+      "CNAME": "CNAME Kaydı",
+      "NS": "NS Kaydı",
+      "SOA": "SOA Kaydı"
+    },
+    "typeDescs": {
+      "A": "IPv4 Adresi",
+      "AAAA": "IPv6 Adresi",
+      "MX": "Posta sunucusu",
+      "TXT": "Metin kaydı",
+      "CNAME": "Takma ad kaydı",
+      "NS": "Ad sunucusu",
+      "SOA": "Yetki başlangıç kaydı"
+    },
+    "typeDetails": {
+      "A": "Bir etki alanını bir IPv4 adresine yönlendirir",
+      "AAAA": "Bir etki alanını bir IPv6 adresine yönlendirir",
+      "MX": "E-posta sunucu adresini belirtir, daha düşük öncelik numaraları daha yüksek önceliği gösterir",
+      "TXT": "Metin bilgisi saklar, genellikle SPF, DKIM doğrulaması için kullanılır",
+      "CNAME": "Bir etki alanını başka bir etki alanına yönlendirir (takma ad)",
+      "NS": "Etki alanı için DNS sunucularını belirtir"
+    }
+  },
+  "whois": {
+    "title": "WHOIS Arama",
+    "description": "Online WHOIS ve kayıt bilgilerini arayın",
+    "placeholder": "Bir etki alanı girin, örneğin example.com",
+    "invalidDomain": "Lütfen geçerli bir etki alanı formatı girin (örneğin example.com)",
+    "querying": "WHOIS bilgisi sorgulanıyor",
+    "queryingDesc": "Lütfen kayıt bilgilerini almak için bekleyin...",
+    "domainInfo": "Etki alanı bilgisi",
+    "registrar": "Kayıt kuruluşu",
+    "creationDate": "Oluşturma tarihi",
+    "expirationDate": "Son kullanma tarihi",
+    "updatedDate": "Güncellenme tarihi",
+    "dnssec": "DNSSEC",
+    "dnssecDisabled": "Kapalı",
+    "expired": "{{days}} gün önce sona erdi",
+    "expiringSoon": "{{days}} gün içinde sona eriyor",
+    "remaining": "{{days}} gün kalmış",
+    "dnsServer": "Ad sunucuları",
+    "domainStatus": "Etki alanı durumu",
+    "registrantInfo": "Kayıt sahibi bilgisi",
+    "name": "İsim",
+    "organization": "Organizasyon",
+    "country": "Ülke",
+    "email": "E-posta",
+    "noInfo": "İlgili bilgi bulunamadı",
+    "domain": "Etki alanı",
+    "rawData": "Ham veri",
+    "toggleRawData": "Ham veriyi genişletin veya daraltın",
+    "copyRawData": "Ham veriyi kopyala",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı",
+    "whatIsWhois": "WHOIS nedir?",
+    "about": "WHOIS, etki alanı kayıt verilerini sorgulamak için kullanılan bir protokoldür. Bir WHOIS araması ile kayıtlı kuruluş, kayıt tarihi, sona erme tarihi, DNS sunucuları, kayıt sahibi bilgisi ve daha fazlasını öğrenebilirsiniz. Bu, etki alanı ticareti, marka koruması ve güvenlik araştırmaları için yararlıdır."
+  },
+  "httpStatus": {
+    "title": "HTTP Durum Kontrolü",
+    "description": "Online HTTP durum kodlarını ve yanıt bilgilerini kontrol edin",
+    "placeholder": "Bir URL girin, örneğin https://example.com",
+    "check": "Kontrol et",
+    "followRedirects": "Yönlendirmeleri otomatik olarak takip edin",
+    "urlEmpty": "Lütfen bir URL girin",
+    "checkFailed": "Kontrol başarısız oldu",
+    "serverError": "Sunucu bağlantısı başarısız, lütfen daha sonra tekrar deneyin",
+    "unknownStatus": "Bilinmeyen durum",
+    "responseTime": "Cevap süresi",
+    "headers": "Başlıklar",
+    "redirectUrl": "Yönlendirme URL'si",
+    "contentType": "İçerik türü",
+    "contentLength": "İçerik uzunluğu",
+    "server": "Sunucu",
+    "showHeaders": " Yanıt başlıklarını göster",
+    "hideHeaders": "Yanıt başlıklarını gizle",
+    "status": {
+      "100": "Devam et",
+      "101": "Protokoller değiştiriliyor",
+      "200": "Tamam",
+      "201": "Oluşturuldu",
+      "204": "İçerik yok",
+      "301": "Kalıcı Yönlendirme",
+      "302": "Geçici Yönlendirme",
+      "304": "Değiştirilmemiş",
+      "307": "Geçici Yönlendirme",
+      "308": "Kalıcı Yönlendirme",
+      "400": "Kötü İstek",
+      "401": "Yetkisiz",
+      "403": "Yasaklı",
+      "404": "Bulunamadı",
+      "405": "Yöntem Yasağa Uzaktır",
+      "408": "İstek Zaman Aşımına Uradı",
+      "429": "Çok Fazla Talep",
+      "500": "İç Sunucu Hatası",
+      "502": "Kötü Ağ Geçidi",
+      "503": "Hizmet Kullanılamaz",
+      "504": "Ağ Geçidi Zaman Aşımına Uradı"
+    }
+  },
+  "browserInfo": {
+    "title": "Tarayıcı Bilgisi",
+    "description": "Mevcut tarayıcı hakkında detaylı bilgi görüntüleyin",
+    "os": "İşletim Sistemi",
+    "browser": "Tarayıcı",
+    "version": "Sürüm",
+    "engine": "Motor",
+    "device": "Cihaz",
+    "screen": "Ekran çözünürlüğü",
+    "viewport": "Görünüm Alanı Boyutu",
+    "language": "Dil",
+    "timezone": "Zaman Dilimi",
+    "cookieEnabled": "Çerezler Etkin",
+    "online": "Çevrimiçi",
+    "cpu": "CPU Mimarisi",
+    "userAgent": "User-Agent",
+    "platform": "Platform",
+    "vendor": "Tarayıcı sağlayıcısı",
+    "languages": "Desteklenen diller",
+    "cookie": "Çerez",
+    "onlineStatus": "Çevrimiçi durumu",
+    "doNotTrack": "İzleme Etme",
+    "touchPoints": "Temassız noktalar",
+    "enabled": "Etkin",
+    "disabled": "Devre dışı",
+    "offline": "Çevrimdışı",
+    "hardwareInfo": "Donanım bilgisi",
+    "cpuCores": "CPU çekirdekleri",
+    "cpuCoresValue": "{{count}} çekirdek",
+    "deviceMemory": "Cihaz hafızası",
+    "screenInfo": "Ekran bilgisi",
+    "availArea": "Kullanılabilir alan",
+    "windowSize": "Pencere boyutu",
+    "pixelRatio": "Cihaz pixel oranı",
+    "colorDepth": "Renk derinliği",
+    "screenOrientation": "Ekran yönü",
+    "unknown": "Bilinmeyen",
+    "basicInfo": "Temel bilgi",
+    "networkInfo": "Ağ bilgisi",
+    "networkType": "Ağ tipi",
+    "downlink": "İndirme hızı",
+    "rtt": "RTT",
+    "saveData": "Veri tasarrufu",
+    "batteryInfo": "Batarya bilgisi",
+    "batteryLevel": "Batarya seviyesi",
+    "chargingStatus": "Şarj durumu",
+    "charging": "Şarj ediliyor",
+    "notCharging": "Şarj edilmiyor",
+    "timezoneInfo": "Zaman dilimi bilgisi",
+    "utcOffset": "UTC sapması"
+  },
+  "viewSource": {
+    "title": "Sayfa Kaynağını Görüntüle",
+    "description": "Web sayfası kaynak kodunu çevrimiçi görüntüleyin",
+    "placeholder": "Bir URL girin, örneğin https://example.com",
+    "fetch": "Kaynağı al",
+    "urlEmpty": "Lütfen bir URL girin",
+    "fetchFailed": "Kaynak alınmadı",
+    "serverError": "Sunucu bağlantısı başarısız",
+    "lineCount": "Satır: {{count}}",
+    "copy": "Kaynak kopyala",
+    "clear": "Temizle",
+    "usage1": "Tam web sayfası URL'sini girin ve kaynağı almak için tıklayın",
+    "usage2": "Herhangi bir kamuya açık web sayfasının HTML kaynağını görüntülemeyi destekler",
+    "usage3": "Kaynak kodunu kopyalayabilir veya indirebilirsiniz",
+    "usage4": "Bazı siteler, güvenlik politikaları nedeniyle kaynak erişimini engelleyebilir"
+  },
+  "urlEncode": {
+    "title": "URL Kodlayıcı/Çözücü",
+    "description": "Çevrimiçi URL kodlama ve çözme aracı",
+    "encode": "Kodla",
+    "decode": "Çöz",
+    "placeholder": "Dönüştürmek için içerik girin...",
+    "result": "Sonuç",
+    "error": "Kodlama/Çözme Başarısız"
+  },
+  "htmlEntity": {
+    "title": "HTML Varlığı Kodlayıcı/Çözücü",
+    "description": "Çevrimiçi HTML varlık kodlayıcı ve çözücü araç",
+    "encode": "Kodla",
+    "decode": "Çöz",
+    "placeholder": "Dönüştürmek için içerik girin...",
+    "result": "Sonuç"
+  },
+  "jsMinify": {
+    "title": "JS Sıkıştırma & Biçimlendirme",
+    "description": "Çevrimiçi JavaScript kodu sıkıştırma ve güzelleştirme aracı",
+    "minify": "Sıkıştır",
+    "beautify": "Güzelleştir",
+    "placeholder": "JavaScript kodunu yapıştırın...",
+    "result": "İşleme Sonucu",
+    "error": "Kod İşleme Başarısız"
+  },
+  "cssMinify": {
+    "title": "CSS Sıkıştırma & Biçimlendirme",
+    "description": "Çevrimiçi CSS Kod Sıkıştırma & Güzelleştirme Aracı",
+    "minify": "Sıkıştır",
+    "beautify": "Güzelleştir",
+    "placeholder": "CSS Kodu Yapıştırın...",
+    "result": "İşleme Sonucu",
+    "error": "Kod İşleme Başarısız"
+  },
+  "pages": {
+    "sslCheck": {
+      "title": "SSL Sertifikası Kontrolü",
+      "description": "Bir etki alanının SSL sertifikası detaylarını ve geçerliliğini kontrol edin",
+      "enterDomain": "Lütfen bir etki alanı girin",
+      "checkFailed": "Kontrol başarısız",
+      "serverConnectionFailed": "Sunucuya bağlanılamadı, lütfen daha sonra tekrar deneyin",
+      "inputPlaceholder": "Örneğin: example.com",
+      "check": "Kontrol",
+      "statusExpired": "Süresi doldu",
+      "statusExpiringSoon": "Yakında süresi dolacak",
+      "statusValid": "Geçerli",
+      "statusProblem": "Sertifika sorunu",
+      "expiredDays": "{{count}} gün önce süresi doldu",
+      "remainingDays": "{{count}} gün kaldı",
+      "warning": "Uyarı: {{message}}",
+      "protocol": "Protokol",
+      "validityPeriod": "Geçerlilik süresi",
+      "validFrom": "Geçerli başlangıç tarihi",
+      "validTo": "Geçerli bitiş tarihi",
+      "certificateInfo": "Sertifika bilgisi",
+      "subject": "Konu",
+      "issuer": "Veren",
+      "commonName": "Ortak Ad (CN)",
+      "organization": "Organizasyon (O)",
+      "organizationUnit": "Organizasyon Birimi (OU)",
+      "country": "Ülke (C)",
+      "subjectAltNames": "Konu Alternatif Adları (SAN) - {{count}} girdi",
+      "technicalDetails": "Teknik detaylar",
+      "serialNumber": "Seri numara",
+      "fingerprintSha1": "İmza (SHA-1)",
+      "fingerprintSha256": "İmza (SHA-256)",
+      "cipherSuite": "Şifreleme seti",
+      "infoTitle": "SSL sertifikası notları",
+      "infoItems": [
+        "SSL sertifikaları sunucu kimliğini doğrular ve iletişimleri şifreler",
+        "Süresi dolan tarihleri düzenli olarak kontrol edin, outages'ı önlemek için",
+        "Yakında süresi dolacak sertifikalar erken yenilenmelidir",
+        "SAN (Konu Alternatif Adı), sertifikaya ait olan etki alanlarını listeler"
+      ]
+    },
+    "gzipCheck": {
+      "title": "Web Sitesi Gzip Sıkıştırma Kontrolü",
+      "description": "Bir web sitesinin Gzip / Deflate / Brotli sıkıştırmasını destekleyip desteklemediğini kontrol edin",
+      "enterUrl": "Lütfen bir URL girin",
+      "checkFailed": "Kontrol başarısız",
+      "serverConnectionFailed": "Sunucuya bağlanılamadı, lütfen daha sonra tekrar deneyin",
+      "inputPlaceholder": "Örneğin: https://example.com",
+      "check": "Kontrol",
+      "enabled": "Etkin",
+      "disabled": "Etkin değil",
+      "compressionType": "Sıkıştırma türü: {{type}}",
+      "enableSuggestion": "Transfer boyutunu azaltmak ve yükleme hızını artırmak için Gzip sıkıştırmasını etkinleştirin",
+      "supportTitle": "Sıkıştırma desteği",
+      "gzipDescription": "Genel kullanım standardı sıkıştırması",
+      "deflateDescription": "Geleneksel HTTP sıkıştırma algoritması",
+      "brotliDescription": "Daha iyi oranlarla yeni bir sıkıştırma yöntemi",
+      "effectTitle": "Sıkıştırma etkisi",
+      "originalSize": "Orijinal boyut",
+      "compressedSize": "Sıkıştırılmış boyut",
+      "ratio": "Sıkıştırma oranı",
+      "savedTransfer": "{{value}} transfer boyutunda tasarruf eder",
+      "detailsTitle": "Detaylar",
+      "whyTitle": "Neden Gzip sıkıştırmasını etkinleştirmeliyim?",
+      "whyItems": [
+        "Metin kaynaklarının boyutunu genellikle %60 ile %80 arasında azaltabilir",
+        "Daha küçük transferler yükleme hızını artırır",
+        "Bant genişliği kullanımını azaltır",
+        "Daha iyi performans, SEO ve kullanıcı deneyimi için faydalıdır"
+      ]
+    },
+    "dnsLookupEnhanced": {
+      "title": "Gelişmiş DNS Kayıt Araması",
+      "description": "Büyük sonuç kümeleri için optimize edilmiş çevrimiçi çoklu DNS kayıt türünü sorgulayın",
+      "enterDomain": "Lütfen bir etki alanı girin",
+      "lookupFailed": "Arama başarısız",
+      "serverConnectionFailed": "Sunucuya bağlanılamadı, lütfen daha sonra tekrar deneyin",
+      "inputPlaceholder": "Örneğin: example.com",
+      "lookup": "Ara",
+      "priority": "Öncelik: {{value}}",
+      "dnsTypes": [
+        {
+          "value": "TÜMÜ",
+          "label": "Tümü"
+        },
+        {
+          "value": "A",
+          "label": "A kaydı",
+          "desc": "IPv4 adresi"
+        },
+        {
+          "value": "AAAA",
+          "label": "AAAA kaydı",
+          "desc": "IPv6 adresi"
+        },
+        {
+          "value": "MX",
+          "label": "MX kaydı",
+          "desc": "Posta sunucusu"
+        },
+        {
+          "value": "TXT",
+          "label": "TXT kaydı",
+          "desc": "Metin verisi"
+        },
+        {
+          "value": "CNAME",
+          "label": "CNAME kaydı",
+          "desc": "Eş anlamlı kayıt"
+        },
+        {
+          "value": "NS",
+          "label": "NS kaydı",
+          "desc": "Ad sunucusu"
+        },
+        {
+          "value": "SOA",
+          "label": "SOA kaydı",
+          "desc": "Yetki başlangıcı"
+        }
+      ],
+      "foundRecords": "Bulunan {{count}} kayıt",
+      "queryTime": "Sorgu süresi: {{time}}",
+      "virtualScrollEnabled": "Sanal kaydırma etkin",
+      "recordCount": "{{count}} kayıt",
+      "virtualScrollTag": "Optimize edilmiş görüntüleme",
+      "noRecords": "DNS kaydı bulunamadı",
+      "performanceTitle": "Performans optimizasyonu",
+      "performanceItems": [
+        "Sanallaştırılmış görüntüleme, {{count}} kayıtlı DNS Araması için yanıt verir",
+        "Sadece görünen satırlar render edilir ve bellek kullanımı azaltılır",
+        "Büyük sonuç kümelerinde DOM gecikmesini önler",
+        "Birçok kayıtlı olduğunda deneyim hala yanıt verir"
+      ]
+    },
+    "metaCheck": {
+      "title": "META Etiketi Kontrolü",
+      "description": "Bir web sayfasında kullanılan META etiketlerini kontrol edin",
+      "enterUrl": "Lütfen bir web site URL'si girin",
+      "checkFailed": "Kontrol başarısız",
+      "urlLabel": "Web sitesi URL'si",
+      "inputPlaceholder": "example.com veya https://example.com",
+      "check": "Kontrol",
+      "resultTitle": "Kontrol sonucu",
+      "totalCount": "Bulunan {{count}} META etiketi",
+      "groups": {
+        "pageTitle": "Sayfa başlığı",
+        "httpEquiv": "HTTP-Equiv",
+        "charset": "Charset",
+        "basicMeta": "Temel META"
+      },
+      "emptyContent": "Boş",
+      "infoTitle": "Hakkında",
+      "infoItems": [
+        "Bu araç, başlık etiketleri, meta name etiketleri, meta property etiketleri (örneğin Open Graph) ve meta http-equiv etiketlerini kontrol eder",
+        "Sayfanın SEO ile ilgili meta verilerini hızlıca incelemeye yardımcı olur",
+        "Eksik veya yinelenen etiket sorunlarını da tanımlamaya yardımcı olur"
+      ]
+    },
+    "urlEncode": {
+      "title": "URL Kodla/Çöz",
+      "description": "Çevrimiçi URL dizelerini kodlayın veya çözün",
+      "toolName": "URL Kodla/Çöz",
+      "toolCategory": "Kodlama Araçları",
+      "convertFailed": "Dönüşüm başarısız, lütfen girişinizi kontrol edin",
+      "copyFailed": "Sonuç kopyalanamadı",
+      "modeSelector": "Mod seçin",
+      "typeSelector": "Kodlama türü",
+      "encode": "Kodla",
+      "decode": "Çöz",
+      "componentTitle": "URL bileşeni",
+      "componentDescription": "URL'nin sadece bir kısmını kodla",
+      "fullTitle": "Tam URL",
+      "fullDescription": "Tüm URL'yi kodla",
+      "inputEncodeLabel": "Düz metin",
+      "inputDecodeLabel": "Kodlanmış URL",
+      "clearInput": "Giriş temizle",
+      "encodePlaceholder": "URL olarak kodlamak için metin girin...",
+      "decodePlaceholder": "Kodlanmış bir URL girin...",
+      "outputEncodeLabel": "Kodlanmış sonuç",
+      "outputDecodeLabel": "Çözülmüş sonuç",
+      "copyResult": "Sonucu kopyala",
+      "resultPlaceholder": "Dönüşüm sonucu burada görünecek...",
+      "copied": "Panoya kopyalandı",
+      "swap": "Değiştir",
+      "swapInputOutput": "Giriş ve çıkış değiştir",
+      "infoTitle": "Kodlama modları",
+      "componentModeTitle": "Bileşen modu",
+      "componentModeDescription": "Sorgu parametreleri veya yol parçaları gibi tekil URL parçaları için en iyisidir.",
+      "componentExample": "Örnek: hello world → hello%20world",
+      "fullModeTitle": "Tam URL modu",
+      "fullModeDescription": "Tam bir URL'yi kodlamak ve genel yapısını tanıdık tutmak istediğinizde kullanın.",
+      "fullExample": "Örnek: https://example.com/路径 → https://example.com/%E8%B7%AF%E5%BE%84"
+    },
+    "htmlEntity": {
+      "title": "HTML Varlığı Kodlama/Çözme",
+      "description": "Online HTML varlıklarını kodla veya çöz",
+      "toolName": "HTML Varlığı Kodlama/Çözme",
+      "toolCategory": "Kodlama Araçları",
+      "convertFailed": "Dönüştürme başarısız, lütfen girdiğiniz şeyi kontrol edin",
+      "copyFailed": "Sonuç kopyalanamadı",
+      "modeSelector": "Mod seç",
+      "switchToEncode": "Kodlama moduna geç (Alt+1)",
+      "switchToDecode": "Çözme moduna geç (Alt+2)",
+      "encode": "Kodla",
+      "decode": "Çöz",
+      "encodeAll": "Tüm karakterleri kodla",
+      "inputEncodeLabel": "Düz metin",
+      "inputDecodeLabel": "HTML varlıkları",
+      "clearInput": "Girişi temizle (Ctrl+L)",
+      "encodePlaceholder": "HTML varlıkları olarak dönüştürmek için metin girin...",
+      "decodePlaceholder": "Çözmek için HTML varlıklarını girin...",
+      "inputDescriptionEncode": "HTML varlıkları olarak kodlamak istediğiniz düz metni girin",
+      "inputDescriptionDecode": "Çözmek istediğiniz HTML varlıklarını girin",
+      "outputEncodeLabel": "Kodlanmış sonuç",
+      "outputDecodeLabel": "Çözülmüş sonuç",
+      "copyResult": "Sonucu kopyala (Ctrl+C)",
+      "resultPlaceholder": "Dönüşüm sonucu burada görünecek...",
+      "outputDescriptionEncode": "Üretilen HTML varlık çıktısı",
+      "outputDescriptionDecode": "Çözülmüş düz metin çıktısı",
+      "copied": "Panoya kopyalandı",
+      "executeEncode": "Kodla (Ctrl+Enter)",
+      "executeDecode": "Çöz (Ctrl+Enter)",
+      "swap": "Değiştir",
+      "swapMode": "Giriş ve çıkış değiştir (Ctrl+S)",
+      "commonEntities": "Ortak HTML varlıkları",
+      "space": "(boşluk)"
+    },
+    "jsMinify": {
+      "title": "JS Minify & Beautify",
+      "description": "Online JavaScript kodunu minify veya beautify et",
+      "toolName": "JavaScript Minify / Beautify",
+      "toolNameHistory": "JS Minify & Beautify",
+      "toolCategory": "Geliştirici Araçları",
+      "processFailed": "İşleme başarısız",
+      "copyFailed": "Sonucun panoya kopyalanması başarısız",
+      "switchToMinify": "Minify moduna geç",
+      "switchToMinifyTitle": "Minify moduna geç (Alt+1)",
+      "switchToBeautify": "Beautify moduna geç",
+      "switchToBeautifyTitle": "Beautify moduna geç (Alt+2)",
+      "minify": "Minify",
+      "beautify": "Beautify",
+      "input": "Giriş",
+      "output": "Çıkış",
+      "inputPlaceholder": "JavaScript kodunu buraya girin...",
+      "inputAria": "JavaScript giriş editörü",
+      "inputTitle": "Ctrl+Enter ile çalıştır, Ctrl+L ile temizle",
+      "copyOutput": "Çıkışı kopyala",
+      "copyOutputTitle": "Çıkışı kopyala (Ctrl+C)",
+      "resultPlaceholder": "İşlenmiş sonuç burada görünecek...",
+      "outputAria": "JavaScript çıkışı sonucu",
+      "executeMinify": "JavaScript'i minify et",
+      "executeMinifyTitle": "JavaScript'i minify et (Ctrl+Enter)",
+      "executeBeautify": "JavaScript'i beautify et",
+      "executeBeautifyTitle": "JavaScript'i beautify et (Ctrl+Enter)",
+      "minifyCode": "Kodu minify et",
+      "beautifyCode": "Kodu beautify et",
+      "swap": "Değiştir",
+      "swapTitle": "Giriş ve çıkış değiştir (Ctrl+S)",
+      "clear": "Temizle",
+      "clearTitle": "İçeriği temizle (Ctrl+L)",
+      "copied": "Panoya kopyalandı",
+      "infoTitle": "Özellikler",
+      "infoItems": [
+        "JavaScript dosyası boyutunu azaltmak için gereksiz boşlukları ve satır sonlarını kaldırır",
+        "Beautify modu sıkıştırılmış kodu okunabilir ve bakılabilir hale getirir",
+        "Minifikasyon kalitesi JavaScript parser ve minifier uygulamasına bağlıdır"
+      ]
+    },
+    "cssMinify": {
+      "title": "CSS Minify & Beautify",
+      "description": "Online CSS kodunu minify veya beautify et",
+      "toolName": "CSS Minify & Beautify",
+      "toolCategory": "Geliştirici Araçları",
+      "processFailed": "İşleme başarısız",
+      "copyFailed": "Sonucun panoya kopyalanması başarısız",
+      "switchToMinify": "Minify moduna geç",
+      "switchToMinifyTitle": "Minify moduna geç (Alt+1)",
+      "switchToBeautify": "Beautify moduna geç",
+      "switchToBeautifyTitle": "Beautify moduna geç (Alt+2)",
+      "minify": "Minify",
+      "beautify": "Beautify",
+      "input": "Giriş",
+      "output": "Çıkış",
+      "inputPlaceholder": "CSS kodunu buraya girin...\n\nÖrnek:\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 20px;\n}",
+      "inputAria": "CSS giriş editörü",
+      "inputTitle": "Ctrl+Enter ile çalıştır, Ctrl+L ile temizle",
+      "copyOutput": "Çıkışı kopyala",
+      "copyOutputTitle": "Çıkışı kopyala (Ctrl+C)",
+      "resultPlaceholder": "İşlenmiş sonuç burada görünecek...",
+      "outputAria": "CSS çıkışı sonucu",
+      "executeMinify": "CSS'i minify et",
+      "executeMinifyTitle": "CSS'i minify et (Ctrl+Enter)",
+      "executeBeautify": "CSS'i beautify et",
+      "executeBeautifyTitle": "CSS'i beautify et (Ctrl+Enter)",
+      "minifyCode": "Kodu minify et",
+      "beautifyCode": "Kodu beautify et",
+      "swap": "Değiştir",
+      "swapTitle": "Giriş ve çıkış değiştir (Ctrl+S)",
+      "clear": "Temizle",
+      "clearTitle": "İçeriği temizle (Ctrl+L)",
+      "copied": "Panoya kopyalandı",
+      "infoTitle": "Özellikler",
+      "infoItems": [
+        "Dosya boyutunu azaltmak için gereksiz boşlukları ve satır sonlarını kaldırır",
+        "Beautify modu sıkıştırılmış kodu okunabilir ve düzenlenebilir hale getirir",
+        "Daha küçük CSS dosyaları HTTP aktarım boyutunu azaltmaya ve yüklenme performansını artırmaya yardımcı olabilir"
+      ]
+    },
+    "httpCodes": {
+      "title": "HTTP Durum Kodları",
+      "description": "HTTP durum / yanıt kodları referansı",
+      "searchPlaceholder": "Durum kodlarını veya açıklamalarını ara...",
+      "noMatch": "Uygun durum kodu bulunamadı",
+      "infoTitle": "HTTP durum kodu temelleri",
+      "infoItems": [
+        "1xx - İstek alındı ve işleniyor anlamına gelen bilgilendirici yanıtlar",
+        "2xx - İstek alındı, anlaşıldı ve kabul edildi anlamına gelen başarı yanıtları",
+        "3xx - İstek tamamlanmak için ek eylem gerektiren yönlendirme yanıtları",
+        "4xx - İstekte kötü yapı ya da karşılanamaz anlamına gelen istemci hata yanıtları",
+        "5xx - Geçerli bir isteği yerine getiremeyen sunucu hata yanıtları"
+      ],
+      "categories": [
+        {
+          "id": "all",
+          "name": "Hepsi",
+          "color": "bg-gray-100 text-gray-700"
+        },
+        {
+          "id": "1xx",
+          "name": "1xx Bilgilendirici",
+          "color": "bg-blue-100 text-blue-700"
+        },
+        {
+          "id": "2xx",
+          "name": "2xx Başarılı",
+          "color": "bg-green-100 text-green-700"
+        },
+        {
+          "id": "3xx",
+          "name": "3xx Yönlendirme",
+          "color": "bg-yellow-100 text-yellow-700"
+        },
+        {
+          "id": "4xx",
+          "name": "4xx Kullanıcı Hatası",
+          "color": "bg-orange-100 text-orange-700"
+        },
+        {
+          "id": "5xx",
+          "name": "5xx Sunucu Hatası",
+          "color": "bg-red-100 text-red-700"
+        }
+      ],
+      "codes": [
+        {
+          "code": 100,
+          "name": "Devam Et",
+          "desc": "İstek ilk kısmı alındı ve istemci kalan kısmı göndermeye devam etmeli.",
+          "category": "1xx"
+        },
+        {
+          "code": 101,
+          "name": "Protokol Değiştirme",
+          "desc": "Sunucu, istemcinin talebine göre protokolleri değiştirmeyi kabul eder.",
+          "category": "1xx"
+        },
+        {
+          "code": 102,
+          "name": "İşleniyor",
+          "desc": "Sunucu isteği aldı ve işliyor, ancak henüz bir yanıt mevcut değil.",
+          "category": "1xx"
+        },
+        {
+          "code": 200,
+          "name": "Tamam",
+          "desc": "İstek başarılı oldu, genellikle GET veya POST istekleri için.",
+          "category": "2xx"
+        },
+        {
+          "code": 201,
+          "name": "Oluşturuldu",
+          "desc": "İstek başarılı oldu ve yeni bir kaynak oluşturuldu.",
+          "category": "2xx"
+        },
+        {
+          "code": 202,
+          "name": "Kabul Edildi",
+          "desc": "İstek işleme için kabul edildi, ancak henüz tamamlanmadı.",
+          "category": "2xx"
+        },
+        {
+          "code": 203,
+          "name": "Yetkisiz Bilgi",
+          "desc": "Yanıt meta verileri, orijinal sunucudan değil, yerel veya üçüncü taraf kopyadan gelir.",
+          "category": "2xx"
+        },
+        {
+          "code": 204,
+          "name": "İçerik Yok",
+          "desc": "İstek başarılı oldu, ancak yanıt gövdesi yok.",
+          "category": "2xx"
+        },
+        {
+          "code": 205,
+          "name": "İçeriği Sıfırla",
+          "desc": "İstek başarılı oldu ve istemci geçerli belge görünümünü sıfırlamalıdır.",
+          "category": "2xx"
+        },
+        {
+          "code": 206,
+          "name": "Bölünmüş İçerik",
+          "desc": "İstek, bir aralık isteği nedeniyle kaynaktan sadece bir bölüm döndürülmektedir.",
+          "category": "2xx"
+        },
+        {
+          "code": 300,
+          "name": "Çoklu Seçenek",
+          "desc": "İstenen kaynak, istemcinin seçebileceği birden fazla temsili vardır.",
+          "category": "3xx"
+        },
+        {
+          "code": 301,
+          "name": "Kalıcı Olarak Taşındı",
+          "desc": "İstenen kaynak, yeni bir URI'ye kalıcı olarak taşındı.",
+          "category": "3xx"
+        },
+        {
+          "code": 302,
+          "name": "Bulundu",
+          "desc": "İstenen kaynak, farklı bir URI'de geçici olarak bulunur.",
+          "category": "3xx"
+        },
+        {
+          "code": 303,
+          "name": "Diğerini Gör",
+          "desc": "İsteğin yanıtı, GET kullanarak başka bir URI'de bulunabilir.",
+          "category": "3xx"
+        },
+        {
+          "code": 304,
+          "name": "Değiştirilmemiş",
+          "desc": "Önbelleklenmiş kaynak değişmediği için istemci yerel kopyasını kullanabilir.",
+          "category": "3xx"
+        },
+        {
+          "code": 307,
+          "name": "Geçici Yeniden Yönlendirme",
+          "desc": "Kaynak geçici olarak yeniden yönlendirilmiştir ve orijinal istek yöntemi korunmalıdır.",
+          "category": "3xx"
+        },
+        {
+          "code": 308,
+          "name": "Kalıcı Yeniden Yönlendirme",
+          "desc": "Kaynak kalıcı olarak taşınmıştır ve orijinal istek yöntemi korunmalıdır.",
+          "category": "3xx"
+        },
+        {
+          "code": 400,
+          "name": "Hatalı İstek",
+          "desc": "İstek geçersiz sözdizimi nedeniyle işlenememektedir.",
+          "category": "4xx"
+        },
+        {
+          "code": 401,
+          "name": "Yetkisiz",
+          "desc": "İstek tamamlanmadan önce kimlik doğrulama gereklidir.",
+          "category": "4xx"
+        },
+        {
+          "code": 402,
+          "name": "Ödeme Gerekli",
+          "desc": "Genellikle dijital ödeme sistemleri ile ilişkilendirilen, gelecekteki kullanım için ayrılmıştır.",
+          "category": "4xx"
+        },
+        {
+          "code": 403,
+          "name": "Yasaklandı",
+          "desc": "Sunucu isteği anladı ancak yetkilendirmekten kaçındı.",
+          "category": "4xx"
+        },
+        {
+          "code": 404,
+          "name": "Bulunamadı",
+          "desc": "Sunucu istenen kaynak bulunamadı.",
+          "category": "4xx"
+        },
+        {
+          "code": 405,
+          "name": "Yöntem İzni Verilmedi",
+          "desc": "İstek yöntemi hedef kaynak için izin verilmemiştir.",
+          "category": "4xx"
+        },
+        {
+          "code": 406,
+          "name": "Kabul Edilebilir Değil",
+          "desc": "Sunucu, istemcinin kabul edebileceği biçimlerle uyumlu bir yanıt sağlayamaz.",
+          "category": "4xx"
+        },
+        {
+          "code": 407,
+          "name": "Proxy Kimlik Doğrulaması Gereklidir",
+          "desc": "İstemci, devam etmeden önce proxy ile kimlik doğrulaması yapmalıdır.",
+          "category": "4xx"
+        },
+        {
+          "code": 408,
+          "name": "Zaman Aşımı",
+          "desc": "Sunucu istek beklerken zaman aşımına uğradı.",
+          "category": "4xx"
+        },
+        {
+          "code": 409,
+          "name": "Çakışma",
+          "desc": "İstek, hedef kaynak durumuyla çakışmaktadır.",
+          "category": "4xx"
+        },
+        {
+          "code": 410,
+          "name": "Gitti",
+          "desc": "Kaynak artık mevcut değil ve bilinen bir yönlendirme adresi yoktur.",
+          "category": "4xx"
+        },
+        {
+          "code": 411,
+          "name": "Uzunluk Gerekli",
+          "desc": "Sunucu geçerli bir İçerik-Uzunluğu başlığı gerekir.",
+          "category": "4xx"
+        },
+        {
+          "code": 412,
+          "name": "Önkoşul Başarısız",
+          "desc": "İstek başlıklarındaki bir veya daha fazla koşul yanlış değerlendirildi.",
+          "category": "4xx"
+        },
+        {
+          "code": 413,
+          "name": "İçerik Çok Büyük",
+          "desc": "İstek gövdesi, sunucunun işlemeye hazır olmasından daha büyüktür.",
+          "category": "4xx"
+        },
+        {
+          "code": 414,
+          "name": "URI Çok Uzun",
+          "desc": "İstenen URI, sunucunun işlemesine uygun değildir.",
+          "category": "4xx"
+        },
+        {
+          "code": 415,
+          "name": "Desteklenmeyen Medya Türü",
+          "desc": "Sunucu, istekte kullanılan medya türünü desteklememektedir.",
+          "category": "4xx"
+        },
+        {
+          "code": 418,
+          "name": "Ben bir kahve makinesiyim",
+          "desc": "Sunucunun kahve demelemek yerine bir çay makinesi olduğu anlamına gelen şakacı bir durum kodu.",
+          "category": "4xx"
+        },
+        {
+          "code": 422,
+          "name": "İşlenebilir Nesne",
+          "desc": "Sunucu istek formatını anlasada içerdiği talimatları işlemektedir.",
+          "category": "4xx"
+        },
+        {
+          "code": 429,
+          "name": "Çok Sayıda Talep",
+          "desc": "İstemci, belirli bir süre içinde çok fazla istek gönderdi.",
+          "category": "4xx"
+        },
+        {
+          "code": 451,
+          "name": "Yasal Nedenlerden Kaynaklanan Kullanılamazlık",
+          "desc": "Yasal kısıtlamalardan dolayı kaynak kullanılamaz.",
+          "category": "4xx"
+        },
+        {
+          "code": 500,
+          "name": "İç Sunucu Hatası",
+          "desc": "İstek işlenirken beklenmedik bir hata oluştu.",
+          "category": "5xx"
+        },
+        {
+          "code": 501,
+          "name": "Uygulanamaz",
+          "desc": "Sunucu, isteğin karşılanması için gereken fonksiyoneliteyi desteklememektedir.",
+          "category": "5xx"
+        },
+        {
+          "code": 502,
+          "name": "Kötü Geçiş",
+          "desc": "Geçiş veya proxy sunucusu, üstteki sunucudan geçersiz bir yanıt aldı.",
+          "category": "5xx"
+        },
+        {
+          "code": 503,
+          "name": "Hizmet Mevcut Değil",
+          "desc": "Sunucu, genellikle yük veya bakım nedeniyle isteği geçici olarak işleyememektedir.",
+          "category": "5xx"
+        },
+        {
+          "code": 504,
+          "name": "Geçiş Zaman Aşımı",
+          "desc": "Geçiş veya proxy sunucusu, üstteki sunucudan zamanında yanıt alamadı.",
+          "category": "5xx"
+        },
+        {
+          "code": 505,
+          "name": "HTTP Sürümü Desteklenmiyor",
+          "desc": "Sunucu, istekte kullanılan HTTP protokol sürümünü desteklememektedir.",
+          "category": "5xx"
+        }
+      ]
+    },
+    "phpReference": {
+      "title": "PHP Fonksiyon Referansı",
+      "description": "Sık kullanılan PHP fonksiyonları için hızlı referans",
+      "searchPlaceholder": "Fonksiyon isimleri veya açıklamaları ara...",
+      "noMatch": "Eşleşen fonksiyon bulunamadı",
+      "infoTitle": "Hakkında",
+      "infoDescription": "Bu sayfa, hızlı erişim için kategorilere göre yaygın olarak kullanılan PHP fonksiyonlarını listeler. Resmi PHP belgelerini taklit etmekten ziyade geliştiriciler için pratik bir bakış açısı sunmayı amaçlar.",
+      "categories": [
+        "Tümü",
+        "Dize",
+        "Dizi",
+        "Dosya",
+        "Tarih/Zaman",
+        "JSON",
+        "Matematik",
+        "Diğer"
+      ],
+      "functions": [
+        {
+          "name": "strlen",
+          "desc": "Bir dizinin uzunluğunu al",
+          "syntax": "strlen(string $string): int",
+          "category": "Dize"
+        },
+        {
+          "name": "substr",
+          "desc": "Bir dizenin bir kısmını döndür",
+          "syntax": "substr(string $string, int $offset, ?int $length = null): string",
+          "category": "Dize"
+        },
+        {
+          "name": "strpos",
+          "desc": "Bir alt dizinin ilk oluşumunun konumunu bul",
+          "syntax": "strpos(string $haystack, string $needle, int $offset = 0): int|false",
+          "category": "Dize"
+        },
+        {
+          "name": "str_replace",
+          "desc": "Aranan dizinin tüm eşleşmelerini değiştir",
+          "syntax": "str_replace(mixed $search, mixed $replace, mixed $subject): mixed",
+          "category": "Dize"
+        },
+        {
+          "name": "explode",
+          "desc": "Bir diziye ayırıcı kullanarak böl",
+          "syntax": "explode(string $separator, string $string, int $limit = PHP_INT_MAX): array",
+          "category": "Dize"
+        },
+        {
+          "name": "implode",
+          "desc": "Dizinin elemanlarını bir dizeye birleştir",
+          "syntax": "implode(string $separator, array $array): string",
+          "category": "Dize"
+        },
+        {
+          "name": "trim",
+          "desc": "Bir dizenin baş ve sonundaki boşlukları veya diğer karakterleri temizle",
+          "syntax": "trim(string $string, string $characters = \" \\n\\r\\t\\v\\x00\"): string",
+          "category": "Dize"
+        },
+        {
+          "name": "strtolower",
+          "desc": "Bir dizeyi küçük harfe çevir",
+          "syntax": "strtolower(string $string): string",
+          "category": "Dize"
+        },
+        {
+          "name": "strtoupper",
+          "desc": "Bir dizeyi büyük harfe çevir",
+          "syntax": "strtoupper(string $string): string",
+          "category": "Dize"
+        },
+        {
+          "name": "sprintf",
+          "desc": "Biçimlendirilmiş bir dize döndür",
+          "syntax": "sprintf(string $format, mixed ...$values): string",
+          "category": "Dize"
+        },
+        {
+          "name": "preg_match",
+          "desc": "Bir düzenli ifade eşleşmesi yap",
+          "syntax": "preg_match(string $pattern, string $subject, array &$matches = null): int|false",
+          "category": "Dize"
+        },
+        {
+          "name": "preg_replace",
+          "desc": "Bir düzenli ifade araması ve değiştirme yap",
+          "syntax": "preg_replace(mixed $pattern, mixed $replacement, mixed $subject): mixed",
+          "category": "Dize"
+        },
+        {
+          "name": "count",
+          "desc": "Bir dizideki veya Countable nesnesindeki öğeleri say",
+          "syntax": "count(Countable|array $value, int $mode = COUNT_NORMAL): int",
+          "category": "Dizi"
+        },
+        {
+          "name": "array_push",
+          "desc": "Bir veya daha fazla öğeyi dizinin sonuna ekleyin",
+          "syntax": "array_push(array &$array, mixed ...$values): int",
+          "category": "Dizi"
+        },
+        {
+          "name": "array_pop",
+          "desc": "Bir diziden son öğeyi çıkar",
+          "syntax": "array_pop(array &$array): mixed",
+          "category": "Dizi"
+        },
+        {
+          "name": "array_merge",
+          "desc": "Bir veya daha fazla diziyi birleştir",
+          "syntax": "array_merge(array ...$arrays): array",
+          "category": "Dizi"
+        },
+        {
+          "name": "array_keys",
+          "desc": "Bir dizinin tüm anahtarlarını döndür",
+          "syntax": "array_keys(array $array, mixed $filter_value, bool $strict = false): array",
+          "category": "Dizi"
+        },
+        {
+          "name": "array_values",
+          "desc": "Bir dizinin tüm değerlerini döndür",
+          "syntax": "array_values(array $array): array",
+          "category": "Dizi"
+        },
+        {
+          "name": "in_array",
+          "desc": "Bir değerin bir dizide olup olmadığını kontrol edin",
+          "syntax": "in_array(mixed $needle, array $haystack, bool $strict = false): bool",
+          "category": "Dizi"
+        },
+        {
+          "name": "array_search",
+          "desc": "Bir dizide bir değeri arayın ve onun anahtarını döndürün",
+          "syntax": "array_search(mixed $needle, array $haystack, bool $strict = false): int|string|false",
+          "category": "Dizi"
+        },
+        {
+          "name": "array_map",
+          "desc": "Bir dizinin öğelerine bir geri arama uygulayın",
+          "syntax": "array_map(?callable $callback, array $array, array ...$arrays): array",
+          "category": "Dizi"
+        },
+        {
+          "name": "array_filter",
+          "desc": "Bir geri arama kullanarak bir dizinin öğelerini filtreleyin",
+          "syntax": "array_filter(array $array, ?callable $callback = null, int $mode = 0): array",
+          "category": "Dizi"
+        },
+        {
+          "name": "sort",
+          "desc": "Bir diziyi artan düzende sırala",
+          "syntax": "sort(array &$array, int $flags = SORT_REGULAR): bool",
+          "category": "Dizi"
+        },
+        {
+          "name": "usort",
+          "desc": "Kullanıcı tanımlı bir karşılaştırma işleviyle bir diziyi sırala",
+          "syntax": "usort(array &$array, callable $callback): bool",
+          "category": "Dizi"
+        },
+        {
+          "name": "file_get_contents",
+          "desc": "Bir dosyayı bir dizeye okuyun",
+          "syntax": "file_get_contents(string $filename, ...): string|false",
+          "category": "Dosya"
+        },
+        {
+          "name": "file_put_contents",
+          "desc": "Bir dosyaya veri yazın",
+          "syntax": "file_put_contents(string $filename, mixed $data, int $flags = 0): int|false",
+          "category": "Dosya"
+        },
+        {
+          "name": "fopen",
+          "desc": "Bir dosya veya URL açın",
+          "syntax": "fopen(string $filename, string $mode, ...): resource|false",
+          "category": "Dosya"
+        },
+        {
+          "name": "fclose",
+          "desc": "Açık bir dosya işaretçisini kapatın",
+          "syntax": "fclose(resource $stream): bool",
+          "category": "Dosya"
+        },
+        {
+          "name": "fread",
+          "desc": "Bir dosya işaretçisinden okuyun",
+          "syntax": "fread(resource $stream, int $length): string|false",
+          "category": "Dosya"
+        },
+        {
+          "name": "fwrite",
+          "desc": "Bir dosya işaretçisine yazın",
+          "syntax": "fwrite(resource $stream, string $data, ?int $length = null): int|false",
+          "category": "Dosya"
+        },
+        {
+          "name": "file_exists",
+          "desc": "Bir dosya veya dizinin var olup olmadığını kontrol edin",
+          "syntax": "file_exists(string $filename): bool",
+          "category": "Dosya"
+        },
+        {
+          "name": "is_file",
+          "desc": "Yolun normal bir dosya olup olmadığını kontrol edin",
+          "syntax": "is_file(string $filename): bool",
+          "category": "Dosya"
+        },
+        {
+          "name": "unlink",
+          "desc": "Bir dosyayı silin",
+          "syntax": "unlink(string $filename, ?resource $context = null): bool",
+          "category": "Dosya"
+        },
+        {
+          "name": "mkdir",
+          "desc": "Bir dizin oluşturun",
+          "syntax": "mkdir(string $directory, int $permissions = 0777, bool $recursive = false): bool",
+          "category": "Dosya"
+        },
+        {
+          "name": "date",
+          "desc": "Yerel bir tarih ve saat formatlayın",
+          "syntax": "date(string $format, ?int $timestamp = null): string",
+          "category": "Tarih/Zaman"
+        },
+        {
+          "name": "time",
+          "desc": "Geçerli Unix zaman damgasını alın",
+          "syntax": "time(): int",
+          "category": "Tarih/Zaman"
+        },
+        {
+          "name": "strtotime",
+          "desc": "Metinsel bir tarih saati Unix zaman damgasına dönüştürün",
+          "syntax": "strtotime(string $datetime, ?int $baseTimestamp = null): int|false",
+          "category": "Tarih/Zaman"
+        },
+        {
+          "name": "mktime",
+          "desc": "Bir tarih için Unix zaman damgası alın",
+          "syntax": "mktime(int $saat, ?int $dakika = null, ...): int|false",
+          "category": "Tarih/Zaman"
+        },
+        {
+          "name": "date_create",
+          "desc": "Bir DateTime nesnesi oluşturun",
+          "syntax": "date_create(string $tarih_saat = \"now\", ?DateTimeZone $zaman_konusu = null): DateTime|false",
+          "category": "Tarih/Zaman"
+        },
+        {
+          "name": "json_encode",
+          "desc": "Bir değeri JSON dizesine dönüştürün",
+          "syntax": "json_encode(mixed $değer, int $bayraklar = 0, int $derinlik = 512): string|false",
+          "category": "JSON"
+        },
+        {
+          "name": "json_decode",
+          "desc": "Bir JSON dizesini PHP değerine dönüştürün",
+          "syntax": "json_decode(string $json, ?bool $anasahip = null, int $derinlik = 512): mixed",
+          "category": "JSON"
+        },
+        {
+          "name": "abs",
+          "desc": "Mutlak değer al",
+          "syntax": "abs(int|float $sayı): int|float",
+          "category": "Matematik"
+        },
+        {
+          "name": "ceil",
+          "desc": "Ondalıkları yukarı yuvarla",
+          "syntax": "ceil(int|float $sayı): float",
+          "category": "Matematik"
+        },
+        {
+          "name": "floor",
+          "desc": "Ondalıkları aşağı yuvarla",
+          "syntax": "floor(int|float $sayı): float",
+          "category": "Matematik"
+        },
+        {
+          "name": "round",
+          "desc": "Bir sayıyı yuvarla",
+          "syntax": "round(int|float $sayı, int $basamak = 0, int $mod = PHP_ROUND_HALF_UP): float",
+          "category": "Matematik"
+        },
+        {
+          "name": "max",
+          "desc": "En büyük değeri bul",
+          "syntax": "max(mixed $değer, mixed ...$değerler): mixed",
+          "category": "Matematik"
+        },
+        {
+          "name": "min",
+          "desc": "En küçük değeri bul",
+          "syntax": "min(mixed $değer, mixed ...$değerler): mixed",
+          "category": "Matematik"
+        },
+        {
+          "name": "rand",
+          "desc": "Rastgele bir tam sayı üret",
+          "syntax": "rand(int $min, int $max): int",
+          "category": "Matematik"
+        },
+        {
+          "name": "isset",
+          "desc": "Bir değişkenin ayarlandığını ve null olmadığını kontrol edin",
+          "syntax": "isset(mixed $değişken, mixed ...$değişkenler): bool",
+          "category": "Diğer"
+        },
+        {
+          "name": "empty",
+          "desc": "Bir değişkenin boş olup olmadığını kontrol edin",
+          "syntax": "empty(mixed $değişken): bool",
+          "category": "Diğer"
+        },
+        {
+          "name": "var_dump",
+          "desc": "Bir değişken hakkında bilgi yazdırın",
+          "syntax": "var_dump(mixed $değer, mixed ...$değerler): void",
+          "category": "Diğer"
+        },
+        {
+          "name": "print_r",
+          "desc": "Bir değişken hakkında insan okuyabilir bilgi yazdırın",
+          "syntax": "print_r(mixed $değer, bool $döndür = false): string|bool",
+          "category": "Diğer"
+        },
+        {
+          "name": "gettype",
+          "desc": "Bir değişkenin türünü alın",
+          "syntax": "gettype(mixed $değer): string",
+          "category": "Diğer"
+        },
+        {
+          "name": "is_array",
+          "desc": "Bir değişkenin bir dizi olup olmadığını kontrol edin",
+          "syntax": "is_array(mixed $değer): bool",
+          "category": "Diğer"
+        },
+        {
+          "name": "is_string",
+          "desc": "Bir değişkenin bir dize olup olmadığını kontrol edin",
+          "syntax": "is_string(mixed $değer): bool",
+          "category": "Diğer"
+        },
+        {
+          "name": "is_numeric",
+          "desc": "Bir değişkenin bir sayı veya sayısal dize olup olmadığını kontrol edin",
+          "syntax": "is_numeric(mixed $değer): bool",
+          "category": "Diğer"
+        }
+      ]
+    },
+    "cssBorderRadius": {
+      "title": "CSS Kenar Yarıçapı Oluşturucu",
+      "description": "Kenar yarım çapı değerlerini görsel olarak ayarlayın ve CSS kodu oluşturun",
+      "presetsLabel": "Ön Ayarlar",
+      "preview": "Önizleme",
+      "settings": "Ayarlar",
+      "linked": "Bağlı köşeler",
+      "unlinked": "Ayrı köşeler",
+      "corners": {
+        "topLeft": "Üst sol",
+        "topRight": "Üst sağ",
+        "bottomLeft": "Alt sol",
+        "bottomRight": "Alt sağ"
+      },
+      "elementColor": "Öğe rengi",
+      "codeTitle": "CSS kodu",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı",
+      "presets": [
+        {
+          "name": "Yok",
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Küçük",
+          "values": [
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "Orta",
+          "values": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "Büyük",
+          "values": [
+            16,
+            16,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "Daire",
+          "values": [
+            50,
+            50,
+            50,
+            50
+          ]
+        },
+        {
+          "name": "Kemik",
+          "values": [
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "Sol taraf",
+          "values": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        {
+          "name": "Sağ taraf",
+          "values": [
+            0,
+            16,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "Sadece üst",
+          "values": [
+            16,
+            16,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Sadece alt",
+          "values": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "Çapraz",
+          "values": [
+            16,
+            0,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "Yaprak",
+          "values": [
+            0,
+            50,
+            0,
+            50
+          ]
+        }
+      ]
+    },
+    "cssNeumorphism": {
+      "title": "Neumorfizm CSS Oluşturucu",
+      "description": "Online Neumorfizm tarzında CSS kodu oluşturun",
+      "previewText": "Önizleme Düğmesi",
+      "shapeTitle": "Şekil stili",
+      "shapeOptions": [
+        {
+          "value": "düz",
+          "label": "Düz"
+        },
+        {
+          "value": "kavuşuk",
+          "label": "Kavuşuk"
+        },
+        {
+          "value": "bükümlü",
+          "label": "Bükümlü"
+        },
+        {
+          "value": "basılı",
+          "label": "Basılı"
+        }
+      ],
+      "colorTitle": "Renk ayarları",
+      "presetColors": "Ön ayar renkleri",
+      "colorPresets": [
+        {
+          "color": "#e0e5ec",
+          "name": "Klasik"
+        },
+        {
+          "color": "#f0f0f3",
+          "name": "Beyaz"
+        },
+        {
+          "color": "#d1d9e6",
+          "name": "Mavi"
+        },
+        {
+          "color": "#e8dfd5",
+          "name": "Beyazgör"
+        },
+        {
+          "color": "#dfe6e9",
+          "name": "Gri"
+        },
+        {
+          "color": "#ffeaa7",
+          "name": "Sarı"
+        },
+        {
+          "color": "#dfe4ea",
+          "name": "Koyu gri"
+        },
+        {
+          "color": "#f8e1e7",
+          "name": "Pembe"
+        },
+        {
+          "color": "#d5f5e3",
+          "name": "İnci yeşili"
+        },
+        {
+          "color": "#e8daef",
+          "name": "Mor"
+        }
+      ],
+      "backgroundColor": "Temel renk",
+      "lightColor": "Hafif renk (parlaklık)",
+      "darkColor": "Karanlık renk (gölge)",
+      "sliderTitle": "Gölge ayarları",
+      "size": "Boyut",
+      "radius": "Yarıçap",
+      "distance": "Gölge mesafesi",
+      "blur": "Gölge bulanıklığı",
+      "intensity": "Yoğunluk",
+      "codeTitle": "CSS kodu",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı",
+      "infoTitle": "Neumorfizm nedir?",
+      "infoDescription": "Neumorphism, öğelerin arka planda kabarık veya bastırılmış görünmesini sağlamak için sade gölgeler ve parlaklıkların birleşimini içeren yumuşak bir UI tarzıdır. Düşük kontrast paletleri ve temiz, minimal düzenlerle en iyi şekilde çalışır."
+    },
+    "cssTextShadow": {
+      "title": "CSS Metin Gölgelendirme Oluşturucu",
+      "description": "Metin-gölgelendirme değerlerini görsel olarak ayarlayıp CSS kodu üretin",
+      "defaultText": "Metin Gölgelendirme Örneği",
+      "presetsLabel": "Önayar efektleri",
+      "textSettings": "Metin ayarları",
+      "previewText": "Ön izleme metni",
+      "fontSize": "Yazı tipi boyutu",
+      "textColor": "Metin rengi",
+      "shadowPrefix": "Gölgelendirme {{index}}",
+      "offsetX": "X kaydırması",
+      "offsetY": "Y kaydırması",
+      "blur": "Bulanıklık",
+      "opacity": "Opaklık",
+      "color": "Renk",
+      "addShadow": "Gölgelendirme ekle",
+      "codeTitle": "CSS kodu",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı",
+      "presets": [
+        {
+          "name": "Yumuşak gölge",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 2,
+              "y": 2,
+              "blur": 4,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Neon parıltısı",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#00ff00",
+              "opacity": 0.8
+            }
+          ]
+        },
+        {
+          "name": "Mor parıltısı",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 5,
+              "color": "#ff00ff",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#ff00ff",
+              "opacity": 0.8
+            },
+            {
+              "id": 3,
+              "x": 0,
+              "y": 0,
+              "blur": 20,
+              "color": "#ff00ff",
+              "opacity": 0.6
+            }
+          ]
+        },
+        {
+          "name": "Katmanlı 3D",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 1,
+              "y": 1,
+              "blur": 0,
+              "color": "#666666",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 2,
+              "y": 2,
+              "blur": 0,
+              "color": "#888888",
+              "opacity": 1
+            },
+            {
+              "id": 3,
+              "x": 3,
+              "y": 3,
+              "blur": 0,
+              "color": "#aaaaaa",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "name": "Matkap",
+          "shadows": [
+            {
+              "id": 1,
+              "x": -1,
+              "y": -1,
+              "blur": 1,
+              "color": "#ffffff",
+              "opacity": 0.8
+            },
+            {
+              "id": 2,
+              "x": 1,
+              "y": 1,
+              "blur": 1,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "websocketTest": {
+      "title": "Online WebSocket Test Aracı",
+      "description": "WebSocket bağlantılarını ve mesajlaşmalarını çevrimiçi test edin",
+      "defaultUrl": "wss://echo.websocket.org",
+      "connectingTo": "{{url}}'a bağlanılıyor...",
+      "connectSuccess": "Başarıyla bağlandı",
+      "connectError": "Bağlantı hatası",
+      "connectionClosed": "Bağlantı kapatıldı (Kod: {{code}})",
+      "connectFailed": "Bağlantı başarısız: {{message}}",
+      "disconnecting": "Bağlantı kesiliyor...",
+      "urlPlaceholder": "Örneğin: wss://echo.websocket.org gibi bir WebSocket URL'si girin",
+      "disconnect": "Bağlantıyı Kes",
+      "connecting": "Bağlanıyor...",
+      "connect": "Bağlan",
+      "connected": "Bağlandı",
+      "notConnected": "Bağlı değil",
+      "messageLog": "Mesaj günlüğü",
+      "clear": "Temizle",
+      "noMessages": "Henüz mesaj yok",
+      "messagePlaceholder": "Bir mesaj girin... (Enter tuşu ile gönderin, Shift+Enter tuşu ile yeni satır ekleyin)",
+      "infoTitle": "WebSocket ipuçları",
+      "infoItems": [
+        "İçindeki echo hizmeti temel gönderi/alma testleri için yararlıdır",
+        "ws:// ve wss:// adreslerini destekler",
+        "Enter tuşuna basarak gönderin, yeni satır eklemek için Shift+Enter tuşuna basın",
+        "Hedef hizmetin tarayıcıdan WebSocket bağlantılarını kabul ettiğinden emin olun"
+      ],
+      "examplesTitle": "Sık kullanılan örnekler",
+      "publicEcho": "Genel Echo Hizmeti",
+      "defaultTag": "Varsayılan"
+    },
+    "csrGenerator": {
+      "title": "CSR Oluşturucu & Görüntüleyici",
+      "description": "Çevrimiçi CSR dosyaları oluşturun ve CSR içeriğini analiz edin",
+      "enterDomain": "Lütfen bir domain girin",
+      "generateFailed": "CSR oluşturulamadı",
+      "parseFailed": "CSR analiz edilemedi",
+      "serverConnectionFailed": "Sunucuya bağlanılamadı, lütfen daha sonra tekrar deneyin",
+      "tabs": {
+        "generate": "CSR Oluştur",
+        "view": "CSR Görüntüle"
+      },
+      "formTitle": "Sertifika bilgileri",
+      "labels": {
+        "commonName": "Domain (Common Name)",
+        "organization": "Organizasyon",
+        "organizationUnit": "Bölüm",
+        "city": "Şehir",
+        "state": "Devlet / Eyalet",
+        "country": "Ülke / Bölgesi",
+        "email": "E-posta",
+        "keySize": "Anahtar boyutu"
+      },
+      "placeholders": {
+        "commonName": "Örnek: www.example.com veya *.example.com",
+        "organization": "Örnek: Example Inc.",
+        "organizationUnit": "Örnek: IT Departmanı",
+        "city": "Örnek: Pekin",
+        "state": "Örnek: Pekin",
+        "email": "Örnek: admin@example.com",
+        "csr": "-----BEGIN CERTIFICATE REQUEST----- ile başlayan CSR içeriğini buraya yapıştırın"
+      },
+      "countries": [
+        {
+          "value": "CN",
+          "label": "CN - Çin"
+        },
+        {
+          "value": "US",
+          "label": "US - Amerika Birleşik Devletleri"
+        },
+        {
+          "value": "JP",
+          "label": "JP - Japonya"
+        },
+        {
+          "value": "KR",
+          "label": "KR - Güney Kore"
+        },
+        {
+          "value": "GB",
+          "label": "GB - İngiltere"
+        },
+        {
+          "value": "DE",
+          "label": "DE - Almanya"
+        },
+        {
+          "value": "FR",
+          "label": "FR - Fransa"
+        },
+        {
+          "value": "SG",
+          "label": "SG - Singapur"
+        },
+        {
+          "value": "HK",
+          "label": "HK - Hong Kong"
+        },
+        {
+          "value": "TW",
+          "label": "TW - Tayvan"
+        }
+      ],
+      "keySizes": [
+        {
+          "value": "2048",
+          "label": "2048 bit (önerilen)"
+        },
+        {
+          "value": "4096",
+          "label": "4096 bit (daha güvenli)"
+        }
+      ],
+      "generating": "Oluşturuluyor...",
+      "generateAction": "CSR ve özel anahtar oluştur",
+      "csrRequest": "CSR talebi",
+      "privateKey": "Özel anahtar (güvenli bir yerde saklayın)",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı",
+      "download": "İndir",
+      "privateKeyWarning": "Özel anahtar çok hassastır. Güvenli bir yerde saklayın ve asla açıkça paylaşmayın. Eğer sızarsa, sertifikanızın güvenliği tehlikeye girebilir.",
+      "inputCsr": "CSR içeriğini yapıştırın",
+      "parsing": "Ayrıştırılıyor...",
+      "parseAction": "CSR'yi ayrıştır",
+      "csrInfo": "CSR bilgisi",
+      "infoItems": [
+        {
+          "label": "Domain (CN)",
+          "key": "commonName"
+        },
+        {
+          "label": "Organizasyon (O)",
+          "key": "organization"
+        },
+        {
+          "label": "Bölüm (OU)",
+          "key": "organizationUnit"
+        },
+        {
+          "label": "Şehir (L)",
+          "key": "city"
+        },
+        {
+          "label": "Devlet / Eyalet (ST)",
+          "key": "state"
+        },
+        {
+          "label": "Ülke (C)",
+          "key": "country"
+        },
+        {
+          "label": "E-posta",
+          "key": "email"
+        },
+        {
+          "label": "Anahtar algoritması",
+          "key": "keyAlgorithm"
+        },
+        {
+          "label": "Anahtar boyutu",
+          "key": "keySize"
+        },
+        {
+          "label": "İmza algoritması",
+          "key": "signatureAlgorithm"
+        }
+      ],
+      "keySizeValue": "{{value}} bit",
+      "aboutTitle": "CSR nedir?",
+      "aboutDescription": "Bir CSR (Sertifika İmzalama Talebi), SSL/TLS sertifikası başvurusu sırasında bir sertifika yetkilisine (CA) gönderilen bir şifrelenmiş dosyadır. Domain ve organizasyonunuzla ilgili bilgileri ve özel anahtarınızla eşleşen ortak anahtarı içerir. Onaylandıktan sonra CA, CSR'yi kullanarak SSL sertifikasını verir."
+    },
+    "metaGenerator": {
+      "title": "Meta Etiketi Oluşturucu",
+      "description": "SEO dostu web sayfası meta etiketleri oluşturun",
+      "basicInfo": "Temel bilgi",
+      "socialMedia": "Sosyal medya (Open Graph)",
+      "generatedCode": "Oluşturulan kod",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı",
+      "searchPreview": "Arama önizlemesi",
+      "searchPreviewTitleFallback": "Sayfa başlığı",
+      "searchPreviewDescriptionFallback": "Sayfanızın açıklaması burada görünecektir...",
+      "socialPreview": "Sosyal önizleme",
+      "socialPreviewTitleFallback": "Başlık",
+      "socialPreviewDescriptionFallback": "Açıklama",
+      "labels": {
+        "title": "Sayfa başlığı",
+        "description": "Sayfa açıklaması",
+        "keywords": "Anahtar kelimeler",
+        "author": "Yazar",
+        "robots": "Robots talimatı",
+        "ogTitle": "OG başlığı",
+        "ogDescription": "OG açıklaması",
+        "ogImage": "OG resim URL'si",
+        "ogUrl": "Sayfa URL'si",
+        "twitterCard": "Twitter kart türü"
+      },
+      "placeholders": {
+        "title": "Bir sayfa başlığı girin",
+        "description": "150 karaktere kadar bir sayfa açıklaması girin",
+        "keywords": "anahtar1, anahtar2, anahtar3",
+        "author": "Yazar adını girin",
+        "ogTitle": "Sosyal paylaşım başlığı girin",
+        "ogDescription": "Sosyal paylaşım açıklaması girin",
+        "ogImage": "https://example.com/image.jpg",
+        "ogUrl": "https://example.com/sayfa"
+      },
+      "robotsOptions": [
+        {
+          "value": "index, follow",
+          "label": "İndekse izin ver ve takip et"
+        },
+        {
+          "value": "index, nofollow",
+          "label": "İndekse izin ver, takip etmeyi engelle"
+        },
+        {
+          "value": "noindex, follow",
+          "label": "İndeksi engelle, takip et"
+        },
+        {
+          "value": "noindex, nofollow",
+          "label": "İndeksi ve takibi engelle"
+        }
+      ],
+      "twitterOptions": [
+        {
+          "value": "summary",
+          "label": "Özet"
+        },
+        {
+          "value": "summary_large_image",
+          "label": "Büyük resim"
+        },
+        {
+          "value": "player",
+          "label": "Oynatıcı"
+        }
+      ]
+    },
+    "toolHistoryDemo": {
+      "confirmClear": "Tüm araç geçmişi ve favorileri temizlemek istediğinizden emin misiniz?",
+      "exportTitle": "Veriyi aktar",
+      "usageCount": "Kullanıldı {{count}} kez",
+      "lastUsed": "Son kullanma: {{time}}",
+      "favorite": "Favori: {{value}}",
+      "yes": "Evet",
+      "no": "Hayır",
+      "exportFailed": "Aktarım başarısız oldu",
+      "tabs": {
+        "overview": "Genel bakış",
+        "history": "Geçmiş",
+        "favorites": "Favoriler",
+        "analytics": "Analiz"
+      },
+      "loading": "Araç geçmişi verileri yükleniyor...",
+      "loadFailed": "Yükleme başarısız oldu: {{error}}",
+      "title": "Araç Geçmişi Demo",
+      "description": "Araç kullanım geçmişi, favorileri ve analizini gösterir",
+      "export": "Aktar",
+      "clear": "Temizle",
+      "searchPlaceholder": "Araçlar ara...",
+      "stats": {
+        "totalTools": "Toplam araç",
+        "totalUsage": "Toplam kullanım",
+        "favoriteTools": "Favori araçlar",
+        "averageUsage": "Ortalama kullanım"
+      },
+      "favoriteToolsTitle": "Favori araçlar",
+      "favoriteToolsDescription": "Favori olarak işaretlediğiniz araçlar",
+      "noFavoriteTools": "Henüz favori araç yok",
+      "mostUsed": "En çok kullanılan araçlar",
+      "timesUsed": "Kullanıldı {{count}} kez",
+      "recentActivity": "Yakın zamandaki etkinlik",
+      "exportDialogTitle": "Araç geçmişi aktar",
+      "exportDialogDescription": "Bir aktarma formatı seçin",
+      "formats": {
+        "json": {
+          "title": "JSON formatı",
+          "description": "Yedekleme ve geliştirici kullanımı için en iyisidir"
+        },
+        "csv": {
+          "title": "CSV formatı",
+          "description": "Excel gibi tablolar için uygundur"
+        },
+        "txt": {
+          "title": "TXT formatı",
+          "description": "Basit metin özeti"
+        }
+      },
+      "cancel": "İptal"
+    },
+    "userAgentParser": {
+      "title": "Kullanıcı Aracısı Parserı",
+      "description": "Kullanıcı Aracısı dizgilerini ayrıştırarak tarayıcı, sistem ve cihaz bilgilerini tanımlayın",
+      "label": "Kullanıcı Aracısı dizesi",
+      "useCurrent": "Mevcut tarayıcıyı kullan",
+      "inputPlaceholder": "Bir Kullanıcı Aracısı dizesi girin...",
+      "parse": "Ayrıştır",
+      "unknownBrowser": "Bilinmeyen tarayıcı",
+      "unknown": "Bilinmeyen",
+      "deviceTypes": {
+        "mobile": "Mobil",
+        "tablet": "Tablet",
+        "desktop": "Masaüstü"
+      },
+      "browserInfo": "Tarayıcı bilgisi",
+      "browser": "Tarayıcı",
+      "version": "Versiyon",
+      "majorVersion": "Ana versiyon",
+      "operatingSystem": "İşletim sistemi",
+      "system": "Sistem",
+      "deviceInfo": "Cihaz bilgisi",
+      "type": "Tür",
+      "vendor": "Satıcı",
+      "model": "Model",
+      "engineAndCpu": "Motor & CPU",
+      "engine": "Motor",
+      "engineVersion": "Motor versiyonu",
+      "cpuArchitecture": "CPU mimarisi",
+      "examplesTitle": "Kullanıcı Aracısı dizgileri örnekleri"
+    },
+    "cssBoxShadow": {
+      "title": "DIV Kutu Gölgelendirme Oluşturucu",
+      "description": "Gölgelendirme değerlerini görsel olarak ayarlayıp CSS kodu oluşturun",
+      "preview": "Önizleme",
+      "basicSettings": "Temel ayarlar",
+      "backgroundColor": "Arka plan rengi",
+      "boxColor": "Kutu rengi",
+      "borderRadius": "Kenar yuvarlaklığı",
+      "shadowPrefix": "Gölgelendirme {{index}}",
+      "inset": "İçte",
+      "offsetX": "X kayması",
+      "offsetY": "Y kayması",
+      "blur": "Blurlama",
+      "spread": "Yayılma",
+      "opacity": "Opaklık",
+      "color": "Renk",
+      "addShadow": "Gölgelendirme ekle",
+      "codeTitle": "CSS kodu",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı"
+    },
+    "cssGlassmorphism": {
+      "title": "CSS Camlılık Oluşturucu",
+      "description": "Çevrimiçi camlılık tarzında CSS kodu oluşturun",
+      "cardTitle": "Camlılık Kartı",
+      "cardDescription": "Camlılık, şeffaflık, bulanıklık ve yumuşak kenarlar kullanarak donuk cam etkisi yaratan modern bir UI tarzıdır.",
+      "adjustTitle": "Ayarları düzenle",
+      "blur": "Arka plan bulanıklığı",
+      "transparency": "Şeffaflık",
+      "saturation": "Doyma",
+      "borderRadius": "Kenar yuvarlaklığı",
+      "borderOpacity": "Kenar opaklığı",
+      "codeTitle": "CSS kodu",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı",
+      "infoTitle": "Uyumluluk notları",
+      "infoDescription": "backdrop-filter özelliği modern tarayıcı desteği gerektirir. Firefox, ek ayarlar gerekebilir ve Safari, -webkit- önekine ihtiyaç duyabilir. Desteklenmeyen tarayıcılarda zarif düşüşler düşünün."
+    },
+    "desktopShortcut": {
+      "title": "Web Sitesi Masaüstü Kısayolu",
+      "description": "Masaüstü için web sitesi kısayolları oluşturun ve hızlıca başlatın",
+      "enterUrl": "Lütfen geçerli bir web sitesi URL'si girin",
+      "enterName": "Lütfen bir kısayol adı girin",
+      "redirectingTo": "{{name}} açılıyor...",
+      "urlLabel": "Web sitesi URL'si",
+      "urlPlaceholder": "example.com veya https://example.com",
+      "nameLabel": "Kısayol adı",
+      "namePlaceholder": "Web sitesi kısayolu",
+      "downloadUrlFile": ".url dosyası indir",
+      "downloadHtmlFile": ".html dosyası indir",
+      "infoTitle": "Yardım",
+      "urlFileDesc": ".url dosyaları Windows Internet Kısayolu dosyalarıdır ve genellikle hedef web sitesini varsayılan tarayıcınızda doğrudan açar.",
+      "htmlFileDesc": ".html dosyaları Windows, macOS ve Linux üzerinde çalışır ve aynı zamanda basit bir web sitesi kısayol olarak kullanılabilir.",
+      "afterDownload": "İndirdikten sonra dosyayı masaüstüne taşıyın veya gerekli olduğu yere pinleyin."
+    },
+    "htmlPreview": {
+      "title": "HTML Önizleme",
+      "description": "Çevrimiçi HTML yazın ve önizleyin",
+      "defaultMessage": "HTML önizleme aracına hoş geldiniz",
+      "editorTitle": "HTML Kodu",
+      "clear": "Temizle",
+      "editorPlaceholder": "HTML kodunu buraya girin...",
+      "previewTitle": "Önizleme",
+      "run": "Çalıştır",
+      "fullscreen": "Tam Ekran",
+      "exitFullscreen": "Tam ekranı kapat",
+      "usageTitle": "Nasıl kullanılır",
+      "usageItems": [
+        "Sol taraftaki editörde tam HTML kodu girin",
+        "Sonucu önizlemek için Çalıştır'ı tıklayın",
+        "Dahili CSS ve JavaScript desteklenir",
+        "Kod, güvenlik için bir sandıktan çalıştırılır"
+      ]
+    },
+    "pageRefresh": {
+      "title": "Otomatik Sayfa Yenileme",
+      "description": "Bir web sayfasını çevrimiçi otomatik olarak yenileyin",
+      "urlRequired": "Lütfen bir URL girin",
+      "urlPlaceholder": "Bir URL girin, örneğin https://example.com",
+      "seconds": "saniye",
+      "start": "Başlat",
+      "stop": "Dur",
+      "quickSet": "Hızlı ayarlar:",
+      "secondsValue": "{{count}}s",
+      "minutesValue": "{{count}} dakika",
+      "running": "Çalışıyor",
+      "refreshIn": " {{count}} saniye içinde yenilenecek",
+      "refreshedCount": "Yenilendi {{count}} kez",
+      "lastRefresh": "Son yenileme: {{time}}",
+      "previewTitle": "Sayfa önizlemesi",
+      "previewPlaceholder": "Önizleme başlatmak için bir URL girin",
+      "usageTitle": "Nasıl kullanılır",
+      "usageItems": [
+        "Web sayfası URL'sini ve yenileme aralığını girin",
+        "Otomatik yenilemeyi başlatmak için Başlat'ı tıklayın",
+        "Güvenlik politikaları nedeniyle bazı siteler iframe içinde görüntülenemeyebilir",
+        "Sayfa değişikliklerini izlemek veya oturumları aktif tutmak için faydalıdır"
+      ]
+    },
+    "pxToRem": {
+      "title": "PX'den REM'e Dönüştürücü",
+      "description": "CSS kodundaki PX birimlerini REM birimlerine toplu dönüştürün",
+      "baseFontSize": "Ana yazı boyutu",
+      "precision": "Ondalık hassasiyet",
+      "precisionOptions": {
+        "2": "2 hane",
+        "3": "3 hane",
+        "4": "4 hane",
+        "5": "5 hane"
+      },
+      "inputLabel": "Giriş CSS kodu",
+      "convertToRem": "PX'den REM'e",
+      "convertToPx": "REM'den PX'e",
+      "outputLabel": "Sonuç",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı",
+      "outputPlaceholder": "Dönüşüm sonucu burada görünecek...",
+      "quickReferenceTitle": "Hızlı referans (temel: {{baseSize}}px)",
+      "whyUseRem": "Neden REM kullanılır?",
+      "infoItems": [
+        "REM, kök (html) yazı boyutuna göre değişir",
+        "REM kullanmak, sitenin tümünde tipografiyi ölçeklendirmeyi kolaylaştırır",
+        "Duyarlı tasarım ve erişilebilirlik konularında yardımcı olur"
+      ],
+      "formula": "Formül: rem = px / {{baseSize}}"
+    },
+    "shieldBadge": {
+      "title": "Shield Badge Oluşturucusu",
+      "description": "Çevrimiçi SVG Shield badge'leri oluşturun",
+      "downloadFailed": "İndirme başarısız, lütfen daha sonra tekrar deneyin",
+      "basicSettings": "Temel ayarlar",
+      "labelField": "Etiket",
+      "messageField": "Mesaj",
+      "color": "Renk",
+      "style": "Stil",
+      "logoSettings": "Logo ayarları",
+      "logo": "Logo",
+      "none": "Hiçbiri",
+      "logoColor": "Logo rengi",
+      "preview": "Önizleme",
+      "downloadSvg": "SVG İndir",
+      "codeTitle": "Kod",
+      "copiedToClipboard": "Panoya kopyalandı"
+    },
+    "robotsGenerator": {
+      "title": "robots.txt Oluşturucusu",
+      "description": "Çevrimiçi robots.txt dosyaları oluşturun",
+      "templatesLabel": "Hızlı şablonlar:",
+      "templates": {
+        "allowAll": "Tümünü izin ver",
+        "blockAll": "Tümünü engelle",
+        "standard": "Standart yapılandırma"
+      },
+      "ruleTitle": "Kural {{index}}",
+      "userAgents": {
+        "all": "* (tüm ziyaretçiler)",
+        "baidu": "Baiduspider (Baidu)",
+        "sogou": "Sogou"
+      },
+      "disallow": "Engellenen yollar",
+      "allow": "İzin verilen yollar",
+      "add": "Ekle",
+      "addRule": "Kural ekle",
+      "otherSettings": "Diğer ayarlar",
+      "sitemapUrl": "Sitemap URL'si",
+      "crawlDelay": "Ziyaret gecikmesi (saniye)",
+      "preview": "robots.txt Önizleme",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı",
+      "saveTip": "Bu dosyayı robots.txt olarak kaydedin ve web sitenizin kök dizinine yerleştirin"
+    },
+    "emailEncrypt": {
+      "title": "E-posta Adresi Kodlayıcı",
+      "description": "Botlar tarafından çaprazlamadan kaçınmak için e-posta adreslerini kodlayın",
+      "inputLabel": "E-posta adresi",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı",
+      "infoTitle": "E-posta adresini neden kodlamalısınız?",
+      "infoItems": [
+        "E-posta adresinizin spam için botlar tarafından çaprazlanma riskini azaltın",
+        "Kodlanmış e-posta tarayıcıda hala görüntülenebilir ancak botlar tarafından algılanması zordur",
+        "Daha güçlü koruma için birden fazla kodlama yöntemi birleştirilebilir",
+        "Hâlâ sunucu tarafı anti-spam önlemleri önerilir"
+      ],
+      "results": {
+        "unicodeDecimal": {
+          "name": "Unicode ondalık",
+          "description": "Karakterleri ondalık Unicode varlıklarına dönüştürün"
+        },
+        "unicodeHex": {
+          "name": "Unicode onaltılık",
+          "description": "Karakterleri onaltılık Unicode varlıklarına dönüştürün"
+        },
+        "javascript": {
+          "name": "JavaScript çıktısı",
+          "description": "JavaScript ile e-postayı dinamik olarak render edin"
+        },
+        "mailto": {
+          "name": "Mailto bağlantısı",
+          "description": "Kodlanmış bir mailto bağlantısı oluşturun"
+        },
+        "cssReverse": {
+          "name": "CSS ters gösterimi",
+          "description": "CSS kullanarak metni ters sırada gösterin"
+        }
+      }
+    },
+    "workerDemo": {
+      "title": "Web Worker Performans Demo",
+      "description": "Web Worker'ların ve ana thread'in hesaplama performansını karşılaştırın",
+      "invalidInteger": "Lütfen geçerli pozitif bir tam sayı girin",
+      "workerError": "Worker hesaplama hatası:",
+      "notice": "Duyuru",
+      "settingsTitle": "Hesaplama ayarları",
+      "inputLabel": "Giriş değeri",
+      "inputPlaceholder": "Pozitif bir tam sayı girin",
+      "operationLabel": "İşlem",
+      "operations": {
+        "factorial": "Faktöriyel (n!)",
+        "fibonacci": "Fibonacci dizisi",
+        "prime": "Asal kontrol",
+        "factorization": "Asal çarpanlara ayırma"
+      },
+      "workerCalculate": "Web Worker ile hesapla",
+      "mainThreadCalculate": "Ana thread'de hesapla",
+      "comparisonTitle": "Performans karşılaştırması",
+      "workerResult": "Web Worker sonucu",
+      "mainThreadResult": "Ana thread sonucu",
+      "resultLabel": "Sonuç:",
+      "timeLabel": "Hesaplama süresi:",
+      "calculating": "Hesaplanıyor...",
+      "emptyState": "Hesaplamayı başlatmak için yukarıdaki butona tıklayın",
+      "infoTitle": "Web Worker'ları neden kullanmalısınız?",
+      "workerFeaturesTitle": "Web Worker özellikleri",
+      "workerFeatures": [
+        "Ana thread'i bloke etmeden arka planda çalışır",
+        "Ağırlıklı hesaplama görevleri için idealdir",
+        "UI'nin yanıt vermesini sağlar",
+        "Paralel işlem desteği sunar"
+      ],
+      "useCasesTitle": "Kullanım alanları",
+      "useCases": [
+        "Büyük veri işleme",
+        " Karma algoritmalar",
+        "Resim işleme",
+        "Şifreleme ve şifre çözme"
+      ]
+    },
+    "jsDebug": {
+      "title": "JS Hata Ayıklayıcı",
+      "description": "JavaScript'i çevrimiçi çalıştırın ve hata ayıklayın",
+      "defaultCode": "// Buraya JavaScript kodu yazın\nconsole.log(\"Merhaba, Dünya!\");\n\n// Örnek: Dizi işlemleri\nconst numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(n => n * 2);\nconsole.log(\"Orijinal dizi:\", numbers);\nconsole.log(\"Çiftlendiğinde:\", doubled);\n\n// Örnek: Nesne\nconst user = {\n  name: \"Zhang San\",\n  age: 25,\n  city: \"Beijing\"\n};\nconsole.log(\"Kullanıcı bilgisi:\", user);\n\n// Örnek: Zamanlayıcı işlemi\nsetTimeout(() => {\n  console.log(\"1 saniye sonra çalıştırılır\");\n}, 1000);",
+      "editorTitle": "JavaScript Kodu",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı!",
+      "clear": "Temizle",
+      "placeholder": "Buraya JavaScript kodu girin...",
+      "run": "Kodu çalıştır",
+      "consoleTitle": "Konsol çıktısı",
+      "consolePlaceholder": "Konsol çıktısı burada görünecek...",
+      "usageTitle": "Nasıl kullanılır",
+      "usageItems": [
+        "Mesajları yazmak için console.log(), console.error() ve console.warn() kullanın",
+        "Ok (ok fonksiyonları), parçalama ve şablon dizgileri gibi ES6+ sözdizimlerini destekler",
+        "setTimeout ve Promise gibi zamanlayıcı işlemlerini destekler",
+        "Kod, sandviç içinde çalışır ve DOM'ya veya dış kaynaklara erişemez"
+      ]
+    },
+    "formValidationDemo": {
+      "title": "Form Doğrulama Demo",
+      "description": "Canlı doğrulama, hata mesajları ve veri temizleme dahil olmak üzere tam form doğrulamasını gösterir",
+      "validation": {
+        "username": "Kullanıcı adı yalnızca harfler, rakamlar ve alt çizgiler içerebilir ve 3-20 karakter uzunluğunda olmalıdır",
+        "phone": "Geçerli bir mobil numara girin",
+        "age": "Yaş 1 ile 120 arasında olmalıdır",
+        "idCard": "Geçerli bir kimlik numarası girin",
+        "address": "Adres 200 karakterden uzun olamaz",
+        "bio": "Bio 500 karakterden uzun olamaz"
+      },
+      "submitSuccess": "Form doğrulaması geçildi! Gönderilen veri:",
+      "quickTestTitle": "Hızlı doğrulama testleri",
+      "quickLabels": {
+        "email": "E-posta doğrulama",
+        "phone": "Telefon doğrulama",
+        "url": "URL doğrulama"
+      },
+      "quickPlaceholders": {
+        "email": "E-posta adresi girin",
+        "phone": "Telefon numarası girin",
+        "url": "URL girin"
+      },
+      "valid": "Geçerli",
+      "invalid": "Geçersiz",
+      "formTitle": "Tam form doğrulaması",
+      "placeholders": {
+        "username": "Kullanıcı adı (harfler, rakamlar, alt çizgi)",
+        "email": "E-posta adresi",
+        "phone": "Mobil numara",
+        "website": "Kişisel web sitesi (opsiyonel)",
+        "age": "Yaş",
+        "idCard": "Kimlik numarası",
+        "address": "Detaylı adres (opsiyonel)",
+        "bio": "Bio (opsiyonel, 500 karaktere kadar)"
+      },
+      "success": {
+        "username": "Kullanıcı adı formatı geçerlidir",
+        "email": "E-posta formatı geçerlidir",
+        "phone": "Telefon numarası formatı geçerlidir",
+        "website": "URL formatı geçerlidir",
+        "age": "Yaş geçerlidir",
+        "idCard": "Kimlik numarası formatı geçerlidir",
+        "address": "Adres geçerlidir",
+        "bio": "Bio geçerlidir"
+      },
+      "submit": "Formu gönder",
+      "summaryTitle": "Doğrulama özeti",
+      "fieldLabels": {
+        "username": "Kullanıcı adı",
+        "email": "E-posta",
+        "phone": "Telefon",
+        "website": "Web sitesi",
+        "age": "Yaş",
+        "idCard": "Kimlik Kartı",
+        "address": "Adres",
+        "bio": "Bio"
+      },
+      "summaryStatus": {
+        "failed": "Doğrulama başarısız oldu",
+        "passed": "Doğrulama geçildi",
+        "empty": "Boş"
+      },
+      "infoTitle": "Form doğrulama özellikleri",
+      "infoItems": [
+        {
+          "title": "Canlı doğrulama",
+          "description": "Yazarken formatı kontrol eder ve blur'da tekrar doğrular"
+        },
+        {
+          "title": "Çeşitli kural türleri",
+          "description": "Gerekli alanlar, uzunluk denetimleri, düzenli ifadeler ve özel doğrulamaları destekler"
+        },
+        {
+          "title": "Görsel geri bildirim",
+          "description": "Renkler, simgeler ve mesajlarla doğrulama durumunu net şekilde gösterir"
+        },
+        {
+          "title": "Veri temizleme",
+          "description": "Gönderilen veriyi otomatik olarak kısaltır ve normalleştirir"
+        },
+        {
+          "title": "Yardımcı hata mesajları",
+          "description": "Girişleri düzeltmek için kullanıcı dostu rehberlik sağlar"
+        },
+        {
+          "title": "Erişilebilirlik desteği",
+          "description": "Tüm kullanıcılar için formların kullanılabilirliğini korur"
+        }
+      ]
+    },
+    "faviconGenerator": {
+      "title": "Favicon Oluşturucu",
+      "description": "Resimleri web sitenin favicon simgesine dönüştürün",
+      "historyTitle": "Favicon Oluşturucu",
+      "historyCategory": "Resim Araçları",
+      "uploadImageFile": "Lütfen bir resim dosyası yükleyin",
+      "generateFailed": "Simge oluşturulamadı, lütfen tekrar deneyin",
+      "uploadTitle": "Resim yükle",
+      "uploadAria": "Bir resim dosyası yükleyin",
+      "dropzoneAria": "Resim yüklemek için tıklayın, PNG, JPG, SVG ve daha fazlasını destekler",
+      "dropRelease": "Resmi yüklemek için bırakın",
+      "dropClick": "Buraya bir resim tıklayın ya da sürükleyin",
+      "supportFormats": "PNG, JPG, SVG ve daha fazlasını destekler",
+      "clearImage": "Resmi temizle",
+      "clearImageTitle": "Resmi temizle (Ctrl+L)",
+      "settingsTitle": "Ayarlar",
+      "removeBackground": "Resmin arka plan rengini kaldır",
+      "removeColor": "Kaldırılacak renk",
+      "removeColorPicker": "Arka plan rengini seçin",
+      "removeColorValue": "Kaldırılacak arka plan rengi değeri",
+      "tolerance": "Tolerans: {{value}}",
+      "toleranceAria": "Renk toleransı",
+      "toleranceTip": "Daha yüksek tolerans, daha geniş bir renk aralığını kaldırır",
+      "transparentBackground": "Şeffaf arka plan",
+      "transparentTip": "Not: Başlangıçtaki resim zaten bir arka plan rengine sahipse, ?Resmin arka plan rengini kaldır? özelliğini etkinleştirin.",
+      "backgroundColor": "Arka plan rengi",
+      "backgroundColorPicker": "Bir arka plan rengi seçin",
+      "backgroundColorValue": "Arka plan rengi değeri",
+      "selectSize": "Boyutları seçin",
+      "selectedState": " (seçili)",
+      "sizeAria": "{{size}}x{{size}} piksel boyut{{state}}",
+      "toggleSizeTitle": "{{size}}x{{size}} boyutunu değiştir (Alt+{{shortcut}})",
+      "previewTitle": "Ön izleme",
+      "generating": "Oluşturuluyor...",
+      "downloadSizeAria": "{{size}}x{{size}} simge indir",
+      "download": "İndir",
+      "uploadFirst": "Lütfen önce bir resim yükleyin",
+      "downloadTitle": "İndir",
+      "downloadAllPng": "Tüm boyutları (PNG) indir",
+      "downloadAllPngTitle": "Tüm PNG boyutlarını indir (Ctrl+Enter)",
+      "downloadIco": "favicon.ico indir",
+      "downloadIcoTitle": "favicon.ico indir (Alt+I)",
+      "usageTitle": "Nasıl kullanılır",
+      "usageItems": [
+        "Arka plan rengini kaldır: gri veya beyaz gibi katı arka planları kaldırır",
+        "Tolerans: benzer renkleri kaldırmak için toleransı artırın, gradyan arka planlar için yararlıdır",
+        "16x16: tarayıcı sekmesi simgesi",
+        "32x32: görev çubuğu kısayolu simgesi",
+        "48x48: Windows web sitesi kısayolu",
+        "Oluşturulan simgeyi web sitenizin kök dizinine yerleştirin"
+      ]
+    }
+  },
+  "components": {
+    "toolHistory": {
+      "usageCount": "Kullanıldı {{count}} kez",
+      "recentUsed": "Son kullanılan: {{value}}",
+      "removeFavorite": "Favorilerden kaldır",
+      "addFavorite": "Favorilere ekle",
+      "removeRecord": "Kaydı sil",
+      "emptyHistory": "Henüz araç tarihi yok",
+      "confirmClear": "Tüm araç tarihini silmek istediğinizden emin misiniz?",
+      "tabs": {
+        "recent": "Son",
+        "favorites": "Favoriler",
+        "mostUsed": "En Çok Kullanılan"
+      },
+      "title": "Araç Tarihi",
+      "clearHistory": "Tarihi temizle",
+      "searchPlaceholder": "Tarih ara...",
+      "emptyMessages": {
+        "recent": "Son kullanım kaydı yok",
+        "favorites": "Henüz favori araç yok",
+        "mostUsed": "Henüz en çok kullanılan araç yok"
+      }
+    },
+    "exportFormatSelector": {
+      "buttonText": "Sonuçları dışa aktar",
+      "exporting": "Dışa aktarılıyor...",
+      "exportFailed": "Dışa aktarma başarısız oldu, lütfen tekrar deneyin"
+    },
+    "ads": {
+      "loading": "Reklam yükleniyor...",
+      "carouselTitle": "Reklam karuseli",
+      "checkConsole": "Detaylı günlükler için tarayıcı konsolunu kontrol edin"
+    },
+    "networkStatus": {
+      "online": "Çevrimiçi",
+      "offline": "Çevrimdışı",
+      "connected": "Ağ bağlı",
+      "disconnected": "Ağ bağlantısı kesildi",
+      "connectedDescription": "Tüm özellikler artık kullanılabilir",
+      "disconnectedDescription": "Bazı özellikler kullanılamaz olabilir. Lütfen ağ bağlantınızı kontrol edin.",
+      "requestFailed": "İstek başarısız oldu"
+    },
+    "keyboardShortcutsHelp": {
+      "title": "Klavye Kısayolları",
+      "close": "Kapat",
+      "toggleDescription": "Klavye kısayolu yardımını göster veya gizle",
+      "helpTextBefore": "Basın",
+      "helpTextMiddle": "veya",
+      "helpTextAfter": "bu yardımın gösterilmesi veya gizlenmesi için",
+      "tipTitle": "İpuçları",
+      "tipItems": [
+        "Kısayol etiketleri işletim sistemlerine göre hafif farklılık gösterebilir",
+        "Bazı kısayollar tarayıcı kısayollarıyla çakışabilir",
+        "Odaklanılabilir öğeler arasında geçiş yapmak için Tab tuşunu kullanın",
+        "Düğmeleri ve bağlantıları etkinleştirmek için Enter tuşunu basın"
+      ],
+      "closeEsc": "Kapat (ESC)"
+    },
+    "performanceDashboard": {
+      "title": "Performans Paneli",
+      "startMonitoring": "İzlemeye başla",
+      "stopMonitoring": "İzlemeyi durdur",
+      "exportReport": "Raporu dışa aktar",
+      "notMeasured": "Ölçülmedi",
+      "metrics": {
+        "fcp": "İlk İçerikli Boyama",
+        "lcp": "En Büyük İçerikli Boyama",
+        "fid": "İlk Giriş Gecikmesi",
+        "cls": "Birikimli Yer Değiştirme",
+        "ttfb": "İlk Bayt Süresi"
+      },
+      "memoryTitle": "Hafıza Kullanımı",
+      "memory": {
+        "used": "Kullanılan hafıza",
+        "total": "Toplam hafıza",
+        "usageRate": "Kullanım oranı"
+      },
+      "tipsTitle": "Optimizasyon ipuçları",
+      "tips": [
+        "İzleme sırasında uygulamayı normal şekilde kullanın; veriler gerçek zamanlı güncellenecektir",
+        "FCP < 1,8s, LCP < 2,5s, FID < 100ms ve CLS < 0,1 kabul edilebilir olarak kabul edilir",
+        "Hafıza kullanımı %80'in üzerine çıkarsa kodu optimize etmeyi düşünün",
+        "Daha derin analiz için ayrıntılı bir rapor dışa aktarabilirsiniz"
+      ],
+      "emptyState": "?İzlemeye başla? tıklayarak performans analizini başlatın"
+    }
+  }
+}

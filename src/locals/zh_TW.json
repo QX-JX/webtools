@@ -1,0 +1,2751 @@
+{
+  "common": {
+    "home": "首頁",
+    "websiteDetection": "網站檢測",
+    "seoTools": "搜尋引擎優化工具",
+    "devTools": "開發工具",
+    "encodingConversion": "編碼轉換",
+    "otherTools": "其他工具",
+    "feedback": "問題反饋",
+    "customization": "軟體定制/聯繫我們",
+    "back": "返回",
+    "appName": "全方位網站管理員工具",
+    "brandName": "鲲穹旗下產品",
+    "loading": "加載中...",
+    "processing": "正在處理",
+    "processingDescription": "請稍候，我們正在為您處理數據...",
+    "inProgress": "處理中",
+    "search": "搜尋工具...",
+    "my": "我的",
+    "menu": "菜單",
+    "settings": "設定",
+    "all": "全部",
+    "category": "分類",
+    "noToolsFound": "沒有找到匹配的工具",
+    "recommended": "推薦",
+    "usageCount": "使用了 {{count}} 次",
+    "toolsCount": "{{count}} 個工具",
+    "export": "導出",
+    "usageInstructions": "使用說明"
+  },
+  "seo": {
+    "title": "全方位網站管理員工具—專業的線上站長工具箱",
+    "description": "提供CSR產生與檢視、WHOIS查詢、DNS解析、SSL憑證檢測、HTTP狀態碼檢測等專業站長工具，鯤穹旗下免費線上工具集。",
+    "keywords": "站長工具,WHOIS,DNS,SSL,CSR,HTTP,線上工具,鯤穹,工具箱",
+    "ogType": "website"
+  },
+  "auth": {
+    "login": "登錄",
+    "logout": "登出",
+    "userInfo": "用戶信息",
+    "nickname": "暱稱",
+    "avatar": "頭像",
+    "user": "用戶",
+    "loggedIn": "已登入",
+    "loggingOut": "登出中...",
+    "loggingIn": "正在登入中...",
+    "loginInstructions": "請在瀏覽器中完成登入",
+    "cancelLogin": "取消登錄",
+    "loginFailed": "登錄失敗",
+    "retry": "重試",
+    "close": "關閉",
+    "loginDescription": "點擊下方按鈕，將在瀏覽器中打開登錄頁面。請完成登錄後，軟體將自動同步登錄狀態。",
+    "loginTip": "\n💡 提示：請確保瀏覽器已打開，登錄過程中請勿關閉瀏覽器窗口。\n",
+    "openBrowserLogin": "打開瀏覽器登錄",
+    "cancel": "取消",
+    "loginReminder": "登錄提醒",
+    "loginRequiredTitle": "登錄提醒",
+    "loginRequiredDescription": "您需要登錄後才能使用該功能。登錄後可以享受完整的服務體驗。",
+    "loginActionDescription": "點擊下方按鈕將打開登錄頁面，請在登錄頁面完成登錄操作。",
+    "loginNow": "立即登錄",
+    "loginBenefit": "登錄後即可使用所有功能",
+    "loginPageSeoTitle": "登錄 / 註冊 — 全能站長工具",
+    "loginPageHeading": "登錄 / 註冊",
+    "loginPageSub": "與桌面端相同：開啟鯤穹統一帳號頁面，完成後自動同步登入狀態",
+    "loginRegisterTabsAria": "登錄或註冊",
+    "loginTab": "登錄",
+    "registerTab": "註冊",
+    "registerDescription": "點擊下方按鈕將開啟鯤穹帳號註冊頁。註冊與登錄使用同一套帳號系統，完成後本頁將自動完成登入。",
+    "registerTip": "若頁面同時提供登錄入口，您也可在註冊完成後直接登入；請勿關閉本網站分頁直至提示成功。",
+    "openBrowserRegister": "開啟瀏覽器註冊",
+    "userCenter": "個人中心",
+    "userCenterSeoTitle": "個人中心 — 全能站長工具",
+    "userCenterWelcome": "以下為鯤穹 AI 個人中心，與官網一致",
+    "userCenterOpenFull": "在新視窗開啟完整個人中心",
+    "userCenterIframeHint": "內嵌展示鯤穹 AI 個人中心頁面；若無法載入或需完整功能，請使用上方按鈕在官網開啟。",
+    "userCenterIframeTitle": "鯤穹 AI 個人中心",
+    "errors": {
+      "getLoginUrlFailed": "獲取登錄地址失敗：{{message}}",
+      "getLoginUrlException": "获取登錄地址異常：{{error}}",
+      "loginCancelled": "登錄已取消",
+      "pollingAbnormal": "輪詢異常：{{message}}",
+      "pollingFailed": "輪詢失敗：{{error}}",
+      "loginTimeout": "登錄超時",
+      "checkLoginStatusFailed": "檢查登錄狀態失敗，狀態碼：{{status}}",
+      "checkLoginException": "檢查登錄異常",
+      "getUserInfoFailed": "獲取用戶信息失敗：{{message}}",
+      "getUserInfoException": "獲取用戶信息異常：{{error}}",
+      "logoutFailed": "退出登錄失敗：{{message}}",
+      "logoutException": "退出登錄異常：{{error}}",
+      "getFeedbackUrlFailed": "獲取反饋地址失敗：{{message}}",
+      "getFeedbackUrlException": "获取反饋地址異常：{{error}}"
+    }
+  },
+  "favorite": {
+    "add": "加入收藏",
+    "remove": "取陣",
+    "label": "成陣",
+    "failed": "操作失敗"
+  },
+  "errors": {
+    "fetchCustomUrlFailed": "取得自訂頁面連結失敗:",
+    "fetchFeedbackUrlFailed": "獲取問題反饋頁面連結失敗:",
+    "copyFailed": "複製失敗",
+    "networkError": "網絡連接錯誤",
+    "somethingWentWrong": "出錯了",
+    "unexpectedError": "很抱歉，發生了意外錯誤",
+    "noData": "暫無數據",
+    "noRelatedData": "沒有找到相關數據",
+    "noAds": "暫無廣告",
+    "fetchAdsError": "獲取廣告異常",
+    "lookupFailed": "查詢失敗"
+  },
+  "tools": {
+    "csr": {
+      "title": "CSR生成與查看",
+      "description": "CSR文件線上生成查看工具"
+    },
+    "whois": {
+      "title": "域名WHOIS查詢",
+      "description": "線上查詢域名的WHOIS資訊、域名註冊資訊"
+    },
+    "dns": {
+      "title": "域名解析記錄查詢",
+      "description": "線上查詢域名解析記錄的工具（A、MX、CNAME等）"
+    },
+    "dnsEnhanced": {
+      "title": "域名解析記錄查詢（增強版）",
+      "description": "支援虛擬滾動優化的DNS查詢工具，處理大量記錄更高效"
+    },
+    "httpStatus": {
+      "title": "HTTP狀態查詢工具",
+      "description": "一款免費在線查看HTTP頁面的狀態碼檢測工具"
+    },
+    "gzip": {
+      "title": "網頁Gzip壓縮檢測",
+      "description": "在頁檢測網頁是否被GZIP壓縮，以及壓縮率"
+    },
+    "ssl": {
+      "title": "SSL證書檢測",
+      "description": "線上SSL證書檢測工具，查看證書詳情和有效期限"
+    },
+    "browserInfo": {
+      "title": "瀏覽器信息查看",
+      "description": "一款可以免費查看當前瀏覽器詳細信息的工具"
+    },
+    "useragent": {
+      "title": "UserAgent分析和查詢",
+      "description": "UA在線分析查詢工具，解析瀏覽器和設備信息"
+    },
+    "websocket": {
+      "title": "線上WebSocket接口測試",
+      "description": "一款免費線上WebSocket接口測試工具"
+    },
+    "viewSource": {
+      "title": "查看網頁源碼",
+      "description": "線上查看網頁源代碼"
+    },
+    "metaGenerator": {
+      "title": "網頁Meta標籤生成",
+      "description": "網頁設計工具Meta標籤線上生成工具"
+    },
+    "metaCheck": {
+      "title": "網頁META檢測",
+      "description": "線上檢測網頁中的META標籤資訊檢測"
+    },
+    "robots": {
+      "title": "robots.txt 模組器",
+      "description": "線上網站robots.txt檔案生成工具"
+    },
+    "emailEncrypt": {
+      "title": "線上Email郵箱地址加密",
+      "description": "將Email地址轉換成Unicode編碼格式，防止采集"
+    },
+    "phpReference": {
+      "title": "PHP函數參考表",
+      "description": "PHP線上函數參考列表"
+    },
+    "htmlPreview": {
+      "title": "HTML程式碼除錯預覽",
+      "description": "HTML程式碼線上除錯預覽工具"
+    },
+    "jsDebug": {
+      "title": "JS程式碼除錯",
+      "description": "JS線上執行除錯工具"
+    },
+    "shieldBadge": {
+      "title": "線上Shield徽章生成",
+      "description": "線上生成SVG格式的Shield Badge徽章"
+    },
+    "favicon": {
+      "title": "線上Favicon圖標生成",
+      "description": "一款安全的線上Favicon圖標轉換工具"
+    },
+    "cssGlassmorphism": {
+      "title": "CSS 輪空演算器",
+      "description": "一鍵生成CSS毛玻璃效果的代碼"
+    },
+    "cssNeumorphism": {
+      "title": "新擬態風格CSS代碼生成器",
+      "description": "一鍵生成新擬態CSS風格樣式代碼示例"
+    },
+    "pxToRem": {
+      "title": "CSS中PX批量轉REM工具",
+      "description": "批量將CSS代碼中的PX單位轉為REM單位"
+    },
+    "cssBorderRadius": {
+      "title": "CSS圓角效果生成",
+      "description": "在線調試CSS邊框圓角樣式"
+    },
+    "cssTextShadow": {
+      "title": "CSS文字陰影效果生成",
+      "description": "在線調試CSS文字陰影並生成CSS代碼"
+    },
+    "cssBoxShadow": {
+      "title": "DIV元素陰影效果生成",
+      "description": "一鍵調試DIV元素陰影並生成CSS代碼"
+    },
+    "base64": {
+      "title": "Base64編解碼",
+      "description": "線上Base64編碼解碼工具"
+    },
+    "urlEncode": {
+      "title": "URL編碼解碼",
+      "description": "線上URL編碼解碼工具"
+    },
+    "htmlEntity": {
+      "title": "HTML實體編碼解碼",
+      "description": "線上HTML實體編碼解碼工具"
+    },
+    "jsMinify": {
+      "title": "JS壓縮與格式化",
+      "description": "線上JavaScript程式碼壓縮與美化工具"
+    },
+    "cssMinify": {
+      "title": "CSS壓縮與格式化",
+      "description": "線上CSS程式碼壓縮與美化工具"
+    },
+    "desktopShortcut": {
+      "title": "網站桌面快捷方式",
+      "description": "給網站添加一個桌面快捷方式，方便網站訪問"
+    },
+    "pageRefresh": {
+      "title": "網頁定時刷新",
+      "description": "線上定時刷新指定遠端網址"
+    },
+    "httpCodes": {
+      "title": "HTTP狀態碼",
+      "description": "HTTP狀態碼/HTTP回應碼線上查詢工具"
+    },
+    "workerDemo": {
+      "title": "Web Worker 表現示範",
+      "description": "展示Web Worker在處理複雜計算時的表現優勢"
+    },
+    "formValidation": {
+      "title": "表單驗證示範",
+      "description": "展示完整的表單驗證功能，包括實時驗證、錯誤提示等"
+    }
+  },
+  "categories": {
+    "detection": "網站檢測",
+    "seo": "搜尋引擎優化工具",
+    "dev": "開發工具",
+    "encode": "編碼轉換",
+    "other": "其他工具"
+  },
+  "footer": {
+    "description": "專業的在線全能站长工具箱，提供網站檢測、SEO優化、開發工具等全方位服務。",
+    "toolCategories": "工具分類",
+    "brandAI": "鲲穹AI旗下產品",
+    "brandAlt": "KunQiong",
+    "kunqiongBrandDesc": "我們致力於為個人和企業提供高品質的人工智能工具和諮詢服務，幫助您在人工智能時代保持競爭力。",
+    "quickLinks": "快速連結",
+    "contactTitle": "聯絡我們",
+    "contactCompany": "江西海克斯康之星科技有限公司",
+    "contactPhone": "17770307066",
+    "contactRegion": "中國江西上饒",
+    "contactEmail": "11247931@qq.com",
+    "copyrightLine": "© 2026 Kunqiong AI Tools.版權所有。",
+    "userAgreement": "使用條款",
+    "privacyPolicy": "隱私權政策"
+  },
+  "validation": {
+    "required": "{{field}} 是必填項",
+    "minLength": "{{field}} 至少需要 {{count}} 個字元",
+    "maxLength": "{{field}} 最多允許 {{count}} 個字元",
+    "invalidFormat": "{{field}} 格式不正確",
+    "email": "請輸入有效的郵箱地址",
+    "url": "請輸入有效的URL地址",
+    "domain": "請輸入有效的域名",
+    "ip": "請輸入有效的IP地址",
+    "phone": "請輸入有效的手機號碼",
+    "password": "密碼必須包含大小寫字母和數字，長度6-20位"
+  },
+  "exporter": {
+    "unsupportedFormat": "不支援的匯出格式: {{format}}",
+    "csvRequiresArrayOrObject": "CSV 出需要數組或物件數據",
+    "toolUsageInfo": "工具使用資訊",
+    "tool": "工具",
+    "time": "時間",
+    "url": "網址",
+    "version": "版本",
+    "dnsReportTitle": "DNS查詢結果報告",
+    "dnsReportDescription": "域名解析記錄詳細信息",
+    "summaryTitle": "查詢概要",
+    "domain": "域名",
+    "recordCount": "記錄總數",
+    "recordCountValue": "{{count}} 條",
+    "queryTime": "查詢時間",
+    "typeDescriptions": {
+      "A": "IPv4 地址記錄",
+      "AAAA": "IPv6 地址記錄",
+      "MX": "郵件服务器記錄",
+      "TXT": "文字記錄",
+      "CNAME": "別名記錄",
+      "NS": "域名伺服器記錄",
+      "SOA": "授權記錄"
+    },
+    "record": "記錄",
+    "otherRecords": "其他記錄",
+    "recordIndex": "記錄 {{index}}",
+    "priority": "優先級",
+    "class": "類別",
+    "exportData": "導出數據",
+    "dnsToolName": "DNS查詢工具",
+    "exportInfo": "導出信息",
+    "exportTime": "導出時間",
+    "formats": {
+      "json": "結構化數據格式，易於程序處理",
+      "csv": "表格資料格式，適合Excel導入",
+      "txt": "純文字格式，易於閱讀",
+      "xml": "標記語言格式，適合數據交換",
+      "pdf": "文件格式，適合列印和分享"
+    }
+  },
+  "base64": {
+    "title": "Base64編解碼",
+    "description": "在线Base64编码和解编工具",
+    "encode": "編碼",
+    "decode": "解编",
+    "originalText": "原天文模",
+    "base64String": "Base64字串",
+    "base64Result": "Base64結果",
+    "decodeResult": "解碼Result",
+    "placeholderEncode": "輸入要編碼的文本...",
+    "placeholderDecode": "輸入要解碼的Base64字串...",
+    "resultPlaceholder": "結果將顯示在這裡...",
+    "inputPlaceholder": "請輸入要轉換的內容",
+    "decodeError": "解碼失敗，請檢查輸入是否為有效的Base64字串",
+    "encodeError": "編碼失敗",
+    "charCount": "字元數: {{count}}",
+    "clear": "清空輸入",
+    "copy": "複製結果",
+    "copied": "已複製",
+    "convert": "立即轉換",
+    "swap": "交換模式",
+    "ariaLabel": "Base64編解碼工具",
+    "modeSelection": "轉換模式選擇",
+    "encodeMode": "編碼模式",
+    "decodeMode": "解碼模式",
+    "inputLabelEncode": "輸入要編碼的文本",
+    "inputLabelDecode": "輸入要解碼的Base64字串",
+    "outputLabelEncode": "Base64編碼結果",
+    "outputLabelDecode": "Base64解碼結果",
+    "whatIsBase64": "什麼是 Base64？",
+    "base64Info": "Base64 是一種基於64個可列印字元來表示二進位數據的編碼方式。常用于在URL、Cookie、網頁中傳輸少量二進位數據，或者在文本協議中嵌入圖片等二進位內容。"
+  },
+  "dns": {
+    "title": "域名解析記錄查詢",
+    "description": "線上查詢域名的DNS解析記錄（A、MX、CNAME等）",
+    "placeholder": "輸入域名，例如: example.com",
+    "invalidDomain": "請輸入有效的域名格式 (如: example.com)",
+    "domainInput": "域名輸入",
+    "validFormat": "域名格式正確",
+    "typeSelect": "DNS記錄類型選擇",
+    "searchBtn": "查詢DNS記錄",
+    "loadingTitle": "正在查詢DNS記錄",
+    "loadingDesc": "請稍候，我們正在為您查詢域名的DNS記錄...",
+    "resultRegion": "DNS查詢結果",
+    "recordCount": "{{count}} 條",
+    "typeRecordRegion": "{{type}}記錄",
+    "querying": "正在查詢DNS記錄",
+    "queryingDesc": "請稍候，我們正在為您查詢域名的DNS記錄...",
+    "foundRecords": "共找到 {{count}} 條記錄",
+    "queryTime": "查詢時間: {{time}}",
+    "export": "導出結果",
+    "noRecords": "未找到DNS記錄",
+    "noRecordsDesc": "該域名沒有查詢到任何DNS記錄",
+    "typeInfo": "DNS記錄類型說明",
+    "priority": "優先順序: {{priority}}",
+    "types": {
+      "ALL": "全部",
+      "A": "A記錄",
+      "AAAA": "AAAA記錄",
+      "MX": "MX記錄",
+      "TXT": "TXT記錄",
+      "CNAME": "CNAME記錄",
+      "NS": "NS記錄",
+      "SOA": "SOA記錄"
+    },
+    "typeDescs": {
+      "A": "IPv4 地址",
+      "AAAA": "IPv6位址",
+      "MX": "郵件伺服器",
+      "TXT": "文本記錄",
+      "CNAME": "別名記錄",
+      "NS": "域名伺服器",
+      "SOA": "西必案号"
+    },
+    "typeDetails": {
+      "A": "將域名指向一個IPv4地升",
+      "AAAA": "將域名指向一個IPv6地升",
+      "MX": "指定通知机场地升，中文數值若数越小且先约若若若若",
+      "TXT": "存储文明信息，常用于SPF、DKIM等验证",
+      "CNAME": "將域名指向另一個域名（別名）",
+      "NS": "指定域名的DNS伺服器"
+    }
+  },
+  "whois": {
+    "title": "域名WHOIS資訊查詢",
+    "description": "線上查詢域名的WHOIS資訊、註冊資訊",
+    "placeholder": "輸入域名，例如: example.com",
+    "invalidDomain": "請輸入有效的域名格式 (如: example.com)",
+    "querying": "正在查詢WHOIS信息",
+    "queryingDesc": "請稍候，我們正在為您查詢域名的註冊信息...",
+    "domainInfo": "域名資訊",
+    "registrar": "註冊商",
+    "creationDate": "註冊日期",
+    "expirationDate": "到期日期",
+    "updatedDate": "更新日期",
+    "dnssec": "DNSSEC",
+    "dnssecDisabled": "未啟用",
+    "expired": "已過期 {{days}} 天",
+    "expiringSoon": "{{days}} 天後過期",
+    "remaining": "剩餘 {{days}} 天",
+    "dnsServer": "DNS伺服器",
+    "domainStatus": "域名狀態",
+    "registrantInfo": "註冊人信息",
+    "name": "姓名",
+    "organization": "組織",
+    "country": "國家",
+    "email": "郵箱",
+    "noInfo": "未找到相關信息",
+    "domain": "域名",
+    "rawData": "原始資料",
+    "toggleRawData": "展開或摺疊原始資料",
+    "copyRawData": "複製原始資料",
+    "copy": "複製",
+    "copied": "已複製",
+    "whatIsWhois": "什麼是 WHOIS？",
+    "about": "WHOIS 是用於查詢域名註冊資訊的協議。通過 WHOIS 查詢，您可以了解域名的註冊商、註冊日期、到期日期、DNS伺服器、註冊人資訊等。這對於域名交易、品牌保護、網路安全調查等場景非常有用。"
+  },
+  "httpStatus": {
+    "title": "HTTP狀態查詢工具",
+    "description": "線上檢測網頁的HTTP狀態碼和響應資訊",
+    "placeholder": "輸入URL，例如: https://example.com\n",
+    "check": "檢測",
+    "followRedirects": "自動追蹤重定向",
+    "urlEmpty": "請輸入URL",
+    "checkFailed": "檢測失敗",
+    "serverError": "服务器連接失敗，請稍後重試",
+    "unknownStatus": "未知狀態",
+    "responseTime": "響應時間",
+    "headers": "響應頭",
+    "redirectUrl": "重定向地址",
+    "contentType": "內容類型",
+    "contentLength": "內容長度",
+    "server": "伺服器",
+    "showHeaders": "顯示回應頭",
+    "hideHeaders": "隱藏回應頭",
+    "status": {
+      "100": "繼續",
+      "101": "切換協議",
+      "200": "成功",
+      "201": "已建立",
+      "204": "無內容",
+      "301": "永久重定向",
+      "302": "臨時重定向",
+      "304": "未修改",
+      "307": "臨時重定向",
+      "308": "永久重定向",
+      "400": "錯誤請求",
+      "401": "未授權",
+      "403": "禁止訪問",
+      "404": "未找到",
+      "405": "方法不允許",
+      "408": "請求超時",
+      "429": "請求過多",
+      "500": "伺服器內部錯誤",
+      "502": "gateway錯誤",
+      "503": "服務不可用",
+      "504": "網關超時"
+    }
+  },
+  "browserInfo": {
+    "title": "瀏覽器資訊查看",
+    "description": "查看當前瀏覽器的詳細資訊",
+    "os": "作業系統",
+    "browser": "瀏覽器",
+    "version": "版本",
+    "engine": "核心",
+    "device": "裝置",
+    "screen": "螢幕解析度",
+    "viewport": "視口大小",
+    "language": "語言",
+    "timezone": "時區",
+    "cookieEnabled": "Cookie已啟用",
+    "online": "線上",
+    "cpu": "CPU架構",
+    "userAgent": "UserAgent",
+    "platform": "平台",
+    "vendor": "瀏覽器廠商",
+    "languages": "支援語言",
+    "cookie": "Cookie",
+    "onlineStatus": "線上狀態",
+    "doNotTrack": "請勿追蹤",
+    "touchPoints": "觸控點數",
+    "enabled": "已啟用",
+    "disabled": "已停用",
+    "offline": "離線",
+    "hardwareInfo": "硬體資訊",
+    "cpuCores": "CPU 核心數",
+    "cpuCoresValue": "{{count}} 核",
+    "deviceMemory": "設備記憶體",
+    "screenInfo": "螢幕資訊",
+    "availArea": "可用區域",
+    "windowSize": "視窗大小",
+    "pixelRatio": "設備像素比",
+    "colorDepth": "色彩深度",
+    "screenOrientation": "螢幕方向",
+    "unknown": "未知",
+    "basicInfo": "基本資料",
+    "networkInfo": "網路資訊",
+    "networkType": "網路類型",
+    "downlink": "下行頻寬",
+    "rtt": "往返時延",
+    "saveData": "省流模式",
+    "batteryInfo": "電池資訊",
+    "batteryLevel": "電量",
+    "chargingStatus": "充電狀態",
+    "charging": "正在充電",
+    "notCharging": "未充電",
+    "timezoneInfo": "時區信息",
+    "utcOffset": "UTC偏移"
+  },
+  "viewSource": {
+    "title": "查看網頁源碼",
+    "description": "線上查看網頁源代碼",
+    "placeholder": "輸入URL，例如: https://example.com",
+    "fetch": "獲取源碼",
+    "urlEmpty": "請輸入URL",
+    "fetchFailed": "獲取源碼失敗",
+    "serverError": "伺服器連接失敗",
+    "lineCount": "行數: {{count}}",
+    "copy": "複製源碼",
+    "clear": "清空",
+    "usage1": "輸入完整的網頁URL，點擊獲取源碼",
+    "usage2": "支援查看任意公開網頁的HTML源代碼",
+    "usage3": "可以複製或下載源代碼進行分析",
+    "usage4": "部分網站可能因為安全策略無法取得"
+  },
+  "urlEncode": {
+    "title": "URL編解碼",
+    "description": "線上URL編碼和解碼工具",
+    "encode": "編碼",
+    "decode": "解碼",
+    "placeholder": "輸入要轉換的內容...",
+    "result": "結果",
+    "error": "編解碼失敗"
+  },
+  "htmlEntity": {
+    "title": "HTML實體編解碼",
+    "description": "線上HTML實體編碼與解碼工具",
+    "encode": "編碼",
+    "decode": "解碼",
+    "placeholder": "輸入要轉換的內容...",
+    "result": "結果"
+  },
+  "jsMinify": {
+    "title": "JS壓縮與格式化",
+    "description": "線上JavaScript程式碼壓縮與美化工具",
+    "minify": "壓縮",
+    "beautify": "美化",
+    "placeholder": "貼上JavaScript程式碼...",
+    "result": "處理結果",
+    "error": "程式碼處理失敗"
+  },
+  "cssMinify": {
+    "title": "CSS壓縮與格式化",
+    "description": "在線CSS代碼壓縮與美化工具",
+    "minify": "壓縮",
+    "beautify": "美化",
+    "placeholder": "貼上CSS代碼...",
+    "result": "處理結果",
+    "error": "代碼處理失敗"
+  },
+  "pages": {
+    "sslCheck": {
+      "title": "SSL證書檢查",
+      "description": "檢查域名的SSL證書詳細資訊與有效性",
+      "enterDomain": "請輸入一個域名",
+      "checkFailed": "檢查失敗",
+      "serverConnectionFailed": "無法連接到伺服器，請稍後再試",
+      "inputPlaceholder": "請輸入一個域名，例如：example.com",
+      "check": "檢查",
+      "statusExpired": "過期",
+      "statusExpiringSoon": "即將過期",
+      "statusValid": "有效",
+      "statusProblem": "證書問題",
+      "expiredDays": "{{count}}天前過期",
+      "remainingDays": "剩餘{{count}}天",
+      "warning": "警告：{{message}}",
+      "protocol": "協議",
+      "validityPeriod": "有效期",
+      "validFrom": "有效開始日期",
+      "validTo": "有效結束日期",
+      "certificateInfo": "證書資訊",
+      "subject": "主題",
+      "issuer": "發行者",
+      "commonName": "通用名称 (CN)",
+      "organization": "組織 (O)",
+      "organizationUnit": "組織單位 (OU)",
+      "country": "國家 (C)",
+      "subjectAltNames": "主體備用名称 (SAN) - {{count}}個條目",
+      "technicalDetails": "技術細節",
+      "serialNumber": "序列號",
+      "fingerprintSha1": "指纹 (SHA-1)",
+      "fingerprintSha256": "指纹 (SHA-256)",
+      "cipherSuite": "密碼套件",
+      "infoTitle": "SSL證書說明",
+      "infoItems": [
+        "SSL證書驗證伺服器身分並加密通訊",
+        "定期檢查過期日期以避免中斷",
+        "即將過期的證書應提前續訂",
+        "SAN（主題備用名稱）列出由證書覆蓋的域名"
+      ]
+    },
+    "gzipCheck": {
+      "title": "網站 Gzip 壓縮檢查",
+      "description": "檢查網站是否支援 Gzip / Deflate / Brotli 壓縮",
+      "enterUrl": "請輸入一個 URL",
+      "checkFailed": "檢查失敗",
+      "serverConnectionFailed": "無法連接到伺服器，請稍後再試",
+      "inputPlaceholder": "請輸入一個 URL，例如：https://example.com",
+      "check": "檢查",
+      "enabled": "已啟用",
+      "disabled": "未啟用",
+      "compressionType": "壓縮類型：{{type}}",
+      "enableSuggestion": "啟用 Gzip 壓縮以減少傳輸大小並提高加載速度",
+      "supportTitle": "壓縮支援",
+      "gzipDescription": "廣泛使用的標準壓縮",
+      "deflateDescription": "傳統的 HTTP 壓縮演算法",
+      "brotliDescription": "一種具有更好壓縮率的新壓縮方法",
+      "effectTitle": "壓縮效果",
+      "originalSize": "原始大小",
+      "compressedSize": "壓縮後的大小",
+      "ratio": "壓縮比",
+      "savedTransfer": "傳輸大小節省了 {{value}}",
+      "detailsTitle": "詳細信息",
+      "whyTitle": "為什麼啟用 Gzip 壓縮？",
+      "whyItems": [
+        "它通常可以將文本資源大小減少60％到80％",
+        "較小的傳輸可以提高加載速度",
+        "它減少帶寬使用",
+        "更好的 PERFORMANCE 还可以帮助 SEO 和 用户体验"
+      ]
+    },
+    "dnsLookupEnhanced": {
+      "title": "增強 DNS 記錄查找",
+      "description": "在線查詢多種 DNS 記錄類型，優化大結果集",
+      "enterDomain": "請輸入一個域名",
+      "lookupFailed": "查找失敗",
+      "serverConnectionFailed": "無法連接到伺服器，請稍後再試",
+      "inputPlaceholder": "請輸入一個域名，例如：example.com",
+      "lookup": "查找",
+      "priority": "優先級： {{value}}",
+      "dnsTypes": [
+        {
+          "value": "ALL",
+          "label": "全部"
+        },
+        {
+          "value": "A",
+          "label": "A記錄",
+          "desc": "IPv4 地址"
+        },
+        {
+          "value": "AAAA",
+          "label": "AAAA記錄",
+          "desc": "IPv6地址"
+        },
+        {
+          "value": "MX",
+          "label": "MX記錄",
+          "desc": "郵件伺服器"
+        },
+        {
+          "value": "TXT",
+          "label": "TXT記錄",
+          "desc": "文本數據"
+        },
+        {
+          "value": "CNAME",
+          "label": "CNAME記錄",
+          "desc": "別名記錄"
+        },
+        {
+          "value": "NS",
+          "label": "NS記錄",
+          "desc": "名称服务器"
+        },
+        {
+          "value": "SOA",
+          "label": "SOA記錄",
+          "desc": "權威開始"
+        }
+      ],
+      "foundRecords": "找到{{count}}條記錄",
+      "queryTime": "查詢時間：{{time}}",
+      "virtualScrollEnabled": "啟用虛擬滾動",
+      "recordCount": "{{count}}條記錄",
+      "virtualScrollTag": "優化渲染",
+      "noRecords": "未找到DNS記錄",
+      "performanceTitle": " PERFORMANCE OPTIMIZATION",
+      "performanceItems": [
+        "虛擬化渲染在有{{count}}條記錄時保持DNS查找響應",
+        "僅渲染可見行以減少內存使用",
+        "這有助於避免結果集較大時的DOM滯後",
+        "即使記錄很多，體驗依然保持響應"
+      ]
+    },
+    "metaCheck": {
+      "title": " META標籤檢查",
+      "description": "檢查網頁上使用的 META 標籤",
+      "enterUrl": "請輸入網站 URL",
+      "checkFailed": "檢查失敗",
+      "urlLabel": "網站 URL",
+      "inputPlaceholder": "example.com或https://example.com",
+      "check": "檢查",
+      "resultTitle": "檢查結果",
+      "totalCount": "找到{{count}}個 META 標籤",
+      "groups": {
+        "pageTitle": "頁面標題",
+        "httpEquiv": "HTTP-Equiv",
+        "charset": "字符集",
+        "basicMeta": "基本 META"
+      },
+      "emptyContent": "空",
+      "infoTitle": "關於",
+      "infoItems": [
+        "此工具檢查標題標籤、meta name 標籤、meta property 標籤（如 Open Graph）和 meta http-equiv 標籤",
+        "有助於快速審查頁面的SEO相關元數據",
+        "還有助於識別缺少或重複的標籤問題"
+      ]
+    },
+    "urlEncode": {
+      "title": "URL編碼/解碼",
+      "description": "線上編碼或解碼 URL 字串",
+      "toolName": "URL編碼/解碼",
+      "toolCategory": "編碼工具",
+      "convertFailed": "轉換失敗，請檢查您的輸入",
+      "copyFailed": "無法複製結果",
+      "modeSelector": "選擇模式",
+      "typeSelector": "編碼類型",
+      "encode": "編碼",
+      "decode": "解碼",
+      "componentTitle": "URL組件",
+      "componentDescription": "僅對部分URL進行編碼",
+      "fullTitle": "完整URL",
+      "fullDescription": "對整個URL進行編碼",
+      "inputEncodeLabel": "純文本",
+      "inputDecodeLabel": "編碼後的URL",
+      "clearInput": "清除輸入",
+      "encodePlaceholder": "輸入要作為URL編碼的文本...",
+      "decodePlaceholder": "輸入要解碼的編碼URL...",
+      "outputEncodeLabel": "編碼結果",
+      "outputDecodeLabel": "解碼結果",
+      "copyResult": "複製結果",
+      "resultPlaceholder": "轉換結果將顯示在此...",
+      "copied": "已複製到剪貼板",
+      "swap": "交換",
+      "swapInputOutput": "交換輸入和輸出",
+      "infoTitle": "編碼模式",
+      "componentModeTitle": "組件模式",
+      "componentModeDescription": "最適合單獨的URL部分，例如查詢參數或路徑片段。",
+      "componentExample": "示例：hello world → hello%20world",
+      "fullModeTitle": "完整URL模式",
+      "fullModeDescription": "當您需要在保持其整體結構可識別的情況下對整個URL進行編碼時使用。",
+      "fullExample": "示例：https://example.com/路径 → https://example.com/%E8%B7%AF%E5%BE%84"
+    },
+    "htmlEntity": {
+      "title": "HTML實體編碼/解碼",
+      "description": "在线編碼或解碼 HTML 實體",
+      "toolName": "HTML 實體 編碼/解碼",
+      "toolCategory": "編碼工具",
+      "convertFailed": "轉換失敗，請檢查您的輸入",
+      "copyFailed": "复制結果失敗",
+      "modeSelector": "選擇模式",
+      "switchToEncode": "切換到編碼模式（Alt+1）",
+      "switchToDecode": "切換到解碼模式（Alt+2）",
+      "encode": "編碼",
+      "decode": "醫櫃",
+      "encodeAll": "對全字轉中",
+      "inputEncodeLabel": "物介意字",
+      "inputDecodeLabel": "英本字型",
+      "clearInput": "清除輸入 (Ctrl+L)",
+      "encodePlaceholder": "輸入文本轉換為英本字型……",
+      "decodePlaceholder": "輸入英本字體進行解碼……",
+      "inputDescriptionEncode": "輸入您愛要代理為英本字體的物介意文字",
+      "inputDescriptionDecode": "輸入您愛要解碼的英本字體",
+      "outputEncodeLabel": "編碼結果",
+      "outputDecodeLabel": "解碼結果",
+      "copyResult": "複製結果 (Ctrl+C)",
+      "resultPlaceholder": "輸出結果將出現驗證場……",
+      "outputDescriptionEncode": "生成的英本字型輸出",
+      "outputDescriptionDecode": "解碼的物介意文字輸出",
+      "copied": "已複製到剪貼簿",
+      "executeEncode": "編碼 (Ctrl+Enter)",
+      "executeDecode": "解碼 (Ctrl+Enter)",
+      "swap": "你與手冊",
+      "swapMode": "於輸入與輸出中換行 (Ctrl+S)",
+      "commonEntities": "常見的英本字型",
+      "space": "條空間"
+    },
+    "jsMinify": {
+      "title": "JS 縮小和秦等",
+      "description": "在線縮小或秦等 JavaScript 代碼",
+      "toolName": "JavaScript 縮小 / 秦等",
+      "toolNameHistory": "JS 壓縮與美化",
+      "toolCategory": "開發工具",
+      "processFailed": "處理失敗",
+      "copyFailed": "無法將結果複製到剪貼板",
+      "switchToMinify": "切換到壓縮模式",
+      "switchToMinifyTitle": "切換到壓縮模式 (Alt+1)",
+      "switchToBeautify": "切換到美化模式",
+      "switchToBeautifyTitle": "切換到美化模式 (Alt+2)",
+      "minify": "縮小",
+      "beautify": "美化",
+      "input": "輸入",
+      "output": "輸出",
+      "inputPlaceholder": "在此輸入 JavaScript 程式碼...",
+      "inputAria": "JavaScript 編輯器",
+      "inputTitle": "按下 Ctrl+Enter 執行，按下 Ctrl+L 清除",
+      "copyOutput": "複製輸出",
+      "copyOutputTitle": "複製輸出 (Ctrl+C)",
+      "resultPlaceholder": "處理結果將出現這裡...",
+      "outputAria": "JavaScript 輸出結果",
+      "executeMinify": "壓縮 JavaScript",
+      "executeMinifyTitle": "壓縮JavaScript (Ctrl+Enter)",
+      "executeBeautify": " Beautify JavaScript",
+      "executeBeautifyTitle": "美化JavaScript (Ctrl+Enter)",
+      "minifyCode": "壓縮程式碼",
+      "beautifyCode": "美化程式碼",
+      "swap": "交換",
+      "swapTitle": "交换单元格的輸入和輸出（Ctrl+S）",
+      "clear": "清除",
+      "clearTitle": "清除內容（Ctrl+L）",
+      "copied": "已複製到剪貼簿",
+      "infoTitle": "功能",
+      "infoItems": [
+        "刪除不必要的空白和換行以減少JavaScript檔案大小",
+        "美化模式使壓縮代碼更容易閱讀和維護",
+        "最小化品質取決於JavaScript解析器和最小化程式的實現"
+      ]
+    },
+    "cssMinify": {
+      "title": "CSS 壓縮與美化",
+      "description": "在線壓縮或 Beautify CSS 代碼",
+      "toolName": "CSS 壓縮與美化",
+      "toolCategory": "開發者工具",
+      "processFailed": "處理失敗",
+      "copyFailed": "無法將結果複製到剪貼簿",
+      "switchToMinify": "切換到壓縮模式",
+      "switchToMinifyTitle": "切換到壓縮模式 (Alt+1)",
+      "switchToBeautify": "切換到美化模式",
+      "switchToBeautifyTitle": "切換到美化模式 (Alt+2)",
+      "minify": "壓縮",
+      "beautify": " Beautify",
+      "input": "Input",
+      "output": "Output",
+      "inputPlaceholder": "Enter CSS code here...\n\nExample:\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 20px;\n}",
+      "inputAria": "CSS 输入編輯器",
+      "inputTitle": "按Ctrl+Enter執行，按Ctrl+L清除",
+      "copyOutput": "複製輸出",
+      "copyOutputTitle": "複製輸出 (Ctrl+C)",
+      "resultPlaceholder": "處理結果將顯示這裡...",
+      "outputAria": "CSS輸出結果",
+      "executeMinify": "壓縮CSS",
+      "executeMinifyTitle": "壓縮CSS (Ctrl+Enter)",
+      "executeBeautify": "美化CSS",
+      "executeBeautifyTitle": "美化CSS (Ctrl+Enter)",
+      "minifyCode": "壓縮程式碼",
+      "beautifyCode": "美化程式碼",
+      "swap": "Swap",
+      "swapTitle": "交換輸入和輸出 (Ctrl+S)",
+      "clear": "Clear",
+      "clearTitle": "清除內容 (Ctrl+L)",
+      "copied": "已複製到剪貼板",
+      "infoTitle": "Features",
+      "infoItems": [
+        "刪除不必要的空白和換行以減少檔案大小",
+        "啟用美化模式可以讓壓縮的程式碼更容易閱讀和編輯",
+        "較小的CSS檔案有助於減少HTTP傳輸大小並提高加載效能"
+      ]
+    },
+    "httpCodes": {
+      "title": "HTTP狀態碼",
+      "description": "HTTP  State/響應碼參考",
+      "searchPlaceholder": "搜尋狀態碼或描述...",
+      "noMatch": "未找到匹配的狀態碼",
+      "infoTitle": "HTTP狀態碼基礎",
+      "infoItems": [
+        "1xx - 調用已接收到且正在處理中的資訊性回應",
+        "2xx - 表示請求已被接收到、理解並接受的成功回應",
+        "3xx - 重定向回應，需要進一步動作以完成請求",
+        "4xx - 客戶端錯誤回應，表示請求有不良語法或無法實現",
+        "5xx - 伺服器錯誤回應，表示伺服器無法實現有效的請求"
+      ],
+      "categories": [
+        {
+          "id": "all",
+          "name": "All",
+          "color": "bg-gray-100 text-gray-700"
+        },
+        {
+          "id": "1xx",
+          "name": "1xx 調用",
+          "color": "bg-blue-100 text-blue-700"
+        },
+        {
+          "id": "2xx",
+          "name": "2xx 成功",
+          "color": "bg-green-100 text-green-700"
+        },
+        {
+          "id": "3xx",
+          "name": "3xx 重定向",
+          "color": "bg-yellow-100 text-yellow-700"
+        },
+        {
+          "id": "4xx",
+          "name": "4xx 客戶端錯誤",
+          "color": "bg-orange-100 text-orange-700"
+        },
+        {
+          "id": "5xx",
+          "name": "5xx 伺服器錯誤",
+          "color": "bg-red-100 text-red-700"
+        }
+      ],
+      "codes": [
+        {
+          "code": 100,
+          "name": "Continue",
+          "desc": "請求的初始部分已收到，客戶端應繼續發送其餘部分。",
+          "category": "1xx"
+        },
+        {
+          "code": 101,
+          "name": "切換協議",
+          "desc": "伺服器同意根據客戶端請求切換協議。",
+          "category": "1xx"
+        },
+        {
+          "code": 102,
+          "name": "Processing",
+          "desc": "伺服器已收到並正在處理請求，但尚未有回應。",
+          "category": "1xx"
+        },
+        {
+          "code": 200,
+          "name": "OK",
+          "desc": "請求成功，通常用於GET或POST請求。",
+          "category": "2xx"
+        },
+        {
+          "code": 201,
+          "name": "Created",
+          "desc": "請求成功並創建了一個新資源。",
+          "category": "2xx"
+        },
+        {
+          "code": 202,
+          "name": "Accepted",
+          "desc": "請求已被接受處理，但尚未完成。",
+          "category": "2xx"
+        },
+        {
+          "code": 203,
+          "name": "Non-Authoritative Information",
+          "desc": "回應元資料來自當地或第三方副本，而非原始伺服器。",
+          "category": "2xx"
+        },
+        {
+          "code": 204,
+          "name": "No Content",
+          "desc": "請求成功，但回應中不包含正文。",
+          "category": "2xx"
+        },
+        {
+          "code": 205,
+          "name": "重置內容",
+          "desc": "請求成功，客戶端應重置當前文件視圖。",
+          "category": "2xx"
+        },
+        {
+          "code": 206,
+          "name": "部分内容",
+          "desc": "伺服器由於範圍請求，僅返回資源的一部分。",
+          "category": "2xx"
+        },
+        {
+          "code": 300,
+          "name": "多重選擇",
+          "desc": "請求的資源有多個可能的表現形式供客戶端選擇。",
+          "category": "3xx"
+        },
+        {
+          "code": 301,
+          "name": "永久移動",
+          "desc": "資源已永久移動至新的URI。",
+          "category": "3xx"
+        },
+        {
+          "code": 302,
+          "name": "Found",
+          "desc": "請求的資源暫時位於不同的URI。",
+          "category": "3xx"
+        },
+        {
+          "code": 303,
+          "name": "查看其他",
+          "desc": "對請求的響應可在另一個URI下使用GET方法取得。",
+          "category": "3xx"
+        },
+        {
+          "code": 304,
+          "name": "未修改",
+          "desc": "緩存的資源沒有更改，因此客戶端可以使用其本地副本。",
+          "category": "3xx"
+        },
+        {
+          "code": 307,
+          "name": "臨時重定向",
+          "desc": "該資源被暫時重定向，并且必須保留原始請求方法。",
+          "category": "3xx"
+        },
+        {
+          "code": 308,
+          "name": "永久重定向",
+          "desc": "該資源已永久移動並且必須保留原始請求方法。",
+          "category": "3xx"
+        },
+        {
+          "code": 400,
+          "name": "錯誤的請求",
+          "desc": "由於語法無效，伺服器無法處理該請求。",
+          "category": "4xx"
+        },
+        {
+          "code": 401,
+          "name": "Unauthorized",
+          "desc": "需進行身份驗證",
+          "category": "4xx"
+        },
+        {
+          "code": 402,
+          "name": "需付款",
+          "desc": "為未來使用保留，通常與數位支付系統相關。",
+          "category": "4xx"
+        },
+        {
+          "code": 403,
+          "name": "Forbidden",
+          "desc": "伺服器理解該請求，但拒絕授權。",
+          "category": "4xx"
+        },
+        {
+          "code": 404,
+          "name": "未找到",
+          "desc": "伺服器無法找到請求的資源。",
+          "category": "4xx"
+        },
+        {
+          "code": 405,
+          "name": "方法不允許",
+          "desc": "對目標資源不允許可用請求方法。",
+          "category": "4xx"
+        },
+        {
+          "code": 406,
+          "name": "不可接受",
+          "desc": "伺服器無法提供與客戶端可接受格式匹配的響應。",
+          "category": "4xx"
+        },
+        {
+          "code": 407,
+          "name": "代理身份驗證要求",
+          "desc": "客戶端必須先通過代理進行身份驗證，然後才能繼續。",
+          "category": "4xx"
+        },
+        {
+          "code": 408,
+          "name": "請求超時",
+          "desc": "伺服器等待請求時已超時。",
+          "category": "4xx"
+        },
+        {
+          "code": 409,
+          "name": "Conflict",
+          "desc": "請求與目標資源的當前狀態衝突。",
+          "category": "4xx"
+        },
+        {
+          "code": 410,
+          "name": "Gone",
+          "desc": "該資源不再可用且未知轉發地址。",
+          "category": "4xx"
+        },
+        {
+          "code": 411,
+          "name": "需要長度",
+          "desc": "伺服器需要有效的 Content-Length 規頭。",
+          "category": "4xx"
+        },
+        {
+          "code": 412,
+          "name": "預設條件失敗",
+          "desc": "請求頭中的一个或多个条件评估为 false。",
+          "category": "4xx"
+        },
+        {
+          "code": 413,
+          "name": "負載過大",
+          "desc": "請求體大於伺服器願意或能夠處理的大小。",
+          "category": "4xx"
+        },
+        {
+          "code": 414,
+          "name": "URI 过长",
+          "desc": "請求的 URI 長度超過了伺服器可以處理的範圍。",
+          "category": "4xx"
+        },
+        {
+          "code": 415,
+          "name": "不支援的媒體類型",
+          "desc": "伺服器不支援請求中使用的媒體類型。",
+          "category": "4xx"
+        },
+        {
+          "code": 418,
+          "name": "I'm a teapot",
+          "desc": "一個幽默的狀態碼，表示伺服器拒絕沖泡咖啡因為它是一個茶壺。",
+          "category": "4xx"
+        },
+        {
+          "code": 422,
+          "name": "無法處理的實體",
+          "desc": "伺服器理解請求格式但無法處理其中的指令。",
+          "category": "4xx"
+        },
+        {
+          "code": 429,
+          "name": "請求過多",
+          "desc": "客戶端在給定時間段內發送了過多的請求。",
+          "category": "4xx"
+        },
+        {
+          "code": 451,
+          "name": "由於法律原因不可用",
+          "desc": "由於法律限制，資源無法使用。",
+          "category": "4xx"
+        },
+        {
+          "code": 500,
+          "name": "內部伺服器錯誤",
+          "desc": "伺服器在處理請求時遇到意外錯誤。",
+          "category": "5xx"
+        },
+        {
+          "code": 501,
+          "name": "尚未實現",
+          "desc": "伺服器不支援完成請求所需的功能。",
+          "category": "5xx"
+        },
+        {
+          "code": 502,
+          "name": "錯誤的網關",
+          "desc": "網關或代理伺服器從上游伺服器收到無效的回應。",
+          "category": "5xx"
+        },
+        {
+          "code": 503,
+          "name": "服務不可用",
+          "desc": "伺服器暫時無法處理請求，通常是因為過載或維護。",
+          "category": "5xx"
+        },
+        {
+          "code": 504,
+          "name": "網關超時",
+          "desc": "網關或代理伺服器未從上游伺服器及時收到回應。",
+          "category": "5xx"
+        },
+        {
+          "code": 505,
+          "name": "不支援的 HTTP 版本",
+          "desc": "伺服器不支援請求中使用的 HTTP 協議版本。",
+          "category": "5xx"
+        }
+      ]
+    },
+    "phpReference": {
+      "title": "PHP 函數參考",
+      "description": "常用 PHP 函數快速參考",
+      "searchPlaceholder": "搜尋函數名稱或描述...",
+      "noMatch": "未找到匹配的函數",
+      "infoTitle": "關於",
+      "infoDescription": "此頁面按照類別列出常用的 PHP 函數，供快速查找。它旨在為開發人員提供方便的概觀，並不能替代官方的 PHP 文件。",
+      "categories": [
+        "全部",
+        "字串",
+        "陣列",
+        "檔案",
+        "日期/時間",
+        "JSON",
+        "數學",
+        "其他"
+      ],
+      "functions": [
+        {
+          "name": "strlen",
+          "desc": "取得字串的長度",
+          "syntax": "strlen(string $string): int",
+          "category": "字串"
+        },
+        {
+          "name": "substr",
+          "desc": "返回字串的一部分",
+          "syntax": "substr(string $string, int $offset, ?int $length = null): string",
+          "category": "字串"
+        },
+        {
+          "name": "strpos",
+          "desc": "查找子字符串首次出現的位置",
+          "syntax": "strpos(string $haystack, string $needle, int $offset = 0): int|false",
+          "category": "String"
+        },
+        {
+          "name": "str_replace",
+          "desc": "替換所有搜尋字串的出現",
+          "syntax": "str_replace(mixed $search, mixed $replace, mixed $subject): mixed",
+          "category": "String"
+        },
+        {
+          "name": "explode",
+          "desc": "使用分隔符將字符串拆分为陣列",
+          "syntax": "explode(string $separator, string $string, int $limit = PHP_INT_MAX): array",
+          "category": "String"
+        },
+        {
+          "name": "implode",
+          "desc": "連接陣列元素為字符串",
+          "syntax": "implode(string $separator, array $array): string",
+          "category": "String"
+        },
+        {
+          "name": "trim",
+          "desc": "從字符串兩端刪除空白或其他字符",
+          "syntax": "trim(string $string, string $characters = \" \\n\\r\\t\\v\\x00\"): string",
+          "category": "String"
+        },
+        {
+          "name": "strtolower",
+          "desc": "將字符串轉換為小寫",
+          "syntax": "strtolower(string $string): string",
+          "category": "String"
+        },
+        {
+          "name": "strtoupper",
+          "desc": "將字符串轉換為大寫",
+          "syntax": "strtoupper(string $string): string",
+          "category": "String"
+        },
+        {
+          "name": "sprintf",
+          "desc": "返回格式化後的字符串",
+          "syntax": "sprintf(string $format, mixed ...$values): string",
+          "category": "String"
+        },
+        {
+          "name": "preg_match",
+          "desc": "執行正則表達式匹配",
+          "syntax": "preg_match(string $pattern, string $subject, array &$matches = null): int|false",
+          "category": "String"
+        },
+        {
+          "name": "preg_replace",
+          "desc": "執行正則表達式的搜尋與取代",
+          "syntax": "preg_replace(mixed $pattern, mixed $replacement, mixed $subject): mixed",
+          "category": "String"
+        },
+        {
+          "name": "count",
+          "desc": "計算陣列或多個可計數物件中的元素個數",
+          "syntax": "count(Countable|array $value, int $mode = COUNT_NORMAL): int",
+          "category": "Array"
+        },
+        {
+          "name": "array_push",
+          "desc": "將一個或多個元素壓入陣列的末尾",
+          "syntax": "array_push(array &$array, mixed ...$values): int",
+          "category": "陣列"
+        },
+        {
+          "name": "array_pop",
+          "desc": "從陣列中彈出最後一個元素",
+          "syntax": "array_pop(array &$array): mixed",
+          "category": "陣列"
+        },
+        {
+          "name": "array_merge",
+          "desc": "合併一個或多個陣列",
+          "syntax": "array_merge(array ...$arrays): array",
+          "category": "陣列"
+        },
+        {
+          "name": "array_keys",
+          "desc": "返回陣列的所有鍵",
+          "syntax": "array_keys(array $array, mixed $filter_value, bool $strict = false): array",
+          "category": "陣列"
+        },
+        {
+          "name": "array_values",
+          "desc": "返回陣列的所有值",
+          "syntax": "array_values(array $array): array",
+          "category": "陣列"
+        },
+        {
+          "name": "in_array",
+          "desc": "檢查值是否存在於陣列中",
+          "syntax": "in_array(mixed $needle, array $haystack, bool $strict = false): bool",
+          "category": "陣列"
+        },
+        {
+          "name": "array_search",
+          "desc": "在陣列中搜尋一個值並返回其鍵",
+          "syntax": "array_search(mixed $needle, array $haystack, bool $strict = false): int|string|false",
+          "category": "陣列"
+        },
+        {
+          "name": "array_map",
+          "desc": "將回呼應用於陣列的元素",
+          "syntax": "array_map(?callable $callback, array $array, array ...$arrays): array",
+          "category": "陣列"
+        },
+        {
+          "name": "array_filter",
+          "desc": "使用回呼過濾陣列的元素",
+          "syntax": "array_filter(array $array, ?callable $callback = null, int $mode = 0): array",
+          "category": "陣列"
+        },
+        {
+          "name": "sort",
+          "desc": "將陣列按照升序排序",
+          "syntax": "sort(array &$array, int $flags = SORT_REGULAR): bool",
+          "category": "陣列"
+        },
+        {
+          "name": "usort",
+          "desc": "使用自定義比較函數對陣列進行排序",
+          "syntax": "usort(array &$array, callable $callback): bool",
+          "category": "陣列"
+        },
+        {
+          "name": "file_get_contents",
+          "desc": "將整個檔案讀取為字串",
+          "syntax": "file_get_contents(string $filename, ...): string|false",
+          "category": "File"
+        },
+        {
+          "name": "file_put_contents",
+          "desc": "将数据写入文件",
+          "syntax": "file_put_contents(string $filename, mixed $data, int $flags = 0): int|false",
+          "category": "File"
+        },
+        {
+          "name": "fopen",
+          "desc": "打开一个文件或URL",
+          "syntax": "fopen(string $filename, string $mode, ...): resource|false",
+          "category": "File"
+        },
+        {
+          "name": "fclose",
+          "desc": "关闭一个打开的文件指针",
+          "syntax": "fclose(resource $stream): bool",
+          "category": "File"
+        },
+        {
+          "name": "fread",
+          "desc": "从文件指针中读取",
+          "syntax": "fread(resource $stream, int $length): string|false",
+          "category": "File"
+        },
+        {
+          "name": "fwrite",
+          "desc": "向文件指针中写入",
+          "syntax": "fwrite(resource $stream, string $data, ?int $length = null): int|false",
+          "category": "File"
+        },
+        {
+          "name": "file_exists",
+          "desc": "检查文件或目录是否存在",
+          "syntax": "file_exists(string $filename): bool",
+          "category": "File"
+        },
+        {
+          "name": "is_file",
+          "desc": "检查路径是否为普通文件",
+          "syntax": "is_file(string $filename): bool",
+          "category": "File"
+        },
+        {
+          "name": "unlink",
+          "desc": "删除一个文件",
+          "syntax": "unlink(string $filename, ?resource $context = null): bool",
+          "category": "File"
+        },
+        {
+          "name": "mkdir",
+          "desc": "创建一个目录",
+          "syntax": "mkdir(string $directory, int $permissions = 0777, bool $recursive = false): bool",
+          "category": "File"
+        },
+        {
+          "name": "date",
+          "desc": "格式化本地日期和时间",
+          "syntax": "date(string $format, ?int $timestamp = null): string",
+          "category": "日期/时间"
+        },
+        {
+          "name": "time",
+          "desc": "获取当前Unix时间戳",
+          "syntax": "time(): int",
+          "category": "日期/时间"
+        },
+        {
+          "name": "strtotime",
+          "desc": "解析文本日期时间为Unix时间戳",
+          "syntax": "strtotime(string $datetime, ?int $baseTimestamp = null): int|false",
+          "category": "日期/时间"
+        },
+        {
+          "name": "mktime",
+          "desc": "获取日期的Unix时间戳",
+          "syntax": "mktime(int $hour, ?int $minute = null, ...): int|false",
+          "category": "日期/时间"
+        },
+        {
+          "name": "date_create",
+          "desc": "创建一个DateTime对象",
+          "syntax": "date_create(string $datetime = \"now\", ?DateTimeZone $timezone = null): DateTime|false",
+          "category": "日期/时间"
+        },
+        {
+          "name": "json_encode",
+          "desc": "将值转换为JSON字符串",
+          "syntax": "json_encode(mixed $value, int $flags = 0, int $depth = 512): string|false",
+          "category": "JSON"
+        },
+        {
+          "name": "json_decode",
+          "desc": "解码JSON字符串为PHP值",
+          "syntax": "json_decode(string $json, ?bool $associative = null, int $depth = 512): mixed",
+          "category": "JSON"
+        },
+        {
+          "name": "abs",
+          "desc": "获取绝对值",
+          "syntax": "abs(int|float $num): int|float",
+          "category": "Math"
+        },
+        {
+          "name": "ceil",
+          "desc": "向上舍入小数",
+          "syntax": "ceil(int|float $num): float",
+          "category": "Math"
+        },
+        {
+          "name": "floor",
+          "desc": "向下舍入小数",
+          "syntax": "floor(int|float $num): float",
+          "category": "Math"
+        },
+        {
+          "name": "round",
+          "desc": "四舍五入数字",
+          "syntax": "round(int|float $num, int $precision = 0, int $mode = PHP_ROUND_HALF_UP): float",
+          "category": "Math"
+        },
+        {
+          "name": "max",
+          "desc": "找到最大值",
+          "syntax": "max(mixed $value, mixed ...$values): mixed",
+          "category": "Math"
+        },
+        {
+          "name": "min",
+          "desc": "找到最小值",
+          "syntax": "min(mixed $value, mixed ...$values): mixed",
+          "category": "Math"
+        },
+        {
+          "name": "rand",
+          "desc": "生成一个随机整数",
+          "syntax": "rand(int $min, int $max): int",
+          "category": "Math"
+        },
+        {
+          "name": "isset",
+          "desc": "检查变量是否已设置且不为空",
+          "syntax": "isset(mixed $var, mixed ...$vars): bool",
+          "category": "Other"
+        },
+        {
+          "name": "empty",
+          "desc": "检查变量是否为空",
+          "syntax": "empty(mixed $var): bool",
+          "category": "Other"
+        },
+        {
+          "name": "var_dump",
+          "desc": "转储有关变量的信息",
+          "syntax": "var_dump(mixed $value, mixed ...$values): void",
+          "category": "Other"
+        },
+        {
+          "name": "print_r",
+          "desc": "Print human-readable information about a variable",
+          "syntax": "print_r(mixed $value, bool $return = false): string|bool",
+          "category": "Other"
+        },
+        {
+          "name": "gettype",
+          "desc": "获取变量的类型",
+          "syntax": "gettype(mixed $value): string",
+          "category": "Other"
+        },
+        {
+          "name": "is_array",
+          "desc": "检查变量是否为数组",
+          "syntax": "is_array(mixed $value): bool",
+          "category": "Other"
+        },
+        {
+          "name": "is_string",
+          "desc": "检查变量是否为字符串",
+          "syntax": "is_string(mixed $value): bool",
+          "category": "Other"
+        },
+        {
+          "name": "is_numeric",
+          "desc": "检查变量是否为数字或数值字符串",
+          "syntax": "is_numeric(mixed $value): bool",
+          "category": "Other"
+        }
+      ]
+    },
+    "cssBorderRadius": {
+      "title": "CSS 边框半径生成器",
+      "description": "Adjust border-radius values visually and generate CSS code",
+      "presetsLabel": "Presets",
+      "preview": "Preview",
+      "settings": "Settings",
+      "linked": "链接角落",
+      "unlinked": "单独的角落",
+      "corners": {
+        "topLeft": "Top left",
+        "topRight": "右上角",
+        "bottomLeft": "左下角",
+        "bottomRight": "右下角"
+      },
+      "elementColor": "元素颜色",
+      "codeTitle": "CSS code",
+      "copy": "Copy",
+      "copied": "Copied",
+      "presets": [
+        {
+          "name": "None",
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Small",
+          "values": [
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "Medium",
+          "values": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "Large",
+          "values": [
+            16,
+            16,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "Circle",
+          "values": [
+            50,
+            50,
+            50,
+            50
+          ]
+        },
+        {
+          "name": "Pill",
+          "values": [
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "左侧",
+          "values": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        {
+          "name": "右侧",
+          "values": [
+            0,
+            16,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "Top only",
+          "values": [
+            16,
+            16,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "仅底部",
+          "values": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "Diagonal",
+          "values": [
+            16,
+            0,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "Leaf",
+          "values": [
+            0,
+            50,
+            0,
+            50
+          ]
+        }
+      ]
+    },
+    "cssNeumorphism": {
+      "title": "封衡潔版 CSS 生成器",
+      "description": "Generate Neumorphism-style CSS code online",
+      "previewText": "面积按钮",
+      "shapeTitle": "形状罗顺",
+      "shapeOptions": [
+        {
+          "value": "flat",
+          "label": "Flat"
+        },
+        {
+          "value": "concave",
+          "label": "Concave"
+        },
+        {
+          "value": "convex",
+          "label": "Convex"
+        },
+        {
+          "value": "pressed",
+          "label": "Pressed"
+        }
+      ],
+      "colorTitle": "颜色设置",
+      "presetColors": "预界颜色",
+      "colorPresets": [
+        {
+          "color": "#e0e5ec",
+          "name": "Classic"
+        },
+        {
+          "color": "#f0f0f3",
+          "name": "White"
+        },
+        {
+          "color": "#d1d9e6",
+          "name": "Blue"
+        },
+        {
+          "color": "#e8dfd5",
+          "name": "Beige"
+        },
+        {
+          "color": "#dfe6e9",
+          "name": "Gray"
+        },
+        {
+          "color": "#ffeaa7",
+          "name": "Yellow"
+        },
+        {
+          "color": "#dfe4ea",
+          "name": "Slate"
+        },
+        {
+          "color": "#f8e1e7",
+          "name": "Pink"
+        },
+        {
+          "color": "#d5f5e3",
+          "name": "Mint"
+        },
+        {
+          "color": "#e8daef",
+          "name": "Purple"
+        }
+      ],
+      "backgroundColor": "基础颜色",
+      "lightColor": "有红颜 (高度)",
+      "darkColor": "有质颜 (封线)",
+      "sliderTitle": "封线设置",
+      "size": "Size",
+      "radius": "Radius",
+      "distance": "封线距离",
+      "blur": "阴影模糊",
+      "intensity": "Intensity",
+      "codeTitle": "CSS code",
+      "copy": "Copy",
+      "copied": "Copied",
+      "infoTitle": "什么是拟态设计？",
+      "infoDescription": "拟态设计是一种柔和的UI风格，它结合了微妙的高光和阴影，使元素看起来像是从背景中凸起或按下。它最适合与低对比度调色板和干净、极简的布局一起使用。"
+    },
+    "cssTextShadow": {
+      "title": "CSS文本阴影生成器",
+      "description": "Adjust text-shadow values visually and generate CSS code",
+      "defaultText": "文本阴影示例",
+      "presetsLabel": "预设效果",
+      "textSettings": "文本设置",
+      "previewText": "预览文本",
+      "fontSize": "字体大小",
+      "textColor": "文本颜色",
+      "shadowPrefix": "Shadow {{index}}",
+      "offsetX": "X offset",
+      "offsetY": "Y offset",
+      "blur": "Blur",
+      "opacity": "Opacity",
+      "color": "Color",
+      "addShadow": "添加阴影",
+      "codeTitle": "CSS code",
+      "copy": "Copy",
+      "copied": "Copied",
+      "presets": [
+        {
+          "name": "柔光阴影",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 2,
+              "y": 2,
+              "blur": 4,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        },
+        {
+          "name": "霓虹光晕",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#00ff00",
+              "opacity": 0.8
+            }
+          ]
+        },
+        {
+          "name": "紫色光晕",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 5,
+              "color": "#ff00ff",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#ff00ff",
+              "opacity": 0.8
+            },
+            {
+              "id": 3,
+              "x": 0,
+              "y": 0,
+              "blur": 20,
+              "color": "#ff00ff",
+              "opacity": 0.6
+            }
+          ]
+        },
+        {
+          "name": "Layered 3D",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 1,
+              "y": 1,
+              "blur": 0,
+              "color": "#666666",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 2,
+              "y": 2,
+              "blur": 0,
+              "color": "#888888",
+              "opacity": 1
+            },
+            {
+              "id": 3,
+              "x": 3,
+              "y": 3,
+              "blur": 0,
+              "color": "#aaaaaa",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "name": "Embossed",
+          "shadows": [
+            {
+              "id": 1,
+              "x": -1,
+              "y": -1,
+              "blur": 1,
+              "color": "#ffffff",
+              "opacity": 0.8
+            },
+            {
+              "id": 2,
+              "x": 1,
+              "y": 1,
+              "blur": 1,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "websocketTest": {
+      "title": "在线WebSocket测试工具",
+      "description": "在线测试WebSocket连接和消息传递",
+      "defaultUrl": "wss://echo.websocket.org",
+      "connectingTo": "Connecting to {{url}}...",
+      "connectSuccess": "连接成功",
+      "connectError": "连接错误",
+      "connectionClosed": "Connection closed (Code: {{code}})",
+      "connectFailed": "Connection failed: {{message}}",
+      "disconnecting": "Disconnecting...",
+      "urlPlaceholder": "Enter a WebSocket URL, for example: wss://echo.websocket.org",
+      "disconnect": "Disconnect",
+      "connecting": "Connecting...",
+      "connect": "Connect",
+      "connected": "Connected",
+      "notConnected": "未连接",
+      "messageLog": "消息日志",
+      "clear": "Clear",
+      "noMessages": "暂无消息",
+      "messagePlaceholder": "输入一条消息...(按Enter发送，Shift+Enter换行)",
+      "infoTitle": "WebSocket提示",
+      "infoItems": [
+        "The built-in echo service is useful for basic send/receive testing",
+        "Supports both ws:// and wss:// addresses",
+        "按Enter发送，Shift+Enter换行",
+        "确保您的目标服务允许浏览器从WebSocket连接"
+      ],
+      "examplesTitle": "常见示例",
+      "publicEcho": "公共回显服务",
+      "defaultTag": "Default"
+    },
+    "csrGenerator": {
+      "title": "CSR生成器和查看器",
+      "description": "在线生成CSR文件并解析CSR内容",
+      "enterDomain": "请输入一个域名",
+      "generateFailed": "生成证书签名请求 (CSR) 失败",
+      "parseFailed": "解析证书签名请求 (CSR) 失败",
+      "serverConnectionFailed": "无法连接到服务器，请稍后重试",
+      "tabs": {
+        "generate": "生成证书签名请求 (CSR)",
+        "view": "View CSR"
+      },
+      "formTitle": "证书信息",
+      "labels": {
+        "commonName": "域名（通用名称）",
+        "organization": "Organization",
+        "organizationUnit": "Department",
+        "city": "City",
+        "state": "State / Province",
+        "country": "Country / Region",
+        "email": "Email",
+        "keySize": "Key size"
+      },
+      "placeholders": {
+        "commonName": "例如：www.example.com 或 *.example.com",
+        "organization": "For example: Example Inc.",
+        "organizationUnit": "For example: IT Department",
+        "city": "For example: Beijing",
+        "state": "For example: Beijing",
+        "email": "例如：admin@example.com",
+        "csr": "在此粘贴证书签名请求的内容，以-----BEGIN CERTIFICATE REQUEST-----开头"
+      },
+      "countries": [
+        {
+          "value": "CN",
+          "label": "CN - China"
+        },
+        {
+          "value": "US",
+          "label": "US - United States"
+        },
+        {
+          "value": "JP",
+          "label": "JP - Japan"
+        },
+        {
+          "value": "KR",
+          "label": "KR - South Korea"
+        },
+        {
+          "value": "GB",
+          "label": "GB - United Kingdom"
+        },
+        {
+          "value": "DE",
+          "label": "DE - Germany"
+        },
+        {
+          "value": "FR",
+          "label": "FR - France"
+        },
+        {
+          "value": "SG",
+          "label": "SG - Singapore"
+        },
+        {
+          "value": "HK",
+          "label": "HK - Hong Kong"
+        },
+        {
+          "value": "TW",
+          "label": "TW - Taiwan"
+        }
+      ],
+      "keySizes": [
+        {
+          "value": "2048",
+          "label": "2048 位（推荐）"
+        },
+        {
+          "value": "4096",
+          "label": "4096 位（更安全）"
+        }
+      ],
+      "generating": "Generating...",
+      "generateAction": "生成证书签名请求和私钥",
+      "csrRequest": "证书签名请求",
+      "privateKey": "私钥（妥善保管）",
+      "copy": "Copy",
+      "copied": "Copied",
+      "download": "Download",
+      "privateKeyWarning": "私钥非常敏感。请妥善保管，切勿公开分享。如果泄露，您的证书安全性可能会受到损害。",
+      "inputCsr": "粘贴CSR内容",
+      "parsing": "Parsing...",
+      "parseAction": "解析CSR",
+      "csrInfo": "CSR信息",
+      "infoItems": [
+        {
+          "label": "Domain (CN)",
+          "key": "commonName"
+        },
+        {
+          "label": "Organization (O)",
+          "key": "organization"
+        },
+        {
+          "label": "Department (OU)",
+          "key": "organizationUnit"
+        },
+        {
+          "label": "City (L)",
+          "key": "city"
+        },
+        {
+          "label": "州/省 (ST)",
+          "key": "state"
+        },
+        {
+          "label": "Country (C)",
+          "key": "country"
+        },
+        {
+          "label": "Email",
+          "key": "email"
+        },
+        {
+          "label": "密钥算法",
+          "key": "keyAlgorithm"
+        },
+        {
+          "label": "Key size",
+          "key": "keySize"
+        },
+        {
+          "label": "签名算法",
+          "key": "signatureAlgorithm"
+        }
+      ],
+      "keySizeValue": "{{value}} bit",
+      "aboutTitle": "什么是证书签名请求？",
+      "aboutDescription": "CSR（证书签名请求）是在申请SSL/TLS证书时发送给证书颁发机构（CA）的编码文件。它包含有关您的域名和组织的信息，以及与您的私钥匹配的公钥。验证后，CA使用CSR颁发SSL证书。"
+    },
+    "metaGenerator": {
+      "title": "元标签生成器",
+      "description": "Generate SEO-friendly webpage meta tags",
+      "basicInfo": "基本信息",
+      "socialMedia": "社交媒体（开放图谱）",
+      "generatedCode": "生成的代码",
+      "copy": "Copy",
+      "copied": "Copied",
+      "searchPreview": "搜索预览",
+      "searchPreviewTitleFallback": "页面标题",
+      "searchPreviewDescriptionFallback": "您的页面描述将显示在这里...",
+      "socialPreview": "社交预览",
+      "socialPreviewTitleFallback": "Title",
+      "socialPreviewDescriptionFallback": "Description",
+      "labels": {
+        "title": "页面标题",
+        "description": "页面描述",
+        "keywords": "Keywords",
+        "author": "Author",
+        "robots": "机器人指令",
+        "ogTitle": "OG title",
+        "ogDescription": "OG description",
+        "ogImage": "OG图片URL",
+        "ogUrl": "Page URL",
+        "twitterCard": "推特卡片类型"
+      },
+      "placeholders": {
+        "title": "输入页面标题",
+        "description": "输入页面描述，理想情况下在150个字符以内",
+        "keywords": "关键词1，关键词2，关键词3",
+        "author": "输入作者姓名",
+        "ogTitle": "输入社交分享标题",
+        "ogDescription": "输入社交分享描述",
+        "ogImage": "https://example.com/image.jpg",
+        "ogUrl": "https://example.com/page"
+      },
+      "robotsOptions": [
+        {
+          "value": "索引，跟随",
+          "label": "允许索引和跟随"
+        },
+        {
+          "value": "索引，不跟随",
+          "label": "允许索引，不允许跟随"
+        },
+        {
+          "value": "noindex，跟随",
+          "label": "不允许索引，允许跟随"
+        },
+        {
+          "value": "noindex，nofollow",
+          "label": "不允许索引和跟随"
+        }
+      ],
+      "twitterOptions": [
+        {
+          "value": "summary",
+          "label": "Summary"
+        },
+        {
+          "value": "summary_large_image",
+          "label": "大图片"
+        },
+        {
+          "value": "player",
+          "label": "Player"
+        }
+      ]
+    },
+    "toolHistoryDemo": {
+      "confirmClear": "您确定要清除所有工具历史和收藏吗？",
+      "exportTitle": "导出数据",
+      "usageCount": "Used {{count}} times",
+      "lastUsed": "Last used: {{time}}",
+      "favorite": "Favorite: {{value}}",
+      "yes": "Yes",
+      "no": "No",
+      "exportFailed": "导出失败",
+      "tabs": {
+        "overview": "Overview",
+        "history": "History",
+        "favorites": "Favorites",
+        "analytics": "Analytics"
+      },
+      "loading": "加载工具历史数据...",
+      "loadFailed": "Load failed: {{error}}",
+      "title": "工具历史演示",
+      "description": "演示工具使用历史、收藏和分析",
+      "export": "Export",
+      "clear": "Clear",
+      "searchPlaceholder": "搜索工具...",
+      "stats": {
+        "totalTools": "总工具数",
+        "totalUsage": "总使用次数",
+        "favoriteTools": "收藏的工具",
+        "averageUsage": "平均使用量"
+      },
+      "favoriteToolsTitle": "收藏的工具",
+      "favoriteToolsDescription": "你标记为收藏的工具",
+      "noFavoriteTools": "暂无收藏的工具",
+      "mostUsed": "最常用的工具",
+      "timesUsed": "Used {{count}} times",
+      "recentActivity": "最近活动",
+      "exportDialogTitle": "导出工具历史",
+      "exportDialogDescription": "选择导出格式",
+      "formats": {
+        "json": {
+          "title": "JSON 格式",
+          "description": "最佳的备份和开发人员使用"
+        },
+        "csv": {
+          "title": "CSV 格式",
+          "description": "适合如 Excel 的电子表格"
+        },
+        "txt": {
+          "title": "TXT 格式",
+          "description": "纯文本摘要"
+        }
+      },
+      "cancel": "Cancel"
+    },
+    "userAgentParser": {
+      "title": "User-Agent Parser",
+      "description": "解析 User-Agent 字符串以识别浏览器、系统和设备信息",
+      "label": "User-Agent string",
+      "useCurrent": "使用当前浏览器",
+      "inputPlaceholder": "Enter a User-Agent string...",
+      "parse": "Parse",
+      "unknownBrowser": "未知浏览器",
+      "unknown": "Unknown",
+      "deviceTypes": {
+        "mobile": "Mobile",
+        "tablet": "Tablet",
+        "desktop": "Desktop"
+      },
+      "browserInfo": "浏览器信息",
+      "browser": "Browser",
+      "version": "Version",
+      "majorVersion": "主要版本",
+      "operatingSystem": "操作系统",
+      "system": "System",
+      "deviceInfo": "设备信息",
+      "type": "Type",
+      "vendor": "Vendor",
+      "model": "Model",
+      "engineAndCpu": "引擎和CPU",
+      "engine": "Engine",
+      "engineVersion": "引擎版本",
+      "cpuArchitecture": "CPU架构",
+      "examplesTitle": "Example User-Agent strings"
+    },
+    "cssBoxShadow": {
+      "title": "DIV盒阴影生成器",
+      "description": "Adjust box-shadow values visually and generate CSS code",
+      "preview": "Preview",
+      "basicSettings": "基本设置",
+      "backgroundColor": "背景颜色",
+      "boxColor": "框颜色",
+      "borderRadius": "边框半径",
+      "shadowPrefix": "Shadow {{index}}",
+      "inset": "Inset",
+      "offsetX": "X offset",
+      "offsetY": "Y offset",
+      "blur": "Blur",
+      "spread": "Spread",
+      "opacity": "Opacity",
+      "color": "Color",
+      "addShadow": "添加阴影",
+      "codeTitle": "CSS code",
+      "copy": "Copy",
+      "copied": "Copied"
+    },
+    "cssGlassmorphism": {
+      "title": "CSS 玻璃摩尔主义生成器",
+      "description": "Generate Glassmorphism-style CSS code online",
+      "cardTitle": "玻璃摩尔主义卡片",
+      "cardDescription": "玻璃摩尔主义是一种现代UI风格，它使用透明度、模糊和柔和的边框来创建磨砂玻璃效果。",
+      "adjustTitle": "调整设置",
+      "blur": "背景模糊",
+      "transparency": "Transparency",
+      "saturation": "Saturation",
+      "borderRadius": "边框圆角",
+      "borderOpacity": "边框透明度",
+      "codeTitle": "CSS code",
+      "copy": "Copy",
+      "copied": "Copied",
+      "infoTitle": "兼容性说明",
+      "infoDescription": "backdrop-filter属性需要现代浏览器的支持。Firefox可能需要额外的设置，Safari可能需要-webkit-前缀。请考虑为不支持的浏览器提供优雅降级。"
+    },
+    "desktopShortcut": {
+      "title": "网站桌面快捷方式",
+      "description": "创建网站快捷方式以用于桌面，并快速启动它们",
+      "enterUrl": "请输入有效的网站URL",
+      "enterName": "请输入快捷方式名称",
+      "redirectingTo": "Opening {{name}}...",
+      "urlLabel": "网站URL",
+      "urlPlaceholder": "example.com or https://example.com",
+      "nameLabel": "快捷方式名称",
+      "namePlaceholder": "网站快捷方式",
+      "downloadUrlFile": "下载 .url 文件",
+      "downloadHtmlFile": "下载 .html 文件",
+      "infoTitle": "Instructions",
+      "urlFileDesc": ".url 文件是 Windows 网络快捷方式文件，通常会在默认浏览器中直接打开目标网站。",
+      "htmlFileDesc": ".html 文件可以在 Windows、macOS 和 Linux 上通用，并且可以作为简单的网站快捷方式使用。",
+      "afterDownload": "下载后，将文件移动到您的桌面或固定在需要的位置。"
+    },
+    "htmlPreview": {
+      "title": "HTML代碼調試預覽",
+      "description": "在線編寫和預覽 HTML 代碼",
+      "defaultMessage": "歡迎使用 HTML 代碼調試預覽工具",
+      "editorTitle": "HTML 代碼",
+      "clear": "清除",
+      "editorPlaceholder": "在此輸入 HTML 代碼...",
+      "previewTitle": "預覽",
+      "run": "運行",
+      "fullscreen": "全螢幕",
+      "exitFullscreen": "離開全螢幕",
+      "usageTitle": "使用說明",
+      "usageItems": [
+        "在左側編輯器中輸入完整的 HTML 代碼",
+        "點擊“運行”按鈕查看預覽效果",
+        "支援內聯 CSS 和 JavaScript",
+        "代碼在沙箱環境中運行，確保安全"
+      ]
+    },
+    "pageRefresh": {
+      "title": "網頁定時刷新",
+      "description": "線上定時刷新指定網頁",
+      "urlRequired": "請輸入 URL",
+      "urlPlaceholder": "輸入 URL，例如: https://example.com",
+      "seconds": "秒",
+      "start": "開始",
+      "stop": "停止",
+      "quickSet": "快速設定：",
+      "secondsValue": "{{count}}秒",
+      "minutesValue": "{{count}}分鐘",
+      "running": "運行中",
+      "refreshIn": "{{count}} 秒後刷新",
+      "refreshedCount": "已刷新 {{count}} 次",
+      "lastRefresh": "上次刷新: {{time}}",
+      "previewTitle": "頁面預覽",
+      "previewPlaceholder": "輸入URL後開始預覽",
+      "usageTitle": "使用说术",
+      "usageItems": [
+        "输入要刷新的线模地址 URL，设置刷新长降",
+        "碼到“开始”按達开始定时刷新",
+        "通过的网站可能因为安全番目為一叉在 iframe 中显示",
+        "遵等监测页面变化，保留登鍵状态等区改"
+      ]
+    },
+    "pxToRem": {
+      "title": "CSS中PX抽集转REM工器",
+      "description": "抽集將CSS代砃中的PX南字转為REM南字",
+      "baseFontSize": "基等字對 (Root Font Size)",
+      "precision": "小數精度",
+      "precisionOptions": {
+        "2": "2位",
+        "3": "3位",
+        "4": "4位",
+        "5": "5位"
+      },
+      "inputLabel": "輸入 CSS 代碼",
+      "convertToRem": "PX → REM",
+      "convertToPx": "REM → PX",
+      "outputLabel": "轉換結果",
+      "copy": "複製",
+      "copied": "已複製",
+      "outputPlaceholder": "轉換結果將顯示在这里...",
+      "quickReferenceTitle": "快速參考表 (基准: {{baseSize}}px)",
+      "whyUseRem": "Why 使用 REM？",
+      "infoItems": [
+        "REM 是相對於根元素 (html) 字體大小的單位",
+        "使用 REM 可以實現整站字體大小的統一縮放",
+        "有利於響應式設計和無障礙訪問"
+      ],
+      "formula": "公式：rem = px / {{baseSize}}"
+    },
+    "shieldBadge": {
+      "title": "線上Shield徽章生成",
+      "description": "線上生成SVG格式的 Shield徽章",
+      "downloadFailed": "下載失敗，請稍後重試",
+      "basicSettings": "基本設定",
+      "labelField": "標籤 (Label)",
+      "messageField": "內容 (Message)",
+      "color": "顏色",
+      "style": "樣式",
+      "logoSettings": "Logo 設定",
+      "logo": "Logo",
+      "none": "無",
+      "logoColor": "Logo 顏色",
+      "preview": "預覽",
+      "downloadSvg": "下載 SVG",
+      "codeTitle": "代碼",
+      "copiedToClipboard": "已複製到剪貼簿"
+    },
+    "robotsGenerator": {
+      "title": "robots.txt檔案生成器",
+      "description": "線上生成robots.txt檔案",
+      "templatesLabel": "快速模板：",
+      "templates": {
+        "allowAll": "允許所有",
+        "blockAll": "禁止所有",
+        "standard": "標準配置"
+      },
+      "ruleTitle": "規則 {{index}}",
+      "userAgents": {
+        "all": "* (所有爬蟲)",
+        "baidu": "Baiduspider （百度）",
+        "sogou": "Sogou （搜狗）"
+      },
+      "disallow": "Disallow (禁止路徑)",
+      "allow": "Allow (允許路徑)",
+      "add": "新增",
+      "addRule": "添加規則",
+      "otherSettings": "其他設定",
+      "sitemapUrl": "站点地图 URL",
+      "crawlDelay": "爬行延遲（秒）",
+      "preview": "robots.txt 預覽",
+      "copy": "複製",
+      "copied": "已複製",
+      "saveTip": "將此檔案另存為 robots.txt 並放置在網站根目錄下"
+    },
+    "emailEncrypt": {
+      "title": "線上Email信箱地址加密",
+      "description": "將信箱地址加密防止被爬蟲採集",
+      "inputLabel": "輸入信箱地址",
+      "copy": "複製",
+      "copied": "已複製",
+      "infoTitle": "為什麼要加密信箱地址？",
+      "infoItems": [
+        "防止垃圾郵件發送者通過爬蟲採集您的信箱地址",
+        "加密後的信箱在瀏覽器中正常顯示，但爬蟲難以識別",
+        "多種加密方式可以組合使用，提高防護效果",
+        "参考同时使用机器端的反击破防欺法"
+      ],
+      "results": {
+        "unicodeDecimal": {
+          "name": "Unicode 十进判码",
+          "description": "将字符转换为十进判Unicode码码码"
+        },
+        "unicodeHex": {
+          "name": "Unicode 十六进判码",
+          "description": "将字符转换为十六进判Unicode码码码"
+        },
+        "javascript": {
+          "name": "JavaScript 码码",
+          "description": "使用 JavaScript 動態輸出郵箱"
+        },
+        "mailto": {
+          "name": "mailto 連結",
+          "description": "生成密码的mailto链接"
+        },
+        "cssReverse": {
+          "name": "CSS 反轉顯示",
+          "description": "使用 CSS 反轉顯示文字"
+        }
+      }
+    },
+    "workerDemo": {
+      "title": "Web Worker 框本株面活负",
+      "description": "对调 Web Worker 与主线程序的计算株面",
+      "invalidInteger": "请输入有效的正整整数",
+      "workerError": "Worker 計算錯誤:",
+      "notice": "方程",
+      "settingsTitle": "計算設定",
+      "inputLabel": "输入整數",
+      "inputPlaceholder": "输入正整數",
+      "operationLabel": "計算類型",
+      "operations": {
+        "factorial": "阶义 (n!)",
+        "fibonacci": "数学递开整列",
+        "prime": "質數判斷",
+        "factorization": "质嚽数分解"
+      },
+      "workerCalculate": "Web Worker 計算",
+      "mainThreadCalculate": "主線程計算",
+      "comparisonTitle": "综和对比",
+      "workerResult": "Web Worker 結果",
+      "mainThreadResult": "主線程結果",
+      "resultLabel": "結果:",
+      "timeLabel": "計算時間:",
+      "calculating": "計算中...",
+      "emptyState": "點擊上方按鈕開始計算",
+      "infoTitle": "Web Worker 優勢",
+      "workerFeaturesTitle": "Web Worker 特點",
+      "workerFeatures": [
+        "在背景線程運行，不阻塞主線程",
+        "適合處理複雜計算任務",
+        "保持UI反應性",
+        "支持平行計算"
+      ],
+      "useCasesTitle": "使用場景",
+      "useCases": [
+        "大量數據處理",
+        "複雜算法計算",
+        "圖像處理",
+        "加密解密操作"
+      ]
+    },
+    "jsDebug": {
+      "title": "JS代碼調試",
+      "description": "線上執行和調試JavaScript程式碼",
+      "defaultCode": "// 在這裡編寫 JavaScript 程式碼\nconsole.log(\"Hello, World!\");\n\n// 範例：陣列操作\nconst numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(n => n * 2);\nconsole.log(\"原始陣列:\", numbers);\nconsole.log(\"加倍後:\", doubled);\n\n// 範例：物件\nconst user = {\n  name: \"張三\",\n  age: 25,\n  city: \"北京\"\n};\nconsole.log(\"使用者資訊:\", user);\n\n// 範例：異步操作\nsetTimeout(() => {\n  console.log(\"延遲1秒後執行\");\n}, 1000);",
+      "editorTitle": "JavaScript 程式碼",
+      "copy": "複製",
+      "copied": "已複製!",
+      "clear": "清除",
+      "placeholder": "在此輸入 JavaScript 程式碼...",
+      "run": "執行程式碼",
+      "consoleTitle": "控制台輸出",
+      "consolePlaceholder": "控制台輸出將顯示在此...",
+      "usageTitle": "使用說明",
+      "usageItems": [
+        "使用 console.log()、console.error()、console.warn() 輸出訊息",
+        "支援 ES6+ 語法（箭頭函數、解構、模板字串等）",
+        "支援異步操作（setTimeout、Promise 等）",
+        "代碼在沙箱環境中運行，無法訪問 DOM 和外部資源"
+      ]
+    },
+    "formValidationDemo": {
+      "title": "表單驗證演示",
+      "description": "展示完整的表單驗證功能，包括實時驗證、錯誤提示、數據清理等",
+      "validation": {
+        "username": "使用者名稱只能包含字母、數字和底線，長度3-20位",
+        "phone": "請輸入有效的手機號碼",
+        "age": "年齡必須在1-120之間",
+        "idCard": "請輸入有效的身份證號碼",
+        "address": "地址長度不能超過200字符",
+        "bio": "個人簡介長度不能超過500字符"
+      },
+      "submitSuccess": "表單驗證通過！提交的數據：",
+      "quickTestTitle": "快速驗證測試",
+      "quickLabels": {
+        "email": "郵箱驗證",
+        "phone": "手機號驗證",
+        "url": "URL驗證"
+      },
+      "quickPlaceholders": {
+        "email": "輸入郵箱地址",
+        "phone": "輸入手機號碼",
+        "url": "輸入網址"
+      },
+      "valid": "✅ 有效",
+      "invalid": "❌ 无效",
+      "formTitle": "完整表單驗證",
+      "placeholders": {
+        "username": "使用者名稱 （字母、數字、底線）",
+        "email": "郵箱地址",
+        "phone": "手機號碼",
+        "website": "個人網站 (可選)",
+        "age": "年齡",
+        "idCard": "身份證號碼",
+        "address": "詳細地址 (可選)",
+        "bio": "個人簡介 (可選，最多500字)"
+      },
+      "success": {
+        "username": "✓ 使用者名稱格式正確",
+        "email": "✓ 電子郵件格式正確",
+        "phone": "✓ 手機號格式正確",
+        "website": "✓ 網址格式正確",
+        "age": "✓ 年齡有效",
+        "idCard": "✓ 身份證格式正確",
+        "address": "✓ 地址有效",
+        "bio": "✓ 簡介有效"
+      },
+      "submit": "提交表單",
+      "summaryTitle": "驗證結果總結",
+      "fieldLabels": {
+        "username": "使用者名稱",
+        "email": "電子郵件",
+        "phone": "手機號碼",
+        "website": "網站",
+        "age": "年齡",
+        "idCard": "身份證",
+        "address": "地址",
+        "bio": "公伙伴繁認"
+      },
+      "summaryStatus": {
+        "failed": "❌ 验证失敗",
+        "passed": "✅ 验证造成",
+        "empty": "○ 未填入"
+      },
+      "infoTitle": "表单验证功能说本",
+      "infoItems": [
+        {
+          "title": "定时验证",
+          "description": "較时检查方式，失去炸灯时解析验证"
+        },
+        {
+          "title": "多种验证規則",
+          "description": "支持當需、長度、正前表計式、自動验证等"
+        },
+        {
+          "title": "角色迴魬",
+          "description": "通过順色、图檔、文字接入清重的验证状态"
+        },
+        {
+          "title": "整族模块",
+          "description": "自動模块平衡化与整理用户输入的数据"
+        },
+        {
+          "title": "错误提示",
+          "description": "提供可篡的错误信息，完全指导用户正確辞行"
+        },
+        {
+          "title": "无障碍支持",
+          "description": "確保表單對所有用戶都可用"
+        }
+      ]
+    },
+    "faviconGenerator": {
+      "title": "線上Favicon圖標生成",
+      "description": "將圖片轉換為網站Favicon圖標",
+      "historyTitle": "Favicon圖標生成",
+      "historyCategory": "圖片處理",
+      "uploadImageFile": "請上傳圖片文件",
+      "generateFailed": "生成圖標失敗，請重試",
+      "uploadTitle": "上傳圖片",
+      "uploadAria": "上傳圖片文件",
+      "dropzoneAria": "點擊上傳圖片，支援 PNG、JPG、SVG 等格式",
+      "dropRelease": "鬆開滑鼠上傳圖片",
+      "dropClick": "點擊或拖拽上傳圖片",
+      "supportFormats": "支援 PNG、JPG、SVG 等格式",
+      "clearImage": "清空圖片",
+      "clearImageTitle": "清除圖片 (Ctrl+L)",
+      "settingsTitle": "設定",
+      "removeBackground": "移除圖片背景色",
+      "removeColor": "要移除的顏色",
+      "removeColorPicker": "選擇要移除的背景顏色",
+      "removeColorValue": "要移除的背景顏色值",
+      "tolerance": "容差值: {{value}}",
+      "toleranceAria": "顏色容差值",
+      "toleranceTip": "容差越大，移除的顏色範圍越廣",
+      "transparentBackground": "透明背景",
+      "transparentTip": "⚠️ 注意：如果原圖本身有背景色，請勾選“移除圖片背景色”",
+      "backgroundColor": "背景顏色",
+      "backgroundColorPicker": "選擇背景顏色",
+      "backgroundColorValue": "背景顏色值",
+      "selectSize": "選擇尺寸",
+      "selectedState": "（已選中）",
+      "sizeAria": "{{size}}x{{size}}像素尺寸{{state}}",
+      "toggleSizeTitle": "切換{{size}}x{{size}}尺寸（Alt+{{shortcut}}）",
+      "previewTitle": "預覽",
+      "generating": "生成中...",
+      "downloadSizeAria": "下載{{size}}x{{size}}像素圖標",
+      "download": "下載",
+      "uploadFirst": "請先上傳圖片",
+      "downloadTitle": "下載",
+      "downloadAllPng": "下載所有尺寸 (PNG)",
+      "downloadAllPngTitle": "下載所有尺寸PNG文件 (Ctrl+Enter)",
+      "downloadIco": "下載 favicon.ico",
+      "downloadIcoTitle": "下載favicon.ico文件 (Alt+I)",
+      "usageTitle": "使用說明",
+      "usageItems": [
+        "移除背景色：可以去除圖片中的純色背景（如灰色、白色等）",
+        "容差值：調整容差可以移除相似的颜色，適合漸變背景",
+        "16x16：瀏覽器標籤頁圖示",
+        "32x32：工作列捷徑",
+        "48x48：Windows 網站捷徑",
+        "將生成的圖示放在網站根目錄"
+      ]
+    }
+  },
+  "components": {
+    "toolHistory": {
+      "usageCount": "Used {{count}} times",
+      "recentUsed": "Last used: {{value}}",
+      "removeFavorite": "从收藏中移除",
+      "addFavorite": "添加到收藏",
+      "removeRecord": "删除记录",
+      "emptyHistory": "尚无工具历史记录",
+      "confirmClear": "确定要清除所有工具历史记录吗？",
+      "tabs": {
+        "recent": "Recent",
+        "favorites": "Favorites",
+        "mostUsed": "最常用的"
+      },
+      "title": "工具历史",
+      "clearHistory": "清除历史",
+      "searchPlaceholder": "搜索历史...",
+      "emptyMessages": {
+        "recent": "没有最近的使用记录",
+        "favorites": "还没有收藏的工具",
+        "mostUsed": "No most-used tools yet"
+      }
+    },
+    "exportFormatSelector": {
+      "buttonText": "匯出結果",
+      "exporting": "匯出中...",
+      "exportFailed": "匯出失敗，請重試"
+    },
+    "ads": {
+      "loading": "載入廣告中...",
+      "carouselTitle": "廣告輪播",
+      "checkConsole": "請檢查瀏覽器控制台查看詳細日誌"
+    },
+    "networkStatus": {
+      "online": "上線",
+      "offline": "離線",
+      "connected": "網路已連接",
+      "disconnected": "網路已斷開",
+      "connectedDescription": "您現在可以正常使用所有功能",
+      "disconnectedDescription": "部分功能可能無法使用，請檢查網路連接",
+      "requestFailed": "請求失敗"
+    },
+    "keyboardShortcutsHelp": {
+      "title": "鍵盤快捷鍵",
+      "close": "關閉",
+      "toggleDescription": "顯示/隱藏快捷鍵幫助",
+      "helpTextBefore": "按下",
+      "helpTextMiddle": "或",
+      "helpTextAfter": "鍵可以顯示或隱藏此幫助",
+      "tipTitle": "提示",
+      "tipItems": [
+        "快捷鍵在不同作業系統上可能有不同的顯示方式",
+        "某些快捷鍵可能與瀏覽器快捷鍵衝突",
+        "使用 Tab 鍵可以在頁面元素間導航",
+        "按 Enter 鍵可以激活按鈕和鏈接"
+      ],
+      "closeEsc": "關閉 (ESC)"
+    },
+    "performanceDashboard": {
+      "title": "性能監控儀表板",
+      "startMonitoring": "開始監控",
+      "stopMonitoring": "停止監控",
+      "exportReport": "匯出報告",
+      "notMeasured": "未測量",
+      "metrics": {
+        "fcp": "首次內容繪製",
+        "lcp": "最大內容繪製",
+        "fid": "首次輸入延遲",
+        "cls": "累積佈局偏移",
+        "ttfb": "首字節時間"
+      },
+      "memoryTitle": "記憶體使用情況",
+      "memory": {
+        "used": "已用記憶體",
+        "total": "總記憶體",
+        "usageRate": "使用率"
+      },
+      "tipsTitle": "優化建議",
+      "tips": [
+        "監控期間請正常使用應用，數據將實時更新",
+        "FCP < 1.8s，LCP < 2.5s，FID < 100ms，CLS < 0.1 為優秀指標",
+        "記憶體使用率超過 80% 時建議優化程式碼",
+        "可以導出詳細報告進行深度分析"
+      ],
+      "emptyState": "點擊“開始監控”按鈕開始性能分析"
+    }
+  },
+  "kunqiongNav": {
+    "home": "首頁",
+    "aiTools": "AI工具",
+    "office": "辦公室",
+    "multimedia": "多媒體",
+    "development": "開發人員工具",
+    "text": "文本",
+    "file": "檔案",
+    "system": "系統",
+    "life": "生存",
+    "news": "AI新聞",
+    "custom": "自訂軟體",
+    "consult": "諮詢",
+    "industryNews": "行業新聞",
+    "feedback": "評價",
+    "imageGen": "圖片產生",
+    "codeDev": "程式碼與開發",
+    "logoAlt": "坤穹AI工具箱",
+    "footerLogoAlt": "Kunqiong AI",
+    "loginRegister": "登入 / 註冊",
+    "navExpandAria": "展開",
+    "navSearchAria": "搜尋",
+    "navMenuAria": "選單"
+  }
+}

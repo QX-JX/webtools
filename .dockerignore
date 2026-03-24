@@ -1,0 +1,60 @@
+# 依赖与构建产物（镜像内会重新安装/构建）
+node_modules
+**/node_modules
+dist
+**/dist
+electron/dist
+
+# 桌面端 Electron（Web Docker 不需要）
+electron
+
+# 仓库内其它副本、临时目录、历史备份
+webtools-minimal
+webtools-deploy
+project-backup
+bt-deploy
+temp_build
+webtools-docker
+desktop-to-web-migration
+i18n-rollout
+kunqiong-web-login
+
+# 仅开发/翻译/打包脚本，不参与 Docker 构建
+翻译脚本
+scripts
+pack.cjs
+pack.js
+create_update_zip.py
+
+# 编辑器与版本控制
+.git
+.gitignore
+.cursor
+.vscode
+.idea
+
+# 本地环境与密钥（如需构建变量请在服务器单独配置 .env.production）
+.env
+.env.local
+.env.*.local
+
+# 日志与系统文件
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# 测试与杂项
+coverage
+**/*.test.ts
+**/*.test.tsx
+**/*.spec.ts
+jest.config.js
+vite.test.config.ts
+test.html
+test.tsx
+test-silent-install.bat
+run.bat
+
+# Electron / 安装包输出
+dist-release-*

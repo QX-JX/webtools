@@ -1,0 +1,2730 @@
+{
+  "common": {
+    "home": "ホーム",
+    "websiteDetection": "ウェブサイトチェック",
+    "seoTools": "SEOツール",
+    "devTools": "開発者ツール",
+    "encodingConversion": "エンコード変換",
+    "otherTools": "その他のツール",
+    "feedback": "フィードバック",
+    "customization": "カスタムソリューション / お問い合わせ",
+    "back": "戻る",
+    "appName": "ワンストップWebマスターツール",
+    "brandName": "A Kunqiong製品",
+    "loading": "読み込み中...",
+    "processing": "処理中",
+    "processingDescription": "データを処理しています。お待ちください...",
+    "inProgress": "処理中",
+    "search": "ツールを検索...",
+    "my": "マイ",
+    "menu": "メニュー",
+    "settings": "設定",
+    "all": "すべて",
+    "category": "カテゴリ",
+    "noToolsFound": "一致するツールが見つかりません",
+    "recommended": "おすすめ",
+    "usageCount": "使用回数 {{count}} 回",
+    "toolsCount": "{{count}} 個のツール",
+    "export": "エクスポート",
+    "usageInstructions": "使い方の説明"
+  },
+  "auth": {
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "userInfo": "ユーザー情報",
+    "nickname": "ニックネーム",
+    "avatar": "アバター",
+    "user": "ユーザー",
+    "loggedIn": "ログイン済み",
+    "loggingOut": "ログアウト中...",
+    "loggingIn": "ログイン中...",
+    "loginInstructions": "ブラウザでログインを完了してください",
+    "cancelLogin": "ログインをキャンセル",
+    "loginFailed": "ログインに失敗しました",
+    "retry": "再試行",
+    "close": "閉じる",
+    "loginDescription": "下のボタンをクリックして、ブラウザでログインページを開いてください。ログインが完了したら、アプリは自動的にログイン状態を同期します。",
+    "loginTip": "ヒント: ログインプロセス中にブラウザを閉じないでください。",
+    "openBrowserLogin": "ブラウザでログイン",
+    "cancel": "キャンセル",
+    "loginReminder": "ログインのリマインダー",
+    "loginRequiredTitle": "ログインが必要です",
+    "loginRequiredDescription": "この機能を使用するにはログインが必要です。ログイン後、フルサービス体験をお楽しみいただけます。",
+    "loginActionDescription": "下のボタンをクリックしてログインページを開き、そこでログインを完了してください。",
+    "loginNow": "今すぐログイン",
+    "loginBenefit": "すべての機能を使うためにログイン",
+    "errors": {
+      "getLoginUrlFailed": "ログインURLの取得に失敗しました: {{message}}",
+      "getLoginUrlException": "ログインURLの取得中にエラーが発生しました: {{error}}",
+      "loginCancelled": "ログインがキャンセルされました",
+      "pollingAbnormal": "ポーリングが異常な応答を返しました: {{message}}",
+      "pollingFailed": "ポーリングに失敗しました: {{error}}",
+      "loginTimeout": "ログインタイムアウト",
+      "checkLoginStatusFailed": "ログイン状態の確認に失敗しました、ステータスコード: {{status}}",
+      "checkLoginException": "ログイン状態の確認中にエラーが発生しました",
+      "getUserInfoFailed": "ユーザー情報の取得に失敗しました: {{message}}",
+      "getUserInfoException": "ユーザー情報の取得中にエラーが発生しました: {{error}}",
+      "logoutFailed": "ログアウトに失敗しました: {{message}}",
+      "logoutException": "ログアウト中にエラーが発生しました: {{error}}",
+      "getFeedbackUrlFailed": "フィードバックURLの取得に失敗しました: {{message}}",
+      "getFeedbackUrlException": "フィードバックURLの取得中にエラーが発生しました: {{error}}"
+    }
+  },
+  "favorite": {
+    "add": "お気に入りに追加",
+    "remove": "お気に入りから削除",
+    "label": "お気に入り",
+    "failed": "操作に失敗しました"
+  },
+  "errors": {
+    "fetchCustomUrlFailed": "カスタムページURLの取得に失敗しました:",
+    "fetchFeedbackUrlFailed": "フィードバックページURLの取得に失敗しました:",
+    "copyFailed": "コピーに失敗しました",
+    "networkError": "ネットワーク接続エラー",
+    "somethingWentWrong": "何か問題が発生しました",
+    "unexpectedError": "申し訳ありません、予期しないエラーが発生しました",
+    "noData": "データがありません",
+    "noRelatedData": "関連データが見つかりません",
+    "noAds": "広告がありません",
+    "fetchAdsError": "広告の取得に失敗しました",
+    "lookupFailed": "検索に失敗しました"
+  },
+  "tools": {
+    "csr": {
+      "title": "CSRジェネレーター & ビューアー",
+      "description": "オンラインでCSRファイルを作成および表示"
+    },
+    "whois": {
+      "title": "ドメインWHOIS検索",
+      "description": "オンラインでWHOIS情報とドメイン登録情報を確認"
+    },
+    "dns": {
+      "title": "DNSレコード検索",
+      "description": "オンラインでDNSレコード(A、MX、CNAMEなど)を検索"
+    },
+    "dnsEnhanced": {
+      "title": "DNSレコード検索（拡張）",
+      "description": "大規模なレコードセット向けに最適化された仮想スクロール付きDNS検索"
+    },
+    "httpStatus": {
+      "title": "HTTPステータスチェッカー",
+      "description": "ウェブページのHTTPステータスコードを検査する無料のオンラインツール"
+    },
+    "gzip": {
+      "title": "GZIP圧縮チェック",
+      "description": "ウェブページがGZIP圧縮されているかを確認し、圧縮率を表示"
+    },
+    "ssl": {
+      "title": "SSL証明書チェック",
+      "description": "オンラインでSSL証明書の詳細と有効性を確認"
+    },
+    "browserInfo": {
+      "title": "ブラウザ情報",
+      "description": "現在のブラウザに関する詳細情報を表示する無料のツール"
+    },
+    "useragent": {
+      "title": "User-Agentアナライザー",
+      "description": "User-Agent文字列からブラウザとデバイス情報を分析"
+    },
+    "websocket": {
+      "title": "WebSocketテスター",
+      "description": "無料のオンラインWebSocket APIテストツール"
+    },
+    "viewSource": {
+      "title": "ページソースを表示",
+      "description": "オンラインでウェブページのソースコードを表示"
+    },
+    "metaGenerator": {
+      "title": "メタタグジェネレーター",
+      "description": "オンラインでウェブページのメタタグを生成"
+    },
+    "metaCheck": {
+      "title": "METAタグチェック",
+      "description": "ウェブページ上のMETAタグ情報を検査"
+    },
+    "robots": {
+      "title": "robots.txtジェネレーター",
+      "description": "オンラインでrobots.txtファイルを生成"
+    },
+    "emailEncrypt": {
+      "title": "メールアドレスエンコーダー",
+      "description": "メールアドレスを暗号化形式に変換してスクリーピングを減らす"
+    },
+    "phpReference": {
+      "title": "PHP関数リファレンス",
+      "description": "PHP関数のオンラインリファレンス一覧"
+    },
+    "htmlPreview": {
+      "title": "HTMLプレビュー",
+      "description": "オンラインHTML編集およびプレビューツール"
+    },
+    "jsDebug": {
+      "title": "JSデバッガー",
+      "description": "オンラインでJavaScriptを実行およびデバッグ"
+    },
+    "shieldBadge": {
+      "title": "Shieldバッジジェネレーター",
+      "description": "オンラインでSVG Shieldバッジを生成"
+    },
+    "favicon": {
+      "title": "Faviconジェネレーター",
+      "description": "安全なオンラインFavicon変換ツール"
+    },
+    "cssGlassmorphism": {
+      "title": "CSSガラスモーフィズジェネレーター",
+      "description": "1クリックでCSSガラスモーフィズコードを生成"
+    },
+    "cssNeumorphism": {
+      "title": "Neumorphism CSSジェネレーター",
+      "description": "1クリックでNeumorphism CSSスタイル例を生成"
+    },
+    "pxToRem": {
+      "title": "PXからREMコンバーター",
+      "description": "CSS内のPX単位を一括でREMに変換"
+    },
+    "cssBorderRadius": {
+      "title": "CSSボーダー半径ジェネレーター",
+      "description": "オンラインで丸い境界スタイルを調整"
+    },
+    "cssTextShadow": {
+      "title": "CSSテキストシャドウジェネレーター",
+      "description": "オンラインでCSSテキストシャドウコードをプレビューおよび生成"
+    },
+    "cssBoxShadow": {
+      "title": "ボックスシャドウジェネレーター",
+      "description": "divのシャドウを調整し、CSSコードを生成"
+    },
+    "base64": {
+      "title": "Base64エンコード/デコード",
+      "description": "オンラインBase64エンコードおよびデコードツール"
+    },
+    "urlEncode": {
+      "title": "URLエンコード/デコード",
+      "description": "オンラインURLエンコードおよびデコードツール"
+    },
+    "htmlEntity": {
+      "title": "HTMLエンティティエンコード/デコード",
+      "description": "オンラインHTMLエンティティエンコードおよびデコードツール"
+    },
+    "jsMinify": {
+      "title": "JSミニファイ & ビューティファイ",
+      "description": "オンラインJavaScriptミニファイおよびビューティファイツール"
+    },
+    "cssMinify": {
+      "title": "CSSミニファイ & ビューティファイ",
+      "description": "オンラインCSSミニファイおよびビューティファイツール"
+    },
+    "desktopShortcut": {
+      "title": "ウェブサイトデスクトップショートカット",
+      "description": "ウェブサイトのデスクトップショートカットを作成して素早くアクセス"
+    },
+    "pageRefresh": {
+      "title": "自動ページリフレッシュ",
+      "description": "スケジュールに従ってリモートウェブページをリフレッシュ"
+    },
+    "httpCodes": {
+      "title": "HTTPステータスコード",
+      "description": "HTTPステータス/レスポンスコードのオンラインリファレンス"
+    },
+    "workerDemo": {
+      "title": "Web Workerパフォーマンスデモ",
+      "description": "重いタスクでWeb Workersがパフォーマンスを向上させる様子を確認"
+    },
+    "formValidation": {
+      "title": "フォーム検証デモ",
+      "description": "リアルタイムフィードバック付きの完全なフォーム検証を示します"
+    }
+  },
+  "categories": {
+    "detection": "ウェブサイトチェック",
+    "seo": "SEOツール",
+    "dev": "開発者ツール",
+    "encode": "エンコードツール",
+    "other": "その他のツール"
+  },
+  "kunqiongNav": {
+    "home": "ホーム",
+    "aiTools": "AIツール",
+    "office": "オフィス",
+    "multimedia": "マルチメディア",
+    "development": "開発者ツール",
+    "text": "テキスト",
+    "file": "ファイル",
+    "system": "システム",
+    "life": "ライフ",
+    "news": "AIニュース",
+    "custom": "カスタムソフトウェア",
+    "consult": "コンサルティング",
+    "industryNews": "業界ニュース",
+    "feedback": "フィードバック",
+    "imageGen": "画像生成",
+    "codeDev": "コード＆開発",
+    "logoAlt": "Kunqiong AIツールボックス",
+    "footerLogoAlt": "Kunqiong AI",
+    "loginRegister": "ログイン / 登録",
+    "navExpandAria": "展開",
+    "navSearchAria": "検索",
+    "navMenuAria": "メニュー"
+  },
+  "footer": {
+    "description": "ウェブマスター向けのプロフェッショナルなワンストップツールボックスで、ウェブチェック、SEOツール、開発者ツールなど多数の機能を備えています。",
+    "kunqiongBrandDesc": "私たちは個人および企業に高品質なAIツールとコンサルティングサービスを提供することに取り組んでおり、人工知能時代において競争力を維持するお手伝いをいたします。",
+    "toolCategories": "ツールカテゴリ",
+    "quickLinks": "クイックリンク",
+    "contactTitle": "お問い合わせ",
+    "contactCompany": "江西省 HEXAGON STAR テクノロジー株式会社",
+    "contactPhone": "17770307066",
+    "contactRegion": "中国江西省上饶市",
+    "contactEmail": "11247931@qq.com",
+    "copyrightLine": "© 2026 Kunqiong AI Tools. すべての権利を保有します。",
+    "userAgreement": "利用規約",
+    "privacyPolicy": "プライバシーポリシー",
+    "brandAI": "Kunqiong AI製品",
+    "brandAlt": "Kunqiong"
+  },
+  "validation": {
+    "required": "{{field}}は必須です",
+    "minLength": "{{field}}は少なくとも{{count}}文字である必要があります",
+    "maxLength": "{{field}}は最大{{count}}文字までです",
+    "invalidFormat": "{{field}}の形式が無効です",
+    "email": "有効なメールアドレスを入力してください",
+    "url": "有効なURLを入力してください",
+    "domain": "有効なドメインを入力してください",
+    "ip": "有効なIPアドレスを入力してください",
+    "phone": "有効な電話番号を入力してください",
+    "password": "パスワードは大文字と小文字のアルファベットおよび数字を含み、6〜20文字である必要があります"
+  },
+  "exporter": {
+    "unsupportedFormat": "サポートされていないエクスポート形式: {{format}}",
+    "csvRequiresArrayOrObject": "CSVエクスポートには配列またはオブジェクトが必要です",
+    "toolUsageInfo": "ツール使用情報",
+    "tool": "ツール",
+    "time": "時間",
+    "url": "URL",
+    "version": "バージョン",
+    "dnsReportTitle": "DNSルックアップレポート",
+    "dnsReportDescription": "詳細なDNSレコード情報",
+    "summaryTitle": "概要",
+    "domain": "ドメイン",
+    "recordCount": "合計レコード数",
+    "recordCountValue": "{{count}}件のレコード",
+    "queryTime": "クエリ時間",
+    "typeDescriptions": {
+      "A": "IPv4アドレスレコード",
+      "AAAA": "IPv6アドレスレコード",
+      "MX": "メールサーバーレコード",
+      "TXT": "テキストレコード",
+      "CNAME": "別名レコード",
+      "NS": "ネームサーバーレコード",
+      "SOA": "権限レコード"
+    },
+    "record": "レコード",
+    "otherRecords": "他のレコード",
+    "recordIndex": "レコード {{index}}",
+    "priority": "優先度",
+    "class": "クラス",
+    "exportData": "エクスポートデータ",
+    "dnsToolName": "DNSルックアップツール",
+    "exportInfo": "エクスポート情報",
+    "exportTime": "エクスポート時間",
+    "formats": {
+      "json": "構造化データ形式で、プログラムが処理しやすい",
+      "csv": "スプレッドシート対応形式で、Excelへのインポートに適しています",
+      "txt": "プレーンテキスト形式で、読みやすさに最適",
+      "xml": "マークアップ形式で、データ交換に適しています",
+      "pdf": "ドキュメント形式で、印刷や共有に適しています"
+    }
+  },
+  "base64": {
+    "title": "Base64エンコード/デコード",
+    "description": "オンラインのBase64エンコード・デコードツール",
+    "encode": "エンコード",
+    "decode": "デコード",
+    "originalText": "元のテキスト",
+    "base64String": "Base64文字列",
+    "base64Result": "Base64結果",
+    "decodeResult": "デコード結果",
+    "placeholderEncode": "エンコードするテキストを入力してください...",
+    "placeholderDecode": "Base64をデコードするには入力してください...",
+    "resultPlaceholder": "結果はここに表示されます...",
+    "inputPlaceholder": "変換するコンテンツを入力してください",
+    "decodeError": "デコードに失敗しました。入力が有効なBase64かどうか確認してください。",
+    "encodeError": "エンコードに失敗しました",
+    "charCount": "{{count}}文字",
+    "clear": "入力をクリア",
+    "copy": "結果をコピー",
+    "copied": "コピーされました",
+    "convert": "今すぐ変換",
+    "swap": "モードを切り替える",
+    "ariaLabel": "Base64エンコード/デコードツール",
+    "modeSelection": "変換モードの選択",
+    "encodeMode": "エンコードモード",
+    "decodeMode": "デコードモード",
+    "inputLabelEncode": "エンコードするテキスト",
+    "inputLabelDecode": "デコードするBase64文字列",
+    "outputLabelEncode": "Base64エンコード結果",
+    "outputLabelDecode": "Base64デコード結果",
+    "whatIsBase64": "Base64とは何ですか？",
+    "base64Info": "Base64は、64の印刷可能な文字を使用してバイナリデータを表現する符号化方法です。URL、クッキー、ウェブページ、またはテキストベースのプロトコルで小さなバイナリデータを転送するために一般的に使用されます。"
+  },
+  "dns": {
+    "title": "DNSレコード照会",
+    "description": "オンラインでDNSレコード（A、MX、CNAMEなど）を照会",
+    "placeholder": "ドメインを入力してください。例: example.com",
+    "invalidDomain": "有効なドメイン形式を入力してください（例: example.com）",
+    "domainInput": "ドメイン入力",
+    "validFormat": "ドメイン形式が有効です",
+    "typeSelect": "DNSレコードタイプ",
+    "searchBtn": "DNSレコードを照会",
+    "loadingTitle": "DNSレコードを照会中",
+    "loadingDesc": "ドメインのDNSレコードを照会しています。しばらくお待ちください...",
+    "resultRegion": "DNS照会結果",
+    "recordCount": "{{count}}件のレコード",
+    "typeRecordRegion": "{{type}}レコード",
+    "querying": "DNSレコードを照会中",
+    "queryingDesc": "ドメインのDNSレコードを照会しています。しばらくお待ちください...",
+    "foundRecords": "{{count}}件のレコードが見つかりました",
+    "queryTime": "照会時間: {{time}}",
+    "export": "結果をエクスポート",
+    "noRecords": "DNSレコードが見つかりません",
+    "noRecordsDesc": "このドメインにはDNSレコードが見つかりませんでした",
+    "typeInfo": "DNSレコードタイプ",
+    "priority": "優先度: {{priority}}",
+    "types": {
+      "ALL": "すべて",
+      "A": "Aレコード",
+      "AAAA": "AAAAレコード",
+      "MX": "MXレコード",
+      "TXT": "TXTレコード",
+      "CNAME": "CNAMEレコード",
+      "NS": "NSレコード",
+      "SOA": "SOAレコード"
+    },
+    "typeDescs": {
+      "A": "IPv4アドレス",
+      "AAAA": "IPv6アドレス",
+      "MX": "メールサーバー",
+      "TXT": "テキストレコード",
+      "CNAME": "エイリアスレコード",
+      "NS": "名前サーバー",
+      "SOA": "権限の開始レコード"
+    },
+    "typeDetails": {
+      "A": "ドメインをIPv4アドレスにポイントします",
+      "AAAA": "ドメインをIPv6アドレスにポイントします",
+      "MX": "メールサーバーのアドレスを指定します。優先度は低い番号ほど高いです",
+      "TXT": "テキスト情報を格納し、通常SPFやDKIM検証に使用されます",
+      "CNAME": "ドメインを別のドメイン（エイリアス）にポイントします",
+      "NS": "ドメインのDNSサーバーを指定します"
+    }
+  },
+  "whois": {
+    "title": "WHOIS照会",
+    "description": "オンラインでWHOISおよび登録情報を探します",
+    "placeholder": "ドメインを入力してください。例: example.com",
+    "invalidDomain": "有効なドメイン形式を入力してください (例: example.com)",
+    "querying": "WHOIS情報の照会中",
+    "queryingDesc": "登録情報を取り込むためにしばらくお待ちください...",
+    "domainInfo": "ドメイン情報",
+    "registrar": "登録機関",
+    "creationDate": "作成日",
+    "expirationDate": "有効期限",
+    "updatedDate": "更新日",
+    "dnssec": "DNSSEC",
+    "dnssecDisabled": "無効",
+    "expired": "{{days}}日前に期限切れ",
+    "expiringSoon": "{{days}}日後に期限切れ",
+    "remaining": "{{days}}日残っています",
+    "dnsServer": "ネームサーバー",
+    "domainStatus": "ドメイン状態",
+    "registrantInfo": "登録者情報",
+    "name": "名前",
+    "organization": "組織",
+    "country": "国",
+    "email": "メール",
+    "noInfo": "関連する情報が見つかりません",
+    "domain": "ドメイン",
+    "rawData": "ロウデータ",
+    "toggleRawData": "ロウデータの展開または折りたたみ",
+    "copyRawData": "ロウデータをコピー",
+    "copy": "コピー",
+    "copied": "コピーされました",
+    "whatIsWhois": "WHOISとは何ですか？",
+    "about": "WHOISはドメイン登録データを照会するために使用されるプロトコルです。WHOIS照会を通じて、登録機関、登録日、有効期限、DNSサーバー、登録者情報などを見つけることができます。これはドメイン取引、ブランド保護、セキュリティ調査に役立ちます。"
+  },
+  "httpStatus": {
+    "title": "HTTPステータスチェッカー",
+    "description": "オンラインでHTTPステータスコードと応答情報をチェックします",
+    "placeholder": "URLを入力してください。例: https://example.com",
+    "check": "チェック",
+    "followRedirects": "リダイレクトを自動的にフォロー",
+    "urlEmpty": "URLを入力してください",
+    "checkFailed": "チェックに失敗しました",
+    "serverError": "サーバー接続に失敗しました、後ほど再試行してください",
+    "unknownStatus": "不明なステータス",
+    "responseTime": "応答時間",
+    "headers": "ヘッダー",
+    "redirectUrl": "リダイレクトURL",
+    "contentType": "コンテンツタイプ",
+    "contentLength": "コンテンツ長さ",
+    "server": "サーバー",
+    "showHeaders": "応答ヘッダーを表示",
+    "hideHeaders": "応答ヘッダーを非表示",
+    "status": {
+      "100": "継続",
+      "101": "プロトコルの切り替え",
+      "200": "OK",
+      "201": "作成されました",
+      "204": "コンテンツなし",
+      "301": "永続的なリダイレクト",
+      "302": "一時的なリダイレクト",
+      "304": "変更なし",
+      "307": "一時的なリダイレクト",
+      "308": "永続的なリダイレクト",
+      "400": "不正な要求",
+      "401": "認証されていません",
+      "403": "禁止されています",
+      "404": "見つかりません",
+      "405": "許可されていないメソッド",
+      "408": "要求タイムアウト",
+      "429": "要求が多すぎます",
+      "500": "内部サーバーエラー",
+      "502": "バッドゲートウェイ",
+      "503": "サービス不可",
+      "504": "ゲートウェイタイムアウト"
+    }
+  },
+  "browserInfo": {
+    "title": "ブラウザ情報",
+    "description": "現在のブラウザに関する詳細情報を表示します",
+    "os": "オペレーティングシステム",
+    "browser": "ブラウザ",
+    "version": "バージョン",
+    "engine": "エンジン",
+    "device": "デバイス",
+    "screen": "画面解像度",
+    "viewport": "ビューポートサイズ",
+    "language": "言語",
+    "timezone": "タイムゾーン",
+    "cookieEnabled": "クッキーが有効",
+    "online": "オンライン",
+    "cpu": "CPUアーキテクチャ",
+    "userAgent": "User-Agent",
+    "platform": "プラットフォーム",
+    "vendor": "ブラウザベンダー",
+    "languages": "サポートされている言語",
+    "cookie": "クッキー",
+    "onlineStatus": "オンライン状態",
+    "doNotTrack": "トラッキングを許可しない",
+    "touchPoints": "タッチポイント",
+    "enabled": "有効",
+    "disabled": "無効",
+    "offline": "オフライン",
+    "hardwareInfo": "ハードウェア情報",
+    "cpuCores": "CPUコア",
+    "cpuCoresValue": "{{count}}コア",
+    "deviceMemory": "デバイスメモリ",
+    "screenInfo": "スクリーン情報",
+    "availArea": "利用可能な領域",
+    "windowSize": "ウィンドウサイズ",
+    "pixelRatio": "デバイスピクセル比",
+    "colorDepth": "カラーデプス",
+    "screenOrientation": "スクリーン向き",
+    "unknown": "不明",
+    "basicInfo": "基本情報",
+    "networkInfo": "ネットワーク情報",
+    "networkType": "ネットワークタイプ",
+    "downlink": "ダウンリンク",
+    "rtt": "RTT",
+    "saveData": "データセーバー",
+    "batteryInfo": "バッテリー情報",
+    "batteryLevel": "バッテリー残量",
+    "chargingStatus": "充電状態",
+    "charging": "充電中",
+    "notCharging": "充電中ではありません",
+    "timezoneInfo": "タイムゾーン情報",
+    "utcOffset": "UTCオフセット"
+  },
+  "viewSource": {
+    "title": "ページソースを表示",
+    "description": "オンラインでウェブページのソースコードを表示します",
+    "placeholder": "URLを入力してください。例: https://example.com",
+    "fetch": "ソースを取得",
+    "urlEmpty": "URLを入力してください",
+    "fetchFailed": "ソースの取得に失敗しました",
+    "serverError": "サーバー接続に失敗しました",
+    "lineCount": "行数: {{count}}",
+    "copy": "ソースをコピー",
+    "clear": "クリア",
+    "usage1": "完全なウェブページのURLを入力してソースを取得してください",
+    "usage2": "任意の公開ウェブページのHTMLソースを表示できます",
+    "usage3": "ソースコードをコピーまたはダウンロードして分析できます",
+    "usage4": "一部のウェブサイトはセキュリティポリシーによりソース取得をブロックする場合があります"
+  },
+  "urlEncode": {
+    "title": "URLエンコーダー/デコーダー",
+    "description": "オンラインでのURLエンコードとデコードツール",
+    "encode": "エンコード",
+    "decode": "デコード",
+    "placeholder": "変換する内容を入力してください...",
+    "result": "結果",
+    "error": "エンコード/デコードに失敗しました"
+  },
+  "htmlEntity": {
+    "title": "HTMLエントリーエンコーダー/デコーダー",
+    "description": "オンラインHTMLエンティティエンコーダーおよびデコーダーツール",
+    "encode": "エンコード",
+    "decode": "デコード",
+    "placeholder": "変換するコンテンツを入力してください...",
+    "result": "結果"
+  },
+  "jsMinify": {
+    "title": "JS圧縮＆フォーマット",
+    "description": "オンラインJavaScriptコードの圧縮と整備ツール",
+    "minify": "圧縮",
+    "beautify": "整備",
+    "placeholder": "JavaScriptコードを貼り付けてください...",
+    "result": "処理結果",
+    "error": "コード処理に失敗しました"
+  },
+  "cssMinify": {
+    "title": "CSS圧縮＆フォーマット",
+    "description": "オンラインCSSコード圧縮＆整備ツール",
+    "minify": "圧縮",
+    "beautify": "整備",
+    "placeholder": "CSSコードを貼り付けてください...",
+    "result": "処理結果",
+    "error": "コード処理に失敗しました"
+  },
+  "pages": {
+    "sslCheck": {
+      "title": "SSL証明書チェック",
+      "description": "ドメインのSSL証明書の詳細および有効性を確認します",
+      "enterDomain": "ドメインを入力してください",
+      "checkFailed": "チェックに失敗しました",
+      "serverConnectionFailed": "サーバーに接続できませんでした。後ほど再試行してください",
+      "inputPlaceholder": "例: example.com",
+      "check": "チェック",
+      "statusExpired": "期限切れ",
+      "statusExpiringSoon": "近い将来期限切れ",
+      "statusValid": "有効",
+      "statusProblem": "証明書の問題",
+      "expiredDays": "{{count}}日前に期限切れ",
+      "remainingDays": "{{count}}日残っています",
+      "warning": "警告: {{message}}",
+      "protocol": "プロトコル",
+      "validityPeriod": "有効期間",
+      "validFrom": "有効開始日",
+      "validTo": "有効終了日",
+      "certificateInfo": "証明書情報",
+      "subject": "件名",
+      "issuer": "発行者",
+      "commonName": "共通名 (CN)",
+      "organization": "組織 (O)",
+      "organizationUnit": "組織部 (OU)",
+      "country": "国 (C)",
+      "subjectAltNames": "件名別名 (SAN) - {{count}}件",
+      "technicalDetails": "技術的詳細",
+      "serialNumber": "シリアル番号",
+      "fingerprintSha1": "フィンガープリント (SHA-1)",
+      "fingerprintSha256": "フィンガープリント (SHA-256)",
+      "cipherSuite": "暗号スイート",
+      "infoTitle": "SSL証明書の注意事項",
+      "infoItems": [
+        "SSL証明書はサーバーのアイデンティティを検証し、通信を暗号化します",
+        "定期的に有効期限を確認して、サービス停止を防ぎましょう",
+        "有効期限が近づいた証明書は早期に更新してください",
+        "SAN (Subject Alternative Name) は証明書でカバーされるドメインを示します"
+      ]
+    },
+    "gzipCheck": {
+      "title": "ウェブサイトのGzip圧縮チェック",
+      "description": "ウェブサイトがGzip / Deflate / Brotli圧縮をサポートしているかをチェックします",
+      "enterUrl": "URLを入力してください",
+      "checkFailed": "チェックに失敗しました",
+      "serverConnectionFailed": "サーバーに接続できませんでした。後ほど再試行してください",
+      "inputPlaceholder": "例: https://example.com",
+      "check": "チェック",
+      "enabled": "有効",
+      "disabled": "無効",
+      "compressionType": "圧縮タイプ: {{type}}",
+      "enableSuggestion": "Gzip圧縮を有効にして、転送サイズを減らし、読み込み速度を向上させましょう",
+      "supportTitle": "圧縮サポート",
+      "gzipDescription": "広く使われている標準的な圧縮",
+      "deflateDescription": "伝統的なHTTP圧縮アルゴリズム",
+      "brotliDescription": "より優れた圧縮比を持つ新しい圧縮方法",
+      "effectTitle": "圧縮効果",
+      "originalSize": "元のサイズ",
+      "compressedSize": "圧縮後のサイズ",
+      "ratio": "圧縮率",
+      "savedTransfer": "{{value}} の転送サイズを節約します",
+      "detailsTitle": "詳細",
+      "whyTitle": "なぜGzip圧縮を有効にするべきですか？",
+      "whyItems": [
+        "テキストリソースのサイズを通常60%〜80%まで削減できます",
+        "小さな転送は読み込み速度を向上させます",
+        "帯域使用量を減らします",
+        "パフォーマンスの向上はSEOやユーザー体験にも役立ちます"
+      ]
+    },
+    "dnsLookupEnhanced": {
+      "title": "拡張DNSレコード照会",
+      "description": "最適化された大規模な結果セットに対応したオンラインで複数のDNSレコードタイプを照会",
+      "enterDomain": "ドメインを入力してください",
+      "lookupFailed": "照会に失敗しました",
+      "serverConnectionFailed": "サーバーに接続できませんでした。後ほど再試行してください",
+      "inputPlaceholder": "例: example.com",
+      "lookup": "照会",
+      "priority": "優先度: {{value}}",
+      "dnsTypes": [
+        {
+          "value": "ALL",
+          "label": "すべて"
+        },
+        {
+          "value": "A",
+          "label": "Aレコード",
+          "desc": "IPv4アドレス"
+        },
+        {
+          "value": "AAAA",
+          "label": "AAAAレコード",
+          "desc": "IPv6アドレス"
+        },
+        {
+          "value": "MX",
+          "label": "MXレコード",
+          "desc": "メールサーバー"
+        },
+        {
+          "value": "TXT",
+          "label": "TXTレコード",
+          "desc": "テキストデータ"
+        },
+        {
+          "value": "CNAME",
+          "label": "CNAMEレコード",
+          "desc": "エイリアスレコード"
+        },
+        {
+          "value": "NS",
+          "label": "NSレコード",
+          "desc": "名前サーバー"
+        },
+        {
+          "value": "SOA",
+          "label": "SOAレコード",
+          "desc": "権限の開始"
+        }
+      ],
+      "foundRecords": "{{count}} 件のレコードが見つかりました",
+      "queryTime": "クエリ時間: {{time}}",
+      "virtualScrollEnabled": "仮想スクロールが有効です",
+      "recordCount": "{{count}} 件のレコード",
+      "virtualScrollTag": "最適化されたレンダリング",
+      "noRecords": "DNSレコードが見つかりません",
+      "performanceTitle": "パフォーマンスの最適化",
+      "performanceItems": [
+        "{{count}} 件のレコードでDNS検索を快適に保つための仮想レンダリング",
+        "表示されている行のみをレンダリングしてメモリ使用量を削減します",
+        "結果セットが大きい場合でもDOMの遅延を避けることができます",
+        "多くのレコードがある場合でも体験が快適です"
+      ]
+    },
+    "metaCheck": {
+      "title": "METAタグチェック",
+      "description": "ウェブページで使用されているMETAタグをチェックします",
+      "enterUrl": "ウェブサイトのURLを入力してください",
+      "checkFailed": "チェックに失敗しました",
+      "urlLabel": "ウェブサイトURL",
+      "inputPlaceholder": "example.com または https://example.com",
+      "check": "チェック",
+      "resultTitle": "チェック結果",
+      "totalCount": "{{count}} 個のMETAタグが見つかりました",
+      "groups": {
+        "pageTitle": "ページタイトル",
+        "httpEquiv": "HTTP-Equiv",
+        "charset": "文字セット",
+        "basicMeta": "基本的なMETA"
+      },
+      "emptyContent": "空",
+      "infoTitle": "概要",
+      "infoItems": [
+        "このツールはタイトルタグ、メタ名タグ、メタプロパティタグ（Open Graphなど）、メタhttp-equivタグをチェックします",
+        "ページのSEO関連メタデータを素早くレビューするのに役立ちます",
+        "欠落または重複するタグの問題も特定できます"
+      ]
+    },
+    "urlEncode": {
+      "title": "URLエンコード/デコード",
+      "description": "オンラインでURL文字列をエンコードまたはデコード",
+      "toolName": "URLエンコード/デコード",
+      "toolCategory": "エンコードツール",
+      "convertFailed": "変換に失敗しました。入力を確認してください",
+      "copyFailed": "結果のコピーに失敗しました",
+      "modeSelector": "モードを選択",
+      "typeSelector": "エンコードタイプ",
+      "encode": "エンコード",
+      "decode": "デコード",
+      "componentTitle": "URLコンポーネント",
+      "componentDescription": "URLの一部をエンコードする",
+      "fullTitle": "完全なURL",
+      "fullDescription": "全体のURLをエンコードする",
+      "inputEncodeLabel": "プレーンテキスト",
+      "inputDecodeLabel": "エンコードされたURL",
+      "clearInput": "入力をクリア",
+      "encodePlaceholder": "URLに変換するテキストを入力してください...",
+      "decodePlaceholder": "デコードするエンコード済みURLを入力してください...",
+      "outputEncodeLabel": "エンコード結果",
+      "outputDecodeLabel": "デコード結果",
+      "copyResult": "結果をコピー",
+      "resultPlaceholder": "変換結果がここに表示されます...",
+      "copied": "クリップボードにコピーされました",
+      "swap": "入れ替える",
+      "swapInputOutput": "入力と出力を交換",
+      "infoTitle": "エンコードモード",
+      "componentModeTitle": "コンポーネントモード",
+      "componentModeDescription": "クエリパラメータやパスセグメントなどの個別のURL部分に最適です。",
+      "componentExample": "例: hello world → hello%20world",
+      "fullModeTitle": "フルURLモード",
+      "fullModeDescription": "完全なURLをエンコードし、全体の構造を認識できるようにする場合に使用します。",
+      "fullExample": "例: https://example.com/路径 → https://example.com/%E8%B7%AF%E5%BE%84"
+    },
+    "htmlEntity": {
+      "title": "HTMLエンティティのエンコード/デコード",
+      "description": "オンラインでHTMLエンティティをエンコードまたはデコード",
+      "toolName": "HTMLエンティティのエンコード/デコード",
+      "toolCategory": "エンコードツール",
+      "convertFailed": "変換に失敗しました。入力を確認してください",
+      "copyFailed": "結果のコピーに失敗しました",
+      "modeSelector": "モードを選択",
+      "switchToEncode": "エンコードモードに切り替え (Alt+1)",
+      "switchToDecode": "デコードモードに切り替え (Alt+2)",
+      "encode": "エンコード",
+      "decode": "デコード",
+      "encodeAll": "すべての文字をエンコード",
+      "inputEncodeLabel": "プレーンテキスト",
+      "inputDecodeLabel": "HTMLエンティティ",
+      "clearInput": "入力をクリア (Ctrl+L)",
+      "encodePlaceholder": "HTMLエンティティに変換するテキストを入力してください...",
+      "decodePlaceholder": "デコードするHTMLエンティティを入力してください...",
+      "inputDescriptionEncode": "HTMLエンティティとしてエンコードしたいプレーンテキストを入力してください",
+      "inputDescriptionDecode": "デコードしたいHTMLエンティティを入力してください",
+      "outputEncodeLabel": "エンコード結果",
+      "outputDecodeLabel": "デコード結果",
+      "copyResult": "結果をコピー (Ctrl+C)",
+      "resultPlaceholder": "変換結果がここに表示されます...",
+      "outputDescriptionEncode": "生成されたHTMLエンティティ出力",
+      "outputDescriptionDecode": "デコードされたプレーンテキスト出力",
+      "copied": "クリップボードにコピーされました",
+      "executeEncode": "エンコード (Ctrl+Enter)",
+      "executeDecode": "デコード (Ctrl+Enter)",
+      "swap": "入れ替える",
+      "swapMode": "入力と出力を交換 (Ctrl+S)",
+      "commonEntities": "一般的なHTMLエンティティ",
+      "space": "(スペース)"
+    },
+    "jsMinify": {
+      "title": "JS圧縮 & ビューティファイ",
+      "description": "オンラインでJavaScriptコードを圧縮またはビューティファイ",
+      "toolName": "JavaScript圧縮 / ビューティファイ",
+      "toolNameHistory": "JS圧縮 & ビューティファイ",
+      "toolCategory": "開発者ツール",
+      "processFailed": "処理に失敗しました",
+      "copyFailed": "結果をクリップボードにコピーできませんでした",
+      "switchToMinify": "圧縮モードに切り替え",
+      "switchToMinifyTitle": "圧縮モードに切り替え (Alt+1)",
+      "switchToBeautify": "ビューティファイモードに切り替え",
+      "switchToBeautifyTitle": "ビューティファイモードに切り替え (Alt+2)",
+      "minify": "圧縮",
+      "beautify": "ビューティファイ",
+      "input": "入力",
+      "output": "出力",
+      "inputPlaceholder": "JavaScriptコードを入力してください...",
+      "inputAria": "JavaScript入力エディタ",
+      "inputTitle": "Ctrl+Enterで実行、Ctrl+Lでクリア",
+      "copyOutput": "出力をコピー",
+      "copyOutputTitle": "出力をコピー (Ctrl+C)",
+      "resultPlaceholder": "処理結果がここに表示されます...",
+      "outputAria": "JavaScript出力結果",
+      "executeMinify": "JavaScriptを圧縮",
+      "executeMinifyTitle": "JavaScriptを圧縮 (Ctrl+Enter)",
+      "executeBeautify": "JavaScriptをビューティファイ",
+      "executeBeautifyTitle": "JavaScriptをビューティファイ (Ctrl+Enter)",
+      "minifyCode": "コードを圧縮",
+      "beautifyCode": "コードをビューティファイ",
+      "swap": "入れ替える",
+      "swapTitle": "入力と出力を交換 (Ctrl+S)",
+      "clear": "クリア",
+      "clearTitle": "コンテンツをクリア (Ctrl+L)",
+      "copied": "クリップボードにコピーされました",
+      "infoTitle": "特徴",
+      "infoItems": [
+        "不要なスペースや改行を削除してJavaScriptファイルサイズを小さくします",
+        "ビューティファイモードでは圧縮されたコードが読みやすく保守しやすくなります",
+        "圧縮品質はJavaScriptパーサーおよび圧縮ライブラリの実装に依存します"
+      ]
+    },
+    "cssMinify": {
+      "title": "CSS圧縮 & ビューティファイ",
+      "description": "オンラインでCSSコードを圧縮またはビューティファイ",
+      "toolName": "CSS圧縮 & ビューティファイ",
+      "toolCategory": "開発者ツール",
+      "processFailed": "処理に失敗しました",
+      "copyFailed": "結果をクリップボードにコピーできませんでした",
+      "switchToMinify": "圧縮モードに切り替え",
+      "switchToMinifyTitle": "圧縮モードに切り替え (Alt+1)",
+      "switchToBeautify": "ビューティファイモードに切り替え",
+      "switchToBeautifyTitle": "ビューティファイモードに切り替え (Alt+2)",
+      "minify": "圧縮",
+      "beautify": "ビューティファイ",
+      "input": "入力",
+      "output": "出力",
+      "inputPlaceholder": "CSSコードを入力してください。\n\n例:\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 20px;\n}",
+      "inputAria": "CSS入力エディタ",
+      "inputTitle": "Ctrl+Enterで実行、Ctrl+Lでクリア",
+      "copyOutput": "出力をコピー",
+      "copyOutputTitle": "出力をコピー (Ctrl+C)",
+      "resultPlaceholder": "処理結果がここに表示されます...",
+      "outputAria": "CSS出力結果",
+      "executeMinify": "CSSを圧縮",
+      "executeMinifyTitle": "CSSを圧縮 (Ctrl+Enter)",
+      "executeBeautify": "CSSをビューティファイ",
+      "executeBeautifyTitle": "CSSをビューティファイ (Ctrl+Enter)",
+      "minifyCode": "コードを圧縮",
+      "beautifyCode": "コードをビューティファイ",
+      "swap": "入れ替える",
+      "swapTitle": "入力と出力を交換 (Ctrl+S)",
+      "clear": "クリア",
+      "clearTitle": "コンテンツをクリア (Ctrl+L)",
+      "copied": "クリップボードにコピーされました",
+      "infoTitle": "特徴",
+      "infoItems": [
+        "不要なスペースや改行を削除してファイルサイズを小さくします",
+        "ビューティファイモードでは圧縮されたコードが読みやすく編集しやすくなります",
+        "小さなCSSファイルはHTTP転送サイズを減らし、ロードパフォーマンスを向上させることができます"
+      ]
+    },
+    "httpCodes": {
+      "title": "HTTPステータスコード",
+      "description": "HTTPステータス/応答コードの参照",
+      "searchPlaceholder": "ステータスコードまたは説明を検索...",
+      "noMatch": "一致するステータスコードが見つかりません",
+      "infoTitle": "HTTPステータスコードの基本",
+      "infoItems": [
+        "1xx - 要求が受信され、処理中であることを示す情報的なレスポンス",
+        "2xx - 要求が受信され、理解され、受け入れられたことを示す成功レスポンス",
+        "3xx - 要求を完了するためにさらなるアクションが必要なリダイレクトレスポンス",
+        "4xx - 要求に不正な構文があるか、満たせないことを示すクライアントエラーのレスポンス",
+        "5xx - 有効な要求を満たせなかったサーバーエラーのレスポンス"
+      ],
+      "categories": [
+        {
+          "id": "all",
+          "name": "すべて",
+          "color": "bg-gray-100 text-gray-700"
+        },
+        {
+          "id": "1xx",
+          "name": "1xx 情報的",
+          "color": "bg-blue-100 text-blue-700"
+        },
+        {
+          "id": "2xx",
+          "name": "2xx 成功",
+          "color": "bg-green-100 text-green-700"
+        },
+        {
+          "id": "3xx",
+          "name": "3xx リダイレクト",
+          "color": "bg-yellow-100 text-yellow-700"
+        },
+        {
+          "id": "4xx",
+          "name": "4xx クライアントエラー",
+          "color": "bg-orange-100 text-orange-700"
+        },
+        {
+          "id": "5xx",
+          "name": "5xx サーバーエラー",
+          "color": "bg-red-100 text-red-700"
+        }
+      ],
+      "codes": [
+        {
+          "code": 100,
+          "name": "継続",
+          "desc": "要求の初期部分が受信され、クライアントは残りの送信を続ける必要があります。",
+          "category": "1xx"
+        },
+        {
+          "code": 101,
+          "name": "プロトコルの切り替え",
+          "desc": "サーバーはクライアントの要求に従ってプロトコルを切り替えることを同意しています。",
+          "category": "1xx"
+        },
+        {
+          "code": 102,
+          "name": "処理中",
+          "desc": "サーバーは要求を受信し、処理中ですが、まだ応答は利用できません。",
+          "category": "1xx"
+        },
+        {
+          "code": 200,
+          "name": "OK",
+          "desc": "要求が成功しました。通常、GETまたはPOST要求で使用されます。",
+          "category": "2xx"
+        },
+        {
+          "code": 201,
+          "name": "作成されました",
+          "desc": "要求が成功し、新しいリソースが作成されました。",
+          "category": "2xx"
+        },
+        {
+          "code": 202,
+          "name": "受け入れられました",
+          "desc": "要求は処理のために受け入れられましたが、まだ完了していません。",
+          "category": "2xx"
+        },
+        {
+          "code": 203,
+          "name": "非公式情報",
+          "desc": "応答のメタデータはローカルまたはサードパーティのコピーから取得され、元のサーバーからではありません。",
+          "category": "2xx"
+        },
+        {
+          "code": 204,
+          "name": "コンテンツなし",
+          "desc": "要求が成功しましたが、応答に本文はありません。",
+          "category": "2xx"
+        },
+        {
+          "code": 205,
+          "name": "コンテンツをリセット",
+          "desc": "要求が成功し、クライアントは現在のドキュメントビューをリセットする必要があります。",
+          "category": "2xx"
+        },
+        {
+          "code": 206,
+          "name": "部分的コンテンツ",
+          "desc": "範囲リクエストにより、サーバーはリソースの一部のみを返しています。",
+          "category": "2xx"
+        },
+        {
+          "code": 300,
+          "name": "複数の選択肢",
+          "desc": "クライアントが選ぶことができる複数の可能な表現を持つ要求されたリソースがあります。",
+          "category": "3xx"
+        },
+        {
+          "code": 301,
+          "name": "永続的に移動しました",
+          "desc": "要求されたリソースは新しいURIに永続的に移動しました。",
+          "category": "3xx"
+        },
+        {
+          "code": 302,
+          "name": "見つかりました",
+          "desc": "要求されたリソースは別のURIに一時的に配置されています。",
+          "category": "3xx"
+        },
+        {
+          "code": 303,
+          "name": "他のものを参照してください",
+          "desc": "要求への応答は、別のURIでGETを使用して見つかります。",
+          "category": "3xx"
+        },
+        {
+          "code": 304,
+          "name": "変更されていません",
+          "desc": "キャッシュされたリソースは変更されていないため、クライアントはローカルコピーを使用できます。",
+          "category": "3xx"
+        },
+        {
+          "code": 307,
+          "name": "一時的なリダイレクト",
+          "desc": "リソースは一時的にリダイレクトされており、元の要求方法を保持しなければなりません。",
+          "category": "3xx"
+        },
+        {
+          "code": 308,
+          "name": "永続的なリダイレクト",
+          "desc": "リソースは永続的に移動しており、元の要求方法を保持しなければなりません。",
+          "category": "3xx"
+        },
+        {
+          "code": 400,
+          "name": "不正なリクエスト",
+          "desc": "無効な構文のため、サーバーはリクエストを処理できません。",
+          "category": "4xx"
+        },
+        {
+          "code": 401,
+          "name": "認証が必要",
+          "desc": "要求を完了する前に認証が必要です。",
+          "category": "4xx"
+        },
+        {
+          "code": 402,
+          "name": "支払いが必要",
+          "desc": "今後使用するために予約されており、デジタル決済システムに関連することが多いです。",
+          "category": "4xx"
+        },
+        {
+          "code": 403,
+          "name": "アクセス拒否",
+          "desc": "サーバーはリクエストを理解していますが、認証を拒否しています。",
+          "category": "4xx"
+        },
+        {
+          "code": 404,
+          "name": "見つかりません",
+          "desc": "サーバーは要求されたリソースを見つけることができません。",
+          "category": "4xx"
+        },
+        {
+          "code": 405,
+          "name": "許可されていない方法",
+          "desc": "リクエスト方法は対象リソースで許可されていません。",
+          "category": "4xx"
+        },
+        {
+          "code": 406,
+          "name": "受け入れられません",
+          "desc": "サーバーはクライアントの受け入れ可能な形式に一致する応答を提供できません。",
+          "category": "4xx"
+        },
+        {
+          "code": 407,
+          "name": "プロキシ認証が必要",
+          "desc": "継続する前にクライアントはプロキシに自身を認証する必要があります。",
+          "category": "4xx"
+        },
+        {
+          "code": 408,
+          "name": "タイムアウト",
+          "desc": "サーバーがリクエストを待っている間にタイムアウトになりました。",
+          "category": "4xx"
+        },
+        {
+          "code": 409,
+          "name": "競合",
+          "desc": "リクエストは現在のターゲットリソースの状態と競合しています。",
+          "category": "4xx"
+        },
+        {
+          "code": 410,
+          "name": "存在しません",
+          "desc": "リソースはもはや利用できず、転送先のアドレスは知られていません。",
+          "category": "4xx"
+        },
+        {
+          "code": 411,
+          "name": "長さが必要",
+          "desc": "サーバーは有効なContent-Lengthヘッダーを必要としています。",
+          "category": "4xx"
+        },
+        {
+          "code": 412,
+          "name": "前条件失敗",
+          "desc": "リクエストヘッダー内の1つ以上の条件が偽 evaluated されました。",
+          "category": "4xx"
+        },
+        {
+          "code": 413,
+          "name": "ペイロードが大きすぎます",
+          "desc": "リクエストボディがサーバーが処理できるよりも大きいです。",
+          "category": "4xx"
+        },
+        {
+          "code": 414,
+          "name": "URIが長すぎます",
+          "desc": "要求されたURIがサーバーが処理できるよりも長いです。",
+          "category": "4xx"
+        },
+        {
+          "code": 415,
+          "name": "サポートされていないメディアタイプ",
+          "desc": "サーバーはリクエストで使用されたメディアタイプをサポートしていません。",
+          "category": "4xx"
+        },
+        {
+          "code": 418,
+          "name": "私はお茶パットです",
+          "desc": "サーバーがコーヒーを淹れるのを拒否していることを示すユーモラスなステータスコードです。",
+          "category": "4xx"
+        },
+        {
+          "code": 422,
+          "name": "処理不可能なエンティティ",
+          "desc": "サーバーはリクエストフォーマットを理解していますが、含まれる指示を処理できません。",
+          "category": "4xx"
+        },
+        {
+          "code": 429,
+          "name": "リクエストが多すぎます",
+          "desc": "クライアントが指定された時間内に多くのリクエストを送信しました。",
+          "category": "4xx"
+        },
+        {
+          "code": 451,
+          "name": "法的要因により利用不可",
+          "desc": "法的制限によりリソースが利用できません。",
+          "category": "4xx"
+        },
+        {
+          "code": 500,
+          "name": "内部サーバーエラー",
+          "desc": "要求を処理中に予期しないエラーが発生しました。",
+          "category": "5xx"
+        },
+        {
+          "code": 501,
+          "name": "実装されていません",
+          "desc": "要求を満たすために必要な機能をサーバーはサポートしていません。",
+          "category": "5xx"
+        },
+        {
+          "code": 502,
+          "name": "不良ゲートウェイ",
+          "desc": "ゲートウェイまたはプロキシサーバーが上流サーバーからの無効な応答を受け取りました。",
+          "category": "5xx"
+        },
+        {
+          "code": 503,
+          "name": "サービス利用不可",
+          "desc": "サーバーが一時的に要求を処理できず、通常は過負荷またはメンテナンスによるものです。",
+          "category": "5xx"
+        },
+        {
+          "code": 504,
+          "name": "ゲートウェイタイムアウト",
+          "desc": "ゲートウェイまたはプロキシサーバーが上流サーバーからのタイムリーな応答を受信しませんでした。",
+          "category": "5xx"
+        },
+        {
+          "code": 505,
+          "name": "HTTPバージョンがサポートされていません",
+          "desc": "サーバーはリクエストで使用されたHTTPプロトコルバージョンをサポートしていません。",
+          "category": "5xx"
+        }
+      ]
+    },
+    "phpReference": {
+      "title": "PHP関数リファレンス",
+      "description": "一般的なPHP関数の素早いリファレンス",
+      "searchPlaceholder": "関数名または説明を検索...",
+      "noMatch": "一致する関数は見つかりませんでした",
+      "infoTitle": "について",
+      "infoDescription": "このページでは、開発者向けの素早い参照用にカテゴリ別に一般的に使用されるPHP関数がリストアップされています。これは公式のPHPドキュメンテーションの代わりにはなりません。",
+      "categories": [
+        "すべて",
+        "文字列",
+        "配列",
+        "ファイル",
+        "日付/時刻",
+        "JSON",
+        "数学",
+        "その他"
+      ],
+      "functions": [
+        {
+          "name": "strlen",
+          "desc": "文字列の長さを取得する",
+          "syntax": "strlen(string $string): int",
+          "category": "文字列"
+        },
+        {
+          "name": "substr",
+          "desc": "文字列の一部を返す",
+          "syntax": "substr(string $string, int $offset, ?int $length = null): string",
+          "category": "文字列"
+        },
+        {
+          "name": "strpos",
+          "desc": "サブ文字列の最初の出現位置を見つける",
+          "syntax": "strpos(string $haystack, string $needle, int $offset = 0): int|false",
+          "category": "文字列"
+        },
+        {
+          "name": "str_replace",
+          "desc": "検索文字列のすべての出現を置換する",
+          "syntax": "str_replace(mixed $search, mixed $replace, mixed $subject): mixed",
+          "category": "文字列"
+        },
+        {
+          "name": "explode",
+          "desc": "区切り文字を使用して文字列を配列に分割する",
+          "syntax": "explode(string $separator, string $string, int $limit = PHP_INT_MAX): array",
+          "category": "文字列"
+        },
+        {
+          "name": "implode",
+          "desc": "配列の要素を文字列に結合する",
+          "syntax": "implode(string $separator, array $array): string",
+          "category": "文字列"
+        },
+        {
+          "name": "trim",
+          "desc": "文字列の両端から空白またはその他の文字を削除する",
+          "syntax": "trim(string $string, string $characters = \" \\n\\r\\t\\v\\x00\"): string",
+          "category": "文字列"
+        },
+        {
+          "name": "strtolower",
+          "desc": "文字列を小文字に変換する",
+          "syntax": "strtolower(string $string): string",
+          "category": "文字列"
+        },
+        {
+          "name": "strtoupper",
+          "desc": "文字列を大文字に変換する",
+          "syntax": "strtoupper(string $string): string",
+          "category": "文字列"
+        },
+        {
+          "name": "sprintf",
+          "desc": "形式化された文字列を返す",
+          "syntax": "sprintf(string $format, mixed ...$values): string",
+          "category": "文字列"
+        },
+        {
+          "name": "preg_match",
+          "desc": "正規表現によるマッチを実行する",
+          "syntax": "preg_match(string $pattern, string $subject, array &$matches = null): int|false",
+          "category": "文字列"
+        },
+        {
+          "name": "preg_replace",
+          "desc": "正規表現による検索と置換を実行する",
+          "syntax": "preg_replace(mixed $pattern, mixed $replacement, mixed $subject): mixed",
+          "category": "文字列"
+        },
+        {
+          "name": "count",
+          "desc": "配列またはCountableオブジェクトの要素数をカウントする",
+          "syntax": "count(Countable|array $value, int $mode = COUNT_NORMAL): int",
+          "category": "配列"
+        },
+        {
+          "name": "array_push",
+          "desc": "1つ以上の要素を配列の末尾に追加する",
+          "syntax": "array_push(array &$array, mixed ...$values): int",
+          "category": "配列"
+        },
+        {
+          "name": "array_pop",
+          "desc": "配列の最後の要素を削除する",
+          "syntax": "array_pop(array &$array): mixed",
+          "category": "配列"
+        },
+        {
+          "name": "array_merge",
+          "desc": "1つ以上の配列をマージする",
+          "syntax": "array_merge(array ...$arrays): array",
+          "category": "配列"
+        },
+        {
+          "name": "array_keys",
+          "desc": "配列のすべてのキーを返す",
+          "syntax": "array_keys(array $array, mixed $filter_value, bool $strict = false): array",
+          "category": "配列"
+        },
+        {
+          "name": "array_values",
+          "desc": "配列のすべての値を返す",
+          "syntax": "array_values(array $array): array",
+          "category": "配列"
+        },
+        {
+          "name": "in_array",
+          "desc": "配列に値が存在するか確認する",
+          "syntax": "in_array(mixed $needle, array $haystack, bool $strict = false): bool",
+          "category": "配列"
+        },
+        {
+          "name": "array_search",
+          "desc": "配列内で値を検索し、そのキーを返す",
+          "syntax": "array_search(mixed $needle, array $haystack, bool $strict = false): int|string|false",
+          "category": "配列"
+        },
+        {
+          "name": "array_map",
+          "desc": "配列の要素にコールバックを適用する",
+          "syntax": "array_map(?callable $callback, array $array, array ...$arrays): array",
+          "category": "配列"
+        },
+        {
+          "name": "array_filter",
+          "desc": "コールバックを使用して配列の要素をフィルタリングする",
+          "syntax": "array_filter(array $array, ?callable $callback = null, int $mode = 0): array",
+          "category": "配列"
+        },
+        {
+          "name": "sort",
+          "desc": "配列を昇順にソートする",
+          "syntax": "sort(array &$array, int $flags = SORT_REGULAR): bool",
+          "category": "配列"
+        },
+        {
+          "name": "usort",
+          "desc": "ユーザー定義の比較関数を使用して配列をソートする",
+          "syntax": "usort(array &$array, callable $callback): bool",
+          "category": "配列"
+        },
+        {
+          "name": "file_get_contents",
+          "desc": "ファイル全体を文字列に読み込む",
+          "syntax": "file_get_contents(string $filename, ...): string|false",
+          "category": "ファイル"
+        },
+        {
+          "name": "file_put_contents",
+          "desc": "データをファイルに書き込む",
+          "syntax": "file_put_contents(string $filename, mixed $data, int $flags = 0): int|false",
+          "category": "ファイル"
+        },
+        {
+          "name": "fopen",
+          "desc": "ファイルまたはURLを開く",
+          "syntax": "fopen(string $filename, string $mode, ...): resource|false",
+          "category": "ファイル"
+        },
+        {
+          "name": "fclose",
+          "desc": "開いているファイルポインタを閉じる",
+          "syntax": "fclose(resource $stream): bool",
+          "category": "ファイル"
+        },
+        {
+          "name": "fread",
+          "desc": "ファイルポインタから読み込む",
+          "syntax": "fread(resource $stream, int $length): string|false",
+          "category": "ファイル"
+        },
+        {
+          "name": "fwrite",
+          "desc": "ファイルポインタに書き込む",
+          "syntax": "fwrite(resource $stream, string $data, ?int $length = null): int|false",
+          "category": "ファイル"
+        },
+        {
+          "name": "file_exists",
+          "desc": "ファイルまたはディレクトリが存在するか確認する",
+          "syntax": "file_exists(string $filename): bool",
+          "category": "ファイル"
+        },
+        {
+          "name": "is_file",
+          "desc": "パスが通常のファイルであるか確認する",
+          "syntax": "is_file(string $filename): bool",
+          "category": "ファイル"
+        },
+        {
+          "name": "unlink",
+          "desc": "ファイルを削除する",
+          "syntax": "unlink(string $filename, ?resource $context = null): bool",
+          "category": "ファイル"
+        },
+        {
+          "name": "mkdir",
+          "desc": "ディレクトリを作成する",
+          "syntax": "mkdir(string $directory, int $permissions = 0777, bool $recursive = false): bool",
+          "category": "ファイル"
+        },
+        {
+          "name": "date",
+          "desc": "ローカルの日付と時間をフォーマットする",
+          "syntax": "date(string $format, ?int $timestamp = null): string",
+          "category": "日付/時間"
+        },
+        {
+          "name": "time",
+          "desc": "現在のUnixタイムスタンプを取得する",
+          "syntax": "time(): int",
+          "category": "日付/時間"
+        },
+        {
+          "name": "strtotime",
+          "desc": "テキスト形式の日時をUnixタイムスタンプに変換する",
+          "syntax": "strtotime(string $datetime, ?int $baseTimestamp = null): int|false",
+          "category": "日付/時間"
+        },
+        {
+          "name": "mktime",
+          "desc": "日付のUnixタイムスタンプを取得する",
+          "syntax": "mktime(int $hour, ?int $minute = null, ...): int|false",
+          "category": "日付/時間"
+        },
+        {
+          "name": "date_create",
+          "desc": "DateTimeオブジェクトを作成する",
+          "syntax": "date_create(string $datetime = \"now\", ?DateTimeZone $timezone = null): DateTime|false",
+          "category": "日付/時間"
+        },
+        {
+          "name": "json_encode",
+          "desc": "値をJSON文字列に変換する",
+          "syntax": "json_encode(mixed $value, int $flags = 0, int $depth = 512): string|false",
+          "category": "JSON"
+        },
+        {
+          "name": "json_decode",
+          "desc": "JSON文字列をPHP値に変換する",
+          "syntax": "json_decode(string $json, ?bool $associative = null, int $depth = 512): mixed",
+          "category": "JSON"
+        },
+        {
+          "name": "abs",
+          "desc": "絶対値を取得する",
+          "syntax": "abs(int|float $num): int|float",
+          "category": "数学"
+        },
+        {
+          "name": "ceil",
+          "desc": "小数点以下を切り上げる",
+          "syntax": "ceil(int|float $num): float",
+          "category": "数学"
+        },
+        {
+          "name": "floor",
+          "desc": "小数点以下を切り下げる",
+          "syntax": "floor(int|float $num): float",
+          "category": "数学"
+        },
+        {
+          "name": "round",
+          "desc": "数値を丸める",
+          "syntax": "round(int|float $num, int $precision = 0, int $mode = PHP_ROUND_HALF_UP): float",
+          "category": "数学"
+        },
+        {
+          "name": "max",
+          "desc": "最大値を求める",
+          "syntax": "max(mixed $value, mixed ...$values): mixed",
+          "category": "数学"
+        },
+        {
+          "name": "min",
+          "desc": "最小値を求める",
+          "syntax": "min(mixed $value, mixed ...$values): mixed",
+          "category": "数学"
+        },
+        {
+          "name": "rand",
+          "desc": "ランダムな整数を生成する",
+          "syntax": "rand(int $min, int $max): int",
+          "category": "数学"
+        },
+        {
+          "name": "isset",
+          "desc": "変数が設定されておりnullでないかを確認する",
+          "syntax": "isset(mixed $var, mixed ...$vars): bool",
+          "category": "その他"
+        },
+        {
+          "name": "empty",
+          "desc": "変数が空かどうかを確認する",
+          "syntax": "empty(mixed $var): bool",
+          "category": "その他"
+        },
+        {
+          "name": "var_dump",
+          "desc": "変数に関する情報をダンプする",
+          "syntax": "var_dump(mixed $value, mixed ...$values): void",
+          "category": "その他"
+        },
+        {
+          "name": "print_r",
+          "desc": "変数に関する人間が読める情報を表示する",
+          "syntax": "print_r(mixed $value, bool $return = false): string|bool",
+          "category": "その他"
+        },
+        {
+          "name": "gettype",
+          "desc": "変数の型を取得する",
+          "syntax": "gettype(mixed $value): string",
+          "category": "その他"
+        },
+        {
+          "name": "is_array",
+          "desc": "変数が配列かどうかを確認する",
+          "syntax": "is_array(mixed $value): bool",
+          "category": "その他"
+        },
+        {
+          "name": "is_string",
+          "desc": "変数が文字列かどうかを確認する",
+          "syntax": "is_string(mixed $value): bool",
+          "category": "その他"
+        },
+        {
+          "name": "is_numeric",
+          "desc": "変数が数値または数値文字列かどうかを確認する",
+          "syntax": "is_numeric(mixed $value): bool",
+          "category": "その他"
+        }
+      ]
+    },
+    "cssBorderRadius": {
+      "title": "CSS ボーダー半径ジェネレーター",
+      "description": "視覚的にボーダー半径の値を調整し、CSSコードを生成する",
+      "presetsLabel": "プリセット",
+      "preview": "プレビュー",
+      "settings": "設定",
+      "linked": "リンクされた角",
+      "unlinked": "個別角",
+      "corners": {
+        "topLeft": "左上",
+        "topRight": "右上",
+        "bottomLeft": "左下",
+        "bottomRight": "右下"
+      },
+      "elementColor": "要素の色",
+      "codeTitle": "CSSコード",
+      "copy": "コピー",
+      "copied": "コピー済み",
+      "presets": [
+        {
+          "name": "なし",
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "小",
+          "values": [
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "中",
+          "values": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "大",
+          "values": [
+            16,
+            16,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "円",
+          "values": [
+            50,
+            50,
+            50,
+            50
+          ]
+        },
+        {
+          "name": "カプセル",
+          "values": [
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "左側",
+          "values": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        {
+          "name": "右側",
+          "values": [
+            0,
+            16,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "上のみ",
+          "values": [
+            16,
+            16,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "下のみ",
+          "values": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "斜め",
+          "values": [
+            16,
+            0,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "葉っぱ",
+          "values": [
+            0,
+            50,
+            0,
+            50
+          ]
+        }
+      ]
+    },
+    "cssNeumorphism": {
+      "title": "ニューモーフィズム CSSジェネレーター",
+      "description": "オンラインでニューモーフィズムスタイルのCSSコードを生成する",
+      "previewText": "プレビュー ボタン",
+      "shapeTitle": "形状スタイル",
+      "shapeOptions": [
+        {
+          "value": "flat",
+          "label": "フラット"
+        },
+        {
+          "value": "concave",
+          "label": "凹型"
+        },
+        {
+          "value": "convex",
+          "label": "凸型"
+        },
+        {
+          "value": "pressed",
+          "label": "押された"
+        }
+      ],
+      "colorTitle": "カラーセッティング",
+      "presetColors": "プリセットカラー",
+      "colorPresets": [
+        {
+          "color": "#e0e5ec",
+          "name": "クラシック"
+        },
+        {
+          "color": "#f0f0f3",
+          "name": "ホワイト"
+        },
+        {
+          "color": "#d1d9e6",
+          "name": "ブルー"
+        },
+        {
+          "color": "#e8dfd5",
+          "name": "ベージュ"
+        },
+        {
+          "color": "#dfe6e9",
+          "name": "グレー"
+        },
+        {
+          "color": "#ffeaa7",
+          "name": "イエロー"
+        },
+        {
+          "color": "#dfe4ea",
+          "name": "スレート"
+        },
+        {
+          "color": "#f8e1e7",
+          "name": "ピンク"
+        },
+        {
+          "color": "#d5f5e3",
+          "name": "ミント"
+        },
+        {
+          "color": "#e8daef",
+          "name": "パープル"
+        }
+      ],
+      "backgroundColor": "ベースカラー",
+      "lightColor": "ライトカラー（ハイライト）",
+      "darkColor": "ダークカラー（シャドウ）",
+      "sliderTitle": "シャドウ設定",
+      "size": "サイズ",
+      "radius": "半径",
+      "distance": "シャドウ距離",
+      "blur": "シャドウぼかし",
+      "intensity": "強度",
+      "codeTitle": "CSSコード",
+      "copy": "コピー",
+      "copied": "コピー済み",
+      "infoTitle": "ニューモーフィズムとは？",
+      "infoDescription": "ネウモーフィズムは、要素を背景に浮き出たかのように見せるためのサブタイルなUIスタイルです。低コントラストのパレットとクリーンでミニマリストなレイアウトと組み合わせて最適です。"
+    },
+    "cssTextShadow": {
+      "title": "CSSテキストシャドウジェネレーター",
+      "description": "視覚的にテキストシャドウ値を調整し、CSSコードを生成します",
+      "defaultText": "テキストシャドウの例",
+      "presetsLabel": "プリセット効果",
+      "textSettings": "テキスト設定",
+      "previewText": "プレビュー文字列",
+      "fontSize": "フォントサイズ",
+      "textColor": "テキストカラー",
+      "shadowPrefix": "シャドウ {{index}}",
+      "offsetX": "Xオフセット",
+      "offsetY": "Yオフセット",
+      "blur": "ぼかし",
+      "opacity": "透明度",
+      "color": "色",
+      "addShadow": "シャドウ追加",
+      "codeTitle": "CSSコード",
+      "copy": "コピー",
+      "copied": "コピー済み",
+      "presets": [
+        {
+          "name": "ソフトシャドウ",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 2,
+              "y": 2,
+              "blur": 4,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        },
+        {
+          "name": "ネオングロー",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#00ff00",
+              "opacity": 0.8
+            }
+          ]
+        },
+        {
+          "name": "紫グロー",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 5,
+              "color": "#ff00ff",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#ff00ff",
+              "opacity": 0.8
+            },
+            {
+              "id": 3,
+              "x": 0,
+              "y": 0,
+              "blur": 20,
+              "color": "#ff00ff",
+              "opacity": 0.6
+            }
+          ]
+        },
+        {
+          "name": "レイヤード3D",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 1,
+              "y": 1,
+              "blur": 0,
+              "color": "#666666",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 2,
+              "y": 2,
+              "blur": 0,
+              "color": "#888888",
+              "opacity": 1
+            },
+            {
+              "id": 3,
+              "x": 3,
+              "y": 3,
+              "blur": 0,
+              "color": "#aaaaaa",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "name": "エンボス",
+          "shadows": [
+            {
+              "id": 1,
+              "x": -1,
+              "y": -1,
+              "blur": 1,
+              "color": "#ffffff",
+              "opacity": 0.8
+            },
+            {
+              "id": 2,
+              "x": 1,
+              "y": 1,
+              "blur": 1,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "websocketTest": {
+      "title": "オンラインWebSocketテストツール",
+      "description": "オンラインでWebSocket接続とメッセージングをテスト",
+      "defaultUrl": "wss://echo.websocket.org",
+      "connectingTo": "{{url}}に接続中...",
+      "connectSuccess": "正常に接続しました",
+      "connectError": "接続エラー",
+      "connectionClosed": "接続が閉じられました (コード: {{code}})",
+      "connectFailed": "接続失敗: {{message}}",
+      "disconnecting": "切断中...",
+      "urlPlaceholder": "WebSocket URLを入力してください。例: wss://echo.websocket.org",
+      "disconnect": "切断",
+      "connecting": "接続中...",
+      "connect": "接続",
+      "connected": "接続済み",
+      "notConnected": "接続されていません",
+      "messageLog": "メッセージログ",
+      "clear": "クリア",
+      "noMessages": "まだメッセージはありません",
+      "messagePlaceholder": "メッセージを入力してください... (Enterで送信、Shift+Enterで改行)",
+      "infoTitle": "WebSocketのヒント",
+      "infoItems": [
+        "組み込みのエコー機能は基本的な送受信テストに役立ちます",
+        "ws://およびwss://アドレスをサポートしています",
+        "Enterキーで送信、Shift+Enterで改行を挿入できます",
+        "ターゲットサービスがブラウザからのWebSocket接続を許可していることを確認してください"
+      ],
+      "examplesTitle": "よくある例",
+      "publicEcho": "公開エコーサービス",
+      "defaultTag": "デフォルト"
+    },
+    "csrGenerator": {
+      "title": "CSRジェネレーター＆ビューアー",
+      "description": "オンラインでCSRファイルを生成し、CSRの内容を解析します",
+      "enterDomain": "ドメインを入力してください",
+      "generateFailed": "CSRの生成に失敗しました",
+      "parseFailed": "CSRの解析に失敗しました",
+      "serverConnectionFailed": "サーバーに接続できませんでした。後ほど再度お試しください",
+      "tabs": {
+        "generate": "CSRを生成",
+        "view": "CSRを表示"
+      },
+      "formTitle": "証明書情報",
+      "labels": {
+        "commonName": "ドメイン (Common Name)",
+        "organization": "組織",
+        "organizationUnit": "部署",
+        "city": "都市",
+        "state": "州 / 県",
+        "country": "国 / 地域",
+        "email": "メールアドレス",
+        "keySize": "鍵サイズ"
+      },
+      "placeholders": {
+        "commonName": "例: www.example.com または *.example.com",
+        "organization": "例: Example Inc.",
+        "organizationUnit": "例: IT部門",
+        "city": "例: 北京",
+        "state": "例: 北京",
+        "email": "例: admin@example.com",
+        "csr": "-----BEGIN CERTIFICATE REQUEST-----から始まるCSRの内容を貼り付けてください"
+      },
+      "countries": [
+        {
+          "value": "CN",
+          "label": "CN - 中国"
+        },
+        {
+          "value": "US",
+          "label": "US - 米国"
+        },
+        {
+          "value": "JP",
+          "label": "JP - 日本"
+        },
+        {
+          "value": "KR",
+          "label": "KR - 韓国"
+        },
+        {
+          "value": "GB",
+          "label": "GB - 英国"
+        },
+        {
+          "value": "DE",
+          "label": "DE - ドイツ"
+        },
+        {
+          "value": "FR",
+          "label": "FR - フランス"
+        },
+        {
+          "value": "SG",
+          "label": "SG - シンガポール"
+        },
+        {
+          "value": "HK",
+          "label": "HK - 香港"
+        },
+        {
+          "value": "TW",
+          "label": "TW - 台湾"
+        }
+      ],
+      "keySizes": [
+        {
+          "value": "2048",
+          "label": "2048ビット（推奨）"
+        },
+        {
+          "value": "4096",
+          "label": "4096ビット（より安全）"
+        }
+      ],
+      "generating": "生成中...",
+      "generateAction": "CSRと秘密鍵を生成",
+      "csrRequest": "CSRリクエスト",
+      "privateKey": "秘密鍵（安全に保管してください）",
+      "copy": "コピー",
+      "copied": "コピー済み",
+      "download": "ダウンロード",
+      "privateKeyWarning": "秘密鍵は非常に機密性の高い情報です。安全に保管し、公開してはいけません。漏洩した場合、証明書のセキュリティが侵害される可能性があります。",
+      "inputCsr": "CSRコンテンツを貼り付け",
+      "parsing": "解析中...",
+      "parseAction": "CSRを解析",
+      "csrInfo": "CSR情報",
+      "infoItems": [
+        {
+          "label": "ドメイン (CN)",
+          "key": "commonName"
+        },
+        {
+          "label": "組織 (O)",
+          "key": "organization"
+        },
+        {
+          "label": "部署 (OU)",
+          "key": "organizationUnit"
+        },
+        {
+          "label": "都市 (L)",
+          "key": "city"
+        },
+        {
+          "label": "州 / 県 (ST)",
+          "key": "state"
+        },
+        {
+          "label": "国 (C)",
+          "key": "country"
+        },
+        {
+          "label": "メール",
+          "key": "email"
+        },
+        {
+          "label": "鍵アルゴリズム",
+          "key": "keyAlgorithm"
+        },
+        {
+          "label": "鍵サイズ",
+          "key": "keySize"
+        },
+        {
+          "label": "署名アルゴリズム",
+          "key": "signatureAlgorithm"
+        }
+      ],
+      "keySizeValue": "{{value}}ビット",
+      "aboutTitle": "CSRとは何ですか？",
+      "aboutDescription": "CSR（証明書署名要求）は、SSL/TLS証明書を申請する際に証明書認証局（CA）に送信される符号化されたファイルです。これは、ドメインや組織に関する情報、および秘密鍵に対応する公開鍵を含んでいます。検証後、CAはCSRを使用してSSL証明書を発行します。"
+    },
+    "metaGenerator": {
+      "title": "メタタグジェネレーター",
+      "description": "SEO対応のウェブページメタタグを生成",
+      "basicInfo": "基本情報",
+      "socialMedia": "ソーシャルメディア（Open Graph）",
+      "generatedCode": "生成されたコード",
+      "copy": "コピー",
+      "copied": "コピーしました",
+      "searchPreview": "検索プレビュー",
+      "searchPreviewTitleFallback": "ページタイトル",
+      "searchPreviewDescriptionFallback": "ここにページの説明が表示されます...",
+      "socialPreview": "ソーシャルプレビュー",
+      "socialPreviewTitleFallback": "タイトル",
+      "socialPreviewDescriptionFallback": "説明",
+      "labels": {
+        "title": "ページタイトル",
+        "description": "ページの説明",
+        "keywords": "キーワード",
+        "author": "著者",
+        "robots": "ロボット指令",
+        "ogTitle": "OGタイトル",
+        "ogDescription": "OG説明",
+        "ogImage": "OG画像URL",
+        "ogUrl": "ページURL",
+        "twitterCard": "ツイッターカードタイプ"
+      },
+      "placeholders": {
+        "title": "ページタイトルを入力してください",
+        "description": "150文字以内でページの説明を入力してください",
+        "keywords": "キーワード1, キーワード2, キーワード3",
+        "author": "著者名を入力してください",
+        "ogTitle": "ソーシャル共有用タイトルを入力してください",
+        "ogDescription": "ソーシャル共有用説明を入力してください",
+        "ogImage": "https://example.com/image.jpg",
+        "ogUrl": "https://example.com/page"
+      },
+      "robotsOptions": [
+        {
+          "value": "index, follow",
+          "label": "インデックスを許可し、リンクをたどります"
+        },
+        {
+          "value": "index, nofollow",
+          "label": "インデックスを許可し、リンクをたどりません"
+        },
+        {
+          "value": "noindex, follow",
+          "label": "インデックスを禁止し、リンクをたどります"
+        },
+        {
+          "value": "noindex, nofollow",
+          "label": "インデックスを禁止し、リンクをたどりません"
+        }
+      ],
+      "twitterOptions": [
+        {
+          "value": "summary",
+          "label": "要約"
+        },
+        {
+          "value": "summary_large_image",
+          "label": "大画像"
+        },
+        {
+          "value": "player",
+          "label": "プレイヤー"
+        }
+      ]
+    },
+    "toolHistoryDemo": {
+      "confirmClear": "すべてのツール履歴とお気に入りを削除してもよろしいですか？",
+      "exportTitle": "データのエクスポート",
+      "usageCount": "使用回数 {{count}} 回",
+      "lastUsed": "最終使用日: {{time}}",
+      "favorite": "お気に入り: {{value}}",
+      "yes": "はい",
+      "no": "いいえ",
+      "exportFailed": "エクスポート失敗",
+      "tabs": {
+        "overview": "概要",
+        "history": "履歴",
+        "favorites": "お気に入り",
+        "analytics": "分析"
+      },
+      "loading": "ツール履歴データを読み込んでいます...",
+      "loadFailed": "読み込み失敗: {{error}}",
+      "title": "ツール履歴デモ",
+      "description": "ツール使用履歴、お気に入り、および分析を示します",
+      "export": "エクスポート",
+      "clear": "クリア",
+      "searchPlaceholder": "ツールを検索...",
+      "stats": {
+        "totalTools": "合計ツール数",
+        "totalUsage": "合計使用回数",
+        "favoriteTools": "お気に入りツール",
+        "averageUsage": "平均使用回数"
+      },
+      "favoriteToolsTitle": "お気に入りツール",
+      "favoriteToolsDescription": "あなたがお気に入りとしてマークしたツール",
+      "noFavoriteTools": "まだお気に入りツールはありません",
+      "mostUsed": "最も使用されたツール",
+      "timesUsed": "使用回数 {{count}} 回",
+      "recentActivity": "最近のアクティビティ",
+      "exportDialogTitle": "ツール履歴のエクスポート",
+      "exportDialogDescription": "エクスポート形式を選択してください",
+      "formats": {
+        "json": {
+          "title": "JSON形式",
+          "description": "バックアップや開発者向けに最適です"
+        },
+        "csv": {
+          "title": "CSV形式",
+          "description": "Excelなどのスプレッドシートに最適です"
+        },
+        "txt": {
+          "title": "TXT形式",
+          "description": "単純なテキストの要約"
+        }
+      },
+      "cancel": "キャンセル"
+    },
+    "userAgentParser": {
+      "title": "User-Agentパーサー",
+      "description": "User-Agent文字列を解析してブラウザ、システム、デバイス情報を識別します",
+      "label": "User-Agent文字列",
+      "useCurrent": "現在のブラウザを使用",
+      "inputPlaceholder": "User-Agent文字列を入力してください...",
+      "parse": "解析",
+      "unknownBrowser": "不明なブラウザ",
+      "unknown": "不明",
+      "deviceTypes": {
+        "mobile": "モバイル",
+        "tablet": "タブレット",
+        "desktop": "デスクトップ"
+      },
+      "browserInfo": "ブラウザ情報",
+      "browser": "ブラウザ",
+      "version": "バージョン",
+      "majorVersion": "メジャーバージョン",
+      "operatingSystem": "オペレーティングシステム",
+      "system": "システム",
+      "deviceInfo": "デバイス情報",
+      "type": "タイプ",
+      "vendor": "ベンダー",
+      "model": "モデル",
+      "engineAndCpu": "エンジン & CPU",
+      "engine": "エンジン",
+      "engineVersion": "エンジンバージョン",
+      "cpuArchitecture": "CPUアーキテクチャ",
+      "examplesTitle": "例のUser-Agent文字列"
+    },
+    "cssBoxShadow": {
+      "title": "DIVボックスシャドウジェネレーター",
+      "description": "視覚的にボックスシャドウ値を調整し、CSSコードを生成します",
+      "preview": "プレビュー",
+      "basicSettings": "基本設定",
+      "backgroundColor": "背景色",
+      "boxColor": "ボックスの色",
+      "borderRadius": "角丸",
+      "shadowPrefix": "シャドウ {{index}}",
+      "inset": "インセット",
+      "offsetX": "Xオフセット",
+      "offsetY": "Yオフセット",
+      "blur": "ぼかし",
+      "spread": "スプレッド",
+      "opacity": "透明度",
+      "color": "色",
+      "addShadow": "シャドウを追加",
+      "codeTitle": "CSSコード",
+      "copy": "コピー",
+      "copied": "コピーしました"
+    },
+    "cssGlassmorphism": {
+      "title": "CSSグラスモーフィズムジェネレーター",
+      "description": "オンラインでグラスモーフィズムスタイルのCSSコードを生成します",
+      "cardTitle": "グラスモーフィズムカード",
+      "cardDescription": "グラスモーフィズムは、透過性、ぼかし、ソフトな境界を使ってフォーストグラス効果を作成する現代的なUIスタイルです。",
+      "adjustTitle": "設定を調整",
+      "blur": "背景ぼかし",
+      "transparency": "透過性",
+      "saturation": "サチュレーション",
+      "borderRadius": "角丸",
+      "borderOpacity": "境界の透明度",
+      "codeTitle": "CSSコード",
+      "copy": "コピー",
+      "copied": "コピーしました",
+      "infoTitle": "互換性に関する注意事項",
+      "infoDescription": "backdrop-filterプロパティは現代のブラウザでのみサポートされています。Firefoxでは追加の設定が必要な場合があります。Safariでは-webkit-接頭辞が必要な場合があります。非対応ブラウザには柔軟なフォールバックを考慮してください。"
+    },
+    "desktopShortcut": {
+      "title": "ウェブサイトのデスクトップショートカット",
+      "description": "デスクトップ用のウェブサイトのショートカットを作成し、素早く起動できます",
+      "enterUrl": "有効なウェブサイトのURLを入力してください",
+      "enterName": "ショートカット名を入力してください",
+      "redirectingTo": "{{name}}を開いています...",
+      "urlLabel": "ウェブサイトURL",
+      "urlPlaceholder": "example.com または https://example.com",
+      "nameLabel": "ショートカット名",
+      "namePlaceholder": "ウェブサイトのショートカット",
+      "downloadUrlFile": ".urlファイルをダウンロード",
+      "downloadHtmlFile": ".htmlファイルをダウンロード",
+      "infoTitle": "手順",
+      "urlFileDesc": ".urlファイルはWindowsインターネットショートカットファイルであり、通常、デフォルトのブラウザで直接ターゲットウェブサイトを開きます。",
+      "htmlFileDesc": ".htmlファイルはWindows、macOS、Linuxで動作し、シンプルなウェブサイトのショートカットとしても使用できます。",
+      "afterDownload": "ダウンロード後、ファイルをデスクトップに移動するか、必要な場所にピン留めしてください。"
+    },
+    "htmlPreview": {
+      "title": "HTMLプレビュー",
+      "description": "オンラインでHTMLを編集してプレビュー",
+      "defaultMessage": "HTMLプレビューツールへようこそ",
+      "editorTitle": "HTMLコード",
+      "clear": "クリア",
+      "editorPlaceholder": "HTMLコードを入力してください...",
+      "previewTitle": "プレビュー",
+      "run": "実行",
+      "fullscreen": "フルスクリーン",
+      "exitFullscreen": "フルスクリーンから退出",
+      "usageTitle": "使い方",
+      "usageItems": [
+        "左側のエディタで完全なHTMLコードを入力してください",
+        "結果をプレビューするには「実行」をクリックしてください",
+        "インラインCSSおよびJavaScriptがサポートされています",
+        "コードはセキュリティのためにサンドボックス内で実行されます"
+      ]
+    },
+    "pageRefresh": {
+      "title": "自動ページ更新",
+      "description": "オンラインでウェブページを自動的に更新",
+      "urlRequired": "URLを入力してください",
+      "urlPlaceholder": "URLを入力してください。例: https://example.com",
+      "seconds": "秒",
+      "start": "開始",
+      "stop": "停止",
+      "quickSet": "クイック設定:",
+      "secondsValue": "{{count}}秒",
+      "minutesValue": "{{count}}分",
+      "running": "実行中",
+      "refreshIn": "{{count}}秒後に更新",
+      "refreshedCount": "更新回数: {{count}}回",
+      "lastRefresh": "最終更新: {{time}}",
+      "previewTitle": "ページプレビュー",
+      "previewPlaceholder": "プレビューを開始するにはURLを入力してください",
+      "usageTitle": "使い方",
+      "usageItems": [
+        "ウェブページのURLと更新間隔を入力してください",
+        "開始をクリックして自動更新を開始してください",
+        "セキュリティポリシーにより、一部のウェブサイトはiframe内では表示されない場合があります",
+        "ページ変更の監視やセッションの有効化に役立ちます"
+      ]
+    },
+    "pxToRem": {
+      "title": "PXからREMコンバーター",
+      "description": "CSSコード内のPX単位を一括でREM単位に変換",
+      "baseFontSize": "ルートフォントサイズ",
+      "precision": "小数点精度",
+      "precisionOptions": {
+        "2": "2桁",
+        "3": "3桁",
+        "4": "4桁",
+        "5": "5桁"
+      },
+      "inputLabel": "入力CSSコード",
+      "convertToRem": "PXからREM",
+      "convertToPx": "REMからPX",
+      "outputLabel": "結果",
+      "copy": "コピー",
+      "copied": "コピーしました",
+      "outputPlaceholder": "変換結果がここに表示されます...",
+      "quickReferenceTitle": "クイックリファレンス (ベース: {{baseSize}}px)",
+      "whyUseRem": "なぜREMを使用するのか？",
+      "infoItems": [
+        "REMはルート(html)フォントサイズに基づいています",
+        "REMを使用すると、サイト全体のテキストサイズを簡単にスケーリングできます",
+        "レスポンシブデザインとアクセシビリティに役立ちます"
+      ],
+      "formula": "式: rem = px / {{baseSize}}"
+    },
+    "shieldBadge": {
+      "title": "シールドバッジジェネレータ",
+      "description": "オンラインでSVGシールドバッジを作成",
+      "downloadFailed": "ダウンロードに失敗しました。後ほど再試行してください",
+      "basicSettings": "基本設定",
+      "labelField": "ラベル",
+      "messageField": "メッセージ",
+      "color": "色",
+      "style": "スタイル",
+      "logoSettings": "ロゴ設定",
+      "logo": "ロゴ",
+      "none": "なし",
+      "logoColor": "ロゴの色",
+      "preview": "プレビュー",
+      "downloadSvg": "SVGをダウンロード",
+      "codeTitle": "コード",
+      "copiedToClipboard": "クリップボードにコピーされました"
+    },
+    "robotsGenerator": {
+      "title": "robots.txtジェネレータ",
+      "description": "オンラインでrobots.txtファイルを作成",
+      "templatesLabel": "クイックテンプレート:",
+      "templates": {
+        "allowAll": "すべて許可",
+        "blockAll": "すべてブロック",
+        "standard": "標準設定"
+      },
+      "ruleTitle": "ルール {{index}}",
+      "userAgents": {
+        "all": "* (すべてのクローラー)",
+        "baidu": "Baiduspider (百度)",
+        "sogou": "Sogou"
+      },
+      "disallow": "ブロックするパス",
+      "allow": "許可するパス",
+      "add": "追加",
+      "addRule": "ルールを追加",
+      "otherSettings": "その他の設定",
+      "sitemapUrl": "サイトマップURL",
+      "crawlDelay": "クロール遅延 (秒)",
+      "preview": "robots.txtプレビュー",
+      "copy": "コピー",
+      "copied": "コピーしました",
+      "saveTip": "このファイルをrobots.txtとして保存し、ウェブサイトのルートディレクトリに配置してください"
+    },
+    "emailEncrypt": {
+      "title": "メールアドレスエンコーダ",
+      "description": "ロボットによるスパム収集を減らすためにメールアドレスを暗号化",
+      "inputLabel": "メールアドレス",
+      "copy": "コピー",
+      "copied": "コピーしました",
+      "infoTitle": "メールアドレスを暗号化する理由",
+      "infoItems": [
+        "スパム用にロボットがメールアドレスを収集するリスクを減らします",
+        "暗号化されたメールアドレスはブラウザで表示可能ですが、ロボットによる検出が難しくなります",
+        "複数の暗号化方法を組み合わせてより強力な保護が可能です",
+        "サーバーサイドのアンチスパム対策も推奨されます"
+      ],
+      "results": {
+        "unicodeDecimal": {
+          "name": "Unicode十進法",
+          "description": "文字を十進Unicodeエンティティに変換"
+        },
+        "unicodeHex": {
+          "name": "Unicode十六進法",
+          "description": "文字を十六進Unicodeエンティティに変換"
+        },
+        "javascript": {
+          "name": "JavaScript出力",
+          "description": "JavaScriptでメールを動的に表示"
+        },
+        "mailto": {
+          "name": "メールリンク",
+          "description": "暗号化されたmailtoリンクを生成"
+        },
+        "cssReverse": {
+          "name": "CSS逆表示",
+          "description": "CSSを使ってテキストを逆順に表示"
+        }
+      }
+    },
+    "workerDemo": {
+      "title": "Web Workerパフォーマンスデモ",
+      "description": "Web Workerとメインスレッドの計算パフォーマンスを比較",
+      "invalidInteger": "有効な正の整数を入力してください",
+      "workerError": "Worker計算エラー:",
+      "notice": "注意",
+      "settingsTitle": "計算設定",
+      "inputLabel": "入力値",
+      "inputPlaceholder": "正の整数を入力してください",
+      "operationLabel": "操作",
+      "operations": {
+        "factorial": "階乗 (n!)",
+        "fibonacci": "フィボナッチ数列",
+        "prime": "素数チェック",
+        "factorization": "素因数分解"
+      },
+      "workerCalculate": "Web Workerで計算",
+      "mainThreadCalculate": "メインスレッドで計算",
+      "comparisonTitle": "パフォーマンス比較",
+      "workerResult": "Web Worker結果",
+      "mainThreadResult": "メインスレッド結果",
+      "resultLabel": "結果:",
+      "timeLabel": "計算時間:",
+      "calculating": "計算中...",
+      "emptyState": "上記のボタンをクリックして計算を開始してください",
+      "infoTitle": "なぜWeb Workerを使用するのか？",
+      "workerFeaturesTitle": "Web Workerの特徴",
+      "workerFeatures": [
+        "メインスレッドをブロックせずにバックグラウンドスレッドで実行",
+        "重い計算処理に適しています",
+        "UIが応答性を保つことができます",
+        "並列処理をサポートしています"
+      ],
+      "useCasesTitle": "使用ケース",
+      "useCases": [
+        "大規模なデータ処理",
+        "複雑なアルゴリズム",
+        "画像処理",
+        "暗号化と復号化"
+      ]
+    },
+    "jsDebug": {
+      "title": "JSデバッガー",
+      "description": "オンラインでJavaScriptを実行してデバッグ",
+      "defaultCode": "// ここにJavaScriptコードを記述してください\nconsole.log(\"Hello, World!\");\n\n// 例: 配列操作\nconst numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(n => n * 2);\nconsole.log(\"元の配列:\", numbers);\nconsole.log(\"倍にした後:\", doubled);\n\n// 例: オブジェクト\nconst user = {\n  name: \"張三\",\n  age: 25,\n  city: \"北京\"\n};\nconsole.log(\"ユーザー情報:\", user);\n\n// 例: 非同期操作\nsetTimeout(() => {\n  console.log(\"1秒後に実行\");\n}, 1000);",
+      "editorTitle": "JavaScriptコード",
+      "copy": "コピー",
+      "copied": "コピーしました！",
+      "clear": "クリア",
+      "placeholder": "JavaScriptコードを入力してください...",
+      "run": "コードを実行",
+      "consoleTitle": "コンソール出力",
+      "consolePlaceholder": "コンソール出力がここに表示されます...",
+      "usageTitle": "使い方",
+      "usageItems": [
+        "メッセージを出力するにはconsole.log()、console.error()、console.warn()を使用してください",
+        "アロー関数、構造解体、テンプレート文字列などのES6+構文をサポートしています",
+        "setTimeoutやPromiseなどの非同期操作をサポートしています",
+        "コードはサンドボックス内で実行され、DOMや外部リソースにアクセスできません"
+      ]
+    },
+    "formValidationDemo": {
+      "title": "フォーム検証デモ",
+      "description": "ライブ検証、エラーメッセージ、データのクリーンアップを含む完全なフォーム検証を示します",
+      "validation": {
+        "username": "ユーザー名は英字、数字、アンダースコアのみで、3〜20文字である必要があります",
+        "phone": "有効な携帯番号を入力してください",
+        "age": "年齢は1〜120の間である必要があります",
+        "idCard": "有効な身分証番号を入力してください",
+        "address": "住所は200文字以内である必要があります",
+        "bio": "バイオは500文字以内である必要があります"
+      },
+      "submitSuccess": "フォーム検証に成功しました！提出されたデータ:",
+      "quickTestTitle": "クイック検証テスト",
+      "quickLabels": {
+        "email": "メールアドレス検証",
+        "phone": "電話番号検証",
+        "url": "URL検証"
+      },
+      "quickPlaceholders": {
+        "email": "メールアドレスを入力してください",
+        "phone": "電話番号を入力してください",
+        "url": "URLを入力してください"
+      },
+      "valid": "有効",
+      "invalid": "無効",
+      "formTitle": "完全なフォーム検証",
+      "placeholders": {
+        "username": "ユーザー名 (アルファベット、数字、アンダースコア)",
+        "email": "メールアドレス",
+        "phone": "携帯番号",
+        "website": "個人ウェブサイト (任意)",
+        "age": "年齢",
+        "idCard": "身分証番号",
+        "address": "詳細な住所 (任意)",
+        "bio": "バイオ (任意、最大500文字)"
+      },
+      "success": {
+        "username": "ユーザー名形式が有効です",
+        "email": "メールアドレス形式が有効です",
+        "phone": "電話番号形式が有効です",
+        "website": "URL形式が有効です",
+        "age": "年齢が有効です",
+        "idCard": "身分証形式が有効です",
+        "address": "住所が有効です",
+        "bio": "バイオが有効です"
+      },
+      "submit": "フォームを送信",
+      "summaryTitle": "検証サマリー",
+      "fieldLabels": {
+        "username": "ユーザー名",
+        "email": "メール",
+        "phone": "電話",
+        "website": "ウェブサイト",
+        "age": "年齢",
+        "idCard": "身分証",
+        "address": "住所",
+        "bio": "バイオ"
+      },
+      "summaryStatus": {
+        "failed": "検証失敗",
+        "passed": "検証成功",
+        "empty": "未入力"
+      },
+      "infoTitle": "フォーム検証機能",
+      "infoItems": [
+        {
+          "title": "ライブ検証",
+          "description": "タイプしながらフォーマットをチェックし、フォーカスを外すと再検証します"
+        },
+        {
+          "title": "複数のルールタイプ",
+          "description": "必須フィールド、長さチェック、正規表現、カスタム検証をサポートしています"
+        },
+        {
+          "title": "視覚的フィードバック",
+          "description": "色、アイコン、メッセージを使って検証状態を明確に表示します"
+        },
+        {
+          "title": "データクリーンアップ",
+          "description": "提出されたデータを自動的にトリムおよび正規化します"
+        },
+        {
+          "title": "役立つエラーメッセージ",
+          "description": "入力を修正するためのユーザー向けのガイドを提供します"
+        },
+        {
+          "title": "アクセシビリティサポート",
+          "description": "すべてのユーザーにとって使いやすいフォームを保ちます"
+        }
+      ]
+    },
+    "faviconGenerator": {
+      "title": "Faviconジェネレーター",
+      "description": "画像をウェブサイトのfaviconアイコンに変換します",
+      "historyTitle": "Faviconジェネレーター",
+      "historyCategory": "画像ツール",
+      "uploadImageFile": "画像ファイルをアップロードしてください",
+      "generateFailed": "アイコンの生成に失敗しました。もう一度試してください",
+      "uploadTitle": "画像をアップロード",
+      "uploadAria": "画像ファイルをアップロード",
+      "dropzoneAria": "画像をクリックしてアップロードしてください。PNG、JPG、SVGなどに対応しています",
+      "dropRelease": "画像をアップロードするにはリリースしてください",
+      "dropClick": "ここに画像をクリックまたはドラッグしてください",
+      "supportFormats": "PNG、JPG、SVGなどに対応しています",
+      "clearImage": "画像をクリア",
+      "clearImageTitle": "画像をクリア (Ctrl+L)",
+      "settingsTitle": "設定",
+      "removeBackground": "画像の背景色を削除",
+      "removeColor": "削除する色",
+      "removeColorPicker": "削除する背景色を選択してください",
+      "removeColorValue": "削除する背景色値",
+      "tolerance": "許容度: {{value}}",
+      "toleranceAria": "色の許容度",
+      "toleranceTip": "高い許容度は広い色範囲を削除します",
+      "transparentBackground": "透過背景",
+      "transparentTip": "注意: 元の画像に背景色がある場合は「画像の背景色を削除」を有効にしてください。",
+      "backgroundColor": "背景色",
+      "backgroundColorPicker": "背景色を選択してください",
+      "backgroundColorValue": "背景色値",
+      "selectSize": "サイズを選択",
+      "selectedState": " (選択済み)",
+      "sizeAria": "{{size}}x{{size}}ピクセルのサイズ{{state}}",
+      "toggleSizeTitle": "{{size}}x{{size}}サイズを切り替え (Alt+{{shortcut}})",
+      "previewTitle": "プレビュー",
+      "generating": "生成中...",
+      "downloadSizeAria": "{{size}}x{{size}}アイコンをダウンロード",
+      "download": "ダウンロード",
+      "uploadFirst": "まず画像をアップロードしてください",
+      "downloadTitle": "ダウンロード",
+      "downloadAllPng": "すべてのサイズをダウンロード (PNG)",
+      "downloadAllPngTitle": "すべてのPNGサイズをダウンロード (Ctrl+Enter)",
+      "downloadIco": "favicon.icoをダウンロード",
+      "downloadIcoTitle": "favicon.icoをダウンロード (Alt+I)",
+      "usageTitle": "使い方",
+      "usageItems": [
+        "背景色の削除: 灰色や白色などのソリッドな背景を削除します",
+        "許容度: 色の類似度を上げて類似色を削除します。グラデーションの背景に役立ちます",
+        "16x16: ブラウザタブのアイコン",
+        "32x32: タスクバーのショートカットアイコン",
+        "48x48: Windowsのウェブサイトショートカット",
+        "生成されたアイコンをウェブサイトのルートディレクトリに配置してください"
+      ]
+    }
+  },
+  "components": {
+    "toolHistory": {
+      "usageCount": "{{count}}回使用されました",
+      "recentUsed": "最後に使用: {{value}}",
+      "removeFavorite": "お気に入りから削除",
+      "addFavorite": "お気に入りに追加",
+      "removeRecord": "記録を削除",
+      "emptyHistory": "まだツール履歴はありません",
+      "confirmClear": "すべてのツール履歴を削除してもよろしいですか？",
+      "tabs": {
+        "recent": "最近使用",
+        "favorites": "お気に入り",
+        "mostUsed": "よく使われる"
+      },
+      "title": "ツール履歴",
+      "clearHistory": "履歴を消去",
+      "searchPlaceholder": "履歴を検索...",
+      "emptyMessages": {
+        "recent": "最近の使用記録はありません",
+        "favorites": "まだお気に入りのツールはありません",
+        "mostUsed": "まだよく使われるツールはありません"
+      }
+    },
+    "exportFormatSelector": {
+      "buttonText": "結果をエクスポート",
+      "exporting": "エクスポート中...",
+      "exportFailed": "エクスポートに失敗しました。もう一度試してください"
+    },
+    "ads": {
+      "loading": "広告を読み込んでいます...",
+      "carouselTitle": "広告カルーセル",
+      "checkConsole": "詳細なログはブラウザのコンソールを確認してください"
+    },
+    "networkStatus": {
+      "online": "オンライン",
+      "offline": "オフライン",
+      "connected": "ネットワーク接続済み",
+      "disconnected": "ネットワーク切断",
+      "connectedDescription": "すべての機能が利用可能です",
+      "disconnectedDescription": "一部の機能が利用できない場合があります。ネットワーク接続を確認してください。",
+      "requestFailed": "リクエストに失敗しました"
+    },
+    "keyboardShortcutsHelp": {
+      "title": "キーボードショートカット",
+      "close": "閉じる",
+      "toggleDescription": "キーボードショートカットのヘルプを表示または非表示にする",
+      "helpTextBefore": "押して",
+      "helpTextMiddle": "または",
+      "helpTextAfter": "このヘルプを表示または非表示にする",
+      "tipTitle": "ヒント",
+      "tipItems": [
+        "ショートカットラベルはオペレーティングシステムによってわずかに異なる場合があります",
+        "一部のショートカットはブラウザのショートカットと衝突する可能性があります",
+        "タブキーでフォーカス可能な要素間を移動できます",
+        "Enterキーを押してボタンやリンクをアクティブ化してください"
+      ],
+      "closeEsc": "閉じる (ESC)"
+    },
+    "performanceDashboard": {
+      "title": "パフォーマンスダッシュボード",
+      "startMonitoring": "モニタリングを開始",
+      "stopMonitoring": "モニタリングを停止",
+      "exportReport": "レポートをエクスポート",
+      "notMeasured": "測定されていません",
+      "metrics": {
+        "fcp": "最初のコンテンツペイント",
+        "lcp": "最大コンテンツペイント",
+        "fid": "最初の入力遅延",
+        "cls": "累積レイアウトシフト",
+        "ttfb": "最初のバイトまでの時間"
+      },
+      "memoryTitle": "メモリ使用量",
+      "memory": {
+        "used": "使用中のメモリ",
+        "total": "合計メモリ",
+        "usageRate": "使用率"
+      },
+      "tipsTitle": "最適化のヒント",
+      "tips": [
+        "モニタリング中にアプリを通常通り使用してください。データはリアルタイムで更新されます",
+        "FCP < 1.8秒、LCP < 2.5秒、FID < 100ミリ秒、CLS < 0.1は優れたパフォーマンスとされています",
+        "メモリ使用量が80%を超える場合は、コードの最適化を検討してください",
+        "詳細なレポートをエクスポートして、より深い分析を行うことができます"
+      ],
+      "emptyState": "?モニタリングを開始?をクリックしてパフォーマンス分析を開始してください"
+    }
+  }
+}

@@ -1,0 +1,2730 @@
+{
+  "common": {
+    "home": "Trang chu",
+    "websiteDetection": "Kiem tra website",
+    "seoTools": "Cong cu SEO",
+    "devTools": "Cong cu nha phat trien",
+    "encodingConversion": "Cong cu ma hoa",
+    "otherTools": "Cong cu khac",
+    "feedback": "Phan hoi",
+    "customization": "Giai phap tuy chinh / Lien he",
+    "back": "Quay lai",
+    "appName": "Bo cong cu webmaster tat ca trong mot",
+    "brandName": "San pham cua Kunqiong",
+    "loading": "Dang tai...",
+    "processing": "Dang xu ly",
+    "processingDescription": "Please wait while we process your data...",
+    "inProgress": "Dang thuc hien",
+    "search": "Tim cong cu...",
+    "my": "My",
+    "menu": "Menu",
+    "settings": "Cai dat",
+    "all": "All",
+    "category": "Category",
+    "noToolsFound": "No matching tools found",
+    "recommended": "Recommended",
+    "usageCount": "Da dung {{count}} lan",
+    "toolsCount": "{{count}} cong cu",
+    "export": "Export",
+    "usageInstructions": "Usage Instructions"
+  },
+  "auth": {
+    "login": "Dang nhap",
+    "logout": "Dang xuat",
+    "userInfo": "User Info",
+    "nickname": "Nickname",
+    "avatar": "Avatar",
+    "user": "User",
+    "loggedIn": "Logged in",
+    "loggingOut": "Logging out...",
+    "loggingIn": "Logging in...",
+    "loginInstructions": "Please complete login in your browser",
+    "cancelLogin": "Cancel login",
+    "loginFailed": "Dang nhap that bai",
+    "retry": "Thu lai",
+    "close": "Dong",
+    "loginDescription": "Click the button below to open the login page in your browser. After you complete login, the app will sync your login status automatically.",
+    "loginTip": "Tip: Make sure your browser stays open during the login process.",
+    "openBrowserLogin": "Open browser login",
+    "cancel": "Huy",
+    "loginReminder": "Login reminder",
+    "loginRequiredTitle": "Can dang nhap",
+    "loginRequiredDescription": "You need to log in before using this feature. After logging in, you can enjoy the full service experience.",
+    "loginActionDescription": "Click the button below to open the login page, then complete the login there.",
+    "loginNow": "Dang nhap ngay",
+    "loginBenefit": "Log in to use all features",
+    "errors": {
+      "getLoginUrlFailed": "Failed to get login URL: {{message}}",
+      "getLoginUrlException": "Error while getting login URL: {{error}}",
+      "loginCancelled": "Login was cancelled",
+      "pollingAbnormal": "Polling returned an abnormal response: {{message}}",
+      "pollingFailed": "Polling failed: {{error}}",
+      "loginTimeout": "Login timed out",
+      "checkLoginStatusFailed": "Failed to check login status, status code: {{status}}",
+      "checkLoginException": "Error while checking login status",
+      "getUserInfoFailed": "Failed to get user info: {{message}}",
+      "getUserInfoException": "Error while getting user info: {{error}}",
+      "logoutFailed": "Failed to log out: {{message}}",
+      "logoutException": "Error while logging out: {{error}}",
+      "getFeedbackUrlFailed": "Failed to get feedback URL: {{message}}",
+      "getFeedbackUrlException": "Error while getting feedback URL: {{error}}"
+    }
+  },
+  "favorite": {
+    "add": "Add to favorites",
+    "remove": "Remove from favorites",
+    "label": "Favorite",
+    "failed": "Operation failed"
+  },
+  "errors": {
+    "fetchCustomUrlFailed": "Failed to fetch custom page URL:",
+    "fetchFeedbackUrlFailed": "Failed to fetch feedback page URL:",
+    "copyFailed": "Sao chep that bai",
+    "networkError": "Loi ket noi mang",
+    "somethingWentWrong": "Da xay ra loi",
+    "unexpectedError": "Sorry, an unexpected error occurred",
+    "noData": "Khong co du lieu",
+    "noRelatedData": "No related data found",
+    "noAds": "No ads available",
+    "fetchAdsError": "Failed to fetch ads",
+    "lookupFailed": "Tra cuu that bai"
+  },
+  "tools": {
+    "csr": {
+      "title": "CSR Generator & Viewer",
+      "description": "Generate and view CSR files online"
+    },
+    "whois": {
+      "title": "Tra cuu WHOIS domain",
+      "description": "Xem thong tin WHOIS va chi tiet dang ky domain truc tuyen"
+    },
+    "dns": {
+      "title": "DNS Record Lookup",
+      "description": "Tim cac ban ghi DNS nhu A, MX va CNAME truc tuyen"
+    },
+    "dnsEnhanced": {
+      "title": "DNS Record Lookup (Enhanced)",
+      "description": "Tra cuu DNS voi toi uu virtual scrolling cho tap ket qua lon"
+    },
+    "httpStatus": {
+      "title": "Trinh kiem tra trang thai HTTP",
+      "description": "Cong cu truc tuyen de kiem tra ma trang thai HTTP"
+    },
+    "gzip": {
+      "title": "Kiem tra nen Gzip",
+      "description": "Kiem tra xem trang web co duoc nen bang Gzip hay khong"
+    },
+    "ssl": {
+      "title": "SSL Certificate Check",
+      "description": "Inspect SSL certificate details and validity online"
+    },
+    "browserInfo": {
+      "title": "Browser Info",
+      "description": "A free tool to view detailed information about your current browser"
+    },
+    "useragent": {
+      "title": "Trinh phan tich User-Agent",
+      "description": "Phan tich thong tin trinh duyet va thiet bi tu User-Agent"
+    },
+    "websocket": {
+      "title": "Cong cu kiem tra WebSocket",
+      "description": "Cong cu truc tuyen mien phi de kiem tra WebSocket API"
+    },
+    "viewSource": {
+      "title": "View Page Source",
+      "description": "View webpage source code online"
+    },
+    "metaGenerator": {
+      "title": "Trinh tao Meta Tag",
+      "description": "Tao Meta Tag cho tim kiem va chia se mang xa hoi"
+    },
+    "metaCheck": {
+      "title": "Kiem tra META Tag",
+      "description": "Xem thong tin META Tag cua trang web"
+    },
+    "robots": {
+      "title": "Trinh tao robots.txt",
+      "description": "Tao tep robots.txt truc tuyen"
+    },
+    "emailEncrypt": {
+      "title": "Email Address Encoder",
+      "description": "Convert email addresses into encoded formats to reduce scraping"
+    },
+    "phpReference": {
+      "title": "PHP Function Reference",
+      "description": "Online reference list for PHP functions"
+    },
+    "htmlPreview": {
+      "title": "Xem truoc HTML",
+      "description": "Viet va xem truoc HTML truc tuyen"
+    },
+    "jsDebug": {
+      "title": "JS Debugger",
+      "description": "Chay va go loi JavaScript truc tuyen"
+    },
+    "shieldBadge": {
+      "title": "Trinh tao Shield Badge",
+      "description": "Tao Shield badge SVG truc tuyen"
+    },
+    "favicon": {
+      "title": "Trinh tao Favicon",
+      "description": "Chuyen doi hinh anh thanh favicon cho website"
+    },
+    "cssGlassmorphism": {
+      "title": "Trinh tao CSS Glassmorphism",
+      "description": "Generate CSS glassmorphism code in one click"
+    },
+    "cssNeumorphism": {
+      "title": "Neumorphism CSS Generator",
+      "description": "Generate neumorphism CSS style examples in one click"
+    },
+    "pxToRem": {
+      "title": "PX to REM Converter",
+      "description": "Batch convert PX units in CSS to REM"
+    },
+    "cssBorderRadius": {
+      "title": "CSS Border Radius Generator",
+      "description": "Fine-tune rounded border styles online"
+    },
+    "cssTextShadow": {
+      "title": "CSS Text Shadow Generator",
+      "description": "Preview and generate CSS text-shadow code online"
+    },
+    "cssBoxShadow": {
+      "title": "Box Shadow Generator",
+      "description": "Fine-tune div shadows and generate CSS code"
+    },
+    "base64": {
+      "title": "Base64 Encode/Decode",
+      "description": "Online Base64 encoding and decoding tool"
+    },
+    "urlEncode": {
+      "title": "URL Encode/Decode",
+      "description": "Online URL encoding and decoding tool"
+    },
+    "htmlEntity": {
+      "title": "HTML Entity Encode/Decode",
+      "description": "Online HTML entity encoding and decoding tool"
+    },
+    "jsMinify": {
+      "title": "JS Minify & Beautify",
+      "description": "Online JavaScript minification and beautification tool"
+    },
+    "cssMinify": {
+      "title": "CSS Minify & Beautify",
+      "description": "Online CSS minification and beautification tool"
+    },
+    "desktopShortcut": {
+      "title": "Website Desktop Shortcut",
+      "description": "Create a desktop shortcut for a website for quick access"
+    },
+    "pageRefresh": {
+      "title": "Auto Page Refresh",
+      "description": "Refresh a remote webpage on a schedule"
+    },
+    "httpCodes": {
+      "title": "HTTP Status Codes",
+      "description": "Online reference for HTTP status / response codes"
+    },
+    "workerDemo": {
+      "title": "Web Worker Performance Demo",
+      "description": "See how Web Workers improve performance for heavy tasks"
+    },
+    "formValidation": {
+      "title": "Form Validation Demo",
+      "description": "Demonstrates complete form validation with live feedback"
+    }
+  },
+  "categories": {
+    "detection": "Website Checks",
+    "seo": "SEO Tools",
+    "dev": "Developer Tools",
+    "encode": "Encoding Tools",
+    "other": "Other Tools"
+  },
+  "footer": {
+    "description": "A professional all-in-one webmaster toolbox with website checks, SEO tools, developer tools, and more.",
+    "toolCategories": "Tool Categories",
+    "brandAI": "A Kunqiong AI Product",
+    "brandAlt": "Kunqiong",
+    "kunqiongBrandDesc": "Chúng tôi cam kết cung cấp cho các cá nhân và doanh nghiệp các công cụ và dịch vụ tư vấn AI chất lượng cao để giúp bạn duy trì tính cạnh tranh trong thời đại trí tuệ nhân tạo.",
+    "quickLinks": "Đường dẫn nhanh:",
+    "contactTitle": "Liên hệ với chúng tôi",
+    "contactCompany": "Jiangxi Hexagon Star Technology Co., Ltd.",
+    "contactPhone": "17770307066",
+    "contactRegion": "Shangrao, Giang Tây, Trung Quốc",
+    "contactEmail": "11247931@qq.com",
+    "copyrightLine": "© 2026 Kunqiong AI Tools. Bảo lưu mọi quyền.",
+    "userAgreement": "Điều khoản Thỏa thuận về Sử dụng Dịch vụ",
+    "privacyPolicy": "Chính sách quyền riêng tư"
+  },
+  "validation": {
+    "required": "{{field}} is required",
+    "minLength": "{{field}} must be at least {{count}} characters",
+    "maxLength": "{{field}} can be at most {{count}} characters",
+    "invalidFormat": "{{field}} has an invalid format",
+    "email": "Please enter a valid email address",
+    "url": "Please enter a valid URL",
+    "domain": "Please enter a valid domain",
+    "ip": "Please enter a valid IP address",
+    "phone": "Please enter a valid phone number",
+    "password": "Password must contain upper and lower case letters and numbers, and be 6-20 characters long"
+  },
+  "exporter": {
+    "unsupportedFormat": "Unsupported export format: {{format}}",
+    "csvRequiresArrayOrObject": "CSV export requires an array or object",
+    "toolUsageInfo": "Tool Usage Info",
+    "tool": "Tool",
+    "time": "Time",
+    "url": "URL",
+    "version": "Version",
+    "dnsReportTitle": "DNS Lookup Report",
+    "dnsReportDescription": "Detailed DNS record information",
+    "summaryTitle": "Summary",
+    "domain": "Domain",
+    "recordCount": "Total records",
+    "recordCountValue": "{{count}} records",
+    "queryTime": "Query time",
+    "typeDescriptions": {
+      "A": "IPv4 address record",
+      "AAAA": "IPv6 address record",
+      "MX": "Mail server record",
+      "TXT": "Text record",
+      "CNAME": "Alias record",
+      "NS": "Name server record",
+      "SOA": "Authority record"
+    },
+    "record": "Record",
+    "otherRecords": "Other records",
+    "recordIndex": "Record {{index}}",
+    "priority": "Priority",
+    "class": "Class",
+    "exportData": "Exported Data",
+    "dnsToolName": "DNS Lookup Tool",
+    "exportInfo": "Export Info",
+    "exportTime": "Export time",
+    "formats": {
+      "json": "Structured data format, easy for programs to process",
+      "csv": "Spreadsheet-friendly format, suitable for Excel import",
+      "txt": "Plain text format, easy to read",
+      "xml": "Markup format, suitable for data exchange",
+      "pdf": "Document format, suitable for printing and sharing"
+    }
+  },
+  "base64": {
+    "title": "Base64 Encode/Decode",
+    "description": "Online Base64 encoding and decoding tool",
+    "encode": "Encode",
+    "decode": "Decode",
+    "originalText": "Original text",
+    "base64String": "Base64 string",
+    "base64Result": "Base64 result",
+    "decodeResult": "Decoded result",
+    "placeholderEncode": "Enter text to encode...",
+    "placeholderDecode": "Enter Base64 to decode...",
+    "resultPlaceholder": "The result will appear here...",
+    "inputPlaceholder": "Enter content to convert",
+    "decodeError": "Decoding failed. Please check whether the input is valid Base64.",
+    "encodeError": "Encoding failed",
+    "charCount": "{{count}} characters",
+    "clear": "Clear input",
+    "copy": "Copy result",
+    "copied": "Copied",
+    "convert": "Convert now",
+    "swap": "Swap mode",
+    "ariaLabel": "Base64 encode/decode tool",
+    "modeSelection": "Conversion mode selection",
+    "encodeMode": "Encode mode",
+    "decodeMode": "Decode mode",
+    "inputLabelEncode": "Text to encode",
+    "inputLabelDecode": "Base64 string to decode",
+    "outputLabelEncode": "Base64 encoded result",
+    "outputLabelDecode": "Base64 decoded result",
+    "whatIsBase64": "What is Base64?",
+    "base64Info": "Base64 is an encoding method that represents binary data with 64 printable characters. It is commonly used to transfer small binary data in URLs, cookies, webpages, or text-based protocols."
+  },
+  "dns": {
+    "title": "Tra cuu ban ghi DNS",
+    "description": "Tim cac ban ghi DNS nhu A, MX va CNAME truc tuyen",
+    "placeholder": "Nhap domain, vi du example.com",
+    "invalidDomain": "Vui long nhap domain hop le",
+    "domainInput": "Domain input",
+    "validFormat": "Domain format is valid",
+    "typeSelect": "DNS record type",
+    "searchBtn": "Tim ban ghi DNS",
+    "loadingTitle": "Dang tim ban ghi DNS",
+    "loadingDesc": "Please wait while we look up DNS records for your domain...",
+    "resultRegion": "DNS lookup result",
+    "recordCount": "{{count}} records",
+    "typeRecordRegion": "{{type}} records",
+    "querying": "Dang tim ban ghi DNS",
+    "queryingDesc": "Please wait while we look up DNS records for your domain...",
+    "foundRecords": "Da tim thay {{count}} ban ghi",
+    "queryTime": "Thoi gian truy van: {{time}}",
+    "export": "Export results",
+    "noRecords": "No DNS records found",
+    "noRecordsDesc": "No DNS records were found for this domain",
+    "typeInfo": "DNS record types",
+    "priority": "Priority: {{priority}}",
+    "types": {
+      "ALL": "All",
+      "A": "A Record",
+      "AAAA": "AAAA Record",
+      "MX": "MX Record",
+      "TXT": "TXT Record",
+      "CNAME": "CNAME Record",
+      "NS": "NS Record",
+      "SOA": "SOA Record"
+    },
+    "typeDescs": {
+      "A": "IPv4 Address",
+      "AAAA": "IPv6 Address",
+      "MX": "Mail server",
+      "TXT": "Text record",
+      "CNAME": "Alias record",
+      "NS": "Name server",
+      "SOA": "Start of authority record"
+    },
+    "typeDetails": {
+      "A": "Points a domain to an IPv4 address",
+      "AAAA": "Points a domain to an IPv6 address",
+      "MX": "Specifies the mail server address, with lower priority numbers indicating higher priority",
+      "TXT": "Stores text information, often used for SPF, DKIM verification",
+      "CNAME": "Points a domain to another domain (alias)",
+      "NS": "Specify DNS servers for the domain"
+    }
+  },
+  "whois": {
+    "title": "Tra cuu WHOIS",
+    "description": "Tra cuu WHOIS va thong tin dang ky domain truc tuyen",
+    "placeholder": "Nhap domain, vi du example.com",
+    "invalidDomain": "Vui long nhap domain hop le",
+    "querying": "Dang truy van thong tin WHOIS",
+    "queryingDesc": "Please wait while we retrieve the registration information...",
+    "domainInfo": "Thong tin domain",
+    "registrar": "Registrar",
+    "creationDate": "Ngay tao",
+    "expirationDate": "Ngay het han",
+    "updatedDate": "Ngay cap nhat",
+    "dnssec": "DNSSEC",
+    "dnssecDisabled": "Disabled",
+    "expired": "Expired {{days}} days ago",
+    "expiringSoon": "Expires in {{days}} days",
+    "remaining": "{{days}} days remaining",
+    "dnsServer": "Name servers",
+    "domainStatus": "Domain status",
+    "registrantInfo": "Registrant information",
+    "name": "Name",
+    "organization": "Organization",
+    "country": "Country",
+    "email": "Email",
+    "noInfo": "No related information found",
+    "domain": "Domain",
+    "rawData": "Raw data",
+    "toggleRawData": "Expand or collapse raw data",
+    "copyRawData": "Copy raw data",
+    "copy": "Sao chep",
+    "copied": "Da sao chep",
+    "whatIsWhois": "What is WHOIS?",
+    "about": "WHOIS is a protocol used to query domain registration data. Through a WHOIS lookup, you can learn the registrar, registration date, expiration date, DNS servers, registrant information, and more. This is useful for domain trading, brand protection, and security investigations."
+  },
+  "httpStatus": {
+    "title": "HTTP Status Checker",
+    "description": "Check HTTP status codes and response information online",
+    "placeholder": "Enter a URL, e.g. https://example.com",
+    "check": "Check",
+    "followRedirects": "Follow redirects automatically",
+    "urlEmpty": "Please enter a URL",
+    "checkFailed": "Check failed",
+    "serverError": "Server connection failed, please try again later",
+    "unknownStatus": "Unknown status",
+    "responseTime": "Response time",
+    "headers": "Headers",
+    "redirectUrl": "Redirect URL",
+    "contentType": "Content type",
+    "contentLength": "Content length",
+    "server": "Server",
+    "showHeaders": "Show response headers",
+    "hideHeaders": "Hide response headers",
+    "status": {
+      "100": "Continue",
+      "101": "Switching Protocols",
+      "200": "OK",
+      "201": "Created",
+      "204": "No Content",
+      "301": "Permanent Redirect",
+      "302": "Temporary Redirect",
+      "304": "Not Modified",
+      "307": "Temporary Redirect",
+      "308": "Permanent Redirect",
+      "400": "Bad Request",
+      "401": "Unauthorized",
+      "403": "Forbidden",
+      "404": "Not Found",
+      "405": "Method Not Allowed",
+      "408": "Request Timeout",
+      "429": "Too Many Requests",
+      "500": "Internal Server Error",
+      "502": "Bad Gateway",
+      "503": "Service Unavailable",
+      "504": "Gateway Timeout"
+    }
+  },
+  "browserInfo": {
+    "title": "Browser Info",
+    "description": "View detailed information about the current browser",
+    "os": "Operating System",
+    "browser": "Browser",
+    "version": "Version",
+    "engine": "Engine",
+    "device": "Device",
+    "screen": "Screen resolution",
+    "viewport": "Viewport Size",
+    "language": "Language",
+    "timezone": "Timezone",
+    "cookieEnabled": "Cookies Enabled",
+    "online": "Online",
+    "cpu": "CPU Architecture",
+    "userAgent": "User-Agent",
+    "platform": "Platform",
+    "vendor": "Browser vendor",
+    "languages": "Supported languages",
+    "cookie": "Cookie",
+    "onlineStatus": "Online status",
+    "doNotTrack": "Do Not Track",
+    "touchPoints": "Touch points",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "offline": "Offline",
+    "hardwareInfo": "Hardware info",
+    "cpuCores": "CPU cores",
+    "cpuCoresValue": "{{count}} cores",
+    "deviceMemory": "Device memory",
+    "screenInfo": "Screen info",
+    "availArea": "Available area",
+    "windowSize": "Window size",
+    "pixelRatio": "Device pixel ratio",
+    "colorDepth": "Color depth",
+    "screenOrientation": "Screen orientation",
+    "unknown": "Unknown",
+    "basicInfo": "Basic info",
+    "networkInfo": "Network info",
+    "networkType": "Network type",
+    "downlink": "Downlink",
+    "rtt": "RTT",
+    "saveData": "Data saver",
+    "batteryInfo": "Battery info",
+    "batteryLevel": "Battery level",
+    "chargingStatus": "Charging status",
+    "charging": "Charging",
+    "notCharging": "Not charging",
+    "timezoneInfo": "Timezone info",
+    "utcOffset": "UTC offset"
+  },
+  "viewSource": {
+    "title": "View Page Source",
+    "description": "View webpage source code online",
+    "placeholder": "Enter a URL, e.g. https://example.com",
+    "fetch": "Fetch source",
+    "urlEmpty": "Please enter a URL",
+    "fetchFailed": "Failed to fetch source",
+    "serverError": "Server connection failed",
+    "lineCount": "Lines: {{count}}",
+    "copy": "Copy source",
+    "clear": "Clear",
+    "usage1": "Enter the full webpage URL and click to fetch the source",
+    "usage2": "Supports viewing the HTML source of any public webpage",
+    "usage3": "You can copy or download the source code for analysis",
+    "usage4": "Some websites may block source retrieval because of security policies"
+  },
+  "urlEncode": {
+    "title": "URL Encoder/Decoder",
+    "description": "Online URL encoding and decoding tool",
+    "encode": "Encode",
+    "decode": "Decode",
+    "placeholder": "Enter content to convert...",
+    "result": "Result",
+    "error": "Encoding/Decoding Failed"
+  },
+  "htmlEntity": {
+    "title": "HTML Entity Encoder/Decoder",
+    "description": "Online HTML entity encoder and decoder tool",
+    "encode": "Encode",
+    "decode": "Decode",
+    "placeholder": "Enter content to convert...",
+    "result": "Result"
+  },
+  "jsMinify": {
+    "title": "JS Compression & Formatting",
+    "description": "Online JavaScript code compression and beautification tool",
+    "minify": "Compress",
+    "beautify": "Beautify",
+    "placeholder": "Paste JavaScript code...",
+    "result": "Processing Result",
+    "error": "Code Processing Failed"
+  },
+  "cssMinify": {
+    "title": "CSS Compression & Formatting",
+    "description": "Online CSS Code Compression & Beautification Tool",
+    "minify": "Compress",
+    "beautify": "Beautify",
+    "placeholder": "Paste CSS Code...",
+    "result": "Processing Result",
+    "error": "Code Processing Failed"
+  },
+  "pages": {
+    "sslCheck": {
+      "title": "SSL Certificate Check",
+      "description": "Check SSL certificate details and validity for a domain",
+      "enterDomain": "Please enter a domain",
+      "checkFailed": "Check failed",
+      "serverConnectionFailed": "Failed to connect to the server, please try again later",
+      "inputPlaceholder": "Enter a domain, for example: example.com",
+      "check": "Check",
+      "statusExpired": "Expired",
+      "statusExpiringSoon": "Expiring soon",
+      "statusValid": "Valid",
+      "statusProblem": "Certificate problem",
+      "expiredDays": "Expired {{count}} days ago",
+      "remainingDays": "{{count}} days remaining",
+      "warning": "Warning: {{message}}",
+      "protocol": "Protocol",
+      "validityPeriod": "Validity period",
+      "validFrom": "Valid from",
+      "validTo": "Valid to",
+      "certificateInfo": "Certificate information",
+      "subject": "Subject",
+      "issuer": "Issuer",
+      "commonName": "Common Name (CN)",
+      "organization": "Organization (O)",
+      "organizationUnit": "Organizational Unit (OU)",
+      "country": "Country (C)",
+      "subjectAltNames": "Subject Alternative Names (SAN) - {{count}} entries",
+      "technicalDetails": "Technical details",
+      "serialNumber": "Serial number",
+      "fingerprintSha1": "Fingerprint (SHA-1)",
+      "fingerprintSha256": "Fingerprint (SHA-256)",
+      "cipherSuite": "Cipher suite",
+      "infoTitle": "SSL certificate notes",
+      "infoItems": [
+        "SSL certificates verify server identity and encrypt communication",
+        "Check expiration dates regularly to avoid outages",
+        "Certificates close to expiration should be renewed early",
+        "SAN (Subject Alternative Name) lists the domains covered by the certificate"
+      ]
+    },
+    "gzipCheck": {
+      "title": "Website Gzip Compression Check",
+      "description": "Check whether a website supports Gzip / Deflate / Brotli compression",
+      "enterUrl": "Please enter a URL",
+      "checkFailed": "Check failed",
+      "serverConnectionFailed": "Failed to connect to the server, please try again later",
+      "inputPlaceholder": "Enter a URL, for example: https://example.com",
+      "check": "Check",
+      "enabled": "Enabled",
+      "disabled": "Not enabled",
+      "compressionType": "Compression type: {{type}}",
+      "enableSuggestion": "Enable Gzip compression to reduce transfer size and improve loading speed",
+      "supportTitle": "Compression support",
+      "gzipDescription": "Widely used standard compression",
+      "deflateDescription": "Traditional HTTP compression algorithm",
+      "brotliDescription": "A newer compression method with better ratios",
+      "effectTitle": "Compression effect",
+      "originalSize": "Original size",
+      "compressedSize": "Compressed size",
+      "ratio": "Compression ratio",
+      "savedTransfer": "Saves {{value}} in transfer size",
+      "detailsTitle": "Details",
+      "whyTitle": "Why enable Gzip compression?",
+      "whyItems": [
+        "It can often reduce text resource sizes by 60% to 80%",
+        "Smaller transfers improve loading speed",
+        "It reduces bandwidth usage",
+        "Better performance can also help SEO and user experience"
+      ]
+    },
+    "dnsLookupEnhanced": {
+      "title": "Enhanced DNS Record Lookup",
+      "description": "Query multiple DNS record types online with optimization for large result sets",
+      "enterDomain": "Please enter a domain",
+      "lookupFailed": "Lookup failed",
+      "serverConnectionFailed": "Failed to connect to the server, please try again later",
+      "inputPlaceholder": "Enter a domain, for example: example.com",
+      "lookup": "Lookup",
+      "priority": "Priority: {{value}}",
+      "dnsTypes": [
+        {
+          "value": "ALL",
+          "label": "All"
+        },
+        {
+          "value": "A",
+          "label": "A record",
+          "desc": "IPv4 address"
+        },
+        {
+          "value": "AAAA",
+          "label": "AAAA record",
+          "desc": "IPv6 address"
+        },
+        {
+          "value": "MX",
+          "label": "MX record",
+          "desc": "Mail server"
+        },
+        {
+          "value": "TXT",
+          "label": "TXT record",
+          "desc": "Text data"
+        },
+        {
+          "value": "CNAME",
+          "label": "CNAME record",
+          "desc": "Alias record"
+        },
+        {
+          "value": "NS",
+          "label": "NS record",
+          "desc": "Name server"
+        },
+        {
+          "value": "SOA",
+          "label": "SOA record",
+          "desc": "Start of authority"
+        }
+      ],
+      "foundRecords": "Found {{count}} records",
+      "queryTime": "Query time: {{time}}",
+      "virtualScrollEnabled": "Virtual scrolling enabled",
+      "recordCount": "{{count}} records",
+      "virtualScrollTag": "Optimized rendering",
+      "noRecords": "No DNS records found",
+      "performanceTitle": "Performance optimization",
+      "performanceItems": [
+        "Virtualized rendering keeps DNS Lookup responsive with {{count}} records",
+        "Only visible rows are rendered to reduce memory usage",
+        "This helps avoid DOM lag when result sets are large",
+        "The experience stays responsive even with many records"
+      ]
+    },
+    "metaCheck": {
+      "title": "META Tag Check",
+      "description": "Check the META tags used on a webpage",
+      "enterUrl": "Please enter a website URL",
+      "checkFailed": "Check failed",
+      "urlLabel": "Website URL",
+      "inputPlaceholder": "example.com or https://example.com",
+      "check": "Check",
+      "resultTitle": "Check result",
+      "totalCount": "Found {{count}} META tags",
+      "groups": {
+        "pageTitle": "Page title",
+        "httpEquiv": "HTTP-Equiv",
+        "charset": "Charset",
+        "basicMeta": "Basic META"
+      },
+      "emptyContent": "Empty",
+      "infoTitle": "About",
+      "infoItems": [
+        "This tool checks title tags, meta name tags, meta property tags (such as Open Graph), and meta http-equiv tags",
+        "It helps quickly review the page's SEO-related metadata",
+        "It also helps identify missing or duplicate tag issues"
+      ]
+    },
+    "urlEncode": {
+      "title": "URL Encode/Decode",
+      "description": "Encode or decode URL strings online",
+      "toolName": "URL Encode/Decode",
+      "toolCategory": "Encoding Tools",
+      "convertFailed": "Conversion failed, please check your input",
+      "copyFailed": "Failed to copy result",
+      "modeSelector": "Select mode",
+      "typeSelector": "Encoding type",
+      "encode": "Encode",
+      "decode": "Decode",
+      "componentTitle": "URL component",
+      "componentDescription": "Encode only part of a URL",
+      "fullTitle": "Full URL",
+      "fullDescription": "Encode the entire URL",
+      "inputEncodeLabel": "Plain text",
+      "inputDecodeLabel": "Encoded URL",
+      "clearInput": "Clear input",
+      "encodePlaceholder": "Enter text to encode as a URL...",
+      "decodePlaceholder": "Enter an encoded URL to decode...",
+      "outputEncodeLabel": "Encoded result",
+      "outputDecodeLabel": "Decoded result",
+      "copyResult": "Copy result",
+      "resultPlaceholder": "Conversion result will appear here...",
+      "copied": "Copied to clipboard",
+      "swap": "Swap",
+      "swapInputOutput": "Swap input and output",
+      "infoTitle": "Encoding modes",
+      "componentModeTitle": "Component mode",
+      "componentModeDescription": "Best for individual URL parts such as query parameters or path segments.",
+      "componentExample": "Example: hello world → hello%20world",
+      "fullModeTitle": "Full URL mode",
+      "fullModeDescription": "Use this when you need to encode a complete URL while keeping its overall structure recognizable.",
+      "fullExample": "Vi du: https://example.com/path -> https://example.com/%E8%B7%AF%E5%BE%84"
+    },
+    "htmlEntity": {
+      "title": "HTML Entity Encode/Decode",
+      "description": "Encode or decode HTML entities online",
+      "toolName": "HTML Entity Encode/Decode",
+      "toolCategory": "Encoding Tools",
+      "convertFailed": "Conversion failed, please check your input",
+      "copyFailed": "Failed to copy result",
+      "modeSelector": "Select mode",
+      "switchToEncode": "Switch to encode mode (Alt+1)",
+      "switchToDecode": "Switch to decode mode (Alt+2)",
+      "encode": "Encode",
+      "decode": "Decode",
+      "encodeAll": "Encode all characters",
+      "inputEncodeLabel": "Plain text",
+      "inputDecodeLabel": "HTML entities",
+      "clearInput": "Clear input (Ctrl+L)",
+      "encodePlaceholder": "Enter text to convert into HTML entities...",
+      "decodePlaceholder": "Enter HTML entities to decode...",
+      "inputDescriptionEncode": "Enter the plain text you want to encode as HTML entities",
+      "inputDescriptionDecode": "Enter the HTML entities you want to decode",
+      "outputEncodeLabel": "Encoded result",
+      "outputDecodeLabel": "Decoded result",
+      "copyResult": "Copy result (Ctrl+C)",
+      "resultPlaceholder": "Conversion result will appear here...",
+      "outputDescriptionEncode": "The generated HTML entity output",
+      "outputDescriptionDecode": "The decoded plain-text output",
+      "copied": "Copied to clipboard",
+      "executeEncode": "Encode (Ctrl+Enter)",
+      "executeDecode": "Decode (Ctrl+Enter)",
+      "swap": "Swap",
+      "swapMode": "Swap input and output (Ctrl+S)",
+      "commonEntities": "Common HTML entities",
+      "space": "(space)"
+    },
+    "jsMinify": {
+      "title": "JS Minify & Beautify",
+      "description": "Nen hoac dinh dang ma JavaScript truc tuyen",
+      "toolName": "JavaScript Minify / Beautify",
+      "toolNameHistory": "JS Minify & Beautify",
+      "toolCategory": "Developer Tools",
+      "processFailed": "Processing failed",
+      "copyFailed": "Failed to copy the result to the clipboard",
+      "switchToMinify": "Switch to minify mode",
+      "switchToMinifyTitle": "Switch to minify mode (Alt+1)",
+      "switchToBeautify": "Switch to beautify mode",
+      "switchToBeautifyTitle": "Switch to beautify mode (Alt+2)",
+      "minify": "Minify",
+      "beautify": "Beautify",
+      "input": "Input",
+      "output": "Output",
+      "inputPlaceholder": "Enter JavaScript code here...",
+      "inputAria": "JavaScript input editor",
+      "inputTitle": "Press Ctrl+Enter to run, Ctrl+L to clear",
+      "copyOutput": "Copy output",
+      "copyOutputTitle": "Copy output (Ctrl+C)",
+      "resultPlaceholder": "Processed result will appear here...",
+      "outputAria": "JavaScript output result",
+      "executeMinify": "Minify JavaScript",
+      "executeMinifyTitle": "Minify JavaScript (Ctrl+Enter)",
+      "executeBeautify": "Beautify JavaScript",
+      "executeBeautifyTitle": "Beautify JavaScript (Ctrl+Enter)",
+      "minifyCode": "Minify code",
+      "beautifyCode": "Beautify code",
+      "swap": "Swap",
+      "swapTitle": "Swap input and output (Ctrl+S)",
+      "clear": "Clear",
+      "clearTitle": "Clear content (Ctrl+L)",
+      "copied": "Copied to clipboard",
+      "infoTitle": "Features",
+      "infoItems": [
+        "Removes unnecessary spaces and line breaks to reduce JavaScript file size",
+        "Beautify mode makes compressed code easier to read and maintain",
+        "Minification quality depends on the JavaScript parser and minifier implementation"
+      ]
+    },
+    "cssMinify": {
+      "title": "CSS Minify & Beautify",
+      "description": "Nen hoac dinh dang ma CSS truc tuyen",
+      "toolName": "CSS Minify & Beautify",
+      "toolCategory": "Developer Tools",
+      "processFailed": "Processing failed",
+      "copyFailed": "Failed to copy the result to the clipboard",
+      "switchToMinify": "Switch to minify mode",
+      "switchToMinifyTitle": "Switch to minify mode (Alt+1)",
+      "switchToBeautify": "Switch to beautify mode",
+      "switchToBeautifyTitle": "Switch to beautify mode (Alt+2)",
+      "minify": "Minify",
+      "beautify": "Beautify",
+      "input": "Input",
+      "output": "Output",
+      "inputPlaceholder": "Enter CSS code here...\n\nExample:\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 20px;\n}",
+      "inputAria": "CSS input editor",
+      "inputTitle": "Press Ctrl+Enter to run, Ctrl+L to clear",
+      "copyOutput": "Copy output",
+      "copyOutputTitle": "Copy output (Ctrl+C)",
+      "resultPlaceholder": "Processed result will appear here...",
+      "outputAria": "CSS output result",
+      "executeMinify": "Minify CSS",
+      "executeMinifyTitle": "Minify CSS (Ctrl+Enter)",
+      "executeBeautify": "Beautify CSS",
+      "executeBeautifyTitle": "Beautify CSS (Ctrl+Enter)",
+      "minifyCode": "Minify code",
+      "beautifyCode": "Beautify code",
+      "swap": "Swap",
+      "swapTitle": "Swap input and output (Ctrl+S)",
+      "clear": "Clear",
+      "clearTitle": "Clear content (Ctrl+L)",
+      "copied": "Copied to clipboard",
+      "infoTitle": "Features",
+      "infoItems": [
+        "Removes unnecessary spaces and line breaks to reduce file size",
+        "Beautify mode makes compressed code easier to read and edit",
+        "Smaller CSS files can help reduce HTTP transfer size and improve loading performance"
+      ]
+    },
+    "httpCodes": {
+      "title": "Ma trang thai HTTP",
+      "description": "Tai lieu tham khao cho ma trang thai va phan hoi HTTP",
+      "searchPlaceholder": "Tim ma trang thai hoac mo ta...",
+      "noMatch": "Khong tim thay ma trang thai phu hop",
+      "infoTitle": "Kien thuc co ban ve ma trang thai HTTP",
+      "infoItems": [
+        "1xx - Phan hoi thong tin cho biet yeu cau da duoc nhan va dang duoc xu ly",
+        "2xx - Phan hoi thanh cong cho biet yeu cau da duoc nhan, hieu va chap nhan",
+        "3xx - Phan hoi Redirect yeu cau hanh dong bo sung de hoan tat yeu cau",
+        "4xx - Phan hoi loi phia client cho biet yeu cau khong hop le hoac khong the thuc hien",
+        "5xx - Phan hoi loi phia server cho biet may chu khong the xu ly yeu cau hop le"
+      ],
+      "categories": [
+        {
+          "id": "all",
+          "name": "All",
+          "color": "bg-gray-100 text-gray-700"
+        },
+        {
+          "id": "1xx",
+          "name": "1xx Informational",
+          "color": "bg-blue-100 text-blue-700"
+        },
+        {
+          "id": "2xx",
+          "name": "2xx Success",
+          "color": "bg-green-100 text-green-700"
+        },
+        {
+          "id": "3xx",
+          "name": "3xx Redirection",
+          "color": "bg-yellow-100 text-yellow-700"
+        },
+        {
+          "id": "4xx",
+          "name": "4xx Client Error",
+          "color": "bg-orange-100 text-orange-700"
+        },
+        {
+          "id": "5xx",
+          "name": "5xx Server Error",
+          "color": "bg-red-100 text-red-700"
+        }
+      ],
+      "codes": [
+        {
+          "code": 100,
+          "name": "Continue",
+          "desc": "The initial part of the request has been received and the client should continue sending the rest.",
+          "category": "1xx"
+        },
+        {
+          "code": 101,
+          "name": "Switching Protocols",
+          "desc": "The server agrees to switch protocols according to the client's request.",
+          "category": "1xx"
+        },
+        {
+          "code": 102,
+          "name": "Processing",
+          "desc": "The server has received and is processing the request, but no response is available yet.",
+          "category": "1xx"
+        },
+        {
+          "code": 200,
+          "name": "OK",
+          "desc": "The request succeeded, typically for GET or POST requests.",
+          "category": "2xx"
+        },
+        {
+          "code": 201,
+          "name": "Created",
+          "desc": "The request succeeded and created a new resource.",
+          "category": "2xx"
+        },
+        {
+          "code": 202,
+          "name": "Accepted",
+          "desc": "The request was accepted for processing, but it has not been completed yet.",
+          "category": "2xx"
+        },
+        {
+          "code": 203,
+          "name": "Non-Authoritative Information",
+          "desc": "The response metadata comes from a local or third-party copy instead of the origin server.",
+          "category": "2xx"
+        },
+        {
+          "code": 204,
+          "name": "No Content",
+          "desc": "The request succeeded, but the response contains no body.",
+          "category": "2xx"
+        },
+        {
+          "code": 205,
+          "name": "Reset Content",
+          "desc": "The request succeeded and the client should reset the current document view.",
+          "category": "2xx"
+        },
+        {
+          "code": 206,
+          "name": "Partial Content",
+          "desc": "The server is returning only part of the resource because of a range request.",
+          "category": "2xx"
+        },
+        {
+          "code": 300,
+          "name": "Multiple Choices",
+          "desc": "The requested resource has multiple possible representations for the client to choose from.",
+          "category": "3xx"
+        },
+        {
+          "code": 301,
+          "name": "Moved Permanently",
+          "desc": "The requested resource has been permanently moved to a new URI.",
+          "category": "3xx"
+        },
+        {
+          "code": 302,
+          "name": "Found",
+          "desc": "The requested resource is temporarily located at a different URI.",
+          "category": "3xx"
+        },
+        {
+          "code": 303,
+          "name": "See Other",
+          "desc": "The response to the request can be found under another URI using GET.",
+          "category": "3xx"
+        },
+        {
+          "code": 304,
+          "name": "Not Modified",
+          "desc": "The cached resource has not changed, so the client can use its local copy.",
+          "category": "3xx"
+        },
+        {
+          "code": 307,
+          "name": "Temporary Redirect",
+          "desc": "The resource is temporarily redirected and the original request method must be preserved.",
+          "category": "3xx"
+        },
+        {
+          "code": 308,
+          "name": "Permanent Redirect",
+          "desc": "The resource has moved permanently and the original request method must be preserved.",
+          "category": "3xx"
+        },
+        {
+          "code": 400,
+          "name": "Bad Request",
+          "desc": "The server cannot process the request because of invalid syntax.",
+          "category": "4xx"
+        },
+        {
+          "code": 401,
+          "name": "Unauthorized",
+          "desc": "Authentication is required before the request can be completed.",
+          "category": "4xx"
+        },
+        {
+          "code": 402,
+          "name": "Payment Required",
+          "desc": "Reserved for future use, often associated with digital payment systems.",
+          "category": "4xx"
+        },
+        {
+          "code": 403,
+          "name": "Forbidden",
+          "desc": "The server understood the request but refuses to authorize it.",
+          "category": "4xx"
+        },
+        {
+          "code": 404,
+          "name": "Not Found",
+          "desc": "The server cannot find the requested resource.",
+          "category": "4xx"
+        },
+        {
+          "code": 405,
+          "name": "Method Not Allowed",
+          "desc": "The request method is not allowed for the target resource.",
+          "category": "4xx"
+        },
+        {
+          "code": 406,
+          "name": "Not Acceptable",
+          "desc": "The server cannot provide a response matching the client's acceptable formats.",
+          "category": "4xx"
+        },
+        {
+          "code": 407,
+          "name": "Proxy Authentication Required",
+          "desc": "The client must authenticate itself with the proxy before continuing.",
+          "category": "4xx"
+        },
+        {
+          "code": 408,
+          "name": "Request Timeout",
+          "desc": "The server timed out waiting for the request.",
+          "category": "4xx"
+        },
+        {
+          "code": 409,
+          "name": "Conflict",
+          "desc": "The request conflicts with the current state of the target resource.",
+          "category": "4xx"
+        },
+        {
+          "code": 410,
+          "name": "Gone",
+          "desc": "The resource is no longer available and no forwarding address is known.",
+          "category": "4xx"
+        },
+        {
+          "code": 411,
+          "name": "Length Required",
+          "desc": "The server requires a valid Content-Length header.",
+          "category": "4xx"
+        },
+        {
+          "code": 412,
+          "name": "Precondition Failed",
+          "desc": "One or more conditions in the request headers evaluated to false.",
+          "category": "4xx"
+        },
+        {
+          "code": 413,
+          "name": "Payload Too Large",
+          "desc": "The request body is larger than the server is willing or able to process.",
+          "category": "4xx"
+        },
+        {
+          "code": 414,
+          "name": "URI Too Long",
+          "desc": "The requested URI is longer than the server can process.",
+          "category": "4xx"
+        },
+        {
+          "code": 415,
+          "name": "Unsupported Media Type",
+          "desc": "The server does not support the media type used in the request.",
+          "category": "4xx"
+        },
+        {
+          "code": 418,
+          "name": "I'm a teapot",
+          "desc": "A humorous status code indicating the server refuses to brew coffee because it is a teapot.",
+          "category": "4xx"
+        },
+        {
+          "code": 422,
+          "name": "Unprocessable Entity",
+          "desc": "The server understands the request format but cannot process the contained instructions.",
+          "category": "4xx"
+        },
+        {
+          "code": 429,
+          "name": "Too Many Requests",
+          "desc": "The client has sent too many requests in a given time period.",
+          "category": "4xx"
+        },
+        {
+          "code": 451,
+          "name": "Unavailable For Legal Reasons",
+          "desc": "The resource is unavailable because of legal restrictions.",
+          "category": "4xx"
+        },
+        {
+          "code": 500,
+          "name": "Internal Server Error",
+          "desc": "The server encountered an unexpected error while processing the request.",
+          "category": "5xx"
+        },
+        {
+          "code": 501,
+          "name": "Not Implemented",
+          "desc": "The server does not support the functionality required to fulfill the request.",
+          "category": "5xx"
+        },
+        {
+          "code": 502,
+          "name": "Bad Gateway",
+          "desc": "A gateway or proxy server received an invalid response from the upstream server.",
+          "category": "5xx"
+        },
+        {
+          "code": 503,
+          "name": "Service Unavailable",
+          "desc": "The server is temporarily unable to handle the request, usually due to overload or maintenance.",
+          "category": "5xx"
+        },
+        {
+          "code": 504,
+          "name": "Gateway Timeout",
+          "desc": "A gateway or proxy server did not receive a timely response from the upstream server.",
+          "category": "5xx"
+        },
+        {
+          "code": 505,
+          "name": "HTTP Version Not Supported",
+          "desc": "The server does not support the HTTP protocol version used in the request.",
+          "category": "5xx"
+        }
+      ]
+    },
+    "phpReference": {
+      "title": "Tai lieu tham khao ham PHP",
+      "description": "Tai lieu tham khao truc tuyen cho cac ham PHP pho bien",
+      "searchPlaceholder": "Search function names or descriptions...",
+      "noMatch": "No matching functions found",
+      "infoTitle": "About",
+      "infoDescription": "This page lists commonly used PHP functions by category for quick lookup. It is intended as a handy overview for developers and does not replace the official PHP documentation.",
+      "categories": [
+        "All",
+        "String",
+        "Array",
+        "File",
+        "Date/Time",
+        "JSON",
+        "Math",
+        "Other"
+      ],
+      "functions": [
+        {
+          "name": "strlen",
+          "desc": "Get the length of a string",
+          "syntax": "strlen(string $string): int",
+          "category": "String"
+        },
+        {
+          "name": "substr",
+          "desc": "Return part of a string",
+          "syntax": "substr(string $string, int $offset, ?int $length = null): string",
+          "category": "String"
+        },
+        {
+          "name": "strpos",
+          "desc": "Find the position of the first occurrence of a substring",
+          "syntax": "strpos(string $haystack, string $needle, int $offset = 0): int|false",
+          "category": "String"
+        },
+        {
+          "name": "str_replace",
+          "desc": "Replace all occurrences of the search string",
+          "syntax": "str_replace(mixed $search, mixed $replace, mixed $subject): mixed",
+          "category": "String"
+        },
+        {
+          "name": "explode",
+          "desc": "Split a string into an array using a separator",
+          "syntax": "explode(string $separator, string $string, int $limit = PHP_INT_MAX): array",
+          "category": "String"
+        },
+        {
+          "name": "implode",
+          "desc": "Join array elements into a string",
+          "syntax": "implode(string $separator, array $array): string",
+          "category": "String"
+        },
+        {
+          "name": "trim",
+          "desc": "Strip whitespace or other characters from both ends of a string",
+          "syntax": "trim(string $string, string $characters = \" \\n\\r\\t\\v\\x00\"): string",
+          "category": "String"
+        },
+        {
+          "name": "strtolower",
+          "desc": "Convert a string to lowercase",
+          "syntax": "strtolower(string $string): string",
+          "category": "String"
+        },
+        {
+          "name": "strtoupper",
+          "desc": "Convert a string to uppercase",
+          "syntax": "strtoupper(string $string): string",
+          "category": "String"
+        },
+        {
+          "name": "sprintf",
+          "desc": "Return a formatted string",
+          "syntax": "sprintf(string $format, mixed ...$values): string",
+          "category": "String"
+        },
+        {
+          "name": "preg_match",
+          "desc": "Perform a regular expression match",
+          "syntax": "preg_match(string $pattern, string $subject, array &$matches = null): int|false",
+          "category": "String"
+        },
+        {
+          "name": "preg_replace",
+          "desc": "Perform a regular expression search and replace",
+          "syntax": "preg_replace(mixed $pattern, mixed $replacement, mixed $subject): mixed",
+          "category": "String"
+        },
+        {
+          "name": "count",
+          "desc": "Count elements in an array or Countable object",
+          "syntax": "count(Countable|array $value, int $mode = COUNT_NORMAL): int",
+          "category": "Array"
+        },
+        {
+          "name": "array_push",
+          "desc": "Push one or more elements onto the end of an array",
+          "syntax": "array_push(array &$array, mixed ...$values): int",
+          "category": "Array"
+        },
+        {
+          "name": "array_pop",
+          "desc": "Pop the last element off an array",
+          "syntax": "array_pop(array &$array): mixed",
+          "category": "Array"
+        },
+        {
+          "name": "array_merge",
+          "desc": "Merge one or more arrays",
+          "syntax": "array_merge(array ...$arrays): array",
+          "category": "Array"
+        },
+        {
+          "name": "array_keys",
+          "desc": "Return all the keys of an array",
+          "syntax": "array_keys(array $array, mixed $filter_value, bool $strict = false): array",
+          "category": "Array"
+        },
+        {
+          "name": "array_values",
+          "desc": "Return all the values of an array",
+          "syntax": "array_values(array $array): array",
+          "category": "Array"
+        },
+        {
+          "name": "in_array",
+          "desc": "Check if a value exists in an array",
+          "syntax": "in_array(mixed $needle, array $haystack, bool $strict = false): bool",
+          "category": "Array"
+        },
+        {
+          "name": "array_search",
+          "desc": "Search an array for a value and return its key",
+          "syntax": "array_search(mixed $needle, array $haystack, bool $strict = false): int|string|false",
+          "category": "Array"
+        },
+        {
+          "name": "array_map",
+          "desc": "Apply a callback to the elements of an array",
+          "syntax": "array_map(?callable $callback, array $array, array ...$arrays): array",
+          "category": "Array"
+        },
+        {
+          "name": "array_filter",
+          "desc": "Filter elements of an array using a callback",
+          "syntax": "array_filter(array $array, ?callable $callback = null, int $mode = 0): array",
+          "category": "Array"
+        },
+        {
+          "name": "sort",
+          "desc": "Sort an array in ascending order",
+          "syntax": "sort(array &$array, int $flags = SORT_REGULAR): bool",
+          "category": "Array"
+        },
+        {
+          "name": "usort",
+          "desc": "Sort an array with a user-defined comparison function",
+          "syntax": "usort(array &$array, callable $callback): bool",
+          "category": "Array"
+        },
+        {
+          "name": "file_get_contents",
+          "desc": "Read an entire file into a string",
+          "syntax": "file_get_contents(string $filename, ...): string|false",
+          "category": "File"
+        },
+        {
+          "name": "file_put_contents",
+          "desc": "Write data to a file",
+          "syntax": "file_put_contents(string $filename, mixed $data, int $flags = 0): int|false",
+          "category": "File"
+        },
+        {
+          "name": "fopen",
+          "desc": "Open a file or URL",
+          "syntax": "fopen(string $filename, string $mode, ...): resource|false",
+          "category": "File"
+        },
+        {
+          "name": "fclose",
+          "desc": "Close an open file pointer",
+          "syntax": "fclose(resource $stream): bool",
+          "category": "File"
+        },
+        {
+          "name": "fread",
+          "desc": "Read from a file pointer",
+          "syntax": "fread(resource $stream, int $length): string|false",
+          "category": "File"
+        },
+        {
+          "name": "fwrite",
+          "desc": "Write to a file pointer",
+          "syntax": "fwrite(resource $stream, string $data, ?int $length = null): int|false",
+          "category": "File"
+        },
+        {
+          "name": "file_exists",
+          "desc": "Check whether a file or directory exists",
+          "syntax": "file_exists(string $filename): bool",
+          "category": "File"
+        },
+        {
+          "name": "is_file",
+          "desc": "Check whether the path is a regular file",
+          "syntax": "is_file(string $filename): bool",
+          "category": "File"
+        },
+        {
+          "name": "unlink",
+          "desc": "Delete a file",
+          "syntax": "unlink(string $filename, ?resource $context = null): bool",
+          "category": "File"
+        },
+        {
+          "name": "mkdir",
+          "desc": "Create a directory",
+          "syntax": "mkdir(string $directory, int $permissions = 0777, bool $recursive = false): bool",
+          "category": "File"
+        },
+        {
+          "name": "date",
+          "desc": "Format a local date and time",
+          "syntax": "date(string $format, ?int $timestamp = null): string",
+          "category": "Date/Time"
+        },
+        {
+          "name": "time",
+          "desc": "Get the current Unix timestamp",
+          "syntax": "time(): int",
+          "category": "Date/Time"
+        },
+        {
+          "name": "strtotime",
+          "desc": "Parse a textual datetime into a Unix timestamp",
+          "syntax": "strtotime(string $datetime, ?int $baseTimestamp = null): int|false",
+          "category": "Date/Time"
+        },
+        {
+          "name": "mktime",
+          "desc": "Get a Unix timestamp for a date",
+          "syntax": "mktime(int $hour, ?int $minute = null, ...): int|false",
+          "category": "Date/Time"
+        },
+        {
+          "name": "date_create",
+          "desc": "Create a DateTime object",
+          "syntax": "date_create(string $datetime = \"now\", ?DateTimeZone $timezone = null): DateTime|false",
+          "category": "Date/Time"
+        },
+        {
+          "name": "json_encode",
+          "desc": "Convert a value to a JSON string",
+          "syntax": "json_encode(mixed $value, int $flags = 0, int $depth = 512): string|false",
+          "category": "JSON"
+        },
+        {
+          "name": "json_decode",
+          "desc": "Decode a JSON string into a PHP value",
+          "syntax": "json_decode(string $json, ?bool $associative = null, int $depth = 512): mixed",
+          "category": "JSON"
+        },
+        {
+          "name": "abs",
+          "desc": "Get the absolute value",
+          "syntax": "abs(int|float $num): int|float",
+          "category": "Math"
+        },
+        {
+          "name": "ceil",
+          "desc": "Round fractions up",
+          "syntax": "ceil(int|float $num): float",
+          "category": "Math"
+        },
+        {
+          "name": "floor",
+          "desc": "Round fractions down",
+          "syntax": "floor(int|float $num): float",
+          "category": "Math"
+        },
+        {
+          "name": "round",
+          "desc": "Round a number",
+          "syntax": "round(int|float $num, int $precision = 0, int $mode = PHP_ROUND_HALF_UP): float",
+          "category": "Math"
+        },
+        {
+          "name": "max",
+          "desc": "Find the largest value",
+          "syntax": "max(mixed $value, mixed ...$values): mixed",
+          "category": "Math"
+        },
+        {
+          "name": "min",
+          "desc": "Find the smallest value",
+          "syntax": "min(mixed $value, mixed ...$values): mixed",
+          "category": "Math"
+        },
+        {
+          "name": "rand",
+          "desc": "Generate a random integer",
+          "syntax": "rand(int $min, int $max): int",
+          "category": "Math"
+        },
+        {
+          "name": "isset",
+          "desc": "Check whether a variable is set and not null",
+          "syntax": "isset(mixed $var, mixed ...$vars): bool",
+          "category": "Other"
+        },
+        {
+          "name": "empty",
+          "desc": "Check whether a variable is empty",
+          "syntax": "empty(mixed $var): bool",
+          "category": "Other"
+        },
+        {
+          "name": "var_dump",
+          "desc": "Dump information about a variable",
+          "syntax": "var_dump(mixed $value, mixed ...$values): void",
+          "category": "Other"
+        },
+        {
+          "name": "print_r",
+          "desc": "Print human-readable information about a variable",
+          "syntax": "print_r(mixed $value, bool $return = false): string|bool",
+          "category": "Other"
+        },
+        {
+          "name": "gettype",
+          "desc": "Get the type of a variable",
+          "syntax": "gettype(mixed $value): string",
+          "category": "Other"
+        },
+        {
+          "name": "is_array",
+          "desc": "Check whether a variable is an array",
+          "syntax": "is_array(mixed $value): bool",
+          "category": "Other"
+        },
+        {
+          "name": "is_string",
+          "desc": "Check whether a variable is a string",
+          "syntax": "is_string(mixed $value): bool",
+          "category": "Other"
+        },
+        {
+          "name": "is_numeric",
+          "desc": "Check whether a variable is a number or numeric string",
+          "syntax": "is_numeric(mixed $value): bool",
+          "category": "Other"
+        }
+      ]
+    },
+    "cssBorderRadius": {
+      "title": "CSS Border Radius Generator",
+      "description": "Adjust border-radius values visually and generate CSS code",
+      "presetsLabel": "Presets",
+      "preview": "Preview",
+      "settings": "Settings",
+      "linked": "Linked corners",
+      "unlinked": "Separate corners",
+      "corners": {
+        "topLeft": "Top left",
+        "topRight": "Top right",
+        "bottomLeft": "Bottom left",
+        "bottomRight": "Bottom right"
+      },
+      "elementColor": "Element color",
+      "codeTitle": "CSS code",
+      "copy": "Copy",
+      "copied": "Copied",
+      "presets": [
+        {
+          "name": "None",
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Small",
+          "values": [
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "Medium",
+          "values": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "Large",
+          "values": [
+            16,
+            16,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "Circle",
+          "values": [
+            50,
+            50,
+            50,
+            50
+          ]
+        },
+        {
+          "name": "Pill",
+          "values": [
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "Left side",
+          "values": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        {
+          "name": "Right side",
+          "values": [
+            0,
+            16,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "Top only",
+          "values": [
+            16,
+            16,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Bottom only",
+          "values": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "Diagonal",
+          "values": [
+            16,
+            0,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "Leaf",
+          "values": [
+            0,
+            50,
+            0,
+            50
+          ]
+        }
+      ]
+    },
+    "cssNeumorphism": {
+      "title": "Trinh tao CSS Neumorphism",
+      "description": "Tao CSS theo phong cach Neumorphism truc tuyen",
+      "previewText": "Preview Button",
+      "shapeTitle": "Shape style",
+      "shapeOptions": [
+        {
+          "value": "flat",
+          "label": "Flat"
+        },
+        {
+          "value": "concave",
+          "label": "Concave"
+        },
+        {
+          "value": "convex",
+          "label": "Convex"
+        },
+        {
+          "value": "pressed",
+          "label": "Pressed"
+        }
+      ],
+      "colorTitle": "Color settings",
+      "presetColors": "Preset colors",
+      "colorPresets": [
+        {
+          "color": "#e0e5ec",
+          "name": "Classic"
+        },
+        {
+          "color": "#f0f0f3",
+          "name": "White"
+        },
+        {
+          "color": "#d1d9e6",
+          "name": "Blue"
+        },
+        {
+          "color": "#e8dfd5",
+          "name": "Beige"
+        },
+        {
+          "color": "#dfe6e9",
+          "name": "Gray"
+        },
+        {
+          "color": "#ffeaa7",
+          "name": "Yellow"
+        },
+        {
+          "color": "#dfe4ea",
+          "name": "Slate"
+        },
+        {
+          "color": "#f8e1e7",
+          "name": "Pink"
+        },
+        {
+          "color": "#d5f5e3",
+          "name": "Mint"
+        },
+        {
+          "color": "#e8daef",
+          "name": "Purple"
+        }
+      ],
+      "backgroundColor": "Base color",
+      "lightColor": "Light color (highlight)",
+      "darkColor": "Dark color (shadow)",
+      "sliderTitle": "Shadow settings",
+      "size": "Size",
+      "radius": "Radius",
+      "distance": "Shadow distance",
+      "blur": "Shadow blur",
+      "intensity": "Intensity",
+      "codeTitle": "CSS code",
+      "copy": "Copy",
+      "copied": "Copied",
+      "infoTitle": "What is Neumorphism?",
+      "infoDescription": "Neumorphism is a soft UI style that combines subtle highlights and shadows to make elements appear raised or pressed into the background. It works best with low-contrast palettes and clean, minimal layouts."
+    },
+    "cssTextShadow": {
+      "title": "CSS Text Shadow Generator",
+      "description": "Adjust text-shadow values visually and generate CSS code",
+      "defaultText": "Text Shadow Example",
+      "presetsLabel": "Preset effects",
+      "textSettings": "Text settings",
+      "previewText": "Preview text",
+      "fontSize": "Font size",
+      "textColor": "Text color",
+      "shadowPrefix": "Shadow {{index}}",
+      "offsetX": "X offset",
+      "offsetY": "Y offset",
+      "blur": "Blur",
+      "opacity": "Opacity",
+      "color": "Color",
+      "addShadow": "Add shadow",
+      "codeTitle": "CSS code",
+      "copy": "Copy",
+      "copied": "Copied",
+      "presets": [
+        {
+          "name": "Soft shadow",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 2,
+              "y": 2,
+              "blur": 4,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Neon glow",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#00ff00",
+              "opacity": 0.8
+            }
+          ]
+        },
+        {
+          "name": "Purple glow",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 5,
+              "color": "#ff00ff",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#ff00ff",
+              "opacity": 0.8
+            },
+            {
+              "id": 3,
+              "x": 0,
+              "y": 0,
+              "blur": 20,
+              "color": "#ff00ff",
+              "opacity": 0.6
+            }
+          ]
+        },
+        {
+          "name": "Layered 3D",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 1,
+              "y": 1,
+              "blur": 0,
+              "color": "#666666",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 2,
+              "y": 2,
+              "blur": 0,
+              "color": "#888888",
+              "opacity": 1
+            },
+            {
+              "id": 3,
+              "x": 3,
+              "y": 3,
+              "blur": 0,
+              "color": "#aaaaaa",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "name": "Embossed",
+          "shadows": [
+            {
+              "id": 1,
+              "x": -1,
+              "y": -1,
+              "blur": 1,
+              "color": "#ffffff",
+              "opacity": 0.8
+            },
+            {
+              "id": 2,
+              "x": 1,
+              "y": 1,
+              "blur": 1,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "websocketTest": {
+      "title": "Online WebSocket Test Tool",
+      "description": "Test WebSocket connections and messaging online",
+      "defaultUrl": "wss://echo.websocket.org",
+      "connectingTo": "Connecting to {{url}}...",
+      "connectSuccess": "Connected successfully",
+      "connectError": "Connection error",
+      "connectionClosed": "Connection closed (Code: {{code}})",
+      "connectFailed": "Connection failed: {{message}}",
+      "disconnecting": "Disconnecting...",
+      "urlPlaceholder": "Enter a WebSocket URL, for example: wss://echo.websocket.org",
+      "disconnect": "Disconnect",
+      "connecting": "Connecting...",
+      "connect": "Connect",
+      "connected": "Connected",
+      "notConnected": "Not connected",
+      "messageLog": "Message log",
+      "clear": "Clear",
+      "noMessages": "No messages yet",
+      "messagePlaceholder": "Enter a message... (Enter to send, Shift+Enter for newline)",
+      "infoTitle": "WebSocket tips",
+      "infoItems": [
+        "The built-in echo service is useful for basic send/receive testing",
+        "Supports both ws:// and wss:// addresses",
+        "Press Enter to send, Shift+Enter to insert a new line",
+        "Make sure your target service allows WebSocket connections from the browser"
+      ],
+      "examplesTitle": "Common examples",
+      "publicEcho": "Public Echo Service",
+      "defaultTag": "Default"
+    },
+    "csrGenerator": {
+      "title": "Trinh tao CSR",
+      "description": "Tao Certificate Signing Request (CSR) truc tuyen",
+      "enterDomain": "Please enter a domain",
+      "generateFailed": "Failed to generate CSR",
+      "parseFailed": "Failed to parse CSR",
+      "serverConnectionFailed": "Failed to connect to the server, please try again later",
+      "tabs": {
+        "generate": "Generate CSR",
+        "view": "View CSR"
+      },
+      "formTitle": "Certificate information",
+      "labels": {
+        "commonName": "Domain (Common Name)",
+        "organization": "Organization",
+        "organizationUnit": "Department",
+        "city": "City",
+        "state": "State / Province",
+        "country": "Country / Region",
+        "email": "Email",
+        "keySize": "Key size"
+      },
+      "placeholders": {
+        "commonName": "For example: www.example.com or *.example.com",
+        "organization": "For example: Example Inc.",
+        "organizationUnit": "For example: IT Department",
+        "city": "For example: Beijing",
+        "state": "For example: Beijing",
+        "email": "For example: admin@example.com",
+        "csr": "Paste the CSR content here, starting with -----BEGIN CERTIFICATE REQUEST-----"
+      },
+      "countries": [
+        {
+          "value": "CN",
+          "label": "CN - China"
+        },
+        {
+          "value": "US",
+          "label": "US - United States"
+        },
+        {
+          "value": "JP",
+          "label": "JP - Japan"
+        },
+        {
+          "value": "KR",
+          "label": "KR - South Korea"
+        },
+        {
+          "value": "GB",
+          "label": "GB - United Kingdom"
+        },
+        {
+          "value": "DE",
+          "label": "DE - Germany"
+        },
+        {
+          "value": "FR",
+          "label": "FR - France"
+        },
+        {
+          "value": "SG",
+          "label": "SG - Singapore"
+        },
+        {
+          "value": "HK",
+          "label": "HK - Hong Kong"
+        },
+        {
+          "value": "TW",
+          "label": "TW - Taiwan"
+        }
+      ],
+      "keySizes": [
+        {
+          "value": "2048",
+          "label": "2048 bit (recommended)"
+        },
+        {
+          "value": "4096",
+          "label": "4096 bit (more secure)"
+        }
+      ],
+      "generating": "Generating...",
+      "generateAction": "Generate CSR and private key",
+      "csrRequest": "CSR request",
+      "privateKey": "Private key (keep it safe)",
+      "copy": "Copy",
+      "copied": "Copied",
+      "download": "Download",
+      "privateKeyWarning": "The private key is highly sensitive. Keep it safe and never share it publicly. If it is leaked, your certificate security may be compromised.",
+      "inputCsr": "Paste CSR content",
+      "parsing": "Parsing...",
+      "parseAction": "Parse CSR",
+      "csrInfo": "CSR information",
+      "infoItems": [
+        {
+          "label": "Domain (CN)",
+          "key": "commonName"
+        },
+        {
+          "label": "Organization (O)",
+          "key": "organization"
+        },
+        {
+          "label": "Department (OU)",
+          "key": "organizationUnit"
+        },
+        {
+          "label": "City (L)",
+          "key": "city"
+        },
+        {
+          "label": "State / Province (ST)",
+          "key": "state"
+        },
+        {
+          "label": "Country (C)",
+          "key": "country"
+        },
+        {
+          "label": "Email",
+          "key": "email"
+        },
+        {
+          "label": "Key algorithm",
+          "key": "keyAlgorithm"
+        },
+        {
+          "label": "Key size",
+          "key": "keySize"
+        },
+        {
+          "label": "Signature algorithm",
+          "key": "signatureAlgorithm"
+        }
+      ],
+      "keySizeValue": "{{value}} bit",
+      "aboutTitle": "What is a CSR?",
+      "aboutDescription": "A CSR (Certificate Signing Request) is an encoded file sent to a certificate authority (CA) when applying for an SSL/TLS certificate. It contains information about your domain and organization, as well as the public key that matches your private key. After verification, the CA uses the CSR to issue the SSL certificate."
+    },
+    "metaGenerator": {
+      "title": "Trinh tao Meta Tag",
+      "description": "Tao Meta Tag cho tim kiem va chia se mang xa hoi",
+      "basicInfo": "Basic information",
+      "socialMedia": "Social media (Open Graph)",
+      "generatedCode": "Generated code",
+      "copy": "Copy",
+      "copied": "Copied",
+      "searchPreview": "Search preview",
+      "searchPreviewTitleFallback": "Page title",
+      "searchPreviewDescriptionFallback": "Your page description will appear here...",
+      "socialPreview": "Social preview",
+      "socialPreviewTitleFallback": "Title",
+      "socialPreviewDescriptionFallback": "Description",
+      "labels": {
+        "title": "Page title",
+        "description": "Page description",
+        "keywords": "Keywords",
+        "author": "Author",
+        "robots": "Robots directive",
+        "ogTitle": "OG title",
+        "ogDescription": "OG description",
+        "ogImage": "OG image URL",
+        "ogUrl": "Page URL",
+        "twitterCard": "Twitter card type"
+      },
+      "placeholders": {
+        "title": "Enter a page title",
+        "description": "Enter a page description, ideally within 150 characters",
+        "keywords": "keyword1, keyword2, keyword3",
+        "author": "Enter the author name",
+        "ogTitle": "Enter a social sharing title",
+        "ogDescription": "Enter a social sharing description",
+        "ogImage": "https://example.com/image.jpg",
+        "ogUrl": "https://example.com/page"
+      },
+      "robotsOptions": [
+        {
+          "value": "index, follow",
+          "label": "Allow indexing and following"
+        },
+        {
+          "value": "index, nofollow",
+          "label": "Allow indexing, disallow following"
+        },
+        {
+          "value": "noindex, follow",
+          "label": "Disallow indexing, allow following"
+        },
+        {
+          "value": "noindex, nofollow",
+          "label": "Disallow indexing and following"
+        }
+      ],
+      "twitterOptions": [
+        {
+          "value": "summary",
+          "label": "Summary"
+        },
+        {
+          "value": "summary_large_image",
+          "label": "Large image"
+        },
+        {
+          "value": "player",
+          "label": "Player"
+        }
+      ]
+    },
+    "toolHistoryDemo": {
+      "confirmClear": "Ban co chac chan muon xoa toan bo lich su cong cu va muc yeu thich khong?",
+      "exportTitle": "Xuat du lieu",
+      "usageCount": "Da dung {{count}} lan",
+      "lastUsed": "Su dung lan cuoi: {{time}}",
+      "favorite": "Yeu thich: {{value}}",
+      "yes": "Co",
+      "no": "Khong",
+      "exportFailed": "Xuat khong thanh cong",
+      "tabs": {
+        "overview": "Tong quan",
+        "history": "Lich su",
+        "favorites": "Yeu thich",
+        "analytics": "Phan tich"
+      },
+      "loading": "Dang tai du lieu lich su cong cu...",
+      "loadFailed": "Tai that bai: {{error}}",
+      "title": "Demo lich su cong cu",
+      "description": "Trinh bay lich su su dung, muc yeu thich va phan tich cua cong cu",
+      "export": "Xuat",
+      "clear": "Xoa",
+      "searchPlaceholder": "Tim cong cu...",
+      "stats": {
+        "totalTools": "Total tools",
+        "totalUsage": "Total usage",
+        "favoriteTools": "Favorite tools",
+        "averageUsage": "Average usage"
+      },
+      "favoriteToolsTitle": "Cong cu yeu thich",
+      "favoriteToolsDescription": "Cong cu duoc danh dau la yeu thich",
+      "noFavoriteTools": "Chua co cong cu yeu thich",
+      "mostUsed": "Cong cu duoc dung nhieu nhat",
+      "timesUsed": "Da dung {{count}} lan",
+      "recentActivity": "Hoat dong gan day",
+      "exportDialogTitle": "Xuat lich su cong cu",
+      "exportDialogDescription": "Chon dinh dang xuat",
+      "formats": {
+        "json": {
+          "title": "JSON format",
+          "description": "Best for backup and developer usage"
+        },
+        "csv": {
+          "title": "CSV format",
+          "description": "Good for spreadsheets such as Excel"
+        },
+        "txt": {
+          "title": "TXT format",
+          "description": "Plain text summary"
+        }
+      },
+      "cancel": "Huy"
+    },
+    "userAgentParser": {
+      "title": "User-Agent Parser",
+      "description": "Parse User-Agent strings to identify browser, system, and device information",
+      "label": "User-Agent string",
+      "useCurrent": "Use current browser",
+      "inputPlaceholder": "Enter a User-Agent string...",
+      "parse": "Parse",
+      "unknownBrowser": "Unknown browser",
+      "unknown": "Unknown",
+      "deviceTypes": {
+        "mobile": "Mobile",
+        "tablet": "Tablet",
+        "desktop": "Desktop"
+      },
+      "browserInfo": "Browser information",
+      "browser": "Browser",
+      "version": "Version",
+      "majorVersion": "Major version",
+      "operatingSystem": "Operating system",
+      "system": "System",
+      "deviceInfo": "Device information",
+      "type": "Type",
+      "vendor": "Vendor",
+      "model": "Model",
+      "engineAndCpu": "Engine & CPU",
+      "engine": "Engine",
+      "engineVersion": "Engine version",
+      "cpuArchitecture": "CPU architecture",
+      "examplesTitle": "Example User-Agent strings"
+    },
+    "cssBoxShadow": {
+      "title": "DIV Box Shadow Generator",
+      "description": "Adjust box-shadow values visually and generate CSS code",
+      "preview": "Preview",
+      "basicSettings": "Basic settings",
+      "backgroundColor": "Background color",
+      "boxColor": "Box color",
+      "borderRadius": "Border radius",
+      "shadowPrefix": "Shadow {{index}}",
+      "inset": "Inset",
+      "offsetX": "X offset",
+      "offsetY": "Y offset",
+      "blur": "Blur",
+      "spread": "Spread",
+      "opacity": "Opacity",
+      "color": "Color",
+      "addShadow": "Add shadow",
+      "codeTitle": "CSS code",
+      "copy": "Copy",
+      "copied": "Copied"
+    },
+    "cssGlassmorphism": {
+      "title": "CSS Glassmorphism Generator",
+      "description": "Generate Glassmorphism-style CSS code online",
+      "cardTitle": "Glassmorphism Card",
+      "cardDescription": "Glassmorphism is a modern UI style that uses transparency, blur, and soft borders to create a frosted glass effect.",
+      "adjustTitle": "Adjust settings",
+      "blur": "Background blur",
+      "transparency": "Transparency",
+      "saturation": "Saturation",
+      "borderRadius": "Border radius",
+      "borderOpacity": "Border opacity",
+      "codeTitle": "CSS code",
+      "copy": "Copy",
+      "copied": "Copied",
+      "infoTitle": "Compatibility notes",
+      "infoDescription": "The backdrop-filter property requires modern browser support. Firefox may require extra settings, and Safari may need the -webkit- prefix. Consider graceful fallbacks for unsupported browsers."
+    },
+    "desktopShortcut": {
+      "title": "Website Desktop Shortcut",
+      "description": "Create website shortcuts for the desktop and launch them quickly",
+      "enterUrl": "Please enter a valid website URL",
+      "enterName": "Please enter a shortcut name",
+      "redirectingTo": "Opening {{name}}...",
+      "urlLabel": "Website URL",
+      "urlPlaceholder": "example.com or https://example.com",
+      "nameLabel": "Shortcut name",
+      "namePlaceholder": "Website shortcut",
+      "downloadUrlFile": "Download .url file",
+      "downloadHtmlFile": "Download .html file",
+      "infoTitle": "Instructions",
+      "urlFileDesc": ".url files are Windows Internet Shortcut files and usually open the target website directly in your default browser.",
+      "htmlFileDesc": ".html files work across Windows, macOS, and Linux and can also be used as simple website shortcuts.",
+      "afterDownload": "After downloading, move the file to your desktop or pin it where needed."
+    },
+    "htmlPreview": {
+      "title": "Xem truoc HTML",
+      "description": "Viet va xem truoc HTML truc tuyen",
+      "defaultMessage": "Chao mung den voi cong cu xem truoc HTML",
+      "editorTitle": "Ma HTML",
+      "clear": "Xoa",
+      "editorPlaceholder": "Nhap ma HTML tai day...",
+      "previewTitle": "Xem truoc",
+      "run": "Chay",
+      "fullscreen": "Toan man hinh",
+      "exitFullscreen": "Thoat toan man hinh",
+      "usageTitle": "Cach su dung",
+      "usageItems": [
+        "Nhap day du ma HTML vao trinh soan thao ben trai",
+        "Nhan Chay de xem ket qua",
+        "Ho tro CSS va JavaScript inline",
+        "Ma duoc chay trong sandbox de dam bao an toan"
+      ]
+    },
+    "pageRefresh": {
+      "title": "Tu dong lam moi trang",
+      "description": "Tu dong lam moi mot trang web truc tuyen",
+      "urlRequired": "Nhap URL",
+      "urlPlaceholder": "Nhap URL, vi du https://example.com",
+      "seconds": "giay",
+      "start": "Bat dau",
+      "stop": "Dung",
+      "quickSet": "Cai dat nhanh:",
+      "secondsValue": "{{count}} giay",
+      "minutesValue": "{{count}} phut",
+      "running": "Dang chay",
+      "refreshIn": "Lam moi sau {{count}} giay",
+      "refreshedCount": "Da lam moi {{count}} lan",
+      "lastRefresh": "Lan lam moi cuoi: {{time}}",
+      "previewTitle": "Xem truoc trang",
+      "previewPlaceholder": "Nhap URL de bat dau xem truoc",
+      "usageTitle": "Cach su dung",
+      "usageItems": [
+        "Nhap URL trang web va dat khoang thoi gian lam moi",
+        "Nhan Bat dau de bat dau lam moi tu dong",
+        "Mot so trang web co the khong hien thi trong iframe do chinh sach bao mat",
+        "Huu ich de theo doi thay doi trang hoac giu phien dang hoat dong"
+      ]
+    },
+    "pxToRem": {
+      "title": "Bo chuyen doi PX sang REM",
+      "description": "Chuyen hang loat don vi PX trong ma CSS sang REM",
+      "baseFontSize": "Kich thuoc font goc",
+      "precision": "Do chinh xac thap phan",
+      "precisionOptions": {
+        "2": "2 digits",
+        "3": "3 digits",
+        "4": "4 digits",
+        "5": "5 digits"
+      },
+      "inputLabel": "Dau vao ma CSS",
+      "convertToRem": "PX sang REM",
+      "convertToPx": "REM sang PX",
+      "outputLabel": "Ket qua",
+      "copy": "Sao chep",
+      "copied": "Da sao chep",
+      "outputPlaceholder": "Ket qua chuyen doi se hien thi tai day...",
+      "quickReferenceTitle": "Tham khao nhanh (co so: {{baseSize}}px)",
+      "whyUseRem": "Tai sao nen dung REM?",
+      "infoItems": [
+        "REM la don vi tuong doi voi kich thuoc font goc (html)",
+        "Su dung REM giup de dang dieu chinh ty le chu tren toan bo trang web",
+        "Ho tro thiet ke responsive va kha nang truy cap"
+      ],
+      "formula": "Cong thuc: rem = px / {{baseSize}}"
+    },
+    "shieldBadge": {
+      "title": "Trinh tao Shield Badge",
+      "description": "Tao Shield badge SVG truc tuyen",
+      "downloadFailed": "Tai xuong that bai, vui long thu lai sau",
+      "basicSettings": "Cai dat co ban",
+      "labelField": "Nhan",
+      "messageField": "Thong diep",
+      "color": "Mau sac",
+      "style": "Kieu",
+      "logoSettings": "Cai dat logo",
+      "logo": "Logo",
+      "none": "Khong co",
+      "logoColor": "Mau logo",
+      "preview": "Xem truoc",
+      "downloadSvg": "Tai SVG",
+      "codeTitle": "Ma code",
+      "copiedToClipboard": "Da sao chep vao Clipboard"
+    },
+    "robotsGenerator": {
+      "title": "Trinh tao robots.txt",
+      "description": "Tao tep robots.txt truc tuyen",
+      "templatesLabel": "Mau nhanh:",
+      "templates": {
+        "allowAll": "Cho phep tat ca",
+        "blockAll": "Chan tat ca",
+        "standard": "Cau hinh tieu chuan"
+      },
+      "ruleTitle": "Quy tac {{index}}",
+      "userAgents": {
+        "all": "* (all crawlers)",
+        "baidu": "Baiduspider (Baidu)",
+        "sogou": "Sogou"
+      },
+      "disallow": "Duong dan khong duoc phep",
+      "allow": "Duong dan duoc phep",
+      "add": "Them",
+      "addRule": "Them quy tac",
+      "otherSettings": "Cai dat khac",
+      "sitemapUrl": "URL sitemap",
+      "crawlDelay": "Crawl-delay (giay)",
+      "preview": "Xem truoc robots.txt",
+      "copy": "Sao chep",
+      "copied": "Da sao chep",
+      "saveTip": "Luu tep nay voi ten robots.txt va dat no trong thu muc goc cua website"
+    },
+    "emailEncrypt": {
+      "title": "Email Address Encoder",
+      "description": "Encode email addresses to reduce scraping by bots",
+      "inputLabel": "Email address",
+      "copy": "Copy",
+      "copied": "Copied",
+      "infoTitle": "Why encode an email address?",
+      "infoItems": [
+        "Reduce the risk of bots scraping your email address for spam",
+        "The encoded email can still display in the browser while being harder for bots to detect",
+        "Multiple encoding methods can be combined for stronger protection",
+        "It is still recommended to use server-side anti-spam measures"
+      ],
+      "results": {
+        "unicodeDecimal": {
+          "name": "Unicode decimal",
+          "description": "Convert characters to decimal Unicode entities"
+        },
+        "unicodeHex": {
+          "name": "Unicode hexadecimal",
+          "description": "Convert characters to hexadecimal Unicode entities"
+        },
+        "javascript": {
+          "name": "JavaScript output",
+          "description": "Render the email dynamically with JavaScript"
+        },
+        "mailto": {
+          "name": "Mailto link",
+          "description": "Generate an encoded mailto link"
+        },
+        "cssReverse": {
+          "name": "CSS reverse display",
+          "description": "Display the text in reverse order using CSS"
+        }
+      }
+    },
+    "workerDemo": {
+      "title": "Demo hieu nang Web Worker",
+      "description": "So sanh hieu nang tinh toan giua Web Worker va luong chinh",
+      "invalidInteger": "Vui long nhap so nguyen duong hop le",
+      "workerError": "Loi tinh toan cua Worker:",
+      "notice": "Luu y",
+      "settingsTitle": "Cai dat tinh toan",
+      "inputLabel": "Gia tri dau vao",
+      "inputPlaceholder": "Nhap mot so nguyen duong",
+      "operationLabel": "Phep tinh",
+      "operations": {
+        "factorial": "Giai thua (n!)",
+        "fibonacci": "Day Fibonacci",
+        "prime": "Kiem tra so nguyen to",
+        "factorization": "Phan tich thua so nguyen to"
+      },
+      "workerCalculate": "Tinh bang Web Worker",
+      "mainThreadCalculate": "Tinh tren luong chinh",
+      "comparisonTitle": "So sanh hieu nang",
+      "workerResult": "Ket qua Web Worker",
+      "mainThreadResult": "Ket qua luong chinh",
+      "resultLabel": "Ket qua:",
+      "timeLabel": "Thoi gian tinh toan:",
+      "calculating": "Dang tinh toan...",
+      "emptyState": "Nhan mot nut o tren de bat dau tinh toan",
+      "infoTitle": "Tai sao nen dung Web Workers?",
+      "workerFeaturesTitle": "Tinh nang cua Web Worker",
+      "workerFeatures": [
+        "Chay tren luong nen ma khong chan luong chinh",
+        "Ly tuong cho cac tac vu tinh toan nang",
+        "Giu giao dien luon phan hoi nhanh",
+        "Ho tro xu ly song song"
+      ],
+      "useCasesTitle": "Truong hop su dung",
+      "useCases": [
+        "Xu ly du lieu lon",
+        "Thuat toan phuc tap",
+        "Xu ly hinh anh",
+        "Ma hoa va giai ma"
+      ]
+    },
+    "jsDebug": {
+      "title": "Trinh go loi JS",
+      "description": "Chay va go loi JavaScript truc tuyen",
+      "defaultCode": "// Viet ma JavaScript tai day\nconsole.log(\"Hello, World!\");\n\n// Vi du: thao tac voi mang\nconst numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(n => n * 2);\nconsole.log(\"Mang goc:\", numbers);\nconsole.log(\"Sau khi nhan doi:\", doubled);\n\n// Vi du: doi tuong\nconst user = {\n  name: \"Nam\",\n  age: 25,\n  city: \"Ha Noi\"\n};\nconsole.log(\"Thong tin nguoi dung:\", user);\n\n// Vi du: thao tac bat dong bo\nsetTimeout(() => {\n  console.log(\"Da chay sau 1 giay\");\n}, 1000);",
+      "editorTitle": "Ma JavaScript",
+      "copy": "Sao chep",
+      "copied": "Da sao chep!",
+      "clear": "Xoa",
+      "placeholder": "Nhap ma JavaScript tai day...",
+      "run": "Chay ma",
+      "consoleTitle": "Dau ra console",
+      "consolePlaceholder": "Dau ra console se hien thi tai day...",
+      "usageTitle": "Cach su dung",
+      "usageItems": [
+        "Su dung console.log(), console.error() va console.warn() de hien thi thong diep",
+        "Ho tro cu phap ES6+ nhu arrow functions, destructuring va template strings",
+        "Ho tro thao tac bat dong bo nhu setTimeout va Promise",
+        "Ma duoc chay trong sandbox va khong the truy cap DOM hoac tai nguyen ben ngoai"
+      ]
+    },
+    "formValidationDemo": {
+      "title": "Demo xac thuc bieu mau",
+      "description": "Trinh bay xac thuc bieu mau day du voi kiem tra thoi gian thuc, thong bao loi va lam sach du lieu",
+      "validation": {
+        "username": "Username can only contain letters, numbers, and underscores, and must be 3-20 characters long",
+        "phone": "Please enter a valid mobile number",
+        "age": "Age must be between 1 and 120",
+        "idCard": "Please enter a valid ID card number",
+        "address": "Address must be no longer than 200 characters",
+        "bio": "Bio must be no longer than 500 characters"
+      },
+      "submitSuccess": "Xac thuc bieu mau thanh cong! Du lieu da gui:",
+      "quickTestTitle": "Kiem tra nhanh",
+      "quickLabels": {
+        "email": "Xac thuc email",
+        "phone": "Xac thuc dien thoai",
+        "url": "Xac thuc URL"
+      },
+      "quickPlaceholders": {
+        "email": "Enter an email address",
+        "phone": "Enter a phone number",
+        "url": "Enter a URL"
+      },
+      "valid": "Hop le",
+      "invalid": "Khong hop le",
+      "formTitle": "Xac thuc bieu mau day du",
+      "placeholders": {
+        "username": "Username (letters, numbers, underscores)",
+        "email": "Email address",
+        "phone": "Mobile number",
+        "website": "Personal website (optional)",
+        "age": "Age",
+        "idCard": "ID card number",
+        "address": "Detailed address (optional)",
+        "bio": "Bio (optional, up to 500 characters)"
+      },
+      "success": {
+        "username": "Username format is valid",
+        "email": "Email format is valid",
+        "phone": "Phone number format is valid",
+        "website": "URL format is valid",
+        "age": "Age is valid",
+        "idCard": "ID card format is valid",
+        "address": "Address is valid",
+        "bio": "Bio is valid"
+      },
+      "submit": "Gui bieu mau",
+      "summaryTitle": "Tom tat xac thuc",
+      "fieldLabels": {
+        "username": "Ten nguoi dung",
+        "email": "Email",
+        "phone": "Dien thoai",
+        "website": "Website",
+        "age": "Tuoi",
+        "idCard": "Giay to tuy than",
+        "address": "Dia chi",
+        "bio": "Tieu su"
+      },
+      "summaryStatus": {
+        "failed": "Xac thuc that bai",
+        "passed": "Xac thuc thanh cong",
+        "empty": "Chua dien"
+      },
+      "infoTitle": "Tinh nang xac thuc bieu mau",
+      "infoItems": [
+        {
+          "title": "Live validation",
+          "description": "Checks format while typing and validates again on blur"
+        },
+        {
+          "title": "Multiple rule types",
+          "description": "Supports required fields, length checks, regular expressions, and custom validation"
+        },
+        {
+          "title": "Visual feedback",
+          "description": "Shows validation status clearly with colors, icons, and messages"
+        },
+        {
+          "title": "Data cleanup",
+          "description": "Automatically trims and normalizes submitted data"
+        },
+        {
+          "title": "Helpful error prompts",
+          "description": "Provides user-friendly guidance for correcting input"
+        },
+        {
+          "title": "Accessibility support",
+          "description": "Helps keep forms usable for all users"
+        }
+      ]
+    },
+    "faviconGenerator": {
+      "title": "Trinh tao Favicon",
+      "description": "Chuyen doi hinh anh thanh bieu tuong favicon cho website",
+      "historyTitle": "Trinh tao Favicon",
+      "historyCategory": "Cong cu hinh anh",
+      "uploadImageFile": "Tai len mot tep hinh anh",
+      "generateFailed": "Khong the tao bieu tuong, vui long thu lai",
+      "uploadTitle": "Tai len hinh anh",
+      "uploadAria": "Tai len mot tep hinh anh",
+      "dropzoneAria": "Nhan de tai len hinh anh; ho tro PNG, JPG, SVG va nhieu dinh dang khac",
+      "dropRelease": "Tha de tai len hinh anh",
+      "dropClick": "Nhan hoac keo tha hinh anh vao day",
+      "supportFormats": "Ho tro PNG, JPG, SVG va nhieu dinh dang khac",
+      "clearImage": "Xoa hinh anh",
+      "clearImageTitle": "Xoa hinh anh (Ctrl+L)",
+      "settingsTitle": "Cai dat",
+      "removeBackground": "Remove image background color",
+      "removeColor": "Color to remove",
+      "removeColorPicker": "Choose the background color to remove",
+      "removeColorValue": "Background color value to remove",
+      "tolerance": "Tolerance: {{value}}",
+      "toleranceAria": "Color tolerance",
+      "toleranceTip": "A higher tolerance removes a wider color range",
+      "transparentBackground": "Transparent background",
+      "transparentTip": "Note: If the original image already has a background color, enable ?Remove image background color?.",
+      "backgroundColor": "Background color",
+      "backgroundColorPicker": "Choose a background color",
+      "backgroundColorValue": "Background color value",
+      "selectSize": "Select sizes",
+      "selectedState": " (selected)",
+      "sizeAria": "{{size}}x{{size}} pixel size{{state}}",
+      "toggleSizeTitle": "Toggle {{size}}x{{size}} size (Alt+{{shortcut}})",
+      "previewTitle": "Xem truoc",
+      "generating": "Dang tao...",
+      "downloadSizeAria": "Download {{size}}x{{size}} icon",
+      "download": "Tai xuong",
+      "uploadFirst": "Vui long tai len hinh anh truoc",
+      "downloadTitle": "Tai xuong",
+      "downloadAllPng": "Tai tat ca kich thuoc (PNG)",
+      "downloadAllPngTitle": "Download all PNG sizes (Ctrl+Enter)",
+      "downloadIco": "Tai favicon.ico",
+      "downloadIcoTitle": "Download favicon.ico (Alt+I)",
+      "usageTitle": "Cach su dung",
+      "usageItems": [
+        "Remove background color: removes solid backgrounds such as gray or white",
+        "Tolerance: increase tolerance to remove similar colors, useful for gradient backgrounds",
+        "16x16: browser tab icon",
+        "32x32: taskbar shortcut icon",
+        "48x48: Windows website shortcut",
+        "Place the generated icon in your website root directory"
+      ]
+    }
+  },
+  "components": {
+    "toolHistory": {
+      "usageCount": "Used {{count}} times",
+      "recentUsed": "Last used: {{value}}",
+      "removeFavorite": "Remove from favorites",
+      "addFavorite": "Add to favorites",
+      "removeRecord": "Remove record",
+      "emptyHistory": "No tool history yet",
+      "confirmClear": "Are you sure you want to clear all tool history?",
+      "tabs": {
+        "recent": "Recent",
+        "favorites": "Favorites",
+        "mostUsed": "Most Used"
+      },
+      "title": "Tool History",
+      "clearHistory": "Clear history",
+      "searchPlaceholder": "Search history...",
+      "emptyMessages": {
+        "recent": "No recent usage records",
+        "favorites": "No favorite tools yet",
+        "mostUsed": "No most-used tools yet"
+      }
+    },
+    "exportFormatSelector": {
+      "buttonText": "Export results",
+      "exporting": "Exporting...",
+      "exportFailed": "Export failed, please try again"
+    },
+    "ads": {
+      "loading": "Loading ads...",
+      "carouselTitle": "Ad carousel",
+      "checkConsole": "Please check the browser console for detailed logs"
+    },
+    "networkStatus": {
+      "online": "Online",
+      "offline": "Offline",
+      "connected": "Network connected",
+      "disconnected": "Network disconnected",
+      "connectedDescription": "All features are available now",
+      "disconnectedDescription": "Some features may be unavailable. Please check your network connection.",
+      "requestFailed": "Request failed"
+    },
+    "keyboardShortcutsHelp": {
+      "title": "Keyboard Shortcuts",
+      "close": "Close",
+      "toggleDescription": "Show or hide keyboard shortcut help",
+      "helpTextBefore": "Press",
+      "helpTextMiddle": "or",
+      "helpTextAfter": "to show or hide this help",
+      "tipTitle": "Tips",
+      "tipItems": [
+        "Shortcut labels may look slightly different across operating systems",
+        "Some shortcuts may conflict with browser shortcuts",
+        "Use the Tab key to move between focusable elements",
+        "Press Enter to activate buttons and links"
+      ],
+      "closeEsc": "Close (ESC)"
+    },
+    "performanceDashboard": {
+      "title": "Performance Dashboard",
+      "startMonitoring": "Start monitoring",
+      "stopMonitoring": "Stop monitoring",
+      "exportReport": "Export report",
+      "notMeasured": "Not measured",
+      "metrics": {
+        "fcp": "First Contentful Paint",
+        "lcp": "Largest Contentful Paint",
+        "fid": "First Input Delay",
+        "cls": "Cumulative Layout Shift",
+        "ttfb": "Time to First Byte"
+      },
+      "memoryTitle": "Memory Usage",
+      "memory": {
+        "used": "Used memory",
+        "total": "Total memory",
+        "usageRate": "Usage rate"
+      },
+      "tipsTitle": "Optimization tips",
+      "tips": [
+        "Use the app normally while monitoring; data will update in real time",
+        "FCP < 1.8s, LCP < 2.5s, FID < 100ms, and CLS < 0.1 are considered excellent",
+        "If memory usage exceeds 80%, consider optimizing the code",
+        "You can export a detailed report for deeper analysis"
+      ],
+      "emptyState": "Click ?Start monitoring? to begin performance analysis"
+    }
+  },
+  "kunqiongNav": {
+    "home": "Trang chủ",
+    "aiTools": "Công cụ AI",
+    "office": "Văn phòng",
+    "multimedia": "Multimedia",
+    "development": "Công cụ nhà phát triển",
+    "text": "Văn bản",
+    "file": "Tập tin",
+    "system": "Hệ thống",
+    "life": "Tuổi Thọ",
+    "news": "Tin tức AI",
+    "custom": "Phần mềm tùy chỉnh",
+    "consult": "Tư vấn",
+    "industryNews": "Tin tức ngành",
+    "feedback": "Phản hồi",
+    "imageGen": "Tạo hình ảnh",
+    "codeDev": "Mã & phát triển",
+    "logoAlt": "Hộp công cụ Kunqiong AI",
+    "footerLogoAlt": "Kunqiong AI",
+    "loginRegister": "Đăng nhập | Đăng ký",
+    "navExpandAria": "Mở rộng",
+    "navSearchAria": "Tìm kiếm",
+    "navMenuAria": "Menu"
+  }
+}

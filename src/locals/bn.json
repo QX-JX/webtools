@@ -1,0 +1,2730 @@
+{
+  "common": {
+    "home": "হোম",
+    "websiteDetection": "ওয়েবসাইট চেক",
+    "seoTools": "এসইও টুলস",
+    "devTools": "ডেভেলপার টুলস",
+    "encodingConversion": "এনকোডিং টুলস",
+    "otherTools": "অন্যান্য টুলস",
+    "feedback": "ফিডব্যাক",
+    "customization": "কাস্টম সমাধান / যোগাযোগ করুন",
+    "back": "ফিরে যাও",
+    "appName": "একত্রিত ওয়েবমাস্টার টুলস",
+    "brandName": "এক কুনকিয়ং পণ্য",
+    "loading": "লোড হচ্ছে...",
+    "processing": "প্রক্রিয়াজারী",
+    "processingDescription": "আপনার ডেটা প্রক্রিয়াজারী হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন...",
+    "inProgress": "প্রক্রিয়াধীন",
+    "search": "টুলস খুঁজুন...",
+    "my": "আমার",
+    "menu": "মেনু",
+    "settings": "সেটিংস",
+    "all": "সব",
+    "category": "বিভাগ",
+    "noToolsFound": "মিলিত টুলস খুঁজে পাওয়া যায়নি",
+    "recommended": "পরামর্শ করা হয়েছে",
+    "usageCount": "ব্যবহার করা হয়েছে {{count}} বার",
+    "toolsCount": "{{count}} টুলস",
+    "export": " ekspor",
+    "usageInstructions": "ব্যবহারের নির্দেশাবলী"
+  },
+  "auth": {
+    "login": "লগ ইন",
+    "logout": "লগ আউট",
+    "userInfo": "ব্যবহারকারীর তথ্য",
+    "nickname": "নিকনেম",
+    "avatar": "অভিনয়",
+    "user": "ব্যবহারকারী",
+    "loggedIn": "লগ ইন করা হয়েছে",
+    "loggingOut": "লগ আউট হচ্ছে...",
+    "loggingIn": "লগ ইন হচ্ছে...",
+    "loginInstructions": "আপনার ব্রাউজারে লগ ইন সম্পন্ন করুন",
+    "cancelLogin": "লগ ইন বাতিল করুন",
+    "loginFailed": "লগ ইন ব্যর্থ হয়েছে",
+    "retry": "পুনরায় চেষ্টা করুন",
+    "close": "বন্ধ করুন",
+    "loginDescription": "নিচের বাটনে ক্লিক করুন যাতে আপনার ব্রাউজারে লগ ইন পেজ খুলুন। আপনি লগ ইন সম্পন্ন করার পর, এপ আপনার লগ ইন অবস্থা স্বয়ংক্রিয়ভাবে সিঙ্ক করবে।",
+    "loginTip": "টিপ: লগ ইন প্রক্রিয়া চলাকালীন আপনার ব্রাউজার খুলে রাখুন।",
+    "openBrowserLogin": "ব্রাউজার লগ ইন খুলুন",
+    "cancel": "বাতিল",
+    "loginReminder": "লগ ইন স্মরণীয়",
+    "loginRequiredTitle": "লগ ইন প্রয়োজন",
+    "loginRequiredDescription": "এই ফিচারটি ব্যবহার করার আগে আপনার লগ ইন করা প্রয়োজন। লগ ইন করার পর, আপনি সম্পূর্ণ সেবা অভিজ্ঞতা উপভোগ করতে পারবেন।",
+    "loginActionDescription": "নিচের বাটনে ক্লিক করুন যাতে আপনার ব্রাউজারে লগ ইন পেজ খুলুন, তারপর সেখানে লগ ইন সম্পন্ন করুন।",
+    "loginNow": "এখন লগ ইন করুন",
+    "loginBenefit": "সমস্ত ফিচার ব্যবহার করতে লগ ইন করুন",
+    "errors": {
+      "getLoginUrlFailed": "লগ ইন URL পাওয়া ব্যর্থ হয়েছে: {{message}}",
+      "getLoginUrlException": "লগ ইন URL পাওয়ার সময় ত্রুটি হয়েছে: {{error}}",
+      "loginCancelled": "লগ ইন বাতিল করা হয়েছে",
+      "pollingAbnormal": "পুলিং অস্বাভাবিক উত্তর ফেরত দিয়েছে: {{message}}",
+      "pollingFailed": "পুলিং ব্যর্থ হয়েছে: {{error}}",
+      "loginTimeout": "লগ ইন সময় শেষ হয়ে গেছে",
+      "checkLoginStatusFailed": "লগ ইন অবস্থা পরীক্ষা করা ব্যর্থ হয়েছে, স্ট্যাটাস কোড: {{status}}",
+      "checkLoginException": "লগ ইন অবস্থা পরীক্ষা করার সময় ত্রুটি হয়েছে",
+      "getUserInfoFailed": "ব্যবহারকারীর তথ্য পাওয়া ব্যর্থ হয়েছে: {{message}}",
+      "getUserInfoException": "ব্যবহারকারীর তথ্য পাওয়ার সময় ত্রুটি হয়েছে: {{error}}",
+      "logoutFailed": "লগ আউট করা ব্যর্থ হয়েছে: {{message}}",
+      "logoutException": "লগ আউট করার সময় ত্রুটি হয়েছে: {{error}}",
+      "getFeedbackUrlFailed": "ফিডব্যাক URL পাওয়া ব্যর্থ হয়েছে: {{message}}",
+      "getFeedbackUrlException": "ফিডব্যাক URL পাওয়ার সময় ত্রুটি হয়েছে: {{error}}"
+    }
+  },
+  "favorite": {
+    "add": "উইপ ফেভারিটে যোগ করুন",
+    "remove": "ফেভারিট থেকে বাদ দিন",
+    "label": "ফেভারিট",
+    "failed": "অপারেশন ব্যর্থ হয়েছে"
+  },
+  "errors": {
+    "fetchCustomUrlFailed": "কাস্টম পেজ URL পাওয়া ব্যর্থ হয়েছে:",
+    "fetchFeedbackUrlFailed": "ফিডব্যাক পেজ URL পাওয়া ব্যর্থ হয়েছে:",
+    "copyFailed": "প্রতিলিপি ব্যর্থ হয়েছে",
+    "networkError": "নেটওয়ার্ক সংযোগ ত্রুটি",
+    "somethingWentWrong": "কিছু ভুল হয়েছে",
+    "unexpectedError": "দুঃখিত, অপেক্ষিত নয় এমন একটি ত্রুটি ঘটেছে",
+    "noData": "কোনও ডেটা উপলব্ধ নেই",
+    "noRelatedData": "সম্পর্কিত ডেটা খুঁজে পাওয়া যায়নি",
+    "noAds": "কোনও বিজ্ঞাপন উপলব্ধ নেই",
+    "fetchAdsError": "বিজ্ঞাপন পাওয়া ব্যর্থ হয়েছে",
+    "lookupFailed": "খুঁজে পাওয়া ব্যর্থ হয়েছে"
+  },
+  "tools": {
+    "csr": {
+      "title": "CSR জেনারেটর এবং দর্শক",
+      "description": "অনলাইনে CSR ফাইল তৈরি করুন এবং দেখুন"
+    },
+    "whois": {
+      "title": "ডোমেইন WHOIS অনুসন্ধান",
+      "description": "অনলাইনে WHOIS তথ্য এবং ডোমেইন রেজিস্ট্রেশন বিবরণ চেক করুন"
+    },
+    "dns": {
+      "title": "DNS রেকর্ড অনুসন্ধান",
+      "description": "অনলাইনে DNS রেকর্ড (A, MX, CNAME, ইত্যাদি) অনুসন্ধান করুন"
+    },
+    "dnsEnhanced": {
+      "title": "DNS রেকর্ড অনুসন্ধান (উন্নত)",
+      "description": "বড় রেকর্ড সেটের জন্য ভার্চুয়াল স্ক্রলিং অপ্টিমাইজেশন সহ ডিএনএস অনুসন্ধান"
+    },
+    "httpStatus": {
+      "title": "HTTP স্ট্যাটাস চেকার",
+      "description": "ওয়েব পেজের জন্য HTTP স্ট্যাটাস কোডগুলি পরীক্ষা করার জন্য একটি বিনামূল্যে অনলাইন টুল"
+    },
+    "gzip": {
+      "title": "GZIP কমপ্রেশন চেক",
+      "description": "একটি ওয়েব পেজ কি GZIP-সংকুচিত করা হয়েছে কিনা এবং এর সংকুচিত অনুপাত দেখুন"
+    },
+    "ssl": {
+      "title": "SSL সার্টিফিকেট চেক",
+      "description": "অনলাইনে SSL সার্টিফিকেটের বিশদ তথ্য এবং বৈধতা পরীক্ষা করুন"
+    },
+    "browserInfo": {
+      "title": "ব্রাউজার তথ্য",
+      "description": "আপনার বর্তমান ব্রাউজারের বিস্তারিত তথ্য দেখার জন্য একটি বিনামূল্যে টুল"
+    },
+    "useragent": {
+      "title": "User-Agent বিশ্লেষক",
+      "description": "User-Agent স্ট্রিং থেকে ব্রাউজার এবং ডিভাইসের তথ্য বিশ্লেষণ করুন"
+    },
+    "websocket": {
+      "title": "WebSocket টেস্টার",
+      "description": "একটি বিনামূল্যে অনলাইন WebSocket API পরীক্ষা টুল"
+    },
+    "viewSource": {
+      "title": "পেজ সোর্স দেখুন",
+      "description": "অনলাইনে ওয়েবপেজের সোর্স কোড দেখুন"
+    },
+    "metaGenerator": {
+      "title": "Meta Tag জেনারেটর",
+      "description": "অনলাইনে ওয়েবপেজের মেটা ট্যাগ তৈরি করুন"
+    },
+    "metaCheck": {
+      "title": "META Tag চেক",
+      "description": "ওয়েবপেজের মেটা ট্যাগ তথ্য পরীক্ষা করুন"
+    },
+    "robots": {
+      "title": "robots.txt জেনারেটর",
+      "description": "অনলাইনে robots.txt ফাইল তৈরি করুন"
+    },
+    "emailEncrypt": {
+      "title": "ইমেইল ঠিকানা এনকোডার",
+      "description": "ইমেইল ঠিকানা স্ক্র্যাপিং কমানোর জন্য এনকোডেড ফরম্যাটে রূপান্তর করুন"
+    },
+    "phpReference": {
+      "title": "PHP ফাংশন রেফারেন্স",
+      "description": "PHP ফাংশনের অনলাইন রেফারেন্স তালিকা"
+    },
+    "htmlPreview": {
+      "title": "HTML প্রিভিউ",
+      "description": "অনলাইন HTML সম্পাদনা এবং প্রিভিউ টুল"
+    },
+    "jsDebug": {
+      "title": "JS ডিবাগার",
+      "description": "অনলাইনে JavaScript চালান এবং ডিবাগ করুন"
+    },
+    "shieldBadge": {
+      "title": "Shields ব্যাডজ জেনারেটর",
+      "description": "অনলাইনে SVG শিল্ড ব্যাডজ তৈরি করুন"
+    },
+    "favicon": {
+      "title": "Favicon জেনারেটর",
+      "description": "সুরক্ষিত অনলাইন ফাভিকন রূপান্তর টুল"
+    },
+    "cssGlassmorphism": {
+      "title": "CSS Glassmorphism জেনারেটর",
+      "description": "এক ক্লিকে CSS গ্লাসমর্ফিজম কোড তৈরি করুন"
+    },
+    "cssNeumorphism": {
+      "title": "Neumorphism CSS জেনারেটর",
+      "description": "এক ক্লিকে Neumorphism CSS স্টাইল উদাহরণ তৈরি করুন"
+    },
+    "pxToRem": {
+      "title": "PX থেকে REM কনভার্টার",
+      "description": "CSS এ পিক্সেল ইউনিটগুলি রিমে রূপান্তর করুন"
+    },
+    "cssBorderRadius": {
+      "title": "CSS Border Radius জেনারেটর",
+      "description": "অনলাইনে বৃত্তাকার বর্ডার স্টাইলগুলি সামঞ্জস্য করুন"
+    },
+    "cssTextShadow": {
+      "title": "CSS Text Shadow জেনারেটর",
+      "description": "অনলাইনে CSS টেক্সট-শেডো কোড প্রিভিউ করুন এবং তৈরি করুন"
+    },
+    "cssBoxShadow": {
+      "title": "Box Shadow জেনারেটর",
+      "description": "ডিভ ছায়াগুলি সামঞ্জস্য করুন এবং CSS কোড তৈরি করুন"
+    },
+    "base64": {
+      "title": "Base64 Encode/Decode",
+      "description": "অনলাইন Base64 এনকোডিং এবং ডিকোডিং টুল"
+    },
+    "urlEncode": {
+      "title": "URL Encode/Decode",
+      "description": "অনলাইন URL এনকোডিং এবং ডিকোডিং টুল"
+    },
+    "htmlEntity": {
+      "title": "HTML Entity Encode/Decode",
+      "description": "অনলাইন HTML এন্টিটি এনকোডিং এবং ডিকোডিং টুল"
+    },
+    "jsMinify": {
+      "title": "JS Minify & Beautify",
+      "description": "অনলাইন জাভাস্ক্রিপ্ট মিনিফাই এবং বিশুদ্ধ করুন"
+    },
+    "cssMinify": {
+      "title": "CSS Minify & Beautify",
+      "description": "অনলাইন CSS মিনিফাই এবং বিশুদ্ধ করুন"
+    },
+    "desktopShortcut": {
+      "title": "ওয়েবসাইট ডেস্কটপ শর্টকাট",
+      "description": "তাকে দ্রুত অ্যাক্সেসের জন্য ওয়েবসাইটের জন্য ডেস্কটপ শর্টকাট তৈরি করুন"
+    },
+    "pageRefresh": {
+      "title": "অটো পেজ রিফ্রেশ",
+      "description": "একটি সময় সীমার মধ্যে দূরের ওয়েবপেজ রিফ্রেশ করুন"
+    },
+    "httpCodes": {
+      "title": "HTTP স্ট্যাটাস কোড",
+      "description": "HTTP স্ট্যাটাস / প্রতিক্রিয়া কোডের অনলাইন রেফারেন্স"
+    },
+    "workerDemo": {
+      "title": "Web Worker পারফরম্যান্স ডেমো",
+      "description": "ভারী কাজের জন্য Web Workers কিভাবে পারফরম্যান্স উন্নত করে তা দেখুন"
+    },
+    "formValidation": {
+      "title": "ফরম যাচাইকরণ ডেমো",
+      "description": "লাইভ ফিডব্যাক সহ পুরো ফরম যাচাইকরণ প্রদর্শন করে"
+    }
+  },
+  "categories": {
+    "detection": "ওয়েবসাইট চেকগুলি",
+    "seo": "SEO টুলস",
+    "dev": "ডেভেলপার টুলস",
+    "encode": "এনকোডিং টুলস",
+    "other": "অন্যান্য টুলস"
+  },
+  "kunqiongNav": {
+    "home": "হোম",
+    "aiTools": "AI টুলস",
+    "office": "অফিস",
+    "multimedia": "মাল্টিমিডিয়া",
+    "development": "ডেভেলপার টুলস",
+    "text": "টেক্সট",
+    "file": "ফাইলস",
+    "system": "সিস্টেম",
+    "life": "জীবন",
+    "news": "AI খবর",
+    "custom": "কাস্টম সফটওয়্যার",
+    "consult": "পরামর্শ",
+    "industryNews": "শিল্প খবর",
+    "feedback": "ফিডব্যাক",
+    "imageGen": "ছবি জেনারেশন",
+    "codeDev": "কোড এবং ডেভেলপমেন্ট",
+    "logoAlt": "Kunqiong AI টুলবক্স",
+    "footerLogoAlt": "Kunqiong AI",
+    "loginRegister": "লগ ইন / সাইন আপ",
+    "navExpandAria": "বিস্তার করুন",
+    "navSearchAria": "খুঁজুন",
+    "navMenuAria": "মেনু"
+  },
+  "footer": {
+    "description": "ওয়েবমাস্টার এক স্থানে সম্পূর্ণ টুলবক্স যাতে ওয়েবসাইট চেক, SEO টুলস, ডেভেলপার টুলস এবং অন্যান্য টুলস রয়েছে।",
+    "kunqiongBrandDesc": "আমরা ব্যক্তিদের এবং কোম্পানিগুলিকে উচ্চ মানের AI টুলস এবং পরামর্শ সেবা প্রদানের জন্য উৎসর্গীকৃত হয়েছি যাতে আপনি কৃত্রিম বুদ্ধিমত্তার যুগে প্রতিযোগিতামূলক থাকতে সক্ষম হন।",
+    "toolCategories": "টুল বিভাগ",
+    "quickLinks": "গুরুত্বপূর্ণ লিঙ্ক",
+    "contactTitle": "আমাদের সাথে যোগাযোগ করুন",
+    "contactCompany": "জিয়াংসি হেক্সাগন স্টার টেকনোলজি কো., লিমিটেড",
+    "contactPhone": "17770307066",
+    "contactRegion": "শাংরাও, জিয়াংসি, চীন",
+    "contactEmail": "11247931@qq.com",
+    "copyrightLine": "© 2026 Kunqiong AI টুলস। সমস্ত অধিকার সংরক্ষিত।",
+    "userAgreement": "ব্যবহারের শর্তসমূহ",
+    "privacyPolicy": "গোপনীয়তা নীতি",
+    "brandAI": "একটি Kunqiong AI পণ্য",
+    "brandAlt": "Kunqiong"
+  },
+  "validation": {
+    "required": "{{field}} প্রয়োজন",
+    "minLength": "{{field}} কমপক্ষে {{count}} অক্ষর হতে হবে",
+    "maxLength": "{{field}} সর্বোচ্চ {{count}} অক্ষর হতে পারে",
+    "invalidFormat": "{{field}} অবৈধ ফরম্যাট হয়েছে",
+    "email": "দয়া করে একটি বৈধ ইমেইল ঠিকানা দিন",
+    "url": "দয়া করে একটি বৈধ URL দিন",
+    "domain": "দয়া করে একটি বৈধ ডোমেইন দিন",
+    "ip": "দয়া করে একটি বৈধ IP ঠিকানা দিন",
+    "phone": "দয়া করে একটি বৈধ ফোন নম্বর দিন",
+    "password": "পাসওয়ার্ডে উপরের এবং নিচের ক্ষুদ্র অক্ষর এবং সংখ্যা থাকতে হবে এবং 6-20 অক্ষর দীর্ঘ হতে হবে"
+  },
+  "exporter": {
+    "unsupportedFormat": "অসমর্থিত আউটপুট ফরম্যাট: {{format}}",
+    "csvRequiresArrayOrObject": "CSV আউটপুটের জন্য একটি অ্যারে বা বস্তু প্রয়োজন",
+    "toolUsageInfo": "টুল ব্যবহারের তথ্য",
+    "tool": "টুল",
+    "time": "সময়",
+    "url": "URL",
+    "version": "সংস্করণ",
+    "dnsReportTitle": "DNS লুকআপ রিপোর্ট",
+    "dnsReportDescription": "বিস্তারিত DNS রেকর্ড তথ্য",
+    "summaryTitle": "সারাংশ",
+    "domain": "ডোমেইন",
+    "recordCount": "মোট রেকর্ড",
+    "recordCountValue": "{{count}} রেকর্ড",
+    "queryTime": "প্রশ্নের সময়",
+    "typeDescriptions": {
+      "A": "IPv4 ঠিকানা রেকর্ড",
+      "AAAA": "IPv6 ঠিকানা রেকর্ড",
+      "MX": "মেইল সার্ভার রেকর্ড",
+      "TXT": "টেক্সট রেকর্ড",
+      "CNAME": "অলিয়াস রেকর্ড",
+      "NS": "নাম সার্ভার রেকর্ড",
+      "SOA": "অথরিটি রেকর্ড"
+    },
+    "record": "রেকর্ড",
+    "otherRecords": "অন্যান্য রেকর্ড",
+    "recordIndex": "রেকর্ড {{index}}",
+    "priority": "প্রাধান্য",
+    "class": "শ্রেণী",
+    "exportData": "আউটপুট ডেটা",
+    "dnsToolName": "DNS লুকআপ টুল",
+    "exportInfo": "আউটপুট তথ্য",
+    "exportTime": "আউটপুট সময়",
+    "formats": {
+      "json": "সংগঠিত ডেটা ফরম্যাট, প্রোগ্রামগুলির জন্য সুবিধাজনক",
+      "csv": "স্প্রেডশীট-বান্ধব ফরম্যাট, এক্সেল আমদানির জন্য উপযুক্ত",
+      "txt": "সাধারণ টেক্সট ফরম্যাট, পড়ার জন্য সুবিধাজনক",
+      "xml": "মার্কআপ ফরম্যাট, ডেটা আদান-প্রেরণের জন্য উপযুক্ত",
+      "pdf": "ডকুমেন্ট ফরম্যাট, মুদ্রণ এবং শেয়ারের জন্য উপযুক্ত"
+    }
+  },
+  "base64": {
+    "title": "Base64 এনকোড/ডিকোড",
+    "description": "অনলাইন Base64 এনকোডিং এবং ডিকোডিং টুল",
+    "encode": "এনকোড",
+    "decode": "ডিকোড",
+    "originalText": "মূল টেক্সট",
+    "base64String": "Base64 স্ট্রিং",
+    "base64Result": "Base64 ফলাফল",
+    "decodeResult": "ডিকোড করা ফলাফল",
+    "placeholderEncode": "এনকোড করার জন্য টেক্সট দিন...",
+    "placeholderDecode": "ডিকোড করার জন্য Base64 দিন...",
+    "resultPlaceholder": "ফলাফল এখানে দেখাবে...",
+    "inputPlaceholder": "রূপান্তর করতে কনটেন্ট দিন",
+    "decodeError": "ডিকোডিং ব্যর্থ হয়েছে। দয়া করে নিশ্চিত করুন যে ইনপুটটি বৈধ Base64 হয়েছে।",
+    "encodeError": "এনকোডিং ব্যর্থ হয়েছে",
+    "charCount": "{{count}} অক্ষর",
+    "clear": "ইনপুট মুছুন",
+    "copy": "ফলাফল কপি করুন",
+    "copied": "কপি করা হয়েছে",
+    "convert": "এখন রূপান্তর করুন",
+    "swap": "মোড সুপ করুন",
+    "ariaLabel": "Base64 এনকোড/ডিকোড টুল",
+    "modeSelection": "রূপান্তর মোড নির্বাচন",
+    "encodeMode": "এনকোড মোড",
+    "decodeMode": "ডিকোড মোড",
+    "inputLabelEncode": "এনকোড করার জন্য টেক্সট",
+    "inputLabelDecode": "ডিকোড করার জন্য Base64 স্ট্রিং",
+    "outputLabelEncode": "Base64 এনকোড করা ফলাফল",
+    "outputLabelDecode": "Base64 ডিকোড করা ফলাফল",
+    "whatIsBase64": "Base64 কী?",
+    "base64Info": "Base64 হল এমন একটি এনকোডিং পদ্ধতি যা বাইনারি ডেটা ছয়টি প্রিন্টযোগ্য অক্ষর দ্বারা প্রতিনিধিত্ব করে। এটি সাধারণত ওয়েব অ্যাড্রেস, কুকি, ওয়েবপেজ বা টেক্সট-ভিত্তিক প্রোটোকলগুলিতে ছোট বাইনারি ডেটা স্থানান্তরের জন্য ব্যবহৃত হয়।"
+  },
+  "dns": {
+    "title": "DNS রেকর্ড লুকআপ",
+    "description": "অনলাইনে DNS রেকর্ড (A, MX, CNAME ইত্যাদি) লুকআপ করুন",
+    "placeholder": "একটি ডোমেইন দিন, যেমন example.com",
+    "invalidDomain": "দয়া করে একটি বৈধ ডোমেইন ফরম্যাট দিন (যেমন example.com)",
+    "domainInput": "ডোমেইন ইনপুট",
+    "validFormat": "ডোমেইন ফরম্যাট বৈধ",
+    "typeSelect": "DNS রেকর্ড ধরণ",
+    "searchBtn": "DNS রেকর্ড লুকআপ করুন",
+    "loadingTitle": "DNS রেকর্ড লুকআপ করা হচ্ছে",
+    "loadingDesc": "আপনার ডোমেইনের জন্য DNS রেকর্ড লুকআপ করার জন্য অনুগ্রহ করে অপেক্ষা করুন...",
+    "resultRegion": "DNS লুকআপ ফলাফল",
+    "recordCount": "{{count}} রেকর্ড",
+    "typeRecordRegion": "{{type}} রেকর্ড",
+    "querying": "DNS রেকর্ড লুকআপ করা হচ্ছে",
+    "queryingDesc": "আপনার ডোমেইনের জন্য DNS রেকর্ড লুকআপ করার জন্য অনুগ্রহ করে অপেক্ষা করুন...",
+    "foundRecords": "{{count}} রেকর্ড পাওয়া গেছে",
+    "queryTime": "প্রশ্নের সময়: {{time}}",
+    "export": "ফলাফল আউটপুট করুন",
+    "noRecords": "কোনো DNS রেকর্ড পাওয়া যায়নি",
+    "noRecordsDesc": "এই ডোমেইনের জন্য কোনো DNS রেকর্ড পাওয়া যায়নি",
+    "typeInfo": "DNS রেকর্ড ধরণ",
+    "priority": "প্রাধান্য: {{priority}}",
+    "types": {
+      "ALL": "সবকিছু",
+      "A": "A রেকর্ড",
+      "AAAA": "AAAA রেকর্ড",
+      "MX": "MX রেকর্ড",
+      "TXT": "TXT রেকর্ড",
+      "CNAME": "CNAME রেকর্ড",
+      "NS": "NS রেকর্ড",
+      "SOA": "SOA রেকর্ড"
+    },
+    "typeDescs": {
+      "A": "IPv4 ঠিকানা",
+      "AAAA": "IPv6 ঠিকানা",
+      "MX": "মেইল সার্ভার",
+      "TXT": "পাঠ্য রেকর্ড",
+      "CNAME": "অলিয়াস রেকর্ড",
+      "NS": "নাম সার্ভার",
+      "SOA": "অথোরিটি শুরু রেকর্ড"
+    },
+    "typeDetails": {
+      "A": "একটি ডোমেইনকে একটি IPv4 অ্যাড্রেসে পয়েন্ট করে",
+      "AAAA": "একটি ডোমেইনকে একটি IPv6 অ্যাড্রেসে পয়েন্ট করে",
+      "MX": "মেইল সার্ভার অ্যাড্রেস নির্দিষ্ট করে, কম প্রাথমিক সংখ্যা উচ্চতর প্রাথমিকতা নির্দেশ করে",
+      "TXT": "পাঠ্য তথ্য সংরক্ষণ করে, সাধারণত SPF, DKIM যাচাইয়ের জন্য ব্যবহৃত হয়",
+      "CNAME": "একটি ডোমেইনকে অন্য ডোমেইনে (অলিয়াস) পয়েন্ট করে",
+      "NS": "ডোমেইনের জন্য DNS সার্ভার নির্দিষ্ট করুন"
+    }
+  },
+  "whois": {
+    "title": "WHOIS অনুসন্ধান",
+    "description": "অনলাইনে WHOIS এবং রেজিস্ট্রেশন তথ্য অনুসন্ধান করুন",
+    "placeholder": "একটি ডোমেইন প্রবেশ করুন, যেমন example.com",
+    "invalidDomain": "দয়া করে একটি বৈধ ডোমেইন ফরম্যাট প্রবেশ করুন (যেমন example.com)",
+    "querying": "WHOIS তথ্য অনুসন্ধান করা হচ্ছে",
+    "queryingDesc": "আমরা রেজিস্ট্রেশন তথ্য আহরণ করছি তা অপেক্ষা করুন...",
+    "domainInfo": "ডোমেইন তথ্য",
+    "registrar": "রেজিস্টার",
+    "creationDate": "তৈরি তারিখ",
+    "expirationDate": "মেয়াদ উত্তীর্ণ হওয়ার তারিখ",
+    "updatedDate": "আপডেট করা তারিখ",
+    "dnssec": "DNSSEC",
+    "dnssecDisabled": "বন্ধ",
+    "expired": "{{days}} দিন আগে মেয়াদ শেষ হয়েছে",
+    "expiringSoon": "মেয়াদ শেষ হবে {{days}} দিনের মধ্যে",
+    "remaining": "{{days}} দিন বাকি আছে",
+    "dnsServer": "নাম সার্ভার",
+    "domainStatus": "ডোমেইন অবস্থা",
+    "registrantInfo": "রেজিস্ট্রান্ট তথ্য",
+    "name": "নাম",
+    "organization": "সংগঠন",
+    "country": "দেশ",
+    "email": "ইমেইল",
+    "noInfo": "সম্পর্কিত কোনো তথ্য পাওয়া যায়নি",
+    "domain": "ডোমেইন",
+    "rawData": "রো ডেটা",
+    "toggleRawData": "রো ডেটা প্রসারিত বা সংকুচিত করুন",
+    "copyRawData": "রো ডেটা কপি করুন",
+    "copy": "কপি",
+    "copied": "কপি করা হয়েছে",
+    "whatIsWhois": "WHOIS কি?",
+    "about": "WHOIS হল একটি প্রোটোকল যা ডোমেইন রেজিস্ট্রেশন ডেটা অনুসন্ধানের জন্য ব্যবহৃত হয়। একটি WHOIS অনুসন্ধানের মাধ্যমে, আপনি রেজিস্টার, রেজিস্ট্রেশন তারিখ, মেয়াদ শেষ হওয়ার তারিখ, DNS সার্ভার, রেজিস্ট্রান্ট তথ্য এবং আরও অনেক কিছু জানতে পারেন। এটি ডোমেইন ব্যবসা, ব্র্যান্ড সুরক্ষা এবং নিরাপত্তা তদন্তের জন্য উপযুক্ত।"
+  },
+  "httpStatus": {
+    "title": "HTTP অবস্থা চেকার",
+    "description": "অনলাইনে HTTP অবস্থা কোড এবং প্রতিক্রিয়া তথ্য চেক করুন",
+    "placeholder": "একটি URL প্রবেশ করুন, যেমন https://example.com",
+    "check": "চেক",
+    "followRedirects": "স্বয়ংক্রিয়ভাবে রিডায়েক্ট অনুসরণ করুন",
+    "urlEmpty": "দয়া করে একটি URL প্রবেশ করুন",
+    "checkFailed": "চেক ব্যর্থ হয়েছে",
+    "serverError": "সার্ভার সংযোগ ব্যর্থ, দয়া করে পরে আবার চেষ্টা করুন",
+    "unknownStatus": "অজানা অবস্থা",
+    "responseTime": "প্রতিক্রিয়া সময়",
+    "headers": "হেডার",
+    "redirectUrl": "রিডায়েক্ট URL",
+    "contentType": "কনটেন্ট ধরণ",
+    "contentLength": "কনটেন্ট দৈর্ঘ্য",
+    "server": "সার্ভার",
+    "showHeaders": "প্রতিক্রিয়া হেডার দেখান",
+    "hideHeaders": "প্রতিক্রিয়া হেডার লুকান",
+    "status": {
+      "100": "অব্যাহত",
+      "101": "প্রোটোকল পরিবর্তন",
+      "200": "OK",
+      "201": "তৈরি",
+      "204": "কোনো কনটেন্ট নেই",
+      "301": "স্থায়ী রিডায়েক্ট",
+      "302": "অস্থায়ী রিডায়েক্ট",
+      "304": "পরিবর্তিত হয়নি",
+      "307": "অস্থায়ী রিডায়েক্ট",
+      "308": "স্থায়ী রিডায়েক্ট",
+      "400": "খারাপ অনুরোধ",
+      "401": "অনুমোদিত নয়",
+      "403": "প্রতিবন্ধক",
+      "404": "পাওয়া যায়নি",
+      "405": "পদ্ধতি অনুমোদিত নয়",
+      "408": "অনুরোধ সময় শেষ",
+      "429": "বেশি অনুরোধ",
+      "500": "আন্তর্নিহিত সার্ভার ত্রুটি",
+      "502": "খারাপ গেটওয়ে",
+      "503": "সেবা অনাদর্শ",
+      "504": "গেটওয়ে সময় শেষ"
+    }
+  },
+  "browserInfo": {
+    "title": "ব্রাউজার তথ্য",
+    "description": "বর্তমান ব্রাউজারের বিস্তারিত তথ্য দেখুন",
+    "os": "অপারেটিং সিস্টেম",
+    "browser": "ব্রাউজার",
+    "version": "সংস্করণ",
+    "engine": "ইঞ্জিন",
+    "device": "ডিভাইস",
+    "screen": "স্ক্রিন সমাধান",
+    "viewport": "ভিউপোর্ট আকার",
+    "language": "ভাষা",
+    "timezone": "সময় এলাকা",
+    "cookieEnabled": "কুকি সক্ষম",
+    "online": "অনলাইন",
+    "cpu": "CPU আর্কিটেকচার",
+    "userAgent": "User-Agent",
+    "platform": "প্ল্যাটফর্ম",
+    "vendor": "ব্রাউজার প্রস্তুতকারী",
+    "languages": "সমর্থিত ভাষা",
+    "cookie": "কুকি",
+    "onlineStatus": "অনলাইন অবস্থা",
+    "doNotTrack": "ট্র্যাক করবেন না",
+    "touchPoints": "টাচ পয়েন্ট",
+    "enabled": "সক্ষম",
+    "disabled": "অক্ষম",
+    "offline": "অফলাইন",
+    "hardwareInfo": "হার্ডওয়্যার তথ্য",
+    "cpuCores": "CPU কোর",
+    "cpuCoresValue": "{{count}} কোর",
+    "deviceMemory": "ডিভাইস মেমরি",
+    "screenInfo": "স্ক্রিন তথ্য",
+    "availArea": "উপলব্ধ অঞ্চল",
+    "windowSize": "উইন্ডো আকার",
+    "pixelRatio": "ডিভাইস পিক্সেল অনুপাত",
+    "colorDepth": "রং গভীরতা",
+    "screenOrientation": "স্ক্রিন অরিয়েন্টেশন",
+    "unknown": "অজানা",
+    "basicInfo": "মৌলিক তথ্য",
+    "networkInfo": "নেটওয়ার্ক তথ্য",
+    "networkType": "নেটওয়ার্ক ধরণ",
+    "downlink": "ডাউনলিংক",
+    "rtt": "RTT",
+    "saveData": "ডেটা সেভার",
+    "batteryInfo": "ব্যাটারি তথ্য",
+    "batteryLevel": "ব্যাটারি মাত্রা",
+    "chargingStatus": "চার্জিং অবস্থা",
+    "charging": "চার্জিং",
+    "notCharging": "চার্জিং নয়",
+    "timezoneInfo": "সময় এলাকা তথ্য",
+    "utcOffset": "UTC অফসেট"
+  },
+  "viewSource": {
+    "title": "পেজ সোর্স দেখুন",
+    "description": "অনলাইনে ওয়েবপেজ সোর্স কোড দেখুন",
+    "placeholder": "একটি URL প্রবেশ করুন, যেমন https://example.com",
+    "fetch": "সোর্স আহরণ করুন",
+    "urlEmpty": "দয়া করে একটি URL প্রবেশ করুন",
+    "fetchFailed": "সোর্স আহরণ ব্যর্থ হয়েছে",
+    "serverError": "সার্ভার সংযোগ ব্যর্থ",
+    "lineCount": "লাইন: {{count}}",
+    "copy": "সোর্স কপি করুন",
+    "clear": "পরিষ্কার",
+    "usage1": "পুরো ওয়েবপেজ URL প্রবেশ করান এবং সোর্স আহরণের জন্য ক্লিক করুন",
+    "usage2": "যেকোনো সার্বজনীন ওয়েবপেজের HTML সোর্স দেখার সমর্থন করে",
+    "usage3": "আপনি বিশ্লেষণের জন্য সোর্স কোড কপি বা ডাউনলোড করতে পারেন",
+    "usage4": "কিছু ওয়েবসাইট নিরাপত্তা ন políties কারণে সোর্স আহরণ বাধা দিতে পারে"
+  },
+  "urlEncode": {
+    "title": "URL এনকোডার/ডিকোডার",
+    "description": "অনলাইন অ্যাড্রেস এনকোডিং এবং ডিকোডিং টুল",
+    "encode": "এনকোড",
+    "decode": "ডিকোড",
+    "placeholder": "রূপান্তর করতে কনটেন্ট প্রবেশ করুন...",
+    "result": "ফলাফল",
+    "error": "এনকোডিং/ডিকোডিং ব্যর্থ হয়েছে"
+  },
+  "htmlEntity": {
+    "title": "HTML এন্টিটি এনকোডার/ডিকোডার",
+    "description": "অনলাইন HTML এন্টিটি এনকোডার এবং ডিকোডার টুল",
+    "encode": "এনকোড করুন",
+    "decode": "ডিকোড করুন",
+    "placeholder": "রূপান্তর করতে কনটেন্ট প্রবেশ করুন...",
+    "result": "ফলাফল"
+  },
+  "jsMinify": {
+    "title": "জিএস সংক্ষিপ্তকরণ এবং ফরম্যাটিং",
+    "description": "অনলাইন জাভাস্ক্রিপ্ট কোড সংক্ষিপ্তকরণ এবং সুন্দর করার টুল",
+    "minify": "সংক্ষিপ্ত করুন",
+    "beautify": "সুন্দর করুন",
+    "placeholder": "জাভাস্ক্রিপ্ট কোড পেস্ট করুন...",
+    "result": "প্রক্রিয়াজাত ফলাফল",
+    "error": "কোড প্রক্রিয়াজাত ব্যর্থ হয়েছে"
+  },
+  "cssMinify": {
+    "title": "CSS সংক্ষিপ্তকরণ এবং ফরম্যাটিং",
+    "description": "অনলাইন CSS কোড সংক্ষিপ্তকরণ এবং সুন্দর করার টুল",
+    "minify": "সংক্ষিপ্ত করুন",
+    "beautify": "সুন্দর করুন",
+    "placeholder": "CSS কোড পেস্ট করুন...",
+    "result": "প্রক্রিয়াজাত ফলাফল",
+    "error": "কোড প্রক্রিয়াজাত ব্যর্থ হয়েছে"
+  },
+  "pages": {
+    "sslCheck": {
+      "title": "SSL সার্টিফিকেট চেক",
+      "description": "একটি ডোমেইনের জন্য SSL সার্টিফিকেটের বিশদ এবং বৈধতা চেক করুন",
+      "enterDomain": "দয়া করে একটি ডোমেইন প্রবেশ করুন",
+      "checkFailed": "চেক ব্যর্থ হয়েছে",
+      "serverConnectionFailed": "সার্ভারে সংযোগ ব্যর্থ হয়েছে, দয়া করে পরে আবার চেষ্ত করুন",
+      "inputPlaceholder": "একটি ডোমেইন প্রবেশ করুন, উদাহরণ: example.com",
+      "check": "চেক করুন",
+      "statusExpired": "মেয়াদ উত্তীর্ণ",
+      "statusExpiringSoon": "শীঘ্রই মেয়াদ উত্তীর্ণ হবে",
+      "statusValid": "বৈধ",
+      "statusProblem": "সার্টিফিকেট সমস্যা",
+      "expiredDays": "মেয়াদ উত্তীর্ণ হয়েছে {{count}} দিন আগে",
+      "remainingDays": "{{count}} দিন অবশিষ্ট",
+      "warning": "সতর্কতা: {{message}}",
+      "protocol": "প্রোটোকল",
+      "validityPeriod": "বৈধতা পর্যায়",
+      "validFrom": "যে থেকে বৈধ",
+      "validTo": "যে পর্যন্ত বৈধ",
+      "certificateInfo": "সার্টিফিকেট তথ্য",
+      "subject": "বিষয়",
+      "issuer": "প্রদায়ক",
+      "commonName": "সাধারণ নাম (CN)",
+      "organization": "সংগঠন (O)",
+      "organizationUnit": "সংগঠন একক (OU)",
+      "country": "দেশ (C)",
+      "subjectAltNames": "বিষয় অ্যালটারনেট নাম (SAN) - {{count}} প্রবেশ",
+      "technicalDetails": "টেকনিকাল বিবরণ",
+      "serialNumber": "সিরিয়াল নম্বর",
+      "fingerprintSha1": "ফিঙারপ্রিন্ট (SHA-1)",
+      "fingerprintSha256": "ফিঙারপ্রিন্ট (SHA-256)",
+      "cipherSuite": "সিফার সুট",
+      "infoTitle": "SSL সার্টিফিকেট নোটস",
+      "infoItems": [
+        "SSL সার্টিফিকেট সার্ভার পরিচয় যাচাই করে এবং যোগাযোগ এনক্রিপ্ট করে",
+        "আউটেজ এড়াতে মেয়াদ উত্তীর্ণ তারিখগুলি নিয়মিত চেক করুন",
+        "মেয়াদ উত্তীর্ণ হওয়ার কাছাকাছি সার্টিফিকেটগুলি আগে থেকে নূতন করুন",
+        "SAN (Subject Alternative Name) সার্টিফিকেট দ্বারা আবৃত ডোমেইনগুলি তালিকাভুক্ত করে"
+      ]
+    },
+    "gzipCheck": {
+      "title": "ওয়েবসাইট Gzip সংক্ষিপ্তকরণ চেক",
+      "description": "একটি ওয়েবসাইট Gzip / Deflate / Brotli সংক্ষিপ্তকরণ সমর্থন করে কিনা চেক করুন",
+      "enterUrl": "দয়া করে একটি URL প্রবেশ করুন",
+      "checkFailed": "চেক ব্যর্থ হয়েছে",
+      "serverConnectionFailed": "সার্ভারে সংযোগ ব্যর্থ হয়েছে, দয়া করে পরে আবার চেষ্ত করুন",
+      "inputPlaceholder": "একটি URL প্রবেশ করুন, উদাহরণ: https://example.com",
+      "check": "চেক করুন",
+      "enabled": "সক্রিয়",
+      "disabled": "সক্রিয় নয়",
+      "compressionType": "সংক্ষিপ্তকরণ ধরণ: {{type}}",
+      "enableSuggestion": "সংক্ষিপ্তকরণ সক্রিয় করুন যাতে স্থানান্তর আকার কমে এবং লোডিং গতি উন্নত হয়",
+      "supportTitle": "সমর্থন",
+      "gzipDescription": "ব্যাপকভাবে ব্যবহৃত মানক সংক্ষিপ্তকরণ",
+      "deflateDescription": "প্রাচীন HTTP সংক্ষিপ্তকরণ অ্যালগরিদম",
+      "brotliDescription": "একটি নতুন সংক্ষিপ্তকরণ পদ্ধতি যার ভালো অনুপাত রয়েছে",
+      "effectTitle": "সংক্ষিপ্তকরণ প্রভাব",
+      "originalSize": "মূল আকার",
+      "compressedSize": "সংক্ষিপ্তকরণ আকার",
+      "ratio": "সংক্ষিপ্তকরণ অনুপাত",
+      "savedTransfer": "স্থানান্তর আকারে {{value}} বাঁচায়",
+      "detailsTitle": "বিবরণ",
+      "whyTitle": "Gzip সংক্ষিপ্তকরণ কেন সক্রিয় করবেন?",
+      "whyItems": [
+        "এটি সাধারণত টেক্সট সংস্থানের আকার 60% থেকে 80% কমিয়ে দেয়",
+        "ছোট স্থানান্তর লোডিং গতি উন্নত করে",
+        "এটি ব্যান্ডউইথ ব্যবহার কমায়",
+        "ভালো পারফরম্যান্স সেও এবং ব্যবহারকারী অভিজ্ঞতা উন্নত করতে সাহায্য করতে পারে"
+      ]
+    },
+    "dnsLookupEnhanced": {
+      "title": "উন্নত DNS রেকর্ড অনুসন্ধান",
+      "description": "বৃহত ফলাফল সেটগুলির জন্য অনলাইনে বেশি সংখ্যক DNS রেকর্ড ধরণগুলি অনুসন্ধান করুন",
+      "enterDomain": "দয়া করে একটি ডোমেইন প্রবেশ করুন",
+      "lookupFailed": "অনুসন্ধান ব্যর্থ হয়েছে",
+      "serverConnectionFailed": "সার্ভারে সংযোগ ব্যর্থ হয়েছে, দয়া করে পরে আবার চেষ্ত করুন",
+      "inputPlaceholder": "একটি ডোমেইন প্রবেশ করুন, উদাহরণ: example.com",
+      "lookup": "অনুসন্ধান করুন",
+      "priority": "প্রাধান্য: {{value}}",
+      "dnsTypes": [
+        {
+          "value": "ALL",
+          "label": "সব"
+        },
+        {
+          "value": "A",
+          "label": "A রেকর্ড",
+          "desc": "IPv4 ঠিকানা"
+        },
+        {
+          "value": "AAAA",
+          "label": "AAAA রেকর্ড",
+          "desc": "IPv6 ঠিকানা"
+        },
+        {
+          "value": "MX",
+          "label": "MX রেকর্ড",
+          "desc": "মেইল সার্ভার"
+        },
+        {
+          "value": "TXT",
+          "label": "TXT রেকর্ড",
+          "desc": "টেক্সট ডেটা"
+        },
+        {
+          "value": "CNAME",
+          "label": "CNAME রেকর্ড",
+          "desc": "অ্যালিয়াস রেকর্ড"
+        },
+        {
+          "value": "NS",
+          "label": "NS রেকর্ড",
+          "desc": "নাম সার্ভার"
+        },
+        {
+          "value": "SOA",
+          "label": "SOA রেকর্ড",
+          "desc": "অথরিটির শুরু"
+        }
+      ],
+      "foundRecords": "{{count}} রেকর্ড পাওয়া গেল",
+      "queryTime": "অনুসন্ধান সময়: {{time}}",
+      "virtualScrollEnabled": "ভার্চুয়াল স্ক্রোলিং সক্রিয়",
+      "recordCount": "{{count}} রেকর্ড",
+      "virtualScrollTag": "অপ্টিমাইজড রেন্ডারিং",
+      "noRecords": "কোনো DNS রেকর্ড পাওয়া যায়নি",
+      "performanceTitle": "পারফরম্যান্স অপটিমাইজেশন",
+      "performanceItems": [
+        "{{count}} রেকর্ড সহ ডিএনএস অনুসন্ধান সামঞ্জস্যপূর্ণ রাখতে ভার্চুয়ালাইজড রেন্ডারিং",
+        "মেমোরি ব্যবহার কমানোর জন্য কেবল দৃশ্যমান সারি রেন্ডার করা হয়",
+        "এটি বড় ফলাফল সেটগুলির জন্য DOM ল্যাগ এড়াতে সাহায্য করে",
+        "বেশি সংখ্যক রেকর্ড সহ অভিজ্ঞতা সামঞ্জস্যপূর্ণ থাকে"
+      ]
+    },
+    "metaCheck": {
+      "title": "META ট্যাগ চেক",
+      "description": "ওয়েবপেজে ব্যবহৃত META ট্যাগগুলি চেক করুন",
+      "enterUrl": "দয়া করে একটি ওয়েবসাইট URL প্রবেশ করুন",
+      "checkFailed": "চেক ব্যর্থ হয়েছে",
+      "urlLabel": "ওয়েবসাইট URL",
+      "inputPlaceholder": "example.com বা https://example.com",
+      "check": "চেক করুন",
+      "resultTitle": "চেক ফলাফল",
+      "totalCount": "পাওয়া গেল {{count}} META ট্যাগ",
+      "groups": {
+        "pageTitle": "পেজ শিরোনাম",
+        "httpEquiv": "HTTP-Equiv",
+        "charset": "Charset",
+        "basicMeta": "বেসিক META"
+      },
+      "emptyContent": "খালি",
+      "infoTitle": "বিবরণ",
+      "infoItems": [
+        "এই টুলটি টাইটেল ট্যাগ, মেটা নাম ট্যাগ, মেটা প্রপার্টি ট্যাগ (যেমন অপেন গ্রাফ), এবং মেটা HTTP-EQUIV ট্যাগগুলি চেক করে",
+        "এটি পৃষ্ঠার এসইও-সম্পর্কিত মেটাডেটা তালিকাভুক্ত করতে সাহায্য করে",
+        "এটি অভাব বা ডুপ্লিকেট ট্যাগ সমস্যা চিহ্নিত করতে সাহায্য করে"
+      ]
+    },
+    "urlEncode": {
+      "title": "URL এনকোড/ডিকোড",
+      "description": "অনলাইনে URL স্ট্রিং এনকোড বা ডিকোড করুন",
+      "toolName": "URL এনকোড/ডিকোড",
+      "toolCategory": "এনকোডিং টুলস",
+      "convertFailed": "রূপান্তর ব্যর্থ হয়েছে, দয়া করে আপনার ইনপুট যাচাই করুন",
+      "copyFailed": "ফলাফল কপি করা ব্যর্থ হয়েছে",
+      "modeSelector": "মোড নির্বাচন করুন",
+      "typeSelector": "এনকোডিং ধরণ",
+      "encode": "এনকোড করুন",
+      "decode": "ডিকোড করুন",
+      "componentTitle": "URL অংশ",
+      "componentDescription": "একটি URL এর কেবল অংশ এনকোড করুন",
+      "fullTitle": "পুরো URL",
+      "fullDescription": "সম্পূর্ণ URL এনকোড করুন",
+      "inputEncodeLabel": "সাধারণ টেক্সট",
+      "inputDecodeLabel": "এনকোড করা URL",
+      "clearInput": "ইনপুট মুছুন",
+      "encodePlaceholder": "একটি URL হিসাবে এনকোড করতে টেক্সট প্রবেশ করুন...",
+      "decodePlaceholder": "ডিকোড করতে এনকোড করা URL প্রবেশ করুন...",
+      "outputEncodeLabel": "এনকোড ফলাফল",
+      "outputDecodeLabel": "ডিকোড ফলাফল",
+      "copyResult": "ফলাফল কপি করুন",
+      "resultPlaceholder": "রূপান্তর ফলাফল এখানে দেখাবে...",
+      "copied": "ক্লিপবোর্ডে কপি করা হয়েছে",
+      "swap": "বিনিময়",
+      "swapInputOutput": "ইনপুট এবং আউটপুট বিনিময় করুন",
+      "infoTitle": "এনকোডিং মোড",
+      "componentModeTitle": "অংশ মোড",
+      "componentModeDescription": "প্রশ্ন পরামিতি বা পথ খণ্ডগুলির মতো বিশেষ অংশগুলির জন্য সেরা।",
+      "componentExample": "উদাহরণ: hello world → hello%20world",
+      "fullModeTitle": "পুরো URL মোড",
+      "fullModeDescription": "আপনি সম্পূর্ণ URL এনকোড করতে এটি ব্যবহার করুন যখন আপনার সম্পূর্ণ স্থান চিনতে চান।",
+      "fullExample": "উদাহরণ: https://example.com/路径 → https://example.com/%E8%B7%AF%E5%BE%84"
+    },
+    "htmlEntity": {
+      "title": "HTML এন্টিটি এনকোড/ডিকোড",
+      "description": "অনলাইনে HTML এন্টিটি এনকোড বা ডিকোড করুন",
+      "toolName": "HTML এন্টিটি এনকোড/ডিকোড",
+      "toolCategory": "এনকোডিং টুলস",
+      "convertFailed": "রূপান্তর ব্যর্থ, দয়া করে আপনার ইনপুট যাচাই করুন",
+      "copyFailed": "ফলাফল কপি করা ব্যর্থ হয়েছে",
+      "modeSelector": "মোড নির্বাচন করুন",
+      "switchToEncode": "এনকোড মোডে সুইচ করুন (Alt+1)",
+      "switchToDecode": "ডিকোড মোডে সুইচ করুন (Alt+2)",
+      "encode": "এনকোড",
+      "decode": "ডিকোড",
+      "encodeAll": "সমস্ত অক্ষর এনকোড করুন",
+      "inputEncodeLabel": "সাধারণ টেক্সট",
+      "inputDecodeLabel": "HTML এন্টিটি",
+      "clearInput": "ইনপুট মুছুন (Ctrl+L)",
+      "encodePlaceholder": "HTML এন্টিটি হিসাবে রূপান্তর করতে টেক্সট প্রবেশ করুন...",
+      "decodePlaceholder": "ডিকোড করতে HTML এন্টিটি প্রবেশ করুন...",
+      "inputDescriptionEncode": "HTML এন্টিটি হিসাবে এনকোড করতে আপনি যে সাধারণ টেক্সট প্রবেশ করতে চান তা দিন",
+      "inputDescriptionDecode": "ডিকোড করতে আপনি যে HTML এন্টিটি প্রবেশ করতে চান তা দিন",
+      "outputEncodeLabel": "এনকোড ফলাফল",
+      "outputDecodeLabel": "ডিকোড ফলাফল",
+      "copyResult": "ফলাফল কপি করুন (Ctrl+C)",
+      "resultPlaceholder": "রূপান্তর ফলাফল এখানে দেখাবে...",
+      "outputDescriptionEncode": "উত্পন্ন HTML এন্টিটি আউটপুট",
+      "outputDescriptionDecode": "ডিকোড করা সাধারণ টেক্সট আউটপুট",
+      "copied": "ক্লিপবোর্ডে কপি করা হয়েছে",
+      "executeEncode": "এনকোড (Ctrl+Enter)",
+      "executeDecode": "ডিকোড (Ctrl+Enter)",
+      "swap": "বিনিময়",
+      "swapMode": "ইনপুট এবং আউটপুট বিনিময় করুন (Ctrl+S)",
+      "commonEntities": "সাধারণ HTML এন্টিটি",
+      "space": "(স্পেস)"
+    },
+    "jsMinify": {
+      "title": "JS Minify & Beautify",
+      "description": "অনলাইনে JavaScript কোড মিনিফাই বা বিশুদ্ধ করুন",
+      "toolName": "JavaScript Minify / Beautify",
+      "toolNameHistory": "JS Minify & Beautify",
+      "toolCategory": "ডেভেলপার টুলস",
+      "processFailed": "প্রক্রিয়া ব্যর্থ হয়েছে",
+      "copyFailed": "ফলাফল ক্লিপবোর্ডে কপি করা ব্যর্থ হয়েছে",
+      "switchToMinify": "মিনিফাই মোডে সুইচ করুন",
+      "switchToMinifyTitle": "মিনিফাই মোডে সুইচ করুন (Alt+1)",
+      "switchToBeautify": "বিশুদ্ধ করুন মোডে সুইচ করুন",
+      "switchToBeautifyTitle": "বিশুদ্ধ করুন মোডে সুইচ করুন (Alt+2)",
+      "minify": "মিনিফাই",
+      "beautify": "বিশুদ্ধ করুন",
+      "input": "ইনপুট",
+      "output": "আউটপুট",
+      "inputPlaceholder": "JavaScript কোড এখানে প্রবেশ করুন...",
+      "inputAria": "JavaScript ইনপুট সম্পাদক",
+      "inputTitle": "Ctrl+Enter চাপুন চালানোর জন্য, Ctrl+L চাপুন মুছার জন্য",
+      "copyOutput": "আউটপুট কপি করুন",
+      "copyOutputTitle": "আউটপুট কপি করুন (Ctrl+C)",
+      "resultPlaceholder": "প্রক্রিয়াকৃত ফলাফল এখানে দেখাবে...",
+      "outputAria": "JavaScript আউটপুট ফলাফল",
+      "executeMinify": "JavaScript মিনিফাই",
+      "executeMinifyTitle": "JavaScript মিনিফাই (Ctrl+Enter)",
+      "executeBeautify": "JavaScript বিশুদ্ধ করুন",
+      "executeBeautifyTitle": "JavaScript বিশুদ্ধ করুন (Ctrl+Enter)",
+      "minifyCode": "কোড মিনিফাই করুন",
+      "beautifyCode": "কোড বিশুদ্ধ করুন",
+      "swap": "বিনিময়",
+      "swapTitle": "ইনপুট এবং আউটপুট বিনিময় করুন (Ctrl+S)",
+      "clear": "মুছুন",
+      "clearTitle": "আউটপুট মুছুন (Ctrl+L)",
+      "copied": "ক্লিপবোর্ডে কপি করা হয়েছে",
+      "infoTitle": "বৈশিষ্ট্য",
+      "infoItems": [
+        "অপ্রয়োজনীয় স্পেস এবং লাইন ব্রেক অপসারণ করে জাভাস্ক্রিপ্ট ফাইলের আকার কমায়",
+        "বিশুদ্ধ মোড সংকুচিত কোড পড়া এবং রক্ষণাবেক্ষণে সহজ করে তোলে",
+        "মিনিফাইকেশন গুণ জাভাস্ক্রিপ্ট পার্সার এবং মিনিফায়ার বাস্তবায়নের উপর নির্ভর করে"
+      ]
+    },
+    "cssMinify": {
+      "title": "CSS Minify & Beautify",
+      "description": "অনলাইনে CSS কোড মিনিফাই বা বিশুদ্ধ করুন",
+      "toolName": "CSS Minify & Beautify",
+      "toolCategory": "ডেভেলপার টুলস",
+      "processFailed": "প্রক্রিয়া ব্যর্থ হয়েছে",
+      "copyFailed": "ফলাফল ক্লিপবোর্ডে কপি করা ব্যর্থ হয়েছে",
+      "switchToMinify": "মিনিফাই মোডে সুইচ করুন",
+      "switchToMinifyTitle": "মিনিফাই মোডে সুইচ করুন (Alt+1)",
+      "switchToBeautify": "বিশুদ্ধ করুন মোডে সুইচ করুন",
+      "switchToBeautifyTitle": "বিশুদ্ধ করুন মোডে সুইচ করুন (Alt+2)",
+      "minify": "মিনিফাই",
+      "beautify": "বিশুদ্ধ করুন",
+      "input": "ইনপুট",
+      "output": "আউটপুট",
+      "inputPlaceholder": "CSS কোড এখানে প্রবেশ করুন...\n\nউদাহরণ:\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 20px;\n}",
+      "inputAria": "CSS ইনপুট সম্পাদক",
+      "inputTitle": "Ctrl+Enter চাপুন চালানোর জন্য, Ctrl+L চাপুন মুছার জন্য",
+      "copyOutput": "আউটপুট কপি করুন",
+      "copyOutputTitle": "আউটপুট কপি করুন (Ctrl+C)",
+      "resultPlaceholder": "প্রক্রিয়াকৃত ফলাফল এখানে দেখাবে...",
+      "outputAria": "CSS আউটপুট ফলাফল",
+      "executeMinify": "CSS মিনিফাই",
+      "executeMinifyTitle": "CSS মিনিফাই (Ctrl+Enter)",
+      "executeBeautify": "CSS বিশুদ্ধ করুন",
+      "executeBeautifyTitle": "CSS বিশুদ্ধ করুন (Ctrl+Enter)",
+      "minifyCode": "কোড মিনিফাই করুন",
+      "beautifyCode": "কোড বিশুদ্ধ করুন",
+      "swap": "বিনিময়",
+      "swapTitle": "ইনপুট এবং আউটপুট বিনিময় করুন (Ctrl+S)",
+      "clear": "মুছুন",
+      "clearTitle": "আউটপুট মুছুন (Ctrl+L)",
+      "copied": "ক্লিপবোর্ডে কপি করা হয়েছে",
+      "infoTitle": "বৈশিষ্ট্য",
+      "infoItems": [
+        "অপ্রয়োজনীয় স্পেস এবং লাইন ব্রেক অপসারণ করে ফাইলের আকার কমায়",
+        "বিশুদ্ধ মোড সংকুচিত কোড পড়া এবং সম্পাদনা করা সহজ করে তোলে",
+        "ছোট সিএসএস ফাইলগুলি HTTP স্থানান্তর আকার কমাতে এবং লোডিং পারফরম্যান্স উন্নত করতে সাহায্য করে"
+      ]
+    },
+    "httpCodes": {
+      "title": "HTTP স্টেটাস কোড",
+      "description": "HTTP স্টেটাস / উত্তর কোডের রেফারেন্স",
+      "searchPlaceholder": "স্টেটাস কোড বা বর্ণনা খুঁজুন...",
+      "noMatch": "মিল কোনো স্টেটাস কোড পাওয়া যায়নি",
+      "infoTitle": "HTTP স্টেটাস কোড বেসিক",
+      "infoItems": [
+        "1xx - যে উত্তরগুলি বুঝায় যে অনুরোধটি পাওয়া হয়েছে এবং প্রক্রিয়া করা হচ্ছে",
+        "2xx - সফল উত্তরগুলি যে অনুরোধটি পাওয়া হয়েছে, বুঝা হয়েছে এবং গ্রহণ করা হয়েছে",
+        "3xx - অনুরোধটি সম্পন্ন করতে আরও কার্যক্রম প্রয়োজন হয় এমন পুনর্নির্দেশ উত্তরগুলি",
+        "4xx - ক্লায়েন্ট ত্রুটি উত্তরগুলি যে অনুরোধটি কোনো সঠিক সিনট্যাক্স বা পূর্ণ করা যায় না",
+        "5xx - সার্ভার ত্রুটি উত্তরগুলি যে অনুরোধটি সঠিক হয়েছে কিন্তু কোনো বৈধ অনুরোধ পূর্ণ করতে সার্ভার ব্যর্থ হয়েছে"
+      ],
+      "categories": [
+        {
+          "id": "all",
+          "name": "সবগুলো",
+          "color": "bg-gray-100 text-gray-700"
+        },
+        {
+          "id": "1xx",
+          "name": "1xx তথ্যপূর্ণ",
+          "color": "bg-blue-100 text-blue-700"
+        },
+        {
+          "id": "2xx",
+          "name": "2xx সফল",
+          "color": "bg-green-100 text-green-700"
+        },
+        {
+          "id": "3xx",
+          "name": "3xx পুনর্নির্দেশ",
+          "color": "bg-yellow-100 text-yellow-700"
+        },
+        {
+          "id": "4xx",
+          "name": "4xx ক্লায়েন্ট ত্রুটি",
+          "color": "bg-orange-100 text-orange-700"
+        },
+        {
+          "id": "5xx",
+          "name": "5xx সার্ভার ত্রুটি",
+          "color": "bg-red-100 text-red-700"
+        }
+      ],
+      "codes": [
+        {
+          "code": 100,
+          "name": "অব্যাহত রাখুন",
+          "desc": "অনুরোধের প্রথম অংশ পাওয়া গিয়েছে এবং ক্লায়েন্ট বাকি অনুরোধ প্রেরণ করতে হবে।",
+          "category": "1xx"
+        },
+        {
+          "code": 101,
+          "name": "প্রোটোকল পরিবর্তন",
+          "desc": "সার্ভার ক্লায়েন্টের অনুরোধ অনুযায়ী প্রোটোকল পরিবর্তনে সম্মত হয়েছে।",
+          "category": "1xx"
+        },
+        {
+          "code": 102,
+          "name": "প্রক্রিয়াকরণ",
+          "desc": "সার্ভার অনুরোধটি পেয়েছে এবং প্রক্রিয়া করছে, তবে এখনও কোনও উত্তর উপলব্ধ নেই।",
+          "category": "1xx"
+        },
+        {
+          "code": 200,
+          "name": "OK",
+          "desc": "অনুরোধটি সফল হয়েছে, সাধারণত GET বা POST অনুরোধের জন্য।",
+          "category": "2xx"
+        },
+        {
+          "code": 201,
+          "name": "তৈরি",
+          "desc": "অনুরোধটি সফল হয়েছে এবং একটি নতুন সংস্থান তৈরি করেছে।",
+          "category": "2xx"
+        },
+        {
+          "code": 202,
+          "name": "গৃহীত",
+          "desc": "অনুরোধটি প্রক্রিয়াকরণের জন্য গৃহীত হয়েছে, তবে এখনও সম্পন্ন হয়নি।",
+          "category": "2xx"
+        },
+        {
+          "code": 203,
+          "name": "অনুপ্রেরণা বিশ্বাসযোগ্য তথ্য",
+          "desc": "উত্তরের তথ্য মূল সার্ভারের বদলে স্থানীয় বা তৃতীয় পক্ষের কপি থেকে আসে।",
+          "category": "2xx"
+        },
+        {
+          "code": 204,
+          "name": "কোন বডি নেই",
+          "desc": "অনুরোধটি সফল হয়েছে, তবে উত্তরে কোন বডি নেই।",
+          "category": "2xx"
+        },
+        {
+          "code": 205,
+          "name": "বিষয় পুনঃস্থাপন করুন",
+          "desc": "অনুরোধটি সফল হয়েছে এবং ক্লায়েন্ট বর্তমান ডকুমেন্ট দৃষ্টিভঙ্গি পুনঃস্থাপন করা উচিত।",
+          "category": "2xx"
+        },
+        {
+          "code": 206,
+          "name": "আংশিক ফলাফল",
+          "desc": "একটি পরিসর অনুরোধের কারণে সার্ভার কেবল সূত্রের অংশ ফেরত দিচ্ছে।",
+          "category": "2xx"
+        },
+        {
+          "code": 300,
+          "name": "বিকল্পগুলি বেশি",
+          "desc": "অনুরোধ করা সম্পদটি ক্লায়েন্টের জন্য বেছে নেওয়ার জন্য বেশ কয়েকটি সম্ভাব্য প্রতিনিধিত্ব রয়েছে।",
+          "category": "3xx"
+        },
+        {
+          "code": 301,
+          "name": "স্থায়ীভাবে সরানো হয়েছে",
+          "desc": "অনুরোধ করা সম্পদটি একটি নতুন URI এ স্থায়ীভাবে সরানো হয়েছে।",
+          "category": "3xx"
+        },
+        {
+          "code": 302,
+          "name": "পাওয়া গেল",
+          "desc": "অনুরোধ করা সম্পদটি একটি আলাদা URI এ সময়ের জন্য অবস্থিত।",
+          "category": "3xx"
+        },
+        {
+          "code": 303,
+          "name": "অন্য কোন কিছু দেখুন",
+          "desc": "অনুরোধের উত্তরটি অন্য কোন কিছু করে পাওয়া যেতে পারে।",
+          "category": "3xx"
+        },
+        {
+          "code": 304,
+          "name": "পরিবর্তন হয়নি",
+          "desc": "ক্যাশ করা সম্পদটি পরিবর্তন হয়নি, তাই ক্লায়েন্ট তার স্থানীয় কপি ব্যবহার করতে পারে।",
+          "category": "3xx"
+        },
+        {
+          "code": 307,
+          "name": "অস্থায়ী পুনর্নির্দেশ",
+          "desc": "সম্পদটি অস্থায়ীভাবে পুনর্নির্দেশ করা হয়েছে এবং মূল অনুরোধ পদ্ধতি বজায় রাখা দরকার।",
+          "category": "3xx"
+        },
+        {
+          "code": 308,
+          "name": "স্থায়ী পুনর্নির্দেশ",
+          "desc": "সম্পদটি স্থায়ীভাবে সরানো হয়েছে এবং মূল অনুরোধ পদ্ধতি বজায় রাখা দরকার।",
+          "category": "3xx"
+        },
+        {
+          "code": 400,
+          "name": "অবৈধ অনুরোধ",
+          "desc": "অনুরোধটি অবৈধ সিনট্যাক্সের কারণে প্রক্রিয়া করা যাচ্ছে না।",
+          "category": "4xx"
+        },
+        {
+          "code": 401,
+          "name": "অনুমতি প্রয়োজন",
+          "desc": "অনুরোধটি সম্পন্ন করার আগে প্রাপ্তকর্তা প্রমাণীকরণ প্রয়োজন।",
+          "category": "4xx"
+        },
+        {
+          "code": 402,
+          "name": "অর্থ প্রদান প্রয়োজন",
+          "desc": "ভবিষ্যতের ব্যবহারের জন্য সংরক্ষিত, সাধারণত ডিজিটাল পেমেন্ট সিস্টেমের সাথে জড়িত।",
+          "category": "4xx"
+        },
+        {
+          "code": 403,
+          "name": "বাধা",
+          "desc": "সার্ভার অনুরোধটি বুঝেছে কিন্তু এটি অনুমোদন করতে অস্বীকার করেছে।",
+          "category": "4xx"
+        },
+        {
+          "code": 404,
+          "name": "পাওয়া যায়নি",
+          "desc": "সার্ভার অনুরোধ করা সম্পদটি খুঁজে পাচ্ছে না।",
+          "category": "4xx"
+        },
+        {
+          "code": 405,
+          "name": "অনুরোধ পদ্ধতি অনুমোদিত নয়",
+          "desc": "অনুরোধ পদ্ধতি লক্ষ্য সম্পদের জন্য অনুমোদিত নয়।",
+          "category": "4xx"
+        },
+        {
+          "code": 406,
+          "name": "অনুমোদিত নয়",
+          "desc": "সার্ভার ক্লায়েন্টের অনুমোদিত ফরম্যাটগুলির সাথে সামঞ্জস্যপূর্ণ একটি উত্তর প্রদান করতে পারে না।",
+          "category": "4xx"
+        },
+        {
+          "code": 407,
+          "name": "প্রক্সি প্রমাণীকরণ প্রয়োজন",
+          "desc": "অনুরোধ চালিয়ে যেতে ক্লায়েন্ট প্রক্সি সাথে প্রমাণীকরণ করতে হবে।",
+          "category": "4xx"
+        },
+        {
+          "code": 408,
+          "name": "অনুরোধ সময় শেষ",
+          "desc": "সার্ভার অনুরোধের জন্য অপেক্ষা করে সময় শেষ হয়ে গেছে।",
+          "category": "4xx"
+        },
+        {
+          "code": 409,
+          "name": "বিরোধ",
+          "desc": "অনুরোধটি লক্ষ্য সম্পদের বর্তমান অবস্থার সাথে বিরোধ করে।",
+          "category": "4xx"
+        },
+        {
+          "code": 410,
+          "name": "যাওয়া হয়েছে",
+          "desc": "সম্পদটি আর উপলব্ধ নেই এবং কোন ফরওয়ার্ডিং ঠিকানা জানা নেই।",
+          "category": "4xx"
+        },
+        {
+          "code": 411,
+          "name": "দৈর্ঘ্য প্রয়োজন",
+          "desc": "সার্ভার বৈধ Content-Length হেডার প্রয়োজন।",
+          "category": "4xx"
+        },
+        {
+          "code": 412,
+          "name": "শর্ত ব্যর্থ হয়েছে",
+          "desc": "অনুরোধ হেডারে এক বা একাধিক শর্ত মিথ্যা মূল্যায়ন করেছে।",
+          "category": "4xx"
+        },
+        {
+          "code": 413,
+          "name": "বডি খুব বড়",
+          "desc": "অনুরোধ বডি সার্ভার দ্বারা প্রক্রিয়া করার জন্য বড় হয়েছে।",
+          "category": "4xx"
+        },
+        {
+          "code": 414,
+          "name": "URI খুব বড়",
+          "desc": "অনুরোধ করা URI সার্ভার দ্বারা প্রক্রিয়া করার জন্য বড় হয়েছে।",
+          "category": "4xx"
+        },
+        {
+          "code": 415,
+          "name": "অসমর্থিত মিডিয়া ধরণ",
+          "desc": "সার্ভার অনুরোধে ব্যবহৃত মিডিয়া ধরণ সমর্থন করে না।",
+          "category": "4xx"
+        },
+        {
+          "code": 418,
+          "name": "আমি একটি কফি মেশিন নই",
+          "desc": "একটি হাস্যকর অবস্থা কোড যা সার্ভার কফি বানাতে অসমর্থ হয়েছে কারণ এটি একটি চায়ের কাপ।",
+          "category": "4xx"
+        },
+        {
+          "code": 422,
+          "name": "অকার্যকর ইউনিট",
+          "desc": "সার্ভার অনুরোধ ফরম্যাটটি বুঝতে পারে কিন্তু অন্তর্ভুক্ত নির্দেশগুলি প্রক্রিয়া করতে পারে না।",
+          "category": "4xx"
+        },
+        {
+          "code": 429,
+          "name": "বেশি অনুরোধ",
+          "desc": "ক্লায়েন্ট একটি নির্দিষ্ট সময় পরিমাণে বেশি অনুরোধ প্রেরণ করেছে।",
+          "category": "4xx"
+        },
+        {
+          "code": 451,
+          "name": "আইনী কারণে উপলব্ধ নয়",
+          "desc": "সম্পদটি আইনী বাধা কারণে উপলব্ধ নয়।",
+          "category": "4xx"
+        },
+        {
+          "code": 500,
+          "name": "ন্তরিক সার্ভার ত্রুটি",
+          "desc": "অনুরোধ প্রক্রিয়া করার সময় সার্ভার অপেক্ষাকৃত অপ্রত্যাশিত ত্রুটি দেখেছে।",
+          "category": "5xx"
+        },
+        {
+          "code": 501,
+          "name": "বাস্তবায়ন করা হয়নি",
+          "desc": "অনুরোধ পূর্ণ করার জন্য প্রয়োজনীয় কার্যকারিতা সার্ভার দ্বারা সমর্থন করা হয়নি।",
+          "category": "5xx"
+        },
+        {
+          "code": 502,
+          "name": "খারাপ গেটওয়ে",
+          "desc": "গেটওয়ে বা প্রক্সি সার্ভার উপরের সার্ভার থেকে অবৈধ উত্তর পেয়েছে।",
+          "category": "5xx"
+        },
+        {
+          "code": 503,
+          "name": "সেবা উপলব্ধ নয়",
+          "desc": "সার্ভার সাময়িকভাবে অনুরোধ পরিচালনা করতে অক্ষম, সাধারণত বেভারেজ বা রক্ষণাবেক্ষণের কারণে।",
+          "category": "5xx"
+        },
+        {
+          "code": 504,
+          "name": "গেটওয়ে সময় শেষ",
+          "desc": "গেটওয়ে বা প্রক্সি সার্ভার উপরের সার্ভার থেকে সময়মত উত্তর পায়নি।",
+          "category": "5xx"
+        },
+        {
+          "code": 505,
+          "name": "HTTP সংস্করণ সমর্থিত নয়",
+          "desc": "সার্ভার অনুরোধে ব্যবহৃত HTTP প্রোটোকল সংস্করণ সমর্থন করে না।",
+          "category": "5xx"
+        }
+      ]
+    },
+    "phpReference": {
+      "title": "PHP ফাংশন রেফারেন্স",
+      "description": "সাধারণ PHP ফাংশনের জন্য দ্রুত রেফারেন্স",
+      "searchPlaceholder": "ফাংশনের নাম বা বর্ণনা অনুসন্ধান করুন...",
+      "noMatch": "মিল করা ফাংশন খুঁজে পাওয়া যায়নি",
+      "infoTitle": "বিবরণ",
+      "infoDescription": "এই পৃষ্ঠাটি দ্রুত অনুসন্ধানের জন্য বিভাগ অনুযায়ী সাধারণত ব্যবহৃত PHP ফাংশনগুলি তালিকাভুক্ত করে। এটি অফিসিয়াল PHP ডকুমেন্টেশনের পরিবর্তে ডেভেলপারদের জন্য একটি সুবিধাজনক উপসংহার হিসাবে নির্দিষ্ট করা হয়েছে।",
+      "categories": [
+        "সবগুলো",
+        "স্ট্রিং",
+        "অ্যারে",
+        "ফাইল",
+        "তারিখ/সময়",
+        "জেএসওএন",
+        "গণিত",
+        "অন্যান্য"
+      ],
+      "functions": [
+        {
+          "name": "strlen",
+          "desc": "একটি স্ট্রিংয়ের দৈর্ঘ্য পাওয়া",
+          "syntax": "strlen(string $string): int",
+          "category": "স্ট্রিং"
+        },
+        {
+          "name": "substr",
+          "desc": "একটি স্ট্রিংয়ের অংশ ফেরত দিন",
+          "syntax": "substr(string $string, int $offset, ?int $length = null): string",
+          "category": "স্ট্রিং"
+        },
+        {
+          "name": "strpos",
+          "desc": "একটি সাবস্ট্রিংয়ের প্রথম ঘটনার অবস্থান খুঁজুন",
+          "syntax": "strpos(string $haystack, string $needle, int $offset = 0): int|false",
+          "category": "স্ট্রিং"
+        },
+        {
+          "name": "str_replace",
+          "desc": "খুঁজে বার করা স্ট্রিংয়ের সমস্ত ঘটনা প্রতিস্থাপন করুন",
+          "syntax": "str_replace(mixed $search, mixed $replace, mixed $subject): mixed",
+          "category": "স্ট্রিং"
+        },
+        {
+          "name": "explode",
+          "desc": "একটি স্ট্রিংকে একটি সেপারেটর ব্যবহার করে একটি অ্যারেতে ভাগ করুন",
+          "syntax": "explode(string $separator, string $string, int $limit = PHP_INT_MAX): array",
+          "category": "স্ট্রিং"
+        },
+        {
+          "name": "implode",
+          "desc": "অ্যারে উপাদানগুলি একটি স্ট্রিংয়ে যোগ করুন",
+          "syntax": "implode(string $separator, array $array): string",
+          "category": "স্ট্রিং"
+        },
+        {
+          "name": "trim",
+          "desc": "একটি স্ট্রিংয়ের উভয় পাশে স্পেস বা অন্যান্য চরিত্র সরান",
+          "syntax": "trim(string $string, string $characters = \" \\n\\r\\t\\v\\x00\"): string",
+          "category": "স্ট্রিং"
+        },
+        {
+          "name": "strtolower",
+          "desc": "একটি স্ট্রিং ছোট হাতে রূপান্তর করুন",
+          "syntax": "strtolower(string $string): string",
+          "category": "স্ট্রিং"
+        },
+        {
+          "name": "strtoupper",
+          "desc": "একটি স্ট্রিং বড় হাতে রূপান্তর করুন",
+          "syntax": "strtoupper(string $string): string",
+          "category": "স্ট্রিং"
+        },
+        {
+          "name": "sprintf",
+          "desc": "একটি আকার সম্পন্ন স্ট্রিং ফেরত দিন",
+          "syntax": "sprintf(string $format, mixed ...$values): string",
+          "category": "স্ট্রিং"
+        },
+        {
+          "name": "preg_match",
+          "desc": "একটি নিয়মিত অভিব্যক্তি ম্যাচ করুন",
+          "syntax": "preg_match(string $pattern, string $subject, array &$matches = null): int|false",
+          "category": "স্ট্রিং"
+        },
+        {
+          "name": "preg_replace",
+          "desc": "একটি নিয়মিত অভিব্যক্তি খুঁজুন এবং প্রতিস্থাপন করুন",
+          "syntax": "preg_replace(mixed $pattern, mixed $replacement, mixed $subject): mixed",
+          "category": "স্ট্রিং"
+        },
+        {
+          "name": "count",
+          "desc": "একটি অ্যারে বা Countable বস্তুতে উপাদানগুলি গণনা করুন",
+          "syntax": "count(Countable|array $value, int $mode = COUNT_NORMAL): int",
+          "category": "অ্যারে"
+        },
+        {
+          "name": "array_push",
+          "desc": "একটি অ্যারের শেষে এক বা একাধিক উপাদান যোগ করুন",
+          "syntax": "array_push(array &$array, mixed ...$values): int",
+          "category": "অ্যারে"
+        },
+        {
+          "name": "array_pop",
+          "desc": "একটি অ্যারের শেষ উপাদানটি সরান",
+          "syntax": "array_pop(array &$array): mixed",
+          "category": "অ্যারে"
+        },
+        {
+          "name": "array_merge",
+          "desc": "এক বা একাধিক অ্যারে মার্জ করুন",
+          "syntax": "array_merge(array ...$arrays): array",
+          "category": "অ্যারে"
+        },
+        {
+          "name": "array_keys",
+          "desc": "একটি অ্যারের সমস্ত কী ফেরত দিন",
+          "syntax": "array_keys(array $array, mixed $filter_value, bool $strict = false): array",
+          "category": "অ্যারে"
+        },
+        {
+          "name": "array_values",
+          "desc": "একটি অ্যারের সমস্ত মান ফেরত দিন",
+          "syntax": "array_values(array $array): array",
+          "category": "অ্যারে"
+        },
+        {
+          "name": "in_array",
+          "desc": "একটি অ্যারেতে একটি মান উপস্থিত আছে কিনা যাচাই করুন",
+          "syntax": "in_array(mixed $needle, array $haystack, bool $strict = false): bool",
+          "category": "অ্যারে"
+        },
+        {
+          "name": "array_search",
+          "desc": "একটি অ্যারেতে একটি মান খুঁজুন এবং এর কী ফেরত দিন",
+          "syntax": "array_search(mixed $needle, array $haystack, bool $strict = false): int|string|false",
+          "category": "অ্যারে"
+        },
+        {
+          "name": "array_map",
+          "desc": "একটি অ্যারের উপাদানগুলিতে একটি কলব্যাক প্রয়োগ করুন",
+          "syntax": "array_map(?callable $callback, array $array, array ...$arrays): array",
+          "category": "অ্যারে"
+        },
+        {
+          "name": "array_filter",
+          "desc": "একটি অ্যারের উপাদানগুলি একটি কলব্যাক ব্যবহার করে ফিল্টার করুন",
+          "syntax": "array_filter(array $array, ?callable $callback = null, int $mode = 0): array",
+          "category": "অ্যারে"
+        },
+        {
+          "name": "sort",
+          "desc": "একটি অ্যারে বর্ণানুক্রমে সাজান",
+          "syntax": "sort(array &$array, int $flags = SORT_REGULAR): bool",
+          "category": "অ্যারে"
+        },
+        {
+          "name": "usort",
+          "desc": "একটি অ্যারে একটি ব্যবহারকারী-নির্দিষ্ট তুলনা ফাংশন ব্যবহার করে সাজান",
+          "syntax": "usort(array &$array, callable $callback): bool",
+          "category": "অ্যারে"
+        },
+        {
+          "name": "file_get_contents",
+          "desc": "একটি ফাইল পুরোটা একটি স্ট্রিংয়ে পড়ুন",
+          "syntax": "file_get_contents(string $filename, ...): string|false",
+          "category": "ফাইল"
+        },
+        {
+          "name": "file_put_contents",
+          "desc": "একটি ফাইলে ডেটা লিখুন",
+          "syntax": "file_put_contents(string $filename, mixed $data, int $flags = 0): int|false",
+          "category": "ফাইল"
+        },
+        {
+          "name": "fopen",
+          "desc": "একটি ফাইল বা URL খুলুন",
+          "syntax": "fopen(string $filename, string $mode, ...): resource|false",
+          "category": "ফাইল"
+        },
+        {
+          "name": "fclose",
+          "desc": "একটি খোলা ফাইল পয়েন্টার বন্ধ করুন",
+          "syntax": "fclose(resource $stream): bool",
+          "category": "ফাইল"
+        },
+        {
+          "name": "fread",
+          "desc": "ফাইল পয়েন্টার থেকে পড়ুন",
+          "syntax": "fread(resource $stream, int $length): string|false",
+          "category": "ফাইল"
+        },
+        {
+          "name": "fwrite",
+          "desc": "ফাইল পয়েন্টারে লিখুন",
+          "syntax": "fwrite(resource $stream, string $data, ?int $length = null): int|false",
+          "category": "ফাইল"
+        },
+        {
+          "name": "file_exists",
+          "desc": "একটি ফাইল বা ডিরেক্টরি উপস্থিত আছে কিনা যাচাই করুন",
+          "syntax": "file_exists(string $filename): bool",
+          "category": "ফাইল"
+        },
+        {
+          "name": "is_file",
+          "desc": "পথটি একটি সাধারণ ফাইল কিনা যাচাই করুন",
+          "syntax": "is_file(string $filename): bool",
+          "category": "ফাইল"
+        },
+        {
+          "name": "unlink",
+          "desc": "একটি ফাইল মুছে ফেলুন",
+          "syntax": "unlink(string $filename, ?resource $context = null): bool",
+          "category": "ফাইল"
+        },
+        {
+          "name": "mkdir",
+          "desc": "একটি ডিরেক্টরি তৈরি করুন",
+          "syntax": "mkdir(string $directory, int $permissions = 0777, bool $recursive = false): bool",
+          "category": "ফাইল"
+        },
+        {
+          "name": "date",
+          "desc": "একটি স্থানীয় তারিখ এবং সময় ফরম্যাট করুন",
+          "syntax": "date(string $format, ?int $timestamp = null): string",
+          "category": "তারিখ/সময়"
+        },
+        {
+          "name": "time",
+          "desc": "বর্তমান ইউনিক্স টাইমস্ট্যাম্প পাওয়া",
+          "syntax": "time(): int",
+          "category": "তারিখ/সময়"
+        },
+        {
+          "name": "strtotime",
+          "desc": "একটি পাঠ্য তারিখ সময় একটি ইউনিক্স টাইমস্ট্যাম্পে রূপান্তর করুন",
+          "syntax": "strtotime(string $datetime, ?int $baseTimestamp = null): int|false",
+          "category": "তারিখ/সময়"
+        },
+        {
+          "name": "মাকটাইম",
+          "desc": "একটি ডেটা জন্য একটি ইউনিক্স টাইমস্ট্যাম্প পান",
+          "syntax": "মাকটাইম(int $ঘন্টা, ?int $মিনিট = null, ...): int|false",
+          "category": "তারিখ/সময়"
+        },
+        {
+          "name": "ডেটা_ক্রিয়েট",
+          "desc": "একটি DateTime বস্তু তৈরি করুন",
+          "syntax": "ডেটা_ক্রিয়েট(string $ডেটাটাইম = \"নাও\", ?DateTimeZone $টাইমজোন = null): DateTime|false",
+          "category": "তারিখ/সময়"
+        },
+        {
+          "name": "জেসন_এনকোড",
+          "desc": "একটি মান জেএসওএন স্ট্রিং হিসাবে রূপান্তর করুন",
+          "syntax": "জেসন_এনকোড(mixed $মান, int $ফ্ল্যাগস = 0, int $ডেপথ = 512): string|false",
+          "category": "জেএসওএন"
+        },
+        {
+          "name": "জেসন_ডিকোড",
+          "desc": "একটি জেএসওএন স্ট্রিং থেকে একটি PHP মানে রূপান্তর করুন",
+          "syntax": "জেসন_ডিকোড(string $জেএসওএন, ?bool $অ্যাসোসিয়েটিভ = null, int $ডেপথ = 512): mixed",
+          "category": "জেএসওএন"
+        },
+        {
+          "name": "আবস",
+          "desc": "পরম মান পান",
+          "syntax": "আবস(int|float $সংখ্যা): int|float",
+          "category": "গণিত"
+        },
+        {
+          "name": "সিল",
+          "desc": "ভগ্নাংশগুলি উপরের দিকে বাড়ান",
+          "syntax": "সিল(int|float $সংখ্যা): float",
+          "category": "গণিত"
+        },
+        {
+          "name": "ফ্লোর",
+          "desc": "ভগ্নাংশগুলি নিচের দিকে ছোট করুন",
+          "syntax": "ফ্লোর(int|float $সংখ্যা): float",
+          "category": "গণিত"
+        },
+        {
+          "name": "রাউন্ড",
+          "desc": "একটি সংখ্যা বাড়ান",
+          "syntax": "রাউন্ড(int|float $সংখ্যা, int $পরিশোধ = 0, int $মোড = PHP_ROUND_HALF_UP): float",
+          "category": "গণিত"
+        },
+        {
+          "name": "ম্যাক্স",
+          "desc": "সর্বাধিক মান খুঁজুন",
+          "syntax": "ম্যাক্স(mixed $মান, mixed ...$মানগুলি): mixed",
+          "category": "গণিত"
+        },
+        {
+          "name": "মিন",
+          "desc": "সর্বনিম্ন মান খুঁজুন",
+          "syntax": "মিন(mixed $মান, mixed ...$মানগুলি): mixed",
+          "category": "গণিত"
+        },
+        {
+          "name": "র্যান্ড",
+          "desc": "একটি ক্ষুদ্রতম পূর্ণসংখ্যা তৈরি করুন",
+          "syntax": "র্যান্ড(int $ন্যূনতম, int $ম্যাক্সিমাম): int",
+          "category": "গণিত"
+        },
+        {
+          "name": "ইসেট",
+          "desc": "একটি চলক সেট আছে কিনা এবং নাল নয় কিনা যাচাই করুন",
+          "syntax": "ইসেট(mixed $চলক, mixed ...$চলকগুলি): bool",
+          "category": "অন্যান্য"
+        },
+        {
+          "name": "এম্পটি",
+          "desc": "একটি চলক খালি কিনা যাচাই করুন",
+          "syntax": "এম্পটি(mixed $চলক): bool",
+          "category": "অন্যান্য"
+        },
+        {
+          "name": "ভার_ডাম্প",
+          "desc": "একটি চলকের তথ্য ডাম্প করুন",
+          "syntax": "ভার_ডাম্প(mixed $মান, mixed ...$মানগুলি): void",
+          "category": "অন্যান্য"
+        },
+        {
+          "name": "প্রিন্ট_আর",
+          "desc": "একটি চলকের মান মানুষের পড়ার জন্য তথ্য মুদ্রণ করুন",
+          "syntax": "প্রিন্ট_আর(mixed $মান, bool $ফেরত = false): string|bool",
+          "category": "অন্যান্য"
+        },
+        {
+          "name": "গেটটাইপ",
+          "desc": "একটি চলকের ধরণ পান",
+          "syntax": "গেটটাইপ(mixed $মান): string",
+          "category": "অন্যান্য"
+        },
+        {
+          "name": "ইস_অ্যারে",
+          "desc": "একটি চলক অ্যারে কিনা যাচাই করুন",
+          "syntax": "ইস_অ্যারে(mixed $মান): bool",
+          "category": "অন্যান্য"
+        },
+        {
+          "name": "ইস_স্ট্রিং",
+          "desc": "একটি চলক স্ট্রিং কিনা যাচাই করুন",
+          "syntax": "ইস_স্ট্রিং(mixed $মান): bool",
+          "category": "অন্যান্য"
+        },
+        {
+          "name": "ইস_নিউমেরিক",
+          "desc": "একটি চলক সংখ্যা বা সংখ্যার স্ট্রিং কিনা যাচাই করুন",
+          "syntax": "ইস_নিউমেরিক(mixed $মান): bool",
+          "category": "অন্যান্য"
+        }
+      ]
+    },
+    "cssBorderRadius": {
+      "title": "CSS Border Radius Generator",
+      "description": "বিজুয়াল ভাবে border-radius মানগুলি সম্পাদনা করুন এবং CSS কোড তৈরি করুন",
+      "presetsLabel": "প্রিসেট",
+      "preview": "প্রিভিউ",
+      "settings": "সেটিংস",
+      "linked": "লিঙ্ক করা কোনগুলি",
+      "unlinked": "আলাদা কোনগুলি",
+      "corners": {
+        "topLeft": "টপ লেফট",
+        "topRight": "টপ রাইট",
+        "bottomLeft": "বটম লেফট",
+        "bottomRight": "বটম রাইট"
+      },
+      "elementColor": "এলিমেন্ট রং",
+      "codeTitle": "CSS কোড",
+      "copy": "কপি",
+      "copied": "কপি করা হয়েছে",
+      "presets": [
+        {
+          "name": "কোনোটিই নয়",
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "ছোট",
+          "values": [
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "মধ্যম",
+          "values": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "বড়",
+          "values": [
+            16,
+            16,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "বৃত্ত",
+          "values": [
+            50,
+            50,
+            50,
+            50
+          ]
+        },
+        {
+          "name": "পিল",
+          "values": [
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "বাম পাশ",
+          "values": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        {
+          "name": "ডান পাশ",
+          "values": [
+            0,
+            16,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "শুধুমাত্র উপরে",
+          "values": [
+            16,
+            16,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "শুধুমাত্র নিচে",
+          "values": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "ডায়াগোনাল",
+          "values": [
+            16,
+            0,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "পাতা",
+          "values": [
+            0,
+            50,
+            0,
+            50
+          ]
+        }
+      ]
+    },
+    "cssNeumorphism": {
+      "title": "Neumorphism CSS Generator",
+      "description": "অনলাইনে Neumorphism-স্টাইল CSS কোড তৈরি করুন",
+      "previewText": "প্রিভিউ বাটন",
+      "shapeTitle": "শেপ স্টাইল",
+      "shapeOptions": [
+        {
+          "value": "ফ্ল্যাট",
+          "label": "ফ্ল্যাট"
+        },
+        {
+          "value": "কনকেভ",
+          "label": "কনকেভ"
+        },
+        {
+          "value": "কনভেক্স",
+          "label": "কনভেক্স"
+        },
+        {
+          "value": "প্রেসড",
+          "label": "প্রেসড"
+        }
+      ],
+      "colorTitle": "রং সেটিংস",
+      "presetColors": "প্রিসেট রং",
+      "colorPresets": [
+        {
+          "color": "#e0e5ec",
+          "name": "ক্লাসিক"
+        },
+        {
+          "color": "#f0f0f3",
+          "name": "সাদা"
+        },
+        {
+          "color": "#d1d9e6",
+          "name": "নীল"
+        },
+        {
+          "color": "#e8dfd5",
+          "name": "বেজি"
+        },
+        {
+          "color": "#dfe6e9",
+          "name": "গ্রে"
+        },
+        {
+          "color": "#ffeaa7",
+          "name": "হলুদ"
+        },
+        {
+          "color": "#dfe4ea",
+          "name": "স্লেট"
+        },
+        {
+          "color": "#f8e1e7",
+          "name": "গোলাপী"
+        },
+        {
+          "color": "#d5f5e3",
+          "name": "মিন্ট"
+        },
+        {
+          "color": "#e8daef",
+          "name": "বাদামী"
+        }
+      ],
+      "backgroundColor": "বেস রং",
+      "lightColor": "লাইট রং (হাইলাইট)",
+      "darkColor": "ডার্ক রং (ছায়া)",
+      "sliderTitle": "ছায়া সেটিংস",
+      "size": "আকার",
+      "radius": "রেডিয়াস",
+      "distance": "ছায়া দূরত্ব",
+      "blur": "ছায়া ব্লার",
+      "intensity": "তীব্রতা",
+      "codeTitle": "CSS কোড",
+      "copy": "কপি",
+      "copied": "কপি করা হয়েছে",
+      "infoTitle": "Neumorphism কি?",
+      "infoDescription": "নিউমোরফিজম একটি মৃদু ইউআই শৈলী যা উপাদানগুলিকে উত্থিত বা পিছনের পটে চাপা হয়ে দেখানোর জন্য সূক্ষ্ম উজ্জ্বলতা এবং ছায়া সম্প্রসারণ করে। এটি কম-বিপরীত প্যালেট এবং সাফ এবং কম ডিজাইনের সাথে সবচেয়ে ভালো কাজ করে।"
+    },
+    "cssTextShadow": {
+      "title": "CSS টেক্সট শ্যাডো জেনারেটর",
+      "description": "টেক্সট-শ্যাডো মানগুলি দৃশ্যমানভাবে সেট করুন এবং CSS কোড জেনারেট করুন",
+      "defaultText": "টেক্সট শ্যাডো উদাহরণ",
+      "presetsLabel": "প্রেসেট প্রভাব",
+      "textSettings": "টেক্সট সেটিংস",
+      "previewText": "প্রিভিউ টেক্সট",
+      "fontSize": "ফন্ট আকার",
+      "textColor": "টেক্সট রং",
+      "shadowPrefix": "শ্যাডো {{index}}",
+      "offsetX": "এক্স অফসেট",
+      "offsetY": "ওয়াই অফসেট",
+      "blur": "ব্লুর",
+      "opacity": "অপাক্সিটি",
+      "color": "রং",
+      "addShadow": "শ্যাডো যোগ করুন",
+      "codeTitle": "CSS কোড",
+      "copy": "কপি",
+      "copied": "কপি করা হয়েছে",
+      "presets": [
+        {
+          "name": "মৃদু ছায়া",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 2,
+              "y": 2,
+              "blur": 4,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        },
+        {
+          "name": "নিউন গ্লো",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#00ff00",
+              "opacity": 0.8
+            }
+          ]
+        },
+        {
+          "name": "বাদামি গ্লো",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 5,
+              "color": "#ff00ff",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#ff00ff",
+              "opacity": 0.8
+            },
+            {
+              "id": 3,
+              "x": 0,
+              "y": 0,
+              "blur": 20,
+              "color": "#ff00ff",
+              "opacity": 0.6
+            }
+          ]
+        },
+        {
+          "name": "লেয়ারড 3ডি",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 1,
+              "y": 1,
+              "blur": 0,
+              "color": "#666666",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 2,
+              "y": 2,
+              "blur": 0,
+              "color": "#888888",
+              "opacity": 1
+            },
+            {
+              "id": 3,
+              "x": 3,
+              "y": 3,
+              "blur": 0,
+              "color": "#aaaaaa",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "name": "এমবোস্ড",
+          "shadows": [
+            {
+              "id": 1,
+              "x": -1,
+              "y": -1,
+              "blur": 1,
+              "color": "#ffffff",
+              "opacity": 0.8
+            },
+            {
+              "id": 2,
+              "x": 1,
+              "y": 1,
+              "blur": 1,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "websocketTest": {
+      "title": "অনলাইন ওয়েবসোকেট পরীক্ষা টুল",
+      "description": "অনলাইনে ওয়েবসোকেট সংযোগ এবং বার্তা পরীক্ষা করুন",
+      "defaultUrl": "wss://echo.websocket.org",
+      "connectingTo": "{{url}} এ যুক্ত হচ্ছে...",
+      "connectSuccess": "সফলভাবে যুক্ত হয়েছে",
+      "connectError": "যোগাযোগ ত্রুটি",
+      "connectionClosed": "যোগাযোগ বন্ধ হয়েছে (কোড: {{code}})",
+      "connectFailed": "যোগাযোগ ব্যর্থ: {{message}}",
+      "disconnecting": "বিচ্ছিন্ন হচ্ছে...",
+      "urlPlaceholder": "একটি ওয়েবসোকেট ঠিকানা প্রবেশ করুন, উদাহরণ: wss://echo.websocket.org",
+      "disconnect": "বিচ্ছিন্ন",
+      "connecting": "যুক্ত হচ্ছে...",
+      "connect": "যুক্ত হওয়া",
+      "connected": "যুক্ত",
+      "notConnected": "যুক্ত নয়",
+      "messageLog": "বার্তা লগ",
+      "clear": "সাফ করুন",
+      "noMessages": "এখনও কোন বার্তা নেই",
+      "messagePlaceholder": "একটি বার্তা প্রবেশ করুন... (Enter চাপুন পাঠানোর জন্য, Shift+Enter নতুন লাইন যোগ করতে)",
+      "infoTitle": "ওয়েবসোকেট টিপস",
+      "infoItems": [
+        "বিল্ট-ইন ইকো সেবা মৌলিক প্রেরণা/গ্রহণ পরীক্ষার জন্য উপযুক্ত",
+        "ws:// এবং wss:// উভয় ঠিকানা সমর্থন করে",
+        "Enter চাপুন পাঠানোর জন্য, Shift+Enter নতুন লাইন যোগ করতে",
+        "নিশ্চিত করুন যে আপনার লক্ষ্য সেবা ব্রাউজার থেকে ওয়েবসোকেট সংযোগ অনুমতি দেয়"
+      ],
+      "examplesTitle": "সাধারণ উদাহরণ",
+      "publicEcho": "সার্বজনীন ইকো সেবা",
+      "defaultTag": "ডিফল্ট"
+    },
+    "csrGenerator": {
+      "title": "CSR জেনারেটর এবং দর্শক",
+      "description": "অনলাইনে CSR ফাইল তৈরি করুন এবং CSR বিষয়বস্তু বিশ্লেষণ করুন",
+      "enterDomain": "কৃপয়া করে একটি ডোমেইন প্রবেশ করুন",
+      "generateFailed": "CSR তৈরি ব্যর্থ হয়েছে",
+      "parseFailed": "CSR বিশ্লেষণ ব্যর্থ হয়েছে",
+      "serverConnectionFailed": "সার্ভারের সাথে সংযোগ ব্যর্থ হয়েছে, দয়া করে পরে আবার চেষ্টা করুন",
+      "tabs": {
+        "generate": "CSR জেনারেট করুন",
+        "view": "CSR দেখুন"
+      },
+      "formTitle": "সার্টিফিকেট তথ্য",
+      "labels": {
+        "commonName": "ডোমেইন (Common Name)",
+        "organization": "সংগঠন",
+        "organizationUnit": "বিভাগ",
+        "city": "শহর",
+        "state": "রাজ্য / প্রাদেশিক",
+        "country": "দেশ / অঞ্চল",
+        "email": "ইমেইল",
+        "keySize": "কী আকার"
+      },
+      "placeholders": {
+        "commonName": "উদাহরণ: www.example.com বা *.example.com",
+        "organization": "উদাহরণ: Example Inc.",
+        "organizationUnit": "উদাহরণ: IT বিভাগ",
+        "city": "উদাহরণ: বেইজিং",
+        "state": "উদাহরণ: বেইজিং",
+        "email": "উদাহরণ: admin@example.com",
+        "csr": "-----BEGIN CERTIFICATE REQUEST----- শুরু করে কোন সিআরএস কনটেন্ট পেস্ট করুন"
+      },
+      "countries": [
+        {
+          "value": "CN",
+          "label": "CN - চীন"
+        },
+        {
+          "value": "US",
+          "label": "US - মার্কিন যুক্তরাষ্ট্র"
+        },
+        {
+          "value": "JP",
+          "label": "JP - জাপান"
+        },
+        {
+          "value": "KR",
+          "label": "KR - দক্ষিণ কোরিয়া"
+        },
+        {
+          "value": "GB",
+          "label": "GB - যুক্ত কিংদম"
+        },
+        {
+          "value": "DE",
+          "label": "DE - জার্মানি"
+        },
+        {
+          "value": "FR",
+          "label": "FR - ফ্রান্স"
+        },
+        {
+          "value": "SG",
+          "label": "SG - সিঙ্গাপুর"
+        },
+        {
+          "value": "HK",
+          "label": "HK - হংকং"
+        },
+        {
+          "value": "TW",
+          "label": "TW - তাইওয়ান"
+        }
+      ],
+      "keySizes": [
+        {
+          "value": "2048",
+          "label": "2048 বিট (পরামর্শিত)"
+        },
+        {
+          "value": "4096",
+          "label": "4096 বিট (আরও নিরাপদ)"
+        }
+      ],
+      "generating": "তৈরি হচ্ছে...",
+      "generateAction": "CSR এবং ব্যক্তিগত কী তৈরি করুন",
+      "csrRequest": "CSR অনুরোধ",
+      "privateKey": "ব্যক্তিগত কী (সুরক্ষিত রাখুন)",
+      "copy": "কপি",
+      "copied": "কপি করা হয়েছে",
+      "download": "ডাউনলোড",
+      "privateKeyWarning": "ব্যক্তিগত কী খুব সংবেদনশীল। সুরক্ষিত রাখুন এবং কখনো সার্বজনীনভাবে ভাগ করবেন না। যদি এটি বাইরে আসে, আপনার সার্টিফিকেট নিরাপত্তা ক্ষেত্রে ক্ষতিগ্রস্থ হতে পারে।",
+      "inputCsr": "CSR কনটেন্ট পেস্ট করুন",
+      "parsing": "বিশ্লেষণ হচ্ছে...",
+      "parseAction": "CSR বিশ্লেষণ করুন",
+      "csrInfo": "CSR তথ্য",
+      "infoItems": [
+        {
+          "label": "ডোমেইন (CN)",
+          "key": "commonName"
+        },
+        {
+          "label": "সংগঠন (O)",
+          "key": "organization"
+        },
+        {
+          "label": "বিভাগ (OU)",
+          "key": "organizationUnit"
+        },
+        {
+          "label": "শহর (L)",
+          "key": "city"
+        },
+        {
+          "label": "রাজ্য / প্রাদেশিক (ST)",
+          "key": "state"
+        },
+        {
+          "label": "দেশ (C)",
+          "key": "country"
+        },
+        {
+          "label": "ইমেইল",
+          "key": "email"
+        },
+        {
+          "label": "কী অ্যালগরিদম",
+          "key": "keyAlgorithm"
+        },
+        {
+          "label": "কী আকার",
+          "key": "keySize"
+        },
+        {
+          "label": "সাইনেচার অ্যালগরিদম",
+          "key": "signatureAlgorithm"
+        }
+      ],
+      "keySizeValue": "{{value}} বিট",
+      "aboutTitle": "CSR কি?",
+      "aboutDescription": "একটি CSR (Certificate Signing Request) একটি কোডযুক্ত ফাইল যা SSL/TLS সার্টিফিকেট আবেদন করার সময় একটি সার্টিফিকেট অথরিটি (CA) এর কাছে প্রেরণ করা হয়। এটি আপনার ডোমেইন এবং সংগঠনের তথ্য, এবং আপনার ব্যক্তিগত কী এর সাথে মিল করে সার্টিফিকেট পাবলিক কী সম্পর্কে তথ্য ধারণ করে। যাচাই করার পর, CA CSR ব্যবহার করে SSL সার্টিফিকেট জারি করে।"
+    },
+    "metaGenerator": {
+      "title": "মেটা ট্যাগ জেনারেটর",
+      "description": "SEO-বান্ধব ওয়েবপেজ মেটা ট্যাগ তৈরি করুন",
+      "basicInfo": "মৌলিক তথ্য",
+      "socialMedia": "সামাজিক মিডিয়া (Open Graph)",
+      "generatedCode": "জেনারেটেড কোড",
+      "copy": "কপি",
+      "copied": "অনুলিপি করা হয়েছে",
+      "searchPreview": "খোঁজ প্রিভিউ",
+      "searchPreviewTitleFallback": "পাতার শিরোনাম",
+      "searchPreviewDescriptionFallback": "আপনার পাতার বর্ণনা এখানে দেখানো হবে...",
+      "socialPreview": "সামাজিক প্রিভিউ",
+      "socialPreviewTitleFallback": "শিরোনাম",
+      "socialPreviewDescriptionFallback": "বর্ণনা",
+      "labels": {
+        "title": "পাতার শিরোনাম",
+        "description": "পাতার বর্ণনা",
+        "keywords": "কীওয়ার্ড",
+        "author": "লেখক",
+        "robots": "রোবটস নির্দেশাবলী",
+        "ogTitle": "ওজি শিরোনাম",
+        "ogDescription": "ওজি বর্ণনা",
+        "ogImage": "ওজি ছবি অ্যাড্রেস",
+        "ogUrl": "পাতার অ্যাড্রেস",
+        "twitterCard": "টুইটার কার্ড ধরণ"
+      },
+      "placeholders": {
+        "title": "একটি পাতার শিরোনাম লিখুন",
+        "description": "150 অক্ষরের মধ্যে পাতার বর্ণনা লিখুন",
+        "keywords": "কীওয়ার্ড1, কীওয়ার্ড2, কীওয়ার্ড3",
+        "author": "লেখকের নাম লিখুন",
+        "ogTitle": "সামাজিক শেয়ারিং শিরোনাম লিখুন",
+        "ogDescription": "সামাজিক শেয়ারিং বর্ণনা লিখুন",
+        "ogImage": "https://example.com/image.jpg",
+        "ogUrl": "https://example.com/page"
+      },
+      "robotsOptions": [
+        {
+          "value": "index, follow",
+          "label": "সূচীকরণ অনুমতি দিন এবং অনুসরণ করুন"
+        },
+        {
+          "value": "index, nofollow",
+          "label": "সূচীকরণ অনুমতি দিন, অনুসরণ নিষেধ করুন"
+        },
+        {
+          "value": "noindex, follow",
+          "label": "সূচীকরণ নিষেধ করুন, অনুসরণ অনুমতি দিন"
+        },
+        {
+          "value": "noindex, nofollow",
+          "label": "সূচীকরণ এবং অনুসরণ নিষেধ করুন"
+        }
+      ],
+      "twitterOptions": [
+        {
+          "value": "summary",
+          "label": "সারাংশ"
+        },
+        {
+          "value": "summary_large_image",
+          "label": "বড় ছবি"
+        },
+        {
+          "value": "player",
+          "label": "প্লেয়ার"
+        }
+      ]
+    },
+    "toolHistoryDemo": {
+      "confirmClear": "আপনি সব টুল ইতিহাস এবং পছন্দের মুছে ফেলতে চান কি?",
+      "exportTitle": "ডেটা বাহির করুন",
+      "usageCount": "ব্যবহার করা হয়েছে {{count}} বার",
+      "lastUsed": "শেষ ব্যবহার: {{time}}",
+      "favorite": "পছন্দ: {{value}}",
+      "yes": "হ্যাঁ",
+      "no": "না",
+      "exportFailed": "বাহির করা ব্যর্থ হয়েছে",
+      "tabs": {
+        "overview": "অবলোকন",
+        "history": "ইতিহাস",
+        "favorites": "পছন্দের",
+        "analytics": "বিশ্লেষণ"
+      },
+      "loading": "টুল ইতিহাস ডেটা লোড করা হচ্ছে...",
+      "loadFailed": "লোড ব্যর্থ হয়েছে: {{error}}",
+      "title": "টুল ইতিহাস ডেমো",
+      "description": "টুল ব্যবহার ইতিহাস, পছন্দের এবং বিশ্লেষণ প্রদর্শন করে",
+      "export": "বাহির করুন",
+      "clear": "মুছে ফেলুন",
+      "searchPlaceholder": "টুল খুঁজুন...",
+      "stats": {
+        "totalTools": "মোট টুল",
+        "totalUsage": "মোট ব্যবহার",
+        "favoriteTools": "পছন্দের টুল",
+        "averageUsage": "গড় ব্যবহার"
+      },
+      "favoriteToolsTitle": "পছন্দের টুল",
+      "favoriteToolsDescription": "আপনি যে টুলগুলি পছন্দ করেছেন",
+      "noFavoriteTools": "আপনার কোন পছন্দের টুল নেই",
+      "mostUsed": "সবচেয়ে বেশি ব্যবহৃত টুল",
+      "timesUsed": "ব্যবহার করা হয়েছে {{count}} বার",
+      "recentActivity": "সাম্প্রতিক ক্রিয়াকলাপ",
+      "exportDialogTitle": "টুল ইতিহাস বাহির করুন",
+      "exportDialogDescription": "একটি আউটপুট ফরম্যাট বাছাই করুন",
+      "formats": {
+        "json": {
+          "title": "জেএসওএন ফরম্যাট",
+          "description": "ব্যাকআপ এবং ডেভেলপার ব্যবহারের জন্য উপযুক্ত"
+        },
+        "csv": {
+          "title": "সিএসভি ফরম্যাট",
+          "description": "এক্সেল স্প্রেডশীটের জন্য ভালো"
+        },
+        "txt": {
+          "title": "টেক্সট ফরম্যাট",
+          "description": "সাধারণ টেক্সট সারসংক্ষেপ"
+        }
+      },
+      "cancel": "বাতিল করুন"
+    },
+    "userAgentParser": {
+      "title": "User-Agent পার্সার",
+      "description": "ব্রাউজার, সিস্টেম এবং ডিভাইস তথ্য শনাক্ত করতে User-Agent স্ট্রিং বিশ্লেষণ করুন",
+      "label": "User-Agent স্ট্রিং",
+      "useCurrent": "বর্তমান ব্রাউজার ব্যবহার করুন",
+      "inputPlaceholder": "একটি User-Agent স্ট্রিং লিখুন...",
+      "parse": "বিশ্লেষণ করুন",
+      "unknownBrowser": "অজানা ব্রাউজার",
+      "unknown": "অজানা",
+      "deviceTypes": {
+        "mobile": "মোবাইল",
+        "tablet": "ট্যাবলেট",
+        "desktop": "ডেস্কটপ"
+      },
+      "browserInfo": "ব্রাউজারের তথ্য",
+      "browser": "ব্রাউজার",
+      "version": "সংস্করণ",
+      "majorVersion": "মূল সংস্করণ",
+      "operatingSystem": "অপারেটিং সিস্টেম",
+      "system": "সিস্টেম",
+      "deviceInfo": "ডিভাইসের তথ্য",
+      "type": "ধরণ",
+      "vendor": "প্রস্তুতকারক",
+      "model": "মডেল",
+      "engineAndCpu": "এঞ্জিন & সিপিইউ",
+      "engine": "এঞ্জিন",
+      "engineVersion": "এঞ্জিন সংস্করণ",
+      "cpuArchitecture": "সিপিইউ আর্কিটেকচার",
+      "examplesTitle": "উদাহরণ User-Agent স্ট্রিং"
+    },
+    "cssBoxShadow": {
+      "title": "DIV Box Shadow জেনারেটর",
+      "description": "বিশ্বাস করে বক্স-শেডো মানগুলি সম্পাদনা করুন এবং CSS কোড তৈরি করুন",
+      "preview": "প্রিভিউ",
+      "basicSettings": "মৌলিক সেটিংস",
+      "backgroundColor": "পিছনের রং",
+      "boxColor": "বক্স রং",
+      "borderRadius": "বর্গ ব্যাস",
+      "shadowPrefix": "ছায়া {{index}}",
+      "inset": "অভ্যন্তরীণ",
+      "offsetX": "এক্স অফসেট",
+      "offsetY": "ওয়াই অফসেট",
+      "blur": "ব্লুর",
+      "spread": "স্প্রেড",
+      "opacity": "অপাসিটি",
+      "color": "রং",
+      "addShadow": "ছায়া যোগ করুন",
+      "codeTitle": "CSS কোড",
+      "copy": "অনুলিপি করুন",
+      "copied": "অনুলিপি করা হয়েছে"
+    },
+    "cssGlassmorphism": {
+      "title": "CSS Glassmorphism জেনারেটর",
+      "description": "অনলাইনে গ্লাসমর্ফিজম-স্টাইল সিএসএস কোড তৈরি করুন",
+      "cardTitle": "গ্লাসমর্ফিজম কার্ড",
+      "cardDescription": "গ্লাসমর্ফিজম হল একটি আধুনিক UI স্টাইল যা অর্ধচালকতা, ব্লুর এবং নরম বর্ডার ব্যবহার করে একটি ফ্রস্টেড গ্লাস প্রভাব তৈরি করে।",
+      "adjustTitle": "সেটিংস সম্পাদনা করুন",
+      "blur": "পিছনের ব্লুর",
+      "transparency": "অর্ধচালকতা",
+      "saturation": "সাচুরেশন",
+      "borderRadius": "বর্গ ব্যাস",
+      "borderOpacity": "বর্ডার অপাসিটি",
+      "codeTitle": "CSS কোড",
+      "copy": "অনুলিপি করুন",
+      "copied": "অনুলিপি করা হয়েছে",
+      "infoTitle": "সম্পর্কিত নোট",
+      "infoDescription": "backdrop-filter বৈশিষ্ট্যটি আধুনিক ব্রাউজার সমর্থনের প্রয়োজন। ফায়ারফক্স কিছু অতিরিক্ত সেটিং প্রয়োজন হতে পারে, এবং স্যাফারি কিছু ক্ষেত্রে -webkit- প্রিফিক্স প্রয়োজন হতে পারে। অসমর্থিত ব্রাউজারের জন্য সুস্থ ফলবিকল্প বিবেচনা করুন।"
+    },
+    "desktopShortcut": {
+      "title": "ওয়েবসাইট ডেস্কটপ শর্টকাট",
+      "description": "ডেস্কটপে ওয়েবসাইট শর্টকাট তৈরি করুন এবং তাদের দ্রুত চালান",
+      "enterUrl": "অনুগ্রহ করে একটি বৈধ ওয়েবসাইট URL লিখুন",
+      "enterName": "অনুগ্রহ করে শর্টকাটের নাম লিখুন",
+      "redirectingTo": "{{name}} খুলছে...",
+      "urlLabel": "ওয়েবসাইট URL",
+      "urlPlaceholder": "example.com বা https://example.com",
+      "nameLabel": "শর্টকাটের নাম",
+      "namePlaceholder": "ওয়েবসাইট শর্টকাট",
+      "downloadUrlFile": ".url ফাইল ডাউনলোড করুন",
+      "downloadHtmlFile": ".html ফাইল ডাউনলোড করুন",
+      "infoTitle": "নির্দেশাবলী",
+      "urlFileDesc": ".url ফাইলগুলি হল উইন্ডোজ ইন্টারনেট শর্টকাট ফাইল এবং সাধারণত আপনার ডিফল্ট ব্রাউজারে লক্ষ্য ওয়েবসাইট খুলে দেয়।",
+      "htmlFileDesc": ".html ফাইলগুলি উইন্ডোজ, macOS এবং Linux-এ কাজ করে এবং সহজ ওয়েবসাইট শর্টকাট হিসাবেও ব্যবহার করা যেতে পারে।",
+      "afterDownload": "ডাউনলোড করার পর, ফাইলটি আপনার ডেস্কটপে সরান বা প্রয়োজন অনুযায়ী পিন করুন।"
+    },
+    "htmlPreview": {
+      "title": "HTML পূর্বাভাস",
+      "description": "অনলাইনে HTML লিখুন এবং পূর্বাভাস দেখুন",
+      "defaultMessage": "HTML পূর্বাভাস টুলে স্বাগতম",
+      "editorTitle": "HTML কোড",
+      "clear": "সাফ করুন",
+      "editorPlaceholder": "HTML কোড এখানে লিখুন...",
+      "previewTitle": "পূর্বাভাস",
+      "run": "চালান",
+      "fullscreen": "পুরো স্ক্রিন",
+      "exitFullscreen": "পুরো স্ক্রিন থেকে বের হয়ে যান",
+      "usageTitle": "কিভাবে ব্যবহার করবেন",
+      "usageItems": [
+        "বাম পাশের সম্পূর্ণ HTML কোড প্রবেশ করুন",
+        "ফলাফল পূর্বাভাস দেখতে চালান ক্লিক করুন",
+        "আইনসাইড সিএসএস এবং জাভাস্ক্রিপ্ট সমর্থিত হয়",
+        "কোড সুরক্ষার জন্য স্যানডবক্সের মধ্যে চালানো হয়"
+      ]
+    },
+    "pageRefresh": {
+      "title": "অটো পৃষ্ঠা আপডেট",
+      "description": "অনলাইনে একটি ওয়েবপেজ স্বয়ংক্রিয়ভাবে আপডেট করুন",
+      "urlRequired": "দয়া করে একটি URL প্রবেশ করুন",
+      "urlPlaceholder": "একটি URL প্রবেশ করুন, যেমন https://example.com",
+      "seconds": "সেকেন্ড",
+      "start": "শুরু",
+      "stop": "থামান",
+      "quickSet": "ত্বরিত সেটিংস:",
+      "secondsValue": "{{count}} সেকেন্ড",
+      "minutesValue": "{{count}} মিনিট",
+      "running": "চলছে",
+      "refreshIn": "{{count}} সেকেন্ডে আপডেট হবে",
+      "refreshedCount": "আপডেট হয়েছে {{count}} বার",
+      "lastRefresh": "শেষ আপডেট: {{time}}",
+      "previewTitle": "পৃষ্ঠা পূর্বাভাস",
+      "previewPlaceholder": "প্রিভিউ শুরু করতে একটি URL প্রবেশ করুন",
+      "usageTitle": "কিভাবে ব্যবহার করবেন",
+      "usageItems": [
+        "ওয়েবপেজের URL এবং আপডেট অন্তরাল প্রবেশ করুন",
+        "স্বয়ংক্রিয় আপডেট শুরু করতে শুরু ক্লিক করুন",
+        "কিছু ওয়েবসাইট সিকিউরিটি নীতিগুলির কারণে আইফ্রেমে প্রদর্শিত হতে পারে না",
+        "পৃষ্ঠা পরিবর্তন নিরীক্ষা করা বা সেশনগুলি সক্রিয় রাখার জন্য এটি উপযুক্ত"
+      ]
+    },
+    "pxToRem": {
+      "title": "PX থেকে REM রূপান্তরকারী",
+      "description": "CSS কোডে PX ইউনিটগুলি স্বয়ংক্রিয়ভাবে REM ইউনিটে রূপান্তর করুন",
+      "baseFontSize": "রুট ফন্ট আকার",
+      "precision": "দশমিক নির্ভুলতা",
+      "precisionOptions": {
+        "2": "2 ডিজিট",
+        "3": "3 ডিজিট",
+        "4": "4 ডিজিট",
+        "5": "5 ডিজিট"
+      },
+      "inputLabel": "ইনপুট CSS কোড",
+      "convertToRem": "PX থেকে REM",
+      "convertToPx": "REM থেকে PX",
+      "outputLabel": "ফলাফল",
+      "copy": "অনুলিপি করুন",
+      "copied": "অনুলিপি করা হয়েছে",
+      "outputPlaceholder": "রূপান্তর ফলাফল এখানে দেখাবে...",
+      "quickReferenceTitle": "ত্বরিত তথ্য (বেস: {{baseSize}}px)",
+      "whyUseRem": "REM কেন ব্যবহার করবেন?",
+      "infoItems": [
+        "REM রুট (html) ফন্ট আকারের উপর নির্ভর করে",
+        "REM ব্যবহার করে সাইটের মধ্যে টাইপোগ্রাফি স্কেল করা সহজ হয়",
+        "এটি রিস্পন্সিভ ডিজাইন এবং অ্যাক্সেসিবিলিটি সহায় করে"
+      ],
+      "formula": "সূত্র: rem = px / {{baseSize}}"
+    },
+    "shieldBadge": {
+      "title": "শিল্ড বেডজ জেনারেটর",
+      "description": "অনলাইনে SVG শিল্ড বেডজ জেনারেট করুন",
+      "downloadFailed": "ডাউনলোড ব্যর্থ হয়েছে, দয়া করে পরে আবার চেষ্তা করুন",
+      "basicSettings": "মৌলিক সেটিংস",
+      "labelField": "লেবেল",
+      "messageField": "বার্তা",
+      "color": "রং",
+      "style": "শৈলী",
+      "logoSettings": "লোগো সেটিংস",
+      "logo": "লোগো",
+      "none": "কোনটিই নয়",
+      "logoColor": "লোগো রং",
+      "preview": "পূর্বাভাস",
+      "downloadSvg": "SVG ডাউনলোড করুন",
+      "codeTitle": "কোড",
+      "copiedToClipboard": "ক্লিপবোর্ডে অনুলিপি করা হয়েছে"
+    },
+    "robotsGenerator": {
+      "title": "robots.txt জেনারেটর",
+      "description": "অনলাইনে robots.txt ফাইল জেনারেট করুন",
+      "templatesLabel": "ত্বরিত টেমপ্লেটগুলি:",
+      "templates": {
+        "allowAll": "সবকিছু অনুমোদন করুন",
+        "blockAll": "সবকিছু বাধা দিন",
+        "standard": "মানক কনফিগারেশন"
+      },
+      "ruleTitle": "নিয়ম {{index}}",
+      "userAgents": {
+        "all": "* (সব ক্রাওলার)",
+        "baidu": "Baiduspider (Baidu)",
+        "sogou": "Sogou"
+      },
+      "disallow": "অনুমোদন করা নয় পথ",
+      "allow": "অনুমোদন করা পথ",
+      "add": "যোগ করুন",
+      "addRule": "নিয়ম যোগ করুন",
+      "otherSettings": "অন্যান্য সেটিংস",
+      "sitemapUrl": "সাইটম্যাপ URL",
+      "crawlDelay": "Crawl-বিলম্ব (সেকেন্ড)",
+      "preview": "robots.txt পূর্বাভাস",
+      "copy": "অনুলিপি করুন",
+      "copied": "অনুলিপি করা হয়েছে",
+      "saveTip": "এই ফাইলটি সংরক্ষণ করুন এবং এটি আপনার ওয়েবসাইটের মূল ডিরেক্টরিতে রাখুন"
+    },
+    "emailEncrypt": {
+      "title": "ইমেইল অ্যাড্রেস এনকোডার",
+      "description": "বটগুলি দ্বারা স্ক্র্যাপিং কমাতে ইমেইল অ্যাড্রেস এনকোড করুন",
+      "inputLabel": "ইমেইল অ্যাড্রেস",
+      "copy": "অনুলিপি করুন",
+      "copied": "অনুলিপি করা হয়েছে",
+      "infoTitle": "কেন ইমেইল অ্যাড্রেস এনকোড করবেন?",
+      "infoItems": [
+        "বটগুলি দ্বারা আপনার ইমেইল অ্যাড্রেস স্ক্র্যাপিং করার ঝুঁকি কমানোর জন্য",
+        "এনকোড করা ইমেইল ব্রাউজারে প্রদর্শিত হতে পারে যখন বটগুলি এটি সনাক্ত করতে কঠিন হয়",
+        "আরও সুরক্ষা জন্য বেশি করে এনকোডিং পদ্ধতি মিলিয়ে ব্যবহার করা যেতে পারে",
+        "এটি আরও পরামর্শ দেওয়া হয় যে সার্ভার-পাশের বিরোধী স্প্যাম পদক্ষেপ ব্যবহার করুন"
+      ],
+      "results": {
+        "unicodeDecimal": {
+          "name": "উনিকোড দশমিক",
+          "description": "অক্ষরগুলিকে দশমিক উনিকোড ইউনিটে রূপান্তর করুন"
+        },
+        "unicodeHex": {
+          "name": "উনিকোড হেক্সাডেসিমাল",
+          "description": "অক্ষরগুলিকে হেক্সাডেসিমাল উনিকোড ইউনিটে রূপান্তর করুন"
+        },
+        "javascript": {
+          "name": "জাভাস্ক্রিপ্ট আউটপুট",
+          "description": "জাভাস্ক্রিপ্ট দ্বারা ইমেইল রেন্ডার করুন"
+        },
+        "mailto": {
+          "name": "Mailto লিঙ্ক",
+          "description": "এনকোড করা mailto লিঙ্ক তৈরি করুন"
+        },
+        "cssReverse": {
+          "name": "CSS বিপরীত প্রদর্শন",
+          "description": "CSS ব্যবহার করে টেক্সট বিপরীত ক্রমে প্রদর্শন করুন"
+        }
+      }
+    },
+    "workerDemo": {
+      "title": "ওয়েব ওয়ার্কার পারফরম্যান্স ডেমো",
+      "description": "ওয়েব ওয়ার্কার এবং মূল থ্রেডের মধ্যে গণনা পারফরম্যান্স তুলনা করুন",
+      "invalidInteger": "দয়া করে একটি বৈধ ধনাত্মক পূর্ণসংখ্যা প্রবেশ করুন",
+      "workerError": "ওয়ার্কার গণনা ভুল:",
+      "notice": "বিজ্ঞপ্তি",
+      "settingsTitle": "গণনা সেটিংস",
+      "inputLabel": "ইনপুট মান",
+      "inputPlaceholder": "একটি ধনাত্মক পূর্ণসংখ্যা প্রবেশ করুন",
+      "operationLabel": "অপারেশন",
+      "operations": {
+        "factorial": "ফ্যাক্টরিয়াল (n!)",
+        "fibonacci": "ফিবোনাচি অনুক্রম",
+        "prime": "মৌলিক পরীক্ষা",
+        "factorization": "মৌলিক উৎপাদক"
+      },
+      "workerCalculate": "ওয়েব ওয়ার্কার দ্বারা গণনা করুন",
+      "mainThreadCalculate": "মূল থ্রেডে গণনা করুন",
+      "comparisonTitle": "পারফরম্যান্স তুলনা",
+      "workerResult": "ওয়েব ওয়ার্কার ফলাফল",
+      "mainThreadResult": "মূল থ্রেড ফলাফল",
+      "resultLabel": "ফলাফল:",
+      "timeLabel": "গণনা সময়:",
+      "calculating": "গণনা করা হচ্ছে...",
+      "emptyState": "গণনা শুরু করতে উপরের বাটনটি ক্লিক করুন",
+      "infoTitle": "ওয়েব ওয়ার্কার কেন ব্যবহার করবেন?",
+      "workerFeaturesTitle": "ওয়েব ওয়ার্কার বৈশিষ্ট্য",
+      "workerFeatures": [
+        "মূল থ্রেড ব্লক করার বাইরে পৃষ্ঠায় কাজ করে",
+        "ভারী গণনা কাজের জন্য আদর্শ",
+        "UI এর সাথে সম্পূর্ণ সম্পর্ক রাখে",
+        "সমান্তরাল প্রক্রিয়াকরণ সমর্থন করে"
+      ],
+      "useCasesTitle": "ব্যবহার ক্ষেত্র",
+      "useCases": [
+        "বড় ডেটা প্রক্রিয়াকরণ",
+        "জটিল অ্যালগরিদম",
+        "ছবি প্রক্রিয়াকরণ",
+        "এনক্রিপশন এবং ডিক্রিপশন"
+      ]
+    },
+    "jsDebug": {
+      "title": "JS ডিবাগার",
+      "description": "অনলাইনে জাভাস্ক্রিপ্ট চালান এবং ডিবাগ করুন",
+      "defaultCode": "// এখানে জাভাস্ক্রিপ্ট কোড লিখুন\nconsole.log(\"হ্যালো, ওয়ার্ল্ড!\");\n\n// উদাহরণ: অ্যারে অপারেশন\nconst numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(n => n * 2);\nconsole.log(\"মূল অ্যারে:\", numbers);\nconsole.log(\"দ্বিগুণ করা হয়েছে:\", doubled);\n\n// উদাহরণ: বস্তু\nconst user = {\n  name: \"জাং সান\",\n  age: 25,\n  city: \"বেইজিং\"\n};\nconsole.log(\"ব্যবহারকারী তথ্য:\", user);\n\n// উদাহরণ: অসিঙ্ক্রোনাস অপারেশন\nsetTimeout(() => {\n  console.log(\"এক সেকেন্ড পরে চালানো হয়েছে\");\n}, 1000);",
+      "editorTitle": "জাভাস্ক্রিপ্ট কোড",
+      "copy": "টি কপি করুন",
+      "copied": "কপি করা হয়েছে!",
+      "clear": "সাফ করুন",
+      "placeholder": "এখানে জাভাস্ক্রিপ্ট কোড দিন...",
+      "run": "কোড চালান",
+      "consoleTitle": "কনসোল আউটপুট",
+      "consolePlaceholder": "কনসোল আউটপুট এখানে দেখাবে...",
+      "usageTitle": "কিভাবে ব্যবহার করবেন",
+      "usageItems": [
+        "বার্তা মুদ্রণের জন্য console.log(), console.error(), এবং console.warn() ব্যবহার করুন",
+        "অ্যারো ফাংশন, ডেস্ট্রাকচারিং এবং টেমপ্লেট স্ট্রিংয়ের মতো ES6+ সিনট্যাক্স সমর্থন করে",
+        "setTimeout এবং Promise এর মতো অসিঙ্ক্রোনাস অপারেশন সমর্থন করে",
+        "কোড স্যান্ডবক্সে চালানো হয় এবং DOM বা বাইরের সংস্থানগুলি অ্যাক্সেস করতে পারে না"
+      ]
+    },
+    "formValidationDemo": {
+      "title": "ফর্ম যাচাইকরণ ডেমো",
+      "description": "পুরো ফর্ম যাচাইকরণ প্রদর্শন করে, যাচাইকরণের জন্য লাইভ যাচাইকরণ, ত্রুটি প্রদর্শন এবং ডেটা পরিষ্কার করা সহ",
+      "validation": {
+        "username": "ব্যবহারকারীর নাম কেবল অক্ষর, সংখ্যা এবং অনুসরণ করতে পারে এবং 3-20 অক্ষর দৈর্ঘ্য হওয়া উচিত",
+        "phone": "অনুগ্রহ করে একটি বৈধ মোবাইল নম্বর দিন",
+        "age": "বয়স 1 এবং 120 এর মধ্যে হতে হবে",
+        "idCard": "অনুগ্রহ করে একটি বৈধ আইডি কার্ড নম্বর দিন",
+        "address": "ঠিকানা 200 অক্ষরের চেয়ে বেশি হতে পারে না",
+        "bio": "বায়ো 500 অক্ষরের চেয়ে বেশি হতে পারে না"
+      },
+      "submitSuccess": "ফর্ম যাচাইকরণ সফল! জমা ডেটা:",
+      "quickTestTitle": "গতিশীল যাচাইকরণ পরীক্ষা",
+      "quickLabels": {
+        "email": "ইমেইল যাচাইকরণ",
+        "phone": "ফোন যাচাইকরণ",
+        "url": "URL যাচাইকরণ"
+      },
+      "quickPlaceholders": {
+        "email": "ইমেইল ঠিকানা দিন",
+        "phone": "ফোন নম্বর দিন",
+        "url": "URL দিন"
+      },
+      "valid": "বৈধ",
+      "invalid": "অবৈধ",
+      "formTitle": "পুরো ফর্ম যাচাইকরণ",
+      "placeholders": {
+        "username": "ব্যবহারকারীর নাম (অক্ষর, সংখ্যা, অনুসরণ)",
+        "email": "ইমেইল ঠিকানা",
+        "phone": "মোবাইল নম্বর",
+        "website": "ব্যক্তিগত ওয়েবসাইট (বাঞ্ছনীয়)",
+        "age": "বয়স",
+        "idCard": "আইডি কার্ড নম্বর",
+        "address": "বিস্তারিত ঠিকানা (বাঞ্ছনীয়)",
+        "bio": "বায়ো (বাঞ্ছনীয়, 500 অক্ষরের মধ্যে)"
+      },
+      "success": {
+        "username": "ব্যবহারকারীর নামের ফরম্যাট বৈধ",
+        "email": "ইমেইল ফরম্যাট বৈধ",
+        "phone": "ফোন নম্বরের ফরম্যাট বৈধ",
+        "website": "URL ফরম্যাট বৈধ",
+        "age": "বয়স বৈধ",
+        "idCard": "আইডি কার্ড ফরম্যাট বৈধ",
+        "address": "ঠিকানা বৈধ",
+        "bio": "বায়ো বৈধ"
+      },
+      "submit": "ফর্ম জমা দিন",
+      "summaryTitle": "যাচাইকরণ সারাংশ",
+      "fieldLabels": {
+        "username": "ব্যবহারকারীর নাম",
+        "email": "ইমেইল",
+        "phone": "ফোন",
+        "website": "ওয়েবসাইট",
+        "age": "বয়স",
+        "idCard": "আইডি কার্ড",
+        "address": "ঠিকানা",
+        "bio": "বায়ো"
+      },
+      "summaryStatus": {
+        "failed": "যাচাইকরণ ব্যর্থ",
+        "passed": "যাচাইকরণ সফল",
+        "empty": "খালি"
+      },
+      "infoTitle": "ফর্ম যাচাইকরণ বৈশিষ্ট্য",
+      "infoItems": [
+        {
+          "title": "লাইভ যাচাইকরণ",
+          "description": "টাইপ করার সময় ফরম্যাট চেক করে এবং ব্লার করার পর আবার যাচাইকরণ করে"
+        },
+        {
+          "title": "বিভিন্ন ধরণের নিয়ম",
+          "description": "প্রয়োজনীয় ক্ষেত্র, দৈর্ঘ্য পরীক্ষা, নিয়মিত প্রকাশ এবং কাস্টম যাচাইকরণ সমর্থন করে"
+        },
+        {
+          "title": "দৃশ্যমান ফিডব্যাক",
+          "description": "বর্ণ, আইকন এবং বার্তা দ্বারা স্পষ্টভাবে যাচাইকরণ অবস্থা দেখায়"
+        },
+        {
+          "title": "ডেটা পরিষ্কার করা",
+          "description": "স্বয়ংক্রিয়ভাবে জমা ডেটা ট্রিম এবং সামঞ্জস্য করে"
+        },
+        {
+          "title": "সাহায্যকারী ত্রুটি প্রদর্শন",
+          "description": "ইনপুট সংশোধনের জন্য ব্যবহারকারী বান্ধব পরামর্শ প্রদান করে"
+        },
+        {
+          "title": "যাচাইকরণ সমর্থন",
+          "description": "সকল ব্যবহারকারীদের জন্য ফর্ম ব্যবহারযোগ্য রাখে"
+        }
+      ]
+    },
+    "faviconGenerator": {
+      "title": "ফেভিকন জেনারেটর",
+      "description": "ছবি ওয়েবসাইট ফেভিকন আইকনে রূপান্তর করুন",
+      "historyTitle": "ফেভিকন জেনারেটর",
+      "historyCategory": "ছবি টুলস",
+      "uploadImageFile": "অনুগ্রহ করে একটি ছবি ফাইল আপলোড করুন",
+      "generateFailed": "আইকন তৈরি করতে ব্যর্থ হয়েছে, আবার চেষ্টা করুন",
+      "uploadTitle": "ছবি আপলোড করুন",
+      "uploadAria": "একটি ছবি ফাইল আপলোড করুন",
+      "dropzoneAria": "ছবি আপলোড করতে ক্লিক করুন, PNG, JPG, SVG এবং আরও সমর্থিত",
+      "dropRelease": "ছবি আপলোড করতে ছাডুন",
+      "dropClick": "এখানে ছবি টেনে আনুন বা ক্লিক করুন",
+      "supportFormats": "PNG, JPG, SVG এবং আরও সমর্থিত",
+      "clearImage": "ছবি সাফ করুন",
+      "clearImageTitle": "ছবি সাফ করুন (Ctrl+L)",
+      "settingsTitle": "সেটিংস",
+      "removeBackground": "ছবি পাশের রং অপসারণ করুন",
+      "removeColor": "অপসারণ করতে রং",
+      "removeColorPicker": "অপসারণ করতে পাশের রং নির্বাচন করুন",
+      "removeColorValue": "পাশের রং মান অপসারণ করুন",
+      "tolerance": "স্বীকৃতি: {{value}}",
+      "toleranceAria": "রং স্বীকৃতি",
+      "toleranceTip": "একটি উচ্চ স্বীকৃতি একটি বড় রং ব্যাপ্তি অপসারণ করে",
+      "transparentBackground": "অস্পষ্ট পাশের রং",
+      "transparentTip": "টিপ্পনী: যদি মূল ছবি পাশের রং থাকে, কৃপয়া করে ?ছবি পাশের রং অপসারণ? সক্ষম করুন।",
+      "backgroundColor": "পাশের রং",
+      "backgroundColorPicker": "একটি পাশের রং নির্বাচন করুন",
+      "backgroundColorValue": "পাশের রং মান",
+      "selectSize": "আকার নির্বাচন করুন",
+      "selectedState": " (নির্বাচিত)",
+      "sizeAria": "{{size}}x{{size}} পিক্সেল আকার{{state}}",
+      "toggleSizeTitle": "Toggle {{size}}x{{size}} আকার (Alt+{{shortcut}})",
+      "previewTitle": "প্রিভিউ",
+      "generating": "তৈরি হচ্ছে...",
+      "downloadSizeAria": "{{size}}x{{size}} আইকন ডাউনলোড করুন",
+      "download": "ডাউনলোড",
+      "uploadFirst": "অনুগ্রহ করে আগে ছবি আপলোড করুন",
+      "downloadTitle": "ডাউনলোড",
+      "downloadAllPng": "সমস্ত আকার (PNG) ডাউনলোড করুন",
+      "downloadAllPngTitle": "সমস্ত PNG আকার ডাউনলোড করুন (Ctrl+Enter)",
+      "downloadIco": "ফেভিকন.ico ডাউনলোড করুন",
+      "downloadIcoTitle": "ফেভিকন.ico ডাউনলোড করুন (Alt+I)",
+      "usageTitle": "কিভাবে ব্যবহার করবেন",
+      "usageItems": [
+        "পাশের রং অপসারণ: গ্রে বা সাদা মতো ঠাসা পাশের রং অপসারণ করে",
+        "স্বীকৃতি: সমান রং অপসারণের জন্য স্বীকৃতি বৃদ্ধি করুন, গ্রেডিয়েন্ট পাশের রং জন্য উপযুক্ত",
+        "16x16: ব্রাউজার ট্যাব আইকন",
+        "32x32: টাস্কবার শর্টকাট আইকন",
+        "48x48: ওয়েবসাইট শর্টকাট",
+        "তৈরি আইকনটি আপনার ওয়েবসাইটের মূল ডিরেক্টরিতে রাখুন"
+      ]
+    }
+  },
+  "components": {
+    "toolHistory": {
+      "usageCount": "ব্যবহার করা হয়েছে {{count}} বার",
+      "recentUsed": "সম্প্রতি ব্যবহার করা: {{value}}",
+      "removeFavorite": "পছন্দের থেকে দূর করুন",
+      "addFavorite": "পছন্দে যোগ করুন",
+      "removeRecord": "রেকর্ড মুছুন",
+      "emptyHistory": "আপনার কোন টুল ইতিহাস নেই",
+      "confirmClear": "আপনি কি সব টুল ইতিহাস মুছে ফেলতে চান?",
+      "tabs": {
+        "recent": "সম্প্রতি",
+        "favorites": "পছন্দ",
+        "mostUsed": "সবচেয়ে বেশি ব্যবহৃত"
+      },
+      "title": "টুল ইতিহাস",
+      "clearHistory": "ইতিহাস মুছুন",
+      "searchPlaceholder": "ইতিহাস অনুসন্ধান করুন...",
+      "emptyMessages": {
+        "recent": "কোন সম্প্রতি ব্যবহার রেকর্ড নেই",
+        "favorites": "আপনার কোন পছন্দের টুল নেই",
+        "mostUsed": "আপনার কোন সবচেয়ে বেশি ব্যবহৃত টুল নেই"
+      }
+    },
+    "exportFormatSelector": {
+      "buttonText": "ফলাফল ডাউনলোড করুন",
+      "exporting": "ডাউনলোড হচ্ছে...",
+      "exportFailed": "ডাউনলোড ব্যর্থ হয়েছে, আবার চেষ্তা করুন"
+    },
+    "ads": {
+      "loading": "বিজ্ঞাপন লোড হচ্ছে...",
+      "carouselTitle": "বিজ্ঞাপন ক্যারোসেল",
+      "checkConsole": "বিস্তারিত লগ দেখার জন্য ব্রাউজার কনসোল পরীক্ষা করুন"
+    },
+    "networkStatus": {
+      "online": "অনলাইন",
+      "offline": "অফলাইন",
+      "connected": "নেটওয়ার্ক সংযুক্ত",
+      "disconnected": "নেটওয়ার্ক বিচ্ছিন্ন",
+      "connectedDescription": "সমস্ত বৈশিষ্ট্যগুলি এখন উপলব্ধ",
+      "disconnectedDescription": "কিছু বৈশিষ্ট্য অনুপলব্ধ হতে পারে। দয়া করে আপনার নেটওয়ার্ক সংযোগ যাচাই করুন।",
+      "requestFailed": "অনুরোধ ব্যর্থ হয়েছে"
+    },
+    "keyboardShortcutsHelp": {
+      "title": "কীবোর্ড ছুটি কমান্ড",
+      "close": "বন্ধ করুন",
+      "toggleDescription": "কীবোর্ড ছুটি কমান্ড সহায়তা দেখান বা লুকান",
+      "helpTextBefore": "চাপুন",
+      "helpTextMiddle": "বা",
+      "helpTextAfter": "এই সহায়তা দেখান বা লুকান",
+      "tipTitle": "টিপস",
+      "tipItems": [
+        "অপারেটিং সিস্টেমের উপর ভিত্তি করে ছুটি লেবেলগুলি সামান্য ভিন্ন দেখাতে পারে",
+        "কিছু ছুটি ব্রাউজার ছুটির সাথে সংঘটিত হতে পারে",
+        "ফোকাসযোগ্য উপাদানগুলির মধ্যে যাওয়ার জন্য ট্যাব কী ব্যবহার করুন",
+        "বাটন এবং লিঙ্ক সক্রিয় করতে এন্টার কী চাপুন"
+      ],
+      "closeEsc": "বন্ধ করুন (ESC)"
+    },
+    "performanceDashboard": {
+      "title": "পারফরম্যান্স ড্যাশবোর্ড",
+      "startMonitoring": "মনিটরিং শুরু করুন",
+      "stopMonitoring": "মনিটরিং বন্ধ করুন",
+      "exportReport": "রিপোর্ট ডাউনলোড করুন",
+      "notMeasured": "মাপা হয়নি",
+      "metrics": {
+        "fcp": "প্রথম কনটেন্টফুল পেইন্ট",
+        "lcp": "সর্বাধিক কনটেন্টফুল পেইন্ট",
+        "fid": "প্রথম ইনপুট দেরী",
+        "cls": "সংযোজিত লেআউট শিফট",
+        "ttfb": "প্রথম বাইটের সময়"
+      },
+      "memoryTitle": "মেমোরি ব্যবহার",
+      "memory": {
+        "used": "ব্যবহৃত মেমোরি",
+        "total": "মোট মেমোরি",
+        "usageRate": "ব্যবহারের হার"
+      },
+      "tipsTitle": "অপটিমাইজেশন টিপস",
+      "tips": [
+        "মনিটরিং করার সময় অ্যাপটি সাধারণভাবে ব্যবহার করুন; ডেটা বাস্তব সময়ে আপডেট হবে",
+        "FCP < 1.8s, LCP < 2.5s, FID < 100ms, এবং CLS < 0.1 উত্কৃষ্ট বলে গণ্য হয়",
+        "যদি মেমোরি ব্যবহার 80% এর বেশি হয়, কোড অপটিমাইজ করার বিষয়ে ভাবুন",
+        "গভীর বিশ্লেষণের জন্য একটি বিস্তারিত রিপোর্ট ডাউনলোড করতে পারেন"
+      ],
+      "emptyState": "?মনিটরিং শুরু করুন? ক্লিক করুন পারফরম্যান্স বিশ্লেষণ শুরু করতে"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+i18n 维护脚本说明（不修改项目根目录 README）
+
+0) translate-providers.mjs（被下面脚本引用）
+   - 英译优先 Lingva 公开实例（translate.plausibility.cloud、lingva.ml、translate.dyno.gg 依次尝试）。
+   - 全部失败后再用 MyMemory。
+   - 语言映射：希伯来 he→iw；简体 zh_CN→zh；繁体 zh_TW→zh_HANT。
+
+1) fill-kunqiong-via-api.mjs
+   - 将 en.json 中 kunqiongNav、footer 键同步到各语言。
+   - 命令：npm run i18n:fill-kunqiong
+
+2) fill-stale-from-en.mjs（消除「与英文完全相同」的未翻译句）
+   - 递归对比各语言与 en.json，唯一句子去重后翻译。
+   - 示例：node scripts/fill-stale-from-en.mjs --locale=de --max=5000 --delay=100
+   - 全语言（耗时长，可多次执行）：node scripts/fill-stale-from-en.mjs --all --max=5000 --delay=100
+   - 已译内容写入缓存，可反复运行续跑。
+   - npm：npm run i18n:fill-stale -- --locale=de
+
+3) 缓存（.gitignore）
+   - scripts/.i18n-translate-cache.json（主）
+   - 旧版 .mymemory-*.json 仍会合并读取
+
+4) 应用内回退：src/i18n/config.ts 缺键时先 en 再 zh_CN。

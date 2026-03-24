@@ -1,0 +1,2730 @@
+{
+  "common": {
+    "home": "Tanggapan",
+    "websiteDetection": "Pagsusuri ng Website",
+    "seoTools": "Mga Tool sa SEO",
+    "devTools": "Mga Tool sa Developer",
+    "encodingConversion": "Mga Tool sa Pagkonversyon ng Encoding",
+    "otherTools": "Iba pang Mga Tool",
+    "feedback": "Feedback",
+    "customization": "Custom Solutions / Mag-Contact",
+    "back": "Bumalik",
+    "appName": "All-in-One Webmaster Tools",
+    "brandName": "Isang Produkto ng A Kunqiong",
+    "loading": "Naglo-load...",
+    "processing": "Nagproseso",
+    "processingDescription": "Huminga muna habang pinoproceso namin ang iyong data...",
+    "inProgress": "Nasa proseso",
+    "search": "Hanapin ang mga tool...",
+    "my": "Ako",
+    "menu": "Menu",
+    "settings": "Mga Setting",
+    "all": "Lahat",
+    "category": "Kategorya",
+    "noToolsFound": "Wala kang nakakabukas na mga tool",
+    "recommended": "Rekomendado",
+    "usageCount": "Ginamit {{count}} beses",
+    "toolsCount": "{{count}} mga tool",
+    "export": "I-export",
+    "usageInstructions": "Panuto sa Paggamit"
+  },
+  "auth": {
+    "login": "Mag-log in",
+    "logout": "Mag-log out",
+    "userInfo": "Impormasyon sa User",
+    "nickname": "Nickname",
+    "avatar": "Avatar",
+    "user": "User",
+    "loggedIn": "Naka-log in",
+    "loggingOut": "Naglog out...",
+    "loggingIn": "Naglog in...",
+    "loginInstructions": "Mangyaring kumpletohin ang pag-login sa iyong browser",
+    "cancelLogin": "Kanselahin ang pag-login",
+    "loginFailed": "Nabigo ang pag-login",
+    "retry": "Subukan muli",
+    "close": "Sara",
+    "loginDescription": "Pindutin ang pindutan sa ibaba para buksan ang pahina ng pag-login sa iyong browser. Pagkatapos mong kumpletohin ang pag-login, awtomatiko itong mag-synchronize ng iyong estado ng pag-login.",
+    "loginTip": "Paalala: Siguraduhin na bukas ang iyong browser sa panahon ng proseso ng pag-login.",
+    "openBrowserLogin": "Buksan ang pag-login sa browser",
+    "cancel": "Kanselahin",
+    "loginReminder": "Panawagan sa pag-login",
+    "loginRequiredTitle": "Kinakailangan ang pag-login",
+    "loginRequiredDescription": "Kailangan mong mag-log in bago gamitin ang tampok na ito. Pagkatapos mag-log in, makakakuha ka ng buong karanasan sa serbisyo.",
+    "loginActionDescription": "Pindutin ang pindutan sa ibaba para buksan ang pahina ng pag-login, pagkatapos kumpletuhin ang pag-login doon.",
+    "loginNow": "Mag-log in ngayon",
+    "loginBenefit": "Mag-log in upang gamitin ang lahat ng mga tampok",
+    "errors": {
+      "getLoginUrlFailed": "Nabigo ang pagkuha ng URL ng pag-login: {{message}}",
+      "getLoginUrlException": "Error habang kinukuha ang URL ng pag-login: {{error}}",
+      "loginCancelled": "Ang pag-login ay kanselado",
+      "pollingAbnormal": "Nakatanggap ng abnormal na tugon sa polling: {{message}}",
+      "pollingFailed": "Nabigo ang polling: {{error}}",
+      "loginTimeout": "Nawalan ng oras ang pag-login",
+      "checkLoginStatusFailed": "Nabigo ang pag-check ng estado ng pag-login, code ng estado: {{status}}",
+      "checkLoginException": "Error habang tinatack ng estado ng pag-login",
+      "getUserInfoFailed": "Nabigo ang pagkuha ng impormasyon ng user: {{message}}",
+      "getUserInfoException": "Error habang kinukuha ang impormasyon ng user: {{error}}",
+      "logoutFailed": "Nabigo ang pag-log out: {{message}}",
+      "logoutException": "Error habang naglog out: {{error}}",
+      "getFeedbackUrlFailed": "Nabigo ang pagkuha ng URL ng feedback: {{message}}",
+      "getFeedbackUrlException": "Error habang kinukuha ang URL ng feedback: {{error}}"
+    }
+  },
+  "favorite": {
+    "add": "Idagdag sa mga Paborito",
+    "remove": "Alisin mula sa mga Paborito",
+    "label": "Paborito",
+    "failed": "Nabigo ang operasyon"
+  },
+  "errors": {
+    "fetchCustomUrlFailed": "Nabigo ang pagkuha ng URL ng custom page:",
+    "fetchFeedbackUrlFailed": "Nabigo ang pagkuha ng URL ng feedback page:",
+    "copyFailed": "Nabigo ang pagkopya",
+    "networkError": "Error sa koneksyon sa network",
+    "somethingWentWrong": "May problema",
+    "unexpectedError": "Sorry, nangyari ang isang hindi inaasahang error",
+    "noData": "Wala nang available na data",
+    "noRelatedData": "Wala nang natagpuan na nauugnay na data",
+    "noAds": "Wala nang available na ad",
+    "fetchAdsError": "Nabigo ang pagkuha ng mga ad",
+    "lookupFailed": "Nabigo ang lookup"
+  },
+  "tools": {
+    "csr": {
+      "title": "CSR Generator & Viewer",
+      "description": "I-generate at tingnan ang mga file ng CSR online"
+    },
+    "whois": {
+      "title": "Domain WHOIS Lookup",
+      "description": "Suriin ang impormasyon ng WHOIS at detalye ng pagpaparehistro ng domain online"
+    },
+    "dns": {
+      "title": "DNS Record Lookup",
+      "description": "Manghangin ang DNS records online (A, MX, CNAME, etc.)"
+    },
+    "dnsEnhanced": {
+      "title": "DNS Record Lookup (Enhanced)",
+      "description": "DNS lookup na may optimization ng virtual scrolling para sa malaking set ng record"
+    },
+    "httpStatus": {
+      "title": "HTTP Status Checker",
+      "description": "Isang libreng online na tool para suriin ang HTTP status codes para sa mga web page"
+    },
+    "gzip": {
+      "title": "Gzip Compression Check",
+      "description": "Suriin kung ang isang web page ay GZIP-compressed at tingnan ang ratio ng compression nito"
+    },
+    "ssl": {
+      "title": "SSL Certificate Check",
+      "description": "Suriin ang detalye at katumpakan ng SSL certificate online"
+    },
+    "browserInfo": {
+      "title": "Browser Info",
+      "description": "Isang libreng tool para tingnan ang detalyadong impormasyon tungkol sa iyong kasalukuyang browser"
+    },
+    "useragent": {
+      "title": "User-Agent Analyzer",
+      "description": "Analyze ang impormasyon ng browser at device mula sa mga string ng User-Agent"
+    },
+    "websocket": {
+      "title": "WebSocket Tester",
+      "description": "Isang libreng online na WebSocket API testing tool"
+    },
+    "viewSource": {
+      "title": "View Page Source",
+      "description": "Tingnan ang source code ng webpage online"
+    },
+    "metaGenerator": {
+      "title": "Meta Tag Generator",
+      "description": "I-generate ang mga meta tags ng webpage online"
+    },
+    "metaCheck": {
+      "title": "META Tag Check",
+      "description": "Suriin ang impormasyon ng META tag sa isang webpage"
+    },
+    "robots": {
+      "title": "robots.txt Generator",
+      "description": "I-generate ang mga robots.txt files online"
+    },
+    "emailEncrypt": {
+      "title": "Email Address Encoder",
+      "description": "I-convert ang email address sa encoded formats upang mapigilan ang scraping"
+    },
+    "phpReference": {
+      "title": "PHP Function Reference",
+      "description": "Listahan ng reference ng PHP functions online"
+    },
+    "htmlPreview": {
+      "title": "HTML Preview",
+      "description": "Online na tool para mag-edit at i-preview ng HTML"
+    },
+    "jsDebug": {
+      "title": "JS Debugger",
+      "description": "I-run at debug ang JavaScript online"
+    },
+    "shieldBadge": {
+      "title": "Shield Badge Generator",
+      "description": "I-generate ang mga shield badges na SVG online"
+    },
+    "favicon": {
+      "title": "Favicon Generator",
+      "description": "Isang ligtas na online na tool para mag-convert ng favicon"
+    },
+    "cssGlassmorphism": {
+      "title": "CSS Glassmorphism Generator",
+      "description": "I-generate ang CSS glassmorphism code sa isang pag-click"
+    },
+    "cssNeumorphism": {
+      "title": "Neumorphism CSS Generator",
+      "description": "I-generate ang mga halimbawa ng CSS neumorphism style sa isang pag-click"
+    },
+    "pxToRem": {
+      "title": "PX to REM Converter",
+      "description": "I-convert ang mga unit ng PX sa REM nang batch"
+    },
+    "cssBorderRadius": {
+      "title": "CSS Border Radius Generator",
+      "description": "I-optimize ang mga estilo ng rounded border online"
+    },
+    "cssTextShadow": {
+      "title": "CSS Text Shadow Generator",
+      "description": "I-preview at gumawa ng CSS text-shadow code online"
+    },
+    "cssBoxShadow": {
+      "title": "Box Shadow Generator",
+      "description": "I-optimize ang shadows ng div at gumawa ng CSS code"
+    },
+    "base64": {
+      "title": "Base64 Encode/Decode",
+      "description": "Online na tool para encode at decode ng Base64"
+    },
+    "urlEncode": {
+      "title": "URL Encode/Decode",
+      "description": "Online na tool para encode at decode ng URL"
+    },
+    "htmlEntity": {
+      "title": "HTML Entity Encode/Decode",
+      "description": "Online na tool para encode at decode ng HTML entity"
+    },
+    "jsMinify": {
+      "title": "JS Minify & Beautify",
+      "description": "Online na JavaScript minification at beautification tool"
+    },
+    "cssMinify": {
+      "title": "CSS Minify & Beautify",
+      "description": "Online na CSS minification at beautification tool"
+    },
+    "desktopShortcut": {
+      "title": "Website Desktop Shortcut",
+      "description": "Gumawa ng desktop shortcut para sa isang website para madaling ma-access"
+    },
+    "pageRefresh": {
+      "title": "Auto Page Refresh",
+      "description": "I-refresh ang remote webpage sa isang schedule"
+    },
+    "httpCodes": {
+      "title": "HTTP Status Codes",
+      "description": "Reference ng HTTP status / response codes online"
+    },
+    "workerDemo": {
+      "title": "Web Worker Performance Demo",
+      "description": "Tingnan kung paano ang Web Workers nagpapabuti sa performance para sa mahirap na mga gawain"
+    },
+    "formValidation": {
+      "title": "Demo ng Pagpapatunay ng Form",
+      "description": "Nagpapakita ng buong pagpapatunay ng form na may live feedback"
+    }
+  },
+  "categories": {
+    "detection": "Mga Pagsusuri ng Website",
+    "seo": "Mga Tool para sa SEO",
+    "dev": "Mga Tool para sa Developer",
+    "encode": "Mga Tool para sa Encoding",
+    "other": "Iba pang Mga Tool"
+  },
+  "kunqiongNav": {
+    "home": "Home",
+    "aiTools": "AI tools",
+    "office": "Office",
+    "multimedia": "Multimedia",
+    "development": "Mga Tool para sa Developer",
+    "text": "Text",
+    "file": "Mga File",
+    "system": "System",
+    "life": "Life",
+    "news": "AI news",
+    "custom": "Custom software",
+    "consult": "Consulting",
+    "industryNews": "Industry news",
+    "feedback": "Feedback",
+    "imageGen": "Paggawa ng Imagen",
+    "codeDev": "Code & development",
+    "logoAlt": "Kunqiong AI Toolbox",
+    "footerLogoAlt": "Kunqiong AI",
+    "loginRegister": "Mag-sign in / Magrehistro",
+    "navExpandAria": "I-expand",
+    "navSearchAria": "Maghanap",
+    "navMenuAria": "Menu"
+  },
+  "footer": {
+    "description": "Isang propesyonal na all-in-one webmaster toolbox na may mga pagsusuri ng website, mga tool para sa SEO, mga tool para sa developer, at higit pa.",
+    "kunqiongBrandDesc": "Nakatuon kaming magbigay ng mataas na kalidad na mga tool ng AI at serbisyo ng consulting sa mga indibidwal at kompanya upang matulungan kayo manatili nang mapanagutang sa panahon ng artificial intelligence.",
+    "toolCategories": "Mga Kategorya ng Tool",
+    "quickLinks": "Mga Mabilis na Link",
+    "contactTitle": "Makipag-ugnay sa amin",
+    "contactCompany": "Jiangxi Hexagon Star Technology Co., Ltd.",
+    "contactPhone": "17770307066",
+    "contactRegion": "Shangrao, Jiangxi, China",
+    "contactEmail": "11247931@qq.com",
+    "copyrightLine": "© 2026 Kunqiong AI Tools. Lahat ng karapatan ay nakareserba.",
+    "userAgreement": "Mga Tuntunin ng Paggamit",
+    "privacyPolicy": "Patakaran sa Privacy",
+    "brandAI": "Isang Produkto ng Kunqiong AI",
+    "brandAlt": "Kunqiong"
+  },
+  "validation": {
+    "required": "{{field}} ay kinakailangan",
+    "minLength": "{{field}} ay dapat magkaroon ng hindi bababa sa {{count}} karakter",
+    "maxLength": "{{field}} ay maaaring magkaroon ng maximum na {{count}} karakter",
+    "invalidFormat": "{{field}} ay may walang ibig sabihin na format",
+    "email": "Ilagay ang tamang email address",
+    "url": "Ilagay ang tamang URL",
+    "domain": "Ilagay ang tamang domain",
+    "ip": "Ilagay ang tamang IP address",
+    "phone": "Ilagay ang tamang numero ng telepono",
+    "password": "Ang password ay dapat maglaman ng upper at lower case letters at numbers, at 6-20 characters long"
+  },
+  "exporter": {
+    "unsupportedFormat": "Hindi suportadong format ng export: {{format}}",
+    "csvRequiresArrayOrObject": "Ang CSV export ay kailangan ng array o object",
+    "toolUsageInfo": "Impormasyon sa Paggamit ng Tool",
+    "tool": "Tool",
+    "time": "Oras",
+    "url": "URL",
+    "version": "Bersyon",
+    "dnsReportTitle": "DNS Lookup Report",
+    "dnsReportDescription": "Detalyadong impormasyon tungkol sa DNS record",
+    "summaryTitle": "Summary",
+    "domain": "Domain",
+    "recordCount": "Total na mga record",
+    "recordCountValue": "{{count}} records",
+    "queryTime": "Oras ng query",
+    "typeDescriptions": {
+      "A": "IPv4 address record",
+      "AAAA": "IPv6 address record",
+      "MX": "Mail server record",
+      "TXT": "Text record",
+      "CNAME": "Alias record",
+      "NS": "Name server record",
+      "SOA": "Authority record"
+    },
+    "record": "Record",
+    "otherRecords": "Iba pang records",
+    "recordIndex": "Record {{index}}",
+    "priority": "Priority",
+    "class": "Class",
+    "exportData": "Nai-export na Data",
+    "dnsToolName": "DNS Lookup Tool",
+    "exportInfo": "Impormasyon sa Export",
+    "exportTime": "Oras ng export",
+    "formats": {
+      "json": "Structured data format, madali para sa mga programa na i-process",
+      "csv": "Spreadsheet-friendly format, angkop para sa import sa Excel",
+      "txt": "Plain text format, madaling basahin",
+      "xml": "Markup format, angkop para sa data exchange",
+      "pdf": "Document format, angkop para sa printing at pagbabahagi"
+    }
+  },
+  "base64": {
+    "title": "Base64 Encode/Decode",
+    "description": "Online Base64 encoding at decoding tool",
+    "encode": "Encode",
+    "decode": "Decode",
+    "originalText": "Original na teksto",
+    "base64String": "Base64 string",
+    "base64Result": "Resulta ng Base64",
+    "decodeResult": "Resulta ng Decode",
+    "placeholderEncode": "Ilagay ang teksto para i-encode...",
+    "placeholderDecode": "Ilagay ang Base64 para i-decode...",
+    "resultPlaceholder": "Ang resulta ay lalabas dito...",
+    "inputPlaceholder": "Ilagay ang nilalaman para i-convert",
+    "decodeError": "Nabigo ang decoding. Paki tingnan kung ang input ay tama na Base64.",
+    "encodeError": "Nabigo ang encoding",
+    "charCount": "{{count}} characters",
+    "clear": "Tanggalin ang input",
+    "copy": "I-copy ang resulta",
+    "copied": "Nakopya",
+    "convert": "I-convert ngayon",
+    "swap": "Palipat mode",
+    "ariaLabel": "Base64 encode/decode tool",
+    "modeSelection": "Pagpili ng mode ng conversion",
+    "encodeMode": "Mode ng Encode",
+    "decodeMode": "Mode ng Decode",
+    "inputLabelEncode": "Teksto para i-encode",
+    "inputLabelDecode": "Base64 string para i-decode",
+    "outputLabelEncode": "Resulta ng Base64 encode",
+    "outputLabelDecode": "Resulta ng Base64 decode",
+    "whatIsBase64": "Ano ang Base64?",
+    "base64Info": "Ang Base64 ay isang paraan ng pag-encode na nagpapakita ng binary data gamit ang 64 printable characters. Ginagamit ito upang ipasa ang maliit na binary data sa URLs, cookies, webpages, o text-based protocols."
+  },
+  "dns": {
+    "title": "DNS Record Lookup",
+    "description": "Mga online na pagsusuri ng DNS records (A, MX, CNAME, etc.)",
+    "placeholder": "Ilagay ang isang domain, halimbawa example.com",
+    "invalidDomain": "Ilagay ang tamang format ng domain (halimbawa example.com)",
+    "domainInput": "Input ng domain",
+    "validFormat": "Tama ang format ng domain",
+    "typeSelect": "Uri ng DNS record",
+    "searchBtn": "I-lookup ang DNS records",
+    "loadingTitle": "I-lookup ang DNS records",
+    "loadingDesc": "Mangyaring maghintay habang kami ay naghahanap ng DNS records para sa iyong domain...",
+    "resultRegion": "Resulta ng DNS lookup",
+    "recordCount": "{{count}} records",
+    "typeRecordRegion": "{{type}} records",
+    "querying": "I-lookup ang DNS records",
+    "queryingDesc": "Mangyaring maghintay habang kami ay naghahanap ng DNS records para sa iyong domain...",
+    "foundRecords": "{{count}} records found",
+    "queryTime": "Oras ng query: {{time}}",
+    "export": "I-export ang mga resulta",
+    "noRecords": "Wala anumang DNS records na natagpuan",
+    "noRecordsDesc": "Wala anumang DNS records na natagpuan para sa domain na ito",
+    "typeInfo": "Uri ng DNS records",
+    "priority": "Priority: {{priority}}",
+    "types": {
+      "ALL": "Lahat",
+      "A": "A Record",
+      "AAAA": "AAAA Record",
+      "MX": "MX Record",
+      "TXT": "TXT Record",
+      "CNAME": "CNAME Record",
+      "NS": "NS Record",
+      "SOA": "SOA Record"
+    },
+    "typeDescs": {
+      "A": "IPv4 Address",
+      "AAAA": "IPv6 Address",
+      "MX": "Serber ng e-mail",
+      "TXT": "Rekord ng teksto",
+      "CNAME": "Rekord ng alias",
+      "NS": "Mga serber ng pangalan",
+      "SOA": "Rekord ng simula ng awtoridad"
+    },
+    "typeDetails": {
+      "A": "Nag-uugnay ang isang domain sa isang IPv4 address",
+      "AAAA": "Nag-uugnay ang isang domain sa isang IPv6 address",
+      "MX": "Nakatukoy ang address ng serber ng e-mail, ang mas mababang bilang ng priority ay nangangahulugan ng mas mataas na priority",
+      "TXT": "Nagtatabi ng mga impormasyon sa teksto, karaniwang ginagamit para sa SPF at DKIM verification",
+      "CNAME": "Nag-uugnay ang isang domain sa ibang domain (alias)",
+      "NS": "Tukuyin ang mga DNS serber para sa domain"
+    }
+  },
+  "whois": {
+    "title": "Paghahanap ng WHOIS",
+    "description": "Hanapin ang impormasyon ng WHOIS at pagpaparehistro online",
+    "placeholder": "I-type ang isang domain, halimbawa example.com",
+    "invalidDomain": "Mangyaring i-type ang wastong format ng domain (halimbawa example.com)",
+    "querying": "Nag-uusap ang WHOIS information",
+    "queryingDesc": "Mangyaring maghintay habang kami ay kumuha ng impormasyon ng pagpaparehistro...",
+    "domainInfo": "Impormasyon ng domain",
+    "registrar": "Registrar",
+    "creationDate": "Petsa ng paglikha",
+    "expirationDate": "Petsa ng pag-expire",
+    "updatedDate": "Petsa ng pag-update",
+    "dnssec": "DNSSEC",
+    "dnssecDisabled": "Nakapatay",
+    "expired": "Nakalipas {{days}} araw na nakalipas",
+    "expiringSoon": "Mg-eexpire sa loob ng {{days}} araw",
+    "remaining": "{{days}} araw na natitira",
+    "dnsServer": "Mga serber ng pangalan",
+    "domainStatus": "Pangkat ng domain",
+    "registrantInfo": "Impormasyon ng registrante",
+    "name": "Pangalan",
+    "organization": "Organisasyon",
+    "country": "Bansa",
+    "email": "Email",
+    "noInfo": "Wala ring kaugnayang impormasyon na natagpuan",
+    "domain": "Domain",
+    "rawData": "Raw data",
+    "toggleRawData": "I-expand o i-collapse ang raw data",
+    "copyRawData": "Kopyahin ang raw data",
+    "copy": "Kopyahin",
+    "copied": "Nakopya",
+    "whatIsWhois": "Ano ang WHOIS?",
+    "about": "Ang WHOIS ay isang protocol na ginagamit upang humingi ng data ng pagpaparehistro ng domain. Sa pamamagitan ng isang paghahanap ng WHOIS, maaari kang matuto tungkol sa registrar, petsa ng pagpaparehistro, petsa ng pag-expire, mga DNS server, impormasyon ng registrante, at higit pa. Ito ay kapaki-pakinabang para sa pagbili at pagbebenta ng domain, proteksyon ng brand, at pagsisiyasat sa seguridad."
+  },
+  "httpStatus": {
+    "title": "Pangunahing Paggawa ng HTTP",
+    "description": "Suriin ang mga code ng status ng HTTP at impormasyon ng response online",
+    "placeholder": "I-type ang isang URL, halimbawa https://example.com",
+    "check": "Suriin",
+    "followRedirects": "Awtomatikong sundin ang redirects",
+    "urlEmpty": "Mangyaring i-type ang isang URL",
+    "checkFailed": "Nabigong suriin",
+    "serverError": "Nabigo ang koneksyon sa serber, mangyaring subukan muli sa ibang oras",
+    "unknownStatus": "Di kilalang estado",
+    "responseTime": "Oras ng pagtugon",
+    "headers": "Headers",
+    "redirectUrl": "Redirect URL",
+    "contentType": "Uri ng nilalaman",
+    "contentLength": "Ladung ng nilalaman",
+    "server": "Serber",
+    "showHeaders": "Ipakita ang headers ng tugon",
+    "hideHeaders": "Itago ang headers ng tugon",
+    "status": {
+      "100": "Magpatuloy",
+      "101": "Pagbabago ng Protocolo",
+      "200": "OK",
+      "201": "Gawa",
+      "204": "Walang Nilalaman",
+      "301": "Permanente na Redirect",
+      "302": "Temporal na Redirect",
+      "304": "Hindi Binago",
+      "307": "Temporal na Redirect",
+      "308": "Permanente na Redirect",
+      "400": "Masama ang Katanungan",
+      "401": "Hindi Nakarehistro",
+      "403": "Hindi Paborito",
+      "404": "Hindi Natagpuan",
+      "405": "Metodo Ay Di Pinapayagan",
+      "408": "Timeout ng Katanungan",
+      "429": "Masyadong Maraming Mga Katanungan",
+      "500": "Internal Server Error",
+      "502": "Bad Gateway",
+      "503": "Serbisyo Ay Di Magagamit",
+      "504": "Gateway Timeout"
+    }
+  },
+  "browserInfo": {
+    "title": "Impormasyon ng Browser",
+    "description": "Tingnan ang detalyadong impormasyon tungkol sa kasalukuyang browser",
+    "os": "Operating System",
+    "browser": "Browser",
+    "version": "Bersyon",
+    "engine": "Engine",
+    "device": "Device",
+    "screen": "Resolusyon ng screen",
+    "viewport": "Laki ng viewport",
+    "language": "Wika",
+    "timezone": "Timezone",
+    "cookieEnabled": "Cookies Enabled",
+    "online": "Online",
+    "cpu": "Architecture ng CPU",
+    "userAgent": "User-Agent",
+    "platform": "Platform",
+    "vendor": "Taga-impok ng browser",
+    "languages": "Nakasupport na wika",
+    "cookie": "Cookie",
+    "onlineStatus": "Status ng Online",
+    "doNotTrack": "Huwag Subaybayan",
+    "touchPoints": "Touch points",
+    "enabled": "Nakabukas",
+    "disabled": "Nakapatay",
+    "offline": "Offline",
+    "hardwareInfo": "Impormasyon ng hardware",
+    "cpuCores": "Mga core ng CPU",
+    "cpuCoresValue": "{{count}} mga core",
+    "deviceMemory": "Memory ng device",
+    "screenInfo": "Impormasyon ng screen",
+    "availArea": "Disponibleng area",
+    "windowSize": "Laki ng window",
+    "pixelRatio": "Ratio ng pixel ng device",
+    "colorDepth": "Depth ng kulay",
+    "screenOrientation": "Orientasyon ng screen",
+    "unknown": "Di alam",
+    "basicInfo": "Basic info",
+    "networkInfo": "Impormasyon ng network",
+    "networkType": "Uri ng network",
+    "downlink": "Downlink",
+    "rtt": "RTT",
+    "saveData": "Data saver",
+    "batteryInfo": "Impormasyon ng baterya",
+    "batteryLevel": "Antas ng baterya",
+    "chargingStatus": "Estado ng pagkakarga",
+    "charging": "Nakakarga",
+    "notCharging": "Hindi nakakarga",
+    "timezoneInfo": "Impormasyon ng timezone",
+    "utcOffset": "UTC offset"
+  },
+  "viewSource": {
+    "title": "Tingnan Ang Source Ng Pahina",
+    "description": "Tingnan ang source code ng webpage online",
+    "placeholder": "I-type ang isang URL, halimbawa https://example.com",
+    "fetch": "Kumuha ng source",
+    "urlEmpty": "Mangyaring i-type ang isang URL",
+    "fetchFailed": "Nabigong kumuha ng source",
+    "serverError": "Nabigo ang koneksyon sa serber",
+    "lineCount": "Linya: {{count}}",
+    "copy": "Kopyahin ang source",
+    "clear": "Linisin",
+    "usage1": "I-type ang buong URL ng webpage at pindutin upang kumuha ng source",
+    "usage2": "Nakakapag-view ng HTML source ng anumang pahina na publiko",
+    "usage3": "Maaari mong kopyahin o i-download ang source code para sa analisis",
+    "usage4": "Ang ilang mga website ay maaaring pigilan ang pagkuha ng source dahil sa kanilang mga polisiya sa seguridad"
+  },
+  "urlEncode": {
+    "title": "URL Encoder/Decoder",
+    "description": "Tool ng online na pag-encode at decoding ng URL",
+    "encode": "Encode",
+    "decode": "Decode",
+    "placeholder": "I-type ang nilalaman para i-convert...",
+    "result": "Resulta",
+    "error": "Nabigong Pag-encode/Pag-decode"
+  },
+  "htmlEntity": {
+    "title": "HTML Entity Encoder/Decoder",
+    "description": "Online na tool para mag-encode at mag-decode ng HTML entity",
+    "encode": "Encode",
+    "decode": "Decode",
+    "placeholder": "Ilagay ang nilalaman para i-convert...",
+    "result": "Resulta"
+  },
+  "jsMinify": {
+    "title": "JS Compression & Formatting",
+    "description": "Online na JavaScript code compression at beautification tool",
+    "minify": "Compress",
+    "beautify": "Beautify",
+    "placeholder": "I-paste ang JavaScript code...",
+    "result": "Resulta ng Pagproseso",
+    "error": "Nabigong Pagproseso ng Code"
+  },
+  "cssMinify": {
+    "title": "CSS Compression & Formatting",
+    "description": "Online na CSS Code Compression & Beautification Tool",
+    "minify": "Compress",
+    "beautify": "Beautify",
+    "placeholder": "I-paste ang CSS Code...",
+    "result": "Resulta ng Pagproseso",
+    "error": "Nabigong Pagproseso ng Code"
+  },
+  "pages": {
+    "sslCheck": {
+      "title": "SSL Certificate Check",
+      "description": "Suriin ang mga detalye at kahusayan ng SSL certificate para sa isang domain",
+      "enterDomain": "Mangyaring ilagay ang isang domain",
+      "checkFailed": "Nabigong Pagsusuri",
+      "serverConnectionFailed": "Nabigong kumonekta sa server, mangyaring subukan muli sa ibang pagkakataon",
+      "inputPlaceholder": "Ilagay ang isang domain, halimbawa: example.com",
+      "check": "Suriin",
+      "statusExpired": "Nawala ang oras",
+      "statusExpiringSoon": "Mag-expire na agad",
+      "statusValid": "Pareho",
+      "statusProblem": "Kabiguan sa sertipiko",
+      "expiredDays": "Nawala {{count}} araw na nakalipas",
+      "remainingDays": "{{count}} araw na natitira",
+      "warning": "Babala: {{message}}",
+      "protocol": "Protocol",
+      "validityPeriod": "Panahon ng Kaugnayan",
+      "validFrom": "Nakikinabang mula",
+      "validTo": "Nakikinabang hanggang",
+      "certificateInfo": "Impormasyon sa Sertipiko",
+      "subject": "Paksa",
+      "issuer": "Taga-utos",
+      "commonName": "Pangunahing Pangalan (CN)",
+      "organization": "Organisasyon (O)",
+      "organizationUnit": "Unit ng Organisasyon (OU)",
+      "country": "Bansa (C)",
+      "subjectAltNames": "Mga Alternatibong Pangalan ng Paksa (SAN) - {{count}} entry",
+      "technicalDetails": "Detalye sa Teknikal",
+      "serialNumber": "Serial number",
+      "fingerprintSha1": "Fingerprint (SHA-1)",
+      "fingerprintSha256": "Fingerprint (SHA-256)",
+      "cipherSuite": "Cipher suite",
+      "infoTitle": "Mga tala tungkol sa SSL certificate",
+      "infoItems": [
+        "Ang SSL certificates ay nagpapatotoo sa identidad ng server at nag-iencrypt ng komunikasyon",
+        "Suriin ang petsa ng pag-expire nang regular upang maiwasan ang pagka-offline",
+        "Ang mga sertipikong malapit nang mag-expire dapat itong ma-renew nang maaga",
+        "Ang SAN (Subject Alternative Name) ay naglalista ng mga domain na tinatanggap ng sertipiko"
+      ]
+    },
+    "gzipCheck": {
+      "title": "Website Gzip Compression Check",
+      "description": "Suriin kung ang isang website suporta ang Gzip / Deflate / Brotli compression",
+      "enterUrl": "Mangyaring ilagay ang isang URL",
+      "checkFailed": "Nabigong Pagsusuri",
+      "serverConnectionFailed": "Nabigong kumonekta sa server, mangyaring subukan muli sa ibang pagkakataon",
+      "inputPlaceholder": "Ilagay ang isang URL, halimbawa: https://example.com",
+      "check": "Suriin",
+      "enabled": "Nakabukas",
+      "disabled": "Hindi nakabukas",
+      "compressionType": "Uri ng Compression: {{type}}",
+      "enableSuggestion": "I-enable ang Gzip compression upang bawasan ang laki ng transfer at mapabilis ang pag-load",
+      "supportTitle": "Suporta sa Compression",
+      "gzipDescription": "Isang karaniwang standard na compression",
+      "deflateDescription": "Isang tradisyonal na algorithm ng HTTP compression",
+      "brotliDescription": "Isang mas bagong uri ng compression na may mas mahusay na ratio",
+      "effectTitle": "Epekto ng Compression",
+      "originalSize": "Orignal na laki",
+      "compressedSize": "Nakakompres na laki",
+      "ratio": "Ratio ng Compression",
+      "savedTransfer": "Nakakabili ng {{value}} sa laki ng transfer",
+      "detailsTitle": "Detalye",
+      "whyTitle": "Bakit dapat i-enable ang Gzip compression?",
+      "whyItems": [
+        "Maaaring bawasan ang laki ng text resource ng 60% hanggang 80%",
+        "Mas maliit na transfer ay mapabilis ang pag-load",
+        "Nakakabawas ang paggamit ng bandwidth",
+        "Mas magandang performance ay maaaring tumulong sa SEO at user experience"
+      ]
+    },
+    "dnsLookupEnhanced": {
+      "title": "Enhanced DNS Record Lookup",
+      "description": "Maghanap ng maraming uri ng DNS record online na may optimization para sa malaking result set",
+      "enterDomain": "Mangyaring ilagay ang isang domain",
+      "lookupFailed": "Nabigong Paghahanap",
+      "serverConnectionFailed": "Nabigong kumonekta sa server, mangyaring subukan muli sa ibang pagkakataon",
+      "inputPlaceholder": "Ilagay ang isang domain, halimbawa: example.com",
+      "lookup": "Hanapin",
+      "priority": "Prioridad: {{value}}",
+      "dnsTypes": [
+        {
+          "value": "ALL",
+          "label": "Lahat"
+        },
+        {
+          "value": "A",
+          "label": "A record",
+          "desc": "IPv4 address"
+        },
+        {
+          "value": "AAAA",
+          "label": "AAAA record",
+          "desc": "IPv6 address"
+        },
+        {
+          "value": "MX",
+          "label": "MX record",
+          "desc": "Mail server"
+        },
+        {
+          "value": "TXT",
+          "label": "TXT record",
+          "desc": "Text data"
+        },
+        {
+          "value": "CNAME",
+          "label": "CNAME record",
+          "desc": "Alias record"
+        },
+        {
+          "value": "NS",
+          "label": "NS record",
+          "desc": "Name server"
+        },
+        {
+          "value": "SOA",
+          "label": "SOA record",
+          "desc": "Start of authority"
+        }
+      ],
+      "foundRecords": "Natagpuan {{count}} records",
+      "queryTime": "Oras ng Query: {{time}}",
+      "virtualScrollEnabled": "Virtual scrolling nakabukas",
+      "recordCount": "{{count}} records",
+      "virtualScrollTag": "Optimized rendering",
+      "noRecords": "Wala nang DNS records natagpuan",
+      "performanceTitle": "Performance optimization",
+      "performanceItems": [
+        "Ang virtualized rendering ay ginagawa ang DNS Lookup responsive kasama ang {{count}} records",
+        "Ang lamang visible rows ay iniluluto upang bawasan ang paggamit ng memorya",
+        "Ito ay nakakatulong upang maiwasan ang DOM lag kapag ang result sets ay malaki",
+        "Ang karanasan ay mananatiling responsive kahit maraming records"
+      ]
+    },
+    "metaCheck": {
+      "title": "META Tag Check",
+      "description": "Suriin ang mga META tags na ginamit sa isang webpage",
+      "enterUrl": "Mangyaring ilagay ang isang website URL",
+      "checkFailed": "Nabigong Pagsusuri",
+      "urlLabel": "Website URL",
+      "inputPlaceholder": "example.com o https://example.com",
+      "check": "Suriin",
+      "resultTitle": "Resulta ng pagsusuri",
+      "totalCount": "Natagpuan {{count}} META tags",
+      "groups": {
+        "pageTitle": "Pahina ng Pamagat",
+        "httpEquiv": "HTTP-Equiv",
+        "charset": "Charset",
+        "basicMeta": "Basic META"
+      },
+      "emptyContent": "Walang laman",
+      "infoTitle": "Tungkol",
+      "infoItems": [
+        "Ang tool na ito ay suriin ang title tags, meta name tags, meta property tags (gayundin ang Open Graph), at meta http-equiv tags",
+        "Nagtuturo ito nang madali ang page's SEO-related metadata",
+        "Nagtuturo din ito ng mga problema sa missing o duplicate tag"
+      ]
+    },
+    "urlEncode": {
+      "title": "URL Encode/Decode",
+      "description": "Encode o decode URL strings online",
+      "toolName": "URL Encode/Decode",
+      "toolCategory": "Encoding Tools",
+      "convertFailed": "Nabigong Konversyon, mangyaring suriin ang iyong input",
+      "copyFailed": "Nabigong I-copy ang Resulta",
+      "modeSelector": "Pumili ng mode",
+      "typeSelector": "Uri ng pag-encode",
+      "encode": "I-encode",
+      "decode": "I-decode",
+      "componentTitle": "Komponente ng URL",
+      "componentDescription": "I-encode lamang ang isang bahagi ng URL",
+      "fullTitle": "Buong URL",
+      "fullDescription": "I-encode ang buong URL",
+      "inputEncodeLabel": "Plain text",
+      "inputDecodeLabel": "Encoded URL",
+      "clearInput": "Linisin ang input",
+      "encodePlaceholder": "Ipasok ang teksto para i-encode bilang URL...",
+      "decodePlaceholder": "Ipasok ang encoded na URL para i-decode...",
+      "outputEncodeLabel": "Nakarekord na resulta",
+      "outputDecodeLabel": "Nadecode na resulta",
+      "copyResult": "I-copy ang resulta",
+      "resultPlaceholder": "Ang resulta ng konversyon ay lalabas dito...",
+      "copied": "Nakopya sa clipboard",
+      "swap": "Palitan",
+      "swapInputOutput": "Palitan ang input at output",
+      "infoTitle": "Mga mode ng pag-encode",
+      "componentModeTitle": "Mode ng Komponente",
+      "componentModeDescription": "Pinakaangkop para sa mga partikular na bahagi ng URL tulad ng query parameters o path segments.",
+      "componentExample": "Halimbawa: hello world → hello%20world",
+      "fullModeTitle": "Mode ng Buong URL",
+      "fullModeDescription": "Gamitin ito kung kailangan mo ng i-encode ang buong URL habang nananatiling nakikilala ang pangkalahatang struktura nito.",
+      "fullExample": "Halimbawa: https://example.com/路径 → https://example.com/%E8%B7%AF%E5%BE%84"
+    },
+    "htmlEntity": {
+      "title": "HTML Entity Encode/Decode",
+      "description": "I-encode o i-decode ang HTML entities online",
+      "toolName": "HTML Entity Encode/Decode",
+      "toolCategory": "Encoding Tools",
+      "convertFailed": "Nabigong konversyon, mangyaring suriin ang iyong input",
+      "copyFailed": "Nabigong i-copy ang resulta",
+      "modeSelector": "Pumili ng mode",
+      "switchToEncode": "Mag-switch sa encode mode (Alt+1)",
+      "switchToDecode": "Mag-switch sa decode mode (Alt+2)",
+      "encode": "Encode",
+      "decode": "Decode",
+      "encodeAll": "I-encode lahat ng mga karakter",
+      "inputEncodeLabel": "Plain text",
+      "inputDecodeLabel": "HTML entities",
+      "clearInput": "Linisin ang input (Ctrl+L)",
+      "encodePlaceholder": "Ipasok ang teksto para i-convert sa HTML entities...",
+      "decodePlaceholder": "Ipasok ang HTML entities para i-decode...",
+      "inputDescriptionEncode": "Ipasok ang plain text na gusto mong i-encode bilang HTML entities",
+      "inputDescriptionDecode": "Ipasok ang HTML entities na gusto mong i-decode",
+      "outputEncodeLabel": "Nakarekord na resulta",
+      "outputDecodeLabel": "Nadecode na resulta",
+      "copyResult": "I-copy ang resulta (Ctrl+C)",
+      "resultPlaceholder": "Ang resulta ng konversyon ay lalabas dito...",
+      "outputDescriptionEncode": "Ang nagawa na output ng HTML entity",
+      "outputDescriptionDecode": "Ang nadecode na plain-text output",
+      "copied": "Nakopya sa clipboard",
+      "executeEncode": "Encode (Ctrl+Enter)",
+      "executeDecode": "Decode (Ctrl+Enter)",
+      "swap": "Palitan",
+      "swapMode": "Palitan ang input at output (Ctrl+S)",
+      "commonEntities": "Karaniwang HTML entities",
+      "space": "(space)"
+    },
+    "jsMinify": {
+      "title": "JS Minify & Beautify",
+      "description": "Minify o beautify JavaScript code online",
+      "toolName": "JavaScript Minify / Beautify",
+      "toolNameHistory": "JS Minify & Beautify",
+      "toolCategory": "Developer Tools",
+      "processFailed": "Nabigong proseso",
+      "copyFailed": "Nabigong i-copy ang resulta sa clipboard",
+      "switchToMinify": "Mag-switch sa minify mode",
+      "switchToMinifyTitle": "Mag-switch sa minify mode (Alt+1)",
+      "switchToBeautify": "Mag-switch sa beautify mode",
+      "switchToBeautifyTitle": "Mag-switch sa beautify mode (Alt+2)",
+      "minify": "Minify",
+      "beautify": "Beautify",
+      "input": "Input",
+      "output": "Output",
+      "inputPlaceholder": "Ipasok ang JavaScript code dito...",
+      "inputAria": "JavaScript input editor",
+      "inputTitle": "Pindutin ang Ctrl+Enter upang tumakbo, Ctrl+L upang linisin",
+      "copyOutput": "I-copy ang output",
+      "copyOutputTitle": "I-copy ang output (Ctrl+C)",
+      "resultPlaceholder": "Ang processed na resulta ay lalabas dito...",
+      "outputAria": "JavaScript output result",
+      "executeMinify": "Minify JavaScript",
+      "executeMinifyTitle": "Minify JavaScript (Ctrl+Enter)",
+      "executeBeautify": "Beautify JavaScript",
+      "executeBeautifyTitle": "Beautify JavaScript (Ctrl+Enter)",
+      "minifyCode": "Minify code",
+      "beautifyCode": "Beautify code",
+      "swap": "Palitan",
+      "swapTitle": "Palitan ang input at output (Ctrl+S)",
+      "clear": "Linisin",
+      "clearTitle": "Linisin ang nilalaman (Ctrl+L)",
+      "copied": "Nakopya sa clipboard",
+      "infoTitle": "Mga Tampok",
+      "infoItems": [
+        "Nakakalason ang hindi kinakailangang espasyo at line breaks upang bawasan ang sukat ng JavaScript file",
+        "Ang mode ng beautify ay nagbibigay-daan sa mas madaling basahin at panatilihin ang compressed code",
+        "Ang kalidad ng minification depende sa JavaScript parser at minifier implementation"
+      ]
+    },
+    "cssMinify": {
+      "title": "CSS Minify & Beautify",
+      "description": "Minify o beautify CSS code online",
+      "toolName": "CSS Minify & Beautify",
+      "toolCategory": "Developer Tools",
+      "processFailed": "Nabigong proseso",
+      "copyFailed": "Nabigong i-copy ang resulta sa clipboard",
+      "switchToMinify": "Mag-switch sa minify mode",
+      "switchToMinifyTitle": "Mag-switch sa minify mode (Alt+1)",
+      "switchToBeautify": "Mag-switch sa beautify mode",
+      "switchToBeautifyTitle": "Mag-switch sa beautify mode (Alt+2)",
+      "minify": "Minify",
+      "beautify": "Beautify",
+      "input": "Input",
+      "output": "Output",
+      "inputPlaceholder": "Ipasok ang CSS code dito...\n\nHalimbawa:\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 20px;\n}",
+      "inputAria": "CSS input editor",
+      "inputTitle": "Pindutin ang Ctrl+Enter upang tumakbo, Ctrl+L upang linisin",
+      "copyOutput": "I-copy ang output",
+      "copyOutputTitle": "I-copy ang output (Ctrl+C)",
+      "resultPlaceholder": "Ang processed na resulta ay lalabas dito...",
+      "outputAria": "CSS output result",
+      "executeMinify": "Minify CSS",
+      "executeMinifyTitle": "Minify CSS (Ctrl+Enter)",
+      "executeBeautify": "Beautify CSS",
+      "executeBeautifyTitle": "Beautify CSS (Ctrl+Enter)",
+      "minifyCode": "Minify code",
+      "beautifyCode": "Beautify code",
+      "swap": "Palitan",
+      "swapTitle": "Palitan ang input at output (Ctrl+S)",
+      "clear": "Linisin",
+      "clearTitle": "Linisin ang nilalaman (Ctrl+L)",
+      "copied": "Nakopya sa clipboard",
+      "infoTitle": "Mga Tampok",
+      "infoItems": [
+        "Nakakalason ang hindi kinakailangang espasyo at line breaks upang bawasan ang sukat",
+        "Ang mode ng beautify ay nagbibigay-daan sa mas madaling basahin at i-edit ang compressed code",
+        "Mas maliit na CSS files ay maaaring makatulong sa pagbaba ng HTTP transfer size at mapabilis ang pag-load"
+      ]
+    },
+    "httpCodes": {
+      "title": "HTTP Status Codes",
+      "description": "Reference para sa HTTP status/response codes",
+      "searchPlaceholder": "Maghanap ng status codes o descriptions...",
+      "noMatch": "Wala namang sumusunod na status codes na natagpuan",
+      "infoTitle": "Basics ng HTTP status code",
+      "infoItems": [
+        "1xx - Mga response na impormasyon na nangangahulugan na ang request ay natanggap at ginagawa ng pagproseso",
+        "2xx - Mga response ng tagumpay na nangangahulugan na ang request ay natanggap, naiintindihan, at tinanggap",
+        "3xx - Mga response ng redirection na nangangahulugan na kailangan ng karagdagang aksyon upang tapusin ang request",
+        "4xx - Mga response ng client error na nangangahulugan na ang request ay may maling syntax o di maaaring maisagawa",
+        "5xx - Mga response ng server error na nangangahulugan na ang server ay hindi nakapagtamo ng valid na request"
+      ],
+      "categories": [
+        {
+          "id": "all",
+          "name": "Lahat",
+          "color": "bg-gray-100 text-gray-700"
+        },
+        {
+          "id": "1xx",
+          "name": "1xx Impormasyon",
+          "color": "bg-blue-100 text-blue-700"
+        },
+        {
+          "id": "2xx",
+          "name": "2xx Tagumpay",
+          "color": "bg-green-100 text-green-700"
+        },
+        {
+          "id": "3xx",
+          "name": "3xx Pagpapadala",
+          "color": "bg-yellow-100 text-yellow-700"
+        },
+        {
+          "id": "4xx",
+          "name": "4xx Error ng Kliyente",
+          "color": "bg-orange-100 text-orange-700"
+        },
+        {
+          "id": "5xx",
+          "name": "5xx Error ng Server",
+          "color": "bg-red-100 text-red-700"
+        }
+      ],
+      "codes": [
+        {
+          "code": 100,
+          "name": "Kumpleto",
+          "desc": "Ang unang bahagi ng kahilingan ay natanggap at ang kliyente ay dapat magpatuloy sa pagpapadala ng natapos.",
+          "category": "1xx"
+        },
+        {
+          "code": 101,
+          "name": "Pagsali sa Protocolo",
+          "desc": "Nag-aayos ang server na magbago ang mga protocolo ayon sa kahilingan ng kliyente.",
+          "category": "1xx"
+        },
+        {
+          "code": 102,
+          "name": "Pagproseso",
+          "desc": "Nakatanggap ang server at nagsisimula na magproseso ng kahilingan, ngunit wala pa ring sagot.",
+          "category": "1xx"
+        },
+        {
+          "code": 200,
+          "name": "OK",
+          "desc": "Nagtakda ang kahilingan, karaniwang para sa mga kahilingan na GET o POST.",
+          "category": "2xx"
+        },
+        {
+          "code": 201,
+          "name": "Gawa",
+          "desc": "Nagtakda ang kahilingan at nagawa ang bagong mapagkukunan.",
+          "category": "2xx"
+        },
+        {
+          "code": 202,
+          "name": "Tanggap",
+          "desc": "Nakatanggap ang kahilingan para magproseso, ngunit wala pa ito nakakamit.",
+          "category": "2xx"
+        },
+        {
+          "code": 203,
+          "name": "Impormasyon na Di-Pinagmumulan",
+          "desc": "Ang metadata ng tugon ay galing sa lokal o ikatlong partido na kopya at hindi ang orihinal na serber.",
+          "category": "2xx"
+        },
+        {
+          "code": 204,
+          "name": "Wala Kang Panauod",
+          "desc": "Nagtakda ang kahilingan, ngunit ang tugon ay walang laman.",
+          "category": "2xx"
+        },
+        {
+          "code": 205,
+          "name": "I-reset Ang Panauod",
+          "desc": "Nagtakda ang kahilingan at ang kliyente ay dapat i-reset ang kasalukuyang panauod na view.",
+          "category": "2xx"
+        },
+        {
+          "code": 206,
+          "name": "Partial Content",
+          "desc": "Ang serber ay nagbabalik lamang ng isang bahagi ng resource dahil sa isang kahilingan ng range.",
+          "category": "2xx"
+        },
+        {
+          "code": 300,
+          "name": "Maraming Pilihan",
+          "desc": "May maraming posibleng representasyon ang hinahanap na mapagkukunan para piliin ng kliyente.",
+          "category": "3xx"
+        },
+        {
+          "code": 301,
+          "name": "Nabago Permanente",
+          "desc": "Nabago ang hinahanap na mapagkukunan sa isang bagong URI.",
+          "category": "3xx"
+        },
+        {
+          "code": 302,
+          "name": "Natagpuan",
+          "desc": "Nakatagpuan ang hinahanap na mapagkukunan sa isang ibang URI.",
+          "category": "3xx"
+        },
+        {
+          "code": 303,
+          "name": "Tingnan Iba",
+          "desc": "Ang tugon sa kahilingan ay matatagpuan sa ibang URI gamit ang GET.",
+          "category": "3xx"
+        },
+        {
+          "code": 304,
+          "name": "Hindi Ipinagbago",
+          "desc": "Ang cache na mapagkukunan ay wala nang nabago, kaya ang kliyente ay maaaring gamitin ang lokal na kopya.",
+          "category": "3xx"
+        },
+        {
+          "code": 307,
+          "name": "Temporayong Redirect",
+          "desc": "Ang mapagkukunan ay temporayong inilipat at ang orihinal na paraan ng kahilingan ay dapat mapanatili.",
+          "category": "3xx"
+        },
+        {
+          "code": 308,
+          "name": "Permanente Redirect",
+          "desc": "Ang mapagkukunan ay napunta nang permanente at ang orihinal na paraan ng kahilingan ay dapat mapanatili.",
+          "category": "3xx"
+        },
+        {
+          "code": 400,
+          "name": "Mali ang Kahilingan",
+          "desc": "Hindi ma-proseso ng serber ang kahilingan dahil sa mali ang syntax.",
+          "category": "4xx"
+        },
+        {
+          "code": 401,
+          "name": "Hindî Nakakasiguro",
+          "desc": "Kailangan ang pagpapatotoo bago maisakatulo ang kahilingan.",
+          "category": "4xx"
+        },
+        {
+          "code": 402,
+          "name": "Pagbabayad Ay Kinakailangan",
+          "desc": "Ibinigay para sa hinaharap na gamit, karaniwang nauugnay sa sistema ng digital na pagbabayad.",
+          "category": "4xx"
+        },
+        {
+          "code": 403,
+          "name": "Hindî Pahintulutan",
+          "desc": "Nakaintindi ang serber ng kahilingan pero iniiba ang pahintulutan.",
+          "category": "4xx"
+        },
+        {
+          "code": 404,
+          "name": "Hindi Natagpuan",
+          "desc": "Hindi makakahanap ang serber ng hinahanap na mapagkukunan.",
+          "category": "4xx"
+        },
+        {
+          "code": 405,
+          "name": "Hindî Pwedeng Gamitin ang Methodo",
+          "desc": "Ang paraan ng kahilingan ay hindî pinapayagan para sa target na mapagkukunan.",
+          "category": "4xx"
+        },
+        {
+          "code": 406,
+          "name": "Hindî Tinatanggap",
+          "desc": "Hindî makakapagbigay ang serber ng tugon na sumusunod sa mga format na tinatanggap ng kliyente.",
+          "category": "4xx"
+        },
+        {
+          "code": 407,
+          "name": "Kailangan ang Pagpapatotoo ng Proxy",
+          "desc": "Dapat magpatotoo ang kliyente sa proxy bago magpatuloy.",
+          "category": "4xx"
+        },
+        {
+          "code": 408,
+          "name": "Timeout sa Kahilingan",
+          "desc": "Nawalan ng oras ang serber habang naghihintay sa kahilingan.",
+          "category": "4xx"
+        },
+        {
+          "code": 409,
+          "name": "Konflikto",
+          "desc": "Nakakasalungat ang kahilingan sa kasalukuyang estado ng target na mapagkukunan.",
+          "category": "4xx"
+        },
+        {
+          "code": 410,
+          "name": "Nasa Labas",
+          "desc": "Hindî magagamit ang mapagkukunan at walang kilalang address para ipadala.",
+          "category": "4xx"
+        },
+        {
+          "code": 411,
+          "name": "Kinakailangan ang Laki ng Payload",
+          "desc": "Kinakailangan ng serber ang tumpak na header ng Laki ng Payload.",
+          "category": "4xx"
+        },
+        {
+          "code": 412,
+          "name": "Hindî Nagtagumpay ang Pangunahing Kondisyon",
+          "desc": "Ang isa o higit pang kondisyon sa mga header ng kahilingan ay naging mali.",
+          "category": "4xx"
+        },
+        {
+          "code": 413,
+          "name": "Laki ng Payload Masyadong Malaki",
+          "desc": "Mas malaki ang laman ng kahilingan kaysa sa sinisikat ng serber.",
+          "category": "4xx"
+        },
+        {
+          "code": 414,
+          "name": "URI Masyadong Mahaba",
+          "desc": "Masyadong mahaba ang hinahanap na URI para masagana ng serber.",
+          "category": "4xx"
+        },
+        {
+          "code": 415,
+          "name": "Hindî Sinusuporta ang Media Type",
+          "desc": "Hindî sinusuporta ng serber ang media type na ginamit sa kahilingan.",
+          "category": "4xx"
+        },
+        {
+          "code": 418,
+          "name": "Ako ay Isang Teapot",
+          "desc": "Isang kakaiba na code na nagpapahiwatig na ang serber ay tumanggi na magluto ng kape dahil siya ay teapot.",
+          "category": "4xx"
+        },
+        {
+          "code": 422,
+          "name": "Hindî Maproseso ang Entity",
+          "desc": "Nakaintindi ang serber sa format ng kahilingan pero hindî maproseso ang mga instruksyon na nasa loob.",
+          "category": "4xx"
+        },
+        {
+          "code": 429,
+          "name": "Masyadong Marami ang Mga Kahilingan",
+          "desc": "Nagpadala ang kliyente ng masyadong maraming kahilingan sa isang takdang panahon.",
+          "category": "4xx"
+        },
+        {
+          "code": 451,
+          "name": "Hindî Magagamit Dahil sa Legal na Mga Dahilan",
+          "desc": "Hindî magagamit ang mapagkukunan dahil sa mga legal na limitasyon.",
+          "category": "4xx"
+        },
+        {
+          "code": 500,
+          "name": "Internal Server Error",
+          "desc": "Nakaranas ang serber ng isang hindi inaasahang error habang nagproseso ng kahilingan.",
+          "category": "5xx"
+        },
+        {
+          "code": 501,
+          "name": "Hindî Dinisenyo",
+          "desc": "Hindî suportado ng serber ang kakailangan para masagot ang kahilingan.",
+          "category": "5xx"
+        },
+        {
+          "code": 502,
+          "name": "Mali ang Gateway",
+          "desc": "Nakatanggap ang isang gateway o proxy server ng isang di-tama na tugon mula sa upstream server.",
+          "category": "5xx"
+        },
+        {
+          "code": 503,
+          "name": "Serber Hindi Nakakasagot",
+          "desc": "Hindi nakakasagot ang serber sa kahilingan, karaniwan dahil sa sobrang load o maintenance.",
+          "category": "5xx"
+        },
+        {
+          "code": 504,
+          "name": "Gateway Timeout",
+          "desc": "Hindi nakatanggap ang isang gateway o proxy server ng isang maayos na tugon mula sa upstream server.",
+          "category": "5xx"
+        },
+        {
+          "code": 505,
+          "name": "Hindî Suportado ang HTTP Version",
+          "desc": "Hindî suportado ng serber ang bersyon ng protocol na ginamit sa kahilingan.",
+          "category": "5xx"
+        }
+      ]
+    },
+    "phpReference": {
+      "title": "Panukat ng Function ng PHP",
+      "description": "Mabilis na panukat para sa karaniwang mga function ng PHP",
+      "searchPlaceholder": "Maghanap ng pangalan ng function o mga description...",
+      "noMatch": "Wala nang katugmaang function na natagpuan",
+      "infoTitle": "Tungkol",
+      "infoDescription": "Ang pahina na ito ay naglista ng karaniwang ginagamit na mga function ng PHP ayon sa kategorya para mabilis na paghahanap. Ang pahinang ito ay inilaan bilang isang madaling alamin para sa mga developer at hindi nagpapalit sa opisyales na dokumentasyon ng PHP.",
+      "categories": [
+        "Lahat",
+        "String",
+        "Array",
+        "File",
+        "Petsa/Oras",
+        "JSON",
+        "Matematika",
+        "Iba pa"
+      ],
+      "functions": [
+        {
+          "name": "strlen",
+          "desc": "Kumuha ng haba ng isang string",
+          "syntax": "strlen(string $string): int",
+          "category": "String"
+        },
+        {
+          "name": "substr",
+          "desc": "Bumalik sa bahagi ng isang string",
+          "syntax": "substr(string $string, int $offset, ?int $length = null): string",
+          "category": "String"
+        },
+        {
+          "name": "strpos",
+          "desc": "Hanapin ang posisyon ng unang pagkakataon ng isang substring",
+          "syntax": "strpos(string $haystack, string $needle, int $offset = 0): int|false",
+          "category": "String"
+        },
+        {
+          "name": "str_replace",
+          "desc": "Palitan ang lahat ng mga pagkakataon ng nahanap na string",
+          "syntax": "str_replace(mixed $search, mixed $replace, mixed $subject): mixed",
+          "category": "String"
+        },
+        {
+          "name": "explode",
+          "desc": "Hatiin ang isang string sa isang array gamit ang isang separator",
+          "syntax": "explode(string $separator, string $string, int $limit = PHP_INT_MAX): array",
+          "category": "String"
+        },
+        {
+          "name": "implode",
+          "desc": "Mag-uugnay ng mga elemento ng array sa isang string",
+          "syntax": "implode(string $separator, array $array): string",
+          "category": "String"
+        },
+        {
+          "name": "trim",
+          "desc": "Tanggalin ang espasyo o ibang mga karakter mula sa magkabilang dulo ng isang string",
+          "syntax": "trim(string $string, string $characters = \" \\n\\r\\t\\v\\x00\"): string",
+          "category": "String"
+        },
+        {
+          "name": "strtolower",
+          "desc": "I-convert ang isang string sa lower case",
+          "syntax": "strtolower(string $string): string",
+          "category": "String"
+        },
+        {
+          "name": "strtoupper",
+          "desc": "I-convert ang isang string sa upper case",
+          "syntax": "strtoupper(string $string): string",
+          "category": "String"
+        },
+        {
+          "name": "sprintf",
+          "desc": "Bumalik sa isang format na string",
+          "syntax": "sprintf(string $format, mixed ...$values): string",
+          "category": "String"
+        },
+        {
+          "name": "preg_match",
+          "desc": "Gawin ang regular expression match",
+          "syntax": "preg_match(string $pattern, string $subject, array &$matches = null): int|false",
+          "category": "String"
+        },
+        {
+          "name": "preg_replace",
+          "desc": "Gawin ang regular expression search at replace",
+          "syntax": "preg_replace(mixed $pattern, mixed $replacement, mixed $subject): mixed",
+          "category": "String"
+        },
+        {
+          "name": "count",
+          "desc": "Ibilang ang mga elemento sa isang array o Countable object",
+          "syntax": "count(Countable|array $value, int $mode = COUNT_NORMAL): int",
+          "category": "Array"
+        },
+        {
+          "name": "array_push",
+          "desc": "Ilagay ang isang o higit pang mga elemento sa dulo ng isang array",
+          "syntax": "array_push(array &$array, mixed ...$values): int",
+          "category": "Array"
+        },
+        {
+          "name": "array_pop",
+          "desc": "Alisin ang huling elemento ng isang array",
+          "syntax": "array_pop(array &$array): mixed",
+          "category": "Array"
+        },
+        {
+          "name": "array_merge",
+          "desc": "Ibuhos ang isang o higit pang mga array",
+          "syntax": "array_merge(array ...$arrays): array",
+          "category": "Array"
+        },
+        {
+          "name": "array_keys",
+          "desc": "Bumalik sa lahat ng mga key ng isang array",
+          "syntax": "array_keys(array $array, mixed $filter_value, bool $strict = false): array",
+          "category": "Array"
+        },
+        {
+          "name": "array_values",
+          "desc": "Bumalik sa lahat ng mga value ng isang array",
+          "syntax": "array_values(array $array): array",
+          "category": "Array"
+        },
+        {
+          "name": "in_array",
+          "desc": "Suriin kung ang isang halaga ay umiiral sa isang array",
+          "syntax": "in_array(mixed $needle, array $haystack, bool $strict = false): bool",
+          "category": "Array"
+        },
+        {
+          "name": "array_search",
+          "desc": "Hanapin ang isang array para sa isang halaga at bumalik sa kanyang key",
+          "syntax": "array_search(mixed $needle, array $haystack, bool $strict = false): int|string|false",
+          "category": "Array"
+        },
+        {
+          "name": "array_map",
+          "desc": "I-apply ang isang callback sa mga elemento ng isang array",
+          "syntax": "array_map(?callable $callback, array $array, array ...$arrays): array",
+          "category": "Array"
+        },
+        {
+          "name": "array_filter",
+          "desc": "I-filter ang mga elemento ng isang array gamit ang isang callback",
+          "syntax": "array_filter(array $array, ?callable $callback = null, int $mode = 0): array",
+          "category": "Array"
+        },
+        {
+          "name": "sort",
+          "desc": "I-sort ang isang array sa ascending order",
+          "syntax": "sort(array &$array, int $flags = SORT_REGULAR): bool",
+          "category": "Array"
+        },
+        {
+          "name": "usort",
+          "desc": "I-sort ang isang array gamit ang isang user-defined comparison function",
+          "syntax": "usort(array &$array, callable $callback): bool",
+          "category": "Array"
+        },
+        {
+          "name": "file_get_contents",
+          "desc": "Basahin ang buong file sa isang string",
+          "syntax": "file_get_contents(string $filename, ...): string|false",
+          "category": "File"
+        },
+        {
+          "name": "file_put_contents",
+          "desc": "I-write ang data sa isang file",
+          "syntax": "file_put_contents(string $filename, mixed $data, int $flags = 0): int|false",
+          "category": "File"
+        },
+        {
+          "name": "fopen",
+          "desc": "Buksan ang isang file o URL",
+          "syntax": "fopen(string $filename, string $mode, ...): resource|false",
+          "category": "File"
+        },
+        {
+          "name": "fclose",
+          "desc": "I-close ang isang bukas na file pointer",
+          "syntax": "fclose(resource $stream): bool",
+          "category": "File"
+        },
+        {
+          "name": "fread",
+          "desc": "Basahin mula sa isang file pointer",
+          "syntax": "fread(resource $stream, int $length): string|false",
+          "category": "File"
+        },
+        {
+          "name": "fwrite",
+          "desc": "I-write sa isang file pointer",
+          "syntax": "fwrite(resource $stream, string $data, ?int $length = null): int|false",
+          "category": "File"
+        },
+        {
+          "name": "file_exists",
+          "desc": "Suriin kung ang isang file o directory ay umiiral",
+          "syntax": "file_exists(string $filename): bool",
+          "category": "File"
+        },
+        {
+          "name": "is_file",
+          "desc": "Suriin kung ang path ay isang regular na file",
+          "syntax": "is_file(string $filename): bool",
+          "category": "File"
+        },
+        {
+          "name": "unlink",
+          "desc": "Burahin ang isang file",
+          "syntax": "unlink(string $filename, ?resource $context = null): bool",
+          "category": "File"
+        },
+        {
+          "name": "mkdir",
+          "desc": "Likhain ang isang direktoryo",
+          "syntax": "mkdir(string $directory, int $permissions = 0777, bool $recursive = false): bool",
+          "category": "File"
+        },
+        {
+          "name": "date",
+          "desc": "I-format ang lokal na petsa at oras",
+          "syntax": "date(string $format, ?int $timestamp = null): string",
+          "category": "Date/Time"
+        },
+        {
+          "name": "time",
+          "desc": "Kumuha ng kasalukuyang Unix timestamp",
+          "syntax": "time(): int",
+          "category": "Date/Time"
+        },
+        {
+          "name": "strtotime",
+          "desc": "I-parse ang isang tekstwal na oras ng petsa sa isang Unix timestamp",
+          "syntax": "strtotime(string $datetime, ?int $baseTimestamp = null): int|false",
+          "category": "Date/Time"
+        },
+        {
+          "name": "mktime",
+          "desc": "Kumuha ng isang Unix timestamp para sa petsa",
+          "syntax": "mktime(int $oras, ?int $minuto = null, ...): int|false",
+          "category": "Petsa/Oras"
+        },
+        {
+          "name": "date_create",
+          "desc": "Likhen ang isang object na DateTime",
+          "syntax": "date_create(string $datetime = \"now\", ?DateTimeZone $timezone = null): DateTime|false",
+          "category": "Petsa/Oras"
+        },
+        {
+          "name": "json_encode",
+          "desc": "I-convert ang isang halaga sa string na JSON",
+          "syntax": "json_encode(mixed $halaga, int $flags = 0, int $depth = 512): string|false",
+          "category": "JSON"
+        },
+        {
+          "name": "json_decode",
+          "desc": "I-decode ang string na JSON sa isang halaga ng PHP",
+          "syntax": "json_decode(string $json, ?bool $associative = null, int $depth = 512): mixed",
+          "category": "JSON"
+        },
+        {
+          "name": "abs",
+          "desc": "Kumuha ng absolute value",
+          "syntax": "abs(int|float $num): int|float",
+          "category": "Matematika"
+        },
+        {
+          "name": "ceil",
+          "desc": "Round fractions pataas",
+          "syntax": "ceil(int|float $num): float",
+          "category": "Matematika"
+        },
+        {
+          "name": "floor",
+          "desc": "Round fractions pababa",
+          "syntax": "floor(int|float $num): float",
+          "category": "Matematika"
+        },
+        {
+          "name": "round",
+          "desc": "Round ang isang numero",
+          "syntax": "round(int|float $num, int $precision = 0, int $mode = PHP_ROUND_HALF_UP): float",
+          "category": "Matematika"
+        },
+        {
+          "name": "max",
+          "desc": "Hanapin ang pinakamalaking halaga",
+          "syntax": "max(mixed $halaga, mixed ...$halaga): mixed",
+          "category": "Matematika"
+        },
+        {
+          "name": "min",
+          "desc": "Hanapin ang pinakamaliit na halaga",
+          "syntax": "min(mixed $halaga, mixed ...$halaga): mixed",
+          "category": "Matematika"
+        },
+        {
+          "name": "rand",
+          "desc": "Gumawa ng random integer",
+          "syntax": "rand(int $min, int $max): int",
+          "category": "Matematika"
+        },
+        {
+          "name": "isset",
+          "desc": "Suriin kung ang isang variable ay naka-set at hindi null",
+          "syntax": "isset(mixed $var, mixed ...$vars): bool",
+          "category": "Iba pa"
+        },
+        {
+          "name": "empty",
+          "desc": "Suriin kung ang isang variable ay walang laman",
+          "syntax": "empty(mixed $var): bool",
+          "category": "Iba pa"
+        },
+        {
+          "name": "var_dump",
+          "desc": "Ibunot ang impormasyon tungkol sa isang variable",
+          "syntax": "var_dump(mixed $halaga, mixed ...$halaga): void",
+          "category": "Iba pa"
+        },
+        {
+          "name": "print_r",
+          "desc": "Ipakita ang impormasyon ng variable na madaling basahin ng tao",
+          "syntax": "print_r(mixed $halaga, bool $return = false): string|bool",
+          "category": "Iba pa"
+        },
+        {
+          "name": "gettype",
+          "desc": "Kumuha ng tipo ng variable",
+          "syntax": "gettype(mixed $halaga): string",
+          "category": "Iba pa"
+        },
+        {
+          "name": "is_array",
+          "desc": "Suriin kung ang isang variable ay array",
+          "syntax": "is_array(mixed $halaga): bool",
+          "category": "Iba pa"
+        },
+        {
+          "name": "is_string",
+          "desc": "Suriin kung ang isang variable ay string",
+          "syntax": "is_string(mixed $halaga): bool",
+          "category": "Iba pa"
+        },
+        {
+          "name": "is_numeric",
+          "desc": "Suriin kung ang isang variable ay numero o numeric string",
+          "syntax": "is_numeric(mixed $halaga): bool",
+          "category": "Iba pa"
+        }
+      ]
+    },
+    "cssBorderRadius": {
+      "title": "CSS Border Radius Generator",
+      "description": "I-adjust ang mga halaga ng border-radius nang visual at lumikha ng CSS code",
+      "presetsLabel": "Mga preset",
+      "preview": "Panimulang Pagtingin",
+      "settings": "Mga setting",
+      "linked": "Nakauugnay na mga sulok",
+      "unlinked": "Naihiwalay na mga sulok",
+      "corners": {
+        "topLeft": "Itaas na kaliwa",
+        "topRight": "Itaas na kanan",
+        "bottomLeft": "Baba na kaliwa",
+        "bottomRight": "Baba na kanan"
+      },
+      "elementColor": "Pangunahing kulay",
+      "codeTitle": "CSS code",
+      "copy": "I-kopya",
+      "copied": "I-kopya na",
+      "presets": [
+        {
+          "name": "Wala",
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Maliit",
+          "values": [
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "Katamtaman",
+          "values": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "Malaki",
+          "values": [
+            16,
+            16,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "Bilog",
+          "values": [
+            50,
+            50,
+            50,
+            50
+          ]
+        },
+        {
+          "name": "Pill",
+          "values": [
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "Kaliwang bahagi",
+          "values": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        {
+          "name": "Kanan bahagi",
+          "values": [
+            0,
+            16,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "Tanging itaas",
+          "values": [
+            16,
+            16,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Tanging baba",
+          "values": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "Diagonal",
+          "values": [
+            16,
+            0,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "Barko",
+          "values": [
+            0,
+            50,
+            0,
+            50
+          ]
+        }
+      ]
+    },
+    "cssNeumorphism": {
+      "title": "Neumorphism CSS Generator",
+      "description": "Lumikha ng Neumorphism-style CSS code online",
+      "previewText": "Panimulang Pagtingin ng Button",
+      "shapeTitle": "Uri ng hugis",
+      "shapeOptions": [
+        {
+          "value": "flat",
+          "label": "Flat"
+        },
+        {
+          "value": "concave",
+          "label": "Concave"
+        },
+        {
+          "value": "convex",
+          "label": "Convex"
+        },
+        {
+          "value": "pressed",
+          "label": "Pressed"
+        }
+      ],
+      "colorTitle": "Mga setting ng kulay",
+      "presetColors": "Mga preset na kulay",
+      "colorPresets": [
+        {
+          "color": "#e0e5ec",
+          "name": "Classic"
+        },
+        {
+          "color": "#f0f0f3",
+          "name": "Puti"
+        },
+        {
+          "color": "#d1d9e6",
+          "name": "Blue"
+        },
+        {
+          "color": "#e8dfd5",
+          "name": "Beige"
+        },
+        {
+          "color": "#dfe6e9",
+          "name": "Gray"
+        },
+        {
+          "color": "#ffeaa7",
+          "name": "Yellow"
+        },
+        {
+          "color": "#dfe4ea",
+          "name": "Slate"
+        },
+        {
+          "color": "#f8e1e7",
+          "name": "Pink"
+        },
+        {
+          "color": "#d5f5e3",
+          "name": "Mint"
+        },
+        {
+          "color": "#e8daef",
+          "name": "Purple"
+        }
+      ],
+      "backgroundColor": "Pangunahing kulay",
+      "lightColor": "Light color (highlight)",
+      "darkColor": "Dark color (shadow)",
+      "sliderTitle": "Mga setting ng shadow",
+      "size": "Sukat",
+      "radius": "Radius",
+      "distance": "Shadow distance",
+      "blur": "Shadow blur",
+      "intensity": "Intensidad",
+      "codeTitle": "CSS code",
+      "copy": "I-kopya",
+      "copied": "I-kopya na",
+      "infoTitle": "Ano ang Neumorphism?",
+      "infoDescription": "Ang Neumorphism ay isang madilim na estilo ng UI na nag-uugnay ng mga maaliwalas na highlight at shadow upang magawa ang mga elemento na mukhang naka-raise o naka-press sa background. Ang paggamit nito ay pinakamabuti sa mga low-contrast paleta at malinis, minimal na layout."
+    },
+    "cssTextShadow": {
+      "title": "CSS Text Shadow Generator",
+      "description": "I-adjust an mga value ng text-shadow nang visual at lumikha ng CSS code",
+      "defaultText": "Halimbawa ng Text Shadow",
+      "presetsLabel": "Mga preset na epekto",
+      "textSettings": "Mga setting ng teksto",
+      "previewText": "Panandang teksto",
+      "fontSize": "Laki ng font",
+      "textColor": "kulay ng teksto",
+      "shadowPrefix": "Shadow {{index}}",
+      "offsetX": "X offset",
+      "offsetY": "Y offset",
+      "blur": "Blur",
+      "opacity": "Opacity",
+      "color": "Kulay",
+      "addShadow": "Magdagdag ng shadow",
+      "codeTitle": "CSS code",
+      "copy": "Kopyahin",
+      "copied": "Nakopya",
+      "presets": [
+        {
+          "name": "Madilim na shadow",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 2,
+              "y": 2,
+              "blur": 4,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Neon glow",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#00ff00",
+              "opacity": 0.8
+            }
+          ]
+        },
+        {
+          "name": "Purple glow",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 5,
+              "color": "#ff00ff",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#ff00ff",
+              "opacity": 0.8
+            },
+            {
+              "id": 3,
+              "x": 0,
+              "y": 0,
+              "blur": 20,
+              "color": "#ff00ff",
+              "opacity": 0.6
+            }
+          ]
+        },
+        {
+          "name": "Layered 3D",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 1,
+              "y": 1,
+              "blur": 0,
+              "color": "#666666",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 2,
+              "y": 2,
+              "blur": 0,
+              "color": "#888888",
+              "opacity": 1
+            },
+            {
+              "id": 3,
+              "x": 3,
+              "y": 3,
+              "blur": 0,
+              "color": "#aaaaaa",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "name": "Embossed",
+          "shadows": [
+            {
+              "id": 1,
+              "x": -1,
+              "y": -1,
+              "blur": 1,
+              "color": "#ffffff",
+              "opacity": 0.8
+            },
+            {
+              "id": 2,
+              "x": 1,
+              "y": 1,
+              "blur": 1,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "websocketTest": {
+      "title": "Online WebSocket Test Tool",
+      "description": "Subukan ang mga koneksyon at mensahe ng WebSocket online",
+      "defaultUrl": "wss://echo.websocket.org",
+      "connectingTo": "Kumukuha sa {{url}}...",
+      "connectSuccess": "Nakakonekta nang matagumpay",
+      "connectError": "Kamalian sa koneksyon",
+      "connectionClosed": "Nakatigil ang koneksyon (Code: {{code}})",
+      "connectFailed": "Nabigo ang koneksyon: {{message}}",
+      "disconnecting": "Nakakalabas...",
+      "urlPlaceholder": "I-enter ang isang WebSocket URL, halimbawa: wss://echo.websocket.org",
+      "disconnect": "Lutasin",
+      "connecting": "Nakakakonekta...",
+      "connect": "Konektahan",
+      "connected": "Nakakonekta",
+      "notConnected": "Hindi nakakonekta",
+      "messageLog": "Log ng mensahe",
+      "clear": "Linisin",
+      "noMessages": "Wala pang mensahe",
+      "messagePlaceholder": "I-enter ang isang mensahe... (Enter para ipadala, Shift+Enter para maglagay ng bagong linya)",
+      "infoTitle": "Mga tip sa WebSocket",
+      "infoItems": [
+        "Ang built-in echo service ay kapaki-pakinabang para sa basic send/receive testing",
+        "Sumusuporta sa both ws:// at wss:// addresses",
+        "Pindutin ang Enter para ipadala, Shift+Enter para maglagay ng bagong linya",
+        "Siguraduhin na ang iyong target service ay pinapayagan ang WebSocket connections mula sa browser"
+      ],
+      "examplesTitle": "Karaniwang halimbawa",
+      "publicEcho": "Public Echo Service",
+      "defaultTag": "Default"
+    },
+    "csrGenerator": {
+      "title": "CSR Generator & Viewer",
+      "description": "Gumawa ng CSR files online at i-parse ang CSR contents",
+      "enterDomain": "Mangyaring i-enter ang isang domain",
+      "generateFailed": "Nabigo ang paggawa ng CSR",
+      "parseFailed": "Nabigo ang pag-parse ng CSR",
+      "serverConnectionFailed": "Nabigo ang koneksi sa server, mangyaring subukan muli sa ibang oras",
+      "tabs": {
+        "generate": "Gumawa ng CSR",
+        "view": "Tingnan ang CSR"
+      },
+      "formTitle": "Impormasyon sa sertipiko",
+      "labels": {
+        "commonName": "Domain (Common Name)",
+        "organization": "Organization",
+        "organizationUnit": "Department",
+        "city": "City",
+        "state": "State / Province",
+        "country": "Country / Region",
+        "email": "Email",
+        "keySize": "Laki ng key"
+      },
+      "placeholders": {
+        "commonName": "Halimbawa: www.example.com o *.example.com",
+        "organization": "Halimbawa: Example Inc.",
+        "organizationUnit": "Halimbawa: IT Department",
+        "city": "Halimbawa: Beijing",
+        "state": "Halimbawa: Beijing",
+        "email": "Halimbawa: admin@example.com",
+        "csr": "Ilagay ang content ng CSR dito, simulan sa -----BEGIN CERTIFICATE REQUEST-----"
+      },
+      "countries": [
+        {
+          "value": "CN",
+          "label": "CN - Tsina"
+        },
+        {
+          "value": "US",
+          "label": "US - Estados Unidos"
+        },
+        {
+          "value": "JP",
+          "label": "JP - Hapon"
+        },
+        {
+          "value": "KR",
+          "label": "KR - Timog Korea"
+        },
+        {
+          "value": "GB",
+          "label": "GB - United Kingdom"
+        },
+        {
+          "value": "DE",
+          "label": "DE - Alemanya"
+        },
+        {
+          "value": "FR",
+          "label": "FR - Pransya"
+        },
+        {
+          "value": "SG",
+          "label": "SG - Singapura"
+        },
+        {
+          "value": "HK",
+          "label": "HK - Hong Kong"
+        },
+        {
+          "value": "TW",
+          "label": "TW - Taiwan"
+        }
+      ],
+      "keySizes": [
+        {
+          "value": "2048",
+          "label": "2048 bit (nirekomenda)"
+        },
+        {
+          "value": "4096",
+          "label": "4096 bit (mas mapagkakatiwalaan)"
+        }
+      ],
+      "generating": "Naglilikha...",
+      "generateAction": "Gumawa ng CSR at private key",
+      "csrRequest": "CSR request",
+      "privateKey": "Private key (panatilihin ito nang maayos)",
+      "copy": "Kopyahin",
+      "copied": "Nakopya",
+      "download": "I-download",
+      "privateKeyWarning": "Ang private key ay napakahalaga. Panatilihin ito nang maayos at huwag i-share ito pampubliko. Kung ito ay nalabag, maaaring masira ang seguridad ng iyong sertipiko.",
+      "inputCsr": "Ilagay ang content ng CSR",
+      "parsing": "Nag-parse...",
+      "parseAction": "I-parse ang CSR",
+      "csrInfo": "Impormasyon ng CSR",
+      "infoItems": [
+        {
+          "label": "Domain (CN)",
+          "key": "commonName"
+        },
+        {
+          "label": "Organization (O)",
+          "key": "organization"
+        },
+        {
+          "label": "Department (OU)",
+          "key": "organizationUnit"
+        },
+        {
+          "label": "City (L)",
+          "key": "city"
+        },
+        {
+          "label": "State / Province (ST)",
+          "key": "state"
+        },
+        {
+          "label": "Country (C)",
+          "key": "country"
+        },
+        {
+          "label": "Email",
+          "key": "email"
+        },
+        {
+          "label": "Key algorithm",
+          "key": "keyAlgorithm"
+        },
+        {
+          "label": "Key size",
+          "key": "keySize"
+        },
+        {
+          "label": "Signature algorithm",
+          "key": "signatureAlgorithm"
+        }
+      ],
+      "keySizeValue": "{{value}} bit",
+      "aboutTitle": "Ano ang CSR?",
+      "aboutDescription": "Ang isang CSR (Certificate Signing Request) ay isang encoded file na ipinadala sa isang certificate authority (CA) kapag nagpaparehistro para sa isang SSL/TLS certificate. Ito ay naglalaman ng impormasyon tungkol sa iyong domain at organisasyon, kasama ang public key na sumusunod sa iyong private key. Pagkatapos ng pagsusuri, ang CA gamit ang CSR upang magbigay ng SSL certificate."
+    },
+    "metaGenerator": {
+      "title": "Meta Tag Generator",
+      "description": "Gumawa ng SEO-friendly webpage meta tags",
+      "basicInfo": "Basic na impormasyon",
+      "socialMedia": "Social media (Open Graph)",
+      "generatedCode": "Generated code",
+      "copy": "Kopyahin",
+      "copied": "Nakopya",
+      "searchPreview": "Panunuod ng paghahanap",
+      "searchPreviewTitleFallback": "Pamagat ng pahina",
+      "searchPreviewDescriptionFallback": "Ang paglalarawan ng iyong pahina ay lalabas dito...",
+      "socialPreview": "Panunuod ng social",
+      "socialPreviewTitleFallback": "Pamagat",
+      "socialPreviewDescriptionFallback": "Paglalarawan",
+      "labels": {
+        "title": "Pamagat ng pahina",
+        "description": "Paglalarawan ng pahina",
+        "keywords": "Mga salita kailangan",
+        "author": "May-akda",
+        "robots": "Mga utos ng robots",
+        "ogTitle": "OG pamagat",
+        "ogDescription": "OG paglalarawan",
+        "ogImage": "URL ng OG imahe",
+        "ogUrl": "URL ng pahina",
+        "twitterCard": "Uri ng Twitter card"
+      },
+      "placeholders": {
+        "title": "I-enter ang pamagat ng pahina",
+        "description": "I-enter ang paglalarawan ng pahina, ideal na sa loob ng 150 karakter",
+        "keywords": "salita1, salita2, salita3",
+        "author": "I-enter ang pangalan ng may-akda",
+        "ogTitle": "I-enter ang pamagat para sa pagbabahagi sa social",
+        "ogDescription": "I-enter ang paglalarawan para sa pagbabahagi sa social",
+        "ogImage": "https://example.com/image.jpg",
+        "ogUrl": "https://example.com/page"
+      },
+      "robotsOptions": [
+        {
+          "value": "index, follow",
+          "label": "Payagan ang pag-index at paggalaw"
+        },
+        {
+          "value": "index, nofollow",
+          "label": "Payagan ang pag-index, huwag payagan ang paggalaw"
+        },
+        {
+          "value": "noindex, follow",
+          "label": "Huwalan ang pag-index, payagan ang paggalaw"
+        },
+        {
+          "value": "noindex, nofollow",
+          "label": "Huwalan ang pag-index at paggalaw"
+        }
+      ],
+      "twitterOptions": [
+        {
+          "value": "summary",
+          "label": "Summary"
+        },
+        {
+          "value": "summary_large_image",
+          "label": "Malaking imahe"
+        },
+        {
+          "value": "player",
+          "label": "Player"
+        }
+      ]
+    },
+    "toolHistoryDemo": {
+      "confirmClear": "Sigurado ka bang nais mong i-clear ang lahat ng kasaysayan ng tool at mga favorite?",
+      "exportTitle": "I-export ang data",
+      "usageCount": "Ginamit {{count}} beses",
+      "lastUsed": "Huling ginamit: {{time}}",
+      "favorite": "Favorite: {{value}}",
+      "yes": "Oo",
+      "no": "Hindi",
+      "exportFailed": "Ang pag-export ay nabigo",
+      "tabs": {
+        "overview": "Panorama",
+        "history": "Kasaysayan",
+        "favorites": "Mga favorite",
+        "analytics": "Analytics"
+      },
+      "loading": "Naglo-load ng datos ng kasaysayan ng tool...",
+      "loadFailed": "Nabigong mag-load: {{error}}",
+      "title": "Demo ng Kasaysayan ng Tool",
+      "description": "Nagpapakita ng kasaysayan ng paggamit ng tool, mga favorite, at analytics",
+      "export": "I-export",
+      "clear": "Linisin",
+      "searchPlaceholder": "Hanapin ang mga tool...",
+      "stats": {
+        "totalTools": "Total na mga tool",
+        "totalUsage": "Total na paggamit",
+        "favoriteTools": "Mga favorite na tool",
+        "averageUsage": "Average na paggamit"
+      },
+      "favoriteToolsTitle": "Mga favorite na tool",
+      "favoriteToolsDescription": "Mga tool na inilagay mo bilang favorite",
+      "noFavoriteTools": "Wala pa ring mga favorite na tool",
+      "mostUsed": "Pinaka-ginagamit na mga tool",
+      "timesUsed": "Ginamit {{count}} beses",
+      "recentActivity": "Bagong aktibidad",
+      "exportDialogTitle": "I-export ang kasaysayan ng tool",
+      "exportDialogDescription": "Pumili ng format para i-export",
+      "formats": {
+        "json": {
+          "title": "Format ng JSON",
+          "description": "Pinakamabuti para sa backup at paggamit ng developer"
+        },
+        "csv": {
+          "title": "Format ng CSV",
+          "description": "Magandang para sa spreadsheet tulad ng Excel"
+        },
+        "txt": {
+          "title": "Format ng TXT",
+          "description": "Plain text summary"
+        }
+      },
+      "cancel": "Kanselahin"
+    },
+    "userAgentParser": {
+      "title": "User-Agent Parser",
+      "description": "I-parse ang mga string ng User-Agent upang tukuyin ang impormasyon tungkol sa browser, sistema, at aparato",
+      "label": "String ng User-Agent",
+      "useCurrent": "Gamitin ang kasalukuyang browser",
+      "inputPlaceholder": "I-enter ang isang string ng User-Agent...",
+      "parse": "I-parse",
+      "unknownBrowser": "Di kilalang browser",
+      "unknown": "Di kilala",
+      "deviceTypes": {
+        "mobile": "Mobile",
+        "tablet": "Tablet",
+        "desktop": "Desktop"
+      },
+      "browserInfo": "Impormasyon ng browser",
+      "browser": "Browser",
+      "version": "Bersyon",
+      "majorVersion": "Pangunahing bersyon",
+      "operatingSystem": "Operating system",
+      "system": "Sistema",
+      "deviceInfo": "Impormasyon ng aparato",
+      "type": "Uri",
+      "vendor": "Tagagawa",
+      "model": "Modelo",
+      "engineAndCpu": "Engine & CPU",
+      "engine": "Engine",
+      "engineVersion": "Bersyon ng engine",
+      "cpuArchitecture": "Arketektura ng CPU",
+      "examplesTitle": "Mga halimbawa ng mga string ng User-Agent"
+    },
+    "cssBoxShadow": {
+      "title": "DIV Box Shadow Generator",
+      "description": "I-adjust ang mga halaga ng box-shadow nang visual at lumikha ng CSS code",
+      "preview": "Panunuod",
+      "basicSettings": "Mga pangunahing setting",
+      "backgroundColor": "Pangkulay ng background",
+      "boxColor": "Pangkulay ng box",
+      "borderRadius": "Radius ng border",
+      "shadowPrefix": "Shadow {{index}}",
+      "inset": "Inset",
+      "offsetX": "X offset",
+      "offsetY": "Y offset",
+      "blur": "Blur",
+      "spread": "Spread",
+      "opacity": "Opacity",
+      "color": "Kulay",
+      "addShadow": "Idagdag ang shadow",
+      "codeTitle": "CSS code",
+      "copy": "Kopyahin",
+      "copied": "Nakopya"
+    },
+    "cssGlassmorphism": {
+      "title": "CSS Glassmorphism Generator",
+      "description": "Lumikha ng CSS code na may estilo ng Glassmorphism online",
+      "cardTitle": "Glassmorphism Card",
+      "cardDescription": "Ang Glassmorphism ay isang modernong estilo ng UI na gumagamit ng transparency, blur, at madulas na mga border upang lumikha ng epekto ng frosted glass.",
+      "adjustTitle": "I-adjust ang mga setting",
+      "blur": "Background blur",
+      "transparency": "Transparency",
+      "saturation": "Saturation",
+      "borderRadius": "Radius ng border",
+      "borderOpacity": "Opacity ng border",
+      "codeTitle": "CSS code",
+      "copy": "Kopyahin",
+      "copied": "Nakopya",
+      "infoTitle": "Mga tala tungkol sa kagawaan",
+      "infoDescription": "Ang property na backdrop-filter ay kailangan ng modernong suporta sa browser. Ang Firefox ay maaaring kailangan ng karagdagang setting, at ang Safari ay maaaring kailangan ng -webkit- prefix. Isipin ang mga pasadyang fallback para sa mga browser na hindi suportado."
+    },
+    "desktopShortcut": {
+      "title": "Website Desktop Shortcut",
+      "description": "Lumikha ng mga shortcut para sa desktop ng website at buksan ito nang maaga",
+      "enterUrl": "Ilagay ang isang tamang URL ng website",
+      "enterName": "Ilagay ang pangalan ng shortcut",
+      "redirectingTo": "Nagbubuksan {{name}}...",
+      "urlLabel": "Website URL",
+      "urlPlaceholder": "example.com o https://example.com",
+      "nameLabel": "Pangalan ng shortcut",
+      "namePlaceholder": "Shortcut ng website",
+      "downloadUrlFile": "I-download ang file .url",
+      "downloadHtmlFile": "I-download ang file .html",
+      "infoTitle": "Mga panuto",
+      "urlFileDesc": "Ang mga file .url ay Windows Internet Shortcut files at karaniwang nagbubuksan ang target na website direkta sa iyong default na browser.",
+      "htmlFileDesc": ".html files work across Windows, macOS, and Linux and can also be used as simple website shortcuts.",
+      "afterDownload": "After downloading, move the file to your desktop or pin it where needed."
+    },
+    "htmlPreview": {
+      "title": "HTML Preview",
+      "description": "Write and preview HTML online",
+      "defaultMessage": "Welcome to the HTML preview tool",
+      "editorTitle": "HTML Code",
+      "clear": "Clear",
+      "editorPlaceholder": "Enter HTML code here...",
+      "previewTitle": "Preview",
+      "run": "Run",
+      "fullscreen": "Fullscreen",
+      "exitFullscreen": "Exit fullscreen",
+      "usageTitle": "How to use",
+      "usageItems": [
+        "Enter complete HTML code in the editor on the left",
+        "Click Run to preview the result",
+        "Inline CSS and JavaScript are supported",
+        "Code runs inside a sandbox for safety"
+      ]
+    },
+    "pageRefresh": {
+      "title": "Auto Page Refresh",
+      "description": "Refresh a webpage automatically online",
+      "urlRequired": "Please enter a URL",
+      "urlPlaceholder": "Enter a URL, e.g. https://example.com",
+      "seconds": "segundo",
+      "start": "Simulan",
+      "stop": "Istop",
+      "quickSet": "Quick presets:",
+      "secondsValue": "{{count}}s",
+      "minutesValue": "{{count}} min",
+      "running": "Nagaganap",
+      "refreshIn": "Magsisimula ang pag-refresh sa {{count}} segundo",
+      "refreshedCount": "Nag-refresh na {{count}} beses",
+      "lastRefresh": "Huling pag-refresh: {{time}}",
+      "previewTitle": "Page preview",
+      "previewPlaceholder": "Enter a URL to start previewing",
+      "usageTitle": "How to use",
+      "usageItems": [
+        "Enter the webpage URL and set the refresh interval",
+        "Click Start to begin automatic refreshing",
+        "Some websites may not display inside an iframe due to security policies",
+        "Useful for monitoring page changes or keeping sessions active"
+      ]
+    },
+    "pxToRem": {
+      "title": "PX to REM Converter",
+      "description": "Batch convert PX units in CSS code to REM units",
+      "baseFontSize": "Root font size",
+      "precision": "Decimal precision",
+      "precisionOptions": {
+        "2": "2 digits",
+        "3": "3 digits",
+        "4": "4 digits",
+        "5": "5 digits"
+      },
+      "inputLabel": "Input CSS code",
+      "convertToRem": "PX to REM",
+      "convertToPx": "REM to PX",
+      "outputLabel": "Result",
+      "copy": "Copy",
+      "copied": "Copied",
+      "outputPlaceholder": "The conversion result will appear here...",
+      "quickReferenceTitle": "Quick reference (base: {{baseSize}}px)",
+      "whyUseRem": "Why use REM?",
+      "infoItems": [
+        "REM is relative to the root (html) font size",
+        "Using REM makes it easier to scale typography across a site",
+        "It helps with responsive design and accessibility"
+      ],
+      "formula": "Formula: rem = px / {{baseSize}}"
+    },
+    "shieldBadge": {
+      "title": "Shield Badge Generator",
+      "description": "Generate SVG Shield badges online",
+      "downloadFailed": "Download failed, please try again later",
+      "basicSettings": "Basic settings",
+      "labelField": "Label",
+      "messageField": "Message",
+      "color": "Color",
+      "style": "Style",
+      "logoSettings": "Logo settings",
+      "logo": "Logo",
+      "none": "None",
+      "logoColor": "Logo color",
+      "preview": "Preview",
+      "downloadSvg": "Download SVG",
+      "codeTitle": "Code",
+      "copiedToClipboard": "Copied to clipboard"
+    },
+    "robotsGenerator": {
+      "title": "robots.txt Generator",
+      "description": "Generate robots.txt files online",
+      "templatesLabel": "Quick templates:",
+      "templates": {
+        "allowAll": "Allow all",
+        "blockAll": "Block all",
+        "standard": "Standard config"
+      },
+      "ruleTitle": "Rule {{index}}",
+      "userAgents": {
+        "all": "* (all crawlers)",
+        "baidu": "Baiduspider (Baidu)",
+        "sogou": "Sogou"
+      },
+      "disallow": "Disallow paths",
+      "allow": "Allow paths",
+      "add": "Add",
+      "addRule": "Add rule",
+      "otherSettings": "Other settings",
+      "sitemapUrl": "Sitemap URL",
+      "crawlDelay": "Crawl-delay (seconds)",
+      "preview": "robots.txt Preview",
+      "copy": "Copy",
+      "copied": "Copied",
+      "saveTip": "Save this file as robots.txt and place it in your website root directory"
+    },
+    "emailEncrypt": {
+      "title": "Email Address Encoder",
+      "description": "Encode email addresses to reduce scraping by bots",
+      "inputLabel": "Email address",
+      "copy": "Copy",
+      "copied": "Copied",
+      "infoTitle": "Why encode an email address?",
+      "infoItems": [
+        "Reduce the risk of bots scraping your email address for spam",
+        "The encoded email can still display in the browser while being harder for bots to detect",
+        "Multiple encoding methods can be combined for stronger protection",
+        "It is still recommended to use server-side anti-spam measures"
+      ],
+      "results": {
+        "unicodeDecimal": {
+          "name": "Unicode decimal",
+          "description": "Convert characters to decimal Unicode entities"
+        },
+        "unicodeHex": {
+          "name": "Unicode hexadecimal",
+          "description": "Convert characters to hexadecimal Unicode entities"
+        },
+        "javascript": {
+          "name": "JavaScript output",
+          "description": "Render the email dynamically with JavaScript"
+        },
+        "mailto": {
+          "name": "Mailto link",
+          "description": "Generate an encoded mailto link"
+        },
+        "cssReverse": {
+          "name": "CSS reverse display",
+          "description": "Display the text in reverse order using CSS"
+        }
+      }
+    },
+    "workerDemo": {
+      "title": "Web Worker Performance Demo",
+      "description": "Compare calculation performance between Web Workers and the main thread",
+      "invalidInteger": "Please enter a valid positive integer",
+      "workerError": "Worker calculation error:",
+      "notice": "Notice",
+      "settingsTitle": "Calculation settings",
+      "inputLabel": "Input value",
+      "inputPlaceholder": "Enter a positive integer",
+      "operationLabel": "Operation",
+      "operations": {
+        "factorial": "Factorial (n!)",
+        "fibonacci": "Fibonacci sequence",
+        "prime": "Prime check",
+        "factorization": "Prime factorization"
+      },
+      "workerCalculate": "Calculate with Web Worker",
+      "mainThreadCalculate": "Calculate on main thread",
+      "comparisonTitle": "Performance comparison",
+      "workerResult": "Web Worker result",
+      "mainThreadResult": "Main thread result",
+      "resultLabel": "Result:",
+      "timeLabel": "Calculation time:",
+      "calculating": "Calculating...",
+      "emptyState": "Click a button above to start calculating",
+      "infoTitle": "Why use Web Workers?",
+      "workerFeaturesTitle": "Web Worker features",
+      "workerFeatures": [
+        "Runs in a background thread without blocking the main thread",
+        "Ideal for heavy computation tasks",
+        "Keeps the UI responsive",
+        "Supports parallel processing"
+      ],
+      "useCasesTitle": "Use cases",
+      "useCases": [
+        "Large data processing",
+        "Complex algorithms",
+        "Image processing",
+        "Encryption and decryption"
+      ]
+    },
+    "jsDebug": {
+      "title": "JS Debugger",
+      "description": "I-run at debug ang JavaScript online",
+      "defaultCode": "// Isulat ang JavaScript code dito\nconsole.log(\"Hello, World!\");\n\n// Halimbawa: Pagpoproseso ng array\nconst numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(n => n * 2);\nconsole.log(\"Orihinal na array:\", numbers);\nconsole.log(\"Dinoble ang mga bilang:\", doubled);\n\n// Halimbawa: Objekto\nconst user = {\n  name: \"Zhang San\",\n  age: 25,\n  city: \"Beijing\"\n};\nconsole.log(\"Impormasyon ng user:\", user);\n\n// Halimbawa: Asynchronous operation\nsetTimeout(() => {\n  console.log(\"Gagawin pagkatapos ng isang segundo\");\n}, 1000);",
+      "editorTitle": "JavaScript Code",
+      "copy": "Kopyahin",
+      "copied": "Nakopya!",
+      "clear": "Linisin",
+      "placeholder": "Ilagay ang JavaScript code dito...",
+      "run": "I-run ang code",
+      "consoleTitle": "Output sa Console",
+      "consolePlaceholder": "Ang output sa console ay lalabas dito...",
+      "usageTitle": "Paano gamitin",
+      "usageItems": [
+        "Gamitin ang console.log(), console.error(), at console.warn() para maglabas ng mensahe",
+        "Sumusuporta sa ES6+ syntax tulad ng arrow functions, destructuring, at template strings",
+        "Sumusuporta sa asynchronous operations tulad ng setTimeout at Promise",
+        "Ang code ay tumatakbo sa isang sandbox at hindi makakapunta sa DOM o external resources"
+      ]
+    },
+    "formValidationDemo": {
+      "title": "Demo ng Form Validation",
+      "description": "Nagpapakita ng kumpleto na form validation, kasama ang live validation, error prompts, at data cleanup",
+      "validation": {
+        "username": "Ang username ay maaaring maglaman lamang ng mga letra, numero, at underscore, at dapat 3-20 characters long",
+        "phone": "Ilagay ang tamang mobile number",
+        "age": "Ang edad ay dapat nasa pagitan ng 1 hanggang 120",
+        "idCard": "Ilagay ang tamang ID card number",
+        "address": "Ang address ay dapat di lumampas sa 200 characters",
+        "bio": "Ang bio ay dapat di lumampas sa 500 characters"
+      },
+      "submitSuccess": "Nakatapos ang form validation! Ang submitted data:",
+      "quickTestTitle": "Mabilis na pagsubok ng validation",
+      "quickLabels": {
+        "email": "Email validation",
+        "phone": "Phone validation",
+        "url": "URL validation"
+      },
+      "quickPlaceholders": {
+        "email": "Ilagay ang email address",
+        "phone": "Ilagay ang phone number",
+        "url": "Ilagay ang URL"
+      },
+      "valid": "Tama",
+      "invalid": "Hindi tama",
+      "formTitle": "Buong form validation",
+      "placeholders": {
+        "username": "Username (mga letra, numero, underscore)",
+        "email": "Email address",
+        "phone": "Mobile number",
+        "website": "Personal website (opsyonal)",
+        "age": "Edad",
+        "idCard": "ID card number",
+        "address": "Detalyadong address (opsyonal)",
+        "bio": "Bio (opsyonal, di lumampas sa 500 characters)"
+      },
+      "success": {
+        "username": "Ang format ng username ay tama",
+        "email": "Ang format ng email ay tama",
+        "phone": "Ang format ng phone number ay tama",
+        "website": "Ang format ng URL ay tama",
+        "age": "Ang edad ay tama",
+        "idCard": "Ang format ng ID card ay tama",
+        "address": "Ang address ay tama",
+        "bio": "Ang bio ay tama"
+      },
+      "submit": "I-submit ang form",
+      "summaryTitle": "Summary ng validation",
+      "fieldLabels": {
+        "username": "Username",
+        "email": "Email",
+        "phone": "Phone",
+        "website": "Website",
+        "age": "Edad",
+        "idCard": "ID Card",
+        "address": "Address",
+        "bio": "Bio"
+      },
+      "summaryStatus": {
+        "failed": "Nabigo ang validation",
+        "passed": "Natapos ang validation",
+        "empty": "Di nakakompleto"
+      },
+      "infoTitle": "Mga tampok ng form validation",
+      "infoItems": [
+        {
+          "title": "Live validation",
+          "description": "Nagsusuri sa format habang nag-typing at i-validate uli kapag nasa blur"
+        },
+        {
+          "title": "Maraming uri ng patakaran",
+          "description": "Sumusuporta sa required fields, checks sa haba, regular expressions, at custom validation"
+        },
+        {
+          "title": "Visual feedback",
+          "description": "Nagpapakita ng estado ng validation nang malinaw gamit ang kulay, icon, at mensahe"
+        },
+        {
+          "title": "Data cleanup",
+          "description": "Automatically trims at normalizes ang submitted data"
+        },
+        {
+          "title": "Mga helpful error prompts",
+          "description": "Nagbibigay ng user-friendly guidance para ma-correct ang input"
+        },
+        {
+          "title": "Accessibility support",
+          "description": "Nakakatulong na panatilihin ang mga form usable para sa lahat ng users"
+        }
+      ]
+    },
+    "faviconGenerator": {
+      "title": "Favicon Generator",
+      "description": "Mag-convert ng imahe sa website favicon icons",
+      "historyTitle": "Favicon Generator",
+      "historyCategory": "Image Tools",
+      "uploadImageFile": "Mangyaring i-upload ang isang imahe file",
+      "generateFailed": "Nabigo ang paggawa ng icon, mangyaring subukan muli",
+      "uploadTitle": "I-upload ang imahe",
+      "uploadAria": "I-upload ang isang imahe file",
+      "dropzoneAria": "Pindutin para i-upload ang imahe, sumusuporta sa PNG, JPG, SVG at iba pa",
+      "dropRelease": "I-release para i-upload ang imahe",
+      "dropClick": "Pindutin o ilipat ang imahe dito",
+      "supportFormats": "Sumusuporta sa PNG, JPG, SVG at iba pa",
+      "clearImage": "Tanggalin ang imahe",
+      "clearImageTitle": "Tanggalin ang imahe (Ctrl+L)",
+      "settingsTitle": "Mga setting",
+      "removeBackground": "Tanggalin ang background color ng imahe",
+      "removeColor": "Color na tanggalin",
+      "removeColorPicker": "Pumili ng background color na tanggalin",
+      "removeColorValue": "Background color value na tanggalin",
+      "tolerance": "Tolerance: {{value}}",
+      "toleranceAria": "Color tolerance",
+      "toleranceTip": "Mas mataas ang tolerance upang tanggalin ang mas malawak na range ng kulay",
+      "transparentBackground": "Transparent background",
+      "transparentTip": "Note: Kung ang orihinal na imahe ay may background color, i-on ang ?Tanggalin ang background color ng imahe?.",
+      "backgroundColor": "Background color",
+      "backgroundColorPicker": "Pumili ng background color",
+      "backgroundColorValue": "Background color value",
+      "selectSize": "Pumili ng sukat",
+      "selectedState": " (nakapili)",
+      "sizeAria": "{{size}}x{{size}} pixel size{{state}}",
+      "toggleSizeTitle": "I-toggle ang {{size}}x{{size}} size (Alt+{{shortcut}})",
+      "previewTitle": "Preview",
+      "generating": "Ginagawa...",
+      "downloadSizeAria": "I-download ang {{size}}x{{size}} icon",
+      "download": "I-download",
+      "uploadFirst": "Mangyaring i-upload ang imahe bago ang anumang bagay",
+      "downloadTitle": "I-download",
+      "downloadAllPng": "I-download ang lahat ng sukat (PNG)",
+      "downloadAllPngTitle": "I-download ang lahat ng PNG sizes (Ctrl+Enter)",
+      "downloadIco": "I-download ang favicon.ico",
+      "downloadIcoTitle": "I-download ang favicon.ico (Alt+I)",
+      "usageTitle": "Paano gamitin",
+      "usageItems": [
+        "Tanggalin ang background color: tanggalin ang solid backgrounds tulad ng gray o white",
+        "Tolerance: itataas ang tolerance upang tanggalin ang magkakaibang kulay, useful para sa gradient backgrounds",
+        "16x16: browser tab icon",
+        "32x32: taskbar shortcut icon",
+        "48x48: Windows website shortcut",
+        "Ilagay ang generated icon sa root directory ng website mo"
+      ]
+    }
+  },
+  "components": {
+    "toolHistory": {
+      "usageCount": "Ginamit {{count}} beses",
+      "recentUsed": "Huling ginamit: {{value}}",
+      "removeFavorite": "Tanggalin sa mga favorite",
+      "addFavorite": "Idagdag sa mga favorite",
+      "removeRecord": "Tanggalin ang record",
+      "emptyHistory": "Wala pang history ng tool",
+      "confirmClear": "Siguro ka bang gusto mag-clear lahat ng tool history?",
+      "tabs": {
+        "recent": "Recent",
+        "favorites": "Favorites",
+        "mostUsed": "Pinaka Ginagamit"
+      },
+      "title": "Tool History",
+      "clearHistory": "I-clear ang history",
+      "searchPlaceholder": "Maghanap ng history...",
+      "emptyMessages": {
+        "recent": "Wala pang recent usage records",
+        "favorites": "Wala pang favorite tools",
+        "mostUsed": "Wala pang pinaka-ginagamit na tools"
+      }
+    },
+    "exportFormatSelector": {
+      "buttonText": "I-export ang resulta",
+      "exporting": "I-export...",
+      "exportFailed": "Nabigo ang pag-export, mangyaring subukan muli"
+    },
+    "ads": {
+      "loading": "Naglo-load ang mga ad...",
+      "carouselTitle": "Ad carousel",
+      "checkConsole": "Mangyaring tingnan ang browser console para sa detalyadong logs"
+    },
+    "networkStatus": {
+      "online": "Online",
+      "offline": "Offline",
+      "connected": "Nakonekta ang network",
+      "disconnected": "Nakabreak ang network",
+      "connectedDescription": "Lahat ng mga tampok ay magagamit na",
+      "disconnectedDescription": "Maaaring hindi magagamit ang ilang mga tampok. Paki-check ang iyong koneksi sa network.",
+      "requestFailed": "Nabigo ang kahilingan"
+    },
+    "keyboardShortcutsHelp": {
+      "title": "Mga Shortcut ng Keyboard",
+      "close": "Isara",
+      "toggleDescription": "Ipakita o itago ang tulong sa shortcut ng keyboard",
+      "helpTextBefore": "Pindutin ang",
+      "helpTextMiddle": "o",
+      "helpTextAfter": "upang ipakita o itago ang tulong na ito",
+      "tipTitle": "Mga Tip",
+      "tipItems": [
+        "Ang mga label ng shortcut ay maaaring tila kaibang-iba sa iba't ibang operating system",
+        "Ang ilang mga shortcut ay maaaring magkakasundo sa mga shortcut ng browser",
+        "Gamitin ang key na Tab para lumipat sa mga nakadireksyon na elemento",
+        "Pindutin ang Enter upang i-activate ang mga button at link"
+      ],
+      "closeEsc": "Isara (ESC)"
+    },
+    "performanceDashboard": {
+      "title": "Performance Dashboard",
+      "startMonitoring": "Simulan ang pagmamasid",
+      "stopMonitoring": "Humingi ng pagmamasid",
+      "exportReport": "I-export ang ulat",
+      "notMeasured": "Hindi nasukat",
+      "metrics": {
+        "fcp": "First Contentful Paint",
+        "lcp": "Largest Contentful Paint",
+        "fid": "First Input Delay",
+        "cls": "Cumulative Layout Shift",
+        "ttfb": "Time to First Byte"
+      },
+      "memoryTitle": "Paggamit ng Memorya",
+      "memory": {
+        "used": "Ginamit na memorya",
+        "total": "Kabuuang memorya",
+        "usageRate": "Rate ng paggamit"
+      },
+      "tipsTitle": "Mga tip para sa pag-optimize",
+      "tips": [
+        "Gamitin ang app nang normal habang nagmamasid; ang data ay magbabago nang real-time",
+        "Ang FCP < 1.8s, LCP < 2.5s, FID < 100ms, at CLS < 0.1 ay tinuturing na maganda",
+        "Kung ang paggamit ng memorya ay umabot sa 80%, isipin ang pag-optimize ng code",
+        "Maaari mong i-export ang detalyadong ulat para sa mas malalim na pagsusuri"
+      ],
+      "emptyState": "Pindutin ang ?Simulan ang pagmamasid? upang magsimula ng pag-aaral ng performance"
+    }
+  }
+}

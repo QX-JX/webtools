@@ -1,0 +1,2730 @@
+{
+  "common": {
+    "home": "வீடு",
+    "websiteDetection": "வலைத்தள சோதனைகள்",
+    "seoTools": "SEO கருவிகள்",
+    "devTools": "பயனர் கருவிகள்",
+    "encodingConversion": "அமைப்பு கருவிகள்",
+    "otherTools": "மற்ற கருவிகள்",
+    "feedback": "தக்க செயலுந்து",
+    "customization": "சொந்த தீர்வுகள் / எங்களை தொடர்பு கொள்ளுங்கள்",
+    "back": "திரும்பி",
+    "appName": "எல்லாவற்றையும் ஒன்றாக வலை முதலாளர் கருவிகள்",
+    "brandName": "ஒரு குன்கியோங் தயாரிப்பு",
+    "loading": "ஏற்றும்...",
+    "processing": "செயல்பாடு",
+    "processingDescription": "உங்கள் தரவை செயல்படுத்த நாங்கள் காதிர்க்கிறோம்...",
+    "inProgress": "நடைபெறுகிறது",
+    "search": "தேடு கருவிகள்...",
+    "my": "எனது",
+    "menu": "கொண்டிரு",
+    "settings": "அமைப்புகள்",
+    "all": "அனைத்து",
+    "category": "பிரிவு",
+    "noToolsFound": "மேலும் கருவிகள் கிடைக்கவில்லை",
+    "recommended": "இயக்கப்பட்டது",
+    "usageCount": "இந்த முறை {{count}} முறைகள்",
+    "toolsCount": "{{count}} கருவிகள்",
+    "export": "வெளியேற்று",
+    "usageInstructions": "பயன்பாடு அறிவுரைகள்"
+  },
+  "auth": {
+    "login": "உள்நுழையவும்",
+    "logout": "வெளியேறு",
+    "userInfo": "பயனர் தகவல்",
+    "nickname": "மாற்று பெயர்",
+    "avatar": "அவதாரம்",
+    "user": "பயனர்",
+    "loggedIn": "உள்நுழைந்துள்ளது",
+    "loggingOut": "வெளியேறும்...",
+    "loggingIn": "உள்நுழையும்...",
+    "loginInstructions": "உங்கள் பிரௌசரில் உள்நுழைய முடிவு செய்யவும்",
+    "cancelLogin": "உள்நுழைவை ரத்து செய்யுங்கள்",
+    "loginFailed": "உள்நுழைவு தோல்வியடைந்தது",
+    "retry": "மீண்டும் முயற்சி செய்யுங்கள்",
+    "close": "மூடு",
+    "loginDescription": "கீழே உள்ள பொத்தானை கிளிக் செய்து உங்கள் பிரௌசரில் உள்நுழைவு பக்கத்தை திறக்கவும். உங்கள் உள்நுழைவை முடித்த பின், அப்ளிகேஷன் உங்கள் உள்நுழைவு நிலையை தானாக சின்க் செய்யும்.",
+    "loginTip": "சிறப்பு: உள்நுழைவு செயல்முறையின் போது உங்கள் பிரௌசர் திறந்து இருக்க உறுதிப்படுத்தவும்.",
+    "openBrowserLogin": "பிரௌசர் உள்நுழைவை திறக்கவும்",
+    "cancel": "ரத்து செய்யுங்கள்",
+    "loginReminder": "உள்நுழைவு நினைவூட்டல்",
+    "loginRequiredTitle": "உள்நுழைவு தேவை",
+    "loginRequiredDescription": "இந்த செயல்முறையை பயன்படுத்த உங்கள் உள்நுழைவு தேவை. உள்நுழைந்த பின், நீங்கள் முழு சேவை அனுபவத்தை பெறலாம்.",
+    "loginActionDescription": "கீழே உள்ள பொத்தானை கிளிக் செய்து உள்நுழைவு பக்கத்தை திறக்கவும், அங்கு உள்நுழைவை முடிக்கவும்.",
+    "loginNow": "இப்போது உள்நுழையுங்கள்",
+    "loginBenefit": "எல்லா செயல்களை பயன்படுத்த உள்நுழையவும்",
+    "errors": {
+      "getLoginUrlFailed": "உள்நுழைவு URL ஐ பெற தோல்வியடைந்தது: {{message}}",
+      "getLoginUrlException": "உள்நுழைவு URL ஐ பெறும் போது பிழை: {{error}}",
+      "loginCancelled": "உள்நுழைவு ரத்து செய்யப்பட்டது",
+      "pollingAbnormal": "போல்லிங் செயலில் அசாதாரண பதில் கிடைத்தது: {{message}}",
+      "pollingFailed": "போல்லிங் தோல்வியடைந்தது: {{error}}",
+      "loginTimeout": "உள்நுழைவு நேரம் முடிந்தது",
+      "checkLoginStatusFailed": "உள்நுழைவு நிலையை செயல்படுத்த தோல்வியடைந்தது, நிலை குறியீடு: {{status}}",
+      "checkLoginException": "உள்நுழைவு நிலையை செயல்படுத்தும் போது பிழை",
+      "getUserInfoFailed": "பயனர் தகவலை பெற தோல்வியடைந்தது: {{message}}",
+      "getUserInfoException": "பயனர் தகவலை பெறும் போது பிழை: {{error}}",
+      "logoutFailed": "வெளியேறும் தோல்வியடைந்தது: {{message}}",
+      "logoutException": "வெளியேறும் போது பிழை: {{error}}",
+      "getFeedbackUrlFailed": "தொடர்பு கொள்ளும் URL ஐ பெற தோல்வியடைந்தது: {{message}}",
+      "getFeedbackUrlException": "தொடர்பு கொள்ளும் URL ஐ பெறும் போது பிழை: {{error}}"
+    }
+  },
+  "favorite": {
+    "add": "அனுப்பி வைக்கவும்",
+    "remove": "நீக்கவும்",
+    "label": "அனுப்பி வைக்கப்பட்டது",
+    "failed": "செயல்முறை தோல்வியடைந்தது"
+  },
+  "errors": {
+    "fetchCustomUrlFailed": "சொந்த பக்க கோப்பை பெற தோல்வியடைந்தது:",
+    "fetchFeedbackUrlFailed": "தொடர்பு கொள்ளும் பக்க கோப்பை பெற தோல்வியடைந்தது:",
+    "copyFailed": "நகல் செய்ய தோல்வியடைந்தது",
+    "networkError": "வலை தொடர்பு பிழை",
+    "somethingWentWrong": "ஏதோ தவறாக இருக்கிறது",
+    "unexpectedError": "துரதிஷ்டவசமாக, எதிர்பாராத பிழை ஏற்பட்டது",
+    "noData": "விவரங்கள் கிடைக்கவில்லை",
+    "noRelatedData": "தொடர்புடைய விவரங்கள் கிடைக்கவில்லை",
+    "noAds": "அறிவிப்புகள் கிடைக்கவில்லை",
+    "fetchAdsError": "அறிவிப்புகளை பெற தோல்வியடைந்தது",
+    "lookupFailed": "தேடு தோல்வியடைந்தது"
+  },
+  "tools": {
+    "csr": {
+      "title": "CSR ஜெனரேட்டர் & பார்வையாளர்",
+      "description": "ஆன்லைனில் CSR கோப்புகளை உருவாக்கவும் மற்றும் பார்க்கவும்"
+    },
+    "whois": {
+      "title": "டொமைன் WHOIS தேடு",
+      "description": "ஆன்லைனில் WHOIS தகவல்கள் மற்றும் டொமைன் பதிவு விவரங்களை சோதிக்கவும்"
+    },
+    "dns": {
+      "title": "DNS ரெக்கார்டு தேடு",
+      "description": "A, MX, CNAME, முதலியவை போன்ற DNS ரெக்கார்டுகளை ஆன்லைனில் தேடவும்"
+    },
+    "dnsEnhanced": {
+      "title": "DNS ரெக்கார்டு தேடு (மேம்படுத்தப்பட்ட)",
+      "description": "பெரிய ரெக்கார்டு கண்ணியில் வரிசை மேம்படுத்தப்பட்ட டிஎன்எஸ் தேடு"
+    },
+    "httpStatus": {
+      "title": "HTTP நிலை செக்கர்",
+      "description": "வலைப்பக்கங்களுக்கான HTTP நிலை குறியீடுகளை ஆய்வு செய்ய இலவச ஆன்லைன் கருவி"
+    },
+    "gzip": {
+      "title": "Gzip குறுக்கம் செக்கர்",
+      "description": "வலைப்பக்கம் GZIP-குறுக்கம் செய்யப்பட்டுள்ளதா என்பதை சோதிக்கவும் மற்றும் அதன் குறுக்கம் விகிதத்தை பார்க்கவும்"
+    },
+    "ssl": {
+      "title": "SSL சர்டிஃபிகேட் செக்கர்",
+      "description": "வலைப்பக்கங்களில் SSL சர்டிஃபிகேட் விவரங்கள் மற்றும் செல்லுபடியாகும் காலத்தை ஆய்வு செய்யவும்"
+    },
+    "browserInfo": {
+      "title": "பயனர் பிரௌசர் தகவல்",
+      "description": "உங்கள் தற்போதைய பிரௌசரின் விரிவான தகவலை பார்க்க இலவச கருவி"
+    },
+    "useragent": {
+      "title": "User-Agent பகுப்பாய்வாளர்",
+      "description": "User-Agent சரியிலிருந்து பிரௌசர் மற்றும் சாதன தகவல்களை பகுப்பாய்வு செய்யவும்"
+    },
+    "websocket": {
+      "title": "WebSocket டெஸ்டர்",
+      "description": "இலவச ஆன்லைன் WebSocket API சோதனை கருவி"
+    },
+    "viewSource": {
+      "title": "பக்க மூலத்தை பார்க்கவும்",
+      "description": "வலைப்பக்க மூல குறியீட்டை ஆன்லைனில் பார்க்கவும்"
+    },
+    "metaGenerator": {
+      "title": "Meta டேக் ஜெனரேட்டர்",
+      "description": "ஆன்லைனில் வலைப்பக்க மெடா டேக்குகளை உருவாக்கவும்"
+    },
+    "metaCheck": {
+      "title": "META டேக் செக்கர்",
+      "description": "வலைப்பக்கத்தில் META டேக் தகவலை ஆய்வு செய்யவும்"
+    },
+    "robots": {
+      "title": "robots.txt ஜெனரேட்டர்",
+      "description": "ஆன்லைனில் robots.txt கோப்புகளை உருவாக்கவும்"
+    },
+    "emailEncrypt": {
+      "title": "மின்னஞ்சல் முகவரி குறியீடு",
+      "description": "சுருக்கமாக சுருக்கமாக மின்னஞ்சல் முகவரிகளை குறியீடு செய்யவும்"
+    },
+    "phpReference": {
+      "title": "PHP செயல்முறை விளக்கம்",
+      "description": "PHP செயல்முறைகளுக்கான ஆன்லைன் விளக்கம்"
+    },
+    "htmlPreview": {
+      "title": "HTML முன்னோட்டம்",
+      "description": "ஆன்லைன் HTML தொகுப்பு மற்றும் முன்னோட்ட கருவி"
+    },
+    "jsDebug": {
+      "title": "JS தொகுப்பாய்வாளர்",
+      "description": "JavaScript ஐ ஓடவைக்கவும் மற்றும் தொகுப்பாய்வு செய்யவும்"
+    },
+    "shieldBadge": {
+      "title": "Shield பட்டை ஜெனரேட்டர்",
+      "description": "ஆன்லைனில் SVG Shield பட்டைகளை உருவாக்கவும்"
+    },
+    "favicon": {
+      "title": "Favicon ஜெனரேட்டர்",
+      "description": "அச்சு பாதுகாப்பான ஆன்லைன் favicon மாற்று கருவி"
+    },
+    "cssGlassmorphism": {
+      "title": "CSS Glassmorphism ஜெனரேட்டர்",
+      "description": "ஒரு கிளிக்கில் CSS glassmorphism குறியீட்டை உருவாக்கவும்"
+    },
+    "cssNeumorphism": {
+      "title": "Neumorphism CSS ஜெனரேட்டர்",
+      "description": "ஒரு கிளிக்கில் neumorphism CSS பொறியியல் உதாரணங்களை உருவாக்கவும்"
+    },
+    "pxToRem": {
+      "title": "PX முதல் REM மாற்றி",
+      "description": "CSS இல் PX அலகுகளை மொத்தமாக REM ஆக மாற்றவும்"
+    },
+    "cssBorderRadius": {
+      "title": "CSS Border Radius ஜெனரேட்டர்",
+      "description": "விரிவான சுற்று எல்லை பொறியியலை முன்னோட்டம் செய்யவும்"
+    },
+    "cssTextShadow": {
+      "title": "CSS Text Shadow ஜெனரேட்டர்",
+      "description": "CSS text-shadow குறியீட்டை முன்னோட்டம் செய்யவும் மற்றும் உருவாக்கவும்"
+    },
+    "cssBoxShadow": {
+      "title": "Box Shadow ஜெனரேட்டர்",
+      "description": "div ஷாட்டுகளை முன்னோட்டம் செய்யவும் மற்றும் CSS குறியீட்டை உருவாக்கவும்"
+    },
+    "base64": {
+      "title": "Base64 Encode/Decode",
+      "description": "ஆன்லைன் Base64 குறியீடு / குறியீடு திறன்"
+    },
+    "urlEncode": {
+      "title": "URL Encode/Decode",
+      "description": "ஆன்லைன் URL குறியீடு / குறியீடு திறன்"
+    },
+    "htmlEntity": {
+      "title": "HTML Entity Encode/Decode",
+      "description": "ஆன்லைன் HTML உருவியல் குறியீடு / குறியீடு திறன்"
+    },
+    "jsMinify": {
+      "title": "JS Minify & Beautify",
+      "description": "ஆன்லைன் JavaScript minification மற்றும் beautification கருவி"
+    },
+    "cssMinify": {
+      "title": "CSS Minify & Beautify",
+      "description": "ஆன்லைன் CSS minification மற்றும் beautification கருவி"
+    },
+    "desktopShortcut": {
+      "title": "வலைத்தள டெஸ்க்டாப் சின்னத்தை உருவாக்கவும்",
+      "description": "விரைவான அணுகலுக்கு வலைத்தளத்திற்கான டெஸ்க்டாப் சின்னத்தை உருவாக்கவும்"
+    },
+    "pageRefresh": {
+      "title": "ஆடியோ பக்க திரும்ப செயல்பாடு",
+      "description": "திட்டமிடப்பட்ட நேரத்தில் வெளியில் வலைப்பக்கத்தை மீட்டெழுப்பவும்"
+    },
+    "httpCodes": {
+      "title": "HTTP நிலை குறியீடுகள்",
+      "description": "HTTP நிலை / பதில் குறியீடுகளுக்கான ஆன்லைன் விளக்கம்"
+    },
+    "workerDemo": {
+      "title": "Web Worker செயல்திறன் மாதிரி",
+      "description": "நிலையான பணிகளுக்கு Web Workers செயல்திறனை மேம்படுத்தும் விளைவை காண்க"
+    },
+    "formValidation": {
+      "title": "வடிவம் சரிபார்ப்பு காட்சி",
+      "description": "வாடிக்கையாளர் ஆதரவுடன் முழு வடிவம் சரிபார்ப்பை காட்டுகிறது"
+    }
+  },
+  "categories": {
+    "detection": "வலைத்தள சோதனைகள்",
+    "seo": "SEO கருவிகள்",
+    "dev": "பயனர் கருவிகள்",
+    "encode": "அகற்சி கருவிகள்",
+    "other": "மற்ற கருவிகள்"
+  },
+  "kunqiongNav": {
+    "home": "முகப்பு",
+    "aiTools": "AI கருவிகள்",
+    "office": "அலுவாட்டம்",
+    "multimedia": "பல்லீரை ஊடகங்கள்",
+    "development": "பயனர் கருவிகள்",
+    "text": "எழுத்து",
+    "file": "கோப்புகள்",
+    "system": "முறைமை",
+    "life": "வாழ்க்கை",
+    "news": "AI செய்திகள்",
+    "custom": "தனியாக உருவாக்கப்பட்ட நிரலாக்கம்",
+    "consult": "ஆலோசனை",
+    "industryNews": "தொழில் செய்திகள்",
+    "feedback": "ஆதரவு",
+    "imageGen": "படம் உருவாக்கம்",
+    "codeDev": "குறியீடு & அபிவிருத்தி",
+    "logoAlt": "Kunqiong AI கருவி பெட்டி",
+    "footerLogoAlt": "Kunqiong AI",
+    "loginRegister": "உள்நுழையவும் / பதிவு செய்யவும்",
+    "navExpandAria": "விரிவாக்கு",
+    "navSearchAria": "தேடு",
+    "navMenuAria": "பட்டியல்"
+  },
+  "footer": {
+    "description": "வலைத்தள சோதனைகள், SEO கருவிகள், பயனர் கருவிகள் மற்றும் பிற கருவிகளுடன் ஒரு தொழில்முறை முழுமையான வலை முறைமை கருவி பெட்டி.",
+    "kunqiongBrandDesc": "நாங்கள் தனிநபர்கள் மற்றும் நிறுவனங்களுக்கு குறியீடு கருவிகள் மற்றும் ஆலோசனை சேவைகளை வழங்க உறுதியளிக்கின்றோம், க௃த்துக்கள் மற்றும் கணினி அறிவியல் காலத்தில் உங்களை போட்டியிட உதவ வேண்டும்.",
+    "toolCategories": "கருவி பிரிவுகள்",
+    "quickLinks": "விரைவான இணைப்புகள்",
+    "contactTitle": "எங்களை தொடர்பு கொள்ளுங்கள்",
+    "contactCompany": "ஜியாங்சி ஹெக்ஸாகன் ஸ்டார் டெக்னாலஜி கோ., லிமிடெட்",
+    "contactPhone": "17770307066",
+    "contactRegion": "ஷாங்ராவோ, ஜியாங்சி, சீனா",
+    "contactEmail": "11247931@qq.com",
+    "copyrightLine": "© 2026 Kunqiong AI கருவிகள். அனைத்து உரிமைகளும் காத்திருக்கின்றன.",
+    "userAgreement": "பயன்பாடு கொள்கை",
+    "privacyPolicy": "தனியுரிமை கொள்கை",
+    "brandAI": "Kunqiong AI தயாரிப்பு",
+    "brandAlt": "Kunqiong"
+  },
+  "validation": {
+    "required": "{{field}} கட்டாயமாக உள்ளது",
+    "minLength": "{{field}} {{count}} எழுத்துகள் குறைந்தது இருக்க வேண்டும்",
+    "maxLength": "{{field}} {{count}} எழுத்துகள் அதிகபட்சம் இருக்க வேண்டும்",
+    "invalidFormat": "{{field}} செல்லுபடியாகாத வடிவம்",
+    "email": "தயவுசெய்து செல்லுபடியாகும் மின்னஞ்சல் முகவரியை உள்ளிடவும்",
+    "url": "தயவுசெய்து செல்லுபடியாகும் URL ஐ உள்ளிடவும்",
+    "domain": "தயவுசெய்து செல்லுபடியாகும் டொமைனை உள்ளிடவும்",
+    "ip": "தயவுசெய்து செல்லுபடியாகும் IP முகவரியை உள்ளிடவும்",
+    "phone": "தயவுசெய்து செல்லுபடியாகும் தொலைபேசி எண்ணை உள்ளிடவும்",
+    "password": "பாஸ்வேர்ட் மேல் மற்றும் கீழ் எழுத்துகள் மற்றும் எண்களை கொண்டிருக்க வேண்டும், மற்றும் 6-20 எழுத்துகள் நீளம் கொண்டிருக்க வேண்டும்"
+  },
+  "exporter": {
+    "unsupportedFormat": "ஆதரிக்கப்படாத கொண்டிருக்கும் வடிவம்: {{format}}",
+    "csvRequiresArrayOrObject": "CSV கொண்டிருக்கும் ஒரு பட்டியல் அல்லது ஒரு பொருள் தேவை",
+    "toolUsageInfo": "கருவி பயன்பாடு தகவல்",
+    "tool": "கருவி",
+    "time": "நேரம்",
+    "url": "URL",
+    "version": "பதிப்பு",
+    "dnsReportTitle": "DNS தேடல் அறிக்கை",
+    "dnsReportDescription": "விரிவான DNS பதிவு தகவல்",
+    "summaryTitle": "சுருக்கம்",
+    "domain": "டொமைன்",
+    "recordCount": "மொத்த பதிவுகள்",
+    "recordCountValue": "{{count}} பதிவுகள்",
+    "queryTime": "கேள்வி நேரம்",
+    "typeDescriptions": {
+      "A": "IPv4 முகவரி பதிவு",
+      "AAAA": "IPv6 முகவரி பதிவு",
+      "MX": "மின்னஞ்சல் சர்வர் பதிவு",
+      "TXT": "தெரிவு பதிவு",
+      "CNAME": "மாற்று பதிவு",
+      "NS": "இணைய சர்வர் பதிவு",
+      "SOA": "அதிகார பதிவு"
+    },
+    "record": "பதிவு",
+    "otherRecords": "மற்ற பதிவுகள்",
+    "recordIndex": "பதிவு {{index}}",
+    "priority": "முன்னுரிமை",
+    "class": "வகை",
+    "exportData": "கொண்டிருக்கும் தகவல்",
+    "dnsToolName": "DNS தேடல் கருவி",
+    "exportInfo": "கொண்டிருக்கும் தகவல்",
+    "exportTime": "கொண்டிருக்கும் நேரம்",
+    "formats": {
+      "json": "செயலிகள் செயலாக்க எளிய அமைப்பு வடிவம்",
+      "csv": "நிலையான வடிவம், Excel க்கு இறக்கும் தகுதியானது",
+      "txt": "தெளிவான எழுத்து வடிவம், எளிதாக படிக்க முடியும்",
+      "xml": "மாற்று வடிவம், தகவல் பரிமாற்றத்திற்கு தகுதியானது",
+      "pdf": "காகித வடிவம், அச்சிட மற்றும் பகிர தகுதியானது"
+    }
+  },
+  "base64": {
+    "title": "Base64 Encode/Decode",
+    "description": "ஆன்லைன் Base64 குறியீடு மற்றும் குறியீடு தீர்வு கருவி",
+    "encode": "குறியீடு",
+    "decode": "குறியீடு தீர்வு",
+    "originalText": "தொடக்க எழுத்து",
+    "base64String": "Base64 சரம்",
+    "base64Result": "Base64 முடிவு",
+    "decodeResult": "குறியீடு தீர்வு முடிவு",
+    "placeholderEncode": "குறியீடு செய்ய உள்ளிடவும்...",
+    "placeholderDecode": "Base64 குறியீடு தீர்வு செய்ய உள்ளிடவும்...",
+    "resultPlaceholder": "முடிவு இங்கு காணப்படும்...",
+    "inputPlaceholder": "மாற்ற கண்டுபிடிக்க உள்ளிடவும்",
+    "decodeError": "குறியீடு தீர்வு தோல்வியடைந்தது. உள்ளிடல் Base64 செல்லுபடியாகும் என்பதை சரிபார்க்கவும்.",
+    "encodeError": "குறியீடு தோல்வியடைந்தது",
+    "charCount": "{{count}} எழுத்துகள்",
+    "clear": "உள்ளிடலை அழி",
+    "copy": "முடிவை நகல் செய்",
+    "copied": "நகல் செய்யப்பட்டது",
+    "convert": "இப்போது மாற்றவும்",
+    "swap": "மாற்ற முறை",
+    "ariaLabel": "Base64 குறியீடு/குறியீடு கருவி",
+    "modeSelection": "மாற்று முறை தேர்வு",
+    "encodeMode": "குறியீடு முறை",
+    "decodeMode": "குறியீடு தீர்வு முறை",
+    "inputLabelEncode": "குறியீடு செய்ய எழுத்து",
+    "inputLabelDecode": "குறியீடு தீர்வு செய்ய குறியீடு",
+    "outputLabelEncode": "Base64 குறியீடு முடிவு",
+    "outputLabelDecode": "Base64 குறியீடு தீர்வு முடிவு",
+    "whatIsBase64": "Base64 என்றால் என்ன?",
+    "base64Info": "Base64 என்பது 64 பெயரிடப்பட்ட குறியீடுகளை பயன்படுத்தி பைனரி தகவலை சின்னங்களாக குறியீடு செய்யும் முறை ஆகும். இது மின்னஞ்சல், கூக்கிள் குறிச்சொற்கள், வலைப்பக்கங்கள் அல்லது வாய்மை போன்ற கருவிகளில் சிறிய பைனரி தகவலை மாற்ற பயன்படுத்தப்படுகிறது."
+  },
+  "dns": {
+    "title": "DNS பதிவு தேடல்",
+    "description": "DNS பதிவுகளை ஆன்லைனில் தேடு (A, MX, CNAME, etc.)",
+    "placeholder": "ஒரு டொமைனை உள்ளிடவும், உதாரணமாக example.com",
+    "invalidDomain": "தயவுசெய்து செல்லுபடியாகும் டொமைன் வடிவம் (உதாரணமாக example.com) உள்ளிடவும்",
+    "domainInput": "டொமைன் உள்ளிடல்",
+    "validFormat": "டொமைன் வடிவம் செல்லுபடியாகும்",
+    "typeSelect": "DNS பதிவு வகை",
+    "searchBtn": "DNS பதிவுகளை தேடு",
+    "loadingTitle": "DNS பதிவுகளை தேடுகிறது",
+    "loadingDesc": "உங்கள் டொமைனுக்கு DNS பதிவுகளை தேட காத்திருங்கள்...",
+    "resultRegion": "DNS தேடல் முடிவு",
+    "recordCount": "{{count}} பதிவுகள்",
+    "typeRecordRegion": "{{type}} பதிவுகள்",
+    "querying": "DNS பதிவுகளை தேடுகிறது",
+    "queryingDesc": "உங்கள் டொமைனுக்கு DNS பதிவுகளை தேட காத்திருங்கள்...",
+    "foundRecords": "{{count}} பதிவுகள் கண்டுபிடிக்கப்பட்டது",
+    "queryTime": "கேள்வி நேரம்: {{time}}",
+    "export": "முடிவுகளை கொண்டிருக்கும்",
+    "noRecords": "DNS பதிவுகள் கிடைக்கவில்லை",
+    "noRecordsDesc": "இந்த டொமைனுக்கு DNS பதிவுகள் கிடைக்கவில்லை",
+    "typeInfo": "DNS பதிவு வகைகள்",
+    "priority": "முன்னுரிமை: {{priority}}",
+    "types": {
+      "ALL": "அனைத்தும்",
+      "A": "A பதிவு",
+      "AAAA": "AAAA பதிவு",
+      "MX": "MX பதிவு",
+      "TXT": "TXT பதிவு",
+      "CNAME": "CNAME பதிவு",
+      "NS": "NS பதிவு",
+      "SOA": "SOA பதிவு"
+    },
+    "typeDescs": {
+      "A": "IPv4 முகவரி",
+      "AAAA": "IPv6 முகவரி",
+      "MX": "மெயில் செர்வர்",
+      "TXT": "தகவல் பதிவு",
+      "CNAME": "அடையாள பதிவு",
+      "NS": "பெயர் செர்வர்",
+      "SOA": "ஆரம்ப அதிகார பதிவு"
+    },
+    "typeDetails": {
+      "A": "ஒரு டொமைனை ஐபி வி 4 முகவரிக்கு இணைக்கிறது",
+      "AAAA": "ஒரு டொமைனை ஐபி வி 6 முகவரிக்கு இணைக்கிறது",
+      "MX": "மெயில் செர்வர் முகவரியை குறிக்கிறது, குறைந்த நிலை எண்கள் உயர் முன்னுரிமையை குறிக்கின்றன",
+      "TXT": "தகவல் தரவை சேமிக்கிறது, பொதுவாக SPF, DKIM சான்று காட்ட பயன்படுகிறது",
+      "CNAME": "ஒரு டொமைனை மற்றொரு டொமைனுக்கு (அடையாளம்) இணைக்கிறது",
+      "NS": "டொமைனுக்கு டீஎன்எஸ் செர்வர்களை குறிக்கிறது"
+    }
+  },
+  "whois": {
+    "title": "WHOIS தேடல்",
+    "description": "இணையத்தில் WHOIS மற்றும் பதிவு தகவலை தேடவும்",
+    "placeholder": "ஒரு டொமைனை உள்ளிடவும், உதாரணமாக example.com",
+    "invalidDomain": "தொடர்புடைய டொமைன் வடிவத்தை உள்ளிடவும் (உதாரணமாக example.com)",
+    "querying": "WHOIS தகவலை தேடுகிறது",
+    "queryingDesc": "நாங்கள் பதிவு தகவலை பெறும் வரை காத்திருக்கவும்...",
+    "domainInfo": "டொமைன் தகவல்",
+    "registrar": "பதிவு செய்பவர்",
+    "creationDate": "சிரிய தேதி",
+    "expirationDate": "முடிவு தேதி",
+    "updatedDate": "தேதி மாற்றப்பட்டது",
+    "dnssec": "DNSSEC",
+    "dnssecDisabled": "துண்டிக்கப்பட்டது",
+    "expired": "முடிவு ஆன {{days}} நாட்களுக்கு முன்பு",
+    "expiringSoon": "{{days}} நாட்களில் முடிவு ஆகும்",
+    "remaining": "{{days}} நாட்கள் மீதம்",
+    "dnsServer": "பெயர் செர்வர்கள்",
+    "domainStatus": "டொமைன் நிலை",
+    "registrantInfo": "பதிவு செய்பவர் தகவல்",
+    "name": "பெயர்",
+    "organization": "அமைப்பு",
+    "country": "நாடு",
+    "email": "மின்னஞ்சல்",
+    "noInfo": "தொடர்புடைய தகவல் கிடைக்கவில்லை",
+    "domain": "டொமைன்",
+    "rawData": "தரவு தகவல்",
+    "toggleRawData": "தரவு தகவலை நீட்டிக்கவும் அல்லது மறைக்கவும்",
+    "copyRawData": "தரவு தகவலை நகல் செய்யவும்",
+    "copy": "நகல்",
+    "copied": "நகல் செய்யப்பட்டது",
+    "whatIsWhois": "WHOIS என்றால் என்ன?",
+    "about": "WHOIS என்பது டொமைன் பதிவு தகவலை கேள்விக்கு வைக்க பயன்படும் ஒரு தொடர்பு முறைமை ஆகும். ஒரு WHOIS தேடல் மூலம் நீங்கள் பதிவு செய்பவர், பதிவு தேதி, முடிவு தேதி, டீஎன்எஸ் செர்வர்கள், பதிவு செய்பவர் தகவல் மற்றும் பல விஷயங்களை கற்றுக்கொள்ளலாம். இது டொமைன் விற்பனை, பெயர் பாதுகாப்பு மற்றும் பாதுகாப்பு ஆய்வுகளுக்கு பயனுள்ளதாக இருக்கும்."
+  },
+  "httpStatus": {
+    "title": "HTTP நிலை சோதனையாளர்",
+    "description": "இணையத்தில் HTTP நிலை குறியீடுகளை மற்றும் பதில் தகவலை சோதிக்கவும்",
+    "placeholder": "ஒரு URL ஐ உள்ளிடவும், உதாரணமாக https://example.com",
+    "check": "சோதிக்கவும்",
+    "followRedirects": "ஆடியோ திருப்பங்களை தானாக பின்பற்றவும்",
+    "urlEmpty": "URL ஐ உள்ளிடவும்",
+    "checkFailed": "சோதனை தோல்வியடைந்தது",
+    "serverError": "செர்வர் இணைப்பு தோல்வியடைந்தது, பின்னர் மீண்டும் முயற்சிக்கவும்",
+    "unknownStatus": "அறியப்படாத நிலை",
+    "responseTime": "பதில் நேரம்",
+    "headers": "தலைப்புகள்",
+    "redirectUrl": "திருப்ப முகவரி",
+    "contentType": "கண்டென்ட் வகை",
+    "contentLength": "கண்டென்ட் நீளம்",
+    "server": "செர்வர்",
+    "showHeaders": "பதில் தலைப்புகளை காட்டவும்",
+    "hideHeaders": "பதில் தலைப்புகளை மறைக்கவும்",
+    "status": {
+      "100": "தொடரவும்",
+      "101": "நிலை மாற்றும்",
+      "200": "ஓகே",
+      "201": "உருவாக்கப்பட்டது",
+      "204": "கண்டென்ட் இல்லை",
+      "301": "நிரந்தர திருப்பம்",
+      "302": "தற்காலிக திருப்பம்",
+      "304": "மாற்றப்படவில்லை",
+      "307": "தற்காலிக திருப்பம்",
+      "308": "நிரந்தர திருப்பம்",
+      "400": "தவறான கேள்வி",
+      "401": "அனுமதி இல்லை",
+      "403": "தடை செய்யப்பட்டது",
+      "404": "கிடைக்கவில்லை",
+      "405": "முறை அனுமதிக்கப்படவில்லை",
+      "408": "கேள்வி நேரம் முடிவு",
+      "429": "அதிக கேள்விகள்",
+      "500": "செர்வர் பிழை",
+      "502": "தவறான கேட்கும்",
+      "503": "கிடைக்காத சேவை",
+      "504": "கேட்கும் நேரம் முடிவு"
+    }
+  },
+  "browserInfo": {
+    "title": "புரோவிஸர் தகவல்",
+    "description": "தற்போதைய புரோவிஸர் பற்றிய விரிவான தகவலை காணவும்",
+    "os": "நிரலாக்க முறைமை",
+    "browser": "புரோவிஸர்",
+    "version": "பதிப்பு",
+    "engine": "எஞ்சின்",
+    "device": "கருவி",
+    "screen": "திரை தெரிவு",
+    "viewport": "வியூபோர்டு அளவு",
+    "language": "மொழி",
+    "timezone": "நேர பிரிவு",
+    "cookieEnabled": "கேக்கி அனுமதி",
+    "online": "ஆன்லைன்",
+    "cpu": "CPU அமைப்பு",
+    "userAgent": "User-Agent",
+    "platform": "தளம்",
+    "vendor": "புரோவிஸர் விற்பனையாளர்",
+    "languages": "ஆதரவு மொழிகள்",
+    "cookie": "கேக்கி",
+    "onlineStatus": "ஆன்லைன் நிலை",
+    "doNotTrack": "தொடர்பு இல்லை",
+    "touchPoints": "தொடும் புள்ளிகள்",
+    "enabled": "அனுமதி",
+    "disabled": "துண்டிக்கப்பட்டது",
+    "offline": "ஆஃப்லைன்",
+    "hardwareInfo": "வலை தகவல்",
+    "cpuCores": "CPU கோர்கள்",
+    "cpuCoresValue": "{{count}} கோர்கள்",
+    "deviceMemory": "கருவி நினைவகம்",
+    "screenInfo": "திரை தகவல்",
+    "availArea": "கிடைக்கும் பகுதி",
+    "windowSize": "சீரியின் அளவு",
+    "pixelRatio": "சிப்பில் விகிதம்",
+    "colorDepth": "நிற ஆழம்",
+    "screenOrientation": "திரை திசை",
+    "unknown": "அறியப்படாதது",
+    "basicInfo": "அடிப்படை தகவல்",
+    "networkInfo": "வலை தகவல்",
+    "networkType": "வலை வகை",
+    "downlink": "டவுன்லிங்",
+    "rtt": "RTT",
+    "saveData": "டேட்டா சேவர்",
+    "batteryInfo": "மின்கட்டுமான தகவல்",
+    "batteryLevel": "மின்கட்டுமான நிலை",
+    "chargingStatus": "மின்கட்டுமான நிலை",
+    "charging": "மின்கட்டுமான",
+    "notCharging": "மின்கட்டுமான இல்லை",
+    "timezoneInfo": "நேர பிரிவு தகவல்",
+    "utcOffset": "UTC மாற்றம்"
+  },
+  "viewSource": {
+    "title": "பக்க மூலத்தை காண்க",
+    "description": "இணையத்தில் பக்க மூல குறியீட்டை காணவும்",
+    "placeholder": "ஒரு URL ஐ உள்ளிடவும், உதாரணமாக https://example.com",
+    "fetch": "மூலத்தை பெறவும்",
+    "urlEmpty": "URL ஐ உள்ளிடவும்",
+    "fetchFailed": "மூலத்தை பெற முடியவில்லை",
+    "serverError": "செர்வர் இணைப்பு தோல்வியடைந்தது",
+    "lineCount": "கோடுகள்: {{count}}",
+    "copy": "மூலத்தை நகல் செய்யவும்",
+    "clear": "அழி",
+    "usage1": "முழு பக்க முகவரியை உள்ளிடவும் மற்றும் மூலத்தை பெற கிளிக் செய்யவும்",
+    "usage2": "எந்த ஒரு பொது பக்கத்தின் HTML மூலத்தை காண ஆதரவு வழங்குகிறது",
+    "usage3": "நீங்கள் மூல குறியீட்டை நகல் செய்ய அல்லது பதிவிறக்க முடியும்",
+    "usage4": "சில தளங்கள் பாதுகாப்பு கொள்கைகளால் மூலத்தை பெற தடை செய்யலாம்"
+  },
+  "urlEncode": {
+    "title": "URL குறியீடு / தொகுப்பு கருவி",
+    "description": "இணையத்தில் URL குறியீடு மற்றும் தொகுப்பு கருவி",
+    "encode": "குறியீடு",
+    "decode": "தொகுப்பு",
+    "placeholder": "மாற்ற வேண்டிய கண்டென்ட்டை உள்ளிடவும்...",
+    "result": "விளைவு",
+    "error": "எண்ணிக்கை/இருமை தோல்வியடைந்தது"
+  },
+  "htmlEntity": {
+    "title": "HTML என்டிட்டி குறிப்பாளர் / குறிப்பாளர்",
+    "description": "ஆன்லைன் HTML என்டிட்டி குறிப்பாளர் மற்றும் குறிப்பாளர் கருவி",
+    "encode": "குறிப்பாளி",
+    "decode": "குறிப்பாளி",
+    "placeholder": "மாற்ற வேண்டிய உள்ளடக்கத்தை உள்ளிடவும்...",
+    "result": "முடிவு"
+  },
+  "jsMinify": {
+    "title": "ஜெஸ் சுருக்கம் & அழகுபடுத்தல்",
+    "description": "ஆன்லைன் ஜாவாஸ்கிரிப்ட் குறியீடு சுருக்கம் மற்றும் அழகுபடுத்தல் கருவி",
+    "minify": "சுருக்கு",
+    "beautify": "அழகுபடுத்து",
+    "placeholder": "ஜாவாஸ்கிரிப்ட் குறியீட்டை ஒட்டவும்...",
+    "result": "செயலாக்க முடிவு",
+    "error": "குறியீடு செயலாக்கம் தோல்வியடைந்தது"
+  },
+  "cssMinify": {
+    "title": "CSS சுருக்கம் & அழகுபடுத்தல்",
+    "description": "ஆன்லைன் CSS குறியீடு சுருக்கம் & அழகுபடுத்தல் கருவி",
+    "minify": "சுருக்கு",
+    "beautify": "அழகுபடுத்து",
+    "placeholder": "CSS குறியீட்டை ஒட்டவும்...",
+    "result": "செயலாக்க முடிவு",
+    "error": "குறியீடு செயலாக்கம் தோல்வியடைந்தது"
+  },
+  "pages": {
+    "sslCheck": {
+      "title": "SSL சர்டிஃபிகேட் சோதனை",
+      "description": "ஒரு டொமைனுக்கு SSL சர்டிஃபிகேட் விவரங்கள் மற்றும் செல்லுபடியாகும் காலத்தை சோதிக்கவும்",
+      "enterDomain": "தயவுசெய்து ஒரு டொமைனை உள்ளிடவும்",
+      "checkFailed": "சோதனை தோல்வியடைந்தது",
+      "serverConnectionFailed": "சர்வருடன் இணைப்பு ஏற்படவில்லை, மீண்டும் முயற்சிக்கவும்",
+      "inputPlaceholder": "டொமைனை உள்ளிடவும், உதாரணமாக: example.com",
+      "check": "சோதிக்கவும்",
+      "statusExpired": "முடிவு செய்யப்பட்டது",
+      "statusExpiringSoon": "விரைவில் முடிவு செய்யப்படும்",
+      "statusValid": "செல்லுபடியாகும்",
+      "statusProblem": "சர்டிஃபிகேட் பிரச்சினை",
+      "expiredDays": "முடிவு செய்யப்பட்டது {{count}} நாட்களுக்கு முன்பு",
+      "remainingDays": "{{count}} நாட்கள் மீதம்",
+      "warning": "எச்சரிக்கை: {{message}}",
+      "protocol": "கொள்கை",
+      "validityPeriod": "செல்லுபடியாகும் காலம்",
+      "validFrom": "செல்லுபடியாகும் தேதி",
+      "validTo": "செல்லுபடியாகும் தேதி",
+      "certificateInfo": "சர்டிஃபிகேட் தகவல்",
+      "subject": "விஷயம்",
+      "issuer": "வழங்குபவர்",
+      "commonName": "பொது பெயர் (CN)",
+      "organization": "நிறுவனம் (O)",
+      "organizationUnit": "நிறுவன அலகு (OU)",
+      "country": "நாடு (C)",
+      "subjectAltNames": "விஷய மாற்று பெயர்கள் (SAN) - {{count}} பதிவுகள்",
+      "technicalDetails": "தொழினுட்ப விவரங்கள்",
+      "serialNumber": "தொடர் எண்",
+      "fingerprintSha1": "தடயம் (SHA-1)",
+      "fingerprintSha256": "தடயம் (SHA-256)",
+      "cipherSuite": "சீஃபர் சூட்",
+      "infoTitle": "SSL சர்டிஃபிகேட் குறிப்புகள்",
+      "infoItems": [
+        "SSL சர்டிஃபிகேட்டுகள் சர்வர் அடையாளத்தை சரிபார்க்கின்றன மற்றும் தகவலை குறியாக்குகின்றன",
+        "விளைவு தேதிகளை முறையாக சோதிக்கவும் கிடைக்காத சேவைகளை தவிர்க்கவும்",
+        "முடிவு செய்யப்படும் சர்டிஃபிகேட்டுகள் முன்னதாக புதுப்பிக்கப்பட வேண்டும்",
+        "SAN (Subject Alternative Name) சர்டிஃபிகேட் கொண்டுள்ள டொமைன்களை பட்டியலிடுகிறது"
+      ]
+    },
+    "gzipCheck": {
+      "title": "வலைத்தளம் Gzip சுருக்கம் சோதனை",
+      "description": "ஒரு வலைத்தளம் Gzip / Deflate / Brotli சுருக்கம் ஆதரவு உள்ளதா என்பதை சோதிக்கவும்",
+      "enterUrl": "தயவுசெய்து ஒரு URL ஐ உள்ளிடவும்",
+      "checkFailed": "சோதனை தோல்வியடைந்தது",
+      "serverConnectionFailed": "சர்வருடன் இணைப்பு ஏற்படவில்லை, மீண்டும் முயற்சிக்கவும்",
+      "inputPlaceholder": "URL ஐ உள்ளிடவும், உதாரணமாக: https://example.com",
+      "check": "சோதிக்கவும்",
+      "enabled": "செயலில்",
+      "disabled": "செயலில் இல்லை",
+      "compressionType": "சுருக்கம் வகை: {{type}}",
+      "enableSuggestion": "Gzip சுருக்கம் செயலில் வைத்து கட்டுமான அளவை குறைக்கவும் மற்றும் பதிவிறக்க வேகத்தை மேம்படுத்தவும்",
+      "supportTitle": "சுருக்கம் ஆதரவு",
+      "gzipDescription": "விரவிய தரத்தில் சுருக்கம்",
+      "deflateDescription": "முந்தைய HTTP சுருக்கம் முறை",
+      "brotliDescription": "மேம்பட்ட விகிதங்களுடன் புதிய சுருக்கம் முறை",
+      "effectTitle": "சுருக்கம் விளைவு",
+      "originalSize": "தொடக்க அளவு",
+      "compressedSize": "சுருக்கப்பட்ட அளவு",
+      "ratio": "சுருக்கம் விகிதம்",
+      "savedTransfer": "செயலில் அளவு {{value}} ஐ சேமிக்கிறது",
+      "detailsTitle": "விவரங்கள்",
+      "whyTitle": "Gzip சுருக்கத்தை செயலில் வைப்பது எதற்காக?",
+      "whyItems": [
+        "இது பெரும்பாலும் உள்ளடக்க அளவை 60% முதல் 80% வரை குறைக்க முடியும்",
+        "சிறிய கட்டுமானங்கள் பதிவிறக்க வேகத்தை மேம்படுத்துகின்றன",
+        "இது பாண்ட்விட்த் பயன்பாட்டை குறைக்கிறது",
+        "மேம்பட்ட செயல்திறன் SEO மற்றும் பயனாளர் அனுபவத்தை மேம்படுத்த உதவுகிறது"
+      ]
+    },
+    "dnsLookupEnhanced": {
+      "title": "மேம்படுத்தப்பட்ட DNS பதிவு தேடல்",
+      "description": "பெரிய முடிவுகள் தொகுப்புகளுக்கு தொழில்நுட்ப முறையில் ஆன்லைனில் பல DNS பதிவு வகைகளை கேள்வியுள்ள கருவி",
+      "enterDomain": "தயவுசெய்து ஒரு டொமைனை உள்ளிடவும்",
+      "lookupFailed": "தேடல் தோல்வியடைந்தது",
+      "serverConnectionFailed": "சர்வருடன் இணைப்பு ஏற்படவில்லை, மீண்டும் முயற்சிக்கவும்",
+      "inputPlaceholder": "டொமைனை உள்ளிடவும், உதாரணமாக: example.com",
+      "lookup": "தேடல்",
+      "priority": "முன்னுரிமை: {{value}}",
+      "dnsTypes": [
+        {
+          "value": "ALL",
+          "label": "அனைத்தும்"
+        },
+        {
+          "value": "A",
+          "label": "A பதிவு",
+          "desc": "IPv4 முகவரி"
+        },
+        {
+          "value": "AAAA",
+          "label": "AAAA பதிவு",
+          "desc": "IPv6 முகவரி"
+        },
+        {
+          "value": "MX",
+          "label": "MX பதிவு",
+          "desc": "மின்னஞ்சல் சர்வர்"
+        },
+        {
+          "value": "TXT",
+          "label": "TXT பதிவு",
+          "desc": "வாக்கிய தகவல்"
+        },
+        {
+          "value": "CNAME",
+          "label": "CNAME பதிவு",
+          "desc": "மாற்று பதிவு"
+        },
+        {
+          "value": "NS",
+          "label": "NS பதிவு",
+          "desc": "பெயர் சர்வர்"
+        },
+        {
+          "value": "SOA",
+          "label": "SOA பதிவு",
+          "desc": "தொடக்க அதிகாரம்"
+        }
+      ],
+      "foundRecords": "கண்டோம் {{count}} பதிவுகள்",
+      "queryTime": "கேள்வி நேரம்: {{time}}",
+      "virtualScrollEnabled": "வரையறுக்கப்பட்ட ஸ்கிரோல் செயலில்",
+      "recordCount": "{{count}} பதிவுகள்",
+      "virtualScrollTag": "மேம்படுத்தப்பட்ட வரையறுக்கப்பட்ட செயல்முறை",
+      "noRecords": "DNS பதிவுகள் கிடைக்கவில்லை",
+      "performanceTitle": "செயல்திறன் மேம்பாடு",
+      "performanceItems": [
+        "வரையறுக்கப்பட்ட செயல்முறை மூலம் {{count}} பதிவுகளுடன் DNS தேடல் செயலில் இருக்கிறது",
+        "குறைந்த மெமரி பயன்பாட்டை குறைக்க காணப்படும் வரிசைகள் மட்டுமே செயல்படுத்தப்படுகின்றன",
+        "மிகப்பெரிய முடிவுகள் தொகுப்புகளுக்கு DOM தாமதத்தை தவிர்க்க உதவுகிறது",
+        "பல பதிவுகளுடன் செயல்திறன் செயலில் இருக்கிறது"
+      ]
+    },
+    "metaCheck": {
+      "title": "META தாக்குதல் சோதனை",
+      "description": "வலைபக்கத்தில் பயன்படுத்தப்படும் META தாக்குதல்களை சோதிக்கவும்",
+      "enterUrl": "தயவுசெய்து ஒரு வலைத்தள முகவரியை உள்ளிடவும்",
+      "checkFailed": "சோதனை தோல்வியடைந்தது",
+      "urlLabel": "வலைத்தள முகவரி",
+      "inputPlaceholder": "example.com அல்லது https://example.com",
+      "check": "சோதிக்கவும்",
+      "resultTitle": "சோதனை முடிவு",
+      "totalCount": "கண்டோம் {{count}} META தாக்குதல்கள்",
+      "groups": {
+        "pageTitle": "பக்க தலைப்பு",
+        "httpEquiv": "HTTP-Equiv",
+        "charset": "Charset",
+        "basicMeta": "அடிப்படை META"
+      },
+      "emptyContent": "காலியாக உள்ளது",
+      "infoTitle": "மேலும்",
+      "infoItems": [
+        "இந்த கருவி தலைப்பு தாக்குதல்கள், meta name தாக்குதல்கள், meta property தாக்குதல்கள் (Open Graph போன்ற), மற்றும் meta http-equiv தாக்குதல்களை சோதிக்கிறது",
+        "இது பக்கத்தின் SEO தொடர்புடைய தகவலை விரைவாக மேற்பார்வை செய்ய உதவுகிறது",
+        "இது காணப்படாத அல்லது மீண்டும் பயன்படுத்தப்பட்ட தாக்குதல் பிரச்சினைகளை கண்டுபிடிக்க உதவுகிறது"
+      ]
+    },
+    "urlEncode": {
+      "title": "URL குறிப்பாளி / குறிப்பாளி",
+      "description": "ஆன்லைனில் URL சரியான குறியீடுகளை குறிப்பாளி அல்லது குறிப்பாளி",
+      "toolName": "URL குறிப்பாளி / குறிப்பாளி",
+      "toolCategory": "குறியீடு கருவிகள்",
+      "convertFailed": "மாற்றம் தோல்வியடைந்தது, தயவுசெய்து உங்கள் உள்ளடக்கத்தை சரிபார்க்கவும்",
+      "copyFailed": "முடிவு நகலெடுக்க முடியவில்லை",
+      "modeSelector": "மோட்டை தேர்வு செய்யவும்",
+      "typeSelector": "எண்ணிக்கை வகை",
+      "encode": "அடையாளம் காணவும்",
+      "decode": "தர்க்க விளக்கம்",
+      "componentTitle": "URL பகுதி",
+      "componentDescription": "URL இன் ஒரு பகுதியை மட்டுமே அடையாளம் காணவும்",
+      "fullTitle": "முழு URL",
+      "fullDescription": "முழு URL ஐ அடையாளம் காணவும்",
+      "inputEncodeLabel": "தெளிவான உரை",
+      "inputDecodeLabel": "அடையாளம் காணப்பட்ட URL",
+      "clearInput": "உள்ளீட்டை அழிக்கவும்",
+      "encodePlaceholder": "URL இல் அடையாளம் காண உள்ளிடவும்...",
+      "decodePlaceholder": "தர்க்க விளக்கம் செய்ய அடையாளம் காணப்பட்ட URL ஐ உள்ளிடவும்...",
+      "outputEncodeLabel": "அடையாளம் காணப்பட்ட முடிவு",
+      "outputDecodeLabel": "தர்க்க விளக்கம் செய்யப்பட்ட முடிவு",
+      "copyResult": "முடிவை நகல் செய்யவும்",
+      "resultPlaceholder": "மாற்றம் முடிவு இங்கு தோன்றும்...",
+      "copied": "கோப்பியடிக்கப்பட்டது",
+      "swap": "மாற்று",
+      "swapInputOutput": "உள்ளீடு மற்றும் வெளியீட்டை மாற்றவும்",
+      "infoTitle": "அடையாளம் காணும் முறைகள்",
+      "componentModeTitle": "பகுதி முறை",
+      "componentModeDescription": "கேள்வி கோப்புகள் அல்லது பாதை துண்டுகள் போன்ற தனிப்பட்ட URL பகுதிகளுக்கு சிறந்தது.",
+      "componentExample": "எடுத்துக்காட்டு: hello world → hello%20world",
+      "fullModeTitle": "முழு URL முறை",
+      "fullModeDescription": "முழு URL ஐ அடையாளம் காண வேண்டும், ஆனால் அதன் மொத்த அமைப்பை அறியக்கூடிய வகையில் காப்பாற்ற இந்த முறையை பயன்படுத்தவும்.",
+      "fullExample": "எடுத்துக்காட்டு: https://example.com/路径 → https://example.com/%E8%B7%AF%E5%BE%84"
+    },
+    "htmlEntity": {
+      "title": "HTML என்டிட்டி அடையாளம் காணவும் / தர்க்க விளக்கம்",
+      "description": "ஆன்லைனில் HTML என்டிட்டி அடையாளம் காணவும் / தர்க்க விளக்கம்",
+      "toolName": "HTML என்டிட்டி அடையாளம் காணவும் / தர்க்க விளக்கம்",
+      "toolCategory": "அடையாளம் காணும் கருவிகள்",
+      "convertFailed": "மாற்றம் தோல்வியடைந்தது, உங்கள் உள்ளீட்டை சரிபார்க்கவும்",
+      "copyFailed": "முடிவை நகல் செய்ய முடியவில்லை",
+      "modeSelector": "முறையை தேர்வு செய்யவும்",
+      "switchToEncode": "அடையாளம் காணும் முறைக்கு மாறு (Alt+1)",
+      "switchToDecode": "தர்க்க விளக்கம் முறைக்கு மாறு (Alt+2)",
+      "encode": "அடையாளம் காணவும்",
+      "decode": "தர்க்க விளக்கம்",
+      "encodeAll": "அனைத்து குறியீடுகளையும் அடையாளம் காணவும்",
+      "inputEncodeLabel": "தெளிவான உரை",
+      "inputDecodeLabel": "HTML என்டிட்டி",
+      "clearInput": "உள்ளீட்டை அழிக்கவும் (Ctrl+L)",
+      "encodePlaceholder": "HTML என்டிட்டிகளாக மாற்ற உள்ளிடவும்...",
+      "decodePlaceholder": "தர்க்க விளக்கம் செய்ய உள்ளிடவும் HTML என்டிட்டிகள்...",
+      "inputDescriptionEncode": "HTML என்டிட்டிகளாக அடையாளம் காண விரும்பும் தெளிவான உரையை உள்ளிடவும்",
+      "inputDescriptionDecode": "தர்க்க விளக்கம் செய்ய விரும்பும் HTML என்டிட்டிகளை உள்ளிடவும்",
+      "outputEncodeLabel": "அடையாளம் காணப்பட்ட முடிவு",
+      "outputDecodeLabel": "தர்க்க விளக்கம் செய்யப்பட்ட முடிவு",
+      "copyResult": "முடிவை நகல் செய்யவும் (Ctrl+C)",
+      "resultPlaceholder": "மாற்றம் முடிவு இங்கு தோன்றும்...",
+      "outputDescriptionEncode": "செயலில் உருவாக்கப்பட்ட HTML என்டிட்டி வெளியீடு",
+      "outputDescriptionDecode": "தர்க்க விளக்கம் செய்யப்பட்ட தெளிவான உரை வெளியீடு",
+      "copied": "கோப்பியடிக்கப்பட்டது",
+      "executeEncode": "அடையாளம் காணவும் (Ctrl+Enter)",
+      "executeDecode": "தர்க்க விளக்கம் (Ctrl+Enter)",
+      "swap": "மாற்று",
+      "swapMode": "உள்ளீடு மற்றும் வெளியீட்டை மாற்றவும் (Ctrl+S)",
+      "commonEntities": "பொதுவான HTML என்டிட்டிகள்",
+      "space": "(வெளிவரும்)"
+    },
+    "jsMinify": {
+      "title": "JS Minify & Beautify",
+      "description": "ஆன்லைனில் JavaScript குறியீட்டை Minify அல்லது Beautify செய்யவும்",
+      "toolName": "JavaScript Minify / Beautify",
+      "toolNameHistory": "JS Minify & Beautify",
+      "toolCategory": "பயனர் கருவிகள்",
+      "processFailed": "செயல்முறை தோல்வியடைந்தது",
+      "copyFailed": "முடிவை கோப்பியடிக்க முடியவில்லை",
+      "switchToMinify": "Minify முறைக்கு மாறு",
+      "switchToMinifyTitle": "Minify முறைக்கு மாறு (Alt+1)",
+      "switchToBeautify": "Beautify முறைக்கு மாறு",
+      "switchToBeautifyTitle": "Beautify முறைக்கு மாறு (Alt+2)",
+      "minify": "Minify",
+      "beautify": "Beautify",
+      "input": "உள்ளீடு",
+      "output": "வெளியீடு",
+      "inputPlaceholder": "JavaScript குறியீட்டை இங்கு உள்ளிடவும்...",
+      "inputAria": "JavaScript உள்ளீடு தொகுப்பாளர்",
+      "inputTitle": "Ctrl+Enter ஐ பொதிக்கவும், Ctrl+L ஐ பொதிக்கவும்",
+      "copyOutput": "வெளியீட்டை நகல் செய்யவும்",
+      "copyOutputTitle": "வெளியீட்டை நகல் செய்யவும் (Ctrl+C)",
+      "resultPlaceholder": "செயல்முறை செய்யப்பட்ட முடிவு இங்கு தோன்றும்...",
+      "outputAria": "JavaScript வெளியீடு முடிவு",
+      "executeMinify": "JavaScript Minify",
+      "executeMinifyTitle": "JavaScript Minify (Ctrl+Enter)",
+      "executeBeautify": "JavaScript Beautify",
+      "executeBeautifyTitle": "JavaScript Beautify (Ctrl+Enter)",
+      "minifyCode": "குறியீட்டை Minify செய்யவும்",
+      "beautifyCode": "குறியீட்டை Beautify செய்யவும்",
+      "swap": "மாற்று",
+      "swapTitle": "உள்ளீடு மற்றும் வெளியீட்டை மாற்றவும் (Ctrl+S)",
+      "clear": "அழிக்கவும்",
+      "clearTitle": "உள்ளடக்கத்தை அழிக்கவும் (Ctrl+L)",
+      "copied": "கோப்பியடிக்கப்பட்டது",
+      "infoTitle": "அம்சங்கள்",
+      "infoItems": [
+        "இயல்பான இடைவெளிகள் மற்றும் வரிசை பிரிவுகளை நீக்கி JavaScript கோப்பின் அளவை குறைக்கிறது",
+        "Beautify முறை குறியீட்டை வாசிக்க மற்றும் பராமரிக்க எளிதாக்குகிறது",
+        "Minification தரம் JavaScript பார்சர் மற்றும் minifier செயல்முறை அமைப்பைப் பொறுத்து இருக்கும்"
+      ]
+    },
+    "cssMinify": {
+      "title": "CSS Minify & Beautify",
+      "description": "ஆன்லைனில் CSS குறியீட்டை Minify அல்லது Beautify செய்யவும்",
+      "toolName": "CSS Minify & Beautify",
+      "toolCategory": "பயனர் கருவிகள்",
+      "processFailed": "செயல்முறை தோல்வியடைந்தது",
+      "copyFailed": "முடிவை கோப்பியடிக்க முடியவில்லை",
+      "switchToMinify": "Minify முறைக்கு மாறு",
+      "switchToMinifyTitle": "Minify முறைக்கு மாறு (Alt+1)",
+      "switchToBeautify": "Beautify முறைக்கு மாறு",
+      "switchToBeautifyTitle": "Beautify முறைக்கு மாறு (Alt+2)",
+      "minify": "Minify",
+      "beautify": "Beautify",
+      "input": "உள்ளீடு",
+      "output": "வெளியீடு",
+      "inputPlaceholder": "CSS குறியீட்டை இங்கு உள்ளிடவும்...\n\nஎடுத்துக்காட்டு:\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 20px;\n}",
+      "inputAria": "CSS உள்ளீடு தொகுப்பாளர்",
+      "inputTitle": "Ctrl+Enter ஐ பொதிக்கவும், Ctrl+L ஐ பொதிக்கவும்",
+      "copyOutput": "வெளியீட்டை நகல் செய்யவும்",
+      "copyOutputTitle": "வெளியீட்டை நகல் செய்யவும் (Ctrl+C)",
+      "resultPlaceholder": "செயல்முறை செய்யப்பட்ட முடிவு இங்கு தோன்றும்...",
+      "outputAria": "CSS வெளியீடு முடிவு",
+      "executeMinify": "CSS Minify",
+      "executeMinifyTitle": "CSS Minify (Ctrl+Enter)",
+      "executeBeautify": "CSS Beautify",
+      "executeBeautifyTitle": "CSS Beautify (Ctrl+Enter)",
+      "minifyCode": "குறியீட்டை Minify செய்யவும்",
+      "beautifyCode": "குறியீட்டை Beautify செய்யவும்",
+      "swap": "மாற்று",
+      "swapTitle": "உள்ளீடு மற்றும் வெளியீட்டை மாற்றவும் (Ctrl+S)",
+      "clear": "அழிக்கவும்",
+      "clearTitle": "உள்ளடக்கத்தை அழிக்கவும் (Ctrl+L)",
+      "copied": "கோப்பியடிக்கப்பட்டது",
+      "infoTitle": "அம்சங்கள்",
+      "infoItems": [
+        "இயல்பான இடைவெளிகள் மற்றும் வரிசை பிரிவுகளை நீக்கி கோப்பின் அளவை குறைக்கிறது",
+        "Beautify முறை குறியீட்டை வாசிக்க மற்றும் திருத்த எளிதாக்குகிறது",
+        "சிறிய CSS கோப்புகள் HTTP கடத்தல் அளவை குறைக்கவும் மற்றும் பதிவிறக்க செயல்முறையை மேம்படுத்தவும் உதவுகின்றன"
+      ]
+    },
+    "httpCodes": {
+      "title": "HTTP நிலை குறியீடுகள்",
+      "description": "HTTP நிலை / பதில் குறியீடுகளுக்கான குறிப்பு",
+      "searchPlaceholder": "நிலை குறியீடுகளை அல்லது விளக்கங்களை தேடவும்...",
+      "noMatch": "மேலும் நிலை குறியீடுகள் கிடைக்கவில்லை",
+      "infoTitle": "HTTP நிலை குறியீடு அடிப்படைகள்",
+      "infoItems": [
+        "1xx - கேள்வியை பெற்று செயலாக்கத்தில் உள்ளது என்று குறிக்கும் தகவல் பதில்கள்",
+        "2xx - கேள்வியை பெற்று, அறிந்து ஏற்றுக்கொண்டது என்று குறிக்கும் வெற்றி பதில்கள்",
+        "3xx - கேள்வியை முடிக்க தேவையான மேலும் செயல்களை குறிக்கும் மாற்று பதில்கள்",
+        "4xx - கேள்வியில் தவறான குறியீடு அல்லது செயல்முறையை முடிக்க முடியாத கிராக்கி பிழை பதில்கள்",
+        "5xx - செல்லுபடியாகும் கேள்வியை முடிக்க முடியாத செர்வர் பிழை பதில்கள்"
+      ],
+      "categories": [
+        {
+          "id": "all",
+          "name": "அனைத்தும்",
+          "color": "bg-gray-100 text-gray-700"
+        },
+        {
+          "id": "1xx",
+          "name": "1xx தகவல்",
+          "color": "bg-blue-100 text-blue-700"
+        },
+        {
+          "id": "2xx",
+          "name": "2xx வெற்றி",
+          "color": "bg-green-100 text-green-700"
+        },
+        {
+          "id": "3xx",
+          "name": "3xx மாற்று விசைகள்",
+          "color": "bg-yellow-100 text-yellow-700"
+        },
+        {
+          "id": "4xx",
+          "name": "4xx க்ளயண்ட் பிழை",
+          "color": "bg-orange-100 text-orange-700"
+        },
+        {
+          "id": "5xx",
+          "name": "5xx சர்வர் பிழை",
+          "color": "bg-red-100 text-red-700"
+        }
+      ],
+      "codes": [
+        {
+          "code": 100,
+          "name": "தொடரவும்",
+          "desc": "முதல் பகுதி கேளிக்கை பெறப்பட்டுள்ளது மற்றும் க்ளயண்ட் மீதமுள்ள பகுதியை அனுப்ப வேண்டும்.",
+          "category": "1xx"
+        },
+        {
+          "code": 101,
+          "name": "கொள்கைகளை மாற்றுக",
+          "desc": "க்ளயண்ட் கோரிக்கையின் பொறுப்பில் கொள்கைகளை மாற்ற தொடர ஒப்புக்கொள்கிறது.",
+          "category": "1xx"
+        },
+        {
+          "code": 102,
+          "name": "செயலாக்கம்",
+          "desc": "கேளிக்கை பெறப்பட்டு செயலாக்கம் செய்யப்படுகிறது, ஆனால் தற்போது பதில் கிடைக்கவில்லை.",
+          "category": "1xx"
+        },
+        {
+          "code": 200,
+          "name": "ஆம்",
+          "desc": "கேளிக்கை நிறைவு செய்யப்பட்டது, பொதுவாக GET அல்லது POST கேளிக்கைகளுக்கு.",
+          "category": "2xx"
+        },
+        {
+          "code": 201,
+          "name": "இயற்றப்பட்டது",
+          "desc": "கேளிக்கை நிறைவு செய்யப்பட்டு புதிய ஆதாரம் உருவாக்கப்பட்டது.",
+          "category": "2xx"
+        },
+        {
+          "code": 202,
+          "name": "ற்றுக்கொள்ளப்பட்டது",
+          "desc": "கேளிக்கை செயலாக்கம் ஏற்றுக்கொள்ளப்பட்டுள்ளது, ஆனால் இன்னும் முடிக்கப்படவில்லை.",
+          "category": "2xx"
+        },
+        {
+          "code": 203,
+          "name": "அதிகாரமற்ற தகவல்",
+          "desc": "பதில் தகவல் தரவு மூல சர்வரிலிருந்து அல்லாது உள்ளே அல்லது மூன்றாம் தரப்பு நகலிலிருந்து வந்தது.",
+          "category": "2xx"
+        },
+        {
+          "code": 204,
+          "name": "காலியாக்கப்பட்டது",
+          "desc": "கேளிக்கை நிறைவு செய்யப்பட்டது, ஆனால் பதிலில் எந்த உட்பொருளும் இல்லை.",
+          "category": "2xx"
+        },
+        {
+          "code": 205,
+          "name": "காலியாக்கு",
+          "desc": "கேளிக்கை நிறைவு செய்யப்பட்டு க்ளயண்ட் தற்போதைய காணொளியை மீட்டமைக்க வேண்டும்.",
+          "category": "2xx"
+        },
+        {
+          "code": 206,
+          "name": "பகுதி கண்டெடுப்பு",
+          "desc": "ஓர் வரம்பு கேளிக்கையின் காரணமாக செயலி ஒரு பெரிய ஆதாரத்தின் பகுதியை மட்டுமே திரும்ப அனுப்புகிறது.",
+          "category": "2xx"
+        },
+        {
+          "code": 300,
+          "name": "பல தேர்வுகள்",
+          "desc": "க்ளயண்ட் தேர்வு செய்ய வேண்டிய கேளிக்கை செயலில் பல சாத்தியமான முறைகள் உள்ளது.",
+          "category": "3xx"
+        },
+        {
+          "code": 301,
+          "name": "நிரந்தரமாக இடம் மாற்றப்பட்டது",
+          "desc": "கேளிக்கை செயலில் நிரந்தரமாக புதிய URI க்கு மாற்றப்பட்டுள்ளது.",
+          "category": "3xx"
+        },
+        {
+          "code": 302,
+          "name": "காணப்படுகிறது",
+          "desc": "கேளிக்கை செயலில் தற்செயலாக வேறு ஒரு URI இல் உள்ளது.",
+          "category": "3xx"
+        },
+        {
+          "code": 303,
+          "name": "மற்ற காண்க",
+          "desc": "கேளிக்கைக்கான பதில் மற்றொரு URI இல் கிடைக்கிறது.",
+          "category": "3xx"
+        },
+        {
+          "code": 304,
+          "name": "மாற்றப்படவில்லை",
+          "desc": "குறிவைக்கப்பட்ட ஆதாரம் மாறவில்லை, எனவே க்ளயண்ட் தனது உள்ளே காப்பு பதிப்பை பயன்படுத்தலாம்.",
+          "category": "3xx"
+        },
+        {
+          "code": 307,
+          "name": "தற்காலிக மாற்று",
+          "desc": "ஆதாரம் தற்காலிகமாக மாற்றப்பட்டுள்ளது மற்றும் மூல கேளிக்கை முறை பாதுகாக்கப்பட வேண்டும்.",
+          "category": "3xx"
+        },
+        {
+          "code": 308,
+          "name": "நிரந்தர மாற்று",
+          "desc": "ஆதாரம் நிரந்தரமாக மாற்றப்பட்டுள்ளது மற்றும் மூல கேளிக்கை முறை பாதுகாக்கப்பட வேண்டும்.",
+          "category": "3xx"
+        },
+        {
+          "code": 400,
+          "name": "தவறான கேளிக்கை",
+          "desc": "சரியான செல்லுபடியாகும் வடிவமைப்பு இல்லாததால் செயலி கேளிக்கையை செயலாக்க முடியவில்லை.",
+          "category": "4xx"
+        },
+        {
+          "code": 401,
+          "name": "அனுமதி தேவை",
+          "desc": "கேளிக்கை முடிக்க முன் கட்டுப்பாடு தேவை.",
+          "category": "4xx"
+        },
+        {
+          "code": 402,
+          "name": "பணம் செலுத்த வேண்டும்",
+          "desc": "எதிர்கால பயன்பாட்டிற்காக குறிவைக்கப்பட்டுள்ளது, பொதுவாக டிஜிட்டல் பண முறைகளுடன் தொடர்புடையது.",
+          "category": "4xx"
+        },
+        {
+          "code": 403,
+          "name": "தடை செய்யப்பட்டது",
+          "desc": "செயலி கேளிக்கையை அனுமதிக்க மறுத்துள்ளது.",
+          "category": "4xx"
+        },
+        {
+          "code": 404,
+          "name": "காணப்படவில்லை",
+          "desc": "செயலி கேளிக்கை செயலில் காணப்படாத ஆதாரத்தை காண முடியவில்லை.",
+          "category": "4xx"
+        },
+        {
+          "code": 405,
+          "name": "முறை அனுமதிக்கப்படவில்லை",
+          "desc": "கேளிக்கை முறை இலக்கு ஆதாரத்திற்கு அனுமதிக்கப்படவில்லை.",
+          "category": "4xx"
+        },
+        {
+          "code": 406,
+          "name": "முறை ஏற்கப்படவில்லை",
+          "desc": "செயலி க்ளயண்ட் ஏற்கத்தக்க வடிவங்களுடன் பதில் வழங்க முடியாது.",
+          "category": "4xx"
+        },
+        {
+          "code": 407,
+          "name": "தொடர்பு கேளிக்கை தேவை",
+          "desc": "தொடர்பு கேளிக்கை முடிக்க முன் க்ளயண்ட் தொடர்பு கேளிக்கை செய்ய வேண்டும்.",
+          "category": "4xx"
+        },
+        {
+          "code": 408,
+          "name": "கேளிக்கை நேரம் முடிந்தது",
+          "desc": "செயலி கேளிக்கைக்காக காத்திருக்க நேரம் முடிந்தது.",
+          "category": "4xx"
+        },
+        {
+          "code": 409,
+          "name": "மோதல்",
+          "desc": "கேளிக்கை இலக்கு ஆதாரத்தின் தற்போதைய நிலையுடன் மோதல் ஏற்பட்டுள்ளது.",
+          "category": "4xx"
+        },
+        {
+          "code": 410,
+          "name": "முடிந்துவிட்டது",
+          "desc": "ஆதாரம் இன்னும் கிடைக்கவில்லை மற்றும் மாற்று முகவரி தெரியாது.",
+          "category": "4xx"
+        },
+        {
+          "code": 411,
+          "name": "நீளம் தேவை",
+          "desc": "செயலி செல்லுபடியாகும் கொள்ளளவு தலைப்பு தேவை.",
+          "category": "4xx"
+        },
+        {
+          "code": 412,
+          "name": "முன்னேற்பாடு தோல்வியடைந்தது",
+          "desc": "கேளிக்கை தலைப்புகளில் ஒன்று அல்லது அதற்கு மேற்பட்ட நிபந்தனைகள் தவறாக மதிப்பிடப்பட்டன.",
+          "category": "4xx"
+        },
+        {
+          "code": 413,
+          "name": "கூடுதல் பரிமாணம்",
+          "desc": "கேளிக்கை உட்பொருள் செயலியால் செயலாக்க முடியாத அளவுக்கு அதிகமாக உள்ளது.",
+          "category": "4xx"
+        },
+        {
+          "code": 414,
+          "name": "URI நீளம் அதிகமாக உள்ளது",
+          "desc": "கேளிக்கை செயலில் உள்ள URI செயலியால் செயலாக்க முடியாத அளவுக்கு நீளமாக உள்ளது.",
+          "category": "4xx"
+        },
+        {
+          "code": 415,
+          "name": "ஆதாரம் செல்லுபடியாகாத மீடியா வடிவம்",
+          "desc": "செயலி கேளிக்கையில் பயன்படுத்தப்பட்ட மீடியா வடிவம் ஆதாரத்தை செயலாக்க முடியாது.",
+          "category": "4xx"
+        },
+        {
+          "code": 418,
+          "name": "நான் காஃபி போட முடியாது",
+          "desc": "செயலி காஃபி போட மறுக்கிறது ஏனெனில் அது டீப்பாட்டு ஆகும்.",
+          "category": "4xx"
+        },
+        {
+          "code": 422,
+          "name": "செயலாக்க முடியாத கையேடு",
+          "desc": "செயலி கேளிக்கை வடிவமைப்பை புரிந்து கொண்டு அதன் கீழ் உள்ள கொள்ளளவுகளை செயலாக்க முடியவில்லை.",
+          "category": "4xx"
+        },
+        {
+          "code": 429,
+          "name": "அதிக கேளிக்கைகள்",
+          "desc": "க்ளயண்ட் குறிப்பிட்ட கால கட்டத்தில் அதிக கேளிக்கைகளை அனுப்பியுள்ளது.",
+          "category": "4xx"
+        },
+        {
+          "code": 451,
+          "name": "சட்ட காரணங்களுக்காக கிடைக்காது",
+          "desc": "சட்ட தடைகளின் காரணமாக ஆதாரம் கிடைக்காது.",
+          "category": "4xx"
+        },
+        {
+          "code": 500,
+          "name": "இடைமறிப்பு செயலி பிழை",
+          "desc": "கேளிக்கையை செயலாக்கும் போது செயலி எதிர்பாராத பிழையை சந்தித்தது.",
+          "category": "5xx"
+        },
+        {
+          "code": 501,
+          "name": "செயல்படுத்தப்படவில்லை",
+          "desc": "கேளிக்கையை நிறைவு செய்ய தேவையான செயல்பாடு செயலி ஆதரவு இல்லை.",
+          "category": "5xx"
+        },
+        {
+          "code": 502,
+          "name": "தவறான கிரேட்டர்",
+          "desc": "கிரேட்டர் அல்லது புரோக்ஸி செயலி மேல் செயலி இருந்து தவறான பதிலை பெற்றுள்ளது.",
+          "category": "5xx"
+        },
+        {
+          "code": 503,
+          "name": "சேவை கிடைக்காது",
+          "desc": "செயலி தற்காலிகமாக கேளிக்கையை செயலாக்க முடியாது, பொதுவாக மிகுதியான போக்குவரத்து அல்லது சேவை முடிவுக்கு காரணமாக இருக்கும்.",
+          "category": "5xx"
+        },
+        {
+          "code": 504,
+          "name": "கிரேட்டர் நேரம் முடிந்தது",
+          "desc": "கிரேட்டர் அல்லது புரோக்ஸி செயலி மேல் செயலி இருந்து நேரத்திற்கு முன்னர் பதிலை பெறவில்லை.",
+          "category": "5xx"
+        },
+        {
+          "code": 505,
+          "name": "HTTP பதிப்பு ஆதரவு இல்லை",
+          "desc": "செயலி கேளிக்கையில் பயன்படுத்தப்பட்டுள்ள HTTP பதிப்பு ஆதரவு இல்லை.",
+          "category": "5xx"
+        }
+      ]
+    },
+    "phpReference": {
+      "title": "PHP செயல்முறை விரிவாக்கம்",
+      "description": "பொதுவான PHP செயல்முறைகளுக்கான விரைவான விளக்கம்",
+      "searchPlaceholder": "செயல்முறை பெயர்கள் அல்லது விளக்கங்களை தேடவும்...",
+      "noMatch": "மோதிய செயல்முறைகள் கிடைக்கவில்லை",
+      "infoTitle": "குறிப்பு",
+      "infoDescription": "இந்த பக்கம் விரைவான பார்வைக்கு பயன்பாடு செயல்முறைகளை பிரிவுகள் போல பட்டியலிடுகிறது. இது அதிகாரப்பூர்வ PHP ஆவணத்தை மாற்றாது மற்றும் மென்பொருள் மேம்படுத்துபவர்களுக்கு பயனுள்ள முழுமையான காட்சியை வழங்கும்.",
+      "categories": [
+        "அனைத்தும்",
+        "சரியான",
+        "அணி",
+        "கோப்பு",
+        "தேதி/நேரம்",
+        "JSON",
+        "கணிதம்",
+        "வேறு"
+      ],
+      "functions": [
+        {
+          "name": "strlen",
+          "desc": "ஒரு சரம் நீளத்தை பெறு",
+          "syntax": "strlen(string $string): int",
+          "category": "சரம்"
+        },
+        {
+          "name": "substr",
+          "desc": "ஒரு சரத்தின் பகுதியை திரும்பு",
+          "syntax": "substr(string $string, int $offset, ?int $length = null): string",
+          "category": "சரம்"
+        },
+        {
+          "name": "strpos",
+          "desc": "ஒரு சரத்தில் உள்ள முதல் உள்ளடக்கத்தின் நிலையை கண்டுபிடி",
+          "syntax": "strpos(string $haystack, string $needle, int $offset = 0): int|false",
+          "category": "சரம்"
+        },
+        {
+          "name": "str_replace",
+          "desc": "தேடும் சரத்தின் அனைத்து தோற்றங்களை மாற்றவும்",
+          "syntax": "str_replace(mixed $search, mixed $replace, mixed $subject): mixed",
+          "category": "சரம்"
+        },
+        {
+          "name": "explode",
+          "desc": "ஒரு சரத்தை பிரிக்கவும் ஒரு பிரிப்பான் கொண்டு ஒரு அணி ஆக்கவும்",
+          "syntax": "explode(string $separator, string $string, int $limit = PHP_INT_MAX): array",
+          "category": "சரம்"
+        },
+        {
+          "name": "implode",
+          "desc": "அணியின் உறுப்புகளை ஒரு சரமாக இணைக்கவும்",
+          "syntax": "implode(string $separator, array $array): string",
+          "category": "சரம்"
+        },
+        {
+          "name": "trim",
+          "desc": "ஒரு சரத்தின் இரு முனைகளிலிருந்து வெளியில் இருக்கும் வெளியில் இருக்கும் எண்ணிக்கையை அகற்றவும்",
+          "syntax": "trim(string $string, string $characters = \" \\n\\r\\t\\v\\x00\"): string",
+          "category": "சரம்"
+        },
+        {
+          "name": "strtolower",
+          "desc": "ஒரு சரத்தை சின்ன எழுத்துகளாக மாற்றவும்",
+          "syntax": "strtolower(string $string): string",
+          "category": "சரம்"
+        },
+        {
+          "name": "strtoupper",
+          "desc": "ஒரு சரத்தை பெரிய எழுத்துகளாக மாற்றவும்",
+          "syntax": "strtoupper(string $string): string",
+          "category": "சரம்"
+        },
+        {
+          "name": "sprintf",
+          "desc": "ஒரு வடிவமைக்கப்பட்ட சரத்தை திரும்பு",
+          "syntax": "sprintf(string $format, mixed ...$values): string",
+          "category": "சரம்"
+        },
+        {
+          "name": "preg_match",
+          "desc": "எளிய விதிகளை பயன்படுத்தி ஒரு முறையை முறையிடவும்",
+          "syntax": "preg_match(string $pattern, string $subject, array &$matches = null): int|false",
+          "category": "சரம்"
+        },
+        {
+          "name": "preg_replace",
+          "desc": "எளிய விதிகளை பயன்படுத்தி ஒரு முறையை மாற்றவும்",
+          "syntax": "preg_replace(mixed $pattern, mixed $replacement, mixed $subject): mixed",
+          "category": "சரம்"
+        },
+        {
+          "name": "count",
+          "desc": "ஒரு அணியில் உள்ள உறுப்புகளை எண்ணவும் அல்லது Countable பொருளை",
+          "syntax": "count(Countable|array $value, int $mode = COUNT_NORMAL): int",
+          "category": "அணி"
+        },
+        {
+          "name": "array_push",
+          "desc": "ஒரு அணியின் முடிவில் ஒரு அல்லது அதிக உறுப்புகளை சேர்க்கவும்",
+          "syntax": "array_push(array &$array, mixed ...$values): int",
+          "category": "அணி"
+        },
+        {
+          "name": "array_pop",
+          "desc": "ஒரு அணியிலிருந்து கடைசி உறுப்பை நீக்கவும்",
+          "syntax": "array_pop(array &$array): mixed",
+          "category": "அணி"
+        },
+        {
+          "name": "array_merge",
+          "desc": "ஒரு அல்லது அதிக அணிகளை இணைக்கவும்",
+          "syntax": "array_merge(array ...$arrays): array",
+          "category": "அணி"
+        },
+        {
+          "name": "array_keys",
+          "desc": "ஒரு அணியின் அனைத்து கீய்களை திரும்பு",
+          "syntax": "array_keys(array $array, mixed $filter_value, bool $strict = false): array",
+          "category": "அணி"
+        },
+        {
+          "name": "array_values",
+          "desc": "ஒரு அணியின் அனைத்து மதிப்புகளை திரும்பு",
+          "syntax": "array_values(array $array): array",
+          "category": "அணி"
+        },
+        {
+          "name": "in_array",
+          "desc": "ஒரு அணியில் ஒரு மதிப்பு உள்ளதா என்பதை சோதிக்கவும்",
+          "syntax": "in_array(mixed $needle, array $haystack, bool $strict = false): bool",
+          "category": "அணி"
+        },
+        {
+          "name": "array_search",
+          "desc": "ஒரு மதிப்பை அணியில் தேடி அதன் கீய்யை திரும்பு",
+          "syntax": "array_search(mixed $needle, array $haystack, bool $strict = false): int|string|false",
+          "category": "அணி"
+        },
+        {
+          "name": "array_map",
+          "desc": "ஒரு அணியின் உறுப்புகளுக்கு ஒரு கோல் பெறவும்",
+          "syntax": "array_map(?callable $callback, array $array, array ...$arrays): array",
+          "category": "அணி"
+        },
+        {
+          "name": "array_filter",
+          "desc": "ஒரு கோல் பயன்படுத்தி ஒரு அணியின் உறுப்புகளை தேர்வு செய்யவும்",
+          "syntax": "array_filter(array $array, ?callable $callback = null, int $mode = 0): array",
+          "category": "அணி"
+        },
+        {
+          "name": "sort",
+          "desc": "ஒரு அணியை ஏறுமுறையில் மாற்றவும்",
+          "syntax": "sort(array &$array, int $flags = SORT_REGULAR): bool",
+          "category": "அணி"
+        },
+        {
+          "name": "usort",
+          "desc": "ஒரு பயனர்-ஆதார  ஒப்பீடு செயல்முறையை பயன்படுத்தி ஒரு அணியை மாற்றவும்",
+          "syntax": "usort(array &$array, callable $callback): bool",
+          "category": "அணி"
+        },
+        {
+          "name": "file_get_contents",
+          "desc": "ஒரு கோப்பை ஒரு சரமாக முழுமையாக படிக்கவும்",
+          "syntax": "file_get_contents(string $filename, ...): string|false",
+          "category": "கோப்பு"
+        },
+        {
+          "name": "file_put_contents",
+          "desc": "கோப்புக்கு தரவை எழுதவும்",
+          "syntax": "file_put_contents(string $filename, mixed $data, int $flags = 0): int|false",
+          "category": "கோப்பு"
+        },
+        {
+          "name": "fopen",
+          "desc": "ஒரு கோப்பை அல்லது URL-ஐ திறக்கவும்",
+          "syntax": "fopen(string $filename, string $mode, ...): resource|false",
+          "category": "கோப்பு"
+        },
+        {
+          "name": "fclose",
+          "desc": "திறந்துள்ள கோப்பு குறியீட்டை மூடவும்",
+          "syntax": "fclose(resource $stream): bool",
+          "category": "கோப்பு"
+        },
+        {
+          "name": "fread",
+          "desc": "கோப்பு குறியீட்டிலிருந்து படிக்கவும்",
+          "syntax": "fread(resource $stream, int $length): string|false",
+          "category": "கோப்பு"
+        },
+        {
+          "name": "fwrite",
+          "desc": "கோப்பு குறியீட்டில் எழுதவும்",
+          "syntax": "fwrite(resource $stream, string $data, ?int $length = null): int|false",
+          "category": "கோப்பு"
+        },
+        {
+          "name": "file_exists",
+          "desc": "ஒரு கோப்பு அல்லது கோப்பகம் உள்ளதா என்பதை சோதிக்கவும்",
+          "syntax": "file_exists(string $filename): bool",
+          "category": "கோப்பு"
+        },
+        {
+          "name": "is_file",
+          "desc": "முக்கிய கோப்பு என்பதை சோதிக்கவும்",
+          "syntax": "is_file(string $filename): bool",
+          "category": "கோப்பு"
+        },
+        {
+          "name": "unlink",
+          "desc": "ஒரு கோப்பை அழிக்கவும்",
+          "syntax": "unlink(string $filename, ?resource $context = null): bool",
+          "category": "கோப்பு"
+        },
+        {
+          "name": "mkdir",
+          "desc": "ஒரு கோப்பகத்தை உருவாக்கவும்",
+          "syntax": "mkdir(string $directory, int $permissions = 0777, bool $recursive = false): bool",
+          "category": "கோப்பு"
+        },
+        {
+          "name": "date",
+          "desc": "ஒரு பொது தேதி மற்றும் நேரத்தை வடிவமைக்கவும்",
+          "syntax": "date(string $format, ?int $timestamp = null): string",
+          "category": "தேதி/நேரம்"
+        },
+        {
+          "name": "time",
+          "desc": "நெடிய டெக்ஸ்டைம் முனையை பெறவும்",
+          "syntax": "time(): int",
+          "category": "தேதி/நேரம்"
+        },
+        {
+          "name": "strtotime",
+          "desc": "ஒரு உரை தேதி நேரத்தை ஒரு நெடிய டெக்ஸ்டைம் ஆக மாற்றவும்",
+          "syntax": "strtotime(string $datetime, ?int $baseTimestamp = null): int|false",
+          "category": "தேதி/நேரம்"
+        },
+        {
+          "name": "மைக்தைம்",
+          "desc": "ஒரு தேதிக்கு ஒரு யூனிக்ஸ் நேர அடையாளத்தை பெறு",
+          "syntax": "மைக்தைம்(int $மணி, ?int $நிமிடம் = null, ...): int|false",
+          "category": "தேதி/நேரம்"
+        },
+        {
+          "name": "தேதி_சிரியேட்",
+          "desc": "ஒரு DateTime செயலி உருவாக்கவும்",
+          "syntax": "தேதி_சிரியேட்(string $datetime = \"now\", ?DateTimeZone $timezone = null): DateTime|false",
+          "category": "தேதி/நேரம்"
+        },
+        {
+          "name": "ஜெஸன்_என்கோட்",
+          "desc": "ஒரு மதிப்பை ஜெஸன் சரமாக மாற்று",
+          "syntax": "ஜெஸன்_என்கோட்(mixed $value, int $flags = 0, int $depth = 512): string|false",
+          "category": "ஜெஸன்"
+        },
+        {
+          "name": "ஜெஸன்_டீகோட்",
+          "desc": "ஜெஸன் சரத்தை பிஎச்பியில் மதிப்பாக மாற்று",
+          "syntax": "ஜெஸன்_டீகோட்(string $json, ?bool $associative = null, int $depth = 512): mixed",
+          "category": "ஜெஸன்"
+        },
+        {
+          "name": "abs",
+          "desc": "முழுமையான மதிப்பை பெறு",
+          "syntax": "abs(int|float $num): int|float",
+          "category": "கணிதம்"
+        },
+        {
+          "name": "சீல்",
+          "desc": "பின்னங்களை மேல் சுழலவிடு",
+          "syntax": "சீல்(int|float $num): float",
+          "category": "கணிதம்"
+        },
+        {
+          "name": "ஃப்ளோர்",
+          "desc": "பின்னங்களை கீழ் சுழலவிடு",
+          "syntax": "ஃப்ளோர்(int|float $num): float",
+          "category": "கணிதம்"
+        },
+        {
+          "name": "ரவுண்ட்",
+          "desc": "ஒரு எண்ணை சுழலவிடு",
+          "syntax": "ரவுண்ட்(int|float $num, int $precision = 0, int $mode = PHP_ROUND_HALF_UP): float",
+          "category": "கணிதம்"
+        },
+        {
+          "name": "மாக்ஸ்",
+          "desc": "அதிக மதிப்பை கண்டுபிடி",
+          "syntax": "மாக்ஸ்(mixed $value, mixed ...$values): mixed",
+          "category": "கணிதம்"
+        },
+        {
+          "name": "மின்",
+          "desc": "சிறிய மதிப்பை கண்டுபிடி",
+          "syntax": "மின்(mixed $value, mixed ...$values): mixed",
+          "category": "கணிதம்"
+        },
+        {
+          "name": "ராண்ட்",
+          "desc": "ஓர் சமவாய் முழு எண்ணை உருவாக்கு",
+          "syntax": "ராண்ட்(int $min, int $max): int",
+          "category": "கணிதம்"
+        },
+        {
+          "name": "இசெட்",
+          "desc": "ஒரு மாறிலியானது வரும் மற்றும் நிலையானது இல்லை என்பதை சரிபார்",
+          "syntax": "இசெட்(mixed $var, mixed ...$vars): bool",
+          "category": "மற்றவை"
+        },
+        {
+          "name": "எம்ப்டி",
+          "desc": "ஒரு மாறிலியானது காலியாக இருக்கிறதா என்பதை சரிபார்",
+          "syntax": "எம்ப்டி(mixed $var): bool",
+          "category": "மற்றவை"
+        },
+        {
+          "name": "வார்_டம்ப்",
+          "desc": "ஒரு மாறிலியின் தகவலை கொடு",
+          "syntax": "வார்_டம்ப்(mixed $value, mixed ...$values): void",
+          "category": "மற்றவை"
+        },
+        {
+          "name": "பிரிண்ட்_ஆர்",
+          "desc": "ஒரு மாறிலியின் மனிதர்கள் புரிந்துகொள்ளக்கூடிய தகவலை அச்சிடு",
+          "syntax": "பிரிண்ட்_ஆர்(mixed $value, bool $return = false): string|bool",
+          "category": "மற்றவை"
+        },
+        {
+          "name": "கெட்டைப்",
+          "desc": "ஒரு மாறிலியின் வகையை பெறு",
+          "syntax": "கெட்டைப்(mixed $value): string",
+          "category": "மற்றவை"
+        },
+        {
+          "name": "இசை_அரே",
+          "desc": "ஒரு மாறிலியானது அரே ஆக இருக்கிறதா என்பதை சரிபார்",
+          "syntax": "இசை_அரே(mixed $value): bool",
+          "category": "மற்றவை"
+        },
+        {
+          "name": "இசை_ஸ்ட்ரிங்",
+          "desc": "ஒரு மாறிலியானது ஸ்ட்ரிங் ஆக இருக்கிறதா என்பதை சரிபார்",
+          "syntax": "இசை_ஸ்ட்ரிங்(mixed $value): bool",
+          "category": "மற்றவை"
+        },
+        {
+          "name": "இசை_நியூமெரிக்",
+          "desc": "ஒரு மாறிலியானது எண் அல்லது எண் ஸ்ட்ரிங் ஆக இருக்கிறதா என்பதை சரிபார்",
+          "syntax": "இசை_நியூமெரிக்(mixed $value): bool",
+          "category": "மற்றவை"
+        }
+      ]
+    },
+    "cssBorderRadius": {
+      "title": "CSS Border Radius Generator",
+      "description": "ஒரு கோட்டின் border-radius மதிப்புகளை காண்பிக்கவும் மற்றும் CSS கோட்டை உருவாக்கவும்",
+      "presetsLabel": "Presets",
+      "preview": "முன்காட்சி",
+      "settings": "அமைப்புகள்",
+      "linked": "இணைக்கப்பட்ட கோணங்கள்",
+      "unlinked": "பிரிக்கப்பட்ட கோணங்கள்",
+      "corners": {
+        "topLeft": "மேல் இடது",
+        "topRight": "மேல் வலது",
+        "bottomLeft": "கீழ் இடது",
+        "bottomRight": "கீழ் வலது"
+      },
+      "elementColor": "கூறு நிறம்",
+      "codeTitle": "CSS கோடு",
+      "copy": "நகல்",
+      "copied": "நகலிடப்பட்டது",
+      "presets": [
+        {
+          "name": "இல்லை",
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "சிறிய",
+          "values": [
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "சராசரி",
+          "values": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "பெரிய",
+          "values": [
+            16,
+            16,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "வட்டம்",
+          "values": [
+            50,
+            50,
+            50,
+            50
+          ]
+        },
+        {
+          "name": "கொண்டை",
+          "values": [
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "இடது பக்கம்",
+          "values": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        {
+          "name": "வலது பக்கம்",
+          "values": [
+            0,
+            16,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "மேல் மட்டும்",
+          "values": [
+            16,
+            16,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "கீழ் மட்டும்",
+          "values": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "மூலைவிட்டம்",
+          "values": [
+            16,
+            0,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "இலை",
+          "values": [
+            0,
+            50,
+            0,
+            50
+          ]
+        }
+      ]
+    },
+    "cssNeumorphism": {
+      "title": "Neumorphism CSS Generator",
+      "description": "ஆன்லைனில் Neumorphism-வின் CSS கோட்டை உருவாக்குங்கள்",
+      "previewText": "முன்காட்சி பொத்தான்",
+      "shapeTitle": "வடிவம் வகை",
+      "shapeOptions": [
+        {
+          "value": "flat",
+          "label": "தளம்"
+        },
+        {
+          "value": "concave",
+          "label": "குழிவு"
+        },
+        {
+          "value": "convex",
+          "label": "குவிவு"
+        },
+        {
+          "value": "pressed",
+          "label": "தட்டப்பட்ட"
+        }
+      ],
+      "colorTitle": "நிற அமைப்புகள்",
+      "presetColors": "முன் வடிவமைக்கப்பட்ட நிறங்கள்",
+      "colorPresets": [
+        {
+          "color": "#e0e5ec",
+          "name": "கிளாசிக்"
+        },
+        {
+          "color": "#f0f0f3",
+          "name": "வெள்ளை"
+        },
+        {
+          "color": "#d1d9e6",
+          "name": "நீலம்"
+        },
+        {
+          "color": "#e8dfd5",
+          "name": "பீஜ்"
+        },
+        {
+          "color": "#dfe6e9",
+          "name": "மஞ்சள்"
+        },
+        {
+          "color": "#ffeaa7",
+          "name": "மஞ்சள்"
+        },
+        {
+          "color": "#dfe4ea",
+          "name": "சிலேட்"
+        },
+        {
+          "color": "#f8e1e7",
+          "name": "சிவப்பு"
+        },
+        {
+          "color": "#d5f5e3",
+          "name": "மிண்ட்"
+        },
+        {
+          "color": "#e8daef",
+          "name": "மஞ்சள்"
+        }
+      ],
+      "backgroundColor": "அடிப்படை நிறம்",
+      "lightColor": "வெளிச்சம் நிறம் (ஹைலைட்)",
+      "darkColor": "கரும் நிறம் (நிழல்)",
+      "sliderTitle": "நிழல் அமைப்புகள்",
+      "size": "அளவு",
+      "radius": "ஆரம்",
+      "distance": "நிழல் தூரம்",
+      "blur": "நிழல் பிரமிக்கும்",
+      "intensity": "தீவிரம்",
+      "codeTitle": "CSS கோடு",
+      "copy": "நகல்",
+      "copied": "நகலிடப்பட்டது",
+      "infoTitle": "Neumorphism என்றால் என்ன?",
+      "infoDescription": "நியூமார்பிசம் என்பது மின்னணு உட்பகுதியில் மிகச்சிறிய தெரிவிப்புகள் மற்றும் நிழல்களை இணைத்து கொண்டு கோட்டை அல்லது அழுத்தப்பட்ட பொருட்களை தெரிவிக்கும் மென்மையான யூஐ பாணியாகும். இது குறைவான எதிரொளிப்பு பூஜிய பெட்டிகள் மற்றும் சுத்தமான, குறைவான வடிவமைப்புகளுடன் சிறப்பாக செயல்படுகிறது."
+    },
+    "cssTextShadow": {
+      "title": "CSS எழுத்து நிழல் ஜெனரேட்டர்",
+      "description": "எழுத்து-நிழல் மதிப்புகளை காட்சிப்படுத்தி கொண்டு CSS குறிச்சொற்களை உருவாக்கவும்",
+      "defaultText": "எழுத்து நிழல் உதாரணம்",
+      "presetsLabel": "முன் நிர்ணயிக்கப்பட்ட விளைவுகள்",
+      "textSettings": "எழுத்து அமைப்புகள்",
+      "previewText": "முன்னுரு எழுத்து",
+      "fontSize": "எழுத்து அளவு",
+      "textColor": "எழுத்து நிறம்",
+      "shadowPrefix": "நிழல் {{index}}",
+      "offsetX": "X மாற்றம்",
+      "offsetY": "Y மாற்றம்",
+      "blur": "மெல்லியது",
+      "opacity": "தெளிவுதன்மை",
+      "color": "நிறம்",
+      "addShadow": "நிழலைச் சேர்க்கவும்",
+      "codeTitle": "CSS குறிச்சொற்கள்",
+      "copy": "காப்பி",
+      "copied": "காப்பி செய்யப்பட்டது",
+      "presets": [
+        {
+          "name": "மென்மையான நிழல்",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 2,
+              "y": 2,
+              "blur": 4,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        },
+        {
+          "name": "நியூன் பொறியியல்",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#00ff00",
+              "opacity": 0.8
+            }
+          ]
+        },
+        {
+          "name": "மஞ்சள் பொறியியல்",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 5,
+              "color": "#ff00ff",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#ff00ff",
+              "opacity": 0.8
+            },
+            {
+              "id": 3,
+              "x": 0,
+              "y": 0,
+              "blur": 20,
+              "color": "#ff00ff",
+              "opacity": 0.6
+            }
+          ]
+        },
+        {
+          "name": "மூன்று படிநிலை மூளை",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 1,
+              "y": 1,
+              "blur": 0,
+              "color": "#666666",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 2,
+              "y": 2,
+              "blur": 0,
+              "color": "#888888",
+              "opacity": 1
+            },
+            {
+              "id": 3,
+              "x": 3,
+              "y": 3,
+              "blur": 0,
+              "color": "#aaaaaa",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "name": "அமெஸ்ஸிடெட்",
+          "shadows": [
+            {
+              "id": 1,
+              "x": -1,
+              "y": -1,
+              "blur": 1,
+              "color": "#ffffff",
+              "opacity": 0.8
+            },
+            {
+              "id": 2,
+              "x": 1,
+              "y": 1,
+              "blur": 1,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "websocketTest": {
+      "title": "ஆன்லைன் WebSocket சோதனை கருவி",
+      "description": "WebSocket இணைப்புகள் மற்றும் செய்திகளை ஆன்லைனில் சோதிக்கவும்",
+      "defaultUrl": "wss://echo.websocket.org",
+      "connectingTo": "{{url}} ஐ இணைக்கிறது...",
+      "connectSuccess": "வெற்றிகரமாக இணைக்கப்பட்டது",
+      "connectError": "இணைப்பு பிழை",
+      "connectionClosed": "இணைப்பு முடிவு (குறியீடு: {{code}})",
+      "connectFailed": "இணைப்பு தோல்வியடைந்தது: {{message}}",
+      "disconnecting": "இணைப்பை முடிக்கிறது...",
+      "urlPlaceholder": "உதாரணமாக: wss://echo.websocket.org ஒரு WebSocket URL ஐ உள்ளிடவும்",
+      "disconnect": "இணைப்பை முடிக்கவும்",
+      "connecting": "இணைக்கிறது...",
+      "connect": "இணைக்கவும்",
+      "connected": "இணைக்கப்பட்டுள்ளது",
+      "notConnected": "இணைக்கப்படவில்லை",
+      "messageLog": "செய்தி பதிவு",
+      "clear": "அனைத்தையும் அழி",
+      "noMessages": "இதுவரை செய்திகள் இல்லை",
+      "messagePlaceholder": "செய்தியை உள்ளிடவும்... (Enter ஐ பொதிக்கவும், Shift+Enter ஐ பொதிக்கவும் புதிய வரியை சேர்க்கவும்)",
+      "infoTitle": "WebSocket சிறிய ஆலோசனைகள்",
+      "infoItems": [
+        "உள்ளடக்கப்பட்ட எகோ சேவை அடிப்படை அனுப்பு/பெற சோதனைக்கு பயனுள்ளது",
+        "ws:// மற்றும் wss:// முனைப்புகளை ஆதரிக்கிறது",
+        "Enter ஐ பொதிக்கவும் செய்தியை அனுப்பவும், Shift+Enter ஐ பொதிக்கவும் புதிய வரியை சேர்க்கவும்",
+        "உங்கள் இலக்கு சேவை பார்வையாளரில் WebSocket இணைப்புகளை அனுமதிக்கிறதா என்பதை உறுதிப்படுத்தவும்"
+      ],
+      "examplesTitle": "பொதுவான உதாரணங்கள்",
+      "publicEcho": "பொது எகோ சேவை",
+      "defaultTag": "இயல்பு"
+    },
+    "csrGenerator": {
+      "title": "CSR ஜெனரேட்டர் & பார்வையாளர்",
+      "description": "ஆன்லைனில் CSR கோப்புகளை உருவாக்கவும் மற்றும் CSR உள்ளடக்கத்தை பகுப்பாய்வு செய்யவும்",
+      "enterDomain": "ஒரு டொமைனை உள்ளிடவும்",
+      "generateFailed": "CSR உருவாக்கம் தோல்வியடைந்தது",
+      "parseFailed": "CSR பகுப்பாய்வு தோல்வியடைந்தது",
+      "serverConnectionFailed": "சர்வருடன் இணைப்பு தோல்வியடைந்தது, பின்னர் மீண்டும் முயற்சிக்கவும்",
+      "tabs": {
+        "generate": "CSR உருவாக்கு",
+        "view": "CSR பார்"
+      },
+      "formTitle": "சர்டிபிகேட் தகவல்",
+      "labels": {
+        "commonName": "டொமைன் (Common Name)",
+        "organization": "நிறுவனம்",
+        "organizationUnit": "மாற்று",
+        "city": "நகரம்",
+        "state": "மாநிலம் / மாகாணம்",
+        "country": "நாடு / பிராந்தியம்",
+        "email": "மின்னஞ்சல்",
+        "keySize": "கீ அளவு"
+      },
+      "placeholders": {
+        "commonName": "உதாரணம்: www.example.com அல்லது *.example.com",
+        "organization": "உதாரணம்: Example Inc.",
+        "organizationUnit": "உதாரணம்: IT துறை",
+        "city": "உதாரணம்: பீஜிங்",
+        "state": "உதாரணம்: பீஜிங்",
+        "email": "உதாரணம்: admin@example.com",
+        "csr": "-----BEGIN CERTIFICATE REQUEST----- ஆரம்பிக்கும் இங்கு CSR உள்ளடக்கத்தை வைக்கவும்"
+      },
+      "countries": [
+        {
+          "value": "CN",
+          "label": "CN - சீனா"
+        },
+        {
+          "value": "US",
+          "label": "US - ஐக்கிய அமெரிக்கா"
+        },
+        {
+          "value": "JP",
+          "label": "JP - ஜப்பான்"
+        },
+        {
+          "value": "KR",
+          "label": "KR - தென் கொரியா"
+        },
+        {
+          "value": "GB",
+          "label": "GB - ஐக்கிய இராச்சியம்"
+        },
+        {
+          "value": "DE",
+          "label": "DE - ஜெர்மனி"
+        },
+        {
+          "value": "FR",
+          "label": "FR - பிரான்சு"
+        },
+        {
+          "value": "SG",
+          "label": "SG - சிங்கப்பூர்"
+        },
+        {
+          "value": "HK",
+          "label": "HK - ஹாங்கோங்"
+        },
+        {
+          "value": "TW",
+          "label": "TW - தைவான்"
+        }
+      ],
+      "keySizes": [
+        {
+          "value": "2048",
+          "label": "2048 பிட் (அறிவுறுத்தப்பட்டது)"
+        },
+        {
+          "value": "4096",
+          "label": "4096 பிட் (அதிக பாதுகாப்பு)"
+        }
+      ],
+      "generating": "உருவாக்குகிறது...",
+      "generateAction": "CSR மற்றும் தனியுரிமை கீ உருவாக்கு",
+      "csrRequest": "CSR கேட்பார்",
+      "privateKey": "தனியுரிமை கீ (அதனை பாதுகாக்கவும்)",
+      "copy": "காப்பி",
+      "copied": "காப்பி செய்யப்பட்டது",
+      "download": "இறக்கவைக்கவும்",
+      "privateKeyWarning": "தனியுரிமை கீ மிகவும் உணர்ச்சியானது. அதனை பாதுகாக்கவும் மற்றும் பொதுவாக பகிரவும் கூடாது. இது கைவிடப்பட்டால், உங்கள் சர்டிபிகேட் பாதுகாப்பு பாதிக்கப்படலாம்.",
+      "inputCsr": "CSR உள்ளடக்கத்தை வைக்கவும்",
+      "parsing": "பகுப்பாய்வு செய்கிறது...",
+      "parseAction": "CSR பகுப்பாய்வு செய்யவும்",
+      "csrInfo": "CSR தகவல்",
+      "infoItems": [
+        {
+          "label": "டொமைன் (CN)",
+          "key": "commonName"
+        },
+        {
+          "label": "நிறுவனம் (O)",
+          "key": "organization"
+        },
+        {
+          "label": "மாற்று (OU)",
+          "key": "organizationUnit"
+        },
+        {
+          "label": "நகரம் (L)",
+          "key": "city"
+        },
+        {
+          "label": "மாநிலம் / மாகாணம் (ST)",
+          "key": "state"
+        },
+        {
+          "label": "நாடு (C)",
+          "key": "country"
+        },
+        {
+          "label": "மின்னஞ்சல்",
+          "key": "email"
+        },
+        {
+          "label": "கீ முறை",
+          "key": "keyAlgorithm"
+        },
+        {
+          "label": "கீ அளவு",
+          "key": "keySize"
+        },
+        {
+          "label": "கைமூட்டு முறை",
+          "key": "signatureAlgorithm"
+        }
+      ],
+      "keySizeValue": "{{value}} பிட்",
+      "aboutTitle": "CSR என்றால் என்ன?",
+      "aboutDescription": "CSR (சர்டிபிகேட் சைனிங் கேள்வி) என்பது SSL/TLS சர்டிபிகேட் பெற ஒரு சர்டிபிகேட் அதிகாரம் (CA) க்கு அனுப்பப்படும் குறியீடு செய்யப்பட்ட கோப்பு ஆகும். இது உங்கள் டொமைன் மற்றும் நிறுவனத்தின் தகவல்களை மற்றும் உங்கள் தனியுரிமை கீக்கு ஏற்பு செய்யும் பொது கீ ஆகியவற்றை உள்ளடக்கியுள்ளது. சரிபார்க்கப்பட்ட பின், CA CSR ஐ பயன்படுத்தி SSL சர்டிபிகேட் வழங்கும்."
+    },
+    "metaGenerator": {
+      "title": "மெடா தாக் ஜெனரேட்டர்",
+      "description": "SEO முன்னுரிமை வாய்ந்த பக்க மெடா தாக்களை உருவாக்கவும்",
+      "basicInfo": "அடிப்படை தகவல்",
+      "socialMedia": "சமூக ஊடகங்கள் (Open Graph)",
+      "generatedCode": "உருவாக்கப்பட்ட குறிச்சொற்கள்",
+      "copy": "காப்பி",
+      "copied": "நகலிடப்பட்டது",
+      "searchPreview": "தேடல் முன்னோட்டம்",
+      "searchPreviewTitleFallback": "பக்க தலைப்பு",
+      "searchPreviewDescriptionFallback": "உங்கள் பக்க விளக்கம் இங்கு தோன்றும்...",
+      "socialPreview": "சமூக முன்னோட்டம்",
+      "socialPreviewTitleFallback": "தலைப்பு",
+      "socialPreviewDescriptionFallback": "விளக்கம்",
+      "labels": {
+        "title": "பக்க தலைப்பு",
+        "description": "பக்க விளக்கம்",
+        "keywords": "கீவர்டுகள்",
+        "author": "ஆசிரியர்",
+        "robots": "ரோபோட்டுகள் அறிமுகம்",
+        "ogTitle": "ஓஜி தலைப்பு",
+        "ogDescription": "ஓஜி விளக்கம்",
+        "ogImage": "ஓஜி படம் URL",
+        "ogUrl": "பக்க URL",
+        "twitterCard": "ட்விட்டர் கார்டு வகை"
+      },
+      "placeholders": {
+        "title": "பக்க தலைப்பை உள்ளிடவும்",
+        "description": "150 எழுத்துகளுக்குள் பக்க விளக்கத்தை உள்ளிடவும்",
+        "keywords": "கீவர்டு1, கீவர்டு2, கீவர்டு3",
+        "author": "ஆசிரியர் பெயரை உள்ளிடவும்",
+        "ogTitle": "சமூக பகிர்வு தலைப்பை உள்ளிடவும்",
+        "ogDescription": "சமூக பகிர்வு விளக்கத்தை உள்ளிடவும்",
+        "ogImage": "https://example.com/image.jpg",
+        "ogUrl": "https://example.com/page"
+      },
+      "robotsOptions": [
+        {
+          "value": "index, follow",
+          "label": "இணைப்புகளை அனுமதிக்கவும் மற்றும் பின்பற்றவும்"
+        },
+        {
+          "value": "index, nofollow",
+          "label": "இணைப்புகளை அனுமதிக்கவும், பின்பற்ற தடை செய்யவும்"
+        },
+        {
+          "value": "noindex, follow",
+          "label": "இணைப்புகளை தடை செய்யவும், பின்பற்றவும்"
+        },
+        {
+          "value": "noindex, nofollow",
+          "label": "இணைப்புகளை தடை செய்யவும் மற்றும் பின்பற்ற தடை செய்யவும்"
+        }
+      ],
+      "twitterOptions": [
+        {
+          "value": "summary",
+          "label": "சுருக்கம்"
+        },
+        {
+          "value": "summary_large_image",
+          "label": "பெரிய படம்"
+        },
+        {
+          "value": "player",
+          "label": "ஒலிப்பெடியா"
+        }
+      ]
+    },
+    "toolHistoryDemo": {
+      "confirmClear": "உங்கள் அனைத்து கருவி வரலாறு மற்றும் பெரிய குறிச்சொல்லுகளையும் அழிக்க விரும்புகிறீர்களா?",
+      "exportTitle": "வெளியீடு செய்யுங்கள்",
+      "usageCount": "பயன்படுத்தப்பட்ட {{count}} முறைகள்",
+      "lastUsed": "சமீபத்திய பயன்பாடு: {{time}}",
+      "favorite": "பெரிய குறிச்சொல்: {{value}}",
+      "yes": "ஆம்",
+      "no": "இல்லை",
+      "exportFailed": "வெளியீடு தோல்வியடைந்தது",
+      "tabs": {
+        "overview": "மேலோகை",
+        "history": "வரலாறு",
+        "favorites": "பெரிய குறிச்சொல்லுகள்",
+        "analytics": "பகுப்பாய்வு"
+      },
+      "loading": "கருவி வரலாறு தரவு ஏற்றும்...",
+      "loadFailed": "ஏற்றும் தோல்வியடைந்தது: {{error}}",
+      "title": "கருவி வரலாறு மாதிரி",
+      "description": "கருவி பயன்பாடு வரலாறு, பெரிய குறிச்சொல்லுகள் மற்றும் பகுப்பாய்வை காட்டுகிறது",
+      "export": "வெளியீடு",
+      "clear": "அழி",
+      "searchPlaceholder": "கருவிகளை தேடுங்கள்...",
+      "stats": {
+        "totalTools": "மொத்த கருவிகள்",
+        "totalUsage": "மொத்த பயன்பாடு",
+        "favoriteTools": "பெரிய குறிச்சொல்லுகள்",
+        "averageUsage": "சராசரி பயன்பாடு"
+      },
+      "favoriteToolsTitle": "பெரிய குறிச்சொல்லுகள்",
+      "favoriteToolsDescription": "நீங்கள் பெரிய குறிச்சொல்லுகளாக குறிக்கப்பட்ட கருவிகள்",
+      "noFavoriteTools": "இதுவரை பெரிய குறிச்சொல்லுகள் இல்லை",
+      "mostUsed": "அதிகமாக பயன்படுத்தப்பட்ட கருவிகள்",
+      "timesUsed": "பயன்படுத்தப்பட்ட {{count}} முறைகள்",
+      "recentActivity": "சமீபத்திய செயல்பாடு",
+      "exportDialogTitle": "கருவி வரலாறு வெளியீடு",
+      "exportDialogDescription": "வெளியீடு வடிவத்தை தேர்வு செய்யவும்",
+      "formats": {
+        "json": {
+          "title": "JSON வடிவம்",
+          "description": "பைக்கப் மற்றும் மேற்கோள் பயனர்களுக்கு சிறந்தது"
+        },
+        "csv": {
+          "title": "CSV வடிவம்",
+          "description": "எக்ஸ்எல் போன்ற அட்டவணைகளுக்கு நல்லது"
+        },
+        "txt": {
+          "title": "TXT வடிவம்",
+          "description": "தெளிவான தொகுப்பு"
+        }
+      },
+      "cancel": "நிறுத்து"
+    },
+    "userAgentParser": {
+      "title": "User-Agent பகுப்பாய்வாளர்",
+      "description": "பயனர்-ஏஜென்ட் சரியை பிரித்து பயனர், முறைமை மற்றும் சாதன தகவலை கண்டறியவும்",
+      "label": "பயனர்-ஏஜென்ட் சரி",
+      "useCurrent": "தற்போதைய பொறியியலை பயன்படுத்தவும்",
+      "inputPlaceholder": "பயனர்-ஏஜென்ட் சரியை உள்ளிடவும்...",
+      "parse": "பகுப்பாய்வு",
+      "unknownBrowser": "அறியப்படாத பொறியியல்",
+      "unknown": "அறியப்படாதது",
+      "deviceTypes": {
+        "mobile": "மொபைல்",
+        "tablet": "திரையில்",
+        "desktop": "டெஸ்க்டாப்"
+      },
+      "browserInfo": "பொறியியல் தகவல்",
+      "browser": "பொறியியல்",
+      "version": "பதிப்பு",
+      "majorVersion": "முக்கிய பதிப்பு",
+      "operatingSystem": "இயக்க முறைமை",
+      "system": "முறைமை",
+      "deviceInfo": "சாதன தகவல்",
+      "type": "வகை",
+      "vendor": "முதலீட்டாளர்",
+      "model": "மாடல்",
+      "engineAndCpu": "எஞ்சின் & CPU",
+      "engine": "எஞ்சின்",
+      "engineVersion": "எஞ்சின் பதிப்பு",
+      "cpuArchitecture": "CPU கட்டமைப்பு",
+      "examplesTitle": "எடுத்துக்காட்டு User-Agent சரிகள்"
+    },
+    "cssBoxShadow": {
+      "title": "DIV பொருள் நிழல் உருவாக்கி",
+      "description": "உருவாக்கும் CSS குறிச்சொல்லுகளை காட்சிப்படுத்தவும் மற்றும் காட்சிப்படுத்தவும்",
+      "preview": "முன்னோட்டம்",
+      "basicSettings": "அடிப்படை அமைப்புகள்",
+      "backgroundColor": "பின்புற நிறம்",
+      "boxColor": "பொருள் நிறம்",
+      "borderRadius": "முனை கோட்டை",
+      "shadowPrefix": "நிழல் {{index}}",
+      "inset": "இன்செட்",
+      "offsetX": "X மாற்றம்",
+      "offsetY": "Y மாற்றம்",
+      "blur": "மெலிந்தது",
+      "spread": "விரிவாக்கம்",
+      "opacity": "தெளிவு",
+      "color": "நிறம்",
+      "addShadow": "நிழல் சேர்க்கவும்",
+      "codeTitle": "CSS குறிச்சொல்லுகள்",
+      "copy": "நகலிடு",
+      "copied": "நகலிடப்பட்டது"
+    },
+    "cssGlassmorphism": {
+      "title": "CSS கிளாஸ்மார்ஃபிஸ்ம் உருவாக்கி",
+      "description": "ஆன்லைனில் கிளாஸ்மார்ஃபிஸ்ம் போன்ற CSS குறிச்சொல்லுகளை உருவாக்கவும்",
+      "cardTitle": "கிளாஸ்மார்ஃபிஸ்ம் கார்டு",
+      "cardDescription": "கிளாஸ்மார்ஃபிஸ்ம் என்பது தெளிவு, மெலிந்தது மற்றும் மென்மையான முனைகளை பயன்படுத்தி கண்ணாடி கண்ணாடி போன்ற தோற்றத்தை உருவாக்கும் மாற்று யூஐ பார்வையாகும்.",
+      "adjustTitle": "அமைப்புகளை சரிசெய்யவும்",
+      "blur": "பின்புற மெலிந்தது",
+      "transparency": "தெளிவு",
+      "saturation": "நிற நிலை",
+      "borderRadius": "முனை கோட்டை",
+      "borderOpacity": "முனை தெளிவு",
+      "codeTitle": "CSS குறிச்சொல்லுகள்",
+      "copy": "நகலிடு",
+      "copied": "நகலிடப்பட்டது",
+      "infoTitle": "இணையத்தை பற்றிய குறிப்புகள்",
+      "infoDescription": "backdrop-filter பண்பு மாற்று பயனர்களுக்கு ஆதரவு தேவை. Firefox க்கு கூடுதல் அமைப்புகள் தேவையாக இருக்கலாம், மற்றும் Safari க்கு -webkit- முன்னொட்டு தேவையாக இருக்கலாம். ஆதரவற்ற பயனர்களுக்கு நெருக்கமான பொருத்தமான தீர்வுகளை கருத்தில் கொள்ளவும்."
+    },
+    "desktopShortcut": {
+      "title": "இணையத்தள டெஸ்க்டாப் குறிச்சொல்",
+      "description": "டெஸ்க்டாப் க்கு இணையத்தள குறிச்சொல்லுகளை உருவாக்கவும் மற்றும் அவற்றை விரைவாக தொடங்கவும்",
+      "enterUrl": "சரியான இணையத்தள URL ஐ உள்ளிடவும்",
+      "enterName": "குறிச்சொல் பெயரை உள்ளிடவும்",
+      "redirectingTo": "{{name}} ஐ திறக்கிறது...",
+      "urlLabel": "இணையத்தள URL",
+      "urlPlaceholder": "example.com அல்லது https://example.com",
+      "nameLabel": "குறிச்சொல் பெயர்",
+      "namePlaceholder": "இணையத்தள குறிச்சொல்",
+      "downloadUrlFile": " .url கோப்பை பதிவிறக்கவும்",
+      "downloadHtmlFile": " .html கோப்பை பதிவிறக்கவும்",
+      "infoTitle": "அறிவுரைகள்",
+      "urlFileDesc": ".url கோப்புகள் விண்டோஸ் இணைய குறிச்சொல் கோப்புகள் மற்றும் பொதுவாக உங்கள் பார்வையாளர் பயன்பாட்டில் இலக்கு இணையத்தளத்தை நேரடியாக திறக்கும்.",
+      "htmlFileDesc": ".html கோப்புகள் Windows, macOS மற்றும் Linux இல் செயல்படும் மற்றும் எளிய வலைத்தள விரைவு முறையை பயன்படுத்த முடியும்.",
+      "afterDownload": "முடிவுக்கு வந்த பின், கோப்பை உங்கள் டெஸ்க்டாப்பிற்கு மாற்றவும் அல்லது தேவையான இடத்தில் பின் செய்யவும்."
+    },
+    "htmlPreview": {
+      "title": "HTML முன்னோட்டம்",
+      "description": "எளிய HTML ஐ ஆன்லைனில் எழுதி முன்னோட்டம் செய்யவும்",
+      "defaultMessage": "HTML முன்னோட்ட கருவியில் வருகை தந்ததற்கு நன்றி",
+      "editorTitle": "HTML குறிச்சொல்",
+      "clear": "அழி",
+      "editorPlaceholder": "இங்கு HTML குறிச்சொல்லை உள்ளிடவும்...",
+      "previewTitle": "முன்னோட்டம்",
+      "run": "ஓடவும்",
+      "fullscreen": "முழு திரை",
+      "exitFullscreen": "முழு திரையிலிருந்து வெளியேறு",
+      "usageTitle": "எவ்வாறு பயன்படுத்துவது",
+      "usageItems": [
+        "இடது பக்கம் உள்ள எடிட்டரில் முழு HTML குறிச்சொல்லை உள்ளிடவும்",
+        "விளைவை முன்னோட்டம் செய்ய ஓடவும் கிளிக் செய்யவும்",
+        "இணைய குறிச்சொல்லுகள் மற்றும் JavaScript ஆதரவு செய்யப்படுகின்றன",
+        "குறிச்சொல் ஒரு செயலில் பாதுகாப்பு காரணமாக செயல்படுகிறது"
+      ]
+    },
+    "pageRefresh": {
+      "title": "தானியங்கி பக்க தொடர்ச்சி",
+      "description": "ஆன்லைனில் ஒரு பக்கத்தை தானியங்கி முறையில் புதுப்பிக்கவும்",
+      "urlRequired": "ஒரு URL ஐ உள்ளிடவும்",
+      "urlPlaceholder": "ஒரு URL ஐ உள்ளிடவும், உதாரணமாக https://example.com",
+      "seconds": "விநாடி",
+      "start": "தொடங்கு",
+      "stop": "நிறுத்து",
+      "quickSet": "விரைவான முன்வரிசை:",
+      "secondsValue": "{{count}}s",
+      "minutesValue": "{{count}} நிமிடம்",
+      "running": "ஓடுகிறது",
+      "refreshIn": "சுமை {{count}} விநாடிகளில்",
+      "refreshedCount": "புதுப்பிக்கப்பட்டது {{count}} முறை",
+      "lastRefresh": "கடைசி புதுப்பிப்பு: {{time}}",
+      "previewTitle": "பக்க முன்னோட்டம்",
+      "previewPlaceholder": "முன்னோட்டம் தொடங்க ஒரு URL ஐ உள்ளிடவும்",
+      "usageTitle": "எவ்வாறு பயன்படுத்துவது",
+      "usageItems": [
+        "பக்கத்தின் URL ஐ உள்ளிடவும் மற்றும் புதுப்பிப்பு இடைவெளியை நிர்ணயிக்கவும்",
+        "தானியங்கி புதுப்பிப்பு தொடங்க கிளிக் செய்யவும்",
+        "சில தளங்கள் iframe இல் காட்டப்படாது ஏனெனில் பாதுகாப்பு கொள்கைகள்",
+        "பக்க மாற்றங்களை கண்காணிக்க அல்லது அனுபவங்களை நீடிக்க பயனுள்ளது"
+      ]
+    },
+    "pxToRem": {
+      "title": "PX முதல் REM மாற்றி",
+      "description": "CSS குறிச்சொல்லில் PX அலகுகளை REM அலகுகளாக பேட்ச் மாற்றவும்",
+      "baseFontSize": "மூல எழுத்து அளவு",
+      "precision": "தசம துல்லியம்",
+      "precisionOptions": {
+        "2": "2 எண்கள்",
+        "3": "3 எண்கள்",
+        "4": "4 எண்கள்",
+        "5": "5 எண்கள்"
+      },
+      "inputLabel": "输入 CSS குறிச்சொல்",
+      "convertToRem": "PX முதல் REM",
+      "convertToPx": "REM முதல் PX",
+      "outputLabel": "விளைவு",
+      "copy": "நகல்",
+      "copied": "நகலிடப்பட்டது",
+      "outputPlaceholder": "இங்கு மாற்றம் விளைவு தோன்றும்...",
+      "quickReferenceTitle": "விரைவான குறிப்பு (மூல: {{baseSize}}px)",
+      "whyUseRem": "REM ஐ ஏன் பயன்படுத்த வேண்டும்?",
+      "infoItems": [
+        "REM மூல (html) எழுத்து அளவு மீது சார்ந்தது",
+        "REM ஐ பயன்படுத்துவது ஒரு தளத்தில் எழுத்து அளவை எளிதாக மாற்ற உதவுகிறது",
+        "இது பொருத்தமான வடிவமைப்பு மற்றும் பார்வையாளர்களுக்கு ஏற்படுத்தும் பாதுகாப்பை உதவுகிறது"
+      ],
+      "formula": "சூத்திரம்: rem = px / {{baseSize}}"
+    },
+    "shieldBadge": {
+      "title": "Shield Badge உருவாக்கி",
+      "description": "ஆன்லைனில் SVG Shield பேட்ஜை உருவாக்கவும்",
+      "downloadFailed": "பதிவிறக்கம் தோல்வியடைந்தது, பின்னர் மீண்டும் முயற்சிக்கவும்",
+      "basicSettings": "அடிப்படை அமைப்புகள்",
+      "labelField": "பெயர்",
+      "messageField": "செய்தி",
+      "color": "நிறம்",
+      "style": "வடிவம்",
+      "logoSettings": "லோகோ அமைப்புகள்",
+      "logo": "லோகோ",
+      "none": "இல்லை",
+      "logoColor": "லோகோ நிறம்",
+      "preview": "முன்னோட்டம்",
+      "downloadSvg": "SVG பதிவிறக்கவும்",
+      "codeTitle": "குறிச்சொல்",
+      "copiedToClipboard": "நகல் செய்யப்பட்டது"
+    },
+    "robotsGenerator": {
+      "title": "robots.txt உருவாக்கி",
+      "description": "ஆன்லைனில் robots.txt கோப்புகளை உருவாக்கவும்",
+      "templatesLabel": "விரைவான தானியங்கி:",
+      "templates": {
+        "allowAll": "அனைத்தையும் அனுமதிக்கவும்",
+        "blockAll": "அனைத்தையும் தடை செய்யவும்",
+        "standard": "தர கட்டமைப்பு"
+      },
+      "ruleTitle": "விதி {{index}}",
+      "userAgents": {
+        "all": "* (அனைத்து கிரேப்பர்கள்)",
+        "baidu": "Baiduspider (Baidu)",
+        "sogou": "Sogou"
+      },
+      "disallow": "தடை செய்யப்பட்ட பாதைகள்",
+      "allow": "அனுமதிக்கப்பட்ட பாதைகள்",
+      "add": "சேர்",
+      "addRule": "விதி சேர்",
+      "otherSettings": "மற்ற அமைப்புகள்",
+      "sitemapUrl": "சைட்மேப் URL",
+      "crawlDelay": "கிரேப்-தாமதம் (விநாடிகள்)",
+      "preview": "robots.txt முன்னோட்டம்",
+      "copy": "நகல்",
+      "copied": "நகலிடப்பட்டது",
+      "saveTip": "இந்த கோப்பை robots.txt என சேமித்து உங்கள் தளத்தின் மூல கோப்பகத்தில் வைக்கவும்"
+    },
+    "emailEncrypt": {
+      "title": "மின்னஞ்சல் முகவரி குறியாக்கி",
+      "description": "மின்னஞ்சல் முகவரிகளை பொறியாளர்களால் சேகரிக்க குறைக்கவும்",
+      "inputLabel": "மின்னஞ்சல் முகவரி",
+      "copy": "நகல்",
+      "copied": "நகலிடப்பட்டது",
+      "infoTitle": "மின்னஞ்சல் முகவரியை குறியாக்க ஏன்?",
+      "infoItems": [
+        "மின்னஞ்சல் முகவரியை பொறியாளர்களால் சேகரிக்க வாய்ப்பை குறைக்கவும்",
+        "குறியாக்கப்பட்ட மின்னஞ்சல் பார்வையாளரில் காட்சிப்படுத்தலாம், ஆனால் பொறியாளர்களால் கண்டுபிடிக்க கடினம்",
+        "அதிக பாதுகாப்புக்கு பல குறியாக்க முறைகளை கூட்டி பயன்படுத்தலாம்",
+        "இது கூட செருப்பு பாதுகாப்பு நடவடிக்கைகளை பயன்படுத்த பரிந்துரைக்கப்படுகிறது"
+      ],
+      "results": {
+        "unicodeDecimal": {
+          "name": "Unicode தசமம்",
+          "description": "அக்கரைகளை தசம யூனிகோட் மதிப்புகளாக மாற்றவும்"
+        },
+        "unicodeHex": {
+          "name": "Unicode ஹெக்ஸாடெசிமல்",
+          "description": "அக்கரைகளை ஹெக்ஸாடெசிமல் யூனிகோட் மதிப்புகளாக மாற்றவும்"
+        },
+        "javascript": {
+          "name": "JavaScript வெளியீடு",
+          "description": "மின்னஞ்சலை ஜாவாஸ்கிரிப்ட் மூலம் முன்னோட்டம் செய்யவும்"
+        },
+        "mailto": {
+          "name": "Mailto இணைப்பு",
+          "description": "குறியாக்கப்பட்ட மெயில்டோ இணைப்பை உருவாக்கவும்"
+        },
+        "cssReverse": {
+          "name": "CSS திருப்பி காட்டு",
+          "description": "CSS மூலம் எழுத்துகளை திருப்பி காட்டவும்"
+        }
+      }
+    },
+    "workerDemo": {
+      "title": "Web Worker செயல்திறன் மாதிரி",
+      "description": "Web Workers மற்றும் முக்கிய திரையில் கணக்கீடு செயல்திறனை ஒப்பிடவும்",
+      "invalidInteger": "ஒரு சரியான நேர்மறை முழு எண்ணை உள்ளிடவும்",
+      "workerError": "Worker கணக்கீடு பிழை:",
+      "notice": "அறிவிப்பு",
+      "settingsTitle": "கணக்கீடு அமைப்புகள்",
+      "inputLabel": "உள்ளீடு மதிப்பு",
+      "inputPlaceholder": "ஒரு நேர்மறை முழு எண்ணை உள்ளிடவும்",
+      "operationLabel": "செயல்",
+      "operations": {
+        "factorial": "காரணியை (n!)",
+        "fibonacci": "ஃபிபோனாச்சி தொடர்",
+        "prime": "முதன்மை சோதனை",
+        "factorization": "முதன்மை காரணியாக்கம்"
+      },
+      "workerCalculate": "Web Worker மூலம் கணக்கிடவும்",
+      "mainThreadCalculate": "முக்கிய திரையில் கணக்கிடவும்",
+      "comparisonTitle": "செயல்திறன் ஒப்பீடு",
+      "workerResult": "Web Worker முடிவு",
+      "mainThreadResult": "முக்கிய திரை முடிவு",
+      "resultLabel": "முடிவு:",
+      "timeLabel": "கணக்கீடு நேரம்:",
+      "calculating": "கணக்கிடுகிறது...",
+      "emptyState": "கணக்கிட மேலே உள்ள பொத்தானை கிளிக் செய்யவும்",
+      "infoTitle": "Web Workers ஐ ஏன் பயன்படுத்த வேண்டும்?",
+      "workerFeaturesTitle": "Web Worker பண்புகள்",
+      "workerFeatures": [
+        "முக்கிய திரையை தடை செய்யாமல் பின்னோட்ட திரையில் இயங்குகிறது",
+        "வலிமையான கணக்கீடு பணிகளுக்கு பொருத்தமானது",
+        "UI செயல்திறனை பாதுகாக்கிறது",
+        "மேல்நிலை செயல்பாடுகளை ஆதரவு செய்கிறது"
+      ],
+      "useCasesTitle": "பயன்பாடுகள்",
+      "useCases": [
+        "பெரிய தரவு செயலாக்கம்",
+        "மேற்கோள் கொண்ட கோட்பாடுகள்",
+        "படங்கள் செயலாக்கம்",
+        "குறியாக்கம் மற்றும் குறியாக்கம் தீர்க்க"
+      ]
+    },
+    "jsDebug": {
+      "title": "JS தவறை கண்டறியவும்",
+      "description": "ஜாவாஸ்கிரிப்டை ஆன்லைனில் இயக்கவும் மற்றும் தவறை திருத்தவும்",
+      "defaultCode": "// இங்கு ஜாவாஸ்கிரிப்டு குறிப்புகளை எழுதவும்\nconsole.log(\"ஹலோ, உலகே!\");\n\n// எடுத்துக்காட்டு: அணி செயல்பாடு\nconst numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(n => n * 2);\nconsole.log(\"அசல் அணி:\", numbers);\nconsole.log(\"இரு மடங்காக்கப்பட்டது:\", doubled);\n\n// எடுத்துக்காட்டு: பொருள்\nconst user = {\n  name: \"ஞானசாமி\",\n  age: 25,\n  city: \"பெங்களூரு\"\n};\nconsole.log(\"பயனர் தகவல்:\", user);\n\n// எடுத்துக்காட்டு: நேரத்தை வைத்து செயல்பாடு\nsetTimeout(() => {\n  console.log(\"ஒரு வினாடி தாமதத்திற்கு பிறகு செயல்படுத்தப்படுகிறது\");\n}, 1000);",
+      "editorTitle": "ஜாவாஸ்கிரிப்டு குறிப்பு",
+      "copy": "நகல்",
+      "copied": "நகலிடப்பட்டது!",
+      "clear": "அழி",
+      "placeholder": "ஜாவாஸ்கிரிப்டு குறிப்புகளை இங்கு உள்ளிடவும்...",
+      "run": "குறிப்புகளை இயக்கவும்",
+      "consoleTitle": "கன்சோல் வெளியீடு",
+      "consolePlaceholder": "கன்சோல் வெளியீடு இங்கு தோன்றும்...",
+      "usageTitle": "எவ்வாறு பயன்படுத்துவது",
+      "usageItems": [
+        "மெசேஜை பிரிக்க கன்சோல்.log(), கன்சோல்.error(), மற்றும் கன்சோல்.warn() ஐ பயன்படுத்தவும்",
+        "புதிய சின்டாக்ஸ் போன்ற ES6+ சின்டாக்ஸ் ஆதரவு செய்கிறது (புள்ளிகள், பிரித்தல், மற்றும் தொகுதி சரியாக செயல்படுத்தும்)",
+        "செயல்பாடுகள் போன்ற setTimeout மற்றும் Promise ஆதரவு செய்கிறது",
+        "குறிப்புகள் செயல்பாடு செய்யப்படுகிறது மற்றும் DOM அல்லது வெளிப்புற ஆதாரங்களை அணுக முடியாது"
+      ]
+    },
+    "formValidationDemo": {
+      "title": "ஃபார்ம் செயல்பாடு மாதிரி",
+      "description": "முழு ஃபார்ம் செயல்பாடு மற்றும் தவறு அறிவிப்புகள் மற்றும் தரவு சுத்தம் காட்டுகிறது",
+      "validation": {
+        "username": "பயனர் பெயர் மட்டுமே எழுத்துகள், எண்கள் மற்றும் அடிக்கோடுகளை கொண்டிருக்க வேண்டும் மற்றும் 3-20 எழுத்துகள் வரை இருக்க வேண்டும்",
+        "phone": "உங்கள் மொபைல் எண்ணை உள்ளிடவும்",
+        "age": "வயது 1 முதல் 120 வரை இருக்க வேண்டும்",
+        "idCard": "செல்லுபடியாகும் ஐடி கார்டு எண்ணை உள்ளிடவும்",
+        "address": "முடிவுக்கு வரும் முன் 200 எழுத்துகள் வரை இருக்க வேண்டும்",
+        "bio": "பயனர் விவரம் 500 எழுத்துகள் வரை இருக்க வேண்டும்"
+      },
+      "submitSuccess": "ஃபார்ம் செயல்பாடு செல்லுபடியானது! சமர்ப்பிக்கப்பட்ட தரவு:",
+      "quickTestTitle": "விரைவான செயல்பாடு சோதனைகள்",
+      "quickLabels": {
+        "email": "மின்னஞ்சல் செயல்பாடு",
+        "phone": "தொலைபேசி செயல்பாடு",
+        "url": "URL செயல்பாடு"
+      },
+      "quickPlaceholders": {
+        "email": "மின்னஞ்சல் முகவரியை உள்ளிடவும்",
+        "phone": "தொலைபேசி எண்ணை உள்ளிடவும்",
+        "url": "URL ஐ உள்ளிடவும்"
+      },
+      "valid": "செல்லுபடியாகும்",
+      "invalid": "செல்லுபடியாகாது",
+      "formTitle": "முழு ஃபார்ம் செயல்பாடு",
+      "placeholders": {
+        "username": "பயனர் பெயர் (எழுத்துகள், எண்கள், அடிக்கோடுகள்)",
+        "email": "மின்னஞ்சல் முகவரி",
+        "phone": "மொபைல் எண்",
+        "website": "தனிப்பட்ட வலைத்தளம் (கட்டாயமில்லை)",
+        "age": "வயது",
+        "idCard": "ஐடி கார்டு எண்",
+        "address": "விரிவான முகவரி (கட்டாயமில்லை)",
+        "bio": "பயனர் விவரம் (கட்டாயமில்லை, 500 எழுத்துகள் வரை)"
+      },
+      "success": {
+        "username": "பயனர் பெயர் வடிவம் செல்லுபடியாகும்",
+        "email": "மின்னஞ்சல் வடிவம் செல்லுபடியாகும்",
+        "phone": "தொலைபேசி எண் வடிவம் செல்லுபடியாகும்",
+        "website": "URL வடிவம் செல்லுபடியாகும்",
+        "age": "வயது செல்லுபடியாகும்",
+        "idCard": "ஐடி கார்டு வடிவம் செல்லுபடியாகும்",
+        "address": "முகவரி செல்லுபடியாகும்",
+        "bio": "பயனர் விவரம் செல்லுபடியாகும்"
+      },
+      "submit": "ஃபார்ம் சமர்ப்பிக்கவும்",
+      "summaryTitle": "செயல்பாடு சுருக்கம்",
+      "fieldLabels": {
+        "username": "பயனர் பெயர்",
+        "email": "மின்னஞ்சல்",
+        "phone": "தொலைபேசி",
+        "website": "வலைத்தளம்",
+        "age": "வயது",
+        "idCard": "ஐடி கார்டு",
+        "address": "முகவரி",
+        "bio": "பயனர் விவரம்"
+      },
+      "summaryStatus": {
+        "failed": "செயல்பாடு தோல்வியடைந்தது",
+        "passed": "செயல்பாடு செல்லுபடியானது",
+        "empty": "ஓடியது"
+      },
+      "infoTitle": "ஃபார்ம் செயல்பாடு பண்புகள்",
+      "infoItems": [
+        {
+          "title": "விரைவான செயல்பாடு",
+          "description": "தட்டச்சு செய்யும் போது வடிவம் செயல்பாடு மற்றும் பின்னர் செயல்பாடு மீண்டும் செயல்படுத்தப்படுகிறது"
+        },
+        {
+          "title": "பல்வேறு விதமான விதிகள்",
+          "description": "தேவையான கள், நீளம் சோதனைகள், செயல்பாடு விதிகள் மற்றும் செயல்பாடு செயல்பாடு ஆதரவு செய்கிறது"
+        },
+        {
+          "title": "விஷுவல் பின்னூட்டம்",
+          "description": "நிறங்கள், குறியீடுகள் மற்றும் செயல்பாடு செயல்பாடு மூலம் செயல்பாடு முடிவு தெளிவாக காட்டப்படுகிறது"
+        },
+        {
+          "title": "தரவு சுத்தம்",
+          "description": "சமர்ப்பிக்கப்பட்ட தரவு முனைப்பு மற்றும் சமன் செய்யப்படுகிறது"
+        },
+        {
+          "title": "உபயோகிப்பாளர் விருப்பம் கொண்ட தவறு அறிவிப்புகள்",
+          "description": "உள்ளீடு செயல்பாடு செய்ய உதவும் பயனர் விருப்பம் கொண்ட வழிகாட்டுதல்களை வழங்குகிறது"
+        },
+        {
+          "title": "செயல்பாடு ஆதரவு",
+          "description": "அனைத்து பயனர்களுக்கும் பயன்பாடு செயல்பாடு காப்பாற்றுகிறது"
+        }
+      ]
+    },
+    "faviconGenerator": {
+      "title": "ஃபாவிகான் ஜெனரேட்டர்",
+      "description": "படங்களை வலைத்தள ஃபாவிகான் குறியீடுகளாக மாற்றுக",
+      "historyTitle": "ஃபாவிகான் ஜெனரேட்டர்",
+      "historyCategory": "படம் கருவிகள்",
+      "uploadImageFile": "உங்கள் படத்தை ஏற்றவும்",
+      "generateFailed": "குறியீடு உருவாக்க முடியவில்லை, மீண்டும் முயற்சிக்கவும்",
+      "uploadTitle": "படம் ஏற்றவும்",
+      "uploadAria": "ஒரு படம் கோப்பை ஏற்றவும்",
+      "dropzoneAria": "படத்தை ஏற்றவும், PNG, JPG, SVG மற்றும் பிற ஆதரவு செய்கிறது",
+      "dropRelease": "படத்தை ஏற்றவும் விடவும்",
+      "dropClick": "இங்கு படத்தை கிளிக் செய்யவும் அல்லது இழுத்து விடவும்",
+      "supportFormats": "PNG, JPG, SVG மற்றும் பிற ஆதரவு செய்கிறது",
+      "clearImage": "படத்தை அழி",
+      "clearImageTitle": "படத்தை அழி (Ctrl+L)",
+      "settingsTitle": "அமைப்புகள்",
+      "removeBackground": "படத்தின் பின்புல நிறத்தை அழி",
+      "removeColor": "அழிக்க வேண்டிய நிறம்",
+      "removeColorPicker": "அழிக்க வேண்டிய பின்புல நிறத்தை தேர்ந்தெடுக்கவும்",
+      "removeColorValue": "அழிக்க வேண்டிய பின்புல நிறம் மதிப்பு",
+      "tolerance": "தாங்கும் தன்மை: {{value}}",
+      "toleranceAria": "நிற தாங்கும் தன்மை",
+      "toleranceTip": "உயர் தாங்கும் தன்மை விரிவான நிற வரம்பை அழிக்க உதவுகிறது",
+      "transparentBackground": "மங்கலான பின்புலம்",
+      "transparentTip": "குறிப்பு: மூல படம் பின்புல நிறத்தை கொண்டிருந்தால், ?படத்தின் பின்புல நிறத்தை அழி? செயல்பாடு செய்யவும்.",
+      "backgroundColor": "பின்புல நிறம்",
+      "backgroundColorPicker": "பின்புல நிறத்தை தேர்ந்தெடுக்கவும்",
+      "backgroundColorValue": "பின்புல நிறம் மதிப்பு",
+      "selectSize": "அளவுகளை தேர்ந்தெடுக்கவும்",
+      "selectedState": " (தேர்ந்தெடுக்கப்பட்டது)",
+      "sizeAria": "{{size}}x{{size}} பிக்சல் அளவு{{state}}",
+      "toggleSizeTitle": "Toggle {{size}}x{{size}} அளவு (Alt+{{shortcut}})",
+      "previewTitle": "முன்காட்சி",
+      "generating": "உருவாக்கப்படுகிறது...",
+      "downloadSizeAria": " {{size}}x{{size}} குறியீடு பதிவிறக்கவும்",
+      "download": "பதிவிறக்கவும்",
+      "uploadFirst": "முதலில் படத்தை ஏற்றவும்",
+      "downloadTitle": "பதிவிறக்கவும்",
+      "downloadAllPng": "அனைத்து அளவுகளை பதிவிறக்கவும் (PNG)",
+      "downloadAllPngTitle": "அனைத்து PNG அளவுகளை பதிவிறக்கவும் (Ctrl+Enter)",
+      "downloadIco": "ஃபாவிகான்.ico பதிவிறக்கவும்",
+      "downloadIcoTitle": "ஃபாவிகான்.ico பதிவிறக்கவும் (Alt+I)",
+      "usageTitle": "எவ்வாறு பயன்படுத்துவது",
+      "usageItems": [
+        "பின்புல நிறத்தை அழி: கேள்விக்குரிய பின்புலங்களை அழிக்க பெரிய பின்புலங்களை அழிக்க உதவுகிறது",
+        "தாங்கும் தன்மை: ஒரு பொருள் கொண்ட பின்புலங்களை அழிக்க உயர் தாங்கும் தன்மை அதிகரிக்கவும்",
+        "16x16: பிரிவு குறியீடு",
+        "32x32: வேலை பட்டியில் குறியீடு",
+        "48x48: விண்டோஸ் வலைத்தள குறியீடு",
+        "உருவாக்கப்பட்ட குறியீடு உங்கள் வலைத்தள மூல கோப்பகத்தில் வைக்கவும்"
+      ]
+    }
+  },
+  "components": {
+    "toolHistory": {
+      "usageCount": "இது {{count}} முறை பயன்படுத்தப்பட்டது",
+      "recentUsed": "சமீபத்திய பயன்பாடு: {{value}}",
+      "removeFavorite": "அனுபவத்திலிருந்து நீக்கவும்",
+      "addFavorite": "அனுபவத்தில் சேர்க்கவும்",
+      "removeRecord": "ரெக்கார்டை நீக்கவும்",
+      "emptyHistory": "இன்னும் கருவி வரலாறு இல்லை",
+      "confirmClear": "உங்கள் அனைத்து கருவி வரலாறை நீக்க விரும்புகிறீர்களா?",
+      "tabs": {
+        "recent": "சமீபத்திய",
+        "favorites": "அனுபவங்கள்",
+        "mostUsed": "அதிக பயன்படுத்தப்பட்டது"
+      },
+      "title": "கருவி வரலாறு",
+      "clearHistory": "வரலாறை அழி",
+      "searchPlaceholder": "வரலாறை தேடவும்...",
+      "emptyMessages": {
+        "recent": "சமீபத்திய பயன்பாடு ரெக்கார்டுகள் இல்லை",
+        "favorites": "இன்னும் அனுபவங்கள் இல்லை",
+        "mostUsed": "இன்னும் அதிக பயன்படுத்தப்பட்ட கருவிகள் இல்லை"
+      }
+    },
+    "exportFormatSelector": {
+      "buttonText": "வெளியீடு செய்யவும்",
+      "exporting": "வெளியீடு செய்யப்படுகிறது...",
+      "exportFailed": "வெளியீடு தோல்வியடைந்தது, மீண்டும் முயற்சிக்கவும்"
+    },
+    "ads": {
+      "loading": "வ publicities ஐ ஏற்றுகிறது...",
+      "carouselTitle": "publicity காரெல்",
+      "checkConsole": "விரிவான பதிவுகளை பார்க்க வாடிக்கையாளர் கோன்சோலை சென்று பார்க்கவும்"
+    },
+    "networkStatus": {
+      "online": "ஆன்லைன்",
+      "offline": "ஆஃப்லைன்",
+      "connected": "வலைப்பின்னல் இணைக்கப்பட்டுள்ளது",
+      "disconnected": "வலைப்பின்னல் இணைக்கப்படவில்லை",
+      "connectedDescription": "அனைத்து பண்புகளும் இப்போது கிடைக்கின்றன",
+      "disconnectedDescription": "சில பண்புகள் கிடைக்காது. கொள்கை செயலில் தொடர்பை சரிப்பார்க்கவும்.",
+      "requestFailed": "கேட்பார்வை தோல்வியடைந்தது"
+    },
+    "keyboardShortcutsHelp": {
+      "title": "தட்டச்சு குறுக்குவழிகள்",
+      "close": "மூடு",
+      "toggleDescription": "தட்டச்சு குறுக்குவழிகள் உதவியை காட்டவோ மறைக்கவோ செய்யவும்",
+      "helpTextBefore": "அழுத்து",
+      "helpTextMiddle": "அல்லது",
+      "helpTextAfter": "இந்த உதவியை காட்டவோ மறைக்கவோ செய்யவும்",
+      "tipTitle": "சிறிய ஆ advice",
+      "tipItems": [
+        "தட்டச்சு குறுக்குவழிகளின் குறிச்சொற்கள் முடிவுறு அமைப்புகளில் சற்று வேறாக தெரியலாம்",
+        "சில குறுக்குவழிகள் புரோவிடர் குறுக்குவழிகளுடன் மோதல் ஏற்படலாம்",
+        "கவனம் செலுத்தக்கூடிய உறுப்புகளுக்கு இடையே டேப் குறுக்குவழியை பயன்படுத்தவும்",
+        "பொறியியல் மற்றும் இணைப்புகளை செயல்படுத்த என்டர் ஐ அழுத்தவும்"
+      ],
+      "closeEsc": "மூடு (ESC)"
+    },
+    "performanceDashboard": {
+      "title": "செயல்திறன் பலகை",
+      "startMonitoring": "தொடங்கு கண்காணிப்பு",
+      "stopMonitoring": "நிறுத்து கண்காணிப்பு",
+      "exportReport": "அறிக்கையை எக்ஸ்போர்ட் செய்யவும்",
+      "notMeasured": "அளவிடப்படவில்லை",
+      "metrics": {
+        "fcp": "முதல் கண்காணிப்பு பெயின்ட்",
+        "lcp": "மிக பெரிய கண்காணிப்பு பெயின்ட்",
+        "fid": "முதல் இன்புட் தாமதம்",
+        "cls": "சேர்க்கப்பட்ட பக்க நகர்வு",
+        "ttfb": "முதல் பைட் காலம்"
+      },
+      "memoryTitle": "அடைவு பயன்பாடு",
+      "memory": {
+        "used": "பயன்படுத்தப்பட்ட அடைவு",
+        "total": "மொத்த அடைவு",
+        "usageRate": "பயன்பாடு விகிதம்"
+      },
+      "tipsTitle": "ஒப்பமில்லாத ஆ advice",
+      "tips": [
+        "கண்காணிப்பு செய்யும் போது பயன்பாட்டை சாதாரணமாக பயன்படுத்தவும்; தரவு தற்செயலாக புதுப்பிக்கப்படும்",
+        "FCP < 1.8s, LCP < 2.5s, FID < 100ms, மற்றும் CLS < 0.1 நல்லது என கருதப்படுகிறது",
+        "அடைவு பயன்பாடு 80% ஐ மிஞ்சினால், குறியான குறியீட்டை மேம்படுத்த வேண்டும்",
+        "மேலும் விரிவான பகுப்பாய்வுக்கு விரிவான அறிக்கையை எக்ஸ்போர்ட் செய்யலாம்"
+      ],
+      "emptyState": "?Start monitoring? ஐ கிளிக் செய்யவும் செயல்திறன் பகுப்பாய்வு தொடங்க வேண்டும்"
+    }
+  }
+}

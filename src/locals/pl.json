@@ -1,0 +1,2730 @@
+{
+  "common": {
+    "home": "Strona główna",
+    "websiteDetection": "Sprawdzanie stron internetowych",
+    "seoTools": "Narzędzia SEO",
+    "devTools": "Narzędzia deweloperskie",
+    "encodingConversion": "Konwersja kodowania",
+    "otherTools": "Inne narzędzia",
+    "feedback": "Opinia",
+    "customization": "Niestandardowe rozwiązania / Skontaktuj się z nami",
+    "back": "Powrót",
+    "appName": "Kompleksowe narzędzia dla administratora strony",
+    "brandName": "Produkt A Kunqiong",
+    "loading": "Ładowanie...",
+    "processing": "Przetwarzanie",
+    "processingDescription": "Proszę czekać, aż przetworzymy Twoje dane...",
+    "inProgress": "W trakcie",
+    "search": "Narzędzia wyszukiwania...",
+    "my": "Moje",
+    "menu": "Menu",
+    "settings": "Ustawienia",
+    "all": "Wszystko",
+    "category": "Kategoria",
+    "noToolsFound": "Nie znaleziono pasujących narzędzi",
+    "recommended": "Zalecane",
+    "usageCount": "Użyto {{count}} razy",
+    "toolsCount": "{{count}} narzędzi",
+    "export": "Eksport",
+    "usageInstructions": "Instrukcje użycia"
+  },
+  "auth": {
+    "login": "Zaloguj się",
+    "logout": "Wyloguj się",
+    "userInfo": "Informacje o użytkowniku",
+    "nickname": "Pseudonim",
+    "avatar": "Awatar",
+    "user": "Użytkownik",
+    "loggedIn": "Zalogowany",
+    "loggingOut": "Wylogowanie...",
+    "loggingIn": "Logowanie...",
+    "loginInstructions": "Proszę ukończyć logowanie w przeglądarce",
+    "cancelLogin": "Anuluj logowanie",
+    "loginFailed": "Logowanie nie powiodło się",
+    "retry": "Spróbuj ponownie",
+    "close": "Zamknij",
+    "loginDescription": "Kliknij poniższy przycisk, aby otworzyć stronę logowania w przeglądarce. Po zakończeniu logowania aplikacja automatycznie synchronizuje stan logowania.",
+    "loginTip": "Porada: upewnij się, że przeglądarka pozostaje otwarta podczas procesu logowania.",
+    "openBrowserLogin": "Otwórz logowanie w przeglądarce",
+    "cancel": "Anuluj",
+    "loginReminder": "Pamiętaj o logowaniu",
+    "loginRequiredTitle": "Wymagane logowanie",
+    "loginRequiredDescription": "Musisz się zalogować, aby użyć tej funkcji. Po zalogowaniu możesz korzystać z pełnej oferty usług.",
+    "loginActionDescription": "Kliknij poniższy przycisk, aby otworzyć stronę logowania, a następnie ukończ logowanie tam.",
+    "loginNow": "Zaloguj się teraz",
+    "loginBenefit": "Zaloguj się, aby korzystać z wszystkich funkcji",
+    "errors": {
+      "getLoginUrlFailed": "Nie udało się uzyskać adresu URL logowania: {{message}}",
+      "getLoginUrlException": "Błąd przy pobieraniu adresu URL logowania: {{error}}",
+      "loginCancelled": "Logowanie zostało anulowane",
+      "pollingAbnormal": "Zwrócono nieprawidłową odpowiedź: {{message}}",
+      "pollingFailed": "Niepowodzenie sondowania: {{error}}",
+      "loginTimeout": "Czas oczekiwania na logowanie wygasł",
+      "checkLoginStatusFailed": "Nie udało się sprawdzić statusu logowania, kod stanu: {{status}}",
+      "checkLoginException": "Błąd podczas sprawdzania statusu logowania",
+      "getUserInfoFailed": "Nie udało się pobrać informacji o użytkowniku: {{message}}",
+      "getUserInfoException": "Błąd podczas pobierania informacji o użytkowniku: {{error}}",
+      "logoutFailed": "Nie udało się wylogować: {{message}}",
+      "logoutException": "Błąd podczas wylogowania: {{error}}",
+      "getFeedbackUrlFailed": "Nie udało się uzyskać adresu URL opinii: {{message}}",
+      "getFeedbackUrlException": "Błąd podczas pobierania adresu URL opinii: {{error}}"
+    }
+  },
+  "favorite": {
+    "add": "Dodaj do ulubionych",
+    "remove": "Usuń z ulubionych",
+    "label": "Ulubione",
+    "failed": "Operacja nie powiodła się"
+  },
+  "errors": {
+    "fetchCustomUrlFailed": "Nie udało się pobrać adresu URL niestandardowej strony:",
+    "fetchFeedbackUrlFailed": "Nie udało się pobrać adresu URL strony opinii:",
+    "copyFailed": "Kopiowanie nie powiodło się",
+    "networkError": "Błąd połączenia sieciowego",
+    "somethingWentWrong": "Coś poszło nie tak",
+    "unexpectedError": "Przepraszamy, wystąpił nieoczekiwany błąd",
+    "noData": "Brak dostępnych danych",
+    "noRelatedData": "Nie znaleziono żadnych powiązanych danych",
+    "noAds": "Brak reklam",
+    "fetchAdsError": "Nie udało się pobrać reklam",
+    "lookupFailed": "Nie udało się znaleźć"
+  },
+  "tools": {
+    "csr": {
+      "title": "Generator i przeglądarka CSR",
+      "description": "Generuj i przeglądaj pliki CSR online"
+    },
+    "whois": {
+      "title": "Wyszukiwanie WHOIS domeny",
+      "description": "Sprawdź informacje WHOIS i szczegóły rejestracji domeny online"
+    },
+    "dns": {
+      "title": "Wyszukiwanie rekordów DNS",
+      "description": "Szukaj rekordów DNS online (A, MX, CNAME itp.)"
+    },
+    "dnsEnhanced": {
+      "title": "Wyszukiwanie rekordów DNS (rozszerzone)",
+      "description": "Wyszukiwanie DNS z optymalizacją przewijania wirtualnego dla dużych zbiorów rekordów"
+    },
+    "httpStatus": {
+      "title": "Sprawdzanie kodów stanu HTTP",
+      "description": "Bezpłatne narzędzie online do inspekcji kodów stanu HTTP dla stron internetowych"
+    },
+    "gzip": {
+      "title": "Sprawdzanie kompresji GZIP",
+      "description": "Sprawdź, czy strona internetowa jest skompresowana za pomocą GZIP i zobacz stosunek kompresji"
+    },
+    "ssl": {
+      "title": "Sprawdzanie certyfikatów SSL",
+      "description": "Inspekcja szczegółów certyfikatu SSL i jego ważności online"
+    },
+    "browserInfo": {
+      "title": "Informacje o przeglądarce",
+      "description": "Bezpłatne narzędzie do wyświetlanie szczegółowych informacji o aktualnej przeglądarce"
+    },
+    "useragent": {
+      "title": "Analizator User-Agent",
+      "description": "Analiza informacji o przeglądarce i urządzeniu z ciągów User-Agent"
+    },
+    "websocket": {
+      "title": "Testera WebSocket",
+      "description": "Bezpłatne narzędzie online do testowania interfejsów API WebSocket"
+    },
+    "viewSource": {
+      "title": "Zobacz kod strony",
+      "description": "Wyświetl kod źródłowy strony internetowej online"
+    },
+    "metaGenerator": {
+      "title": "Generator tagów META",
+      "description": "Generuj tagi META stron internetowych online"
+    },
+    "metaCheck": {
+      "title": "Sprawdzanie tagów META",
+      "description": "Inspekcja informacji o tagach META na stronie internetowej"
+    },
+    "robots": {
+      "title": "Generator pliku robots.txt",
+      "description": "Generuj pliki robots.txt online"
+    },
+    "emailEncrypt": {
+      "title": "Koder adresów e-mail",
+      "description": "Konwertuj adresy e-mail na zakodowane formaty, aby zmniejszyć ich wykrywalność"
+    },
+    "phpReference": {
+      "title": "Referencja funkcji PHP",
+      "description": "Online lista referencyjna funkcji PHP"
+    },
+    "htmlPreview": {
+      "title": "Podgląd HTML",
+      "description": "Narzędzie online do edytowania i podglądu HTML"
+    },
+    "jsDebug": {
+      "title": "Debugger JavaScript",
+      "description": "Uruchamianie i debugowanie JavaScript online"
+    },
+    "shieldBadge": {
+      "title": "Generator insignii Shield",
+      "description": "Generuj insignie SVG Shield online"
+    },
+    "favicon": {
+      "title": "Generator favicon",
+      "description": "Bezpieczny online narzędzie konwersji favicon"
+    },
+    "cssGlassmorphism": {
+      "title": "Generator szkła CSS",
+      "description": "Wygeneruj kod CSS szkła w jednym kliknięciu"
+    },
+    "cssNeumorphism": {
+      "title": "Generator stylu neumorfizmu CSS",
+      "description": "Wygeneruj przykłady stylów neumorfizmu CSS w jednym kliknięciu"
+    },
+    "pxToRem": {
+      "title": "Konwerter PX na REM",
+      "description": "Masowo konwertuj jednostki PX w CSS na REM"
+    },
+    "cssBorderRadius": {
+      "title": "Generator okrągłych krawędzi CSS",
+      "description": "Dokładnie dostosuj style okrągłych krawędzi online"
+    },
+    "cssTextShadow": {
+      "title": "Generator cieni tekstu CSS",
+      "description": "Przewijanie i generowanie kodu CSS cieni tekstu online"
+    },
+    "cssBoxShadow": {
+      "title": "Generator cieni",
+      "description": "Dokładnie dostosuj cienie div i generuj kod CSS"
+    },
+    "base64": {
+      "title": "Kodowanie/odejmowanie Base64",
+      "description": "Narzędzie online do kodowania i dekodowania Base64"
+    },
+    "urlEncode": {
+      "title": "Kodowanie/odejmowanie URL",
+      "description": "Narzędzie online do kodowania i dekodowania URL"
+    },
+    "htmlEntity": {
+      "title": "Kodowanie/odejmowanie encji HTML",
+      "description": "Narzędzie online do kodowania i dekodowania encji HTML"
+    },
+    "jsMinify": {
+      "title": "Sklejanie i ładniejsze JS",
+      "description": "Narzędzie online do minimalizacji i ładniejszego JS"
+    },
+    "cssMinify": {
+      "title": "Sklejanie i ładniejsze CSS",
+      "description": "Narzędzie online do minimalizacji i ładniejszego CSS"
+    },
+    "desktopShortcut": {
+      "title": "Skrót na pulpicie strony internetowej",
+      "description": "Utwórz skrót na pulpicie dla strony internetowej w celu szybkiego dostępu"
+    },
+    "pageRefresh": {
+      "title": "Automatyczne odświeżanie strony",
+      "description": "Odśwież zdalną stronę internetową cyklicznie"
+    },
+    "httpCodes": {
+      "title": "Kody stanu HTTP",
+      "description": "Referencja online dla kodów stanu / odpowiedzi HTTP"
+    },
+    "workerDemo": {
+      "title": "Demonstracja wydajności Web Worker",
+      "description": "Zobacz, jak Web Workers poprawiają wydajność dla ciężkich zadań"
+    },
+    "formValidation": {
+      "title": "Demonstracja walidacji formularza",
+      "description": "Pokazuje pełną walidację formularza z komentarzami w czasie rzeczywistym"
+    }
+  },
+  "categories": {
+    "detection": "Sprawdzanie stron internetowych",
+    "seo": "Narzędzia SEO",
+    "dev": "Narzędzia deweloperskie",
+    "encode": "Narzędzia kodowania",
+    "other": "Inne narzędzia"
+  },
+  "kunqiongNav": {
+    "home": "Strona główna",
+    "aiTools": "Narzędzia AI",
+    "office": "Biuro",
+    "multimedia": "Multimedia",
+    "development": "Narzędzia deweloperskie",
+    "text": "Tekst",
+    "file": "Pliki",
+    "system": "System",
+    "life": "Życie",
+    "news": "Wiadomości AI",
+    "custom": "Oprogramowanie niestandardowe",
+    "consult": "Konsultacje",
+    "industryNews": "Wiadomości z branży",
+    "feedback": "Opinie",
+    "imageGen": "Generowanie obrazów",
+    "codeDev": "Kod i rozwój",
+    "logoAlt": "Kutak AI Kunqiong",
+    "footerLogoAlt": "Kunqiong AI",
+    "loginRegister": "Zaloguj się / Zarejestruj się",
+    "navExpandAria": "Rozwiń",
+    "navSearchAria": "Szukaj",
+    "navMenuAria": "Menu"
+  },
+  "footer": {
+    "description": "Profesjonalny wszystko w jednym zestaw narzędzi dla administratora strony internetowej z testami stron, narzędziami SEO, narzędziami deweloperskimi itd.",
+    "kunqiongBrandDesc": "Zapewniamy osobom prywatnym i firmom wysokiej jakości narzędzia AI oraz usługi konsultingowe, aby pomóc Ci pozostać konkurencyjnym w erze sztucznej inteligencji.",
+    "toolCategories": "Kategorie narzędzi",
+    "quickLinks": "Szybkie linki",
+    "contactTitle": "Skontaktuj się z nami",
+    "contactCompany": "Jiangxi Hexagon Star Technology Co., Ltd.",
+    "contactPhone": "17770307066",
+    "contactRegion": "Shangrao, Jiangxi, Chiny",
+    "contactEmail": "11247931@qq.com",
+    "copyrightLine": "© 2026 Kunqiong AI Tools. Wszystkie prawa zastrzeżone.",
+    "userAgreement": "Warunki użytkowania",
+    "privacyPolicy": "Polityka prywatności",
+    "brandAI": "Produkt Kunqiong AI",
+    "brandAlt": "Kunqiong"
+  },
+  "validation": {
+    "required": "{{field}} jest wymagane",
+    "minLength": "{{field}} musi mieć co najmniej {{count}} znaków",
+    "maxLength": "{{field}} może mieć maksymalnie {{count}} znaków",
+    "invalidFormat": "{{field}} ma niepoprawny format",
+    "email": "Wprowadź poprawny adres e-mail",
+    "url": "Wprowadź poprawny URL",
+    "domain": "Wprowadź poprawny domenę",
+    "ip": "Wprowadź poprawny adres IP",
+    "phone": "Wprowadź poprawny numer telefonu",
+    "password": "Hasło musi zawierać duże i małe litery oraz cyfry i mieć długość od 6 do 20 znaków"
+  },
+  "exporter": {
+    "unsupportedFormat": "Nieobsługiwany format eksportu: {{format}}",
+    "csvRequiresArrayOrObject": "Eksport CSV wymaga tablicy lub obiektu",
+    "toolUsageInfo": "Informacje o użyciu narzędzia",
+    "tool": "Narzędzie",
+    "time": "Czas",
+    "url": "URL",
+    "version": "Wersja",
+    "dnsReportTitle": "Raport wyszukiwania DNS",
+    "dnsReportDescription": "Szczegółowe informacje o rekordach DNS",
+    "summaryTitle": "Podsumowanie",
+    "domain": "Domena",
+    "recordCount": "Liczba rekordów",
+    "recordCountValue": "{{count}} rekordów",
+    "queryTime": "Czas zapytania",
+    "typeDescriptions": {
+      "A": "Rekord adresu IPv4",
+      "AAAA": "Rekord adresu IPv6",
+      "MX": "Rekord serwera poczty",
+      "TXT": "Rekord tekstowy",
+      "CNAME": "Rekord aliasu",
+      "NS": "Rekord serwera nazw",
+      "SOA": "Rekord autorytetu"
+    },
+    "record": "Rekord",
+    "otherRecords": "Inne rekordy",
+    "recordIndex": "Rekord {{index}}",
+    "priority": "Priorytet",
+    "class": "Klasa",
+    "exportData": "Eksportowane dane",
+    "dnsToolName": "Narzędzie wyszukiwania DNS",
+    "exportInfo": "Informacje o eksporcie",
+    "exportTime": "Czas eksportu",
+    "formats": {
+      "json": "Strukturalny format danych, łatwy do przetwarzania przez programy",
+      "csv": "Format przyjazny dla arkuszy kalkulacyjnych, odpowiedni do importu do Excela",
+      "txt": "Format tekstu plain text, łatwy do odczytu",
+      "xml": "Format znaczników, odpowiedni do wymiany danych",
+      "pdf": "Format dokumentu, odpowiedni do drukowania i udostępniania"
+    }
+  },
+  "base64": {
+    "title": "Kodowanie/odekodowanie Base64",
+    "description": "Online Narzędzie do kodowania i odkodowania Base64",
+    "encode": "Zakoduj",
+    "decode": "Odekoduj",
+    "originalText": "Tekst oryginalny",
+    "base64String": "Ciąg Base64",
+    "base64Result": "Wynik Base64",
+    "decodeResult": "Wynik dekodowania",
+    "placeholderEncode": "Wpisz tekst do zakodowania...",
+    "placeholderDecode": "Wpisz ciąg Base64 do odkodowania...",
+    "resultPlaceholder": "Wynik pojawi się tutaj...",
+    "inputPlaceholder": "Wprowadź zawartość do konwersji",
+    "decodeError": "Dekodowanie nie powiodło się. Sprawdź, czy wejście to prawidłowy ciąg Base64.",
+    "encodeError": "Kodowanie nie powiodło się",
+    "charCount": "{{count}} znaków",
+    "clear": "Wyczyść wprowadzenie",
+    "copy": "Kopiuj wynik",
+    "copied": "Skopiowano",
+    "convert": "Przekonwertuj teraz",
+    "swap": "Tryb zamiany",
+    "ariaLabel": "Narzędzie do kodowania/odekodowania Base64",
+    "modeSelection": "Wybór trybu konwersji",
+    "encodeMode": "Tryb kodowania",
+    "decodeMode": "Tryb dekodowania",
+    "inputLabelEncode": "Tekst do zakodowania",
+    "inputLabelDecode": "Ciąg Base64 do odkodowania",
+    "outputLabelEncode": "Wynik zakodowany Base64",
+    "outputLabelDecode": "Wynik odkodowany Base64",
+    "whatIsBase64": "Co to jest Base64?",
+    "base64Info": "Base64 to metoda kodowania, która reprezentuje dane binarne za pomocą 64 wydrukowalnych znaków. Jest często używany do przesyłania małych danych binarnych w URL, plikach cookie, stronach internetowych lub protokołach opartych na tekście."
+  },
+  "dns": {
+    "title": "Wyszukiwanie rekordów DNS",
+    "description": "Wyszukiwanie rekordów DNS online (A, MX, CNAME itp.)",
+    "placeholder": "Wprowadź domenę, np. example.com",
+    "invalidDomain": "Proszę wpisać poprawny format domeny (np. example.com)",
+    "domainInput": "Wprowadzenie domeny",
+    "validFormat": "Format domeny jest poprawny",
+    "typeSelect": "Typ rekordu DNS",
+    "searchBtn": "Wyszukaj rekordy DNS",
+    "loadingTitle": "Wyszukiwanie rekordów DNS",
+    "loadingDesc": "Proszę czekać, podczas gdy szukamy rekordów DNS dla Twojej domeny...",
+    "resultRegion": "Wynik wyszukiwania DNS",
+    "recordCount": "{{count}} rekordów",
+    "typeRecordRegion": "{{type}} rekordów",
+    "querying": "Wyszukiwanie rekordów DNS",
+    "queryingDesc": "Proszę czekać, podczas gdy szukamy rekordów DNS dla Twojej domeny...",
+    "foundRecords": "{{count}} rekordów znalezionych",
+    "queryTime": "Czas zapytania: {{time}}",
+    "export": "Eksport wyników",
+    "noRecords": "Nie znaleziono rekordów DNS",
+    "noRecordsDesc": "Nie znaleziono rekordów DNS dla tej domeny",
+    "typeInfo": "Typy rekordów DNS",
+    "priority": "Priorytet: {{priority}}",
+    "types": {
+      "ALL": "Wszystko",
+      "A": "Rekord A",
+      "AAAA": "Rekord AAAA",
+      "MX": "Rekord MX",
+      "TXT": "Rekord TXT",
+      "CNAME": "Rekord CNAME",
+      "NS": "Rekord NS",
+      "SOA": "Rekord SOA"
+    },
+    "typeDescs": {
+      "A": "Adres IPv4",
+      "AAAA": "Adres IPv6",
+      "MX": "Serwer pocztowy",
+      "TXT": "Zapis tekstowy",
+      "CNAME": "Rekord aliasu",
+      "NS": "Serwer nazw",
+      "SOA": "Rekord początku autorytetu"
+    },
+    "typeDetails": {
+      "A": "Wskazuje domenę na adres IPv4",
+      "AAAA": "Wskazuje domenę na adres IPv6",
+      "MX": "Określa adres serwera pocztowego, z niższymi liczbami priorytetu oznaczającymi wyższy priorytet",
+      "TXT": "Przechowuje informacje tekstowe, często używane do weryfikacji SPF i DKIM",
+      "CNAME": "Wskazuje domenę na inną domenę (alias)",
+      "NS": "Określ serwery DNS dla domeny"
+    }
+  },
+  "whois": {
+    "title": "Wyszukiwanie WHOIS",
+    "description": "Szukaj informacji o rejestracji online",
+    "placeholder": "Wprowadź domenę, np. example.com",
+    "invalidDomain": "Proszę wprowadzić poprawny format domeny (np. example.com)",
+    "querying": "Pobieranie informacji WHOIS",
+    "queryingDesc": "Proszę czekać, gdy pobieramy informacje o rejestracji...",
+    "domainInfo": "Informacje o domenie",
+    "registrar": "Rejestrator",
+    "creationDate": "Data utworzenia",
+    "expirationDate": "Data wygaśnięcia",
+    "updatedDate": "Data aktualizacji",
+    "dnssec": "DNSSEC",
+    "dnssecDisabled": "Wyłączone",
+    "expired": "Uprzednił {{days}} dni temu",
+    "expiringSoon": "Wygasa za {{days}} dni",
+    "remaining": "{{days}} dni pozostało",
+    "dnsServer": "Serwery nazw",
+    "domainStatus": "Status domeny",
+    "registrantInfo": "Informacje o rejestrowalnym",
+    "name": "Imię",
+    "organization": "Organizacja",
+    "country": "Kraj",
+    "email": "E-mail",
+    "noInfo": "Nie znaleziono żadnych informacji",
+    "domain": "Domena",
+    "rawData": "Dane surowe",
+    "toggleRawData": "Rozwiń lub zwij pasek danych surowych",
+    "copyRawData": "Kopiuj dane surowe",
+    "copy": "Kopiuj",
+    "copied": "Skopiowano",
+    "whatIsWhois": "Co to jest WHOIS?",
+    "about": "WHOIS to protokół używany do zapytań o dane rejestracji domeny. Poprzez wyszukiwanie WHOIS możesz dowiedzieć się o rejestratorze, dacie rejestracji, dacie wygaśnięcia, serwerach DNS, informacjach o rejestrowalnym itd. Jest to przydatne przy handlu domenami, ochronie marki i badaniach bezpieczeństwa."
+  },
+  "httpStatus": {
+    "title": "Sprawdzanie kodów stanu HTTP",
+    "description": "Sprawdź kody stanu HTTP i informacje o odpowiedzi online",
+    "placeholder": "Wprowadź URL, np. https://example.com",
+    "check": "Sprawdź",
+    "followRedirects": "Automatycznie śledź przekierowania",
+    "urlEmpty": "Proszę wprowadzić URL",
+    "checkFailed": "Sprawdzenie nie powiodło się",
+    "serverError": "Połączenie z serwerem nie powiodło się, spróbuj ponownie później",
+    "unknownStatus": "Nieznany status",
+    "responseTime": "Czas odpowiedzi",
+    "headers": "Nagłówki",
+    "redirectUrl": "Przekierowanie URL",
+    "contentType": "Typ zawartości",
+    "contentLength": "Długość zawartości",
+    "server": "Serwer",
+    "showHeaders": "Pokaż nagłówki odpowiedzi",
+    "hideHeaders": "Ukryj nagłówki odpowiedzi",
+    "status": {
+      "100": "Kontynuuj",
+      "101": "Przełączanie protokołów",
+      "200": "OK",
+      "201": "Utworzono",
+      "204": "Brak zawartości",
+      "301": "Stałe przekierowanie",
+      "302": "Tymczasowe przekierowanie",
+      "304": "Nie zmodyfikowano",
+      "307": "Tymczasowe przekierowanie",
+      "308": "Stałe przekierowanie",
+      "400": "Zły żądanie",
+      "401": "Nieautoryzowany",
+      "403": "Zabronione",
+      "404": "Nie znaleziono",
+      "405": "Metoda niedozwolona",
+      "408": "Czas oczekiwania przekroczony",
+      "429": "Za dużo żądań",
+      "500": "Wewnętrzny błąd serwera",
+      "502": "Błąd bramy",
+      "503": "Usługa niedostępna",
+      "504": "Czas oczekiwania bramy"
+    }
+  },
+  "browserInfo": {
+    "title": "Informacje o przeglądarce",
+    "description": "Wyświetl szczegółowe informacje o aktualnej przeglądarce",
+    "os": "System operacyjny",
+    "browser": "Przeglądarka",
+    "version": "Wersja",
+    "engine": "Silnik",
+    "device": "Urządzenie",
+    "screen": "Rozdzielczość ekranu",
+    "viewport": "Rozmiar widoku",
+    "language": "Język",
+    "timezone": "Strefa czasowa",
+    "cookieEnabled": "Cookies włączone",
+    "online": "Online",
+    "cpu": "Architektura CPU",
+    "userAgent": "User-Agent",
+    "platform": "Platforma",
+    "vendor": "Dystrybutor przeglądarki",
+    "languages": "Obsługiwane języki",
+    "cookie": "Cookie",
+    "onlineStatus": "Status online",
+    "doNotTrack": "Nie śledź",
+    "touchPoints": "Punkty dotykowe",
+    "enabled": "Włączone",
+    "disabled": "Wyłączone",
+    "offline": "Offline",
+    "hardwareInfo": "Informacje o sprzęcie",
+    "cpuCores": "Liczba rdzeni CPU",
+    "cpuCoresValue": "{{count}} rdzeni",
+    "deviceMemory": "Pamięć urządzenia",
+    "screenInfo": "Informacje o ekranie",
+    "availArea": "Dostępna obszar",
+    "windowSize": "Rozmiar okna",
+    "pixelRatio": "Proporcja pikseli",
+    "colorDepth": "Głębokość koloru",
+    "screenOrientation": "Orientacja ekranu",
+    "unknown": "Nieznane",
+    "basicInfo": "Podstawowe informacje",
+    "networkInfo": "Informacje o sieci",
+    "networkType": "Typ sieci",
+    "downlink": "Spadek",
+    "rtt": "RTT",
+    "saveData": "Oszczędzanie danych",
+    "batteryInfo": "Informacje o baterii",
+    "batteryLevel": "Poziom baterii",
+    "chargingStatus": "Status ładowania",
+    "charging": "Ładuje się",
+    "notCharging": "Nie ładuje się",
+    "timezoneInfo": "Informacje o strefie czasowej",
+    "utcOffset": "Przesunięcie UTC"
+  },
+  "viewSource": {
+    "title": "Wyświetlanie kodu źródłowego strony",
+    "description": "Wyświetl kod źródłowy strony internetowej online",
+    "placeholder": "Wprowadź URL, np. https://example.com",
+    "fetch": "Pobierz kod źródłowy",
+    "urlEmpty": "Proszę wprowadzić URL",
+    "fetchFailed": "Nie udało się pobrać kodu źródłowego",
+    "serverError": "Niepowodzenie połączenia z serwerem",
+    "lineCount": "Linie: {{count}}",
+    "copy": "Kopiuj kod źródłowy",
+    "clear": "Wyczyść",
+    "usage1": "Wprowadź pełny adres URL strony internetowej i kliknij, aby pobrać kod źródłowy",
+    "usage2": "Obsługuje wyświetlanie kodu HTML dowolnej publicznej strony internetowej",
+    "usage3": "Możesz skopiować lub pobrać kod źródłowy do analizy",
+    "usage4": "Niektóre strony mogą blokować pobieranie kodu źródłowego ze względu na polityki bezpieczeństwa"
+  },
+  "urlEncode": {
+    "title": "Koder/odejmownik URL",
+    "description": "Narzędzie online do kodowania i dekodowania URL",
+    "encode": "Zakoduj",
+    "decode": "Odkoduj",
+    "placeholder": "Wprowadź zawartość do konwersji...",
+    "result": "Wynik",
+    "error": "Błąd kodowania/odkodowywania"
+  },
+  "htmlEntity": {
+    "title": "Koder/odekoder jednostek HTML",
+    "description": "Narzędzie online do kodowania i odkodowywania jednostek HTML",
+    "encode": "Zakoduj",
+    "decode": "Odkoduj",
+    "placeholder": "Wprowadź zawartość do konwersji...",
+    "result": "Wynik"
+  },
+  "jsMinify": {
+    "title": "Kompresja i formatowanie JS",
+    "description": "Narzędzie online do kompresji i ulepszenia kodu JavaScript",
+    "minify": "Kompresja",
+    "beautify": "Ulepsz",
+    "placeholder": "Wklej kod JavaScript...",
+    "result": "Wynik przetwarzania",
+    "error": "Błąd przetwarzania kodu"
+  },
+  "cssMinify": {
+    "title": "Kompresja i formatowanie CSS",
+    "description": "Narzędzie online do kompresji i ulepszenia kodu CSS",
+    "minify": "Kompresja",
+    "beautify": "Ulepsz",
+    "placeholder": "Wklej kod CSS...",
+    "result": "Wynik przetwarzania",
+    "error": "Błąd przetwarzania kodu"
+  },
+  "pages": {
+    "sslCheck": {
+      "title": "Sprawdzanie certyfikatu SSL",
+      "description": "Sprawdź szczegóły i ważność certyfikatu SSL dla domeny",
+      "enterDomain": "Proszę wprowadzić domenę",
+      "checkFailed": "Sprawdzenie nie powiodło się",
+      "serverConnectionFailed": "Nie udało się połączyć z serwerem, spróbuj ponownie później",
+      "inputPlaceholder": "Wprowadź domenę, na przykład: example.com",
+      "check": "Sprawdź",
+      "statusExpired": "Wygasł",
+      "statusExpiringSoon": "Za chwilę wygaśnie",
+      "statusValid": "Poprawny",
+      "statusProblem": "Problem z certyfikatem",
+      "expiredDays": "Wygasł {{count}} dni temu",
+      "remainingDays": "{{count}} dni pozostało",
+      "warning": "Ostrzeżenie: {{message}}",
+      "protocol": "Protokół",
+      "validityPeriod": "Okres ważności",
+      "validFrom": "Dostępny od",
+      "validTo": "Dostępny do",
+      "certificateInfo": "Informacje o certyfikacie",
+      "subject": "Podmiot",
+      "issuer": "Wydawca",
+      "commonName": "Wspólne nazwa (CN)",
+      "organization": "Organizacja (O)",
+      "organizationUnit": "Jednostka organizacyjna (OU)",
+      "country": "Kraj (C)",
+      "subjectAltNames": "Alternatywne nazwy podmiotu (SAN) - {{count}} wpisów",
+      "technicalDetails": "Szczegóły techniczne",
+      "serialNumber": "Numer seryjny",
+      "fingerprintSha1": "Odcisk palca (SHA-1)",
+      "fingerprintSha256": "Odcisk palca (SHA-256)",
+      "cipherSuite": "Pula szyfrów",
+      "infoTitle": "Uwagi dotyczące certyfikatu SSL",
+      "infoItems": [
+        "Certyfikaty SSL weryfikują tożsamość serwera i szyfrują komunikację",
+        "Regularnie sprawdzaj daty wygaśnięcia, aby uniknąć przestoju",
+        "Certyfikaty zbliżające się do wygaśnięcia należy przedłużać wcześniej",
+        "SAN (Alternative Name) zawiera listę domen objętych certyfikatem"
+      ]
+    },
+    "gzipCheck": {
+      "title": "Sprawdzanie kompresji Gzip na stronie internetowej",
+      "description": "Sprawdź, czy strona obsługuje kompresję Gzip / Deflate / Brotli",
+      "enterUrl": "Proszę wprowadzić URL",
+      "checkFailed": "Sprawdzenie nie powiodło się",
+      "serverConnectionFailed": "Nie udało się połączyć z serwerem, spróbuj ponownie później",
+      "inputPlaceholder": "Wprowadź URL, na przykład: https://example.com",
+      "check": "Sprawdź",
+      "enabled": "Włączone",
+      "disabled": "Nie włączone",
+      "compressionType": "Typ kompresji: {{type}}",
+      "enableSuggestion": "Włącz kompresję Gzip, aby zmniejszyć rozmiar transferu i poprawić czas ładowania",
+      "supportTitle": "Obsługa kompresji",
+      "gzipDescription": "Standardowa kompresja używana szeroko",
+      "deflateDescription": "Tradycyjny algorytm kompresji HTTP",
+      "brotliDescription": "Nowoczesna metoda kompresji z lepszymi wynikami",
+      "effectTitle": "Efekt kompresji",
+      "originalSize": "Pierwotny rozmiar",
+      "compressedSize": "Zkompresowany rozmiar",
+      "ratio": "Stosunek kompresji",
+      "savedTransfer": "Zyskuje {{value}} w rozmiarze transferu",
+      "detailsTitle": "Szczegóły",
+      "whyTitle": "Dlaczego włączyć kompresję Gzip?",
+      "whyItems": [
+        "Może często zmniejszyć rozmiar zasobów tekstowych o 60% do 80%",
+        "Mniejsze transfery poprawiają czas ładowania",
+        "Zmniejsza zużycie pasma",
+        "Lepsza wydajność może również pomóc w SEO i doświadczeniu użytkownika"
+      ]
+    },
+    "dnsLookupEnhanced": {
+      "title": "Rozszerzone wyszukiwanie rekordów DNS",
+      "description": "Zapytaj różne typy rekordów DNS online z optymalizacją dla dużych zestawów wyników",
+      "enterDomain": "Proszę wprowadzić domenę",
+      "lookupFailed": "Wyszukiwanie nie powiodło się",
+      "serverConnectionFailed": "Nie udało się połączyć z serwerem, spróbuj ponownie później",
+      "inputPlaceholder": "Wprowadź domenę, na przykład: example.com",
+      "lookup": "Wyszukaj",
+      "priority": "Priorytet: {{value}}",
+      "dnsTypes": [
+        {
+          "value": "WSZYSTKIE",
+          "label": "Wszystko"
+        },
+        {
+          "value": "A",
+          "label": "Rekord A",
+          "desc": "Adres IPv4"
+        },
+        {
+          "value": "AAAA",
+          "label": "Rekord AAAA",
+          "desc": "Adres IPv6"
+        },
+        {
+          "value": "MX",
+          "label": "Rekord MX",
+          "desc": "Serwer pocztowy"
+        },
+        {
+          "value": "TXT",
+          "label": "Rekord TXT",
+          "desc": "Dane tekstowe"
+        },
+        {
+          "value": "CNAME",
+          "label": "Rekord CNAME",
+          "desc": "Rekord aliasu"
+        },
+        {
+          "value": "NS",
+          "label": "Rekord NS",
+          "desc": "Serwer nazw"
+        },
+        {
+          "value": "SOA",
+          "label": "Rekord SOA",
+          "desc": "Początek autorytetu"
+        }
+      ],
+      "foundRecords": "Znaleziono {{count}} rekordów",
+      "queryTime": "Czas zapytania: {{time}}",
+      "virtualScrollEnabled": "Włączono wirtualne przewijanie",
+      "recordCount": "{{count}} rekordów",
+      "virtualScrollTag": "Optymalizowane renderowanie",
+      "noRecords": "Nie znaleziono rekordów DNS",
+      "performanceTitle": "Optymalizacja wydajności",
+      "performanceItems": [
+        "Wirtualne renderowanie utrzymuje działanie wyszukiwania DNS z {{count}} rekordami",
+        "Tylko widoczne wiersze są renderowane, aby zmniejszyć zużycie pamięci",
+        "Pomaga uniknąć opóźnień DOM przy dużych zestawach wyników",
+        "Doświadczenie pozostaje reaktywne nawet przy wielu rekordach"
+      ]
+    },
+    "metaCheck": {
+      "title": "Sprawdzanie tagów META",
+      "description": "Sprawdź tagi META używane na stronie internetowej",
+      "enterUrl": "Proszę wprowadzić adres URL strony internetowej",
+      "checkFailed": "Sprawdzenie nie powiodło się",
+      "urlLabel": "Adres URL strony",
+      "inputPlaceholder": "example.com lub https://example.com",
+      "check": "Sprawdź",
+      "resultTitle": "Wynik sprawdzenia",
+      "totalCount": "Znaleziono {{count}} tagów META",
+      "groups": {
+        "pageTitle": "Tytuł strony",
+        "httpEquiv": "HTTP-Equiv",
+        "charset": "Charset",
+        "basicMeta": "Podstawowe tagi META"
+      },
+      "emptyContent": "Puste",
+      "infoTitle": "O nas",
+      "infoItems": [
+        "Ten narzędzie sprawdza tagi tytułu, tagi meta name, tagi meta property (takie jak Open Graph) oraz tagi meta http-equiv",
+        "Pomaga szybko przeglądać metadane związane z SEO strony",
+        "Pomaga również zidentyfikować problemy z brakiem lub powtórzonymi tagami"
+      ]
+    },
+    "urlEncode": {
+      "title": "Koder/odekoder URL",
+      "description": "Koduj lub dekoduj ciągi URL online",
+      "toolName": "Koder/odekoder URL",
+      "toolCategory": "Narzędzia kodowania",
+      "convertFailed": "Konwersja nie powiodła się, sprawdź swoje dane wejściowe",
+      "copyFailed": "Nie udało się skopiować wyniku",
+      "modeSelector": "Wybierz tryb",
+      "typeSelector": "Typ kodowania",
+      "encode": "Zakoduj",
+      "decode": "Odkoduj",
+      "componentTitle": "Część URL",
+      "componentDescription": "Zakoduj tylko część adresu URL",
+      "fullTitle": "Pełny URL",
+      "fullDescription": "Zakoduj cały adres URL",
+      "inputEncodeLabel": "Tekst zwykły",
+      "inputDecodeLabel": "Zakodowany URL",
+      "clearInput": "Wyczyść dane wejściowe",
+      "encodePlaceholder": "Wprowadź tekst do zakodowania jako URL...",
+      "decodePlaceholder": "Wprowadź zakodowany adres URL do odkodowania...",
+      "outputEncodeLabel": "Wynik zakodowania",
+      "outputDecodeLabel": "Wynik odkodowania",
+      "copyResult": "Kopiuj wynik",
+      "resultPlaceholder": "Tutaj pojawi się wynik konwersji...",
+      "copied": "Skopiowano do puli zadań",
+      "swap": "Zamień",
+      "swapInputOutput": "Zamień dane wejściowe i wyjściowe",
+      "infoTitle": "Tryby kodowania",
+      "componentModeTitle": "Tryb częściowy",
+      "componentModeDescription": "Najlepszy do indywidualnych części adresu URL, takich jak parametry zapytania lub segmenty ścieżki.",
+      "componentExample": "Przykład: hello world → hello%20world",
+      "fullModeTitle": "Tryb pełny",
+      "fullModeDescription": "Użyj tego, gdy chcesz zakodować pełny adres URL, zachowując jego strukturę widoczną.",
+      "fullExample": "Przykład: https://example.com/路径 → https://example.com/%E8%B7%AF%E5%BE%84"
+    },
+    "htmlEntity": {
+      "title": "Kodowanie/odejmowanie encji HTML",
+      "description": "Koduj lub dekoduj encje HTML online",
+      "toolName": "Kodowanie/odejmowanie encji HTML",
+      "toolCategory": "Narzędzia kodowania",
+      "convertFailed": "Konwersja nie powiodła się, sprawdź swoje dane wejściowe",
+      "copyFailed": "Nie udało się skopiować wyniku",
+      "modeSelector": "Wybierz tryb",
+      "switchToEncode": "Przełącz na tryb kodowania (Alt+1)",
+      "switchToDecode": "Przełącz na tryb dekodowania (Alt+2)",
+      "encode": "Koduj",
+      "decode": "Dekoduj",
+      "encodeAll": "Zakoduj wszystkie znaki",
+      "inputEncodeLabel": "Tekst zwykły",
+      "inputDecodeLabel": "Encje HTML",
+      "clearInput": "Wyczyść dane wejściowe (Ctrl+L)",
+      "encodePlaceholder": "Wprowadź tekst do przekonwertowania na encje HTML...",
+      "decodePlaceholder": "Wprowadź encje HTML do dekodowania...",
+      "inputDescriptionEncode": "Wprowadź tekst zwykły, który chcesz zakodować jako encje HTML",
+      "inputDescriptionDecode": "Wprowadź encje HTML, które chcesz zdekodować",
+      "outputEncodeLabel": "Wynik zakodowania",
+      "outputDecodeLabel": "Wynik dekodowania",
+      "copyResult": "Kopiuj wynik (Ctrl+C)",
+      "resultPlaceholder": "Tutaj pojawi się wynik konwersji...",
+      "outputDescriptionEncode": "Wygenerowany wynik encji HTML",
+      "outputDescriptionDecode": "Wynik tekstowy po dekodowaniu",
+      "copied": "Skopiowano do puli zadań",
+      "executeEncode": "Koduj (Ctrl+Enter)",
+      "executeDecode": "Dekoduj (Ctrl+Enter)",
+      "swap": "Zamień",
+      "swapMode": "Zamień dane wejściowe i wyjściowe (Ctrl+S)",
+      "commonEntities": "Powszechne encje HTML",
+      "space": "(przestrzeń)"
+    },
+    "jsMinify": {
+      "title": "Zminifikuj i przygotuj kod JavaScript",
+      "description": "Zminifikuj lub przygotuj kod JavaScript online",
+      "toolName": "Zminifikuj / Przygotuj kod JavaScript",
+      "toolNameHistory": "Zminifikuj i przygotuj kod JavaScript",
+      "toolCategory": "Narzędzia deweloperskie",
+      "processFailed": "Przetwarzanie nie powiodło się",
+      "copyFailed": "Nie udało się skopiować wyniku do puli zadań",
+      "switchToMinify": "Przełącz na tryb zminifikowania",
+      "switchToMinifyTitle": "Przełącz na tryb zminifikowania (Alt+1)",
+      "switchToBeautify": "Przełącz na tryb przygotowania",
+      "switchToBeautifyTitle": "Przełącz na tryb przygotowania (Alt+2)",
+      "minify": "Zminifikuj",
+      "beautify": "Przygotuj",
+      "input": "Wejście",
+      "output": "Wyjście",
+      "inputPlaceholder": "Wprowadź kod JavaScript tutaj...",
+      "inputAria": "Edytor kodu JavaScript",
+      "inputTitle": "Naciśnij Ctrl+Enter, aby uruchomić, Ctrl+L, aby wyczyścić",
+      "copyOutput": "Kopiuj wyjście",
+      "copyOutputTitle": "Kopiuj wyjście (Ctrl+C)",
+      "resultPlaceholder": "Zmieniony wynik pojawi się tutaj...",
+      "outputAria": "Wynik kodu JavaScript",
+      "executeMinify": "Zminifikuj JavaScript",
+      "executeMinifyTitle": "Zminifikuj JavaScript (Ctrl+Enter)",
+      "executeBeautify": "Przygotuj JavaScript",
+      "executeBeautifyTitle": "Przygotuj JavaScript (Ctrl+Enter)",
+      "minifyCode": "Zminifikuj kod",
+      "beautifyCode": "Przygotuj kod",
+      "swap": "Zamień",
+      "swapTitle": "Zamień dane wejściowe i wyjściowe (Ctrl+S)",
+      "clear": "Wyczyść",
+      "clearTitle": "Wyczyść zawartość (Ctrl+L)",
+      "copied": "Skopiowano do puli zadań",
+      "infoTitle": "Funkcje",
+      "infoItems": [
+        "Usuwa zbędne spacje i linie, aby zmniejszyć rozmiar pliku JavaScript",
+        "Tryb przygotowania ułatwia czytanie i utrzymanie skompresowanego kodu",
+        "Jakość kompresji zależy od parsera i implementacji kompresora JavaScript"
+      ]
+    },
+    "cssMinify": {
+      "title": "Zminifikuj i przygotuj kod CSS",
+      "description": "Zminifikuj lub przygotuj kod CSS online",
+      "toolName": "Zminifikuj i przygotuj kod CSS",
+      "toolCategory": "Narzędzia deweloperskie",
+      "processFailed": "Przetwarzanie nie powiodło się",
+      "copyFailed": "Nie udało się skopiować wyniku do puli zadań",
+      "switchToMinify": "Przełącz na tryb zminifikowania",
+      "switchToMinifyTitle": "Przełącz na tryb zminifikowania (Alt+1)",
+      "switchToBeautify": "Przełącz na tryb przygotowania",
+      "switchToBeautifyTitle": "Przełącz na tryb przygotowania (Alt+2)",
+      "minify": "Zminifikuj",
+      "beautify": "Przygotuj",
+      "input": "Wejście",
+      "output": "Wyjście",
+      "inputPlaceholder": "Wprowadź kod CSS tutaj...\n\nPrzykład:\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 20px;\n}",
+      "inputAria": "Edytor kodu CSS",
+      "inputTitle": "Naciśnij Ctrl+Enter, aby uruchomić, Ctrl+L, aby wyczyścić",
+      "copyOutput": "Kopiuj wyjście",
+      "copyOutputTitle": "Kopiuj wyjście (Ctrl+C)",
+      "resultPlaceholder": "Zmieniony wynik pojawi się tutaj...",
+      "outputAria": "Wynik kodu CSS",
+      "executeMinify": "Zminifikuj CSS",
+      "executeMinifyTitle": "Zminifikuj CSS (Ctrl+Enter)",
+      "executeBeautify": "Przygotuj CSS",
+      "executeBeautifyTitle": "Przygotuj CSS (Ctrl+Enter)",
+      "minifyCode": "Zminifikuj kod",
+      "beautifyCode": "Przygotuj kod",
+      "swap": "Zamień",
+      "swapTitle": "Zamień dane wejściowe i wyjściowe (Ctrl+S)",
+      "clear": "Wyczyść",
+      "clearTitle": "Wyczyść zawartość (Ctrl+L)",
+      "copied": "Skopiowano do puli zadań",
+      "infoTitle": "Funkcje",
+      "infoItems": [
+        "Usuwa zbędne spacje i linie, aby zmniejszyć rozmiar pliku",
+        "Tryb przygotowania ułatwia czytanie i edytowanie skompresowanego kodu",
+        "Mniejsze pliki CSS mogą pomóc zmniejszyć rozmiar transferu HTTP i poprawić wydajność ładowania"
+      ]
+    },
+    "httpCodes": {
+      "title": "Kody stanu HTTP",
+      "description": "Odnośnik do kodów stanu / odpowiedzi HTTP",
+      "searchPlaceholder": "Wyszukaj kody stanu lub opisy...",
+      "noMatch": "Nie znaleziono pasujących kodów stanu",
+      "infoTitle": "Podstawy kodów stanu HTTP",
+      "infoItems": [
+        "1xx - Odpowiedzi informacyjne, które oznaczają, że żądanie zostało odebrane i jest przetwarzane",
+        "2xx - Odpowiedzi pomyślne, które oznaczają, że żądanie zostało odebrane, zrozumiane i zaakceptowane",
+        "3xx - Odpowiedzi przekierowania, które wymagają dalszych działań w celu zakończenia żądania",
+        "4xx - Odpowiedzi błędu klienta, które oznaczają, że żądanie ma złą składnię lub nie może być spełnione",
+        "5xx - Odpowiedzi błędów serwera, które oznaczają, że serwer nie mógł spełnić ważnego żądania"
+      ],
+      "categories": [
+        {
+          "id": "all",
+          "name": "Wszystko",
+          "color": "bg-gray-100 text-gray-700"
+        },
+        {
+          "id": "1xx",
+          "name": "1xx Informacyjne",
+          "color": "bg-blue-100 text-blue-700"
+        },
+        {
+          "id": "2xx",
+          "name": "2xx Sukces",
+          "color": "bg-green-100 text-green-700"
+        },
+        {
+          "id": "3xx",
+          "name": "3xx Przekierowanie",
+          "color": "bg-yellow-100 text-yellow-700"
+        },
+        {
+          "id": "4xx",
+          "name": "4xx Błąd klienta",
+          "color": "bg-orange-100 text-orange-700"
+        },
+        {
+          "id": "5xx",
+          "name": "5xx Błąd serwera",
+          "color": "bg-red-100 text-red-700"
+        }
+      ],
+      "codes": [
+        {
+          "code": 100,
+          "name": "Continue",
+          "desc": "Początkowa część żądania została otrzymana, a klient powinien kontynuować wysyłanie reszty.",
+          "category": "1xx"
+        },
+        {
+          "code": 101,
+          "name": "Switching Protocols",
+          "desc": "Serwer zgadza się na zmianę protokołów zgodnie z prośbą klienta.",
+          "category": "1xx"
+        },
+        {
+          "code": 102,
+          "name": "Processing",
+          "desc": "Serwer otrzymał i przetwarza żądanie, ale jeszcze nie ma dostępnej odpowiedzi.",
+          "category": "1xx"
+        },
+        {
+          "code": 200,
+          "name": "OK",
+          "desc": "Żądanie zakończyło się sukcesem, zazwyczaj dla żądań GET lub POST.",
+          "category": "2xx"
+        },
+        {
+          "code": 201,
+          "name": "Created",
+          "desc": "Żądanie zakończyło się sukcesem i utworzono nowy zasób.",
+          "category": "2xx"
+        },
+        {
+          "code": 202,
+          "name": "Accepted",
+          "desc": "Żądanie zostało zaakceptowane do przetwarzania, ale jeszcze nie zostało ukończone.",
+          "category": "2xx"
+        },
+        {
+          "code": 203,
+          "name": "Non-Authoritative Information",
+          "desc": "Metadane odpowiedzi pochodzą z lokalnej lub trzeciej strony zamiast z serwera głównego.",
+          "category": "2xx"
+        },
+        {
+          "code": 204,
+          "name": "No Content",
+          "desc": "Żądanie zakończyło się sukcesem, ale odpowiedź nie zawiera treści.",
+          "category": "2xx"
+        },
+        {
+          "code": 205,
+          "name": "Reset Content",
+          "desc": "Żądanie zakończyło się sukcesem i klient powinien zresetować obecny widok dokumentu.",
+          "category": "2xx"
+        },
+        {
+          "code": 206,
+          "name": "Partial Content",
+          "desc": "Serwer zwraca tylko część zasobu ze względu na żądanie zakresu.",
+          "category": "2xx"
+        },
+        {
+          "code": 300,
+          "name": "Multiple Choices",
+          "desc": "Żądany zasób ma wiele możliwych reprezentacji, z których klient może wybrać.",
+          "category": "3xx"
+        },
+        {
+          "code": 301,
+          "name": "Moved Permanently",
+          "desc": "Żądany zasób został permanentnie przeniesiony do nowego URI.",
+          "category": "3xx"
+        },
+        {
+          "code": 302,
+          "name": "Found",
+          "desc": "Żądany zasób jest tymczasowo dostępny pod innym URI.",
+          "category": "3xx"
+        },
+        {
+          "code": 303,
+          "name": "See Other",
+          "desc": "Odpowiedź na żądanie znajduje się pod innym URI przy użyciu metody GET.",
+          "category": "3xx"
+        },
+        {
+          "code": 304,
+          "name": "Not Modified",
+          "desc": "Zapasowy zasób nie uległ zmianie, więc klient może użyć lokalnej kopii.",
+          "category": "3xx"
+        },
+        {
+          "code": 307,
+          "name": "Temporary Redirect",
+          "desc": "Zasób jest tymczasowo przekierowany, a oryginalna metoda żądania musi zostać zachowana.",
+          "category": "3xx"
+        },
+        {
+          "code": 308,
+          "name": "Permanent Redirect",
+          "desc": "Zasób został permanentnie przeniesiony, a oryginalna metoda żądania musi zostać zachowana.",
+          "category": "3xx"
+        },
+        {
+          "code": 400,
+          "name": "Bad Request",
+          "desc": "Serwer nie może przetworzyć żądania z powodu niepoprawnego składni.",
+          "category": "4xx"
+        },
+        {
+          "code": 401,
+          "name": "Unauthorized",
+          "desc": "Wymagana jest autoryzacja przed ukończeniem żądania.",
+          "category": "4xx"
+        },
+        {
+          "code": 402,
+          "name": "Payment Required",
+          "desc": "Zarezerwowane do użytku w przyszłości, często związane z systemami płatności cyfrowych.",
+          "category": "4xx"
+        },
+        {
+          "code": 403,
+          "name": "Forbidden",
+          "desc": "Serwer zrozumiał żądanie, ale odmawia jego autoryzacji.",
+          "category": "4xx"
+        },
+        {
+          "code": 404,
+          "name": "Not Found",
+          "desc": "Serwer nie może znaleźć żądanego zasobu.",
+          "category": "4xx"
+        },
+        {
+          "code": 405,
+          "name": "Method Not Allowed",
+          "desc": "Metoda żądania nie jest dozwolona dla zasobu docelowego.",
+          "category": "4xx"
+        },
+        {
+          "code": 406,
+          "name": "Not Acceptable",
+          "desc": "Serwer nie może dostarczyć odpowiedzi zgodnej z formatami akceptowanymi przez klienta.",
+          "category": "4xx"
+        },
+        {
+          "code": 407,
+          "name": "Proxy Authentication Required",
+          "desc": "Klient musi zautoryzować się u serwera proxy przed kontynuacją.",
+          "category": "4xx"
+        },
+        {
+          "code": 408,
+          "name": "Request Timeout",
+          "desc": "Serwer wygasł oczekując na żądanie.",
+          "category": "4xx"
+        },
+        {
+          "code": 409,
+          "name": "Conflict",
+          "desc": "Żądanie konfliktuje z aktualnym stanem zasobu docelowego.",
+          "category": "4xx"
+        },
+        {
+          "code": 410,
+          "name": "Gone",
+          "desc": "Zasób nie jest już dostępny i nie znane jest żadne inne miejsce przeznaczenia.",
+          "category": "4xx"
+        },
+        {
+          "code": 411,
+          "name": "Length Required",
+          "desc": "Serwer wymaga poprawnego nagłówka Content-Length.",
+          "category": "4xx"
+        },
+        {
+          "code": 412,
+          "name": "Precondition Failed",
+          "desc": "Jedno lub więcej warunków w nagłówkach żądania oceniono jako fałszywe.",
+          "category": "4xx"
+        },
+        {
+          "code": 413,
+          "name": "Payload Too Large",
+          "desc": "Treść żądania jest większa niż to, co serwer jest gotowy lub w stanie przetworzyć.",
+          "category": "4xx"
+        },
+        {
+          "code": 414,
+          "name": "URI Too Long",
+          "desc": "Żądany URI jest dłuższy niż to, co serwer jest w stanie przetworzyć.",
+          "category": "4xx"
+        },
+        {
+          "code": 415,
+          "name": "Unsupported Media Type",
+          "desc": "Serwer nie obsługuje typu media użytego w żądaniu.",
+          "category": "4xx"
+        },
+        {
+          "code": 418,
+          "name": "I'm a teapot",
+          "desc": "Szkodliwy kod stanu informujący serwer, że odmawia zaparzenia kawy, ponieważ jest czajnikiem.",
+          "category": "4xx"
+        },
+        {
+          "code": 422,
+          "name": "Unprocessable Entity",
+          "desc": "Serwer rozumie format żądania, ale nie może przetworzyć zawartych w nim instrukcji.",
+          "category": "4xx"
+        },
+        {
+          "code": 429,
+          "name": "Too Many Requests",
+          "desc": "Klient wysłał zbyt dużo żądań w danym czasie.",
+          "category": "4xx"
+        },
+        {
+          "code": 451,
+          "name": "Unavailable For Legal Reasons",
+          "desc": "Zasób niedostępny z powodu ograniczeń prawnych.",
+          "category": "4xx"
+        },
+        {
+          "code": 500,
+          "name": "Internal Server Error",
+          "desc": "Serwer napotkał nieprzewidywalny błąd podczas przetwarzania żądania.",
+          "category": "5xx"
+        },
+        {
+          "code": 501,
+          "name": "Not Implemented",
+          "desc": "Serwer nie obsługuje funkcjonalności potrzebnej do spełnienia żądania.",
+          "category": "5xx"
+        },
+        {
+          "code": 502,
+          "name": "Bad Gateway",
+          "desc": "Serwer bramy lub serwer proxy otrzymał nieprawidłową odpowiedź od serwera górnej warstwy.",
+          "category": "5xx"
+        },
+        {
+          "code": 503,
+          "name": "Service Unavailable",
+          "desc": "Serwer tymczasowo nie potrafi obsłużyć żądania, zwykle z powodu nadmiaru obciążenia lub konserwacji.",
+          "category": "5xx"
+        },
+        {
+          "code": 504,
+          "name": "Gateway Timeout",
+          "desc": "Serwer bramy lub serwer proxy nie otrzymał odpowiedniej odpowiedzi od serwera górnej warstwy.",
+          "category": "5xx"
+        },
+        {
+          "code": 505,
+          "name": "HTTP Version Not Supported",
+          "desc": "Serwer nie obsługuje wersji protokołu HTTP użytej w żądaniu.",
+          "category": "5xx"
+        }
+      ]
+    },
+    "phpReference": {
+      "title": "Referencja funkcji PHP",
+      "description": "Szybki przewodnik po typowych funkcjach PHP",
+      "searchPlaceholder": "Wyszukaj nazwy funkcji lub opisy...",
+      "noMatch": "Nie znaleziono pasujących funkcji",
+      "infoTitle": "O nas",
+      "infoDescription": "Na tej stronie wymieniono najczęściej używane funkcje PHP według kategorii w celu szybkiego odnalezienia. Służy jako przydatny przegląd dla programistów i nie zastępuje oficjalnej dokumentacji PHP.",
+      "categories": [
+        "Wszystko",
+        "String",
+        "Array",
+        "Plik",
+        "Data/Czas",
+        "JSON",
+        "Matematyka",
+        "Inne"
+      ],
+      "functions": [
+        {
+          "name": "strlen",
+          "desc": "Pobierz długość ciągu znaków",
+          "syntax": "strlen(string $string): int",
+          "category": "Ciąg znaków"
+        },
+        {
+          "name": "substr",
+          "desc": "Zwróć część ciągu znaków",
+          "syntax": "substr(string $string, int $offset, ?int $length = null): string",
+          "category": "Ciąg znaków"
+        },
+        {
+          "name": "strpos",
+          "desc": "Znajdź pozycję pierwszego wystąpienia podciągu",
+          "syntax": "strpos(string $haystack, string $needle, int $offset = 0): int|false",
+          "category": "Ciąg znaków"
+        },
+        {
+          "name": "str_replace",
+          "desc": "Zamień wszystkie wystąpienia szukanego ciągu",
+          "syntax": "str_replace(mixed $search, mixed $replace, mixed $subject): mixed",
+          "category": "Ciąg znaków"
+        },
+        {
+          "name": "explode",
+          "desc": "Podziel ciąg znaków na tablicę za pomocą separatora",
+          "syntax": "explode(string $separator, string $string, int $limit = PHP_INT_MAX): array",
+          "category": "Ciąg znaków"
+        },
+        {
+          "name": "implode",
+          "desc": "Połącz elementy tablicy w ciąg znaków",
+          "syntax": "implode(string $separator, array $array): string",
+          "category": "Ciąg znaków"
+        },
+        {
+          "name": "trim",
+          "desc": "Usuń białe znaki lub inne znaki z obu końców ciągu znaków",
+          "syntax": "trim(string $string, string $characters = \" \\n\\r\\t\\v\\x00\"): string",
+          "category": "Ciąg znaków"
+        },
+        {
+          "name": "strtolower",
+          "desc": "Zmień ciąg znaków na małe litery",
+          "syntax": "strtolower(string $string): string",
+          "category": "Ciąg znaków"
+        },
+        {
+          "name": "strtoupper",
+          "desc": "Zmień ciąg znaków na duże litery",
+          "syntax": "strtoupper(string $string): string",
+          "category": "Ciąg znaków"
+        },
+        {
+          "name": "sprintf",
+          "desc": "Zwróć sformatowany ciąg znaków",
+          "syntax": "sprintf(string $format, mixed ...$values): string",
+          "category": "Ciąg znaków"
+        },
+        {
+          "name": "preg_match",
+          "desc": "Wykonaj dopasowanie wyrażenia regularnego",
+          "syntax": "preg_match(string $pattern, string $subject, array &$matches = null): int|false",
+          "category": "Ciąg znaków"
+        },
+        {
+          "name": "preg_replace",
+          "desc": "Wykonaj wyszukiwanie i zastąpienie za pomocą wyrażenia regularnego",
+          "syntax": "preg_replace(mixed $pattern, mixed $replacement, mixed $subject): mixed",
+          "category": "Ciąg znaków"
+        },
+        {
+          "name": "count",
+          "desc": "Liczy elementy w tablicy lub obiekcie Countable",
+          "syntax": "count(Countable|array $value, int $mode = COUNT_NORMAL): int",
+          "category": "Tablica"
+        },
+        {
+          "name": "array_push",
+          "desc": "Dodaj jeden lub więcej elementów na koniec tablicy",
+          "syntax": "array_push(array &$array, mixed ...$values): int",
+          "category": "Tablica"
+        },
+        {
+          "name": "array_pop",
+          "desc": "Usuń ostatni element z tablicy",
+          "syntax": "array_pop(array &$array): mixed",
+          "category": "Tablica"
+        },
+        {
+          "name": "array_merge",
+          "desc": "Połącz jedną lub więcej tablic",
+          "syntax": "array_merge(array ...$arrays): array",
+          "category": "Tablica"
+        },
+        {
+          "name": "array_keys",
+          "desc": "Zwróć wszystkie klucze tablicy",
+          "syntax": "array_keys(array $array, mixed $filter_value, bool $strict = false): array",
+          "category": "Tablica"
+        },
+        {
+          "name": "array_values",
+          "desc": "Zwróć wszystkie wartości tablicy",
+          "syntax": "array_values(array $array): array",
+          "category": "Tablica"
+        },
+        {
+          "name": "in_array",
+          "desc": "Sprawdź, czy wartość istnieje w tablicy",
+          "syntax": "in_array(mixed $needle, array $haystack, bool $strict = false): bool",
+          "category": "Tablica"
+        },
+        {
+          "name": "array_search",
+          "desc": "Wyszukaj tablicę pod kątem wartości i zwróć jej klucz",
+          "syntax": "array_search(mixed $needle, array $haystack, bool $strict = false): int|string|false",
+          "category": "Tablica"
+        },
+        {
+          "name": "array_map",
+          "desc": "Zastosuj funkcję zwrotną do elementów tablicy",
+          "syntax": "array_map(?callable $callback, array $array, array ...$arrays): array",
+          "category": "Tablica"
+        },
+        {
+          "name": "array_filter",
+          "desc": "Filtrowanie elementów tablicy przy użyciu funkcji zwrotnej",
+          "syntax": "array_filter(array $array, ?callable $callback = null, int $mode = 0): array",
+          "category": "Tablica"
+        },
+        {
+          "name": "sort",
+          "desc": "Posortuj tablicę w kolejności rosnącej",
+          "syntax": "sort(array &$array, int $flags = SORT_REGULAR): bool",
+          "category": "Tablica"
+        },
+        {
+          "name": "usort",
+          "desc": "Posortuj tablicę za pomocą funkcji porównania zdefiniowanej przez użytkownika",
+          "syntax": "usort(array &$array, callable $callback): bool",
+          "category": "Tablica"
+        },
+        {
+          "name": "file_get_contents",
+          "desc": "Odczytaj całą zawartość pliku do ciągu znaków",
+          "syntax": "file_get_contents(string $filename, ...): string|false",
+          "category": "Plik"
+        },
+        {
+          "name": "file_put_contents",
+          "desc": "Zapisz dane do pliku",
+          "syntax": "file_put_contents(string $filename, mixed $data, int $flags = 0): int|false",
+          "category": "Plik"
+        },
+        {
+          "name": "fopen",
+          "desc": "Otwórz plik lub URL",
+          "syntax": "fopen(string $filename, string $mode, ...): resource|false",
+          "category": "Plik"
+        },
+        {
+          "name": "fclose",
+          "desc": "Zamknij otwarty wskaźnik pliku",
+          "syntax": "fclose(resource $stream): bool",
+          "category": "Plik"
+        },
+        {
+          "name": "fread",
+          "desc": "Odczytaj z wskaźnika pliku",
+          "syntax": "fread(resource $stream, int $length): string|false",
+          "category": "Plik"
+        },
+        {
+          "name": "fwrite",
+          "desc": "Zapisz do wskaźnika pliku",
+          "syntax": "fwrite(resource $stream, string $data, ?int $length = null): int|false",
+          "category": "Plik"
+        },
+        {
+          "name": "file_exists",
+          "desc": "Sprawdź, czy plik lub katalog istnieje",
+          "syntax": "file_exists(string $filename): bool",
+          "category": "Plik"
+        },
+        {
+          "name": "is_file",
+          "desc": "Sprawdź, czy ścieżka jest zwykłym plikiem",
+          "syntax": "is_file(string $filename): bool",
+          "category": "Plik"
+        },
+        {
+          "name": "unlink",
+          "desc": "Usuń plik",
+          "syntax": "unlink(string $filename, ?resource $context = null): bool",
+          "category": "Plik"
+        },
+        {
+          "name": "mkdir",
+          "desc": "Utwórz katalog",
+          "syntax": "mkdir(string $directory, int $permissions = 0777, bool $recursive = false): bool",
+          "category": "Plik"
+        },
+        {
+          "name": "date",
+          "desc": "Sformatuj datę i czas lokalny",
+          "syntax": "date(string $format, ?int $timestamp = null): string",
+          "category": "Data/Czas"
+        },
+        {
+          "name": "time",
+          "desc": "Pobierz aktualny czas Unix",
+          "syntax": "time(): int",
+          "category": "Data/Czas"
+        },
+        {
+          "name": "strtotime",
+          "desc": "Przetłumacz tekstową datę i czas na czas Unix",
+          "syntax": "strtotime(string $datetime, ?int $baseTimestamp = null): int|false",
+          "category": "Data/Czas"
+        },
+        {
+          "name": "mktime",
+          "desc": "Pobierz czas typu Unix dla daty",
+          "syntax": "mktime(int $godzina, ?int $minuta = null, ...): int|false",
+          "category": "Data/Czas"
+        },
+        {
+          "name": "date_create",
+          "desc": "Utwórz obiekt DateTime",
+          "syntax": "date_create(string $datetime = \"teraz\", ?DateTimeZone $timezone = null): DateTime|false",
+          "category": "Data/Czas"
+        },
+        {
+          "name": "json_encode",
+          "desc": "Zamień wartość na ciąg JSON",
+          "syntax": "json_encode(mixed $wartosc, int $flagi = 0, int $głębokość = 512): string|false",
+          "category": "JSON"
+        },
+        {
+          "name": "json_decode",
+          "desc": "Zdekoduj ciąg JSON do wartości PHP",
+          "syntax": "json_decode(string $json, ?bool $asocjatywny = null, int $głębokość = 512): mixed",
+          "category": "JSON"
+        },
+        {
+          "name": "abs",
+          "desc": "Pobierz wartość bezwzględną",
+          "syntax": "abs(int|float $liczba): int|float",
+          "category": "Matematyka"
+        },
+        {
+          "name": "ceil",
+          "desc": "Zaokrąglij ułamki w górę",
+          "syntax": "ceil(int|float $liczba): float",
+          "category": "Matematyka"
+        },
+        {
+          "name": "floor",
+          "desc": "Zaokrąglij ułamki w dół",
+          "syntax": "floor(int|float $liczba): float",
+          "category": "Matematyka"
+        },
+        {
+          "name": "round",
+          "desc": "Zaokrąglij liczbę",
+          "syntax": "round(int|float $liczba, int $precyzja = 0, int $tryb = PHP_ROUND_HALF_UP): float",
+          "category": "Matematyka"
+        },
+        {
+          "name": "max",
+          "desc": "Znajdź największą wartość",
+          "syntax": "max(mixed $wartosc, mixed ...$wartosci): mixed",
+          "category": "Matematyka"
+        },
+        {
+          "name": "min",
+          "desc": "Znajdź najmniejszą wartość",
+          "syntax": "min(mixed $wartosc, mixed ...$wartosci): mixed",
+          "category": "Matematyka"
+        },
+        {
+          "name": "rand",
+          "desc": "Wygeneruj losową liczbę całkowitą",
+          "syntax": "rand(int $min, int $max): int",
+          "category": "Matematyka"
+        },
+        {
+          "name": "isset",
+          "desc": "Sprawdź, czy zmienna jest ustawiona i nie jest null",
+          "syntax": "isset(mixed $zmienna, mixed ...$zmiennych): bool",
+          "category": "Inne"
+        },
+        {
+          "name": "empty",
+          "desc": "Sprawdź, czy zmienna jest pusta",
+          "syntax": "empty(mixed $zmienna): bool",
+          "category": "Inne"
+        },
+        {
+          "name": "var_dump",
+          "desc": "Wyświetl informacje o zmiennej",
+          "syntax": "var_dump(mixed $wartosc, mixed ...$wartosci): void",
+          "category": "Inne"
+        },
+        {
+          "name": "print_r",
+          "desc": "Wyświetl czytelną przez człowieka informację o zmiennej",
+          "syntax": "print_r(mixed $wartosc, bool $zwróć = false): string|bool",
+          "category": "Inne"
+        },
+        {
+          "name": "gettype",
+          "desc": "Pobierz typ zmiennej",
+          "syntax": "gettype(mixed $wartosc): string",
+          "category": "Inne"
+        },
+        {
+          "name": "is_array",
+          "desc": "Sprawdź, czy zmienna jest tablicą",
+          "syntax": "is_array(mixed $wartosc): bool",
+          "category": "Inne"
+        },
+        {
+          "name": "is_string",
+          "desc": "Sprawdź, czy zmienna jest ciągiem znaków",
+          "syntax": "is_string(mixed $wartosc): bool",
+          "category": "Inne"
+        },
+        {
+          "name": "is_numeric",
+          "desc": "Sprawdź, czy zmienna jest liczbą lub ciągiem liczbowym",
+          "syntax": "is_numeric(mixed $wartosc): bool",
+          "category": "Inne"
+        }
+      ]
+    },
+    "cssBorderRadius": {
+      "title": "Generator CSS Border Radius",
+      "description": "Dostosuj wartości border-radius wizualnie i wygeneruj kod CSS",
+      "presetsLabel": "Ustawienia domyślne",
+      "preview": "Podgląd",
+      "settings": "Ustawienia",
+      "linked": "Połączone rogi",
+      "unlinked": "Oddzielne rogi",
+      "corners": {
+        "topLeft": "Górny lewy róg",
+        "topRight": "Górny prawy róg",
+        "bottomLeft": "Dolny lewy róg",
+        "bottomRight": "Dolny prawy róg"
+      },
+      "elementColor": "Kolor elementu",
+      "codeTitle": "Kod CSS",
+      "copy": "Kopiuj",
+      "copied": "Skopiowano",
+      "presets": [
+        {
+          "name": "Brak",
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Mały",
+          "values": [
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "Średni",
+          "values": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "Duży",
+          "values": [
+            16,
+            16,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "Koło",
+          "values": [
+            50,
+            50,
+            50,
+            50
+          ]
+        },
+        {
+          "name": "Kapsuła",
+          "values": [
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "Lewa strona",
+          "values": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        {
+          "name": "Prawa strona",
+          "values": [
+            0,
+            16,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "Tylko górna część",
+          "values": [
+            16,
+            16,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Tylko dolna część",
+          "values": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "Diagonalny",
+          "values": [
+            16,
+            0,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "Liść",
+          "values": [
+            0,
+            50,
+            0,
+            50
+          ]
+        }
+      ]
+    },
+    "cssNeumorphism": {
+      "title": "Generator Stylu Neumorficzny CSS",
+      "description": "Wygeneruj online kod CSS w stylu neumorficznym",
+      "previewText": "Przycisk podglądu",
+      "shapeTitle": "Styl kształtu",
+      "shapeOptions": [
+        {
+          "value": "flat",
+          "label": "Płaski"
+        },
+        {
+          "value": "concave",
+          "label": "Wklęsły"
+        },
+        {
+          "value": "convex",
+          "label": "Wypukły"
+        },
+        {
+          "value": "pressed",
+          "label": "Naciśnięty"
+        }
+      ],
+      "colorTitle": "Ustawienia kolorów",
+      "presetColors": "Kolory preset",
+      "colorPresets": [
+        {
+          "color": "#e0e5ec",
+          "name": "Klasyczny"
+        },
+        {
+          "color": "#f0f0f3",
+          "name": "Biały"
+        },
+        {
+          "color": "#d1d9e6",
+          "name": "Niebieski"
+        },
+        {
+          "color": "#e8dfd5",
+          "name": "Beżowy"
+        },
+        {
+          "color": "#dfe6e9",
+          "name": "Szary"
+        },
+        {
+          "color": "#ffeaa7",
+          "name": "Żółty"
+        },
+        {
+          "color": "#dfe4ea",
+          "name": "Slate"
+        },
+        {
+          "color": "#f8e1e7",
+          "name": "Różowy"
+        },
+        {
+          "color": "#d5f5e3",
+          "name": "Mint"
+        },
+        {
+          "color": "#e8daef",
+          "name": "Fioletowy"
+        }
+      ],
+      "backgroundColor": "Kolor podstawowy",
+      "lightColor": "Kolor jasny (podświetlenie)",
+      "darkColor": "Ciemny kolor (cien)",
+      "sliderTitle": "Ustawienia cienia",
+      "size": "Rozmiar",
+      "radius": "Promień",
+      "distance": "Odległość cienia",
+      "blur": "Rozmycie cienia",
+      "intensity": "Intensywność",
+      "codeTitle": "Kod CSS",
+      "copy": "Kopiuj",
+      "copied": "Skopiowano",
+      "infoTitle": "Co to jest Neumorfizm?",
+      "infoDescription": "Neumorfizm to delikatny styl interfejsu, który łączy subtelne odbicia światła i cienie, aby elementy wyglądały, jakby były podniesione lub wciśnięte do tła. Działa najlepiej z niskokontrastowymi paletami kolorów i czystymi, minimalistycznymi układami."
+    },
+    "cssTextShadow": {
+      "title": "Generator cieni tekstu CSS",
+      "description": "Dostosuj wartości text-shadow wizualnie i wygeneruj kod CSS",
+      "defaultText": "Przykład cienia tekstu",
+      "presetsLabel": "Efekty ustawione z góry",
+      "textSettings": "Ustawienia tekstu",
+      "previewText": "Tekst do wyświetlenia",
+      "fontSize": "Rozmiar czcionki",
+      "textColor": "Kolor tekstu",
+      "shadowPrefix": "Cień {{index}}",
+      "offsetX": "Przesunięcie X",
+      "offsetY": "Przesunięcie Y",
+      "blur": "Rozmycie",
+      "opacity": "Przejrzystość",
+      "color": "Kolor",
+      "addShadow": "Dodaj cień",
+      "codeTitle": "Kod CSS",
+      "copy": "Kopiuj",
+      "copied": "Skopiowano",
+      "presets": [
+        {
+          "name": "Łagodny cień",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 2,
+              "y": 2,
+              "blur": 4,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Neonowe światło",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#00ff00",
+              "opacity": 0.8
+            }
+          ]
+        },
+        {
+          "name": "Purpurowe światło",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 5,
+              "color": "#ff00ff",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#ff00ff",
+              "opacity": 0.8
+            },
+            {
+              "id": 3,
+              "x": 0,
+              "y": 0,
+              "blur": 20,
+              "color": "#ff00ff",
+              "opacity": 0.6
+            }
+          ]
+        },
+        {
+          "name": "Zwarstwiony 3D",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 1,
+              "y": 1,
+              "blur": 0,
+              "color": "#666666",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 2,
+              "y": 2,
+              "blur": 0,
+              "color": "#888888",
+              "opacity": 1
+            },
+            {
+              "id": 3,
+              "x": 3,
+              "y": 3,
+              "blur": 0,
+              "color": "#aaaaaa",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "name": "Wypukły",
+          "shadows": [
+            {
+              "id": 1,
+              "x": -1,
+              "y": -1,
+              "blur": 1,
+              "color": "#ffffff",
+              "opacity": 0.8
+            },
+            {
+              "id": 2,
+              "x": 1,
+              "y": 1,
+              "blur": 1,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "websocketTest": {
+      "title": "Narzędzie testowe WebSocket online",
+      "description": "Testuj połączenia i komunikaty WebSocket online",
+      "defaultUrl": "wss://echo.websocket.org",
+      "connectingTo": "Nawiązywanie połączenia z {{url}}...",
+      "connectSuccess": "Połączenie udane",
+      "connectError": "Błąd połączenia",
+      "connectionClosed": "Połączenie zamknięte (Kod: {{code}})",
+      "connectFailed": "Nie udało się nawiązać połączenia: {{message}}",
+      "disconnecting": "Rozłączanie...",
+      "urlPlaceholder": "Wprowadź adres WebSocket, np. wss://echo.websocket.org",
+      "disconnect": "Rozłącz",
+      "connecting": "Nawiązywanie połączenia...",
+      "connect": "Połącz",
+      "connected": "Połączono",
+      "notConnected": "Nie połączono",
+      "messageLog": "Dziennik wiadomości",
+      "clear": "Wyczyść",
+      "noMessages": "Brak wiadomości",
+      "messagePlaceholder": "Wprowadź wiadomość... (Enter by wysłać, Shift+Enter by dodać nową linię)",
+      "infoTitle": "Porady dla WebSocket",
+      "infoItems": [
+        "Zintegrowana usługa echo jest przydatna do podstawowego testowania wysyłania i odbierania",
+        "Obsługuje zarówno adresy ws:// jak i wss://",
+        "Naciśnij Enter, by wysłać, Shift+Enter by dodać nową linię",
+        "Upewnij się, że Twoja usługa docelowa umożliwia połączenia WebSocket z przeglądarki"
+      ],
+      "examplesTitle": "Typowe przykłady",
+      "publicEcho": "Publiczna usługa echo",
+      "defaultTag": "Domyślny"
+    },
+    "csrGenerator": {
+      "title": "Generator i przeglądarka CSR",
+      "description": "Generuj pliki CSR online i analizuj zawartość CSR",
+      "enterDomain": "Proszę wprowadzić domenę",
+      "generateFailed": "Niepowodzenie generowania CSR",
+      "parseFailed": "Niepowodzenie analizy CSR",
+      "serverConnectionFailed": "Niepowodzenie połączenia z serwerem, spróbuj ponownie później",
+      "tabs": {
+        "generate": "Wygeneruj CSR",
+        "view": "Przeglądaj CSR"
+      },
+      "formTitle": "Informacje o certyfikacie",
+      "labels": {
+        "commonName": "Domena (Common Name)",
+        "organization": "Organizacja",
+        "organizationUnit": "Oddział",
+        "city": "Miasto",
+        "state": "Stan / prowincja",
+        "country": "Kraj / region",
+        "email": "E-mail",
+        "keySize": "Rozmiar klucza"
+      },
+      "placeholders": {
+        "commonName": "Na przykład: www.example.com lub *.example.com",
+        "organization": "Na przykład: Example Inc.",
+        "organizationUnit": "Na przykład: Departament IT",
+        "city": "Na przykład: Pekin",
+        "state": "Na przykład: Pekin",
+        "email": "Na przykład: admin@example.com",
+        "csr": "Wklej zawartość CSR tutaj, zaczynając od -----BEGIN CERTIFICATE REQUEST-----"
+      },
+      "countries": [
+        {
+          "value": "CN",
+          "label": "CN - Chiny"
+        },
+        {
+          "value": "US",
+          "label": "US - Stany Zjednoczone"
+        },
+        {
+          "value": "JP",
+          "label": "JP - Japonia"
+        },
+        {
+          "value": "KR",
+          "label": "KR - Korea Południowa"
+        },
+        {
+          "value": "GB",
+          "label": "GB - Wielka Brytania"
+        },
+        {
+          "value": "DE",
+          "label": "DE - Niemcy"
+        },
+        {
+          "value": "FR",
+          "label": "FR - Francja"
+        },
+        {
+          "value": "SG",
+          "label": "SG - Singapur"
+        },
+        {
+          "value": "HK",
+          "label": "HK - Hong Kong"
+        },
+        {
+          "value": "TW",
+          "label": "TW - Tajwan"
+        }
+      ],
+      "keySizes": [
+        {
+          "value": "2048",
+          "label": "2048 bit (zalecane)"
+        },
+        {
+          "value": "4096",
+          "label": "4096 bit (bardziej bezpieczne)"
+        }
+      ],
+      "generating": "Generowanie...",
+      "generateAction": "Wygeneruj CSR i klucz prywatny",
+      "csrRequest": "Żądanie CSR",
+      "privateKey": "Klucz prywatny (przechowuj go w bezpiecznym miejscu)",
+      "copy": "Kopiuj",
+      "copied": "Skopiowano",
+      "download": "Pobierz",
+      "privateKeyWarning": "Klucz prywatny jest bardzo wrażliwy. Przechowuj go w bezpiecznym miejscu i nigdy nie udostępniaj go publicznie. Jeśli zostanie ujawniony, bezpieczeństwo Twojego certyfikatu może zostać naruszone.",
+      "inputCsr": "Wklej zawartość CSR",
+      "parsing": "Analizowanie...",
+      "parseAction": "Analizuj CSR",
+      "csrInfo": "Informacje o CSR",
+      "infoItems": [
+        {
+          "label": "Domena (CN)",
+          "key": "commonName"
+        },
+        {
+          "label": "Organizacja (O)",
+          "key": "organization"
+        },
+        {
+          "label": "Oddział (OU)",
+          "key": "organizationUnit"
+        },
+        {
+          "label": "Miasto (L)",
+          "key": "city"
+        },
+        {
+          "label": "Stan / Prowincja (ST)",
+          "key": "state"
+        },
+        {
+          "label": "Kraj (C)",
+          "key": "country"
+        },
+        {
+          "label": "E-mail",
+          "key": "email"
+        },
+        {
+          "label": "Algorytm klucza",
+          "key": "keyAlgorithm"
+        },
+        {
+          "label": "Rozmiar klucza",
+          "key": "keySize"
+        },
+        {
+          "label": "Algorytm podpisu",
+          "key": "signatureAlgorithm"
+        }
+      ],
+      "keySizeValue": "{{value}} bit",
+      "aboutTitle": "Co to jest CSR?",
+      "aboutDescription": "CSR (Certificate Signing Request) to zakodowany plik wysyłany do autorytetu certyfikacji (CA) podczas zgłaszania wniosku o certyfikat SSL/TLS. Zawiera informacje o Twojej domenie i organizacji, a także klucz publiczny odpowiadający Twojemu kluczowi prywatnemu. Po weryfikacji CA używa CSR do wydania certyfikatu SSL."
+    },
+    "metaGenerator": {
+      "title": "Generator tagów meta",
+      "description": "Wygeneruj SEO-przyjazne tagi meta stron internetowych",
+      "basicInfo": "Podstawowe informacje",
+      "socialMedia": "Media społecznościowe (Open Graph)",
+      "generatedCode": "Wygenerowany kod",
+      "copy": "Kopiuj",
+      "copied": "Skopiowano",
+      "searchPreview": "Podgląd wyszukiwania",
+      "searchPreviewTitleFallback": "Tytuł strony",
+      "searchPreviewDescriptionFallback": "Twoja opis strony pojawi się tutaj...",
+      "socialPreview": "Podgląd społecznościowy",
+      "socialPreviewTitleFallback": "Tytuł",
+      "socialPreviewDescriptionFallback": "Opis",
+      "labels": {
+        "title": "Tytuł strony",
+        "description": "Opis strony",
+        "keywords": "Słowa kluczowe",
+        "author": "Autor",
+        "robots": "Dyrektywa robotów",
+        "ogTitle": "OG tytuł",
+        "ogDescription": "OG opis",
+        "ogImage": "URL obrazu OG",
+        "ogUrl": "Adres URL strony",
+        "twitterCard": "Typ karty Twittera"
+      },
+      "placeholders": {
+        "title": "Wprowadź tytuł strony",
+        "description": "Wprowadź opis strony, najlepiej w granicach 150 znaków",
+        "keywords": "słowo1, słowo2, słowo3",
+        "author": "Wprowadź nazwę autora",
+        "ogTitle": "Wprowadź tytuł do udostępniania społecznościowego",
+        "ogDescription": "Wprowadź opis do udostępniania społecznościowego",
+        "ogImage": "https://example.com/image.jpg",
+        "ogUrl": "https://example.com/page"
+      },
+      "robotsOptions": [
+        {
+          "value": "index, follow",
+          "label": "Zezwól na indeksowanie i przeszukiwanie"
+        },
+        {
+          "value": "index, nofollow",
+          "label": "Zezwól na indeksowanie, zabronij przeszukiwania"
+        },
+        {
+          "value": "noindex, follow",
+          "label": "Zabronij indeksowania, zezwól na przeszukiwanie"
+        },
+        {
+          "value": "noindex, nofollow",
+          "label": "Zabronij indeksowania i przeszukiwania"
+        }
+      ],
+      "twitterOptions": [
+        {
+          "value": "summary",
+          "label": "Podsumowanie"
+        },
+        {
+          "value": "summary_large_image",
+          "label": "Duży obraz"
+        },
+        {
+          "value": "player",
+          "label": "Player"
+        }
+      ]
+    },
+    "toolHistoryDemo": {
+      "confirmClear": "Czy na pewno chcesz wyczyścić całą historię narzędzia i ulubione?",
+      "exportTitle": "Eksport danych",
+      "usageCount": "Użyto {{count}} razy",
+      "lastUsed": "Ostatnio użyto: {{time}}",
+      "favorite": "Ulubione: {{value}}",
+      "yes": "Tak",
+      "no": "Nie",
+      "exportFailed": "Eksport nie powiódł się",
+      "tabs": {
+        "overview": "Przegląd",
+        "history": "Historia",
+        "favorites": "Ulubione",
+        "analytics": "Analiza"
+      },
+      "loading": "Ładowanie historii narzędzi...",
+      "loadFailed": "Błąd ładowania: {{error}}",
+      "title": "Demonstracja historii narzędzi",
+      "description": "Pokazuje historię użycia narzędzi, ulubione oraz analizę",
+      "export": "Eksportuj",
+      "clear": "Wyczyść",
+      "searchPlaceholder": "Szukaj narzędzi...",
+      "stats": {
+        "totalTools": "Liczba narzędzi",
+        "totalUsage": "Całkowite użycie",
+        "favoriteTools": "Ulubione narzędzia",
+        "averageUsage": "Średnie użycie"
+      },
+      "favoriteToolsTitle": "Ulubione narzędzia",
+      "favoriteToolsDescription": "Narzędzia, które oznaczyłeś jako ulubione",
+      "noFavoriteTools": "Brak ulubionych narzędzi",
+      "mostUsed": "Najczęściej używane narzędzia",
+      "timesUsed": "Użyto {{count}} razy",
+      "recentActivity": "Ostatnia aktywność",
+      "exportDialogTitle": "Eksport historii narzędzi",
+      "exportDialogDescription": "Wybierz format eksportu",
+      "formats": {
+        "json": {
+          "title": "Format JSON",
+          "description": "Najlepszy do kopii zapasowej i użytkowania przez programistów"
+        },
+        "csv": {
+          "title": "Format CSV",
+          "description": "Do arkuszy kalkulacyjnych takich jak Excel"
+        },
+        "txt": {
+          "title": "Format TXT",
+          "description": "Prosty tekst"
+        }
+      },
+      "cancel": "Anuluj"
+    },
+    "userAgentParser": {
+      "title": "Analizator User-Agent",
+      "description": "Rozparuj ciągi User-Agent, aby zidentyfikować informacje o przeglądarce, systemie i urządzeniu",
+      "label": "Ciąg User-Agent",
+      "useCurrent": "Użyj aktualnej przeglądarki",
+      "inputPlaceholder": "Wprowadź ciąg User-Agent...",
+      "parse": "Rozparuj",
+      "unknownBrowser": "Nieznana przeglądarka",
+      "unknown": "Nieznany",
+      "deviceTypes": {
+        "mobile": "Mobilny",
+        "tablet": "Tablet",
+        "desktop": "Stacja robocza"
+      },
+      "browserInfo": "Informacje o przeglądarce",
+      "browser": "Przeglądarka",
+      "version": "Wersja",
+      "majorVersion": "Główna wersja",
+      "operatingSystem": "System operacyjny",
+      "system": "System",
+      "deviceInfo": "Informacje o urządzeniu",
+      "type": "Typ",
+      "vendor": "Producent",
+      "model": "Model",
+      "engineAndCpu": "Silnik & CPU",
+      "engine": "Silnik",
+      "engineVersion": "Wersja silnika",
+      "cpuArchitecture": "Architektura CPU",
+      "examplesTitle": "Przykładowe ciągi User-Agent"
+    },
+    "cssBoxShadow": {
+      "title": "Generator cieni DIV",
+      "description": "Dostosuj wartości cieni wizualnie i wygeneruj kod CSS",
+      "preview": "Podgląd",
+      "basicSettings": "Podstawowe ustawienia",
+      "backgroundColor": "Kolor tła",
+      "boxColor": "Kolor pudełka",
+      "borderRadius": "Promień narożników",
+      "shadowPrefix": "Cień {{index}}",
+      "inset": "Wewnętrzny",
+      "offsetX": "Przesunięcie X",
+      "offsetY": "Przesunięcie Y",
+      "blur": "Rozmycie",
+      "spread": "Rozpraszanie",
+      "opacity": "Przezroczystość",
+      "color": "Kolor",
+      "addShadow": "Dodaj cień",
+      "codeTitle": "Kod CSS",
+      "copy": "Kopiuj",
+      "copied": "Skopiowano"
+    },
+    "cssGlassmorphism": {
+      "title": "Generator szkła CSS",
+      "description": "Generuj kod CSS w stylu glassmorphism online",
+      "cardTitle": "Karta szkła",
+      "cardDescription": "Glassmorphism to nowoczesny styl interfejsu, który używa przejrzystości, rozmycia i delikatnych krawędzi, aby stworzyć efekt szklany.",
+      "adjustTitle": "Dostosuj ustawienia",
+      "blur": "Rozmycie tła",
+      "transparency": "Przezroczystość",
+      "saturation": "Nasycenie",
+      "borderRadius": "Promień narożników",
+      "borderOpacity": "Przezroczystość krawędzi",
+      "codeTitle": "Kod CSS",
+      "copy": "Kopiuj",
+      "copied": "Skopiowano",
+      "infoTitle": "Uwagi dotyczące kompatybilności",
+      "infoDescription": "Właściwość backdrop-filter wymaga wspierania nowoczesnych przeglądarek. Firefox może wymagać dodatkowych ustawień, a Safari może wymagać prefiksu -webkit-. Rozważ spójne rozwiązania dla nieobsługiwanych przeglądarek."
+    },
+    "desktopShortcut": {
+      "title": "Pulpit internetowy",
+      "description": "Utwórz skróty do stron internetowych na pulpicie i uruchamiaj je szybko",
+      "enterUrl": "Wprowadź poprawny adres URL strony",
+      "enterName": "Wprowadź nazwę skrótu",
+      "redirectingTo": "Otwieranie {{name}}...",
+      "urlLabel": "Adres URL strony",
+      "urlPlaceholder": "example.com lub https://example.com",
+      "nameLabel": "Nazwa skrótu",
+      "namePlaceholder": "Skrót strony",
+      "downloadUrlFile": "Pobierz plik .url",
+      "downloadHtmlFile": "Pobierz plik .html",
+      "infoTitle": "Instrukcje",
+      "urlFileDesc": "Pliki .url to skróty internetowe systemu Windows i zwykle otwierają docelową stronę w domyślnej przeglądarce.",
+      "htmlFileDesc": ".html pliki działają na Windows, macOS i Linux oraz mogą być używane jako proste skróty stron internetowych.",
+      "afterDownload": "Po pobraniu przenieś plik na pulpit lub przybij go w potrzebnym miejscu."
+    },
+    "htmlPreview": {
+      "title": "Podgląd HTML",
+      "description": "Pisz i przeglądaj HTML online",
+      "defaultMessage": "Witamy w narzędziu do podglądu HTML",
+      "editorTitle": "Kod HTML",
+      "clear": "Wyczyść",
+      "editorPlaceholder": "Wpisz kod HTML tutaj...",
+      "previewTitle": "Podgląd",
+      "run": "Uruchom",
+      "fullscreen": "Pełny ekran",
+      "exitFullscreen": "Zakończ pełny ekran",
+      "usageTitle": "Jak używać",
+      "usageItems": [
+        "Wprowadź kompletny kod HTML w edytorze po lewej stronie",
+        "Kliknij Uruchom, aby przeprowadzić podgląd wyniku",
+        "CSS i JavaScript w linii są obsługiwane",
+        "Kod działa w środowisku izolowanym dla bezpieczeństwa"
+      ]
+    },
+    "pageRefresh": {
+      "title": "Auto Odświeżanie Strony",
+      "description": "Automatycznie odświeżaj stronę internetową online",
+      "urlRequired": "Proszę wprowadzić URL",
+      "urlPlaceholder": "Wprowadź URL, np. https://example.com",
+      "seconds": "sek",
+      "start": "Start",
+      "stop": "Stop",
+      "quickSet": "Szybkie ustawienia:",
+      "secondsValue": "{{count}}s",
+      "minutesValue": "{{count}} min",
+      "running": "Trwa",
+      "refreshIn": "Odświeżenie za {{count}} sekund",
+      "refreshedCount": "Odświeżono {{count}} razy",
+      "lastRefresh": "Ostatnie odświeżenie: {{time}}",
+      "previewTitle": "Podgląd strony",
+      "previewPlaceholder": "Wprowadź URL, aby rozpocząć podgląd",
+      "usageTitle": "Jak używać",
+      "usageItems": [
+        "Wprowadź adres URL strony i ustaw interwał odświeżania",
+        "Kliknij Start, aby rozpocząć automatyczne odświeżanie",
+        "Niektóre strony mogą nie być wyświetlane w ramce ze względu na zasady bezpieczeństwa",
+        "Użyteczne do monitorowania zmian strony lub utrzymania sesji aktywnej"
+      ]
+    },
+    "pxToRem": {
+      "title": "Konwerter PX do REM",
+      "description": "Masowo konwertuj jednostki PX w kodzie CSS na jednostki REM",
+      "baseFontSize": "Podstawowy rozmiar czcionki",
+      "precision": "Dokładność dziesiętna",
+      "precisionOptions": {
+        "2": "2 cyfry",
+        "3": "3 cyfry",
+        "4": "4 cyfry",
+        "5": "5 cyfr"
+      },
+      "inputLabel": "Wprowadź kod CSS",
+      "convertToRem": "PX do REM",
+      "convertToPx": "REM do PX",
+      "outputLabel": "Wynik",
+      "copy": "Kopiuj",
+      "copied": "Skopiowano",
+      "outputPlaceholder": "Tutaj pojawi się wynik konwersji...",
+      "quickReferenceTitle": "Szybki przewodnik (podstawa: {{baseSize}}px)",
+      "whyUseRem": "Dlaczego używać REM?",
+      "infoItems": [
+        "REM jest względny do rozmiaru czcionki głównego (html)",
+        "Używanie REM ułatwia skalowanie typografii na całej stronie",
+        "Pomaga w projektowaniu responsywnym i dostępności"
+      ],
+      "formula": "Formula: rem = px / {{baseSize}}"
+    },
+    "shieldBadge": {
+      "title": "Generator Sztabli Zabezpieczenia",
+      "description": "Generuj szablony SVG online",
+      "downloadFailed": "Pobieranie nie powiodło się, spróbuj ponownie później",
+      "basicSettings": "Podstawowe ustawienia",
+      "labelField": "Etykieta",
+      "messageField": "Wiadomość",
+      "color": "Kolor",
+      "style": "Styl",
+      "logoSettings": "Ustawienia logo",
+      "logo": "Logo",
+      "none": "Brak",
+      "logoColor": "Kolor logo",
+      "preview": "Podgląd",
+      "downloadSvg": "Pobierz SVG",
+      "codeTitle": "Kod",
+      "copiedToClipboard": "Skopiowano do schowka"
+    },
+    "robotsGenerator": {
+      "title": "Generator pliku robots.txt",
+      "description": "Generuj pliki robots.txt online",
+      "templatesLabel": "Szybkie szablony:",
+      "templates": {
+        "allowAll": "Zezwalaj wszystkim",
+        "blockAll": "Zabronij wszystkim",
+        "standard": "Standardowa konfiguracja"
+      },
+      "ruleTitle": "Zasada {{index}}",
+      "userAgents": {
+        "all": "* (wszystkie indeksowane strony)",
+        "baidu": "Baiduspider (Baidu)",
+        "sogou": "Sogou"
+      },
+      "disallow": "Zabronione ścieżki",
+      "allow": "Dozwolone ścieżki",
+      "add": "Dodaj",
+      "addRule": "Dodaj regułę",
+      "otherSettings": "Inne ustawienia",
+      "sitemapUrl": "URL sitemapy",
+      "crawlDelay": "Opóźnienie przeszukiwania (sekundy)",
+      "preview": "Podgląd robots.txt",
+      "copy": "Kopiuj",
+      "copied": "Skopiowano",
+      "saveTip": "Zapisz ten plik jako robots.txt i umieść go w katalogu głównym Twojej strony internetowej"
+    },
+    "emailEncrypt": {
+      "title": "Koder Adresów E-mail",
+      "description": "Koduj adresy e-mail, aby zmniejszyć ryzyko ich wyłapywania przez boty",
+      "inputLabel": "Adres e-mail",
+      "copy": "Kopiuj",
+      "copied": "Skopiowano",
+      "infoTitle": "Dlaczego kodować adres e-mail?",
+      "infoItems": [
+        "Zmniejsza ryzyko wyłapywania Twojego adresu e-mail przez boty do spamu",
+        "Zakodowany e-mail nadal może być wyświetlany w przeglądarce, ale trudniejszy do wykrycia przez boty",
+        "Można połączyć wiele metod kodowania, aby uzyskać lepszą ochronę",
+        "Wciąż zaleca się stosowanie środków antyspamowych po stronie serwera"
+      ],
+      "results": {
+        "unicodeDecimal": {
+          "name": "Unicode decimal",
+          "description": "Konwertuje znaki na jednostki Unicode w formacie dziesiętnym"
+        },
+        "unicodeHex": {
+          "name": "Unicode hexadecimal",
+          "description": "Konwertuje znaki na jednostki Unicode w formacie szesnastkowym"
+        },
+        "javascript": {
+          "name": "Wyjście JavaScript",
+          "description": "Renderuje e-mail dynamicznie za pomocą JavaScript"
+        },
+        "mailto": {
+          "name": "Link mailto",
+          "description": "Tworzy zakodowany link mailto"
+        },
+        "cssReverse": {
+          "name": "Odwrotny wyświetlacz CSS",
+          "description": "Wyświetla tekst w odwróconej kolejności za pomocą CSS"
+        }
+      }
+    },
+    "workerDemo": {
+      "title": "Demonstracja Właściwości Web Worker",
+      "description": "Porównaj wydajność obliczeń między Web Workerem a głównym wątkiem",
+      "invalidInteger": "Proszę wprowadzić poprawną dodatnią liczbę całkowitą",
+      "workerError": "Błąd obliczeń pracownika:",
+      "notice": "Uwaga",
+      "settingsTitle": "Ustawienia obliczeń",
+      "inputLabel": "Wartość wejściowa",
+      "inputPlaceholder": "Wprowadź dodatnią liczbę całkowitą",
+      "operationLabel": "Operacja",
+      "operations": {
+        "factorial": "Silnia (n!)",
+        "fibonacci": "Sequencja Fibonacciego",
+        "prime": "Sprawdzenie pierwszości",
+        "factorization": "Rozkład na czynniki pierwsze"
+      },
+      "workerCalculate": "Oblicz za pomocą Web Workera",
+      "mainThreadCalculate": "Oblicz na głównym wątku",
+      "comparisonTitle": "Porównanie wydajności",
+      "workerResult": "Wynik Web Workera",
+      "mainThreadResult": "Wynik głównego wątku",
+      "resultLabel": "Wynik:",
+      "timeLabel": "Czas obliczeń:",
+      "calculating": "Obliczanie...",
+      "emptyState": "Kliknij przycisk powyżej, aby rozpocząć obliczanie",
+      "infoTitle": "Dlaczego używać Web Workerów?",
+      "workerFeaturesTitle": "Funkcje Web Workera",
+      "workerFeatures": [
+        "Działa w tle bez blokowania głównego wątku",
+        "Idealny do ciężkich zadań obliczeniowych",
+        "Utrzymuje interfejs użytkownika odpowiedni",
+        "Obsługuje przetwarzanie równoległe"
+      ],
+      "useCasesTitle": "Przypadki użycia",
+      "useCases": [
+        "Przetwarzanie dużych danych",
+        "Złożone algorytmy",
+        "Przetwarzanie obrazów",
+        "Szyfrowanie i deszyfrowanie"
+      ]
+    },
+    "jsDebug": {
+      "title": "Debugger JS",
+      "description": "Uruchamiaj i debuguj JavaScript online",
+      "defaultCode": "// Wpisz tutaj kod JavaScript\nconsole.log(\"Witaj, Świecie!\");\n\n// Przykład: operacje na tablicach\nconst numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(n => n * 2);\nconsole.log(\"Oryginalna tablica:\", numbers);\nconsole.log(\"Podwojona tablica:\", doubled);\n\n// Przykład: obiekt\nconst user = {\n  name: \"Zhang San\",\n  age: 25,\n  city: \"Pekin\"\n};\nconsole.log(\"Informacje o użytkowniku:\", user);\n\n// Przykład: operacje asynchroniczne\nsetTimeout(() => {\n  console.log(\"Wykonane po 1 sekundzie\");\n}, 1000);",
+      "editorTitle": "Kod JavaScript",
+      "copy": "Kopiuj",
+      "copied": "Skopiowano!",
+      "clear": "Wyczyść",
+      "placeholder": "Wprowadź kod JavaScript tutaj...",
+      "run": "Uruchom kod",
+      "consoleTitle": "Wyjście konsoli",
+      "consolePlaceholder": "Tutaj pojawi się wyjście konsoli...",
+      "usageTitle": "Jak używać",
+      "usageItems": [
+        "Używaj console.log(), console.error() i console.warn() do wyświetlania komunikatów",
+        "Obsługuje składnię ES6+ taką jak funkcje strzałkowe, destrukturyzacja i ciągi szablonowe",
+        "Obsługuje operacje asynchroniczne takie jak setTimeout i Promise",
+        "Kod działa w izolowanym środowisku i nie ma dostępu do DOM lub zasobów zewnętrznych"
+      ]
+    },
+    "formValidationDemo": {
+      "title": "Demonstracja walidacji formularza",
+      "description": "Pokazuje pełną walidację formularza, w tym walidację w czasie rzeczywistym, komunikaty o błędach i czyszczenie danych",
+      "validation": {
+        "username": "Nazwa użytkownika może zawierać tylko litery, cyfry i podkreślenia oraz musi mieć długość od 3 do 20 znaków",
+        "phone": "Wprowadź poprawny numer telefonu komórkowego",
+        "age": "Wiek musi być między 1 a 120",
+        "idCard": "Wprowadź poprawny numer identyfikacyjny",
+        "address": "Adres nie może przekraczać 200 znaków",
+        "bio": "Biografia nie może przekraczać 500 znaków"
+      },
+      "submitSuccess": "Walidacja formularza zakończyła się pomyślnie! Wysłane dane:",
+      "quickTestTitle": "Szybkie testy walidacji",
+      "quickLabels": {
+        "email": "Walidacja e-maila",
+        "phone": "Walidacja telefonu",
+        "url": "Walidacja URL"
+      },
+      "quickPlaceholders": {
+        "email": "Wprowadź adres e-mail",
+        "phone": "Wprowadź numer telefonu",
+        "url": "Wprowadź URL"
+      },
+      "valid": "Poprawny",
+      "invalid": "Niepoprawny",
+      "formTitle": "Pełna walidacja formularza",
+      "placeholders": {
+        "username": "Nazwa użytkownika (litery, cyfry, podkreślenia)",
+        "email": "Adres e-mail",
+        "phone": "Numer telefonu komórkowego",
+        "website": "Strona internetowa (opcjonalnie)",
+        "age": "Wiek",
+        "idCard": "Numer identyfikacyjny",
+        "address": "Szczegółowy adres (opcjonalnie)",
+        "bio": "Biografia (opcjonalnie, maks. 500 znaków)"
+      },
+      "success": {
+        "username": "Format nazwy użytkownika jest poprawny",
+        "email": "Format adresu e-mail jest poprawny",
+        "phone": "Format numeru telefonu jest poprawny",
+        "website": "Format URL jest poprawny",
+        "age": "Wiek jest poprawny",
+        "idCard": "Format numeru identyfikacyjnego jest poprawny",
+        "address": "Adres jest poprawny",
+        "bio": "Biografia jest poprawna"
+      },
+      "submit": "Wyślij formularz",
+      "summaryTitle": "Podsumowanie walidacji",
+      "fieldLabels": {
+        "username": "Nazwa użytkownika",
+        "email": "E-mail",
+        "phone": "Telefon",
+        "website": "Strona internetowa",
+        "age": "Wiek",
+        "idCard": "Numer identyfikacyjny",
+        "address": "Adres",
+        "bio": "Biografia"
+      },
+      "summaryStatus": {
+        "failed": "Walidacja nie powiodła się",
+        "passed": "Walidacja zakończyła się pomyślnie",
+        "empty": "Nie wypełniono"
+      },
+      "infoTitle": "Funkcje walidacji formularza",
+      "infoItems": [
+        {
+          "title": "Walidacja w czasie rzeczywistym",
+          "description": "Sprawdza format podczas wpisywania i ponownie waliduje przy utracie fokusa"
+        },
+        {
+          "title": "Różne typy reguł",
+          "description": "Obsługuje wymagane pola, sprawdzanie długości, wyrażenia regularne i niestandardową walidację"
+        },
+        {
+          "title": "Zwrotna informacja wizualna",
+          "description": "Jasno pokazuje status walidacji za pomocą kolorów, ikon i komunikatów"
+        },
+        {
+          "title": "Czyszczenie danych",
+          "description": "Automatycznie przycinają i normalizują wysłane dane"
+        },
+        {
+          "title": "Pomocne komunikaty o błędach",
+          "description": "Daje użytkownikowi przyjazne wskazówki do poprawy wprowadzania danych"
+        },
+        {
+          "title": "Wsparcie dostępności",
+          "description": "Pomaga zachować użyteczność formularzy dla wszystkich użytkowników"
+        }
+      ]
+    },
+    "faviconGenerator": {
+      "title": "Generator favicon",
+      "description": "Konwertuje obrazy na ikony favicon stron internetowych",
+      "historyTitle": "Generator favicon",
+      "historyCategory": "Narzędzia graficzne",
+      "uploadImageFile": "Proszę załadować plik obrazu",
+      "generateFailed": "Nie udało się wygenerować ikony, spróbuj ponownie",
+      "uploadTitle": "Prześlij obraz",
+      "uploadAria": "Prześlij plik obrazu",
+      "dropzoneAria": "Kliknij, aby załadować obraz, obsługuje PNG, JPG, SVG itp.",
+      "dropRelease": "Upuść, aby załadować obraz",
+      "dropClick": "Kliknij lub przeciągnij obraz tutaj",
+      "supportFormats": "Obsługiwane formaty: PNG, JPG, SVG itp.",
+      "clearImage": "Wyczyść obraz",
+      "clearImageTitle": "Wyczyść obraz (Ctrl+L)",
+      "settingsTitle": "Ustawienia",
+      "removeBackground": "Usuń kolor tła obrazu",
+      "removeColor": "Kolor do usunięcia",
+      "removeColorPicker": "Wybierz kolor tła do usunięcia",
+      "removeColorValue": "Wartość koloru tła do usunięcia",
+      "tolerance": "Tolerancja: {{value}}",
+      "toleranceAria": "Tolerancja koloru",
+      "toleranceTip": "Wyższa tolerancja usuwa szeroki zakres kolorów",
+      "transparentBackground": "Przezroczyste tło",
+      "transparentTip": "Uwaga: Jeśli oryginalny obraz ma już kolor tła, włącz ?Usuń kolor tła obrazu?.",
+      "backgroundColor": "Kolor tła",
+      "backgroundColorPicker": "Wybierz kolor tła",
+      "backgroundColorValue": "Wartość koloru tła",
+      "selectSize": "Wybierz rozmiary",
+      "selectedState": " (wybrany)",
+      "sizeAria": "{{size}}x{{size}} rozmiar pikseli{{state}}",
+      "toggleSizeTitle": "Przełącz rozmiar {{size}}x{{size}} (Alt+{{shortcut}})",
+      "previewTitle": "Podgląd",
+      "generating": "Generowanie...",
+      "downloadSizeAria": "Pobierz ikonę {{size}}x{{size}}",
+      "download": "Pobierz",
+      "uploadFirst": "Proszę najpierw załadować obraz",
+      "downloadTitle": "Pobierz",
+      "downloadAllPng": "Pobierz wszystkie rozmiary (PNG)",
+      "downloadAllPngTitle": "Pobierz wszystkie rozmiary PNG (Ctrl+Enter)",
+      "downloadIco": "Pobierz favicon.ico",
+      "downloadIcoTitle": "Pobierz favicon.ico (Alt+I)",
+      "usageTitle": "Jak używać",
+      "usageItems": [
+        "Usuwanie koloru tła: usuwa jednolite tła takie jak szarość czy biała",
+        "Tolerancja: zwiększanie tolerancji usuwa podobne kolory, przydatne do tła gradientowego",
+        "16x16: ikona zakładki przeglądarki",
+        "32x32: ikona skrótu na pasku zadań",
+        "48x48: skrót na Windowsie",
+        "Umieść wygenerowaną ikonę w katalogu głównym swojej strony internetowej"
+      ]
+    }
+  },
+  "components": {
+    "toolHistory": {
+      "usageCount": "Użyto {{count}} razy",
+      "recentUsed": "Ostatnio używane: {{value}}",
+      "removeFavorite": "Usuń z ulubionych",
+      "addFavorite": "Dodaj do ulubionych",
+      "removeRecord": "Usuń rekord",
+      "emptyHistory": "Brak historii narzędzi jeszcze",
+      "confirmClear": "Czy na pewno chcesz wyczyścić całą historię narzędzi?",
+      "tabs": {
+        "recent": "Ostatnio",
+        "favorites": "Ulubione",
+        "mostUsed": "Najczęściej używane"
+      },
+      "title": "Historia narzędzi",
+      "clearHistory": "Wyczyść historię",
+      "searchPlaceholder": "Wyszukaj historię...",
+      "emptyMessages": {
+        "recent": "Brak ostatnich rekordów użycia",
+        "favorites": "Brak ulubionych narzędzi jeszcze",
+        "mostUsed": "Brak najczęściej używanych narzędzi jeszcze"
+      }
+    },
+    "exportFormatSelector": {
+      "buttonText": "Eksport wyników",
+      "exporting": "Eksportowanie...",
+      "exportFailed": "Eksport nie powiódł się, spróbuj ponownie"
+    },
+    "ads": {
+      "loading": "Ładowanie reklam...",
+      "carouselTitle": "Reklamowy karuzel",
+      "checkConsole": "Proszę sprawdzić konsolę przeglądarki w celu uzyskania szczegółowych logów"
+    },
+    "networkStatus": {
+      "online": "Online",
+      "offline": "Offline",
+      "connected": "Połączono z siecią",
+      "disconnected": "Rozłączono z siecią",
+      "connectedDescription": "Wszystkie funkcje są dostępne teraz",
+      "disconnectedDescription": "Niektóre funkcje mogą być niedostępne. Sprawdź połączenie sieciowe.",
+      "requestFailed": "Żądanie nie powiodło się"
+    },
+    "keyboardShortcutsHelp": {
+      "title": "Skróty klawiszowe",
+      "close": "Zamknij",
+      "toggleDescription": "Wyświetl lub ukryj pomoc dotyczącą skrótów klawiszowych",
+      "helpTextBefore": "Naciśnij",
+      "helpTextMiddle": "lub",
+      "helpTextAfter": "aby wyświetlić lub ukryć tą pomoc",
+      "tipTitle": "Porady",
+      "tipItems": [
+        "Etykiety skrótów mogą wyglądać nieco inaczej na różnych systemach operacyjnych",
+        "Niektóre skróty mogą konfliktować z skrótami przeglądarki",
+        "Użyj klawisza Tab, aby przechodzić między elementami oznaczonymi jako fokusowalne",
+        "Naciśnij Enter, aby aktywować przyciski i linki"
+      ],
+      "closeEsc": "Zamknij (ESC)"
+    },
+    "performanceDashboard": {
+      "title": "Panel wydajności",
+      "startMonitoring": "Rozpocznij monitorowanie",
+      "stopMonitoring": "Zatrzymaj monitorowanie",
+      "exportReport": "Eksportuj raport",
+      "notMeasured": "Nie zmierzono",
+      "metrics": {
+        "fcp": "Pierwszy zapełniony pasek",
+        "lcp": "Największy zapełniony pasek",
+        "fid": "Opóźnienie pierwszego wejścia",
+        "cls": "Skumulowane przesunięcie układu",
+        "ttfb": "Czas do pierwszego bajtu"
+      },
+      "memoryTitle": "Użycie pamięci",
+      "memory": {
+        "used": "Użyta pamięć",
+        "total": "Całkowita pamięć",
+        "usageRate": "Stopień użycia"
+      },
+      "tipsTitle": "Porady dotyczące optymalizacji",
+      "tips": [
+        "Używaj aplikacji normalnie podczas monitorowania; dane aktualizują się w czasie rzeczywistym",
+        "FCP < 1,8 s, LCP < 2,5 s, FID < 100 ms i CLS < 0,1 uważane są za doskonałe",
+        "Jeśli użycie pamięci przekracza 80%, rozważ zoptymalizowanie kodu",
+        "Możesz eksportować szczegółowy raport do głębszej analizy"
+      ],
+      "emptyState": "Kliknij ?Rozpocznij monitorowanie? aby rozpocząć analizę wydajności"
+    }
+  }
+}

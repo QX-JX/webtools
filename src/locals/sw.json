@@ -1,0 +1,2730 @@
+{
+  "common": {
+    "home": "Nyumba",
+    "websiteDetection": "Kutambua Mazinga",
+    "seoTools": "Vidokezo vya SEO",
+    "devTools": "Vidokezo vya Mwanzali",
+    "encodingConversion": "Vidokezo vya Kulinganisha",
+    "otherTools": "Vidokezo nyingine",
+    "feedback": "Kumbukumbu",
+    "customization": "Mipango ya Kuzamia / Pata Mawazo",
+    "back": "Nipe",
+    "appName": "Vidokezo vya Kujitolea kwa Kijeshi",
+    "brandName": "Kitabu cha Kunqiong",
+    "loading": "Inapakia...",
+    "processing": "Kuendeleza",
+    "processingDescription": "Tafadhali wakilishe siku kusikiliza data yako...",
+    "inProgress": "Inapakia",
+    "search": "Tafuta vidokezo...",
+    "my": "Nakili",
+    "menu": "Menyu",
+    "settings": "Savari",
+    "all": "Yote",
+    "category": "Kategoria",
+    "noToolsFound": "Hakuna vidokezo vilivyotokana",
+    "recommended": "Vinavyofunua",
+    "usageCount": "Imetumia {{count}} mwa wakati",
+    "toolsCount": "{{count}} vidokezo",
+    "export": "Pakua",
+    "usageInstructions": "Makala ya Kusomeka"
+  },
+  "auth": {
+    "login": "Ingia",
+    "logout": "Toka",
+    "userInfo": "Maumbo ya Mtumiaji",
+    "nickname": "Jina la kifalme",
+    "avatar": "Avatar",
+    "user": "Mtumiaji",
+    "loggedIn": "Amekuwa mtumiaji",
+    "loggingOut": "Katumia...",
+    "loggingIn": "Kuingia...",
+    "loginInstructions": "Tafadhali bonyeza kwenye uchumi wa browser yako ili kufungua mfumo wa kuingia.",
+    "cancelLogin": "Katisha kuingia",
+    "loginFailed": "Kuingia alikosa",
+    "retry": "Try again",
+    "close": "Funga",
+    "loginDescription": "Bonyeza kibao kifuatako ili kufungua mfumo wa kuingia katika browser yako. Baada ya kushughulikia kuingia, app itakuwa kusinkronisha hali ya kuingia yako kwa otomo.",
+    "loginTip": "Maelezo: Tafadhali kuwa na browser yako ikiwaka wakati wa prosesi ya kuingia.",
+    "openBrowserLogin": "Fungua kuingia katika browser",
+    "cancel": "Kata",
+    "loginReminder": "Tumbu ya kuingia",
+    "loginRequiredTitle": "Kuingia inahitajia",
+    "loginRequiredDescription": "Unahitaji kuingia kabla ya kutumia hati hii. Baada ya kuingia, unaweza kusifikia kama kamilifu.",
+    "loginActionDescription": "Bonyeza kibao kifuatako ili kufungua mfumo wa kuingia, kisha kushughulikia kuingia huko.",
+    "loginNow": "Ingia sasa",
+    "loginBenefit": "Ingia kusoma zaidi",
+    "errors": {
+      "getLoginUrlFailed": "Kukataza URL ya kuingia alikosa: {{message}}",
+      "getLoginUrlException": "Kosaji wakati wa kukuja URL ya kuingia: {{error}}",
+      "loginCancelled": "Kuingia ilikatwa",
+      "pollingAbnormal": "Kutambua alirudishwa kwa jibu la kila mmoja: {{message}}",
+      "pollingFailed": "Kutambua alikosa: {{error}}",
+      "loginTimeout": "Kuingia alikosa kwa muda",
+      "checkLoginStatusFailed": "Kukataza hali ya kuingia alikosa, kodi ya hali: {{status}}",
+      "checkLoginException": "Kosaji wakati wa kuchagua hali ya kuingia",
+      "getUserInfoFailed": "Kukataza maumbo ya mtumiaji alikosa: {{message}}",
+      "getUserInfoException": "Kosaji wakati wa kukuja maumbo ya mtumiaji: {{error}}",
+      "logoutFailed": "Kutoka kuingia alikosa: {{message}}",
+      "logoutException": "Kosaji wakati wa kutoa kuingia: {{error}}",
+      "getFeedbackUrlFailed": "Kukataza URL ya kumbukumbu alikosa: {{message}}",
+      "getFeedbackUrlException": "Kosaji wakati wa kukuja URL ya kumbukumbu: {{error}}"
+    }
+  },
+  "favorite": {
+    "add": "Ongeza kwenye kizazi cha kuvutia",
+    "remove": "Ondoa kwenye kizazi cha kuvutia",
+    "label": "Kivutio",
+    "failed": "Kamati alikosa"
+  },
+  "errors": {
+    "fetchCustomUrlFailed": "Kukataza URL ya mfumo uliyochaguliwa alikosa:",
+    "fetchFeedbackUrlFailed": "Kukataza URL ya mfumo uliyochaguliwa alikosa:",
+    "copyFailed": "Kukataza kuhifadhi alikosa",
+    "networkError": "Kosaji ya mzunguko",
+    "somethingWentWrong": "Kosa linalodai",
+    "unexpectedError": "Sasisha, kosaji la kila mmoja lilitokea",
+    "noData": "Hakuna data inayohusika",
+    "noRelatedData": "Hakuna data inayohusika kwa kuchukua",
+    "noAds": "Hakuna adi inayohusika",
+    "fetchAdsError": "Kukataza adi alikosa",
+    "lookupFailed": "Kukataza kuchukua alikosa"
+  },
+  "tools": {
+    "csr": {
+      "title": "Kujengwa na Kuvutia CSR",
+      "description": "Kujengwa na kuvutia faili za CSR kwa online"
+    },
+    "whois": {
+      "title": "Kutambua WHOIS ya Doma",
+      "description": "Kutambua maumbo ya WHOIS na taarifa ya kuchukua ya doma kwa online"
+    },
+    "dns": {
+      "title": "Kutambua Taarifa ya DNS",
+      "description": "Kutambua taarifa ya DNS kwa online (A, MX, CNAME, etc.)"
+    },
+    "dnsEnhanced": {
+      "title": "Kutambua Taarifa ya DNS (Kubali)",
+      "description": "Kutambua DNS na kuzalisha kwa kuzalisha kwa kipimo cha kichawi cha kikubwa"
+    },
+    "httpStatus": {
+      "title": "Kutambua Maombi ya HTTP",
+      "description": "Kitabu kikuu cha kusikiliza maombi ya kikodisha ya kijambo cha kijambo"
+    },
+    "gzip": {
+      "title": "Kutambua Kupakua ya Gzip",
+      "description": "Kutambua kama kijambo kimepangwa kwa GZIP na kuvutia kiasi cha kupakua"
+    },
+    "ssl": {
+      "title": "Kutambua Sertifi kwa SSL",
+      "description": "Kutambua taarifa ya sertifi ya SSL na kuchagua kwa online"
+    },
+    "browserInfo": {
+      "title": "Maumbo ya Browser",
+      "description": "Kitabu kikuu cha kusikiliza maumbo ya browser yako kwa sasa"
+    },
+    "useragent": {
+      "title": "Kutambua User-Agent",
+      "description": "Kutambua taarifa ya browser na mshale kutoka kwa matokezi ya User-Agent"
+    },
+    "websocket": {
+      "title": "Kutambua WebSocket",
+      "description": "Kitabu kikuu cha kusikiliza API ya WebSocket kwa online"
+    },
+    "viewSource": {
+      "title": "Kuvutia Kijambo cha Kijambo",
+      "description": "Kuvutia kijambo cha kijambo kwa online"
+    },
+    "metaGenerator": {
+      "title": "Kujengwa wa Meta Tag",
+      "description": "Kujengwa wa meta tag kwa online"
+    },
+    "metaCheck": {
+      "title": "Kutambua Meta Tag",
+      "description": "Kutambua taarifa ya meta tag kwenye kijambo"
+    },
+    "robots": {
+      "title": "Kujengwa wa robots.txt",
+      "description": "Kujengwa wa faili za robots.txt kwa online"
+    },
+    "emailEncrypt": {
+      "title": "Kujengwa wa Kifunuo cha Email",
+      "description": "Kuzalisha kifunuo cha maneno ya email ili kuzuia kuzalisha"
+    },
+    "phpReference": {
+      "title": "Kijenzi cha Kifunuo cha PHP",
+      "description": "Kijenzi cha kifunuo cha PHP kwa online"
+    },
+    "htmlPreview": {
+      "title": "Kuvutia HTML",
+      "description": "Kitabu kikuu cha kujaza na kuvutia HTML kwa online"
+    },
+    "jsDebug": {
+      "title": "Kutambua JavaScript",
+      "description": "Kuzalisha na kusikiliza JavaScript kwa online"
+    },
+    "shieldBadge": {
+      "title": "Kujengwa wa Badges ya Shield",
+      "description": "Kujengwa wa badges ya SVG ya Shield kwa online"
+    },
+    "favicon": {
+      "title": "Kujengwa wa Favicon",
+      "description": "Kitabu kikuu cha kuzalisha favicon kwa online"
+    },
+    "cssGlassmorphism": {
+      "title": "Kujengwa wa CSS ya Glassmorphism",
+      "description": "Kujengwa wa code ya CSS ya glassmorphism kwa kuchukua kwa muda mmoja"
+    },
+    "cssNeumorphism": {
+      "title": "Kujengwa wa CSS ya Neumorphism",
+      "description": "Kujengwa wa mifano ya CSS ya neumorphism kwa kuchukua kwa muda mmoja"
+    },
+    "pxToRem": {
+      "title": "Kuzalisha PX kwa REM",
+      "description": "Kuzalisha PX katika CSS kwa REM kwa kichaguo"
+    },
+    "cssBorderRadius": {
+      "title": "Kujengwa wa CSS ya Border Radius",
+      "description": "Kuzalisha kichaguo cha border radius kwa online"
+    },
+    "cssTextShadow": {
+      "title": "Kujengwa wa CSS ya Text Shadow",
+      "description": "Kuvutia na kujengwa wa code ya text-shadow ya CSS kwa online"
+    },
+    "cssBoxShadow": {
+      "title": "Kujengwa wa Box Shadow",
+      "description": "Kuzalisha kichaguo cha shadow ya div na kujengwa ya code ya CSS"
+    },
+    "base64": {
+      "title": "Kuzalisha na Kuvutia Base64",
+      "description": "Kitabu kikuu cha kuzalisha na kuvutia Base64 kwa online"
+    },
+    "urlEncode": {
+      "title": "Kuzalisha na Kuvutia URL",
+      "description": "Kitabu kikuu cha kuzalisha na kuvutia URL kwa online"
+    },
+    "htmlEntity": {
+      "title": "Kuzalisha na Kuvutia Entity ya HTML",
+      "description": "Kitabu kikuu cha kuzalisha na kuvutia entity ya HTML kwa online"
+    },
+    "jsMinify": {
+      "title": "Kuzalisha na Kuvutia JavaScript",
+      "description": "Kitabu kikuu cha kuzalisha na kuvutia JavaScript kwa online"
+    },
+    "cssMinify": {
+      "title": "Kuzalisha na Kuvutia CSS",
+      "description": "Kitabu kikuu cha kuzalisha na kuvutia CSS kwa online"
+    },
+    "desktopShortcut": {
+      "title": "Kichaguo cha Desktop ya Kijambo",
+      "description": "Kujengwa kichaguo cha desktop kwa kijambo kwa kuchukua kwa kuchukua"
+    },
+    "pageRefresh": {
+      "title": "Kuchukua Kijambo Kwa Muda",
+      "description": "Kuchukua kijambo kwa muda mmoja"
+    },
+    "httpCodes": {
+      "title": "Maombi ya HTTP",
+      "description": "Kijenzi cha maombi ya HTTP kwa online"
+    },
+    "workerDemo": {
+      "title": "Kutambua Uwepo wa Web Worker",
+      "description": "Tazama kama Web Workers kuzinunua uwezo kwa matakwa mengi"
+    },
+    "formValidation": {
+      "title": "Ungozi wa Kuthibitisha Formu",
+      "description": "Kushowaa kamilifu kwa kuthibitisha formu na maelezo ya siku ya kuzungumza"
+    }
+  },
+  "categories": {
+    "detection": "Kamata cha Mwanga",
+    "seo": "Mifumo ya SEO",
+    "dev": "Mifumo ya Mwanashangu",
+    "encode": "Mifumo ya Kulinganisha",
+    "other": "Mifumo Mengine"
+  },
+  "kunqiongNav": {
+    "home": "Nyumba",
+    "aiTools": "Mifumo ya AI",
+    "office": "Ofisi",
+    "multimedia": "Multimedia",
+    "development": "Mifumo ya Mwanashangu",
+    "text": "Kiswahili",
+    "file": "Picha",
+    "system": "Sistema",
+    "life": "Moyo",
+    "news": "Maoni ya AI",
+    "custom": "Programu ya Kuchangia",
+    "consult": "Kuwasiliana",
+    "industryNews": "Maoni ya Soko",
+    "feedback": "Kuandika",
+    "imageGen": "Kujenga Picha",
+    "codeDev": "Kodifi & Mwanashangu",
+    "logoAlt": "Kunqiong AI Toolbox",
+    "footerLogoAlt": "Kunqiong AI",
+    "loginRegister": "Ingia / Jisajili",
+    "navExpandAria": "Washa",
+    "navSearchAria": "Tafuta",
+    "navMenuAria": "Menyu"
+  },
+  "footer": {
+    "description": "Kitambu cha kijeni cha kila mchango kwenye webmaster na kamata cha mawezekano, mifumo ya SEO, mifumo ya mwanashangu, na zaidi.",
+    "kunqiongBrandDesc": "Tunatokana kusaidia wakati wa kikambo cha AI kwa watumiaji na kampuni kwa mifumo ya AI ya kisasa na huduma ya kuchangia.",
+    "toolCategories": "Kategu ya Mifumo",
+    "quickLinks": "Vidokezo vya kisasi",
+    "contactTitle": "Kutafuta sisi",
+    "contactCompany": "Jiangxi Hexagon Star Technology Co., Ltd.",
+    "contactPhone": "17770307066",
+    "contactRegion": "Shangrao, Jiangxi, China",
+    "contactEmail": "11247931@qq.com",
+    "copyrightLine": "© 2026 Kunqiong AI Tools. Hakiki zote zimehifadhiwa.",
+    "userAgreement": "Masharti ya matumizi",
+    "privacyPolicy": "Nishati ya Sauti",
+    "brandAI": "Mifumo ya Kunqiong AI",
+    "brandAlt": "Kunqiong"
+  },
+  "validation": {
+    "required": "{{field}} inahitaji",
+    "minLength": "{{field}} lazima iwe chini ya {{count}} maneno",
+    "maxLength": "{{field}} inaweza kuwa chini ya {{count}} maneno",
+    "invalidFormat": "{{field}} ina mfumo ambao si sahihi",
+    "email": "Tafuta barua pepe sahihi",
+    "url": "Tafuta URL sahihi",
+    "domain": "Tafuta domain sahihi",
+    "ip": "Tafuta IP sahihi",
+    "phone": "Tafuta namba ya simu sahihi",
+    "password": "Password lazima lina jumla ya mitume na kichicho, na kuwa 6-20 maneno"
+  },
+  "exporter": {
+    "unsupportedFormat": "Mfumo wa kutoa si unayotakiwa: {{format}}",
+    "csvRequiresArrayOrObject": "Kutoa CSV inahitaji array au object",
+    "toolUsageInfo": "Maagizo ya Matumizi ya Mifumo",
+    "tool": "Mifumo",
+    "time": "Wakati",
+    "url": "URL",
+    "version": "Version",
+    "dnsReportTitle": "Ripoti ya Kupata DNS",
+    "dnsReportDescription": "Maagizo ya kijani ya kinyongea ya DNS",
+    "summaryTitle": "Kusomaji",
+    "domain": "Domain",
+    "recordCount": "Jumla ya kinyongeza",
+    "recordCountValue": "{{count}} kinyongeza",
+    "queryTime": "Wakati wa kuyatilia",
+    "typeDescriptions": {
+      "A": "Kinyongeza cha ip v4",
+      "AAAA": "Kinyongeza cha ip v6",
+      "MX": "Kinyongeza cha server ya barua pepe",
+      "TXT": "Kinyongeza cha kiswahili",
+      "CNAME": "Kinyongeza cha kichaguo",
+      "NS": "Kinyongeza cha server ya kiswahili",
+      "SOA": "Kinyongeza cha kiswahili"
+    },
+    "record": "Kinyongeza",
+    "otherRecords": "Kinyongeza mengine",
+    "recordIndex": "Kinyongeza {{index}}",
+    "priority": "Kipimo",
+    "class": "Kundi",
+    "exportData": "Data iliyotoa",
+    "dnsToolName": "Mifumo ya Kupata DNS",
+    "exportInfo": "Maagizo ya Kutoa",
+    "exportTime": "Wakati wa kutoa",
+    "formats": {
+      "json": "Mfumo wa data ya kusimamia, unapendekeza kusimamia na programu",
+      "csv": "Mfumo wa spreadsheet, unapendekeza kusimamia na Excel",
+      "txt": "Mfumo wa kiswahili, unapendekeza kusimamia",
+      "xml": "Mfumo wa markup, unapendekeza kusimamia na kuchanganya data",
+      "pdf": "Mfumo wa dokumenti, unapendekeza kusimamia na kushareka"
+    }
+  },
+  "base64": {
+    "title": "Kulinganisha na Kukuruhisha Base64",
+    "description": "Mifumo ya kusimamia Base64 kwenye mtandao",
+    "encode": "Linganisha",
+    "decode": "Kuruhisha",
+    "originalText": "Kiswahili kilichopita",
+    "base64String": "String ya Base64",
+    "base64Result": "Result ya Base64",
+    "decodeResult": "Result ya kuruhisha",
+    "placeholderEncode": "Andika kiswahili ili linganisha...",
+    "placeholderDecode": "Andika Base64 ili kuruhisha...",
+    "resultPlaceholder": "Result itakuja huko...",
+    "inputPlaceholder": "Andika maagizo kusimamia",
+    "decodeError": "Kuruhisha bado. Tafuta kama input ni Base64 sahihi.",
+    "encodeError": "Linganisha bado",
+    "charCount": "{{count}} maneno",
+    "clear": "Kazini kiswahili",
+    "copy": "Kazini result",
+    "copied": "Kazini",
+    "convert": "Kusimamia sasa",
+    "swap": "Chaguo cha kuvuma",
+    "ariaLabel": "Mifumo ya kusimamia/kuruhisha Base64",
+    "modeSelection": "Chaguo cha kusimamia",
+    "encodeMode": "Chaguo cha kusimamia",
+    "decodeMode": "Chaguo cha kuruhisha",
+    "inputLabelEncode": "Kiswahili kusimamia",
+    "inputLabelDecode": "String ya Base64 kusimamia",
+    "outputLabelEncode": "Result ya kusimamia ya Base64",
+    "outputLabelDecode": "Result ya kuruhisha ya Base64",
+    "whatIsBase64": "Ni nini Base64?",
+    "base64Info": "Base64 ni mfumo wa kusimamia ambao anasimamia data ya binary na 64 maneno ya kusimamia. Anahusisha kusimamia data ya binary ya kisasi katika URLs, cookies, webpages, au protocols ya kiswahili."
+  },
+  "dns": {
+    "title": "Kupata Rekodi ya DNS",
+    "description": "Kupata rekodi ya DNS (A, MX, CNAME, etc.) kwenye mtandao",
+    "placeholder": "Andika domain, kama example.com",
+    "invalidDomain": "Tafuta mfumo wa domain sahihi (kama example.com)",
+    "domainInput": "Kuingiza domain",
+    "validFormat": "Mfumo wa domain ni sahihi",
+    "typeSelect": "Aina ya rekodi ya DNS",
+    "searchBtn": "Kupata rekodi ya DNS",
+    "loadingTitle": "Kupata rekodi ya DNS",
+    "loadingDesc": "Tafuta kwa wakati ambapo tunapata rekodi ya DNS kwa domain yako...",
+    "resultRegion": "Rekodi ya kuzungumza",
+    "recordCount": "{{count}} rekodi",
+    "typeRecordRegion": "{{type}} rekodi",
+    "querying": "Kupata rekodi ya DNS",
+    "queryingDesc": "Tafuta kwa wakati ambapo tunapata rekodi ya DNS kwa domain yako...",
+    "foundRecords": "{{count}} rekodi ilipatikana",
+    "queryTime": "Wakati wa kuzungumza: {{time}}",
+    "export": "Kutoa matokeo",
+    "noRecords": "Hakuna rekodi ya DNS ilipatikana",
+    "noRecordsDesc": "Hakuna rekodi ya DNS ilipatikana kwa domain hii",
+    "typeInfo": "Aina ya rekodi ya DNS",
+    "priority": "Kipimo: {{priority}}",
+    "types": {
+      "ALL": "Yote",
+      "A": "Rekodi ya A",
+      "AAAA": "Rekodi ya AAAA",
+      "MX": "Rekodi ya MX",
+      "TXT": "Rekodi ya TXT",
+      "CNAME": "Rekodi ya CNAME",
+      "NS": "Rekodi ya NS",
+      "SOA": "Rekodi ya SOA"
+    },
+    "typeDescs": {
+      "A": "Kinyongeza cha ip v4",
+      "AAAA": "Kinyongeza cha ip v6",
+      "MX": "Mkatabu wa mawasilio",
+      "TXT": "Mkatabu wa kificho",
+      "CNAME": "Mkatabu wa jina la kikamilifu",
+      "NS": "Mkatabu wa mshangao wa jina",
+      "SOA": "Mkatabu wa kuanzisha uchumi"
+    },
+    "typeDetails": {
+      "A": "Inatuma domain hadi anwani ya IPv4",
+      "AAAA": "Inatuma domain hadi anwani ya IPv6",
+      "MX": "Inaeleza anwani ya mshangao wa mawasilio, nambari ya chini inatoa uwezo wa juu",
+      "TXT": "Inahifadhi taarifa ya kificho, inatumia kwa mfano kwa SPF, ukongezaji wa DKIM",
+      "CNAME": "Inatuma domain hadi kikamilifu (alias)",
+      "NS": "Inatambua mshangao wa DNS kwa domain"
+    }
+  },
+  "whois": {
+    "title": "Tafuta WHOIS",
+    "description": "Tafuta tajriba na taarifa za kudumu kwenye mtandao",
+    "placeholder": "Andika domain, hasa example.com",
+    "invalidDomain": "Tafadhali andika toka ya domain halisi (hasa example.com)",
+    "querying": "Tafuta taarifa ya WHOIS",
+    "queryingDesc": "Tafadhali subiri kama tunapokumbuka taarifa ya kudumu...",
+    "domainInfo": "Taarifa ya domain",
+    "registrar": "Registar",
+    "creationDate": "Tarehe ya kutengenezwa",
+    "expirationDate": "Tarehe ya kuzishia",
+    "updatedDate": "Tarehe ya kuhakiki",
+    "dnssec": "DNSSEC",
+    "dnssecDisabled": "Imeungwa",
+    "expired": "Imekushwa {{days}} siku iliyopita",
+    "expiringSoon": "Inakushwa baada ya {{days}} siku",
+    "remaining": "{{days}} siku zilizobaki",
+    "dnsServer": "Mshangao wa jina",
+    "domainStatus": "Hali ya domain",
+    "registrantInfo": "Taarifa ya mtumiaji",
+    "name": "Jina",
+    "organization": "Kampuni",
+    "country": "Nchi",
+    "email": "Barua pepe",
+    "noInfo": "Hakuna taarifa yoyote iliyotenganishwa",
+    "domain": "Domain",
+    "rawData": "Data ya kawaida",
+    "toggleRawData": "Washa au piga data ya kawaida",
+    "copyRawData": "Kunipa data ya kawaida",
+    "copy": "Kunipa",
+    "copied": "Kunipwa",
+    "whatIsWhois": "Ni nini WHOIS?",
+    "about": "WHOIS ni protokoli inayotumia kuchukua taarifa za kudumu ya domain. Kwa kuchukua WHOIS, unaweza kujifunza registrar, tarehe ya kudumu, tarehe ya kuzishia, mshangao wa DNS, taarifa ya mtumiaji, na zaidi. Hii ni muhimu kwa kujidhamana na kushiriki kwa jina la kampuni, na kutoa usalama."
+  },
+  "httpStatus": {
+    "title": "Kichaguo cha HTTP",
+    "description": "Chukua kichaguo cha kodi na taarifa ya jibu kwenye mtandao",
+    "placeholder": "Andika URL, hasa https://example.com",
+    "check": "Chukua",
+    "followRedirects": "Piga redirect kwa kusindika",
+    "urlEmpty": "Tafadhali andika URL",
+    "checkFailed": "Kuchukua kashishwa",
+    "serverError": "Kuvunjika kwa server, jaribu tena baadaye",
+    "unknownStatus": "Hali bila maoni",
+    "responseTime": "Muda wa jibu",
+    "headers": "Headers",
+    "redirectUrl": "URL ya redirect",
+    "contentType": "Kundi la maelezo",
+    "contentLength": "Ukubwa wa maelezo",
+    "server": "Server",
+    "showHeaders": "Ongeza headers ya jibu",
+    "hideHeaders": "Fungua headers ya jibu",
+    "status": {
+      "100": "Inasemwa",
+      "101": "Kuwasilisha Protokoli",
+      "200": "OK",
+      "201": "Imetengenezwa",
+      "204": "Hakuna maelezo",
+      "301": "Redirect ya kudumu",
+      "302": "Redirect ya kawaida",
+      "304": "Hakuna mabadiliko",
+      "307": "Redirect ya kawaida",
+      "308": "Redirect ya kudumu",
+      "400": "Kamati mbaya",
+      "401": "Haujaliwaki",
+      "403": "Hakuna rida",
+      "404": "Haijatokuwa",
+      "405": "Method haipatikana",
+      "408": "Kamati ya kuvunjika",
+      "429": "Kamati ya kuchukua zaidi",
+      "500": "Kata ya server",
+      "502": "Gateway mbaya",
+      "503": "Hakuna usaidizi",
+      "504": "Gateway ya kuvunjika"
+    }
+  },
+  "browserInfo": {
+    "title": "Maendeleo ya browser",
+    "description": "Tazama taarifa kuu ya browser hali yake",
+    "os": "Sistema ya kazi",
+    "browser": "Browser",
+    "version": "Version",
+    "engine": "Engine",
+    "device": "Maktaba",
+    "screen": "Ukubwa wa screen",
+    "viewport": "Ukubwa wa viewport",
+    "language": "Lugha",
+    "timezone": "Mkoa wa wakati",
+    "cookieEnabled": "Cookies inapatikana",
+    "online": "Online",
+    "cpu": "Architectura ya CPU",
+    "userAgent": "User-Agent",
+    "platform": "Platform",
+    "vendor": "Maktaba ya browser",
+    "languages": "Lugha zinazohusiana",
+    "cookie": "Cookie",
+    "onlineStatus": "Hali ya online",
+    "doNotTrack": "La tafuta",
+    "touchPoints": "Pointi za kuzungumza",
+    "enabled": "Inapatikana",
+    "disabled": "Imeungwa",
+    "offline": "Offline",
+    "hardwareInfo": "Taarifa ya hardware",
+    "cpuCores": "Core za CPU",
+    "cpuCoresValue": "{{count}} core",
+    "deviceMemory": "Memori ya maktaba",
+    "screenInfo": "Taarifa ya screen",
+    "availArea": "Kata ya kuchukua",
+    "windowSize": "Ukubwa wa window",
+    "pixelRatio": "Ratio ya pixel ya kikosi",
+    "colorDepth": "Ukubwa wa rangi",
+    "screenOrientation": "Ukubwa wa screen",
+    "unknown": "Hakuna maoni",
+    "basicInfo": "Taarifa ya kawaida",
+    "networkInfo": "Taarifa ya mzunguko",
+    "networkType": "Aina ya mzunguko",
+    "downlink": "Downlink",
+    "rtt": "RTT",
+    "saveData": "Kusimamia data",
+    "batteryInfo": "Taarifa ya mizani",
+    "batteryLevel": "Ukomo wa mizani",
+    "chargingStatus": "Hali ya kuzingatia",
+    "charging": "Kuzingatia",
+    "notCharging": "Hakuna kuzingatia",
+    "timezoneInfo": "Taarifa ya mkoa wa wakati",
+    "utcOffset": "UTC offset"
+  },
+  "viewSource": {
+    "title": "Tazama source ya mfumo",
+    "description": "Tazama kodi ya mfumo kwenye mtandao",
+    "placeholder": "Andika URL, hasa https://example.com",
+    "fetch": "Kutafuta source",
+    "urlEmpty": "Tafadhali andika URL",
+    "fetchFailed": "Kutafuta source kashishwa",
+    "serverError": "Kuvunjika kwa server",
+    "lineCount": "Moyo: {{count}}",
+    "copy": "Kunipa source",
+    "clear": "Kasirisha",
+    "usage1": "Andika URL ya mfumo kwa kamilifu na bonyeza kuchukua source",
+    "usage2": "Inapaswa kuzingatia kodi ya HTML ya mfumo ambapo kimekabidhi",
+    "usage3": "Unaweza kunipa au kuchukua kodi ya source kwa mafundizo",
+    "usage4": "Baadhi ya mfumo huondoka kuchukua source kwa sababu ya polisi ya usalama"
+  },
+  "urlEncode": {
+    "title": "Encoder/Decoder ya URL",
+    "description": "Mkeweza wa kuchangia na kufuta URL kwenye mtandao",
+    "encode": "Changia",
+    "decode": "Futa",
+    "placeholder": "Andika maelezo yako...",
+    "result": "Jibu",
+    "error": "Kuwasilisha/Kuunguza Kuchukua"
+  },
+  "htmlEntity": {
+    "title": "Mwenyeongosha/Mwongozo wa Mfano wa HTML",
+    "description": "Kitambu cha kuwasilisha na kuingiza mfano wa HTML kwa muda wa kuvutia",
+    "encode": "Wasilisha",
+    "decode": "Kuingiza",
+    "placeholder": "Andika maombi ya kutoa...",
+    "result": "Ukumbusho"
+  },
+  "jsMinify": {
+    "title": "Kuzamia na Kufanyia Kijambo cha JS",
+    "description": "Kitambu cha kuzamia na kufanyia kijambo cha JavaScript kwa muda wa kuvutia",
+    "minify": "Kuzamia",
+    "beautify": "Kufanyia kijambo",
+    "placeholder": "Andika kijambo cha JavaScript...",
+    "result": "Ukumbusho wa Kuchukua",
+    "error": "Kuchukua ya kijambo Kuchukua"
+  },
+  "cssMinify": {
+    "title": "Kuzamia na Kufanyia Kijambo cha CSS",
+    "description": "Kitambu cha kuzamia na kufanyia kijambo cha CSS kwa muda wa kuvutia",
+    "minify": "Kuzamia",
+    "beautify": "Kufanyia kijambo",
+    "placeholder": "Andika kijambo cha CSS...",
+    "result": "Ukumbusho wa Kuchukua",
+    "error": "Kuchukua ya kijambo Kuchukua"
+  },
+  "pages": {
+    "sslCheck": {
+      "title": "Kutafuta Sertifiya ya SSL",
+      "description": "Tafuta hati na uwezekano wa sertifiya ya SSL kwa domain",
+      "enterDomain": "Tafadhalia weka domain",
+      "checkFailed": "Kutafuta kuchukua",
+      "serverConnectionFailed": "Kuharibu mawasiliano na server, tafadhalia jaribu tena baadaye",
+      "inputPlaceholder": "Weka domain, kama: example.com",
+      "check": "Tafuta",
+      "statusExpired": "Imepita",
+      "statusExpiringSoon": "Inapita kwa wakati wa muda",
+      "statusValid": "Sahihi",
+      "statusProblem": "Shida ya sertifiya",
+      "expiredDays": "Imepita {{count}} siku iliyopita",
+      "remainingDays": "{{count}} siku zinazoharibi",
+      "warning": "Ujaze: {{message}}",
+      "protocol": "Protocol",
+      "validityPeriod": "Muda wa uwezekano",
+      "validFrom": "Sahihi kutoka",
+      "validTo": "Sahihi hadi",
+      "certificateInfo": "Maagizo ya sertifiya",
+      "subject": "Mwenyekiti",
+      "issuer": "Mwafaka",
+      "commonName": "Jina la kawaida (CN)",
+      "organization": "Kampuni (O)",
+      "organizationUnit": "Kipimo cha kampuni (OU)",
+      "country": "Nchi (C)",
+      "subjectAltNames": "Jina la kawaida la mwenyekiti (SAN) - {{count}} entries",
+      "technicalDetails": "Maagizo ya teknolojia",
+      "serialNumber": "Namba ya serial",
+      "fingerprintSha1": "Fingerprint (SHA-1)",
+      "fingerprintSha256": "Fingerprint (SHA-256)",
+      "cipherSuite": "Cipher suite",
+      "infoTitle": "Maagizo ya sertifiya ya SSL",
+      "infoItems": [
+        "Sertifiyo za SSL huwasilisha uhusiano wa kampuni na kusimamia mawasiliano",
+        "Tafuta tarikhini ya kuzalisha kwa kasi kuzuia kuzalisha",
+        "Sertifiyo zinazoharibi kwa wakati wa muda zinapaswa kuzalishwa kwa muda mrefu",
+        "SAN (Jina la kawaida la mwenyekiti) linajumuisha domaini zinazohusika na sertifiya"
+      ]
+    },
+    "gzipCheck": {
+      "title": "Kutafuta Kupatia Gzip Compression",
+      "description": "Tafuta kama website anayotumia Gzip / Deflate / Brotli compression",
+      "enterUrl": "Tafadhalia weka URL",
+      "checkFailed": "Kutafuta kuchukua",
+      "serverConnectionFailed": "Kuharibu mawasiliano na server, tafadhalia jaribu tena baadaye",
+      "inputPlaceholder": "Weka URL, kama: https://example.com",
+      "check": "Tafuta",
+      "enabled": "Imetumia",
+      "disabled": "Haitumia",
+      "compressionType": "Aina ya compression: {{type}}",
+      "enableSuggestion": "Izindue compression ya Gzip ili kuzidisha ukubwa wa kujifunza na kuzidisha muda wa kujifunza",
+      "supportTitle": "Kupatia compression",
+      "gzipDescription": "Compression ya kawaida inayotumia kwa kasi",
+      "deflateDescription": "Algorithm ya compression ya kawaida ya HTTP",
+      "brotliDescription": "Method ya compression ya muda mpya na ratios ya kawaida",
+      "effectTitle": "Kuendesha compression",
+      "originalSize": "Ukubwa wa awali",
+      "compressedSize": "Ukubwa wa kuzalishwa",
+      "ratio": "Ratio ya kuzalishwa",
+      "savedTransfer": "Kuzidisha {{value}} katika ukubwa wa kujifunza",
+      "detailsTitle": "Maagizo",
+      "whyTitle": "Kwa nini kuzindua compression ya Gzip?",
+      "whyItems": [
+        "Inaweza kuzidisha ukubwa wa mizani ya kijambo kwa 60% hadi 80%",
+        "Kuzidisha muda wa kujifunza",
+        "Inazidisha matumizi ya bandwidth",
+        "Kuzidisha mabadiliko inaweza kuzaidia SEO na usimamizi wa mtumiaji"
+      ]
+    },
+    "dnsLookupEnhanced": {
+      "title": "Kutafuta Rekodi ya DNS ya Kuzalishwa",
+      "description": "Kutafuta aina mbili ya rekodi ya DNS kwa muda wa kuvutia na kuzalishwa kwa kichaguo cha kichina",
+      "enterDomain": "Tafadhalia weka domain",
+      "lookupFailed": "Kutafuta kuchukua",
+      "serverConnectionFailed": "Kuharibu mawasiliano na server, tafadhalia jaribu tena baadaye",
+      "inputPlaceholder": "Weka domain, kama: example.com",
+      "lookup": "Tafuta",
+      "priority": "Kamati: {{value}}",
+      "dnsTypes": [
+        {
+          "value": "KAMBA",
+          "label": "Kambo"
+        },
+        {
+          "value": "A",
+          "label": "Rekodi ya A",
+          "desc": "Anwani ya IPv4"
+        },
+        {
+          "value": "AAAA",
+          "label": "Rekodi ya AAAA",
+          "desc": "Anwani ya IPv6"
+        },
+        {
+          "value": "MX",
+          "label": "Rekodi ya MX",
+          "desc": "Server ya barua pepe"
+        },
+        {
+          "value": "TXT",
+          "label": "Rekodi ya TXT",
+          "desc": "Data ya kisasa"
+        },
+        {
+          "value": "CNAME",
+          "label": "Rekodi ya CNAME",
+          "desc": "Rekodi ya kichaguo"
+        },
+        {
+          "value": "NS",
+          "label": "Rekodi ya NS",
+          "desc": "Server ya jina"
+        },
+        {
+          "value": "SOA",
+          "label": "Rekodi ya SOA",
+          "desc": "Start ya authority"
+        }
+      ],
+      "foundRecords": "Kupatia {{count}} rekodi",
+      "queryTime": "Muda wa kuchukua: {{time}}",
+      "virtualScrollEnabled": "Virtual scrolling imetumia",
+      "recordCount": "{{count}} rekodi",
+      "virtualScrollTag": "Rendering ya kuzalishwa",
+      "noRecords": "Hakuna rekodi ya DNS kupatia",
+      "performanceTitle": "Kuzalishwa cha uendeshaji",
+      "performanceItems": [
+        "Virtualized rendering inatumia DNS Lookup kwa {{count}} rekodi",
+        "Tu rekodi ya kurejea hutumia ili kuzidisha matumizi ya mafumo",
+        "Inaonekana kuzidisha lag ya DOM wakati rekodi zinazoharibi",
+        "Uchumi unapewa kama muda mrefu na rekodi zinazoharibi"
+      ]
+    },
+    "metaCheck": {
+      "title": "Kutafuta Rekodi ya META",
+      "description": "Tafuta rekodi ya META inayotumia kwenye mfuko wa kijambo",
+      "enterUrl": "Tafadhalia weka URL ya mfuko wa kijambo",
+      "checkFailed": "Kutafuta kuchukua",
+      "urlLabel": "URL ya mfuko wa kijambo",
+      "inputPlaceholder": "example.com au https://example.com",
+      "check": "Tafuta",
+      "resultTitle": "Ukumbusho wa kuchukua",
+      "totalCount": "Kupatia {{count}} rekodi ya META",
+      "groups": {
+        "pageTitle": "Jina la mfuko",
+        "httpEquiv": "HTTP-Equiv",
+        "charset": "Charset",
+        "basicMeta": "Rekodi ya META ya kawaida"
+      },
+      "emptyContent": "Hakuna",
+      "infoTitle": "Kuhusu",
+      "infoItems": [
+        "Kitambu hicho kinafanya kuchukua rekodi ya title, rekodi ya meta name, rekodi ya meta property (kama Open Graph), na rekodi ya meta http-equiv",
+        "Inaonekana kuzidisha kujifunza kwa kijambo cha SEO",
+        "Inaonekana kuzidisha shida ya rekodi zinazoharibi au zinazoweza"
+      ]
+    },
+    "urlEncode": {
+      "title": "Kuwasilisha/Kuunguza URL",
+      "description": "Kuwasilisha au kuingiza mfano wa URL kwa muda wa kuvutia",
+      "toolName": "Kuwasilisha/Kuunguza URL",
+      "toolCategory": "Vidokezo vya Kuwasilisha",
+      "convertFailed": "Kutafuta kuchukua, tafadhalia angalia input yako",
+      "copyFailed": "Kuandika ukumbusho kuchukua",
+      "modeSelector": "Chagua mode",
+      "typeSelector": "Aina ya kushambuliwa",
+      "encode": "Kushambuliwa",
+      "decode": "Kufungua",
+      "componentTitle": "Makundi ya URL",
+      "componentDescription": "Kushambuliwa sehemu ya URL moja",
+      "fullTitle": "URL jumla",
+      "fullDescription": "Kushambuliwa kwa jumla ya URL",
+      "inputEncodeLabel": "Maelezo ya kawaida",
+      "inputDecodeLabel": "URL iliyoshambuliwa",
+      "clearInput": "Kamata matokeo",
+      "encodePlaceholder": "Andika maelezo kuwasilisha kama URL...",
+      "decodePlaceholder": "Andika URL iliyoshambuliwa ili kufungua...",
+      "outputEncodeLabel": "Matokeo ya kushambuliwa",
+      "outputDecodeLabel": "Matokeo ya kufungua",
+      "copyResult": "Kamata matokeo",
+      "resultPlaceholder": "Matokeo ya kushambuliwa atakuwa huko...",
+      "copied": "Kamata kwenye clipboard",
+      "swap": "Kutupa",
+      "swapInputOutput": "Kutupa matokeo na matokeo",
+      "infoTitle": "Hali za kushambuliwa",
+      "componentModeTitle": "Hali ya makundi",
+      "componentModeDescription": "Kwa makundi ya URL kama parameta za kifuniko au mafunzo ya mfumo.",
+      "componentExample": "Mfano: hello world → hello%20world",
+      "fullModeTitle": "Hali ya URL jumla",
+      "fullModeDescription": "Tumia hii wakati unataka kushambuliwa kwa URL kamili kwa kuzingatia mfumo wa jumla.",
+      "fullExample": "Mfano: https://example.com/路径 → https://example.com/%E8%B7%AF%E5%BE%84"
+    },
+    "htmlEntity": {
+      "title": "Kushambuliwa na Kufungua ya Mauaji ya HTML",
+      "description": "Kushambuliwa au kufungua mauaji ya HTML kwa online",
+      "toolName": "Kushambuliwa na Kufungua ya Mauaji ya HTML",
+      "toolCategory": "Vidokezo vya Kushambuliwa",
+      "convertFailed": "Kushambuliwa bado, tafadhali angalia matokeo yako",
+      "copyFailed": "Kamata matokeo bado",
+      "modeSelector": "Chagua hali",
+      "switchToEncode": "Chagua hali ya kushambuliwa (Alt+1)",
+      "switchToDecode": "Chagua hali ya kufungua (Alt+2)",
+      "encode": "Kushambuliwa",
+      "decode": "Kufungua",
+      "encodeAll": "Kushambuliwa matokeo ya kila mtu",
+      "inputEncodeLabel": "Maelezo ya kawaida",
+      "inputDecodeLabel": "Mauaji ya HTML",
+      "clearInput": "Kamata matokeo (Ctrl+L)",
+      "encodePlaceholder": "Andika maelezo kuwasilisha kama mauaji ya HTML...",
+      "decodePlaceholder": "Andika mauaji ya HTML kuwasilisha...",
+      "inputDescriptionEncode": "Andika maelezo ya kawaida unayo kushambuliwa kama mauaji ya HTML",
+      "inputDescriptionDecode": "Andika mauaji ya HTML unayo kufungua",
+      "outputEncodeLabel": "Matokeo ya kushambuliwa",
+      "outputDecodeLabel": "Matokeo ya kufungua",
+      "copyResult": "Kamata matokeo (Ctrl+C)",
+      "resultPlaceholder": "Matokeo ya kushambuliwa atakuwa huko...",
+      "outputDescriptionEncode": "Matokeo ya mauaji ya HTML yaliyotengenezwa",
+      "outputDescriptionDecode": "Matokeo ya maelezo ya kawaida yaliyotengenezwa",
+      "copied": "Kamata kwenye clipboard",
+      "executeEncode": "Kushambuliwa (Ctrl+Enter)",
+      "executeDecode": "Kufungua (Ctrl+Enter)",
+      "swap": "Kutupa",
+      "swapMode": "Kutupa matokeo na matokeo (Ctrl+S)",
+      "commonEntities": "Mauaji ya kawaida ya HTML",
+      "space": "(kati)"
+    },
+    "jsMinify": {
+      "title": "Kusimamia na Kufanyia Kijambo cha JavaScript",
+      "description": "Kusimamia au kufanyia kijambo cha JavaScript kwa online",
+      "toolName": "Kusimamia na Kufanyia Kijambo cha JavaScript",
+      "toolNameHistory": "Kusimamia na Kufanyia Kijambo cha JavaScript",
+      "toolCategory": "Vidokezo vya Mvume",
+      "processFailed": "Kusimamia bado",
+      "copyFailed": "Kamata matokeo bado",
+      "switchToMinify": "Chagua hali ya kusimamia",
+      "switchToMinifyTitle": "Chagua hali ya kusimamia (Alt+1)",
+      "switchToBeautify": "Chagua hali ya kufanyia kijambo",
+      "switchToBeautifyTitle": "Chagua hali ya kufanyia kijambo (Alt+2)",
+      "minify": "Kusimamia",
+      "beautify": "Kufanyia kijambo",
+      "input": "Input",
+      "output": "Output",
+      "inputPlaceholder": "Andika kijambo cha JavaScript huko...",
+      "inputAria": "Mchangia kijambo cha JavaScript",
+      "inputTitle": "Soma Ctrl+Enter kusimamia, Ctrl+L kusitafuta",
+      "copyOutput": "Kamata output",
+      "copyOutputTitle": "Kamata output (Ctrl+C)",
+      "resultPlaceholder": "Matokeo ya kusimamia atakuwa huko...",
+      "outputAria": "Matokeo ya kijambo cha JavaScript",
+      "executeMinify": "Kusimamia JavaScript",
+      "executeMinifyTitle": "Kusimamia JavaScript (Ctrl+Enter)",
+      "executeBeautify": "Kufanyia kijambo cha JavaScript",
+      "executeBeautifyTitle": "Kufanyia kijambo cha JavaScript (Ctrl+Enter)",
+      "minifyCode": "Kusimamia kijambo",
+      "beautifyCode": "Kufanyia kijambo",
+      "swap": "Kutupa",
+      "swapTitle": "Kutupa input na output (Ctrl+S)",
+      "clear": "Kusitafuta",
+      "clearTitle": "Kusitafuta matokeo (Ctrl+L)",
+      "copied": "Kamata kwenye clipboard",
+      "infoTitle": "Vipengele",
+      "infoItems": [
+        "Kuchukua matokeo ya kisasa na matokeo ya muda kusompa ukubwa wa faili ya JavaScript",
+        "Hali ya kufanyia kijambo inaongeza kusoma na kujifunza kijambo kilichosimamwa",
+        "Ukubwa wa kusimamia hupelekana na parser ya JavaScript na mabadiliko ya kusimamia"
+      ]
+    },
+    "cssMinify": {
+      "title": "Kusimamia na Kufanyia Kijambo cha CSS",
+      "description": "Kusimamia au kufanyia kijambo cha CSS kwa online",
+      "toolName": "Kusimamia na Kufanyia Kijambo cha CSS",
+      "toolCategory": "Vidokezo vya Mvume",
+      "processFailed": "Kusimamia bado",
+      "copyFailed": "Kamata matokeo bado",
+      "switchToMinify": "Chagua hali ya kusimamia",
+      "switchToMinifyTitle": "Chagua hali ya kusimamia (Alt+1)",
+      "switchToBeautify": "Chagua hali ya kufanyia kijambo",
+      "switchToBeautifyTitle": "Chagua hali ya kufanyia kijambo (Alt+2)",
+      "minify": "Kusimamia",
+      "beautify": "Kufanyia kijambo",
+      "input": "Input",
+      "output": "Output",
+      "inputPlaceholder": "Andika kijambo cha CSS huko...\n\nMfano:\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 20px;\n}",
+      "inputAria": "Mchangia kijambo cha CSS",
+      "inputTitle": "Soma Ctrl+Enter kusimamia, Ctrl+L kusitafuta",
+      "copyOutput": "Kamata output",
+      "copyOutputTitle": "Kamata output (Ctrl+C)",
+      "resultPlaceholder": "Matokeo ya kusimamia atakuwa huko...",
+      "outputAria": "Matokeo ya kijambo cha CSS",
+      "executeMinify": "Kusimamia CSS",
+      "executeMinifyTitle": "Kusimamia CSS (Ctrl+Enter)",
+      "executeBeautify": "Kufanyia kijambo cha CSS",
+      "executeBeautifyTitle": "Kufanyia kijambo cha CSS (Ctrl+Enter)",
+      "minifyCode": "Kusimamia kijambo",
+      "beautifyCode": "Kufanyia kijambo",
+      "swap": "Kutupa",
+      "swapTitle": "Kutupa input na output (Ctrl+S)",
+      "clear": "Kusitafuta",
+      "clearTitle": "Kusitafuta matokeo (Ctrl+L)",
+      "copied": "Kamata kwenye clipboard",
+      "infoTitle": "Vipengele",
+      "infoItems": [
+        "Kuchukua matokeo ya kisasa na matokeo ya muda kusompa ukubwa wa faili ya CSS",
+        "Hali ya kufanyia kijambo inaongeza kusoma na kujifunza kijambo kilichosimamwa",
+        "Faili ya CSS ambapo kuzidisha kusaidia kuzidisha ukubwa wa transfer ya HTTP na kuzidisha uendeshaji wa mfululizo"
+      ]
+    },
+    "httpCodes": {
+      "title": "Kodi za Hali ya HTTP",
+      "description": "Majibu ya kodi za hali ya HTTP / response",
+      "searchPlaceholder": "Tafuta kodi za hali au maelezo...",
+      "noMatch": "Hakuna kodi za hali zinazofundisha",
+      "infoTitle": "Makosa ya kodi ya hali ya HTTP",
+      "infoItems": [
+        "1xx - Majibu ya kisasa ambayo yanamzona kwamba msalaba uliokumbuka na unapaswa kuzingatia",
+        "2xx - Majibu ya kama kamilifu ambayo yanamzona kwamba msalaba uliokumbuka, ulizoziona na ulikubali",
+        "3xx - Majibu ya kuzingatia ambayo yanamzona kwamba msalaba unapenda hati ya kuzingatia kumaliza msalaba",
+        "4xx - Majibu ya kibaya ambayo yanamzona kwamba msalaba una kisasa kisasi au siwezi kuzingatia",
+        "5xx - Majibu ya kibaya ambayo yanamzona kwamba msalaba alikosea kuzingatia msalaba halali"
+      ],
+      "categories": [
+        {
+          "id": "all",
+          "name": "Kila",
+          "color": "bg-gray-100 text-gray-700"
+        },
+        {
+          "id": "1xx",
+          "name": "1xx Kuhakiki",
+          "color": "bg-blue-100 text-blue-700"
+        },
+        {
+          "id": "2xx",
+          "name": "2xx Kama kamilifu",
+          "color": "bg-green-100 text-green-700"
+        },
+        {
+          "id": "3xx",
+          "name": "3xx Ulinganisho",
+          "color": "bg-yellow-100 text-yellow-700"
+        },
+        {
+          "id": "4xx",
+          "name": "4xx Kosa la Mteja",
+          "color": "bg-orange-100 text-orange-700"
+        },
+        {
+          "id": "5xx",
+          "name": "5xx Kosa la Mshangao",
+          "color": "bg-red-100 text-red-700"
+        }
+      ],
+      "codes": [
+        {
+          "code": 100,
+          "name": "Continue",
+          "desc": "Kipimo kwanza cha msimbo kimepochwa na mteja anapaswa kifanye kuzingatia kwa baki.",
+          "category": "1xx"
+        },
+        {
+          "code": 101,
+          "name": "Switching Protocols",
+          "desc": "Mshangao anasababisha kushuka kwenye mbinu kulingana na maombi ya mteja.",
+          "category": "1xx"
+        },
+        {
+          "code": 102,
+          "name": "Processing",
+          "desc": "Mshangao amepochwa na anaprosesi kwa msimbo, lakini hakuna jibu lina sasa.",
+          "category": "1xx"
+        },
+        {
+          "code": 200,
+          "name": "OK",
+          "desc": "Maombi yalipokea, kwa kawaida kwa msimbo wa GET au POST.",
+          "category": "2xx"
+        },
+        {
+          "code": 201,
+          "name": "Created",
+          "desc": "Maombi yalipokea na kufunika mfumo mpya.",
+          "category": "2xx"
+        },
+        {
+          "code": 202,
+          "name": "Accepted",
+          "desc": "Maombi yalipokea kwa ushauri wa kusoma, lakini hakuwa na matokeo yote yetu.",
+          "category": "2xx"
+        },
+        {
+          "code": 203,
+          "name": "Non-Authoritative Information",
+          "desc": "Maelezo ya jibu yamekotwa kutoka kwenye kampuni ya mtandao au ya nje kimbamba na mshangao wa asili.",
+          "category": "2xx"
+        },
+        {
+          "code": 204,
+          "name": "No Content",
+          "desc": "Maombi yalipokea, lakini hajui matokeo yoyote.",
+          "category": "2xx"
+        },
+        {
+          "code": 205,
+          "name": "Reset Content",
+          "desc": "Maombi yalipokea na mteja anapaswa kurejesha mazingira ya kisemachana kisicho chaguo.",
+          "category": "2xx"
+        },
+        {
+          "code": 206,
+          "name": "Partial Content",
+          "desc": "Mshangao anatumia moja ya sehemu ya mizani kwa sababu ya msimbo wa kikatizo.",
+          "category": "2xx"
+        },
+        {
+          "code": 300,
+          "name": "Multiple Choices",
+          "desc": "Mfumo uliopokea una makundi ya matumizi ambayo mteja anaweza kuchagua kati yao.",
+          "category": "3xx"
+        },
+        {
+          "code": 301,
+          "name": "Moved Permanently",
+          "desc": "Mfumo uliopokea amekwenda kwa URI mpya kwa kiasi cha kawaida.",
+          "category": "3xx"
+        },
+        {
+          "code": 302,
+          "name": "Found",
+          "desc": "Mfumo uliopokea unatokana kwa URI mmoja kwa kiasi cha kawaida.",
+          "category": "3xx"
+        },
+        {
+          "code": 303,
+          "name": "See Other",
+          "desc": "Jibu la msimbo linalotolewa kwenye URI mwingine kwa kutumia GET.",
+          "category": "3xx"
+        },
+        {
+          "code": 304,
+          "name": "Not Modified",
+          "desc": "Mfumo uliopokea haikuwa na mabadiliko, hivyo mteja anapaswa kusemu kisemachana kilichopo kwenye lokal.",
+          "category": "3xx"
+        },
+        {
+          "code": 307,
+          "name": "Temporary Redirect",
+          "desc": "Mfumo umekariri kwa kawaida na kisemachana kisicho kama alitumika kwa msimbo wa awali.",
+          "category": "3xx"
+        },
+        {
+          "code": 308,
+          "name": "Permanent Redirect",
+          "desc": "Mfumo umekariri kwa kawaida na kisemachana kisicho kama alitumika kwa msimbo wa awali.",
+          "category": "3xx"
+        },
+        {
+          "code": 400,
+          "name": "Bad Request",
+          "desc": "Mshangao haajibidi kusimamia msimbo kwa sababu ya kosa katika mafumbo.",
+          "category": "4xx"
+        },
+        {
+          "code": 401,
+          "name": "Unauthorized",
+          "desc": "Uthibitishaji unahitajika kabla ya kuzalisha msimbo.",
+          "category": "4xx"
+        },
+        {
+          "code": 402,
+          "name": "Payment Required",
+          "desc": "Hupatikana kwa matumizi ya wakati wa mwaka, kwa kawaida kama kushiriki kwenye mifumo ya malipo.",
+          "category": "4xx"
+        },
+        {
+          "code": 403,
+          "name": "Forbidden",
+          "desc": "Mshangao alijua msimbo lakini anashukuru kuhakikisha.",
+          "category": "4xx"
+        },
+        {
+          "code": 404,
+          "name": "Not Found",
+          "desc": "Mshangao alajibu kuondoka kwa mfumo uliopokea.",
+          "category": "4xx"
+        },
+        {
+          "code": 405,
+          "name": "Method Not Allowed",
+          "desc": "Methode ya msimbo haikohorokeshwa kwa mfumo uliopokea.",
+          "category": "4xx"
+        },
+        {
+          "code": 406,
+          "name": "Not Acceptable",
+          "desc": "Mshangao haajibidi kujibu kwa kushiriki kwenye formati ambayo mteja anayajua.",
+          "category": "4xx"
+        },
+        {
+          "code": 407,
+          "name": "Proxy Authentication Required",
+          "desc": "Mteja anapaswa kuthibitisha kwa proxy kabla ya kuz继续.",
+          "category": "4xx"
+        },
+        {
+          "code": 408,
+          "name": "Request Timeout",
+          "desc": "Mshangao alijibu kwa kasi ya msimbo.",
+          "category": "4xx"
+        },
+        {
+          "code": 409,
+          "name": "Conflict",
+          "desc": "Msimbo unapigwa na hatia ya kisasa kwa mfumo uliopokea.",
+          "category": "4xx"
+        },
+        {
+          "code": 410,
+          "name": "Gone",
+          "desc": "Mfumo hauna uwezekano wa kuzalisha na hakuna mkoa wa kuzalisha.",
+          "category": "4xx"
+        },
+        {
+          "code": 411,
+          "name": "Length Required",
+          "desc": "Mshangao anahitajika kwa mafumbo ya Content-Length ya kawaida.",
+          "category": "4xx"
+        },
+        {
+          "code": 412,
+          "name": "Precondition Failed",
+          "desc": "Kila moja ya mafumbo ya msimbo yamekataa kwa kuchukua kama kosa.",
+          "category": "4xx"
+        },
+        {
+          "code": 413,
+          "name": "Payload Too Large",
+          "desc": "Matokeo ya msimbo ni kubwa kuliko mshangao anahitajika kusimamia.",
+          "category": "4xx"
+        },
+        {
+          "code": 414,
+          "name": "URI Too Long",
+          "desc": "URI uliopokea ni kubwa kuliko mshangao anahitajika kusimamia.",
+          "category": "4xx"
+        },
+        {
+          "code": 415,
+          "name": "Unsupported Media Type",
+          "desc": "Mshangao haajibidi kusimamia mafumbo ya media ambayo iliyotumika kwenye msimbo.",
+          "category": "4xx"
+        },
+        {
+          "code": 418,
+          "name": "I'm a teapot",
+          "desc": "Kodi ya kusikiliza ambacho mshangao anashukuri kusimamia kahawa kwa sababu ya kuwa teapot.",
+          "category": "4xx"
+        },
+        {
+          "code": 422,
+          "name": "Unprocessable Entity",
+          "desc": "Mshangao anajibidi kusimamia mafumbo ambayo anayotumika kwenye msimbo.",
+          "category": "4xx"
+        },
+        {
+          "code": 429,
+          "name": "Too Many Requests",
+          "desc": "Mteja ametuma kikapu cha msimbo katika muda mmoja.",
+          "category": "4xx"
+        },
+        {
+          "code": 451,
+          "name": "Unavailable For Legal Reasons",
+          "desc": "Mfumo hauna uwezekano wa kuzalisha kwa sababu ya mabadiliko ya kijiji.",
+          "category": "4xx"
+        },
+        {
+          "code": 500,
+          "name": "Internal Server Error",
+          "desc": "Mshangao alijibu kwa kosa la kawaida kwa msimbo.",
+          "category": "5xx"
+        },
+        {
+          "code": 501,
+          "name": "Not Implemented",
+          "desc": "Mshangao haajibidi kusimamia mafunzo ambayo inahitajika kwa msimbo.",
+          "category": "5xx"
+        },
+        {
+          "code": 502,
+          "name": "Bad Gateway",
+          "desc": "Mshangao au proxy anapokea jibu la kawaida kutoka kwenye mshangao wa kushoto.",
+          "category": "5xx"
+        },
+        {
+          "code": 503,
+          "name": "Service Unavailable",
+          "desc": "Mshangao anashukuru kusimamia msimbo kwa sababu ya kuzalisha au kusimamia.",
+          "category": "5xx"
+        },
+        {
+          "code": 504,
+          "name": "Gateway Timeout",
+          "desc": "Mshangao au proxy anashukuru kusikiliza jibu la kawaida kutoka kwenye mshangao wa kushoto.",
+          "category": "5xx"
+        },
+        {
+          "code": 505,
+          "name": "HTTP Version Not Supported",
+          "desc": "Mshangao haajibidi kusimamia versioni ya mafumbo ya HTTP ambayo iliyotumika kwenye msimbo.",
+          "category": "5xx"
+        }
+      ]
+    },
+    "phpReference": {
+      "title": "Kumbukumbu ya Funkishoni ya PHP",
+      "description": "Kumbukumbu ya kawaida ya funkishoni ya PHP",
+      "searchPlaceholder": "Tafuta jina la funkishoni au maelezo...",
+      "noMatch": "Hakuna funkishoni zinazosababu",
+      "infoTitle": "Kuhusu",
+      "infoDescription": "Lapa hii inatengeneza funkishoni ya kawaida ya PHP kwa kategoria kwa kuzalisha kwa kasi. Inaonyesha mafundisho ya kawaida kwa wasanii na si thamani ya mafundisho ya kawaida ya PHP.",
+      "categories": [
+        "Yote",
+        "Kiwango",
+        "Kikomo",
+        "Furaha",
+        "Tarehe/mtihani",
+        "JSON",
+        "Math",
+        "Nyingi"
+      ],
+      "functions": [
+        {
+          "name": "strlen",
+          "desc": "Kupata uzio wa string",
+          "syntax": "strlen(string $string): int",
+          "category": "String"
+        },
+        {
+          "name": "substr",
+          "desc": "Kutuma sehemu ya string",
+          "syntax": "substr(string $string, int $offset, ?int $length = null): string",
+          "category": "String"
+        },
+        {
+          "name": "strpos",
+          "desc": "Kujifunza mahali ya kwanza ya kushuka kwa substring",
+          "syntax": "strpos(string $haystack, string $needle, int $offset = 0): int|false",
+          "category": "String"
+        },
+        {
+          "name": "str_replace",
+          "desc": "Kusababisha matokeo yote ya kushuka kwa msumari",
+          "syntax": "str_replace(mixed $search, mixed $replace, mixed $subject): mixed",
+          "category": "String"
+        },
+        {
+          "name": "explode",
+          "desc": "Kuandika string kwa kikundi cha kuzungumza",
+          "syntax": "explode(string $separator, string $string, int $limit = PHP_INT_MAX): array",
+          "category": "String"
+        },
+        {
+          "name": "implode",
+          "desc": "Kukopa mizani ya kikundi katika string",
+          "syntax": "implode(string $separator, array $array): string",
+          "category": "String"
+        },
+        {
+          "name": "trim",
+          "desc": "Kuondoka kwenye mizani au mengine ya kikundi cha string",
+          "syntax": "trim(string $string, string $characters = \" \\n\\r\\t\\v\\x00\"): string",
+          "category": "String"
+        },
+        {
+          "name": "strtolower",
+          "desc": "Kuongeza string kwa kichaguo cha chini",
+          "syntax": "strtolower(string $string): string",
+          "category": "String"
+        },
+        {
+          "name": "strtoupper",
+          "desc": "Kuongeza string kwa kichaguo cha juu",
+          "syntax": "strtoupper(string $string): string",
+          "category": "String"
+        },
+        {
+          "name": "sprintf",
+          "desc": "Kutuma string iliyotenganishwa",
+          "syntax": "sprintf(string $format, mixed ...$values): string",
+          "category": "String"
+        },
+        {
+          "name": "preg_match",
+          "desc": "Kufanyia kushuka kwa kichaguo cha kisasa",
+          "syntax": "preg_match(string $pattern, string $subject, array &$matches = null): int|false",
+          "category": "String"
+        },
+        {
+          "name": "preg_replace",
+          "desc": "Kufanyia kushuka na kusababisha kwa kichaguo cha kisasa",
+          "syntax": "preg_replace(mixed $pattern, mixed $replacement, mixed $subject): mixed",
+          "category": "String"
+        },
+        {
+          "name": "count",
+          "desc": "Kuzidisha mizani katika kikundi au mtumiaji wa Countable",
+          "syntax": "count(Countable|array $value, int $mode = COUNT_NORMAL): int",
+          "category": "Array"
+        },
+        {
+          "name": "array_push",
+          "desc": "Kuweka mizani mengine kwenye kikundi",
+          "syntax": "array_push(array &$array, mixed ...$values): int",
+          "category": "Array"
+        },
+        {
+          "name": "array_pop",
+          "desc": "Kuondoka kwenye mizani ya kikundi",
+          "syntax": "array_pop(array &$array): mixed",
+          "category": "Array"
+        },
+        {
+          "name": "array_merge",
+          "desc": "Kukombora kikundi kama moja",
+          "syntax": "array_merge(array ...$arrays): array",
+          "category": "Array"
+        },
+        {
+          "name": "array_keys",
+          "desc": "Kutuma mizani ya kikundi",
+          "syntax": "array_keys(array $array, mixed $filter_value, bool $strict = false): array",
+          "category": "Array"
+        },
+        {
+          "name": "array_values",
+          "desc": "Kutuma mizani ya kikundi",
+          "syntax": "array_values(array $array): array",
+          "category": "Array"
+        },
+        {
+          "name": "in_array",
+          "desc": "Kuwasiliana kama mizani inapatikana katika kikundi",
+          "syntax": "in_array(mixed $needle, array $haystack, bool $strict = false): bool",
+          "category": "Array"
+        },
+        {
+          "name": "array_search",
+          "desc": "Kujifunza mizani ya kikundi kwa kushuka kwa mizani",
+          "syntax": "array_search(mixed $needle, array $haystack, bool $strict = false): int|string|false",
+          "category": "Array"
+        },
+        {
+          "name": "array_map",
+          "desc": "Kuchangia kichaguo kwa mizani ya kikundi",
+          "syntax": "array_map(?callable $callback, array $array, array ...$arrays): array",
+          "category": "Array"
+        },
+        {
+          "name": "array_filter",
+          "desc": "Kuchangia mizani ya kikundi kwa kichaguo",
+          "syntax": "array_filter(array $array, ?callable $callback = null, int $mode = 0): array",
+          "category": "Array"
+        },
+        {
+          "name": "sort",
+          "desc": "Kusortia kikundi kwa kichaguo cha juu",
+          "syntax": "sort(array &$array, int $flags = SORT_REGULAR): bool",
+          "category": "Array"
+        },
+        {
+          "name": "usort",
+          "desc": "Kusortia kikundi kwa kichaguo cha mtumiaji",
+          "syntax": "usort(array &$array, callable $callback): bool",
+          "category": "Array"
+        },
+        {
+          "name": "file_get_contents",
+          "desc": "Kuondoka kwenye file kwa string",
+          "syntax": "file_get_contents(string $filename, ...): string|false",
+          "category": "File"
+        },
+        {
+          "name": "file_put_contents",
+          "desc": "Kuandika data kwenye file",
+          "syntax": "file_put_contents(string $filename, mixed $data, int $flags = 0): int|false",
+          "category": "File"
+        },
+        {
+          "name": "fopen",
+          "desc": "Kuvunjika file au URL",
+          "syntax": "fopen(string $filename, string $mode, ...): resource|false",
+          "category": "File"
+        },
+        {
+          "name": "fclose",
+          "desc": "Kuunda kikundi cha kificho cha file",
+          "syntax": "fclose(resource $stream): bool",
+          "category": "File"
+        },
+        {
+          "name": "fread",
+          "desc": "Kuondoka kwenye kikundi cha kificho cha file",
+          "syntax": "fread(resource $stream, int $length): string|false",
+          "category": "File"
+        },
+        {
+          "name": "fwrite",
+          "desc": "Kuandika kwenye kikundi cha kificho cha file",
+          "syntax": "fwrite(resource $stream, string $data, ?int $length = null): int|false",
+          "category": "File"
+        },
+        {
+          "name": "file_exists",
+          "desc": "Kuwasiliana kama file au directory inapatikana",
+          "syntax": "file_exists(string $filename): bool",
+          "category": "File"
+        },
+        {
+          "name": "is_file",
+          "desc": "Kuwasiliana kama path ina failesi ya kawaida",
+          "syntax": "is_file(string $filename): bool",
+          "category": "File"
+        },
+        {
+          "name": "unlink",
+          "desc": "Kuondoka kwenye file",
+          "syntax": "unlink(string $filename, ?resource $context = null): bool",
+          "category": "File"
+        },
+        {
+          "name": "mkdir",
+          "desc": "Kuunda kikundi",
+          "syntax": "mkdir(string $directory, int $permissions = 0777, bool $recursive = false): bool",
+          "category": "File"
+        },
+        {
+          "name": "date",
+          "desc": "Kuandika tarehe na wakati la kijiji",
+          "syntax": "date(string $format, ?int $timestamp = null): string",
+          "category": "Tareha/Mwaka"
+        },
+        {
+          "name": "time",
+          "desc": "Kuondoka kwenye timestamp ya Unix",
+          "syntax": "time(): int",
+          "category": "Tareha/Mwaka"
+        },
+        {
+          "name": "strtotime",
+          "desc": "Kufanyia kushuka kwa tarehe na wakati ya kisasa kwa timestamp ya Unix",
+          "syntax": "strtotime(string $datetime, ?int $baseTimestamp = null): int|false",
+          "category": "Tareha/Mwaka"
+        },
+        {
+          "name": "mktime",
+          "desc": "Kutafuta muda wa Unix kwa tarehe",
+          "syntax": "mktime(int $saa, ?int $muda = nil, ...): int|false",
+          "category": "Tarehe/Kiprili"
+        },
+        {
+          "name": "date_create",
+          "desc": "Kuunda mabadiliko ya DateTime",
+          "syntax": "date_create(string $tarehe = \"hali ya sasa\", ?DateTimeZone $moyo = nil): DateTime|false",
+          "category": "Tarehe/Kiprili"
+        },
+        {
+          "name": "json_encode",
+          "desc": "Kuharibu thamani kwa mfano wa JSON",
+          "syntax": "json_encode(mixed $thamani, int $flags = 0, int $depth = 512): string|false",
+          "category": "JSON"
+        },
+        {
+          "name": "json_decode",
+          "desc": "Kufungua mfano wa JSON kwa thamani ya PHP",
+          "syntax": "json_decode(string $json, ?bool $kisawe = nil, int $depth = 512): mixed",
+          "category": "JSON"
+        },
+        {
+          "name": "abs",
+          "desc": "Kupata thamali ya kawaida",
+          "syntax": "abs(int|float $num): int|float",
+          "category": "Math"
+        },
+        {
+          "name": "ceil",
+          "desc": "Kuzidisha matokezi",
+          "syntax": "ceil(int|float $num): float",
+          "category": "Math"
+        },
+        {
+          "name": "floor",
+          "desc": "Kuzidisha matokezi chini",
+          "syntax": "floor(int|float $num): float",
+          "category": "Math"
+        },
+        {
+          "name": "round",
+          "desc": "Kuzidisha nambari",
+          "syntax": "round(int|float $num, int $precision = 0, int $mode = PHP_ROUND_HALF_UP): float",
+          "category": "Math"
+        },
+        {
+          "name": "max",
+          "desc": "Kupata thamali ya juu",
+          "syntax": "max(mixed $thamani, mixed ...$thamani): mixed",
+          "category": "Math"
+        },
+        {
+          "name": "min",
+          "desc": "Kupata thamali ya chini",
+          "syntax": "min(mixed $thamani, mixed ...$thamani): mixed",
+          "category": "Math"
+        },
+        {
+          "name": "rand",
+          "desc": "Kuandika nambari ya kawaida",
+          "syntax": "rand(int $chini, int $juu): int",
+          "category": "Math"
+        },
+        {
+          "name": "isset",
+          "desc": "Kuangalia kama variable ina thamani na hauna nil",
+          "syntax": "isset(mixed $var, mixed ...$vars): bool",
+          "category": "Other"
+        },
+        {
+          "name": "empty",
+          "desc": "Kuangalia kama variable ina thamani ya kawaida",
+          "syntax": "empty(mixed $var): bool",
+          "category": "Other"
+        },
+        {
+          "name": "var_dump",
+          "desc": "Kuvuma taarifa za variable",
+          "syntax": "var_dump(mixed $thamani, mixed ...$thamani): void",
+          "category": "Other"
+        },
+        {
+          "name": "print_r",
+          "desc": "Kuvuma taarifa ya kusoma kwa variable",
+          "syntax": "print_r(mixed $thamani, bool $return = false): string|bool",
+          "category": "Other"
+        },
+        {
+          "name": "gettype",
+          "desc": "Kupata aina ya variable",
+          "syntax": "gettype(mixed $thamani): string",
+          "category": "Other"
+        },
+        {
+          "name": "is_array",
+          "desc": "Kuangalia kama variable ina aina ya array",
+          "syntax": "is_array(mixed $thamani): bool",
+          "category": "Other"
+        },
+        {
+          "name": "is_string",
+          "desc": "Kuangalia kama variable ina aina ya kiframu",
+          "syntax": "is_string(mixed $thamani): bool",
+          "category": "Other"
+        },
+        {
+          "name": "is_numeric",
+          "desc": "Kuangalia kama variable ina aina ya nambari au kiframu cha nambari",
+          "syntax": "is_numeric(mixed $thamani): bool",
+          "category": "Other"
+        }
+      ]
+    },
+    "cssBorderRadius": {
+      "title": "Generator ya Border Radius ya CSS",
+      "description": "Kuzidisha maadili ya border-radius kwa uzoefu na kuzingatia mfano wa CSS",
+      "presetsLabel": "Preset",
+      "preview": "Preview",
+      "settings": "Settings",
+      "linked": "Moyo wapitao",
+      "unlinked": "Moyo wapitao",
+      "corners": {
+        "topLeft": "Kofo chini cha upande wa kushoto",
+        "topRight": "Kofo chini cha upande wa kulia",
+        "bottomLeft": "Kofo chini cha upande wa kushoto",
+        "bottomRight": "Kofo chini cha upande wa kulia"
+      },
+      "elementColor": "Moyo ya mtiririko",
+      "codeTitle": "Mfano wa CSS",
+      "copy": "Kuandika",
+      "copied": "Kuandikwa",
+      "presets": [
+        {
+          "name": "Hakuna",
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Kubwa",
+          "values": [
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "Kiasi cha kawaida",
+          "values": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "Kubwa",
+          "values": [
+            16,
+            16,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "Kisiwa",
+          "values": [
+            50,
+            50,
+            50,
+            50
+          ]
+        },
+        {
+          "name": "Mwizi",
+          "values": [
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "Upande wa kushoto",
+          "values": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        {
+          "name": "Upande wa kulia",
+          "values": [
+            0,
+            16,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "Chagua tu",
+          "values": [
+            16,
+            16,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Chagua tu",
+          "values": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "Diagonal",
+          "values": [
+            16,
+            0,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "Leaf",
+          "values": [
+            0,
+            50,
+            0,
+            50
+          ]
+        }
+      ]
+    },
+    "cssNeumorphism": {
+      "title": "Generator ya CSS ya Neumorphism",
+      "description": "Kuzingatia mfano wa CSS ya neumorphism kwa online",
+      "previewText": "Kureplya Button",
+      "shapeTitle": "Aina ya mstere",
+      "shapeOptions": [
+        {
+          "value": "flat",
+          "label": "Flat"
+        },
+        {
+          "value": "concave",
+          "label": "Concave"
+        },
+        {
+          "value": "convex",
+          "label": "Convex"
+        },
+        {
+          "value": "pressed",
+          "label": "Pressed"
+        }
+      ],
+      "colorTitle": "Kisasi cha rangi",
+      "presetColors": "Preset ya rangi",
+      "colorPresets": [
+        {
+          "color": "#e0e5ec",
+          "name": "Klasiki"
+        },
+        {
+          "color": "#f0f0f3",
+          "name": "Wanajua"
+        },
+        {
+          "color": "#d1d9e6",
+          "name": "Blue"
+        },
+        {
+          "color": "#e8dfd5",
+          "name": "Beige"
+        },
+        {
+          "color": "#dfe6e9",
+          "name": "Gari"
+        },
+        {
+          "color": "#ffeaa7",
+          "name": "Yellow"
+        },
+        {
+          "color": "#dfe4ea",
+          "name": "Slate"
+        },
+        {
+          "color": "#f8e1e7",
+          "name": "Pink"
+        },
+        {
+          "color": "#d5f5e3",
+          "name": "Mint"
+        },
+        {
+          "color": "#e8daef",
+          "name": "Purple"
+        }
+      ],
+      "backgroundColor": "Rangi ya asili",
+      "lightColor": "Rangi ya kawaida (highlight)",
+      "darkColor": "Rangi ya kijimbo (shadow)",
+      "sliderTitle": "Kisasi cha shadow",
+      "size": "Ukubwa",
+      "radius": "Radius",
+      "distance": "Ukubwa wa shadow",
+      "blur": "Ukubwa wa blur",
+      "intensity": "Intensiti",
+      "codeTitle": "Mfano wa CSS",
+      "copy": "Kuandika",
+      "copied": "Kuandikwa",
+      "infoTitle": "Ni nini Neumorphism?",
+      "infoDescription": "Neumorphism ni mchango wa UI ambao unashangaa kuvutia na kuvimba kwa kipato cha kisasi ili kuonyesha mifano kuwa kimepungua au kimepiga kwenye background. Inafanana sana na paleti ya kisasi kisasi na mabano ya kisasi."
+    },
+    "cssTextShadow": {
+      "title": "Mchangia wa Kode ya Text Shadow ya CSS",
+      "description": "Kuzingatia maombi ya text-shadow kwa uzoefu na kuzalisha kodi ya CSS",
+      "defaultText": "Texample ya Text Shadow",
+      "presetsLabel": "Maombi ya kushoto",
+      "textSettings": "Mahususi ya kificho",
+      "previewText": "Kumbukumbu ya kificho",
+      "fontSize": "Ukubwa wa font",
+      "textColor": "Color ya kificho",
+      "shadowPrefix": "Shadow {{index}}",
+      "offsetX": "Offset ya X",
+      "offsetY": "Offset ya Y",
+      "blur": "Blur",
+      "opacity": "Opacity",
+      "color": "Color",
+      "addShadow": "Ongeza shadow",
+      "codeTitle": "Kodi ya CSS",
+      "copy": "Copy",
+      "copied": "Imekopied",
+      "presets": [
+        {
+          "name": "Shadow ya kisasi",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 2,
+              "y": 2,
+              "blur": 4,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Glow ya neon",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#00ff00",
+              "opacity": 0.8
+            }
+          ]
+        },
+        {
+          "name": "Glow ya purple",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 5,
+              "color": "#ff00ff",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#ff00ff",
+              "opacity": 0.8
+            },
+            {
+              "id": 3,
+              "x": 0,
+              "y": 0,
+              "blur": 20,
+              "color": "#ff00ff",
+              "opacity": 0.6
+            }
+          ]
+        },
+        {
+          "name": "Layered 3D",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 1,
+              "y": 1,
+              "blur": 0,
+              "color": "#666666",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 2,
+              "y": 2,
+              "blur": 0,
+              "color": "#888888",
+              "opacity": 1
+            },
+            {
+              "id": 3,
+              "x": 3,
+              "y": 3,
+              "blur": 0,
+              "color": "#aaaaaa",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "name": "Embossed",
+          "shadows": [
+            {
+              "id": 1,
+              "x": -1,
+              "y": -1,
+              "blur": 1,
+              "color": "#ffffff",
+              "opacity": 0.8
+            },
+            {
+              "id": 2,
+              "x": 1,
+              "y": 1,
+              "blur": 1,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "websocketTest": {
+      "title": "Kitambu cha Kupima WebSocket Online",
+      "description": "Kupima mabadiliko na mizani ya WebSocket online",
+      "defaultUrl": "wss://echo.websocket.org",
+      "connectingTo": "Kuwasiliana na {{url}}...",
+      "connectSuccess": "Imeongezwa kwa kila ufanisi",
+      "connectError": "Kosa katika kuanzisha mtandao",
+      "connectionClosed": "Mtandao umekatwa (Code: {{code}})",
+      "connectFailed": "Kuwasiliana bado: {{message}}",
+      "disconnecting": "Kuondoka...",
+      "urlPlaceholder": "Andika URL ya WebSocket, kama mfano: wss://echo.websocket.org",
+      "disconnect": "Kuondoka",
+      "connecting": "Kuwasiliana...",
+      "connect": "Wasiliana",
+      "connected": "Imeongezwa",
+      "notConnected": "Haujapatikana",
+      "messageLog": "Log ya mizani",
+      "clear": "Unyata",
+      "noMessages": "Hakuna mizani hali yake",
+      "messagePlaceholder": "Andika mizani... (Enter kusoma, Shift+Enter kufunga mizani mpya)",
+      "infoTitle": "Makala ya WebSocket",
+      "infoItems": [
+        "Mwenye kazi wa echo inayofundisha kwa kuzingatia kuzalisha na kuzalisha kawaida",
+        "Inafundisha msigizo wa ws:// na wss://",
+        "Sasisha Enter kusoma, Shift+Enter kufunga mizani mpya",
+        "Kamati kama mwenyekiti wako anasirikia mtandao wa WebSocket kutoka kwenye browser"
+      ],
+      "examplesTitle": "Mifano ya kawaida",
+      "publicEcho": "Mwenye kazi wa echo ya kijamii",
+      "defaultTag": "Default"
+    },
+    "csrGenerator": {
+      "title": "Mchangia wa CSR na Mazingatia",
+      "description": "Kuzalisha faili za CSR online na kuzingatia maelezo ya CSR",
+      "enterDomain": "Tafuta jina la domain",
+      "generateFailed": "Kuwasiliana bado",
+      "parseFailed": "Kuwasiliana bado",
+      "serverConnectionFailed": "Kuwasiliana bado na server, tafadhali jaribu tena baadaye",
+      "tabs": {
+        "generate": "Kuzalisha CSR",
+        "view": "Tazama CSR"
+      },
+      "formTitle": "Maelezo ya certificate",
+      "labels": {
+        "commonName": "Domain (Common Name)",
+        "organization": "Organization",
+        "organizationUnit": "Department",
+        "city": "City",
+        "state": "State / Province",
+        "country": "Country / Region",
+        "email": "Email",
+        "keySize": "Ukubwa wa key"
+      },
+      "placeholders": {
+        "commonName": "Kama mfano: www.example.com au *.example.com",
+        "organization": "Kama mfano: Example Inc.",
+        "organizationUnit": "Kama mfano: IT Department",
+        "city": "Kama mfano: Beijing",
+        "state": "Kama mfano: Beijing",
+        "email": "Kama mfano: admin@example.com",
+        "csr": "Pande maelezo ya CSR hapa, kuanzia na -----BEGIN CERTIFICATE REQUEST-----"
+      },
+      "countries": [
+        {
+          "value": "CN",
+          "label": "CN - China"
+        },
+        {
+          "value": "US",
+          "label": "US - United States"
+        },
+        {
+          "value": "JP",
+          "label": "JP - Japan"
+        },
+        {
+          "value": "KR",
+          "label": "KR - South Korea"
+        },
+        {
+          "value": "GB",
+          "label": "GB - United Kingdom"
+        },
+        {
+          "value": "DE",
+          "label": "DE - Germany"
+        },
+        {
+          "value": "FR",
+          "label": "FR - France"
+        },
+        {
+          "value": "SG",
+          "label": "SG - Singapore"
+        },
+        {
+          "value": "HK",
+          "label": "HK - Hong Kong"
+        },
+        {
+          "value": "TW",
+          "label": "TW - Taiwan"
+        }
+      ],
+      "keySizes": [
+        {
+          "value": "2048",
+          "label": "2048 bit (kununua)"
+        },
+        {
+          "value": "4096",
+          "label": "4096 bit (kuchanganya)"
+        }
+      ],
+      "generating": "Kuzalisha...",
+      "generateAction": "Kuzalisha CSR na key ya private",
+      "csrRequest": "Kificho cha CSR",
+      "privateKey": "Key ya private (kuzuia kwa kila ugonjwa)",
+      "copy": "Copy",
+      "copied": "Imekopied",
+      "download": "Download",
+      "privateKeyWarning": "Key ya private inaonekana kwa kila ugonjwa. Kuzuia kwa kila ugonjwa na hakuna kushiriki hasa. Ikiwa inapoteza, usalama wa certificate yako inaweza kuharibika.",
+      "inputCsr": "Pande maelezo ya CSR",
+      "parsing": "Kuzingatia...",
+      "parseAction": "Kuzingatia CSR",
+      "csrInfo": "Maelezo ya CSR",
+      "infoItems": [
+        {
+          "label": "Domain (CN)",
+          "key": "commonName"
+        },
+        {
+          "label": "Organization (O)",
+          "key": "organization"
+        },
+        {
+          "label": "Department (OU)",
+          "key": "organizationUnit"
+        },
+        {
+          "label": "City (L)",
+          "key": "city"
+        },
+        {
+          "label": "State / Province (ST)",
+          "key": "state"
+        },
+        {
+          "label": "Country (C)",
+          "key": "country"
+        },
+        {
+          "label": "Email",
+          "key": "email"
+        },
+        {
+          "label": "Algorithm ya key",
+          "key": "keyAlgorithm"
+        },
+        {
+          "label": "Ukubwa wa key",
+          "key": "keySize"
+        },
+        {
+          "label": "Algorithm ya kuthibitisha",
+          "key": "signatureAlgorithm"
+        }
+      ],
+      "keySizeValue": "{{value}} bit",
+      "aboutTitle": "Ni nini CSR?",
+      "aboutDescription": "CSR (Certificate Signing Request) ni faili iliyotengenezwa linalotumika kwa kuchangia certificate authority (CA) wakati wa kuchangia certificate ya SSL/TLS. Inahusiana na maelezo ya domain yako na kampuni yako, pamoja na public key ambayo inafanana na key ya private yako. Baada ya kuthibitisha, CA inatumia CSR kuzalisha certificate ya SSL."
+    },
+    "metaGenerator": {
+      "title": "Mchangia wa Meta Tag",
+      "description": "Kuzalisha meta tags ya webpage ya SEO",
+      "basicInfo": "Maelezo ya kawaida",
+      "socialMedia": "Social media (Open Graph)",
+      "generatedCode": "Kodi iliyozalishwa",
+      "copy": "Copy",
+      "copied": "Imekopied",
+      "searchPreview": "Tazama ya kushoraja",
+      "searchPreviewTitleFallback": "Kichicho cha mfumo",
+      "searchPreviewDescriptionFallback": "Maelezo yako ya mfumo itakuwa hapa...",
+      "socialPreview": "Tazama ya kujishiria",
+      "socialPreviewTitleFallback": "Kichicho",
+      "socialPreviewDescriptionFallback": "Maelezo",
+      "labels": {
+        "title": "Kichicho cha mfumo",
+        "description": "Maelezo ya mfumo",
+        "keywords": "Vitawila",
+        "author": "Mwanzizi",
+        "robots": "Mauaji ya robots",
+        "ogTitle": "Kichicho cha OG",
+        "ogDescription": "Maelezo ya OG",
+        "ogImage": "URL ya picha ya OG",
+        "ogUrl": "URL ya mfumo",
+        "twitterCard": "Aina ya card ya Twitter"
+      },
+      "placeholders": {
+        "title": "Andika kichicho cha mfumo",
+        "description": "Andika maelezo ya mfumo, kwa ujumbe wa 150 alama",
+        "keywords": "vitawila1, vitawila2, vitawila3",
+        "author": "Andika jina la mwanzizi",
+        "ogTitle": "Andika kichicho cha kujishiria",
+        "ogDescription": "Andika maelezo ya kujishiria",
+        "ogImage": "https://example.com/image.jpg",
+        "ogUrl": "https://example.com/page"
+      },
+      "robotsOptions": [
+        {
+          "value": "index, follow",
+          "label": "Kubeba kusikiliza na kusikiliza"
+        },
+        {
+          "value": "index, nofollow",
+          "label": "Kubeba kusikiliza, kusitisha kusikiliza"
+        },
+        {
+          "value": "noindex, follow",
+          "label": "Kusitisha kusikiliza, kubeba kusikiliza"
+        },
+        {
+          "value": "noindex, nofollow",
+          "label": "Kusitisha kusikiliza na kusikiliza"
+        }
+      ],
+      "twitterOptions": [
+        {
+          "value": "summary",
+          "label": "Summary"
+        },
+        {
+          "value": "summary_large_image",
+          "label": "Picha kubwa"
+        },
+        {
+          "value": "player",
+          "label": "Player"
+        }
+      ]
+    },
+    "toolHistoryDemo": {
+      "confirmClear": "Una uamini unataka kufuta historia ya mchakato wote na kuchukua mbali?",
+      "exportTitle": "Chagua data",
+      "usageCount": "Imeundwa {{count}} mitatu",
+      "lastUsed": "Ilivyotumika baada ya kuzaliwa: {{time}}",
+      "favorite": "Kuchukua mbali: {{value}}",
+      "yes": "Ndio",
+      "no": "Hapana",
+      "exportFailed": "Chagua bora",
+      "tabs": {
+        "overview": "Umbizo",
+        "history": "History",
+        "favorites": "Kuchukua mbali",
+        "analytics": "Analytics"
+      },
+      "loading": "Kuondoka data ya history ya mchakato...",
+      "loadFailed": "Kuondoka bora: {{error}}",
+      "title": "Demo ya History ya Mchakato",
+      "description": "Inaonyesha usimbaji wa mchakato, kuchukua mbali na analytics",
+      "export": "Chagua",
+      "clear": "Futa",
+      "searchPlaceholder": "Tafuta mchakato...",
+      "stats": {
+        "totalTools": "Mchakato total",
+        "totalUsage": "Usimbaji total",
+        "favoriteTools": "Mchakato ya kuchukua mbali",
+        "averageUsage": "Usimbaji wa kiasi"
+      },
+      "favoriteToolsTitle": "Mchakato ya kuchukua mbali",
+      "favoriteToolsDescription": "Mchakato ambayo umekuweka kama kuchukua mbali",
+      "noFavoriteTools": "Hakuna mchakato ya kuchukua mbali yetu",
+      "mostUsed": "Mchakato ya kuvutia kwa kiasi",
+      "timesUsed": "Imeundwa {{count}} mitatu",
+      "recentActivity": "Ukumbusho wa siku ya kizuri",
+      "exportDialogTitle": "Chagua history ya mchakato",
+      "exportDialogDescription": "Chagua aina ya chagua",
+      "formats": {
+        "json": {
+          "title": "Aina ya JSON",
+          "description": "Bora kwa backup na kusema kwa wasomi"
+        },
+        "csv": {
+          "title": "Aina ya CSV",
+          "description": "Bora kwa spreadsheet kama Excel"
+        },
+        "txt": {
+          "title": "Aina ya TXT",
+          "description": "Kiswala cha kijambo"
+        }
+      },
+      "cancel": "Katalisha"
+    },
+    "userAgentParser": {
+      "title": "Mchakatuo wa User-Agent",
+      "description": "Kusimamia mabano ya User-Agent ili kuanza taarifa ya browser, system na mchakato",
+      "label": "Mabano ya User-Agent",
+      "useCurrent": "Tumia browser lako la sasa",
+      "inputPlaceholder": "Andika mabano ya User-Agent...",
+      "parse": "Kusimamia",
+      "unknownBrowser": "Browser haifai",
+      "unknown": "Haifai",
+      "deviceTypes": {
+        "mobile": "Mobile",
+        "tablet": "Tablet",
+        "desktop": "Desktop"
+      },
+      "browserInfo": "Taarifa ya browser",
+      "browser": "Browser",
+      "version": "Version",
+      "majorVersion": "Version ya kuu",
+      "operatingSystem": "Sistema ya kazi",
+      "system": "Sistema",
+      "deviceInfo": "Taarifa ya mchakato",
+      "type": "Aina",
+      "vendor": "Mwenyekiti",
+      "model": "Modeli",
+      "engineAndCpu": "Engine & CPU",
+      "engine": "Engine",
+      "engineVersion": "Version ya engine",
+      "cpuArchitecture": "Architectura ya CPU",
+      "examplesTitle": "Mabano ya User-Agent ya kasi"
+    },
+    "cssBoxShadow": {
+      "title": "Mchakatuo wa Box Shadow ya CSS",
+      "description": "Kuhakikisha maombi ya box-shadow kwa kuvuta na kuzingatia code ya CSS",
+      "preview": "Tazama",
+      "basicSettings": "Maagizo ya kawaida",
+      "backgroundColor": "Color ya background",
+      "boxColor": "Color ya box",
+      "borderRadius": "Radius ya border",
+      "shadowPrefix": "Shadow {{index}}",
+      "inset": "Inset",
+      "offsetX": "Offset X",
+      "offsetY": "Offset Y",
+      "blur": "Blur",
+      "spread": "Spread",
+      "opacity": "Opacity",
+      "color": "Color",
+      "addShadow": "Kusanya shadow",
+      "codeTitle": "Code ya CSS",
+      "copy": "Kopie",
+      "copied": "Imekopied"
+    },
+    "cssGlassmorphism": {
+      "title": "Mchakatuo wa Glassmorphism ya CSS",
+      "description": "Kuzingatia code ya CSS ya kipimo cha glassmorphism kwa online",
+      "cardTitle": "Card ya Glassmorphism",
+      "cardDescription": "Glassmorphism ni kipimo cha UI kipya ambacho kusifuata transparency, blur na borders ya kawaida kupigwa kwa kipimo cha glass.",
+      "adjustTitle": "Kuhakikisha maagizo",
+      "blur": "Blur ya background",
+      "transparency": "Transparency",
+      "saturation": "Saturation",
+      "borderRadius": "Radius ya border",
+      "borderOpacity": "Opacity ya border",
+      "codeTitle": "Code ya CSS",
+      "copy": "Kopie",
+      "copied": "Imekopied",
+      "infoTitle": "Maelezo ya kushiriki",
+      "infoDescription": "Property ya backdrop-filter inatumia kusaidia kwa browser kisichochunguza. Firefox inaweza kuwa na matumizi ya kisichochunguza, na Safari inaweza kuchukua prefix ya -webkit-. Kumbuka kwa kushiriki kwa browser ambao hakuna mabadiliko."
+    },
+    "desktopShortcut": {
+      "title": "Mchakatuo wa Desktop ya Website",
+      "description": "Kuzingatia mchakato wa desktop ya website na kuyalisha kwa kasi",
+      "enterUrl": "Tafuta URL ya website sahihi",
+      "enterName": "Tafuta jina la mchakato",
+      "redirectingTo": "Kuungua {{name}}...",
+      "urlLabel": "URL ya website",
+      "urlPlaceholder": "example.com au https://example.com",
+      "nameLabel": "Jina la mchakato",
+      "namePlaceholder": "Mchakato wa website",
+      "downloadUrlFile": "Chagua file ya .url",
+      "downloadHtmlFile": "Chagua file ya .html",
+      "infoTitle": "Maelezo",
+      "urlFileDesc": "File ya .url ni file ya shortcut ya Internet ya Windows na hali ya kawaida hutoa website ya msingi kwa browser yako ya kawaida.",
+      "htmlFileDesc": "Faili za .html zinazosajili kwenye Windows, macOS na Linux na zinaweza kutumika kama msumari wa mfumo wa web.",
+      "afterDownload": "Baada ya kuchukua, angusha faili hilo kwenye desktop yako au uingize wapi unahitaji."
+    },
+    "htmlPreview": {
+      "title": "Tazama ya HTML",
+      "description": "Kusoma na kuzungumza HTML kwenye mtandao",
+      "defaultMessage": "Karibu katika mshangao wa tazama ya HTML",
+      "editorTitle": "Kodi ya HTML",
+      "clear": "Piga",
+      "editorPlaceholder": "Ingiza kodi ya HTML hapa...",
+      "previewTitle": "Tazama",
+      "run": "Kuendeleza",
+      "fullscreen": "Makundi ya kikambo",
+      "exitFullscreen": "Chukua kikambo",
+      "usageTitle": "Kufundisha",
+      "usageItems": [
+        "Ingiza kodi ya HTML kamilifu katika mchango wa kushangaa kuelewa",
+        "Bofya Run ili kuzungumza maombi",
+        "CSS na JavaScript inayotokana ni husaini",
+        "Kodi kinachokwenda katika sandbox kwa usalama"
+      ]
+    },
+    "pageRefresh": {
+      "title": "Kutuma mabano kwa otomo",
+      "description": "Kutuma mabano ya mfumo kwa otomo kwenye mtandao",
+      "urlRequired": "Tafadali ingize URL",
+      "urlPlaceholder": "Ingiza URL, kama vile https://example.com",
+      "seconds": "sekunde",
+      "start": "Kuanzia",
+      "stop": "Kuzindua",
+      "quickSet": "Preset mbaya:",
+      "secondsValue": "{{count}}s",
+      "minutesValue": "{{count}} min",
+      "running": "Inatuma",
+      "refreshIn": "Kutuma baada ya {{count}} sekunde",
+      "refreshedCount": "Kutuma {{count}} mwa muda",
+      "lastRefresh": "Kutuma wakati wa mwisho: {{time}}",
+      "previewTitle": "Tazama ya mfumo",
+      "previewPlaceholder": "Ingiza URL ili kuanza kuzungumza",
+      "usageTitle": "Kufundisha",
+      "usageItems": [
+        "Ingiza URL ya mfumo na kuhesabu muda wa kutuma",
+        "Bofya Kuanzia kuanza kutuma kwa otomo",
+        "Mfumo mengi haawezi kuvunjika katika iframe kwa sababu ya sheria za usalama",
+        "Hupatia kusaidia kutoa mabadiliko ya mfumo au kusimamia sesi"
+      ]
+    },
+    "pxToRem": {
+      "title": "Kongambo la PX kwa REM",
+      "description": "Kongambo la kodi ya CSS ya PX kwa REM",
+      "baseFontSize": "Ukubwa wa font ya asili",
+      "precision": "Usahihi wa decimal",
+      "precisionOptions": {
+        "2": "2 digitu",
+        "3": "3 digitu",
+        "4": "4 digitu",
+        "5": "5 digitu"
+      },
+      "inputLabel": "Kodi ya CSS",
+      "convertToRem": "PX kwa REM",
+      "convertToPx": "REM kwa PX",
+      "outputLabel": "Malipo",
+      "copy": "Kunipa",
+      "copied": "Kunipwa",
+      "outputPlaceholder": "Malipo ya kongambo itakuwa hapa...",
+      "quickReferenceTitle": "Maelezo ya kawaida (asili: {{baseSize}}px)",
+      "whyUseRem": "Kwa nini kusemu REM?",
+      "infoItems": [
+        "REM inaendana na ukubwa wa font ya asili (html)",
+        "Kuweka REM inashangaa kusasisha mkono wa mfumo",
+        "Inashangaa kusaidia kwa mifumo ya kutosha na usalama"
+      ],
+      "formula": "Fomula: rem = px / {{baseSize}}"
+    },
+    "shieldBadge": {
+      "title": "Kuunda Moyo wa Kipande",
+      "description": "Kuunda kipande cha SVG kwenye mtandao",
+      "downloadFailed": "Kutuma kama kushindwa, tafadali jaribu tena baadaye",
+      "basicSettings": "Makundi ya msingi",
+      "labelField": "Kichaguo",
+      "messageField": "Ujumbe",
+      "color": "Color",
+      "style": "Style",
+      "logoSettings": "Makundi ya logo",
+      "logo": "Logo",
+      "none": "Hakuna",
+      "logoColor": "Ukubwa wa logo",
+      "preview": "Tazama",
+      "downloadSvg": "Kutuma SVG",
+      "codeTitle": "Kodi",
+      "copiedToClipboard": "Kunipwa kwenye clipboard"
+    },
+    "robotsGenerator": {
+      "title": "Kuunda robots.txt",
+      "description": "Kuunda faili ya robots.txt kwenye mtandao",
+      "templatesLabel": "Makundi ya kisasi:",
+      "templates": {
+        "allowAll": "Kubeba kila",
+        "blockAll": "Kusitisha kila",
+        "standard": "Makundi ya kisasi"
+      },
+      "ruleTitle": "Kanuni {{index}}",
+      "userAgents": {
+        "all": "* (kila kumbukumbu)",
+        "baidu": "Baiduspider (Baidu)",
+        "sogou": "Sogou"
+      },
+      "disallow": "Kusitisha mstare",
+      "allow": "Kubeba mstare",
+      "add": "Ongeza",
+      "addRule": "Ongeza kanuni",
+      "otherSettings": "Makundi mengine",
+      "sitemapUrl": "URL ya sitemap",
+      "crawlDelay": "Kuzungumza kwa sekunde",
+      "preview": "Tazama ya robots.txt",
+      "copy": "Kunipa",
+      "copied": "Kunipwa",
+      "saveTip": "Chukua faili hili kama robots.txt na uenzi kwenye mfumo wa kwanza wa mfumo wako"
+    },
+    "emailEncrypt": {
+      "title": "Kuwasilisha Email",
+      "description": "Kuwasilisha email kuondoka kwa bots",
+      "inputLabel": "Anwani ya email",
+      "copy": "Kunipa",
+      "copied": "Kunipwa",
+      "infoTitle": "Kwa nini kusilisha anwani ya email?",
+      "infoItems": [
+        "Kuondoka kwa riski ya bots kusilisha anwani ya email kwa spam",
+        "Anwani ya wasilisha zinaweza kuvunjika kwenye browser ambapo zinaweza kusitisha kwa bots",
+        "Makundi ya kusilisha zinaweza kuchukuliwa kwa usalama zaidi",
+        "Hakuna kujaribu kwa matumizi ya kusidika kwa kampeni"
+      ],
+      "results": {
+        "unicodeDecimal": {
+          "name": "Unicode decimal",
+          "description": "Kongambo ya kificho kwa Unicode decimal"
+        },
+        "unicodeHex": {
+          "name": "Unicode hexadecimal",
+          "description": "Kongambo ya kificho kwa Unicode hexadecimal"
+        },
+        "javascript": {
+          "name": "Output ya JavaScript",
+          "description": "Kuzungumza anwani kwa JavaScript"
+        },
+        "mailto": {
+          "name": "Link ya mailto",
+          "description": "Kuunda link ya mailto kusilishwa"
+        },
+        "cssReverse": {
+          "name": "Display ya CSS reverse",
+          "description": "Kuzungumza kificho kwa mpangilio wa kinywaji kwa CSS"
+        }
+      }
+    },
+    "workerDemo": {
+      "title": "Kutengeneza Kipimo cha Web Worker",
+      "description": "Kutengeneza kipimo cha kuchukua kati ya Web Workers na thread ya kawaida",
+      "invalidInteger": "Tafadali ingiza integer ya kimoja",
+      "workerError": "Kosa cha kuchukua kwa worker:",
+      "notice": "Maelezo",
+      "settingsTitle": "Makundi ya kuchukua",
+      "inputLabel": "Thamani ya kuchukua",
+      "inputPlaceholder": "Ingiza integer ya kimoja",
+      "operationLabel": "Kuchukua",
+      "operations": {
+        "factorial": "Factorial (n!)",
+        "fibonacci": "Kikapu cha Fibonacci",
+        "prime": "Kumbukumbu ya prime",
+        "factorization": "Kongambo ya prime"
+      },
+      "workerCalculate": "Kuchukua kwa Web Worker",
+      "mainThreadCalculate": "Kuchukua kwenye thread ya kawaida",
+      "comparisonTitle": "Kutengeneza kipimo",
+      "workerResult": "Kipimo cha Web Worker",
+      "mainThreadResult": "Kipimo cha thread ya kawaida",
+      "resultLabel": "Kipimo:",
+      "timeLabel": "Muda wa kuchukua:",
+      "calculating": "Kuchukua...",
+      "emptyState": "Bofya kwenye button ya juu ili kuanza kuchukua",
+      "infoTitle": "Kwa nini kusemu Web Workers?",
+      "workerFeaturesTitle": "Vipengele vya Web Worker",
+      "workerFeatures": [
+        "Inafanya kazi katika thread ya kawaida bila kusitisha thread ya kawaida",
+        "Ni muhimu kwa kuchukua kubwa",
+        "Inashangaa UI ya kawaida",
+        "Inashangaa kuchukua kwa mengine"
+      ],
+      "useCasesTitle": "Makundi ya matumizi",
+      "useCases": [
+        "Kuchukua data kubwa",
+        "Algoritmi kubwa",
+        "Kuchukua picha",
+        "Kuungua na kuzingatia"
+      ]
+    },
+    "jsDebug": {
+      "title": "Debugger ya JS",
+      "description": "Kuzalisha na kujifunza JavaScript kwenye mawazo",
+      "defaultCode": "// Andika kodi ya JavaScript hapa\nconsole.log(\"Hello, World!\");\n\n// Mifano: Kusoma vya kadi\nconst numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(n => n * 2);\nconsole.log(\"Kadi ya awali:\", numbers);\nconsole.log(\"Kadi ya kwa mfano:\", doubled);\n\n// Mifano: Object\nconst user = {\n  name: \"Zhang San\",\n  age: 25,\n  city: \"Beijing\"\n};\nconsole.log(\"Maendeleo ya mtumiaji:\", user);\n\n// Mifano: Kazi ya asinkroni\nsetTimeout(() => {\n  console.log(\"Kufanywa baada ya sekunde moja\");\n}, 1000);",
+      "editorTitle": "Kodi ya JavaScript",
+      "copy": "Kutembea",
+      "copied": "Imekutembea!",
+      "clear": "Sakinisha",
+      "placeholder": "Andika kodi ya JavaScript hapa...",
+      "run": "Kuzalisha kodi",
+      "consoleTitle": "Output ya Console",
+      "consolePlaceholder": "Output ya Console itakuja hapa...",
+      "usageTitle": "Kama kusomeka",
+      "usageItems": [
+        "Tumia console.log(), console.error(), na console.warn() ili kuandika msg",
+        "Inayofanana na syntax ya ES6+ kama functions ya arrow, destructuring, na strings ya template",
+        "Inayofanana na kazi za asinkroni kama setTimeout na Promise",
+        "Kodi anapokelewa katika sandbox na sio inayoondoka DOM au mafundisho ya ndani"
+      ]
+    },
+    "formValidationDemo": {
+      "title": "Demo ya Kuthibitisha Formu",
+      "description": "Inashirikiana na kuthibitisha jumla ya formu, kama validation ya kuvutia, matatizo ya kushangaa, na kutoa data",
+      "validation": {
+        "username": "Jina la mtumiaji linalotumiwa kama letters, numbers, na underscores, na lazima 3-20 characters",
+        "phone": "Tafuta jina la simu halali",
+        "age": "Umri lazima 1-120",
+        "idCard": "Tafuta jina la kadi ya id halali",
+        "address": "Anwani lazima si kubwa kuliko 200 characters",
+        "bio": "Bio lazima si kubwa kuliko 500 characters"
+      },
+      "submitSuccess": "Kuthibitisha formu ilipaswa! Data iliyotuma:",
+      "quickTestTitle": "Kutathmini kinyume cha kisasa",
+      "quickLabels": {
+        "email": "Kuthibitisha email",
+        "phone": "Kuthibitisha simu",
+        "url": "Kuthibitisha URL"
+      },
+      "quickPlaceholders": {
+        "email": "Andika jina la email",
+        "phone": "Andika jina la simu",
+        "url": "Andika jina la URL"
+      },
+      "valid": "Halali",
+      "invalid": "Sahau",
+      "formTitle": "Kuthibitisha jumla ya formu",
+      "placeholders": {
+        "username": "Jina la mtumiaji (letters, numbers, underscores)",
+        "email": "Jina la email",
+        "phone": "Simu ya kijamii",
+        "website": "Website ya kijamii (kwa kasi)",
+        "age": "Umri",
+        "idCard": "Jina la kadi ya id",
+        "address": "Anwani ya kijamii (kwa kasi)",
+        "bio": "Bio (kwa kasi, hasa 500 characters)"
+      },
+      "success": {
+        "username": "Jina la mtumiaji linalotumiwa ni sahihi",
+        "email": "Jina la email linalotumiwa ni sahihi",
+        "phone": "Jina la simu linalotumiwa ni sahihi",
+        "website": "Jina la URL linalotumiwa ni sahihi",
+        "age": "Umri ni sahihi",
+        "idCard": "Jina la kadi ya id linalotumiwa ni sahihi",
+        "address": "Anwani ni sahihi",
+        "bio": "Bio ni sahihi"
+      },
+      "submit": "Kuchukua formu",
+      "summaryTitle": "Kisasa cha kuthibitisha",
+      "fieldLabels": {
+        "username": "Jina la mtumiaji",
+        "email": "Email",
+        "phone": "Simu",
+        "website": "Website",
+        "age": "Umri",
+        "idCard": "Kadi ya ID",
+        "address": "Anwani",
+        "bio": "Bio"
+      },
+      "summaryStatus": {
+        "failed": "Kuthibitisha alikosa",
+        "passed": "Kuthibitisha ilipaswa",
+        "empty": "Haijazosoma"
+      },
+      "infoTitle": "Vidonge vya kuthibitisha formu",
+      "infoItems": [
+        {
+          "title": "Kuthibitisha kuvutia",
+          "description": "Kuthibitisha kwa wakati wa kusoma na kuthibitisha tena wakati wa blur"
+        },
+        {
+          "title": "Makundi ya matokeo ya kutosha",
+          "description": "Inayofanana na matokeo ya kutosha, kama kutosha, kutoa matokeo, regex, na kutosha kwa kumbukumbu"
+        },
+        {
+          "title": "Kuvutia kwa uchumi",
+          "description": "Kuvutia kwa kivuli, picha, na matokeo ya kivuli"
+        },
+        {
+          "title": "Kutoa data",
+          "description": "Kuvutia na kuzingatia data iliyotuma kwa kawaida"
+        },
+        {
+          "title": "Matatizo ya kushangaa ya kisasa",
+          "description": "Kuvutia maelezo ya kisasa kwa kusaidia kuharibu kusoma"
+        },
+        {
+          "title": "Kusaidia kusoma",
+          "description": "Kusaidia kuzuia formu kwa wote wao"
+        }
+      ]
+    },
+    "faviconGenerator": {
+      "title": "Mshororo wa Favicon",
+      "description": "Kuzingatia picha kama picha ya favicon ya website",
+      "historyTitle": "Mshororo wa Favicon",
+      "historyCategory": "Makamu ya Picha",
+      "uploadImageFile": "Tafuta picha ya file",
+      "generateFailed": "Kushambulia picha alikosa, tafuta tena",
+      "uploadTitle": "Piga picha",
+      "uploadAria": "Piga picha ya file",
+      "dropzoneAria": "Bonyeza kusafisha picha, inayofanana na PNG, JPG, SVG na zaidi",
+      "dropRelease": "Bonyeza kusafisha picha",
+      "dropClick": "Bonyeza au kambeni picha hapa",
+      "supportFormats": "Inayofanana na PNG, JPG, SVG na zaidi",
+      "clearImage": "Kasurua picha",
+      "clearImageTitle": "Kasurua picha (Ctrl+L)",
+      "settingsTitle": "Makini",
+      "removeBackground": "Kasurua rangi ya background ya picha",
+      "removeColor": "Rangi ya kusurua",
+      "removeColorPicker": "Chagua rangi ya background ya kusurua",
+      "removeColorValue": "Rangi ya background ya kusurua",
+      "tolerance": "Tolerance: {{value}}",
+      "toleranceAria": "Tolerance ya rangi",
+      "toleranceTip": "Kumbuka tolerance kubwa inakusurua rangi ya kawaida",
+      "transparentBackground": "Background ya kawaida",
+      "transparentTip": "Maelezo: Ikiwa picha ya awali ina rangi ya background, ifungu ?Kasurua rangi ya background ya picha?.",
+      "backgroundColor": "Rangi ya background",
+      "backgroundColorPicker": "Chagua rangi ya background",
+      "backgroundColorValue": "Rangi ya background ya kusurua",
+      "selectSize": "Chagua ukubwa",
+      "selectedState": " (kuchaguliwa)",
+      "sizeAria": "{{size}}x{{size}} pixel size{{state}}",
+      "toggleSizeTitle": "Toggle {{size}}x{{size}} size (Alt+{{shortcut}})",
+      "previewTitle": "Kutaka",
+      "generating": "Kushambulia...",
+      "downloadSizeAria": "Download {{size}}x{{size}} icon",
+      "download": "Download",
+      "uploadFirst": "Tafuta picha kwanza",
+      "downloadTitle": "Download",
+      "downloadAllPng": "Download all sizes (PNG)",
+      "downloadAllPngTitle": "Download all PNG sizes (Ctrl+Enter)",
+      "downloadIco": "Download favicon.ico",
+      "downloadIcoTitle": "Download favicon.ico (Alt+I)",
+      "usageTitle": "Kama kusomeka",
+      "usageItems": [
+        "Kasurua rangi ya background: kasurua background ya kawaida kama gray au white",
+        "Tolerance: ondo tolerance kusurua rangi ya kawaida, inayofanana na backgrounds ya gradient",
+        "16x16: icon ya tab ya browser",
+        "32x32: icon ya shortcut ya taskbar",
+        "48x48: Windows website shortcut",
+        "Ongeza icon iliyoshambuliwa katika directory ya awali ya website yako"
+      ]
+    }
+  },
+  "components": {
+    "toolHistory": {
+      "usageCount": "Imetumia {{count}} mitatu",
+      "recentUsed": "Ilizotumia mwaka wa kiongozi: {{value}}",
+      "removeFavorite": "Kasurua kutoka kwa favorites",
+      "addFavorite": "Ongeza kwa favorites",
+      "removeRecord": "Kasurua record",
+      "emptyHistory": "Hakuna history ya tool yetu",
+      "confirmClear": "Unaomiliki kusakinisha history ya kila tool?",
+      "tabs": {
+        "recent": "Kiongozi",
+        "favorites": "Favorites",
+        "mostUsed": "Kushiriki kwa kiasi"
+      },
+      "title": "History ya Tool",
+      "clearHistory": "Sakinisha history",
+      "searchPlaceholder": "Tafuta history...",
+      "emptyMessages": {
+        "recent": "Hakuna records ya kiongozi",
+        "favorites": "Hakuna tools ya favorites yetu",
+        "mostUsed": "Hakuna tools ya kushiriki kwa kiasi yetu"
+      }
+    },
+    "exportFormatSelector": {
+      "buttonText": "Ongeza matokeo",
+      "exporting": "Kununua...",
+      "exportFailed": "Kununua alikosa, tafuta tena"
+    },
+    "ads": {
+      "loading": "Kununua ads...",
+      "carouselTitle": "Carousel ya Ad",
+      "checkConsole": "Tafuta kwenye console ya browser kwa matokeo ya kamilifu"
+    },
+    "networkStatus": {
+      "online": "Online",
+      "offline": "Offline",
+      "connected": "Network anayokokoa",
+      "disconnected": "Network anayokokoa",
+      "connectedDescription": "Kukubaliwa kuna vitu vyo kamilifu",
+      "disconnectedDescription": "Vituo vingi vinaonyesha kuwa bila kuhakikisha mzunguko wako.",
+      "requestFailed": "Kamati ya kujaribu"
+    },
+    "keyboardShortcutsHelp": {
+      "title": "Makusudi ya Kibao",
+      "close": "Kunyongwa",
+      "toggleDescription": "Onyesha au kuchaza maelezo ya makusudi ya kibao",
+      "helpTextBefore": "Suluhisha",
+      "helpTextMiddle": "au",
+      "helpTextAfter": "kutoa au kuchaza maelezo huu",
+      "tipTitle": "Mafanikio",
+      "tipItems": [
+        "Makusudi ya kibao yanaweza kuonekana kama kisasi kwa mazingira ya kazi",
+        "Kutakuwa na makusudi ambayo yanashambuliwa na makusudi ya browser",
+        "Tumia kibao cha Tab kuzunguka kati ya mizani ya kuvuta",
+        "Suluhisha Enter kuzalisha picha na mifano"
+      ],
+      "closeEsc": "Kunyongwa (ESC)"
+    },
+    "performanceDashboard": {
+      "title": "Dashboard ya Ushahidi",
+      "startMonitoring": "Anza kushangaa",
+      "stopMonitoring": "Piga mshukumo",
+      "exportReport": "Chagua rapoti",
+      "notMeasured": "Hajapewa matokeo",
+      "metrics": {
+        "fcp": "Kuanzisha Kupatia Paiti",
+        "lcp": "Kupatia Paiti Kikubwa",
+        "fid": "Kushangaa Kwanza",
+        "cls": "Kushangaa Kikubwa",
+        "ttfb": "Muda wa Kwanza wa Kipimo"
+      },
+      "memoryTitle": "Ukumbusho wa Kumbukumbu",
+      "memory": {
+        "used": "Kumbukumbu unayotumia",
+        "total": "Kumbukumbu kuu",
+        "usageRate": "Kiwango cha kutumia"
+      },
+      "tipsTitle": "Mafanikio ya Kuhakikisha",
+      "tips": [
+        "Tumia mfumo kwa njia ya kawaida wakati wa kushangaa; data itazunguka kwa sasa",
+        "FCP < 1.8s, LCP < 2.5s, FID < 100ms, na CLS < 0.1 ni kwa kawaida",
+        "Ikiwa ukumbusho unayotumia unapikiwa 80%, fanya uchumi wa programu",
+        "Unaweza kuchagua rapoti ya kijazo kwa uchungu wa kushangaa"
+      ],
+      "emptyState": "Bofya ?Anza kushangaa? ili kuanza kushangaa"
+    }
+  }
+}

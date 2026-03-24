@@ -1,0 +1,2730 @@
+{
+  "common": {
+    "home": "หน้าแรก",
+    "websiteDetection": "การตรวจสอบเว็บไซต์",
+    "seoTools": "เครื่องมือ SEO",
+    "devTools": "เครื่องมือผู้พัฒนา",
+    "encodingConversion": "เครื่องมือแปลงรหัส",
+    "otherTools": "เครื่องมืออื่นๆ",
+    "feedback": "ข้อเสนอแนะ",
+    "customization": "โซลูชันเฉพาะบุคคล / ติดต่อเรา",
+    "back": "ย้อนกลับ",
+    "appName": "เครื่องมือสำหรับผู้ดูแลเว็บแบบครบวงจร",
+    "brandName": "ผลิตภัณฑ์ของ A Kunqiong",
+    "loading": "กำลังโหลด...",
+    "processing": "กำลังประมวลผล",
+    "processingDescription": "กรุณารอสักครู่ขณะที่เราประมวลผลข้อมูลของคุณ...",
+    "inProgress": "กำลังดำเนินการ",
+    "search": "ค้นหาเครื่องมือ...",
+    "my": "ของฉัน",
+    "menu": "เมนู",
+    "settings": "ตั้งค่า",
+    "all": "ทั้งหมด",
+    "category": "ประเภท",
+    "noToolsFound": "ไม่พบเครื่องมือที่ตรงกัน",
+    "recommended": "แนะนำ",
+    "usageCount": "ใช้ {{count}} ครั้ง",
+    "toolsCount": "{{count}} เครื่องมือ",
+    "export": "ส่งออก",
+    "usageInstructions": "คำแนะนำการใช้งาน"
+  },
+  "auth": {
+    "login": "เข้าสู่ระบบ",
+    "logout": "ออกจากระบบ",
+    "userInfo": "ข้อมูลผู้ใช้",
+    "nickname": "ชื่อเล่น",
+    "avatar": "รูปโปรไฟล์",
+    "user": "ผู้ใช้",
+    "loggedIn": "เข้าสู่ระบบแล้ว",
+    "loggingOut": "กำลังออกจากระบบ...",
+    "loggingIn": "กำลังเข้าสู่ระบบ...",
+    "loginInstructions": "โปรดทำตามขั้นตอนการเข้าสู่ระบบในเบราว์เซอร์ของคุณ",
+    "cancelLogin": "ยกเลิกการเข้าสู่ระบบ",
+    "loginFailed": "การเข้าสู่ระบบล้มเหลว",
+    "retry": "ลองอีกครั้ง",
+    "close": "ปิด",
+    "loginDescription": "คลิกปุ่มด้านล่างเพื่อเปิดหน้าเข้าสู่ระบบในเบราว์เซอร์ของคุณ หลังจากที่คุณเข้าสู่ระบบสำเร็จ แอปจะซิงค์สถานะการเข้าสู่ระบบของคุณโดยอัตโนมัติ",
+    "loginTip": "เคล็ดลับ: ให้แน่ใจว่าเบราว์เซอร์ของคุณยังคงเปิดอยู่ระหว่างกระบวนการเข้าสู่ระบบ",
+    "openBrowserLogin": "เปิดหน้าเข้าสู่ระบบในเบราว์เซอร์",
+    "cancel": "ยกเลิก",
+    "loginReminder": "การแจ้งเตือนการเข้าสู่ระบบ",
+    "loginRequiredTitle": "จำเป็นต้องเข้าสู่ระบบ",
+    "loginRequiredDescription": "คุณต้องเข้าสู่ระบบก่อนใช้คุณสมบัตินี้ หลังจากเข้าสู่ระบบ คุณสามารถใช้บริการทั้งหมดได้อย่างเต็มที่",
+    "loginActionDescription": "คลิกปุ่มด้านล่างเพื่อเปิดหน้าเข้าสู่ระบบ แล้วดำเนินการเข้าสู่ระบบที่นั่น",
+    "loginNow": "เข้าสู่ระบบทันที",
+    "loginBenefit": "เข้าสู่ระบบเพื่อใช้คุณสมบัติทั้งหมด",
+    "errors": {
+      "getLoginUrlFailed": "ไม่สามารถดึง URL การเข้าสู่ระบบได้: {{message}}",
+      "getLoginUrlException": "เกิดข้อผิดพลาดขณะดึง URL การเข้าสู่ระบบ: {{error}}",
+      "loginCancelled": "การเข้าสู่ระบบถูกยกเลิก",
+      "pollingAbnormal": "การตอบกลับจากการสอบถามผิดปกติ: {{message}}",
+      "pollingFailed": "การสอบถามล้มเหลว: {{error}}",
+      "loginTimeout": "การเข้าสู่ระบบหมดเวลา",
+      "checkLoginStatusFailed": "ตรวจสอบสถานะการเข้าสู่ระบบล้มเหลว โค้ดสถานะ: {{status}}",
+      "checkLoginException": "เกิดข้อผิดพลาดขณะตรวจสอบสถานะการเข้าสู่ระบบ",
+      "getUserInfoFailed": "ไม่สามารถดึงข้อมูลผู้ใช้ได้: {{message}}",
+      "getUserInfoException": "เกิดข้อผิดพลาดขณะดึงข้อมูลผู้ใช้: {{error}}",
+      "logoutFailed": "ออกจากระบบล้มเหลว: {{message}}",
+      "logoutException": "เกิดข้อผิดพลาดขณะออกจากระบบ: {{error}}",
+      "getFeedbackUrlFailed": "ไม่สามารถดึง URL ข้อเสนอแนะได้: {{message}}",
+      "getFeedbackUrlException": "เกิดข้อผิดพลาดขณะดึง URL ข้อเสนอแนะ: {{error}}"
+    }
+  },
+  "favorite": {
+    "add": "เพิ่มลงในรายการโปรด",
+    "remove": "ลบออกจากรายการโปรด",
+    "label": "รายการโปรด",
+    "failed": "การดำเนินการล้มเหลว"
+  },
+  "errors": {
+    "fetchCustomUrlFailed": "ไม่สามารถดึง URL หน้ากำหนดเองได้:",
+    "fetchFeedbackUrlFailed": "ไม่สามารถดึง URL หน้าข้อเสนอแนะได้:",
+    "copyFailed": "คัดลอกล้มเหลว",
+    "networkError": "ข้อผิดพลาดในการเชื่อมต่อเครือข่าย",
+    "somethingWentWrong": "เกิดข้อผิดพลาดบางอย่าง",
+    "unexpectedError": "ขออภัย ได้เกิดข้อผิดพลาดที่ไม่คาดคิด",
+    "noData": "ไม่มีข้อมูล",
+    "noRelatedData": "ไม่พบข้อมูลที่เกี่ยวข้อง",
+    "noAds": "ไม่มีโฆษณา",
+    "fetchAdsError": "ไม่สามารถดึงโฆษณาได้",
+    "lookupFailed": "การค้นหาล้มเหลว"
+  },
+  "tools": {
+    "csr": {
+      "title": "CSR Generator & Viewer",
+      "description": "สร้างและดูไฟล์ CSR ออนไลน์"
+    },
+    "whois": {
+      "title": "Domain WHOIS Lookup",
+      "description": "ตรวจสอบข้อมูล WHOIS และรายละเอียดการลงทะเบียนโดเมนออนไลน์"
+    },
+    "dns": {
+      "title": "DNS Record Lookup",
+      "description": "ค้นหาข้อมูล DNS ออนไลน์ (A, MX, CNAME, etc.)"
+    },
+    "dnsEnhanced": {
+      "title": "DNS Record Lookup (Enhanced)",
+      "description": "การค้นหา DNS พร้อมการปรับปรุงการเลื่อนดิจิทัลสำหรับชุดข้อมูลที่มีขนาดใหญ่"
+    },
+    "httpStatus": {
+      "title": "HTTP Status Checker",
+      "description": "เครื่องมือฟรีออนไลน์เพื่อตรวจสอบรหัสสถานะ HTTP สำหรับหน้าเว็บ"
+    },
+    "gzip": {
+      "title": "Gzip Compression Check",
+      "description": "ตรวจสอบว่าหน้าเว็บถูกบีบอัดด้วย GZIP หรือไม่ และดูอัตราการบีบอัด"
+    },
+    "ssl": {
+      "title": "SSL Certificate Check",
+      "description": "ตรวจสอบรายละเอียดและอายุของใบรับรอง SSL ออนไลน์"
+    },
+    "browserInfo": {
+      "title": "Browser Info",
+      "description": "เครื่องมือฟรีเพื่อดูข้อมูลรายละเอียดเกี่ยวกับเบราว์เซอร์ปัจจุบันของคุณ"
+    },
+    "useragent": {
+      "title": "User-Agent Analyzer",
+      "description": "วิเคราะห์ข้อมูลเบราว์เซอร์และอุปกรณ์จากสาย User-Agent"
+    },
+    "websocket": {
+      "title": "WebSocket Tester",
+      "description": "เครื่องมือทดสอบ API WebSocket ฟรีออนไลน์"
+    },
+    "viewSource": {
+      "title": "View Page Source",
+      "description": "ดูโค้ดแหล่งที่มาของหน้าเว็บออนไลน์"
+    },
+    "metaGenerator": {
+      "title": "Meta Tag Generator",
+      "description": "สร้างแท็ก Meta ของหน้าเว็บออนไลน์"
+    },
+    "metaCheck": {
+      "title": "META Tag Check",
+      "description": "ตรวจสอบข้อมูลแท็ก META บนหน้าเว็บ"
+    },
+    "robots": {
+      "title": "robots.txt Generator",
+      "description": "สร้างไฟล์ robots.txt ออนไลน์"
+    },
+    "emailEncrypt": {
+      "title": "Email Address Encoder",
+      "description": "แปลงที่อยู่อีเมลเป็นรูปแบบที่เข้ารหัสเพื่อลดการรวบรวม"
+    },
+    "phpReference": {
+      "title": "PHP Function Reference",
+      "description": "รายการอ้างอิงฟังก์ชัน PHP ออนไลน์"
+    },
+    "htmlPreview": {
+      "title": "HTML Preview",
+      "description": "เครื่องมือแก้ไขและดูตัวอย่าง HTML ออนไลน์"
+    },
+    "jsDebug": {
+      "title": "JS Debugger",
+      "description": "รันและตรวจสอบข้อผิดพลาด JavaScript ออนไลน์"
+    },
+    "shieldBadge": {
+      "title": "Shield Badge Generator",
+      "description": "สร้างป้าย Shield SVG ออนไลน์"
+    },
+    "favicon": {
+      "title": "Favicon Generator",
+      "description": "เครื่องมือแปลง Favicon ที่ปลอดภัยออนไลน์"
+    },
+    "cssGlassmorphism": {
+      "title": "CSS Glassmorphism Generator",
+      "description": "สร้างโค้ด CSS Glassmorphism ได้ภายในคลิกเดียว"
+    },
+    "cssNeumorphism": {
+      "title": "Neumorphism CSS Generator",
+      "description": "สร้างตัวอย่างสไตล์ Neumorphism CSS ได้ภายในคลิกเดียว"
+    },
+    "pxToRem": {
+      "title": "PX to REM Converter",
+      "description": "แปลงหน่วย PX ใน CSS เป็น REM แบบแบตช์"
+    },
+    "cssBorderRadius": {
+      "title": "CSS Border Radius Generator",
+      "description": "ปรับแต่งสไตล์ขอบที่มนต์คดีออนไลน์"
+    },
+    "cssTextShadow": {
+      "title": "CSS Text Shadow Generator",
+      "description": "ดูตัวอย่างและสร้างโค้ด CSS text-shadow ออนไลน์"
+    },
+    "cssBoxShadow": {
+      "title": "Box Shadow Generator",
+      "description": "ปรับแต่งเงาของ div และสร้างโค้ด CSS"
+    },
+    "base64": {
+      "title": "Base64 Encode/Decode",
+      "description": "เครื่องมือเข้ารหัสและถอดรหัส Base64 ออนไลน์"
+    },
+    "urlEncode": {
+      "title": "URL Encode/Decode",
+      "description": "เครื่องมือเข้ารหัสและถอดรหัส URL ออนไลน์"
+    },
+    "htmlEntity": {
+      "title": "HTML Entity Encode/Decode",
+      "description": "เครื่องมือเข้ารหัสและถอดรหัส HTML Entity ออนไลน์"
+    },
+    "jsMinify": {
+      "title": "JS Minify & Beautify",
+      "description": "เครื่องมือลดขนาดและจัดรูปแบบ JavaScript ออนไลน์"
+    },
+    "cssMinify": {
+      "title": "CSS Minify & Beautify",
+      "description": "เครื่องมือลดขนาดและจัดรูปแบบ CSS ออนไลน์"
+    },
+    "desktopShortcut": {
+      "title": " Desktop Shortcut สำหรับเว็บไซต์",
+      "description": "สร้าง Desktop Shortcut สำหรับเว็บไซต์เพื่อเข้าถึงได้รวดเร็ว"
+    },
+    "pageRefresh": {
+      "title": "Auto Page Refresh",
+      "description": "รีเฟรชหน้าเว็บระยะไกลตามกำหนดเวลา"
+    },
+    "httpCodes": {
+      "title": "HTTP Status Codes",
+      "description": "อ้างอิงออนไลน์สำหรับรหัสสถานะ / คำตอบ HTTP"
+    },
+    "workerDemo": {
+      "title": "Web Worker Performance Demo",
+      "description": "ดูว่า Web Workers ช่วยเพิ่มประสิทธิภาพสำหรับงานหนักได้อย่างไร"
+    },
+    "formValidation": {
+      "title": "ตัวอย่างการตรวจสอบฟอร์ม",
+      "description": "แสดงการตรวจสอบฟอร์มทั้งหมดพร้อมข้อเสนอแนะแบบเรียลไทม์"
+    }
+  },
+  "categories": {
+    "detection": "การตรวจสอบเว็บไซต์",
+    "seo": "เครื่องมือ SEO",
+    "dev": "เครื่องมือสำหรับนักพัฒนา",
+    "encode": "เครื่องมือแปลงรหัส",
+    "other": "เครื่องมืออื่น ๆ"
+  },
+  "kunqiongNav": {
+    "home": "หน้าแรก",
+    "aiTools": "เครื่องมือ AI",
+    "office": "สำนักงาน",
+    "multimedia": "มัลติมีเดีย",
+    "development": "เครื่องมือพัฒนา",
+    "text": "ข้อความ",
+    "file": "ไฟล์",
+    "system": "ระบบ",
+    "life": "ชีวิต",
+    "news": "ข่าว AI",
+    "custom": "ซอฟต์แวร์เฉพาะ",
+    "consult": "ปรึกษา",
+    "industryNews": "ข่าวอุตสาหกรรม",
+    "feedback": "ส่งคำติชม",
+    "imageGen": "การสร้างภาพ",
+    "codeDev": "โค้ดและการพัฒนา",
+    "logoAlt": "กล่องเครื่องมือ AI Kunqiong",
+    "footerLogoAlt": "Kunqiong AI",
+    "loginRegister": "เข้าสู่ระบบ / ลงทะเบียน",
+    "navExpandAria": "ขยาย",
+    "navSearchAria": "ค้นหา",
+    "navMenuAria": "เมนู"
+  },
+  "footer": {
+    "description": "เครื่องมือครบวงจรสำหรับผู้ดูแลเว็บไซต์ รวมถึงการตรวจสอบเว็บไซต์ เครื่องมือ SEO เครื่องมือสำหรับนักพัฒนา และอื่น ๆ",
+    "kunqiongBrandDesc": "เราให้ความสำคัญกับการให้บริการเครื่องมือ AI คุณภาพสูงและบริการปรึกษาเพื่อช่วยให้คุณและองค์กรของคุณแข่งขันได้ในยุคของปัญญาประดิษฐ์",
+    "toolCategories": "ประเภทเครื่องมือ",
+    "quickLinks": "ลิงก์เร็ว",
+    "contactTitle": "ติดต่อเรา",
+    "contactCompany": "บริษัท Hezhou Star Technology Co., Ltd. มณฑลเจียงซี",
+    "contactPhone": "17770307066",
+    "contactRegion": "ซังราโอ มณฑลเจียงซี ประเทศจีน",
+    "contactEmail": "11247931@qq.com",
+    "copyrightLine": "© 2026 Kunqiong AI Tools. สงวนสิทธิ์ทุกประการ",
+    "userAgreement": "เงื่อนไขการใช้งาน",
+    "privacyPolicy": "นโยบายความเป็นส่วนตัว",
+    "brandAI": "ผลิตภัณฑ์ Kunqiong AI",
+    "brandAlt": "Kunqiong"
+  },
+  "validation": {
+    "required": "{{field}} เป็นข้อมูลที่จำเป็น",
+    "minLength": "{{field}} ต้องมีอย่างน้อย {{count}} ตัวอักษร",
+    "maxLength": "{{field}} สามารถมีได้ไม่เกิน {{count}} ตัวอักษร",
+    "invalidFormat": "{{field}} มีรูปแบบที่ไม่ถูกต้อง",
+    "email": "กรุณาใส่อีเมลที่ถูกต้อง",
+    "url": "กรุณาใส่ URL ที่ถูกต้อง",
+    "domain": "กรุณาใส่โดเมนที่ถูกต้อง",
+    "ip": "กรุณาใส่ที่อยู่ IP ที่ถูกต้อง",
+    "phone": "กรุณาใส่เบอร์โทรศัพท์ที่ถูกต้อง",
+    "password": "รหัสผ่านต้องมีตัวอักษรพิมพ์ใหญ่และเล็ก รวมถึงตัวเลข และมีความยาวระหว่าง 6-20 ตัวอักษร"
+  },
+  "exporter": {
+    "unsupportedFormat": "รูปแบบการส่งออกที่ไม่รองรับ: {{format}}",
+    "csvRequiresArrayOrObject": "การส่งออก CSV ต้องใช้อาร์เรย์หรือวัตถุ",
+    "toolUsageInfo": "ข้อมูลการใช้งานเครื่องมือ",
+    "tool": "เครื่องมือ",
+    "time": "เวลา",
+    "url": "URL",
+    "version": "เวอร์ชัน",
+    "dnsReportTitle": "รายงานการค้นหา DNS",
+    "dnsReportDescription": "ข้อมูลการบันทึก DNS แบบละเอียด",
+    "summaryTitle": "สรุป",
+    "domain": "โดเมน",
+    "recordCount": "จำนวนบันทึกทั้งหมด",
+    "recordCountValue": "{{count}} บันทึก",
+    "queryTime": "เวลาการสอบถาม",
+    "typeDescriptions": {
+      "A": "บันทึกที่อยู่ IPv4",
+      "AAAA": "บันทึกที่อยู่ IPv6",
+      "MX": "บันทึกเซิร์ฟเวอร์อีเมล",
+      "TXT": "บันทึกข้อความ",
+      "CNAME": "บันทึกชื่อทางลัด",
+      "NS": "บันทึกเซิร์ฟเวอร์ชื่อ",
+      "SOA": "บันทึกผู้กำหนด"
+    },
+    "record": "บันทึก",
+    "otherRecords": "บันทึกอื่น ๆ",
+    "recordIndex": "บันทึก {{index}}",
+    "priority": "ลำดับความสำคัญ",
+    "class": "คลาส",
+    "exportData": "ข้อมูลที่ส่งออก",
+    "dnsToolName": "เครื่องมือค้นหา DNS",
+    "exportInfo": "ข้อมูลการส่งออก",
+    "exportTime": "เวลาการส่งออก",
+    "formats": {
+      "json": "รูปแบบข้อมูลโครงสร้าง สะดวกสำหรับโปรแกรมในการประมวลผล",
+      "csv": "รูปแบบที่เหมาะสมกับสเปรดชีต ใช้ได้กับการนำเข้า Excel",
+      "txt": "รูปแบบข้อความธรรมดา ใช้งานง่าย",
+      "xml": "รูปแบบเครื่องหมาย ใช้ได้กับการแลกเปลี่ยนข้อมูล",
+      "pdf": "รูปแบบเอกสาร ใช้ได้กับการพิมพ์และแบ่งปัน"
+    }
+  },
+  "base64": {
+    "title": "การเข้ารหัส/ถอดรหัส Base64",
+    "description": "เครื่องมือเข้ารหัสและถอดรหัส Base64 ออนไลน์",
+    "encode": "เข้ารหัส",
+    "decode": "ถอดรหัส",
+    "originalText": "ข้อความเดิม",
+    "base64String": "สาย Base64",
+    "base64Result": "ผลลัพธ์ Base64",
+    "decodeResult": "ผลลัพธ์ที่ถอดรหัส",
+    "placeholderEncode": "ใส่ข้อความเพื่อเข้ารหัส...",
+    "placeholderDecode": "ใส่ Base64 เพื่อถอดรหัส...",
+    "resultPlaceholder": "ผลลัพธ์จะปรากฏที่นี่...",
+    "inputPlaceholder": "ใส่เนื้อหาเพื่อแปลง",
+    "decodeError": "การถอดรหัสล้มเหลว กรุณาตรวจสอบว่าอินพุตเป็น Base64 ที่ถูกต้อง",
+    "encodeError": "การเข้ารหัสล้มเหลว",
+    "charCount": "{{count}} ตัวอักษร",
+    "clear": "ลบข้อมูล",
+    "copy": "คัดลอกผลลัพธ์",
+    "copied": "คัดลอกแล้ว",
+    "convert": "แปลงทันที",
+    "swap": "โหมดสลับ",
+    "ariaLabel": "เครื่องมือเข้ารหัส/ถอดรหัส Base64",
+    "modeSelection": "การเลือกโหมดการแปลง",
+    "encodeMode": "โหมดเข้ารหัส",
+    "decodeMode": "โหมดถอดรหัส",
+    "inputLabelEncode": "ข้อความที่ต้องการเข้ารหัส",
+    "inputLabelDecode": "สาย Base64 ที่ต้องการถอดรหัส",
+    "outputLabelEncode": "ผลลัพธ์ที่เข้ารหัส Base64",
+    "outputLabelDecode": "ผลลัพธ์ที่ถอดรหัส Base64",
+    "whatIsBase64": "Base64 คืออะไร?",
+    "base64Info": "Base64 เป็นวิธีการเข้ารหัสที่นำเสนอข้อมูลไบนารีด้วยตัวอักษร 64 ตัวที่สามารถพิมพ์ได้ มักใช้เพื่อส่งข้อมูลไบนารีขนาดเล็กใน URLs, cookies, หน้าเว็บ หรือโปรโตคอลที่ขึ้นอยู่กับข้อความ"
+  },
+  "dns": {
+    "title": "การค้นหาบันทึก DNS",
+    "description": "ค้นหาบันทึก DNS ออนไลน์ (A, MX, CNAME, เป็นต้น)",
+    "placeholder": "ใส่โดเมน เช่น example.com",
+    "invalidDomain": "กรุณาใส่รูปแบบโดเมนที่ถูกต้อง (เช่น example.com)",
+    "domainInput": "การป้อนโดเมน",
+    "validFormat": "รูปแบบโดเมนถูกต้อง",
+    "typeSelect": "ประเภทบันทึก DNS",
+    "searchBtn": "ค้นหาบันทึก DNS",
+    "loadingTitle": "กำลังค้นหาบันทึก DNS",
+    "loadingDesc": "กรุณารอสักครู่ขณะที่เราค้นหาบันทึก DNS สำหรับโดเมนของคุณ...",
+    "resultRegion": "ผลลัพธ์การค้นหา DNS",
+    "recordCount": "{{count}} บันทึก",
+    "typeRecordRegion": "{{type}} บันทึก",
+    "querying": "กำลังค้นหาบันทึก DNS",
+    "queryingDesc": "กรุณารอสักครู่ขณะที่เราค้นหาบันทึก DNS สำหรับโดเมนของคุณ...",
+    "foundRecords": "{{count}} บันทึกพบ",
+    "queryTime": "เวลาการสอบถาม: {{time}}",
+    "export": "ส่งออกผลลัพธ์",
+    "noRecords": "ไม่พบบันทึก DNS",
+    "noRecordsDesc": "ไม่มีบันทึก DNS สำหรับโดเมนนี้",
+    "typeInfo": "ประเภทบันทึก DNS",
+    "priority": "ลำดับความสำคัญ: {{priority}}",
+    "types": {
+      "ALL": "ทั้งหมด",
+      "A": "บันทึก A",
+      "AAAA": "บันทึก AAAA",
+      "MX": "บันทึก MX",
+      "TXT": "บันทึก TXT",
+      "CNAME": "บันทึก CNAME",
+      "NS": "บันทึก NS",
+      "SOA": "บันทึก SOA"
+    },
+    "typeDescs": {
+      "A": "ที่อยู่ IPv4",
+      "AAAA": "ที่อยู่ IPv6",
+      "MX": "เซิร์ฟเวอร์อีเมล",
+      "TXT": "บันทึกข้อความ",
+      "CNAME": "บันทึกแอบอ้าง",
+      "NS": "เซิร์ฟเวอร์ชื่อ",
+      "SOA": "บันทึกเริ่มต้นอำนาจ"
+    },
+    "typeDetails": {
+      "A": "เชื่อมโยงโดเมนกับที่อยู่ IPv4",
+      "AAAA": "เชื่อมโยงโดเมนกับที่อยู่ IPv6",
+      "MX": "ระบุที่อยู่เซิร์ฟเวอร์อีเมล โดยค่าที่ต่ำกว่าแสดงถึงลำดับความสำคัญสูงขึ้น",
+      "TXT": "เก็บข้อมูลข้อความ มักใช้สำหรับการตรวจสอบ SPF, DKIM",
+      "CNAME": "เชื่อมโยงโดเมนกับโดเมนอื่น (แอบอ้าง)",
+      "NS": "ระบุเซิร์ฟเวอร์ DNS สำหรับโดเมน"
+    }
+  },
+  "whois": {
+    "title": "การค้นหา WHOIS",
+    "description": "ค้นหาข้อมูล WHOIS และข้อมูลการลงทะเบียนออนไลน์",
+    "placeholder": "กรอกโดเมน เช่น example.com",
+    "invalidDomain": "กรุณากรอกรูปแบบโดเมนที่ถูกต้อง (เช่น example.com)",
+    "querying": "กำลังสอบถามข้อมูล WHOIS",
+    "queryingDesc": "กรุณารอสักครู่ขณะที่เราดึงข้อมูลการลงทะเบียน...",
+    "domainInfo": "ข้อมูลโดเมน",
+    "registrar": "ผู้จัดการลงทะเบียน",
+    "creationDate": "วันที่สร้าง",
+    "expirationDate": "วันหมดอายุ",
+    "updatedDate": "วันที่อัปเดต",
+    "dnssec": "DNSSEC",
+    "dnssecDisabled": "ปิดใช้งาน",
+    "expired": "หมดอายุ {{days}} วันที่แล้ว",
+    "expiringSoon": "หมดอายุในอีก {{days}} วัน",
+    "remaining": "{{days}} วันที่เหลือ",
+    "dnsServer": "เซิร์ฟเวอร์ชื่อ",
+    "domainStatus": "สถานะโดเมน",
+    "registrantInfo": "ข้อมูลผู้ลงทะเบียน",
+    "name": "ชื่อ",
+    "organization": "องค์กร",
+    "country": "ประเทศ",
+    "email": "อีเมล",
+    "noInfo": "ไม่พบข้อมูลที่เกี่ยวข้อง",
+    "domain": "โดเมน",
+    "rawData": "ข้อมูลดิบ",
+    "toggleRawData": "ขยายหรือซ่อนข้อมูลดิบ",
+    "copyRawData": "คัดลอกข้อมูลดิบ",
+    "copy": "คัดลอก",
+    "copied": "คัดลอกแล้ว",
+    "whatIsWhois": "WHOIS คืออะไร?",
+    "about": "WHOIS เป็นโปรโตคอลที่ใช้ในการสอบถามข้อมูลการลงทะเบียนโดเมน ผ่านการค้นหา WHOIS คุณสามารถเรียนรู้ผู้จัดการลงทะเบียน วันที่ลงทะเบียน วันหมดอายุ เซิร์ฟเวอร์ DNS ข้อมูลผู้ลงทะเบียน และอื่น ๆ นี้มีประโยชน์สำหรับการซื้อขายโดเมน การปกป้องแบรนด์ และการสอบสวนด้านความปลอดภัย"
+  },
+  "httpStatus": {
+    "title": "เครื่องมือตรวจสอบรหัสสถานะ HTTP",
+    "description": "ตรวจสอบรหัสสถานะ HTTP และข้อมูลการตอบสนองออนไลน์",
+    "placeholder": "กรอก URL เช่น https://example.com",
+    "check": "ตรวจสอบ",
+    "followRedirects": "ไปยัง URL ที่เปลี่ยนเส้นทางโดยอัตโนมัติ",
+    "urlEmpty": "กรุณากรอก URL",
+    "checkFailed": "การตรวจสอบล้มเหลว",
+    "serverError": "การเชื่อมต่อเซิร์ฟเวอร์ล้มเหลว กรุณาลองอีกครั้งในภายหลัง",
+    "unknownStatus": "สถานะไม่ทราบ",
+    "responseTime": "เวลาตอบสนอง",
+    "headers": "หัวข้อ",
+    "redirectUrl": "URL ที่เปลี่ยนเส้นทาง",
+    "contentType": "ประเภทเนื้อหา",
+    "contentLength": "ความยาวเนื้อหา",
+    "server": "เซิร์ฟเวอร์",
+    "showHeaders": "แสดงหัวข้อการตอบสนอง",
+    "hideHeaders": "ซ่อนหัวข้อการตอบสนอง",
+    "status": {
+      "100": "ดำเนินการต่อ",
+      "101": "เปลี่ยนโปรโตคอล",
+      "200": "OK",
+      "201": "สร้างแล้ว",
+      "204": "ไม่มีเนื้อหา",
+      "301": "เปลี่ยนเส้นทางถาวร",
+      "302": "เปลี่ยนเส้นทางชั่วคราว",
+      "304": "ไม่ได้ปรับปรุง",
+      "307": "เปลี่ยนเส้นทางชั่วคราว",
+      "308": "เปลี่ยนเส้นทางถาวร",
+      "400": "คำขอผิด",
+      "401": "ไม่ได้รับอนุญาต",
+      "403": "ห้าม",
+      "404": "ไม่พบ",
+      "405": "วิธีการไม่ได้รับอนุญาต",
+      "408": "หมดเวลาคำขอ",
+      "429": "คำขอมากเกินไป",
+      "500": "ข้อผิดพลาดภายในเซิร์ฟเวอร์",
+      "502": "เกตเวย์ผิด",
+      "503": "บริการไม่ว่าง",
+      "504": "เกตเวย์หมดเวลา"
+    }
+  },
+  "browserInfo": {
+    "title": "ข้อมูลเบราว์เซอร์",
+    "description": "ดูข้อมูลรายละเอียดเกี่ยวกับเบราว์เซอร์ปัจจุบัน",
+    "os": "ระบบปฏิบัติการ",
+    "browser": "เบราว์เซอร์",
+    "version": "เวอร์ชัน",
+    "engine": "เครื่องมือ",
+    "device": "อุปกรณ์",
+    "screen": "ความละเอียดหน้าจอ",
+    "viewport": "ขนาดหน้าจอ",
+    "language": "ภาษา",
+    "timezone": "เขตเวลา",
+    "cookieEnabled": "เปิดใช้งานคุกกี้",
+    "online": "ออนไลน์",
+    "cpu": "สถาปัตยกรรม CPU",
+    "userAgent": "User-Agent",
+    "platform": "แพลตฟอร์ม",
+    "vendor": "ผู้ผลิตเบราว์เซอร์",
+    "languages": "ภาษาที่รองรับ",
+    "cookie": "คุกกี้",
+    "onlineStatus": "สถานะออนไลน์",
+    "doNotTrack": "ไม่ติดตาม",
+    "touchPoints": "จุดสัมผัส",
+    "enabled": "เปิดใช้งาน",
+    "disabled": "ปิดใช้งาน",
+    "offline": "ออฟไลน์",
+    "hardwareInfo": "ข้อมูลฮาร์ดแวร์",
+    "cpuCores": "จำนวนแกน CPU",
+    "cpuCoresValue": "{{count}} แกน",
+    "deviceMemory": "หน่วยความจำอุปกรณ์",
+    "screenInfo": "ข้อมูลหน้าจอ",
+    "availArea": "พื้นที่ที่พร้อมใช้งาน",
+    "windowSize": "ขนาดหน้าต่าง",
+    "pixelRatio": "อัตราส่วนพิกเซล",
+    "colorDepth": "ความลึกของสี",
+    "screenOrientation": "ทิศทางหน้าจอ",
+    "unknown": "ไม่ทราบ",
+    "basicInfo": "ข้อมูลพื้นฐาน",
+    "networkInfo": "ข้อมูลเครือข่าย",
+    "networkType": "ประเภทเครือข่าย",
+    "downlink": "ดาวน์ลิงก์",
+    "rtt": "RTT",
+    "saveData": "โหมดประหยัดข้อมูล",
+    "batteryInfo": "ข้อมูลแบตเตอรี่",
+    "batteryLevel": "ระดับแบตเตอรี่",
+    "chargingStatus": "สถานะการชาร์จ",
+    "charging": "กำลังชาร์จ",
+    "notCharging": "ไม่ได้ชาร์จ",
+    "timezoneInfo": "ข้อมูลเขตเวลา",
+    "utcOffset": "อัตราส่วน UTC"
+  },
+  "viewSource": {
+    "title": "ดูโค้ดแหล่งข้อมูลหน้าเว็บ",
+    "description": "ดูโค้ดแหล่งข้อมูลหน้าเว็บออนไลน์",
+    "placeholder": "กรอก URL เช่น https://example.com",
+    "fetch": "ดึงแหล่งข้อมูล",
+    "urlEmpty": "กรุณากรอก URL",
+    "fetchFailed": "ไม่สามารถดึงแหล่งข้อมูลได้",
+    "serverError": "การเชื่อมต่อกับเซิร์ฟเวอร์ล้มเหลว",
+    "lineCount": "บรรทัด: {{count}}",
+    "copy": "คัดลอกแหล่งข้อมูล",
+    "clear": "ลบ",
+    "usage1": "กรอก URL ของหน้าเว็บและคลิกเพื่อดึงแหล่งข้อมูล",
+    "usage2": "รองรับการดูโค้ด HTML ของหน้าเว็บสาธารณะใด ๆ",
+    "usage3": "คุณสามารถคัดลอกหรือดาวน์โหลดโค้ดแหล่งข้อมูลเพื่อวิเคราะห์",
+    "usage4": "บางเว็บไซต์อาจบล็อกการดึงแหล่งข้อมูลเนื่องจากนโยบายความปลอดภัย"
+  },
+  "urlEncode": {
+    "title": "เครื่องมือเข้ารหัส/ถอดรหัส URL",
+    "description": "เครื่องมือเข้ารหัสและถอดรหัส URL ออนไลน์",
+    "encode": "เข้ารหัส",
+    "decode": "ถอดรหัส",
+    "placeholder": "กรอกเนื้อหาที่ต้องการแปลง...",
+    "result": "ผลลัพธ์",
+    "error": "การเข้ารหัส/ถอดรหัสล้มเหลว"
+  },
+  "htmlEntity": {
+    "title": "ตัวแปลง Entity HTML",
+    "description": "เครื่องมือแปลงและถอดรหัส Entity HTML ออนไลน์",
+    "encode": "เข้ารหัส",
+    "decode": "ถอดรหัส",
+    "placeholder": "ใส่เนื้อหาเพื่อแปลง...",
+    "result": "ผลลัพธ์"
+  },
+  "jsMinify": {
+    "title": "การบีบอัดและจัดรูปแบบ JS",
+    "description": "เครื่องมือบีบอัดและจัดรูปแบบโค้ด JavaScript ออนไลน์",
+    "minify": "บีบอัด",
+    "beautify": "จัดรูปแบบ",
+    "placeholder": "วางโค้ด JavaScript...",
+    "result": "ผลการประมวลผล",
+    "error": "การประมวลผลโค้ดล้มเหลว"
+  },
+  "cssMinify": {
+    "title": "การบีบอัดและจัดรูปแบบ CSS",
+    "description": "เครื่องมือบีบอัดและจัดรูปแบบโค้ด CSS ออนไลน์",
+    "minify": "บีบอัด",
+    "beautify": "จัดรูปแบบ",
+    "placeholder": "วางโค้ด CSS...",
+    "result": "ผลการประมวลผล",
+    "error": "การประมวลผลโค้ดล้มเหลว"
+  },
+  "pages": {
+    "sslCheck": {
+      "title": "ตรวจสอบใบรับรอง SSL",
+      "description": "ตรวจสอบรายละเอียดและสถานะของใบรับรอง SSL สำหรับโดเมน",
+      "enterDomain": "กรุณาใส่โดเมน",
+      "checkFailed": "การตรวจสอบล้มเหลว",
+      "serverConnectionFailed": "ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ได้ กรุณาลองอีกครั้งในภายหลัง",
+      "inputPlaceholder": "ใส่โดเมน เช่น example.com",
+      "check": "ตรวจสอบ",
+      "statusExpired": "หมดอายุ",
+      "statusExpiringSoon": "ใกล้หมดอายุ",
+      "statusValid": "ถูกต้อง",
+      "statusProblem": "ปัญหาใบรับรอง",
+      "expiredDays": "หมดอายุ {{count}} วันที่แล้ว",
+      "remainingDays": "{{count}} วันที่เหลืออยู่",
+      "warning": "คำเตือน: {{message}}",
+      "protocol": "โปรโตคอล",
+      "validityPeriod": "ช่วงเวลาความถูกต้อง",
+      "validFrom": "ใช้ได้ตั้งแต่",
+      "validTo": "ใช้ได้จนถึง",
+      "certificateInfo": "ข้อมูลใบรับรอง",
+      "subject": "ผู้ถูกตั้งชื่อ",
+      "issuer": "ผู้ออก",
+      "commonName": "ชื่อทั่วไป (CN)",
+      "organization": "องค์กร (O)",
+      "organizationUnit": "หน่วยองค์กร (OU)",
+      "country": "ประเทศ (C)",
+      "subjectAltNames": "ชื่อทางเลือกของผู้ถูกตั้งชื่อ (SAN) - {{count}} รายการ",
+      "technicalDetails": "รายละเอียดทางเทคนิค",
+      "serialNumber": "ลำดับเลขที่",
+      "fingerprintSha1": "ลายนิ้วมือ (SHA-1)",
+      "fingerprintSha256": "ลายนิ้วมือ (SHA-256)",
+      "cipherSuite": "ชุดอัลกอริทึม",
+      "infoTitle": "ข้อควรรู้เกี่ยวกับใบรับรอง SSL",
+      "infoItems": [
+        "ใบรับรอง SSL ยืนยันตัวตนของเซิร์ฟเวอร์และเข้ารหัสการสื่อสาร",
+        "ตรวจสอบวันหมดอายุเป็นประจำเพื่อหลีกเลี่ยงการหยุดทำงาน",
+        "ใบรับรองที่ใกล้หมดอายุควรถอนใหม่ล่วงหน้า",
+        "SAN (Subject Alternative Name) แสดงโดเมนที่ได้รับการครอบคลุมโดยใบรับรอง"
+      ]
+    },
+    "gzipCheck": {
+      "title": "ตรวจสอบการบีบอัด Gzip ของเว็บไซต์",
+      "description": "ตรวจสอบว่าเว็บไซต์รองรับการบีบอัด Gzip / Deflate / Brotli หรือไม่",
+      "enterUrl": "กรุณาใส่ URL",
+      "checkFailed": "การตรวจสอบล้มเหลว",
+      "serverConnectionFailed": "ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ได้ กรุณาลองอีกครั้งในภายหลัง",
+      "inputPlaceholder": "ใส่ URL เช่น https://example.com",
+      "check": "ตรวจสอบ",
+      "enabled": "เปิดใช้งาน",
+      "disabled": "ไม่ได้เปิดใช้งาน",
+      "compressionType": "ประเภทการบีบอัด: {{type}}",
+      "enableSuggestion": "เปิดใช้งานการบีบอัด Gzip เพื่อลดขนาดการส่งข้อมูลและเพิ่มความเร็วในการโหลด",
+      "supportTitle": "การสนับสนุนการบีบอัด",
+      "gzipDescription": "การบีบอัดมาตรฐานที่พบบ่อย",
+      "deflateDescription": "อัลกอริทึมการบีบอัดแบบดั้งเดิมสำหรับ HTTP",
+      "brotliDescription": "วิธีการบีบอัดที่ใหม่กว่าซึ่งมีประสิทธิภาพดีกว่า",
+      "effectTitle": "ผลของการบีบอัด",
+      "originalSize": "ขนาดเดิม",
+      "compressedSize": "ขนาดที่บีบอัดแล้ว",
+      "ratio": "อัตราส่วนการบีบอัด",
+      "savedTransfer": "ประหยัด {{value}} ในขนาดการส่งข้อมูล",
+      "detailsTitle": "รายละเอียด",
+      "whyTitle": "ทำไมจึงควรเปิดใช้งานการบีบอัด Gzip?",
+      "whyItems": [
+        "มักจะลดขนาดทรัพยากรข้อความลง 60% ถึง 80%",
+        "การส่งข้อมูลที่เล็กลงทำให้การโหลดเร็วขึ้น",
+        "ลดการใช้แบนด์วิธ",
+        "ประสิทธิภาพที่ดีขึ้นยังช่วย SEO และประสบการณ์ผู้ใช้ได้"
+      ]
+    },
+    "dnsLookupEnhanced": {
+      "title": "การค้นหา DNS แบบขยาย",
+      "description": "สอบถามประเภท DNS หลายประเภทออนไลน์พร้อมปรับปรุงสำหรับชุดผลลัพธ์ขนาดใหญ่",
+      "enterDomain": "กรุณาใส่โดเมน",
+      "lookupFailed": "การค้นหาล้มเหลว",
+      "serverConnectionFailed": "ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ได้ กรุณาลองอีกครั้งในภายหลัง",
+      "inputPlaceholder": "ใส่โดเมน เช่น example.com",
+      "lookup": "ค้นหา",
+      "priority": "ลำดับความสำคัญ: {{value}}",
+      "dnsTypes": [
+        {
+          "value": "ALL",
+          "label": "ทั้งหมด"
+        },
+        {
+          "value": "A",
+          "label": "A record",
+          "desc": "ที่อยู่ IPv4"
+        },
+        {
+          "value": "AAAA",
+          "label": "AAAA record",
+          "desc": "ที่อยู่ IPv6"
+        },
+        {
+          "value": "MX",
+          "label": "MX record",
+          "desc": "เซิร์ฟเวอร์อีเมล"
+        },
+        {
+          "value": "TXT",
+          "label": "TXT record",
+          "desc": "ข้อมูลข้อความ"
+        },
+        {
+          "value": "CNAME",
+          "label": "CNAME record",
+          "desc": "บันทึกชื่อแทน"
+        },
+        {
+          "value": "NS",
+          "label": "NS record",
+          "desc": "เซิร์ฟเวอร์ชื่อ"
+        },
+        {
+          "value": "SOA",
+          "label": "SOA record",
+          "desc": "เริ่มต้นอำนาจ"
+        }
+      ],
+      "foundRecords": "พบ {{count}} บันทึก",
+      "queryTime": "เวลาการสอบถาม: {{time}}",
+      "virtualScrollEnabled": "การเลื่อนแบบเสมือนเปิดใช้งาน",
+      "recordCount": "{{count}} บันทึก",
+      "virtualScrollTag": "การเรนเดอร์ที่ปรับปรุง",
+      "noRecords": "ไม่พบบันทึก DNS",
+      "performanceTitle": "การปรับปรุงประสิทธิภาพ",
+      "performanceItems": [
+        "การเรนเดอร์แบบเสมือนทำให้การค้นหา DNS ตอบสนองได้แม้มี {{count}} บันทึก",
+        "เฉพาะแถวที่มองเห็นเท่านั้นที่ถูกเรนเดอร์เพื่อลดการใช้หน่วยความจำ",
+        "ช่วยหลีกเลี่ยงการล่าช้าของ DOM เมื่อชุดผลลัพธ์มีขนาดใหญ่",
+        "ประสบการณ์ยังคงตอบสนองได้แม้มีบันทึกจำนวนมาก"
+      ]
+    },
+    "metaCheck": {
+      "title": "ตรวจสอบแท็ก META",
+      "description": "ตรวจสอบแท็ก META ที่ใช้บนหน้าเว็บ",
+      "enterUrl": "กรุณาใส่ URL ของเว็บไซต์",
+      "checkFailed": "การตรวจสอบล้มเหลว",
+      "urlLabel": "URL ของเว็บไซต์",
+      "inputPlaceholder": "example.com หรือ https://example.com",
+      "check": "ตรวจสอบ",
+      "resultTitle": "ผลการตรวจสอบ",
+      "totalCount": "พบ {{count}} แท็ก META",
+      "groups": {
+        "pageTitle": "ชื่อหน้า",
+        "httpEquiv": "HTTP-Equiv",
+        "charset": "Charset",
+        "basicMeta": "META ฐาน"
+      },
+      "emptyContent": "ว่าง",
+      "infoTitle": "เกี่ยวกับ",
+      "infoItems": [
+        "เครื่องมือนี้ตรวจสอบแท็ก title, แท็ก meta name, แท็ก meta property (เช่น Open Graph), และแท็ก meta http-equiv",
+        "ช่วยตรวจสอบข้อมูล SEO ของหน้าได้อย่างรวดเร็ว",
+        "ยังช่วยระบุปัญหาเกี่ยวกับแท็กที่ขาดหายหรือซ้ำซ้อน"
+      ]
+    },
+    "urlEncode": {
+      "title": "การเข้ารหัส/ถอดรหัส URL",
+      "description": "เข้ารหัสหรือถอดรหัสสายอักขระ URL ออนไลน์",
+      "toolName": "การเข้ารหัส/ถอดรหัส URL",
+      "toolCategory": "เครื่องมือการเข้ารหัส",
+      "convertFailed": "การแปลงล้มเหลว กรุณาตรวจสอบข้อมูลของคุณ",
+      "copyFailed": "การคัดลอกผลลัพธ์ล้มเหลว",
+      "modeSelector": "เลือกโหมด",
+      "typeSelector": "ประเภทการเข้ารหัส",
+      "encode": "เข้ารหัส",
+      "decode": "ถอดรหัส",
+      "componentTitle": "ส่วน URL",
+      "componentDescription": "เข้ารหัสเฉพาะส่วนหนึ่งของ URL",
+      "fullTitle": "URL ทั้งหมด",
+      "fullDescription": "เข้ารหัส URL ทั้งหมด",
+      "inputEncodeLabel": "ข้อความธรรมดา",
+      "inputDecodeLabel": "URL ที่เข้ารหัสแล้ว",
+      "clearInput": "ล้างข้อมูลป้อน",
+      "encodePlaceholder": "ใส่ข้อความเพื่อแปลงเป็น URL...",
+      "decodePlaceholder": "ใส่ URL ที่เข้ารหัสแล้วเพื่อถอดรหัส...",
+      "outputEncodeLabel": "ผลลัพธ์ที่เข้ารหัส",
+      "outputDecodeLabel": "ผลลัพธ์ที่ถอดรหัส",
+      "copyResult": "คัดลอกผลลัพธ์",
+      "resultPlaceholder": "ผลลัพธ์การแปลงจะแสดงที่นี่...",
+      "copied": "คัดลอกไปยังคลิปบอร์ดแล้ว",
+      "swap": "สลับ",
+      "swapInputOutput": "สลับข้อมูลป้อนและผลลัพธ์",
+      "infoTitle": "โหมดการเข้ารหัส",
+      "componentModeTitle": "โหมดส่วน",
+      "componentModeDescription": "เหมาะสำหรับส่วนต่าง ๆ ของ URL เช่น ค่าพารามิเตอร์ใน query หรือส่วนของเส้นทาง",
+      "componentExample": "ตัวอย่าง: hello world → hello%20world",
+      "fullModeTitle": "โหมด URL ทั้งหมด",
+      "fullModeDescription": "ใช้เมื่อคุณต้องการเข้ารหัส URL ทั้งหมดโดยยังคงโครงสร้างโดยรวมให้เห็นได้ชัด",
+      "fullExample": "ตัวอย่าง: https://example.com/路径 → https://example.com/%E8%B7%AF%E5%BE%84"
+    },
+    "htmlEntity": {
+      "title": "การเข้ารหัส/ถอดรหัส HTML Entity",
+      "description": "เข้ารหัสหรือถอดรหัส HTML entity ออนไลน์",
+      "toolName": "การเข้ารหัส/ถอดรหัส HTML Entity",
+      "toolCategory": "เครื่องมือการเข้ารหัส",
+      "convertFailed": "การแปลงล้มเหลว กรุณาตรวจสอบข้อมูลป้อน",
+      "copyFailed": "ไม่สามารถคัดลอกผลลัพธ์ได้",
+      "modeSelector": "เลือกโหมด",
+      "switchToEncode": "เปลี่ยนไปโหมดเข้ารหัส (Alt+1)",
+      "switchToDecode": "เปลี่ยนไปโหมดถอดรหัส (Alt+2)",
+      "encode": "เข้ารหัส",
+      "decode": "ถอดรหัส",
+      "encodeAll": "เข้ารหัสทุกตัวอักษร",
+      "inputEncodeLabel": "ข้อความธรรมดา",
+      "inputDecodeLabel": "HTML entity",
+      "clearInput": "ล้างข้อมูลป้อน (Ctrl+L)",
+      "encodePlaceholder": "ใส่ข้อความเพื่อแปลงเป็น HTML entity...",
+      "decodePlaceholder": "ใส่ HTML entity เพื่อถอดรหัส...",
+      "inputDescriptionEncode": "ใส่ข้อความที่ต้องการแปลงเป็น HTML entity",
+      "inputDescriptionDecode": "ใส่ HTML entity ที่ต้องการถอดรหัส",
+      "outputEncodeLabel": "ผลลัพธ์ที่เข้ารหัส",
+      "outputDecodeLabel": "ผลลัพธ์ที่ถอดรหัส",
+      "copyResult": "คัดลอกผลลัพธ์ (Ctrl+C)",
+      "resultPlaceholder": "ผลลัพธ์การแปลงจะแสดงที่นี่...",
+      "outputDescriptionEncode": "ผลลัพธ์ HTML entity ที่สร้างขึ้น",
+      "outputDescriptionDecode": "ผลลัพธ์ข้อความธรรมดาหลังถอดรหัส",
+      "copied": "คัดลอกไปยังคลิปบอร์ดแล้ว",
+      "executeEncode": "เข้ารหัส (Ctrl+Enter)",
+      "executeDecode": "ถอดรหัส (Ctrl+Enter)",
+      "swap": "สลับ",
+      "swapMode": "สลับข้อมูลป้อนและผลลัพธ์ (Ctrl+S)",
+      "commonEntities": "HTML entity ที่พบบ่อย",
+      "space": "(space)"
+    },
+    "jsMinify": {
+      "title": "JS Minify & Beautify",
+      "description": "ลดขนาดหรือจัดรูปแบบโค้ด JavaScript ออนไลน์",
+      "toolName": "JavaScript Minify / Beautify",
+      "toolNameHistory": "JS Minify & Beautify",
+      "toolCategory": "เครื่องมือสำหรับนักพัฒนา",
+      "processFailed": "การประมวลผลล้มเหลว",
+      "copyFailed": "ไม่สามารถคัดลอกผลลัพธ์ไปยังคลิปบอร์ดได้",
+      "switchToMinify": "เปลี่ยนไปโหมด Minify",
+      "switchToMinifyTitle": "เปลี่ยนไปโหมด Minify (Alt+1)",
+      "switchToBeautify": "เปลี่ยนไปโหมด Beautify",
+      "switchToBeautifyTitle": "เปลี่ยนไปโหมด Beautify (Alt+2)",
+      "minify": "Minify",
+      "beautify": "Beautify",
+      "input": "ข้อมูลป้อน",
+      "output": "ผลลัพธ์",
+      "inputPlaceholder": "ใส่โค้ด JavaScript ที่นี่...",
+      "inputAria": "ตัวแก้ไขโค้ด JavaScript",
+      "inputTitle": "กด Ctrl+Enter เพื่อรัน, Ctrl+L เพื่อล้าง",
+      "copyOutput": "คัดลอกผลลัพธ์",
+      "copyOutputTitle": "คัดลอกผลลัพธ์ (Ctrl+C)",
+      "resultPlaceholder": "ผลลัพธ์ที่ประมวลผลจะแสดงที่นี่...",
+      "outputAria": "ผลลัพธ์ของโค้ด JavaScript",
+      "executeMinify": "Minify JavaScript",
+      "executeMinifyTitle": "Minify JavaScript (Ctrl+Enter)",
+      "executeBeautify": "Beautify JavaScript",
+      "executeBeautifyTitle": "Beautify JavaScript (Ctrl+Enter)",
+      "minifyCode": "Minify โค้ด",
+      "beautifyCode": "Beautify โค้ด",
+      "swap": "สลับ",
+      "swapTitle": "สลับข้อมูลป้อนและผลลัพธ์ (Ctrl+S)",
+      "clear": "ล้าง",
+      "clearTitle": "ล้างเนื้อหา (Ctrl+L)",
+      "copied": "คัดลอกไปยังคลิปบอร์ดแล้ว",
+      "infoTitle": "คุณสมบัติ",
+      "infoItems": [
+        "ลบช่องว่างและบรรทัดที่ไม่จำเป็นเพื่อลดขนาดไฟล์ JavaScript",
+        "โหมด Beautify ทำให้โค้ดที่บีบอัดง่ายต่อการอ่านและบำรุงรักษา",
+        "คุณภาพของการบีบอัดขึ้นอยู่กับตัวแยกและตัวบีบอัด JavaScript"
+      ]
+    },
+    "cssMinify": {
+      "title": "CSS Minify & Beautify",
+      "description": "ลดขนาดหรือจัดรูปแบบ CSS ออนไลน์",
+      "toolName": "CSS Minify & Beautify",
+      "toolCategory": "เครื่องมือสำหรับนักพัฒนา",
+      "processFailed": "การประมวลผลล้มเหลว",
+      "copyFailed": "ไม่สามารถคัดลอกผลลัพธ์ไปยังคลิปบอร์ดได้",
+      "switchToMinify": "เปลี่ยนไปโหมด Minify",
+      "switchToMinifyTitle": "เปลี่ยนไปโหมด Minify (Alt+1)",
+      "switchToBeautify": "เปลี่ยนไปโหมด Beautify",
+      "switchToBeautifyTitle": "เปลี่ยนไปโหมด Beautify (Alt+2)",
+      "minify": "Minify",
+      "beautify": "Beautify",
+      "input": "ข้อมูลป้อน",
+      "output": "ผลลัพธ์",
+      "inputPlaceholder": "ใส่โค้ด CSS ที่นี่...\n\nตัวอย่าง:\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 20px;\n}",
+      "inputAria": "ตัวแก้ไขโค้ด CSS",
+      "inputTitle": "กด Ctrl+Enter เพื่อรัน, Ctrl+L เพื่อล้าง",
+      "copyOutput": "คัดลอกผลลัพธ์",
+      "copyOutputTitle": "คัดลอกผลลัพธ์ (Ctrl+C)",
+      "resultPlaceholder": "ผลลัพธ์ที่ประมวลผลจะแสดงที่นี่...",
+      "outputAria": "ผลลัพธ์ของ CSS",
+      "executeMinify": "Minify CSS",
+      "executeMinifyTitle": "Minify CSS (Ctrl+Enter)",
+      "executeBeautify": "Beautify CSS",
+      "executeBeautifyTitle": "Beautify CSS (Ctrl+Enter)",
+      "minifyCode": "Minify โค้ด",
+      "beautifyCode": "Beautify โค้ด",
+      "swap": "สลับ",
+      "swapTitle": "สลับข้อมูลป้อนและผลลัพธ์ (Ctrl+S)",
+      "clear": "ล้าง",
+      "clearTitle": "ล้างเนื้อหา (Ctrl+L)",
+      "copied": "คัดลอกไปยังคลิปบอร์ดแล้ว",
+      "infoTitle": "คุณสมบัติ",
+      "infoItems": [
+        "ลบช่องว่างและบรรทัดที่ไม่จำเป็นเพื่อลดขนาดไฟล์",
+        "โหมด Beautify ทำให้โค้ดที่บีบอัดง่ายต่อการอ่านและแก้ไข",
+        "ไฟล์ CSS ที่เล็กลงสามารถช่วยลดขนาดการส่งผ่าน HTTP และปรับปรุงประสิทธิภาพการโหลด"
+      ]
+    },
+    "httpCodes": {
+      "title": "รหัสสถานะ HTTP",
+      "description": "ข้อมูลอ้างอิงสำหรับรหัสสถานะ / คำตอบ HTTP",
+      "searchPlaceholder": "ค้นหารหัสสถานะหรือคำอธิบาย...",
+      "noMatch": "ไม่พบรหัสสถานะที่ตรงกัน",
+      "infoTitle": "พื้นฐานของรหัสสถานะ HTTP",
+      "infoItems": [
+        "1xx - การตอบสนองข้อมูลที่หมายถึงการรับคำขอและกำลังดำเนินการ",
+        "2xx - การตอบสนองสำเร็จที่หมายถึงคำขอถูกรับ รู้สึก และยอมรับ",
+        "3xx - การตอบสนองการเปลี่ยนเส้นทางที่ต้องการการกระทำเพิ่มเติมเพื่อให้คำขอสมบูรณ์",
+        "4xx - การตอบสนองข้อผิดพลาดของไคลเอนต์ที่หมายถึงคำขอมีรูปแบบผิดหรือไม่สามารถปฏิบัติตามได้",
+        "5xx - การตอบสนองข้อผิดพลาดของเซิร์ฟเวอร์ที่หมายถึงเซิร์ฟเวอร์ไม่สามารถปฏิบัติตามคำขอที่ถูกต้องได้"
+      ],
+      "categories": [
+        {
+          "id": "all",
+          "name": "ทั้งหมด",
+          "color": "bg-gray-100 text-gray-700"
+        },
+        {
+          "id": "1xx",
+          "name": "1xx ข้อมูล",
+          "color": "bg-blue-100 text-blue-700"
+        },
+        {
+          "id": "2xx",
+          "name": "2xx สำเร็จ",
+          "color": "bg-green-100 text-green-700"
+        },
+        {
+          "id": "3xx",
+          "name": "การเปลี่ยนเส้นทาง 3xx",
+          "color": "bg-yellow-100 text-yellow-700"
+        },
+        {
+          "id": "4xx",
+          "name": "ข้อผิดพลาดของไคลเอนต์ 4xx",
+          "color": "bg-orange-100 text-orange-700"
+        },
+        {
+          "id": "5xx",
+          "name": "ข้อผิดพลาดของเซิร์ฟเวอร์ 5xx",
+          "color": "bg-red-100 text-red-700"
+        }
+      ],
+      "codes": [
+        {
+          "code": 100,
+          "name": "ดำเนินการต่อ",
+          "desc": "ส่วนแรกของคำขอได้รับแล้ว และไคลเอนต์ควรดำเนินการส่งส่วนที่เหลือ",
+          "category": "1xx"
+        },
+        {
+          "code": 101,
+          "name": "เปลี่ยนโปรโตคอล",
+          "desc": "เซิร์ฟเวอร์เห็นด้วยกับการเปลี่ยนโปรโตคอลตามที่ไคลเอนต์ขอ",
+          "category": "1xx"
+        },
+        {
+          "code": 102,
+          "name": "กำลังประมวลผล",
+          "desc": "เซิร์ฟเวอร์ได้รับคำขอและกำลังประมวลผล แต่ยังไม่มีการตอบกลับ",
+          "category": "1xx"
+        },
+        {
+          "code": 200,
+          "name": "สำเร็จ",
+          "desc": "คำขอสำเร็จ โดยทั่วไปสำหรับคำขอ GET หรือ POST",
+          "category": "2xx"
+        },
+        {
+          "code": 201,
+          "name": "สร้างใหม่",
+          "desc": "คำขอสำเร็จและสร้างทรัพยากรใหม่",
+          "category": "2xx"
+        },
+        {
+          "code": 202,
+          "name": "ยอมรับ",
+          "desc": "คำขอถูกยอมรับเพื่อประมวลผล แต่ยังไม่เสร็จสมบูรณ์",
+          "category": "2xx"
+        },
+        {
+          "code": 203,
+          "name": "ข้อมูลไม่เป็นทางการ",
+          "desc": "ข้อมูลเมตาของคำตอบมาจากสำเนาในท้องถิ่นหรือผู้ให้บริการภายนอก แทนที่จะมาจากเซิร์ฟเวอร์ต้นทาง",
+          "category": "2xx"
+        },
+        {
+          "code": 204,
+          "name": "ไม่มีเนื้อหา",
+          "desc": "คำขอสำเร็จ แต่ไม่มีเนื้อหาในคำตอบ",
+          "category": "2xx"
+        },
+        {
+          "code": 205,
+          "name": "รีเซ็ตเนื้อหา",
+          "desc": "คำขอสำเร็จ และไคลเอนต์ควรรีเซ็ตมุมมองเอกสารปัจจุบัน",
+          "category": "2xx"
+        },
+        {
+          "code": 206,
+          "name": "เนื้อหาบางส่วน",
+          "desc": "เซิร์ฟเวอร์กำลังส่งเฉพาะส่วนหนึ่งของทรัพยากรเนื่องจากคำขอแบบช่วง",
+          "category": "2xx"
+        },
+        {
+          "code": 300,
+          "name": "ตัวเลือกหลายอย่าง",
+          "desc": "ทรัพยากรที่ขอไว้มีตัวเลือกหลายตัวสำหรับไคลเอนต์เลือก",
+          "category": "3xx"
+        },
+        {
+          "code": 301,
+          "name": "ย้ายถาวร",
+          "desc": "ทรัพยากรที่ขอไว้ได้ย้ายถาวรไปยัง URI ใหม่",
+          "category": "3xx"
+        },
+        {
+          "code": 302,
+          "name": "พบ",
+          "desc": "ทรัพยากรที่ขอไว้ถูกตั้งค่าชั่วคราวที่ URI ที่แตกต่าง",
+          "category": "3xx"
+        },
+        {
+          "code": 303,
+          "name": "ดูอื่น",
+          "desc": "คำตอบของคำขอสามารถพบได้ภายใต้ URI อื่นโดยใช้ GET",
+          "category": "3xx"
+        },
+        {
+          "code": 304,
+          "name": "ไม่มีการเปลี่ยนแปลง",
+          "desc": "ทรัพยากรที่เก็บไว้ในแคชไม่มีการเปลี่ยนแปลง ดังนั้นไคลเอนต์สามารถใช้สำเนาในท้องถิ่นได้",
+          "category": "3xx"
+        },
+        {
+          "code": 307,
+          "name": "เปลี่ยนเส้นทางชั่วคราว",
+          "desc": "ทรัพยากรถูกเปลี่ยนเส้นทางชั่วคราว และวิธีการคำขอเดิมต้องคงไว้",
+          "category": "3xx"
+        },
+        {
+          "code": 308,
+          "name": "เปลี่ยนเส้นทางถาวร",
+          "desc": "ทรัพยากรย้ายถาวร และวิธีการคำขอเดิมต้องคงไว้",
+          "category": "3xx"
+        },
+        {
+          "code": 400,
+          "name": "คำขอไม่ถูกต้อง",
+          "desc": "เซิร์ฟเวอร์ไม่สามารถประมวลผลคำขอได้เนื่องจากรูปแบบที่ไม่ถูกต้อง",
+          "category": "4xx"
+        },
+        {
+          "code": 401,
+          "name": "ต้องตรวจสอบสิทธิ์",
+          "desc": "จำเป็นต้องมีการตรวจสอบสิทธิ์ก่อนที่จะสามารถดำเนินการคำขอได้",
+          "category": "4xx"
+        },
+        {
+          "code": 402,
+          "name": "ต้องชำระเงิน",
+          "desc": "สำรองไว้สำหรับการใช้งานในอนาคต มักเกี่ยวข้องกับระบบการชำระเงินดิจิทัล",
+          "category": "4xx"
+        },
+        {
+          "code": 403,
+          "name": "ห้าม",
+          "desc": "เซิร์ฟเวอร์เข้าใจคำขอ แต่ปฏิเสธที่จะอนุญาต",
+          "category": "4xx"
+        },
+        {
+          "code": 404,
+          "name": "ไม่พบ",
+          "desc": "เซิร์ฟเวอร์ไม่สามารถค้นหารายงานที่ขอได้",
+          "category": "4xx"
+        },
+        {
+          "code": 405,
+          "name": "วิธีการไม่ได้รับอนุญาต",
+          "desc": "วิธีการคำขอไม่ได้รับอนุญาตสำหรับทรัพยากรเป้าหมาย",
+          "category": "4xx"
+        },
+        {
+          "code": 406,
+          "name": "ไม่ตรงกับที่ยอมรับ",
+          "desc": "เซิร์ฟเวอร์ไม่สามารถให้คำตอบที่ตรงกับรูปแบบที่ไคลเอนต์ยอมรับได้",
+          "category": "4xx"
+        },
+        {
+          "code": 407,
+          "name": "ต้องตรวจสอบสิทธิ์ของพร็อกซี",
+          "desc": "ไคลเอนต์ต้องตรวจสอบสิทธิ์กับพร็อกซีก่อนที่จะดำเนินการต่อ",
+          "category": "4xx"
+        },
+        {
+          "code": 408,
+          "name": "หมดเวลา",
+          "desc": "เซิร์ฟเวอร์หมดเวลาในการรอคำขอ",
+          "category": "4xx"
+        },
+        {
+          "code": 409,
+          "name": "ขัดแย้ง",
+          "desc": "คำขอขัดแย้งกับสถานะปัจจุบันของทรัพยากรเป้าหมาย",
+          "category": "4xx"
+        },
+        {
+          "code": 410,
+          "name": "หายไป",
+          "desc": "ทรัพยากรไม่ได้อยู่ในความพร้อมอีกต่อไป และไม่มีที่อยู่สำหรับการโอนย้ายทราบ",
+          "category": "4xx"
+        },
+        {
+          "code": 411,
+          "name": "ต้องระบุขนาดเนื้อหา",
+          "desc": "เซิร์ฟเวอร์ต้องการหัวข้อ Content-Length ที่ถูกต้อง",
+          "category": "4xx"
+        },
+        {
+          "code": 412,
+          "name": "เงื่อนไขล้มเหลว",
+          "desc": "หนึ่งหรือหลายเงื่อนไขในหัวข้อคำขอประเมินว่าเป็นเท็จ",
+          "category": "4xx"
+        },
+        {
+          "code": 413,
+          "name": "ข้อมูลที่ส่งมากเกินไป",
+          "desc": "เนื้อหาคำขอใหญ่กว่าที่เซิร์ฟเวอร์ยินดีหรือสามารถประมวลผลได้",
+          "category": "4xx"
+        },
+        {
+          "code": 414,
+          "name": "URI ยาวเกินไป",
+          "desc": "URI ที่ขอมาสั้นกว่าที่เซิร์ฟเวอร์สามารถประมวลผลได้",
+          "category": "4xx"
+        },
+        {
+          "code": 415,
+          "name": "ประเภทสื่อไม่รองรับ",
+          "desc": "เซิร์ฟเวอร์ไม่รองรับประเภทสื่อที่ใช้ในคำขอ",
+          "category": "4xx"
+        },
+        {
+          "code": 418,
+          "name": "ฉันคือเครื่องชงกาแฟ",
+          "desc": "โค้ดสถานะที่ตลก แสดงให้เห็นว่าเซิร์ฟเวอร์ปฏิเสธที่จะชงกาแฟเพราะมันเป็นเครื่องชงกาแฟ",
+          "category": "4xx"
+        },
+        {
+          "code": 422,
+          "name": "ไม่สามารถประมวลผลได้",
+          "desc": "เซิร์ฟเวอร์เข้าใจรูปแบบคำขอ แต่ไม่สามารถประมวลผลคำสั่งที่มีอยู่ได้",
+          "category": "4xx"
+        },
+        {
+          "code": 429,
+          "name": "ส่งคำขอมากเกินไป",
+          "desc": "ไคลเอนต์ส่งคำขอจำนวนมากภายในระยะเวลาที่กำหนด",
+          "category": "4xx"
+        },
+        {
+          "code": 451,
+          "name": "ไม่สามารถใช้งานได้เนื่องจากเหตุผลทางกฎหมาย",
+          "desc": "ทรัพยากรไม่สามารถใช้งานได้เนื่องจากข้อจำกัดทางกฎหมาย",
+          "category": "4xx"
+        },
+        {
+          "code": 500,
+          "name": "ข้อผิดพลาดภายในเซิร์ฟเวอร์",
+          "desc": "เซิร์ฟเวอร์พบข้อผิดพลาดที่ไม่คาดคิดขณะประมวลผลคำขอ",
+          "category": "5xx"
+        },
+        {
+          "code": 501,
+          "name": "ยังไม่ได้รับการสนับสนุน",
+          "desc": "เซิร์ฟเวอร์ไม่รองรับความสามารถที่จำเป็นเพื่อให้คำขอสำเร็จ",
+          "category": "5xx"
+        },
+        {
+          "code": 502,
+          "name": "เกตเวย์ผิดพลาด",
+          "desc": "เซิร์ฟเวอร์เกตเวย์หรือพร็อกซีได้รับคำตอบที่ไม่ถูกต้องจากเซิร์ฟเวอร์ข้างบน",
+          "category": "5xx"
+        },
+        {
+          "code": 503,
+          "name": "บริการไม่พร้อมใช้งาน",
+          "desc": "เซิร์ฟเวอร์ไม่สามารถจัดการคำขอได้ชั่วคราว มักเกิดจากความแออัดหรือการบำรุงรักษา",
+          "category": "5xx"
+        },
+        {
+          "code": 504,
+          "name": "เกตเวย์หมดเวลา",
+          "desc": "เซิร์ฟเวอร์เกตเวย์หรือพร็อกซีไม่ได้รับคำตอบทันเวลาจากเซิร์ฟเวอร์ข้างบน",
+          "category": "5xx"
+        },
+        {
+          "code": 505,
+          "name": "เวอร์ชัน HTTP ไม่รองรับ",
+          "desc": "เซิร์ฟเวอร์ไม่รองรับเวอร์ชันโปรโตคอล HTTP ที่ใช้ในคำขอ",
+          "category": "5xx"
+        }
+      ]
+    },
+    "phpReference": {
+      "title": "อ้างอิงฟังก์ชัน PHP",
+      "description": "การอ้างอิงแบบรวดเร็วสำหรับฟังก์ชัน PHP ที่พบบ่อย",
+      "searchPlaceholder": "ค้นหาชื่อฟังก์ชันหรือคำอธิบาย...",
+      "noMatch": "ไม่พบฟังก์ชันที่ตรงกัน",
+      "infoTitle": "เกี่ยวกับ",
+      "infoDescription": "หน้านี้แสดงรายการฟังก์ชัน PHP ที่ใช้บ่อยตามประเภทเพื่อการค้นหาที่รวดเร็ว มันมีวัตถุประสงค์เพื่อเป็นภาพรวมที่สะดวกสำหรับนักพัฒนา และไม่ใช่การแทนที่เอกสารทางการของ PHP",
+      "categories": [
+        "ทั้งหมด",
+        "สายอักขระ",
+        "อาร์เรย์",
+        "ไฟล์",
+        "วันที่/เวลา",
+        "JSON",
+        "คณิตศาสตร์",
+        "อื่น ๆ"
+      ],
+      "functions": [
+        {
+          "name": "strlen",
+          "desc": "รับความยาวของสตริง",
+          "syntax": "strlen(string $string): int",
+          "category": "สตริง"
+        },
+        {
+          "name": "substr",
+          "desc": "คืนส่วนหนึ่งของสตริง",
+          "syntax": "substr(string $string, int $offset, ?int $length = null): string",
+          "category": "สตริง"
+        },
+        {
+          "name": "strpos",
+          "desc": "หาตำแหน่งการปรากฏครั้งแรกของสตริงย่อย",
+          "syntax": "strpos(string $haystack, string $needle, int $offset = 0): int|false",
+          "category": "สตริง"
+        },
+        {
+          "name": "str_replace",
+          "desc": "แทนที่ทุกการปรากฏของสตริงที่ค้นหา",
+          "syntax": "str_replace(mixed $search, mixed $replace, mixed $subject): mixed",
+          "category": "สตริง"
+        },
+        {
+          "name": "explode",
+          "desc": "แบ่งสตริงเป็นอาร์เรย์โดยใช้ตัวแบ่ง",
+          "syntax": "explode(string $separator, string $string, int $limit = PHP_INT_MAX): array",
+          "category": "สตริง"
+        },
+        {
+          "name": "implode",
+          "desc": "รวมสมาชิกของอาร์เรย์เป็นสตริง",
+          "syntax": "implode(string $separator, array $array): string",
+          "category": "สตริง"
+        },
+        {
+          "name": "trim",
+          "desc": "ลบช่องว่างหรือตัวอักษรอื่น ๆ ออกจากด้านซ้ายและขวาของสตริง",
+          "syntax": "trim(string $string, string $characters = \" \\n\\r\\t\\v\\x00\"): string",
+          "category": "สตริง"
+        },
+        {
+          "name": "strtolower",
+          "desc": "แปลงสตริงให้เป็นตัวพิมพ์เล็ก",
+          "syntax": "strtolower(string $string): string",
+          "category": "สตริง"
+        },
+        {
+          "name": "strtoupper",
+          "desc": "แปลงสตริงให้เป็นตัวพิมพ์ใหญ่",
+          "syntax": "strtoupper(string $string): string",
+          "category": "สตริง"
+        },
+        {
+          "name": "sprintf",
+          "desc": "คืนสตริงที่จัดรูปแบบ",
+          "syntax": "sprintf(string $format, mixed ...$values): string",
+          "category": "สตริง"
+        },
+        {
+          "name": "preg_match",
+          "desc": "ดำเนินการจับคู่แบบปกติของสตริง",
+          "syntax": "preg_match(string $pattern, string $subject, array &$matches = null): int|false",
+          "category": "สตริง"
+        },
+        {
+          "name": "preg_replace",
+          "desc": "ดำเนินการค้นหาและแทนที่แบบปกติของสตริง",
+          "syntax": "preg_replace(mixed $pattern, mixed $replacement, mixed $subject): mixed",
+          "category": "สตริง"
+        },
+        {
+          "name": "count",
+          "desc": "นับจำนวนองค์ประกอบในอาร์เรย์หรือวัตถุ Countable",
+          "syntax": "count(Countable|array $value, int $mode = COUNT_NORMAL): int",
+          "category": "อาร์เรย์"
+        },
+        {
+          "name": "array_push",
+          "desc": "เพิ่มองค์ประกอบหนึ่งหรือมากกว่าไปที่ส่วนท้ายของอาร์เรย์",
+          "syntax": "array_push(array &$array, mixed ...$values): int",
+          "category": "อาร์เรย์"
+        },
+        {
+          "name": "array_pop",
+          "desc": "นำองค์ประกอบสุดท้ายของอาร์เรย์ออก",
+          "syntax": "array_pop(array &$array): mixed",
+          "category": "อาร์เรย์"
+        },
+        {
+          "name": "array_merge",
+          "desc": "รวมอาร์เรย์หนึ่งหรือหลายอาร์เรย์",
+          "syntax": "array_merge(array ...$arrays): array",
+          "category": "อาร์เรย์"
+        },
+        {
+          "name": "array_keys",
+          "desc": "คืนคีย์ทั้งหมดของอาร์เรย์",
+          "syntax": "array_keys(array $array, mixed $filter_value, bool $strict = false): array",
+          "category": "อาร์เรย์"
+        },
+        {
+          "name": "array_values",
+          "desc": "คืนค่าทั้งหมดของอาร์เรย์",
+          "syntax": "array_values(array $array): array",
+          "category": "อาร์เรย์"
+        },
+        {
+          "name": "in_array",
+          "desc": "ตรวจสอบว่าค่าอยู่ในอาร์เรย์หรือไม่",
+          "syntax": "in_array(mixed $needle, array $haystack, bool $strict = false): bool",
+          "category": "อาร์เรย์"
+        },
+        {
+          "name": "array_search",
+          "desc": "ค้นหาค่าในอาร์เรย์และคืนคีย์",
+          "syntax": "array_search(mixed $needle, array $haystack, bool $strict = false): int|string|false",
+          "category": "อาร์เรย์"
+        },
+        {
+          "name": "array_map",
+          "desc": "นำไปใช้กับองค์ประกอบของอาร์เรย์โดยใช้ฟังก์ชันที่กำหนด",
+          "syntax": "array_map(?callable $callback, array $array, array ...$arrays): array",
+          "category": "อาร์เรย์"
+        },
+        {
+          "name": "array_filter",
+          "desc": "กรององค์ประกอบของอาร์เรย์โดยใช้ฟังก์ชันที่กำหนด",
+          "syntax": "array_filter(array $array, ?callable $callback = null, int $mode = 0): array",
+          "category": "อาร์เรย์"
+        },
+        {
+          "name": "sort",
+          "desc": "เรียงลำดับอาร์เรย์จากน้อยไปมาก",
+          "syntax": "sort(array &$array, int $flags = SORT_REGULAR): bool",
+          "category": "อาร์เรย์"
+        },
+        {
+          "name": "usort",
+          "desc": "เรียงลำดับอาร์เรย์โดยใช้ฟังก์ชันเปรียบเทียบที่ผู้ใช้กำหนด",
+          "syntax": "usort(array &$array, callable $callback): bool",
+          "category": "อาร์เรย์"
+        },
+        {
+          "name": "file_get_contents",
+          "desc": "อ่านไฟล์ทั้งหมดเข้าไปในสตริง",
+          "syntax": "file_get_contents(string $filename, ...): string|false",
+          "category": "ไฟล์"
+        },
+        {
+          "name": "file_put_contents",
+          "desc": "เขียนข้อมูลลงในไฟล์",
+          "syntax": "file_put_contents(string $filename, mixed $data, int $flags = 0): int|false",
+          "category": "ไฟล์"
+        },
+        {
+          "name": "fopen",
+          "desc": "เปิดไฟล์หรือ URL",
+          "syntax": "fopen(string $filename, string $mode, ...): resource|false",
+          "category": "ไฟล์"
+        },
+        {
+          "name": "fclose",
+          "desc": "ปิดตัวชี้ไฟล์ที่เปิดอยู่",
+          "syntax": "fclose(resource $stream): bool",
+          "category": "ไฟล์"
+        },
+        {
+          "name": "fread",
+          "desc": "อ่านจากตัวชี้ไฟล์",
+          "syntax": "fread(resource $stream, int $length): string|false",
+          "category": "ไฟล์"
+        },
+        {
+          "name": "fwrite",
+          "desc": "เขียนลงในตัวชี้ไฟล์",
+          "syntax": "fwrite(resource $stream, string $data, ?int $length = null): int|false",
+          "category": "ไฟล์"
+        },
+        {
+          "name": "file_exists",
+          "desc": "ตรวจสอบว่าไฟล์หรือไดเรกทอรีมีอยู่หรือไม่",
+          "syntax": "file_exists(string $filename): bool",
+          "category": "ไฟล์"
+        },
+        {
+          "name": "is_file",
+          "desc": "ตรวจสอบว่าเส้นทางเป็นไฟล์ธรรมดาหรือไม่",
+          "syntax": "is_file(string $filename): bool",
+          "category": "ไฟล์"
+        },
+        {
+          "name": "unlink",
+          "desc": "ลบไฟล์",
+          "syntax": "unlink(string $filename, ?resource $context = null): bool",
+          "category": "ไฟล์"
+        },
+        {
+          "name": "mkdir",
+          "desc": "สร้างไดเรกทอรี",
+          "syntax": "mkdir(string $directory, int $permissions = 0777, bool $recursive = false): bool",
+          "category": "ไฟล์"
+        },
+        {
+          "name": "date",
+          "desc": "จัดรูปแบบวันที่และเวลาท้องถิ่น",
+          "syntax": "date(string $format, ?int $timestamp = null): string",
+          "category": "วันที่/เวลา"
+        },
+        {
+          "name": "time",
+          "desc": "รับ Unix timestamp ปัจจุบัน",
+          "syntax": "time(): int",
+          "category": "วันที่/เวลา"
+        },
+        {
+          "name": "strtotime",
+          "desc": "แปลงข้อความวันที่และเวลาเป็น Unix timestamp",
+          "syntax": "strtotime(string $datetime, ?int $baseTimestamp = null): int|false",
+          "category": "วันที่/เวลา"
+        },
+        {
+          "name": "mktime",
+          "desc": "รับค่า Unix timestamp สำหรับวันที่",
+          "syntax": "mktime(int $hour, ?int $minute = null, ...): int|false",
+          "category": "วันที่/เวลา"
+        },
+        {
+          "name": "date_create",
+          "desc": "สร้างวัตถุ DateTime",
+          "syntax": "date_create(string $datetime = \"now\", ?DateTimeZone $timezone = null): DateTime|false",
+          "category": "วันที่/เวลา"
+        },
+        {
+          "name": "json_encode",
+          "desc": "แปลงค่าเป็นสตริง JSON",
+          "syntax": "json_encode(mixed $value, int $flags = 0, int $depth = 512): string|false",
+          "category": "JSON"
+        },
+        {
+          "name": "json_decode",
+          "desc": "ถอดรหัสสตริง JSON เป็นค่า PHP",
+          "syntax": "json_decode(string $json, ?bool $associative = null, int $depth = 512): mixed",
+          "category": "JSON"
+        },
+        {
+          "name": "abs",
+          "desc": "รับค่าสัมบูรณ์",
+          "syntax": "abs(int|float $num): int|float",
+          "category": "คณิตศาสตร์"
+        },
+        {
+          "name": "ceil",
+          "desc": "ปัดเศษขึ้น",
+          "syntax": "ceil(int|float $num): float",
+          "category": "คณิตศาสตร์"
+        },
+        {
+          "name": "floor",
+          "desc": "ปัดเศษลง",
+          "syntax": "floor(int|float $num): float",
+          "category": "คณิตศาสตร์"
+        },
+        {
+          "name": "round",
+          "desc": "ปัดเศษจำนวน",
+          "syntax": "round(int|float $num, int $precision = 0, int $mode = PHP_ROUND_HALF_UP): float",
+          "category": "คณิตศาสตร์"
+        },
+        {
+          "name": "max",
+          "desc": "หาค่ามากที่สุด",
+          "syntax": "max(mixed $value, mixed ...$values): mixed",
+          "category": "คณิตศาสตร์"
+        },
+        {
+          "name": "min",
+          "desc": "หาค่าเล็กที่สุด",
+          "syntax": "min(mixed $value, mixed ...$values): mixed",
+          "category": "คณิตศาสตร์"
+        },
+        {
+          "name": "rand",
+          "desc": "สร้างจำนวนเต็มแบบสุ่ม",
+          "syntax": "rand(int $min, int $max): int",
+          "category": "คณิตศาสตร์"
+        },
+        {
+          "name": "isset",
+          "desc": "ตรวจสอบว่าตัวแปรถูกตั้งค่าและไม่ใช่ null",
+          "syntax": "isset(mixed $var, mixed ...$vars): bool",
+          "category": "อื่น ๆ"
+        },
+        {
+          "name": "empty",
+          "desc": "ตรวจสอบว่าตัวแปรว่างเปล่า",
+          "syntax": "empty(mixed $var): bool",
+          "category": "อื่น ๆ"
+        },
+        {
+          "name": "var_dump",
+          "desc": "แสดงข้อมูลเกี่ยวกับตัวแปร",
+          "syntax": "var_dump(mixed $value, mixed ...$values): void",
+          "category": "อื่น ๆ"
+        },
+        {
+          "name": "print_r",
+          "desc": "แสดงข้อมูลเกี่ยวกับตัวแปรในรูปแบบที่มนุษย์อ่านได้",
+          "syntax": "print_r(mixed $value, bool $return = false): string|bool",
+          "category": "อื่น ๆ"
+        },
+        {
+          "name": "gettype",
+          "desc": "รับประเภทของตัวแปร",
+          "syntax": "gettype(mixed $value): string",
+          "category": "อื่น ๆ"
+        },
+        {
+          "name": "is_array",
+          "desc": "ตรวจสอบว่าตัวแปรเป็นอาร์เรย์",
+          "syntax": "is_array(mixed $value): bool",
+          "category": "อื่น ๆ"
+        },
+        {
+          "name": "is_string",
+          "desc": "ตรวจสอบว่าตัวแปรเป็นสตริง",
+          "syntax": "is_string(mixed $value): bool",
+          "category": "อื่น ๆ"
+        },
+        {
+          "name": "is_numeric",
+          "desc": "ตรวจสอบว่าตัวแปรเป็นตัวเลขหรือสตริงตัวเลข",
+          "syntax": "is_numeric(mixed $value): bool",
+          "category": "อื่น ๆ"
+        }
+      ]
+    },
+    "cssBorderRadius": {
+      "title": "เครื่องมือสร้าง CSS Border Radius",
+      "description": "ปรับค่า border-radius แบบเห็นภาพและสร้างโค้ด CSS",
+      "presetsLabel": "ตัวอย่าง",
+      "preview": "ตัวอย่าง",
+      "settings": "การตั้งค่า",
+      "linked": "มุมเชื่อมโยง",
+      "unlinked": "มุมแยก",
+      "corners": {
+        "topLeft": "มุมซ้ายบน",
+        "topRight": "มุมขวาบน",
+        "bottomLeft": "มุมซ้ายล่าง",
+        "bottomRight": "มุมขวาล่าง"
+      },
+      "elementColor": "สีขององค์ประกอบ",
+      "codeTitle": "โค้ด CSS",
+      "copy": "คัดลอก",
+      "copied": "คัดลอกแล้ว",
+      "presets": [
+        {
+          "name": "ไม่มี",
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "เล็ก",
+          "values": [
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "กลาง",
+          "values": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "ใหญ่",
+          "values": [
+            16,
+            16,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "วงกลม",
+          "values": [
+            50,
+            50,
+            50,
+            50
+          ]
+        },
+        {
+          "name": "รูปทรงยาว",
+          "values": [
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "ด้านซ้าย",
+          "values": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        {
+          "name": "ด้านขวา",
+          "values": [
+            0,
+            16,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "ด้านบนเพียงอย่างเดียว",
+          "values": [
+            16,
+            16,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "ด้านล่างเพียงอย่างเดียว",
+          "values": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "เส้นทแยง",
+          "values": [
+            16,
+            0,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "ใบไม้",
+          "values": [
+            0,
+            50,
+            0,
+            50
+          ]
+        }
+      ]
+    },
+    "cssNeumorphism": {
+      "title": "เครื่องมือสร้าง CSS Neumorphism",
+      "description": "สร้างโค้ด CSS แบบ Neumorphism ออนไลน์",
+      "previewText": "ปุ่มตัวอย่าง",
+      "shapeTitle": "สไตล์รูปร่าง",
+      "shapeOptions": [
+        {
+          "value": "flat",
+          "label": "แบน"
+        },
+        {
+          "value": "concave",
+          "label": "เว้า"
+        },
+        {
+          "value": "convex",
+          "label": "โอบ"
+        },
+        {
+          "value": "pressed",
+          "label": "กด"
+        }
+      ],
+      "colorTitle": "การตั้งค่าสี",
+      "presetColors": "สีตัวอย่าง",
+      "colorPresets": [
+        {
+          "color": "#e0e5ec",
+          "name": "คลาสสิก"
+        },
+        {
+          "color": "#f0f0f3",
+          "name": "ขาว"
+        },
+        {
+          "color": "#d1d9e6",
+          "name": "ฟ้า"
+        },
+        {
+          "color": "#e8dfd5",
+          "name": "เบจ"
+        },
+        {
+          "color": "#dfe6e9",
+          "name": "เทา"
+        },
+        {
+          "color": "#ffeaa7",
+          "name": "เหลือง"
+        },
+        {
+          "color": "#dfe4ea",
+          "name": "หินอ่อน"
+        },
+        {
+          "color": "#f8e1e7",
+          "name": "ชมพู"
+        },
+        {
+          "color": "#d5f5e3",
+          "name": "มิ้นท์"
+        },
+        {
+          "color": "#e8daef",
+          "name": "ม่วง"
+        }
+      ],
+      "backgroundColor": "สีหลัก",
+      "lightColor": "สีสว่าง (แสง)",
+      "darkColor": "สีมืด (เงา)",
+      "sliderTitle": "การตั้งค่าเงา",
+      "size": "ขนาด",
+      "radius": "รัศมี",
+      "distance": "ระยะเงา",
+      "blur": "ความเบลอของเงา",
+      "intensity": "ความเข้มของเงา",
+      "codeTitle": "โค้ด CSS",
+      "copy": "คัดลอก",
+      "copied": "คัดลอกแล้ว",
+      "infoTitle": "Neumorphism คืออะไร",
+      "infoDescription": "Neumorphism เป็นสไตล์ UI ที่นุ่มนวล ซึ่งรวมเงาและแสงอ่อนๆ เพื่อให้ส่วนประกอบดูเหมือนลอยขึ้นหรือกดลงในพื้นหลัง มันทำงานได้ดีที่สุดกับโทนสีที่มีความตัดกันต่ำและรูปแบบการจัดวางที่เรียบง่าย"
+    },
+    "cssTextShadow": {
+      "title": "เครื่องสร้าง CSS Text Shadow",
+      "description": "ปรับค่า text-shadow อย่างเป็นภาพและสร้างโค้ด CSS",
+      "defaultText": "ตัวอย่าง Text Shadow",
+      "presetsLabel": " Effected ที่กำหนดไว้ล่วงหน้า",
+      "textSettings": "การตั้งค่าข้อความ",
+      "previewText": "ข้อความตัวอย่าง",
+      "fontSize": "ขนาดฟอนต์",
+      "textColor": "สีของข้อความ",
+      "shadowPrefix": "เงา {{index}}",
+      "offsetX": "Offset X",
+      "offsetY": "Offset Y",
+      "blur": "เบลอ",
+      "opacity": "ความโปร่งใส",
+      "color": "สี",
+      "addShadow": "เพิ่มเงา",
+      "codeTitle": "โค้ด CSS",
+      "copy": "คัดลอก",
+      "copied": "คัดลอกแล้ว",
+      "presets": [
+        {
+          "name": "เงาอ่อน",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 2,
+              "y": 2,
+              "blur": 4,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        },
+        {
+          "name": "แสงสะท้อน",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#00ff00",
+              "opacity": 0.8
+            }
+          ]
+        },
+        {
+          "name": "แสงสีม่วง",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 5,
+              "color": "#ff00ff",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#ff00ff",
+              "opacity": 0.8
+            },
+            {
+              "id": 3,
+              "x": 0,
+              "y": 0,
+              "blur": 20,
+              "color": "#ff00ff",
+              "opacity": 0.6
+            }
+          ]
+        },
+        {
+          "name": "3D ชั้นหลายชั้น",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 1,
+              "y": 1,
+              "blur": 0,
+              "color": "#666666",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 2,
+              "y": 2,
+              "blur": 0,
+              "color": "#888888",
+              "opacity": 1
+            },
+            {
+              "id": 3,
+              "x": 3,
+              "y": 3,
+              "blur": 0,
+              "color": "#aaaaaa",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "name": "รูปแบบเนิน",
+          "shadows": [
+            {
+              "id": 1,
+              "x": -1,
+              "y": -1,
+              "blur": 1,
+              "color": "#ffffff",
+              "opacity": 0.8
+            },
+            {
+              "id": 2,
+              "x": 1,
+              "y": 1,
+              "blur": 1,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "websocketTest": {
+      "title": "เครื่องมือทดสอบ WebSocket ออนไลน์",
+      "description": "ทดสอบการเชื่อมต่อและส่งข้อความผ่าน WebSocket ออนไลน์",
+      "defaultUrl": "wss://echo.websocket.org",
+      "connectingTo": "กำลังเชื่อมต่อกับ {{url}}...",
+      "connectSuccess": "เชื่อมต่อสำเร็จ",
+      "connectError": "เกิดข้อผิดพลาดในการเชื่อมต่อ",
+      "connectionClosed": "การเชื่อมต่อถูกปิด (รหัส: {{code}})",
+      "connectFailed": "การเชื่อมต่อล้มเหลว: {{message}}",
+      "disconnecting": "กำลังตัดการเชื่อมต่อ...",
+      "urlPlaceholder": "กรุณาใส่ URL ของ WebSocket เช่น wss://echo.websocket.org",
+      "disconnect": "ตัดการเชื่อมต่อ",
+      "connecting": "กำลังเชื่อมต่อ...",
+      "connect": "เชื่อมต่อ",
+      "connected": "เชื่อมต่อแล้ว",
+      "notConnected": "ยังไม่ได้เชื่อมต่อ",
+      "messageLog": "บันทึกข้อความ",
+      "clear": "ลบ",
+      "noMessages": "ยังไม่มีข้อความ",
+      "messagePlaceholder": "กรุณาเขียนข้อความ... (กด Enter เพื่อส่ง, Shift+Enter เพื่อแทรกบรรทัดใหม่)",
+      "infoTitle": "เคล็ดลับ WebSocket",
+      "infoItems": [
+        "บริการ echo ภายในมีประโยชน์สำหรับการทดสอบการส่ง/รับข้อความพื้นฐาน",
+        "รองรับทั้ง ws:// และ wss://",
+        "กด Enter เพื่อส่งข้อความ, Shift+Enter เพื่อแทรกบรรทัดใหม่",
+        "ตรวจสอบให้แน่ใจว่าบริการเป้าหมายอนุญาตให้เชื่อมต่อผ่านเบราว์เซอร์"
+      ],
+      "examplesTitle": "ตัวอย่างที่พบบ่อย",
+      "publicEcho": "บริการ Echo สาธารณะ",
+      "defaultTag": "ค่าเริ่มต้น"
+    },
+    "csrGenerator": {
+      "title": "เครื่องสร้างและดู CSR",
+      "description": "สร้างไฟล์ CSR ออนไลน์และวิเคราะห์เนื้อหา CSR",
+      "enterDomain": "กรุณากรอกโดเมน",
+      "generateFailed": "การสร้าง CSR ล้มเหลว",
+      "parseFailed": "การวิเคราะห์ CSR ล้มเหลว",
+      "serverConnectionFailed": "การเชื่อมต่อกับเซิร์ฟเวอร์ล้มเหลว กรุณาลองอีกครั้งในภายหลัง",
+      "tabs": {
+        "generate": "สร้าง CSR",
+        "view": "ดู CSR"
+      },
+      "formTitle": "ข้อมูลใบรับรอง",
+      "labels": {
+        "commonName": "โดเมน (Common Name)",
+        "organization": "องค์กร",
+        "organizationUnit": "แผนก",
+        "city": "เมือง",
+        "state": "รัฐ / จังหวัด",
+        "country": "ประเทศ / พื้นที่",
+        "email": "อีเมล",
+        "keySize": "ขนาดคีย์"
+      },
+      "placeholders": {
+        "commonName": "ตัวอย่าง: www.example.com หรือ *.example.com",
+        "organization": "ตัวอย่าง: Example Inc.",
+        "organizationUnit": "ตัวอย่าง: แผนก IT",
+        "city": "ตัวอย่าง: เบijing",
+        "state": "ตัวอย่าง: เบijing",
+        "email": "ตัวอย่าง: admin@example.com",
+        "csr": "วางเนื้อหา CSR ที่นี่ ตั้งแต่ -----BEGIN CERTIFICATE REQUEST-----"
+      },
+      "countries": [
+        {
+          "value": "CN",
+          "label": "CN - จีน"
+        },
+        {
+          "value": "US",
+          "label": "US - สหรัฐอเมริกา"
+        },
+        {
+          "value": "JP",
+          "label": "JP - ญี่ปุ่น"
+        },
+        {
+          "value": "KR",
+          "label": "KR - เกาหลีใต้"
+        },
+        {
+          "value": "GB",
+          "label": "GB - สหราชอาณาจักร"
+        },
+        {
+          "value": "DE",
+          "label": "DE - เยอรมนี"
+        },
+        {
+          "value": "FR",
+          "label": "FR - ฝรั่งเศส"
+        },
+        {
+          "value": "SG",
+          "label": "SG - สิงคโปร์"
+        },
+        {
+          "value": "HK",
+          "label": "HK - ฮ่องกง"
+        },
+        {
+          "value": "TW",
+          "label": "TW - ไต้หวัน"
+        }
+      ],
+      "keySizes": [
+        {
+          "value": "2048",
+          "label": "2048 บิต (แนะนำ)"
+        },
+        {
+          "value": "4096",
+          "label": "4096 บิต (ปลอดภัยมากขึ้น)"
+        }
+      ],
+      "generating": "กำลังสร้าง...",
+      "generateAction": "สร้าง CSR และคีย์ส่วนตัว",
+      "csrRequest": "คำขอ CSR",
+      "privateKey": "คีย์ส่วนตัว (เก็บไว้ให้ปลอดภัย)",
+      "copy": "คัดลอก",
+      "copied": "คัดลอกแล้ว",
+      "download": "ดาวน์โหลด",
+      "privateKeyWarning": "คีย์ส่วนตัวมีความสำคัญมาก โปรดเก็บไว้ให้ปลอดภัยและอย่าแบ่งปันกับสาธารณะ หากถูกเปิดเผย ความปลอดภัยของใบรับรองอาจถูกคุกคาม",
+      "inputCsr": "วางเนื้อหา CSR",
+      "parsing": "กำลังวิเคราะห์...",
+      "parseAction": "วิเคราะห์ CSR",
+      "csrInfo": "ข้อมูล CSR",
+      "infoItems": [
+        {
+          "label": "โดเมน (CN)",
+          "key": "commonName"
+        },
+        {
+          "label": "องค์กร (O)",
+          "key": "organization"
+        },
+        {
+          "label": "แผนก (OU)",
+          "key": "organizationUnit"
+        },
+        {
+          "label": "เมือง (L)",
+          "key": "city"
+        },
+        {
+          "label": "รัฐ / จังหวัด (ST)",
+          "key": "state"
+        },
+        {
+          "label": "ประเทศ (C)",
+          "key": "country"
+        },
+        {
+          "label": "อีเมล",
+          "key": "email"
+        },
+        {
+          "label": "อัลกอริทึมคีย์",
+          "key": "keyAlgorithm"
+        },
+        {
+          "label": "ขนาดคีย์",
+          "key": "keySize"
+        },
+        {
+          "label": "อัลกอริทึมลายเซ็น",
+          "key": "signatureAlgorithm"
+        }
+      ],
+      "keySizeValue": "{{value}} บิต",
+      "aboutTitle": "CSR คืออะไร?",
+      "aboutDescription": "CSR (Certificate Signing Request) เป็นไฟล์ที่เข้ารหัสที่ส่งไปยังผู้ออกใบรับรอง (CA) เมื่อสมัครใบรับรอง SSL/TLS มันมีข้อมูลเกี่ยวกับโดเมนและองค์กรของคุณ รวมถึงคีย์สาธารณะที่ตรงกับคีย์ส่วนตัวของคุณ หลังจากตรวจสอบแล้ว CA จะใช้ CSR เพื่อออกใบรับรอง SSL"
+    },
+    "metaGenerator": {
+      "title": "เครื่องสร้าง Tag Meta",
+      "description": "สร้าง tag meta สำหรับ SEO",
+      "basicInfo": "ข้อมูลพื้นฐาน",
+      "socialMedia": "โซเชียลมีเดีย (Open Graph)",
+      "generatedCode": "โค้ดที่สร้าง",
+      "copy": "คัดลอก",
+      "copied": "คัดลอกแล้ว",
+      "searchPreview": "การดูตัวอย่างการค้นหา",
+      "searchPreviewTitleFallback": "ชื่อหน้า",
+      "searchPreviewDescriptionFallback": "คำอธิบายหน้าของคุณจะปรากฏที่นี่...",
+      "socialPreview": "การดูตัวอย่างโซเชียลมีเดีย",
+      "socialPreviewTitleFallback": "หัวข้อ",
+      "socialPreviewDescriptionFallback": "คำอธิบาย",
+      "labels": {
+        "title": "ชื่อหน้า",
+        "description": "คำอธิบายหน้า",
+        "keywords": "คำสำคัญ",
+        "author": "ผู้เขียน",
+        "robots": "คำสั่งโรบอท",
+        "ogTitle": "หัวข้อ OG",
+        "ogDescription": "คำอธิบาย OG",
+        "ogImage": "URL รูปภาพ OG",
+        "ogUrl": "URL หน้า",
+        "twitterCard": "ประเภท Twitter Card"
+      },
+      "placeholders": {
+        "title": "กรุณาใส่ชื่อหน้า",
+        "description": "กรุณาใส่คำอธิบายหน้า ควรมีความยาวไม่เกิน 150 ตัวอักษร",
+        "keywords": "คำสำคัญ1, คำสำคัญ2, คำสำคัญ3",
+        "author": "กรุณาใส่ชื่อผู้เขียน",
+        "ogTitle": "กรุณาใส้หัวข้อสำหรับการแชร์โซเชียลมีเดีย",
+        "ogDescription": "กรุณาใส้คำอธิบายสำหรับการแชร์โซเชียลมีเดีย",
+        "ogImage": "https://example.com/image.jpg",
+        "ogUrl": "https://example.com/page"
+      },
+      "robotsOptions": [
+        {
+          "value": "index, follow",
+          "label": "อนุญาตให้ดัชนีและตาม"
+        },
+        {
+          "value": "index, nofollow",
+          "label": "อนุญาตให้ดัชนี แต่ห้ามตาม"
+        },
+        {
+          "value": "noindex, follow",
+          "label": "ห้ามดัชนี แต่อนุญาตให้ตาม"
+        },
+        {
+          "value": "noindex, nofollow",
+          "label": "ห้ามดัชนีและห้ามตาม"
+        }
+      ],
+      "twitterOptions": [
+        {
+          "value": "summary",
+          "label": "สรุป"
+        },
+        {
+          "value": "summary_large_image",
+          "label": "รูปภาพขนาดใหญ่"
+        },
+        {
+          "value": "player",
+          "label": "เล่น"
+        }
+      ]
+    },
+    "toolHistoryDemo": {
+      "confirmClear": "คุณแน่ใจหรือไม่ว่าต้องการลบประวัติเครื่องมือทั้งหมดและรายการโปรด?",
+      "exportTitle": "ดาวน์โหลดข้อมูล",
+      "usageCount": "ใช้ {{count}} ครั้ง",
+      "lastUsed": "ใช้ล่าสุด: {{time}}",
+      "favorite": "รายการโปรด: {{value}}",
+      "yes": "ใช่",
+      "no": "ไม่",
+      "exportFailed": "การดาวน์โหลดล้มเหลว",
+      "tabs": {
+        "overview": "ภาพรวม",
+        "history": "ประวัติ",
+        "favorites": "รายการโปรด",
+        "analytics": "การวิเคราะห์"
+      },
+      "loading": "กำลังโหลดประวัติเครื่องมือ...",
+      "loadFailed": "โหลดล้มเหลว: {{error}}",
+      "title": "ตัวอย่างประวัติเครื่องมือ",
+      "description": "แสดงประวัติการใช้งานเครื่องมือ รายการโปรด และการวิเคราะห์",
+      "export": "ดาวน์โหลด",
+      "clear": "ล้าง",
+      "searchPlaceholder": "ค้นหาเครื่องมือ...",
+      "stats": {
+        "totalTools": "จำนวนเครื่องมือทั้งหมด",
+        "totalUsage": "การใช้งานทั้งหมด",
+        "favoriteTools": "เครื่องมือที่เป็นรายการโปรด",
+        "averageUsage": "การใช้งานเฉลี่ย"
+      },
+      "favoriteToolsTitle": "เครื่องมือที่เป็นรายการโปรด",
+      "favoriteToolsDescription": "เครื่องมือที่คุณตั้งเป็นรายการโปรด",
+      "noFavoriteTools": "ยังไม่มีเครื่องมือที่เป็นรายการโปรด",
+      "mostUsed": "เครื่องมือที่ถูกใช้บ่อยที่สุด",
+      "timesUsed": "ใช้ {{count}} ครั้ง",
+      "recentActivity": "กิจกรรมล่าสุด",
+      "exportDialogTitle": "ดาวน์โหลดประวัติเครื่องมือ",
+      "exportDialogDescription": "เลือกรูปแบบการดาวน์โหลด",
+      "formats": {
+        "json": {
+          "title": "รูปแบบ JSON",
+          "description": "เหมาะสำหรับการสำรองข้อมูลและการใช้งานของนักพัฒนา"
+        },
+        "csv": {
+          "title": "รูปแบบ CSV",
+          "description": "เหมาะสำหรับไฟล์ตาราง เช่น Excel"
+        },
+        "txt": {
+          "title": "รูปแบบ TXT",
+          "description": "ข้อความธรรมดา"
+        }
+      },
+      "cancel": "ยกเลิก"
+    },
+    "userAgentParser": {
+      "title": "ตัวแยกส่วน User-Agent",
+      "description": "แยกส่วนสายอักขระ User-Agent เพื่อระบุข้อมูลเกี่ยวกับเบราว์เซอร์ ระบบ และอุปกรณ์",
+      "label": "สายอักขระ User-Agent",
+      "useCurrent": "ใช้เบราว์เซอร์ปัจจุบัน",
+      "inputPlaceholder": "กรุณาใส่อักขระ User-Agent...",
+      "parse": "แยกส่วน",
+      "unknownBrowser": "เบราว์เซอร์ไม่ทราบ",
+      "unknown": "ไม่ทราบ",
+      "deviceTypes": {
+        "mobile": "มือถือ",
+        "tablet": "แท็บเล็ต",
+        "desktop": "คอมพิวเตอร์"
+      },
+      "browserInfo": "ข้อมูลเบราว์เซอร์",
+      "browser": "เบราว์เซอร์",
+      "version": "เวอร์ชัน",
+      "majorVersion": "เวอร์ชันหลัก",
+      "operatingSystem": "ระบบปฏิบัติการ",
+      "system": "ระบบ",
+      "deviceInfo": "ข้อมูลอุปกรณ์",
+      "type": "ประเภท",
+      "vendor": "ผู้ผลิต",
+      "model": "โมเดล",
+      "engineAndCpu": "เครื่องมือ & CPU",
+      "engine": "เครื่องมือ",
+      "engineVersion": "เวอร์ชันเครื่องมือ",
+      "cpuArchitecture": "สถาปัตยกรรม CPU",
+      "examplesTitle": "ตัวอย่างสายอักขระ User-Agent"
+    },
+    "cssBoxShadow": {
+      "title": "ตัวสร้าง CSS Box Shadow",
+      "description": "ปรับค่า box-shadow แบบเห็นภาพและสร้างโค้ด CSS",
+      "preview": "ตัวอย่าง",
+      "basicSettings": "ตั้งค่าพื้นฐาน",
+      "backgroundColor": "สีพื้นหลัง",
+      "boxColor": "สีกล่อง",
+      "borderRadius": "รัศมีขอบ",
+      "shadowPrefix": "เงา {{index}}",
+      "inset": "ภายใน",
+      "offsetX": "ระยะ X",
+      "offsetY": "ระยะ Y",
+      "blur": "เบลอ",
+      "spread": "ขยาย",
+      "opacity": "ความโปร่งใส",
+      "color": "สี",
+      "addShadow": "เพิ่มเงา",
+      "codeTitle": "โค้ด CSS",
+      "copy": "คัดลอก",
+      "copied": "คัดลอกแล้ว"
+    },
+    "cssGlassmorphism": {
+      "title": "ตัวสร้าง CSS Glassmorphism",
+      "description": "สร้างโค้ด CSS แบบ Glassmorphism ออนไลน์",
+      "cardTitle": "การ์ด Glassmorphism",
+      "cardDescription": "Glassmorphism เป็นสไตล์ UI สมัยใหม่ที่ใช้ความโปร่งใส ความเบลอ และขอบที่อ่อนโยนเพื่อสร้างผลกระทบเหมือนกระจกที่มีฝ้า",
+      "adjustTitle": "ปรับตั้งค่า",
+      "blur": "ความเบลอของพื้นหลัง",
+      "transparency": "ความโปร่งใส",
+      "saturation": "ความอิ่มตัว",
+      "borderRadius": "รัศมีขอบ",
+      "borderOpacity": "ความโปร่งใสของขอบ",
+      "codeTitle": "โค้ด CSS",
+      "copy": "คัดลอก",
+      "copied": "คัดลอกแล้ว",
+      "infoTitle": "ข้อควรระวังเกี่ยวกับความเข้ากันได้",
+      "infoDescription": "คุณสมบัติ backdrop-filter จำเป็นต้องมีการสนับสนุนจากเบราว์เซอร์สมัยใหม่ Firefox อาจต้องตั้งค่าเพิ่มเติม และ Safari อาจต้องใช้คำนำหน้า -webkit- พิจารณาการใช้งานแบบสำรองสำหรับเบราว์เซอร์ที่ไม่รองรับ"
+    },
+    "desktopShortcut": {
+      "title": "ไอคอนเว็บไซต์บนเดสก์ท็อป",
+      "description": "สร้างไอคอนเว็บไซต์สำหรับเดสก์ท็อปและเปิดใช้งานได้อย่างรวดเร็ว",
+      "enterUrl": "กรุณาใส่ URL ของเว็บไซต์ที่ถูกต้อง",
+      "enterName": "กรุณาใส่ชื่อไอคอน",
+      "redirectingTo": "กำลังเปิด {{name}}...",
+      "urlLabel": "URL เว็บไซต์",
+      "urlPlaceholder": "example.com หรือ https://example.com",
+      "nameLabel": "ชื่อไอคอน",
+      "namePlaceholder": "ไอคอนเว็บไซต์",
+      "downloadUrlFile": "ดาวน์โหลดไฟล์ .url",
+      "downloadHtmlFile": "ดาวน์โหลดไฟล์ .html",
+      "infoTitle": "ขั้นตอน",
+      "urlFileDesc": "ไฟล์ .url เป็นไฟล์ลิงก์อินเทอร์เน็ตของ Windows และมักจะเปิดเว็บไซต์เป้าหมายโดยตรงในเบราว์เซอร์เริ่มต้นของคุณ",
+      "htmlFileDesc": "ไฟล์ .html ทำงานได้บน Windows, macOS และ Linux และยังสามารถใช้เป็นลิงก์เว็บไซต์ง่ายๆ ได้อีกด้วย",
+      "afterDownload": "หลังจากดาวน์โหลดแล้ว ให้ย้ายไฟล์ไปที่เดสก์ท็อปหรือยึดไว้ที่จุดที่ต้องการ"
+    },
+    "htmlPreview": {
+      "title": "การดูตัวอย่าง HTML",
+      "description": "เขียนและดูตัวอย่าง HTML ออนไลน์",
+      "defaultMessage": "ยินดีต้อนรับสู่เครื่องมือดูตัวอย่าง HTML",
+      "editorTitle": "โค้ด HTML",
+      "clear": "ล้าง",
+      "editorPlaceholder": "ใส่โค้ด HTML ที่นี่...",
+      "previewTitle": "ดูตัวอย่าง",
+      "run": "รัน",
+      "fullscreen": "หน้าเต็มจอ",
+      "exitFullscreen": "ออกจากหน้าเต็มจอ",
+      "usageTitle": "วิธีใช้งาน",
+      "usageItems": [
+        "ใส่โค้ด HTML ทั้งหมดในตัวแก้ไขทางด้านซ้าย",
+        "คลิก Run เพื่อดูผลลัพธ์",
+        "CSS และ JavaScript ในตัวถูกสนับสนุน",
+        "โค้ดจะทำงานภายใน sandbox สำหรับความปลอดภัย"
+      ]
+    },
+    "pageRefresh": {
+      "title": "รีเฟรชหน้าอัตโนมัติ",
+      "description": "รีเฟรชหน้าเว็บไซต์โดยอัตโนมัติออนไลน์",
+      "urlRequired": "กรุณากรอก URL",
+      "urlPlaceholder": "ใส่ URL, เช่น https://example.com",
+      "seconds": "วินาที",
+      "start": "เริ่ม",
+      "stop": "หยุด",
+      "quickSet": "ค่าตั้งแต่เริ่มต้น:",
+      "secondsValue": "{{count}}s",
+      "minutesValue": "{{count}} นาที",
+      "running": "กำลังทำงาน",
+      "refreshIn": "รีเฟรชใน {{count}} วินาที",
+      "refreshedCount": "รีเฟรชแล้ว {{count}} ครั้ง",
+      "lastRefresh": "รีเฟรชล่าสุด: {{time}}",
+      "previewTitle": "ดูตัวอย่างหน้า",
+      "previewPlaceholder": "ใส่ URL เพื่อเริ่มดูตัวอย่าง",
+      "usageTitle": "วิธีใช้งาน",
+      "usageItems": [
+        "ใส่ URL ของหน้าเว็บและตั้งช่วงเวลาในการรีเฟรช",
+        "คลิก Start เพื่อเริ่มรีเฟรชอัตโนมัติ",
+        "บางเว็บไซต์อาจไม่แสดงภายใน iframe เนื่องจากนโยบายความปลอดภัย",
+        "มีประโยชน์สำหรับการตรวจสอบการเปลี่ยนแปลงของหน้าหรือการรักษาเซสชันให้คงอยู่"
+      ]
+    },
+    "pxToRem": {
+      "title": "ตัวแปลง PX เป็น REM",
+      "description": "แปลงหน่วย PX ในโค้ด CSS เป็นหน่วย REM แบบเบatch",
+      "baseFontSize": "ขนาดฟอนต์ราก",
+      "precision": "ความแม่นยำทศนิยม",
+      "precisionOptions": {
+        "2": "2 ตำแหน่ง",
+        "3": "3 ตำแหน่ง",
+        "4": "4 ตำแหน่ง",
+        "5": "5 ตำแหน่ง"
+      },
+      "inputLabel": "โค้ด CSS ที่ต้องการแปลง",
+      "convertToRem": "PX เป็น REM",
+      "convertToPx": "REM เป็น PX",
+      "outputLabel": "ผลลัพธ์",
+      "copy": "คัดลอก",
+      "copied": "คัดลอกแล้ว",
+      "outputPlaceholder": "ผลลัพธ์การแปลงจะแสดงที่นี่...",
+      "quickReferenceTitle": "ข้อมูลอ้างอิงรวดเร็ว (ฐาน: {{baseSize}}px)",
+      "whyUseRem": "ทำไมถึงใช้ REM?",
+      "infoItems": [
+        "REM ขึ้นอยู่กับขนาดฟอนต์ราก (html)",
+        "การใช้ REM ทำให้การปรับขนาดข้อความในเว็บไซต์ง่ายขึ้น",
+        "ช่วยในการออกแบบที่ตอบสนองและเพิ่มความเข้าถึงได้"
+      ],
+      "formula": "สูตร: rem = px / {{baseSize}}"
+    },
+    "shieldBadge": {
+      "title": "เครื่องสร้างป้าย Shield",
+      "description": "สร้างป้าย Shield แบบ SVG ออนไลน์",
+      "downloadFailed": "การดาวน์โหลดล้มเหลว กรุณาลองอีกครั้งในภายหลัง",
+      "basicSettings": "การตั้งค่าพื้นฐาน",
+      "labelField": "แท็ก",
+      "messageField": "ข้อความ",
+      "color": "สี",
+      "style": "สไตล์",
+      "logoSettings": "การตั้งค่าโลโก้",
+      "logo": "โลโก้",
+      "none": "ไม่มี",
+      "logoColor": "สีโลโก้",
+      "preview": "ดูตัวอย่าง",
+      "downloadSvg": "ดาวน์โหลด SVG",
+      "codeTitle": "โค้ด",
+      "copiedToClipboard": "คัดลอกไปยังคลิปบอร์ดแล้ว"
+    },
+    "robotsGenerator": {
+      "title": "เครื่องสร้างไฟล์ robots.txt",
+      "description": "สร้างไฟล์ robots.txt ออนไลน์",
+      "templatesLabel": "เทมเพลตเร็ว:",
+      "templates": {
+        "allowAll": "อนุญาตทั้งหมด",
+        "blockAll": "ห้ามทั้งหมด",
+        "standard": "การตั้งค่ามาตรฐาน"
+      },
+      "ruleTitle": "กฎ {{index}}",
+      "userAgents": {
+        "all": "* (ทุก crawler)",
+        "baidu": "Baiduspider (Baidu)",
+        "sogou": "Sogou"
+      },
+      "disallow": "ห้ามเส้นทาง",
+      "allow": "อนุญาตเส้นทาง",
+      "add": "เพิ่ม",
+      "addRule": "เพิ่มกฎ",
+      "otherSettings": "การตั้งค่าอื่นๆ",
+      "sitemapUrl": "URL ของ Sitemap",
+      "crawlDelay": "เวลาล่าช้าในการล่า (วินาที)",
+      "preview": "ดูตัวอย่าง robots.txt",
+      "copy": "คัดลอก",
+      "copied": "คัดลอกแล้ว",
+      "saveTip": "บันทึกไฟล์นี้เป็น robots.txt และวางในโฟลเดอร์รากของเว็บไซต์ของคุณ"
+    },
+    "emailEncrypt": {
+      "title": "ตัวเข้ารหัสอีเมล",
+      "description": "เข้ารหัสที่อยู่อีเมลเพื่อลดการเก็บรวบรวมโดยบอท",
+      "inputLabel": "ที่อยู่อีเมล",
+      "copy": "คัดลอก",
+      "copied": "คัดลอกแล้ว",
+      "infoTitle": "ทำไมต้องเข้ารหัสที่อยู่อีเมล?",
+      "infoItems": [
+        "ลดความเสี่ยงของการที่บอทเก็บรวบรวมที่อยู่อีเมลเพื่อสแปม",
+        "อีเมลที่เข้ารหัสยังสามารถแสดงผลในเบราว์เซอร์ได้ แต่ยากต่อบอทในการตรวจจับ",
+        "สามารถรวมวิธีการเข้ารหัสหลายวิธีเพื่อเพิ่มความปลอดภัย",
+        "ยังแนะนำให้ใช้มาตรการป้องกันสแปมด้านเซิร์ฟเวอร์"
+      ],
+      "results": {
+        "unicodeDecimal": {
+          "name": "Unicode ทศนิยม",
+          "description": "แปลงตัวอักษรเป็นหน่วย Unicode ทศนิยม"
+        },
+        "unicodeHex": {
+          "name": "Unicode เลขฐานสิบหก",
+          "description": "แปลงตัวอักษรเป็นหน่วย Unicode เลขฐานสิบหก"
+        },
+        "javascript": {
+          "name": "ผลลัพธ์ JavaScript",
+          "description": "แสดงอีเมลโดยใช้ JavaScript"
+        },
+        "mailto": {
+          "name": "ลิงก์ mailto",
+          "description": "สร้างลิงก์ mailto ที่เข้ารหัส"
+        },
+        "cssReverse": {
+          "name": "การแสดงผลด้วย CSS กลับด้าน",
+          "description": "แสดงข้อความในลำดับย้อนกลับโดยใช้ CSS"
+        }
+      }
+    },
+    "workerDemo": {
+      "title": "ตัวอย่างประสิทธิภาพ Web Worker",
+      "description": "เปรียบเทียบประสิทธิภาพการคำนวณระหว่าง Web Worker และ thread หลัก",
+      "invalidInteger": "กรุณาใส่จำนวนเต็มบวกที่ถูกต้อง",
+      "workerError": "ข้อผิดพลาดในการคำนวณของ Worker:",
+      "notice": "ประกาศ",
+      "settingsTitle": "การตั้งค่าการคำนวณ",
+      "inputLabel": "ค่าที่ป้อน",
+      "inputPlaceholder": "ใส่จำนวนเต็มบวก",
+      "operationLabel": "การดำเนินการ",
+      "operations": {
+        "factorial": "แฟกทอเรียล (n!)",
+        "fibonacci": "ลำดับ Fibonacci",
+        "prime": "ตรวจสอบจำนวนเฉพาะ",
+        "factorization": "การแยกตัวประกอบจำนวนเฉพาะ"
+      },
+      "workerCalculate": "คำนวณด้วย Web Worker",
+      "mainThreadCalculate": "คำนวณบน thread หลัก",
+      "comparisonTitle": "เปรียบเทียบประสิทธิภาพ",
+      "workerResult": "ผลลัพธ์ของ Web Worker",
+      "mainThreadResult": "ผลลัพธ์ของ thread หลัก",
+      "resultLabel": "ผลลัพธ์:",
+      "timeLabel": "เวลาการคำนวณ:",
+      "calculating": "กำลังคำนวณ...",
+      "emptyState": "คลิกปุ่มด้านบนเพื่อเริ่มคำนวณ",
+      "infoTitle": "ทำไมต้องใช้ Web Workers?",
+      "workerFeaturesTitle": "คุณสมบัติของ Web Worker",
+      "workerFeatures": [
+        "ทำงานใน thread หลังโดยไม่บล็อก thread หลัก",
+        "เหมาะสำหรับงานคำนวณที่หนัก",
+        "รักษา UI ให้ตอบสนองได้ดี",
+        "รองรับการประมวลผลแบบขนาน"
+      ],
+      "useCasesTitle": "กรณีใช้งาน",
+      "useCases": [
+        "การประมวลผลข้อมูลขนาดใหญ่",
+        "อัลกอริทึมที่ซับซ้อน",
+        "การประมวลผลภาพ",
+        "การเข้ารหัสและการถอดรหัส"
+      ]
+    },
+    "jsDebug": {
+      "title": "ตัวตรวจสอบข้อผิดพลาด JS",
+      "description": "รันและดีบั๊ก JavaScript ออนไลน์",
+      "defaultCode": "// ใส่โค้ด JavaScript ของคุณที่นี่\nconsole.log(\"Hello, World!\");\n\n// ตัวอย่าง: การจัดการอาร์เรย์\nconst numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(n => n * 2);\nconsole.log(\"อาร์เรย์เดิม:\", numbers);\nconsole.log(\"หลังจากคูณสอง:\", doubled);\n\n// ตัวอย่าง: ออบเจกต์\nconst user = {\n  name: \"จางซาน\",\n  age: 25,\n  city: \"ปักกิ่ง\"\n};\nconsole.log(\"ข้อมูลผู้ใช้:\", user);\n\n// ตัวอย่าง: การดำเนินการแบบอสิงค์\nsetTimeout(() => {\n  console.log(\"ทำงานหลังจากล่าช้า 1 วินาที\");\n}, 1000);",
+      "editorTitle": "โค้ด JavaScript",
+      "copy": "คัดลอก",
+      "copied": "คัดลอกแล้ว!",
+      "clear": "ล้าง",
+      "placeholder": "ใส่โค้ด JavaScript ที่นี่...",
+      "run": "รันโค้ด",
+      "consoleTitle": "ผลลัพธ์ในคอนโซล",
+      "consolePlaceholder": "ผลลัพธ์จะแสดงที่นี่...",
+      "usageTitle": "วิธีใช้งาน",
+      "usageItems": [
+        "ใช้ console.log(), console.error(), และ console.warn() เพื่อแสดงข้อความ",
+        "รองรับการใช้งาน ES6+ เช่น ฟังก์ชันลูกศร, การแยกค่า, และสตริงแบบเทมเพลต",
+        "รองรับการทำงานแบบอสิงค์ เช่น setTimeout และ Promise",
+        "โค้ดทำงานในสภาพแวดล้อมที่แยก (sandbox) และไม่สามารถเข้าถึง DOM หรือทรัพยากรภายนอกได้"
+      ]
+    },
+    "formValidationDemo": {
+      "title": "ตัวอย่างการตรวจสอบรูปแบบฟอร์ม",
+      "description": "แสดงการตรวจสอบรูปแบบฟอร์มทั้งหมด รวมถึงการตรวจสอบแบบเรียลไทม์ การแจ้งเตือนข้อผิดพลาด และการทำความสะอาดข้อมูล",
+      "validation": {
+        "username": "ชื่อผู้ใช้ต้องประกอบด้วยตัวอักษร ตัวเลข และเครื่องหมายขีดล่างเท่านั้น และต้องมีความยาวระหว่าง 3-20 ตัวอักษร",
+        "phone": "กรุณากรอกเบอร์โทรศัพท์ที่ถูกต้อง",
+        "age": "อายุต้องอยู่ระหว่าง 1-120",
+        "idCard": "กรุณากรอกหมายเลขบัตรประชาชนที่ถูกต้อง",
+        "address": "ที่อยู่ต้องไม่เกิน 200 ตัวอักษร",
+        "bio": "ข้อมูลส่วนตัวต้องไม่เกิน 500 ตัวอักษร"
+      },
+      "submitSuccess": "การตรวจสอบฟอร์มสำเร็จ! ข้อมูลที่ส่ง:",
+      "quickTestTitle": "การทดสอบตรวจสอบแบบรวดเร็ว",
+      "quickLabels": {
+        "email": "การตรวจสอบอีเมล",
+        "phone": "การตรวจสอบเบอร์โทรศัพท์",
+        "url": "การตรวจสอบ URL"
+      },
+      "quickPlaceholders": {
+        "email": "กรอกอีเมลที่นี่",
+        "phone": "กรอกเบอร์โทรศัพท์ที่นี่",
+        "url": "กรอก URL ที่นี่"
+      },
+      "valid": "ถูกต้อง",
+      "invalid": "ไม่ถูกต้อง",
+      "formTitle": "การตรวจสอบฟอร์มแบบครบวงจร",
+      "placeholders": {
+        "username": "ชื่อผู้ใช้ (ตัวอักษร ตัวเลข เครื่องหมายขีดล่าง)",
+        "email": "ที่อยู่อีเมล",
+        "phone": "เบอร์โทรศัพท์",
+        "website": "เว็บไซต์ส่วนตัว (ตัวเลือก)",
+        "age": "อายุ",
+        "idCard": "หมายเลขบัตรประชาชน",
+        "address": "ที่อยู่ละเอียด (ตัวเลือก)",
+        "bio": "ข้อมูลส่วนตัว (ตัวเลือก ไม่เกิน 500 ตัวอักษร)"
+      },
+      "success": {
+        "username": "รูปแบบชื่อผู้ใช้ถูกต้อง",
+        "email": "รูปแบบอีเมลถูกต้อง",
+        "phone": "รูปแบบเบอร์โทรศัพท์ถูกต้อง",
+        "website": "รูปแบบ URL ถูกต้อง",
+        "age": "อายุถูกต้อง",
+        "idCard": "รูปแบบบัตรประชาชนถูกต้อง",
+        "address": "ที่อยู่ถูกต้อง",
+        "bio": "ข้อมูลส่วนตัวถูกต้อง"
+      },
+      "submit": "ส่งฟอร์ม",
+      "summaryTitle": "สรุปการตรวจสอบ",
+      "fieldLabels": {
+        "username": "ชื่อผู้ใช้",
+        "email": "อีเมล",
+        "phone": "เบอร์โทรศัพท์",
+        "website": "เว็บไซต์",
+        "age": "อายุ",
+        "idCard": "บัตรประชาชน",
+        "address": "ที่อยู่",
+        "bio": "ข้อมูลส่วนตัว"
+      },
+      "summaryStatus": {
+        "failed": "การตรวจสอบล้มเหลว",
+        "passed": "การตรวจสอบสำเร็จ",
+        "empty": "ยังไม่ได้กรอก"
+      },
+      "infoTitle": "คุณสมบัติการตรวจสอบฟอร์ม",
+      "infoItems": [
+        {
+          "title": "การตรวจสอบแบบเรียลไทม์",
+          "description": "ตรวจสอบรูปแบบขณะพิมพ์ และตรวจสอบอีกครั้งเมื่อออกจากช่อง"
+        },
+        {
+          "title": "ประเภทกฎหลายแบบ",
+          "description": "รองรับฟิลด์ที่จำเป็น ตรวจสอบความยาว นิยามปกติ และการตรวจสอบที่กำหนดเอง"
+        },
+        {
+          "title": "การตอบสนองทางภาพ",
+          "description": "แสดงสถานะการตรวจสอบอย่างชัดเจนด้วยสี ไอคอน และข้อความ"
+        },
+        {
+          "title": "การทำความสะอาดข้อมูล",
+          "description": "ปรับแต่งและมาตรฐานข้อมูลที่ส่งโดยอัตโนมัติ"
+        },
+        {
+          "title": "การแจ้งเตือนข้อผิดพลาดที่ช่วยให้ผู้ใช้งานแก้ไขได้ง่าย",
+          "description": "ให้คำแนะนำที่เป็นมิตรกับผู้ใช้สำหรับการแก้ไขข้อมูล"
+        },
+        {
+          "title": "การสนับสนุนความพร้อมใช้งาน",
+          "description": "ช่วยให้ฟอร์มใช้งานได้สำหรับผู้ใช้ทุกคน"
+        }
+      ]
+    },
+    "faviconGenerator": {
+      "title": "ตัวสร้าง Favicon",
+      "description": "แปลงรูปภาพเป็นไอคอน favicon สำหรับเว็บไซต์",
+      "historyTitle": "ตัวสร้าง Favicon",
+      "historyCategory": "เครื่องมือรูปภาพ",
+      "uploadImageFile": "กรุณาอัปโหลดไฟล์รูปภาพ",
+      "generateFailed": "ไม่สามารถสร้างไอคอนได้ กรุณาลองอีกครั้ง",
+      "uploadTitle": "อัปโหลดรูปภาพ",
+      "uploadAria": "อัปโหลดไฟล์รูปภาพ",
+      "dropzoneAria": "คลิกเพื่ออัปโหลดรูปภาพ รองรับ PNG, JPG, SVG และอื่นๆ",
+      "dropRelease": "ปล่อยเพื่ออัปโหลดรูปภาพ",
+      "dropClick": "คลิกหรือลากรูปภาพมาที่นี่",
+      "supportFormats": "รองรับ PNG, JPG, SVG และอื่นๆ",
+      "clearImage": "ลบภาพ",
+      "clearImageTitle": "ลบภาพ (Ctrl+L)",
+      "settingsTitle": "ตั้งค่า",
+      "removeBackground": "ลบสีพื้นหลังของรูปภาพ",
+      "removeColor": "สีที่ต้องลบ",
+      "removeColorPicker": "เลือกสีพื้นหลังที่ต้องการลบ",
+      "removeColorValue": "ค่าสีพื้นหลังที่ต้องการลบ",
+      "tolerance": "ความแม่นยำ: {{value}}",
+      "toleranceAria": "ความแม่นยำของสี",
+      "toleranceTip": "ความแม่นยำที่สูงขึ้นจะลบช่วงสีที่กว้างขึ้น",
+      "transparentBackground": "พื้นหลังโปร่งใส",
+      "transparentTip": "หมายเหตุ: หากรูปภาพเดิมมีสีพื้นหลัง โปรดเปิดใช้งาน 'ลบสีพื้นหลังของรูปภาพ' ",
+      "backgroundColor": "สีพื้นหลัง",
+      "backgroundColorPicker": "เลือกสีพื้นหลัง",
+      "backgroundColorValue": "ค่าสีพื้นหลัง",
+      "selectSize": "เลือกขนาด",
+      "selectedState": " (ที่เลือก)",
+      "sizeAria": "ขนาด {{size}}x{{size}} พิกเซล{{state}}",
+      "toggleSizeTitle": "สลับขนาด {{size}}x{{size}} (Alt+{{shortcut}})",
+      "previewTitle": "ตัวอย่าง",
+      "generating": "กำลังสร้าง...",
+      "downloadSizeAria": "ดาวน์โหลดไอคอนขนาด {{size}}x{{size}}",
+      "download": "ดาวน์โหลด",
+      "uploadFirst": "กรุณาอัปโหลดรูปภาพก่อน",
+      "downloadTitle": "ดาวน์โหลด",
+      "downloadAllPng": "ดาวน์โหลดทั้งหมด (PNG)",
+      "downloadAllPngTitle": "ดาวน์โหลดขนาด PNG ทั้งหมด (Ctrl+Enter)",
+      "downloadIco": "ดาวน์โหลด favicon.ico",
+      "downloadIcoTitle": "ดาวน์โหลด favicon.ico (Alt+I)",
+      "usageTitle": "วิธีใช้งาน",
+      "usageItems": [
+        "ลบสีพื้นหลัง: ลบพื้นหลังที่เป็นสีเดียว เช่น สีเทาหรือสีขาว",
+        "ความแม่นยำ: เพิ่มความแม่นยำเพื่อลบสีที่คล้ายกัน ซึ่งมีประโยชน์สำหรับพื้นหลังที่มีโทนสีเปลี่ยนแปลง",
+        "16x16: ไอคอนแท็บของเบราว์เซอร์",
+        "32x32: ไอคอนลิงก์บนแถบงาน",
+        "48x48: ลิงก์เว็บไซต์ของ Windows",
+        "วางไอคอนที่สร้างขึ้นในไดเรกทอรีรากของเว็บไซต์ของคุณ"
+      ]
+    }
+  },
+  "components": {
+    "toolHistory": {
+      "usageCount": "ใช้ {{count}} ครั้ง",
+      "recentUsed": "ใช้ล่าสุด: {{value}}",
+      "removeFavorite": "ลบออกจากรายการโปรด",
+      "addFavorite": "เพิ่มลงในรายการโปรด",
+      "removeRecord": "ลบบันทึก",
+      "emptyHistory": "ยังไม่มีประวัติเครื่องมือ",
+      "confirmClear": "คุณแน่ใจหรือไม่ว่าต้องการลบประวัติทั้งหมด?",
+      "tabs": {
+        "recent": "ล่าสุด",
+        "favorites": "โปรด",
+        "mostUsed": "ที่ใช้บ่อย"
+      },
+      "title": "ประวัติเครื่องมือ",
+      "clearHistory": "ลบประวัติ",
+      "searchPlaceholder": "ค้นหาประวัติ...",
+      "emptyMessages": {
+        "recent": "ไม่มีบันทึกการใช้งานล่าสุด",
+        "favorites": "ยังไม่มีเครื่องมือโปรด",
+        "mostUsed": "ยังไม่มีเครื่องมือที่ใช้บ่อย"
+      }
+    },
+    "exportFormatSelector": {
+      "buttonText": "ดาวน์โหลดผลลัพธ์",
+      "exporting": "กำลังดาวน์โหลด...",
+      "exportFailed": "การดาวน์โหลดล้มเหลว กรุณาลองอีกครั้ง"
+    },
+    "ads": {
+      "loading": "กำลังโหลดโฆษณา...",
+      "carouselTitle": "carousel โฆษณา",
+      "checkConsole": "โปรดตรวจสอบคอนโซลเบราว์เซอร์สำหรับรายละเอียด"
+    },
+    "networkStatus": {
+      "online": "ออนไลน์",
+      "offline": "ออฟไลน์",
+      "connected": "เชื่อมต่อเครือข่าย",
+      "disconnected": "ขาดการเชื่อมต่อเครือข่าย",
+      "connectedDescription": "คุณสมบัติทั้งหมดพร้อมใช้งานแล้ว",
+      "disconnectedDescription": "คุณสมบัติบางอย่างอาจไม่สามารถใช้งานได้ กรุณาตรวจสอบการเชื่อมต่อเครือข่ายของคุณ",
+      "requestFailed": "การร้องขอล้มเหลว"
+    },
+    "keyboardShortcutsHelp": {
+      "title": "คำสั่งลัดด้วยแป้นพิมพ์",
+      "close": "ปิด",
+      "toggleDescription": "แสดงหรือซ่อนคำแนะนำการใช้คำสั่งลัด",
+      "helpTextBefore": "กด",
+      "helpTextMiddle": "หรือ",
+      "helpTextAfter": "เพื่อแสดงหรือซ่อนคำแนะนำนี้",
+      "tipTitle": "เคล็ดลับ",
+      "tipItems": [
+        "ป้ายชื่อคำสั่งลัดอาจดูแตกต่างกันเล็กน้อยตามระบบปฏิบัติการ",
+        "คำสั่งลัดบางอย่างอาจขัดแย้งกับคำสั่งลัดของเบราว์เซอร์",
+        "ใช้ปุ่ม Tab เพื่อเปลี่ยนโฟกัสระหว่างองค์ประกอบที่สามารถโฟกัสได้",
+        "กด Enter เพื่อเปิดใช้งานปุ่มและลิงก์"
+      ],
+      "closeEsc": "ปิด (ESC)"
+    },
+    "performanceDashboard": {
+      "title": "แดชบอร์ดประสิทธิภาพ",
+      "startMonitoring": "เริ่มการตรวจสอบ",
+      "stopMonitoring": "หยุดการตรวจสอบ",
+      "exportReport": "ดาวน์โหลดรายงาน",
+      "notMeasured": "ยังไม่ถูกวัด",
+      "metrics": {
+        "fcp": "เวลาการปรากฏตัวครั้งแรกของเนื้อหา (First Contentful Paint)",
+        "lcp": "เวลาการปรากฏตัวครั้งแรกของเนื้อหาขนาดใหญ่ที่สุด (Largest Contentful Paint)",
+        "fid": "เวลาล่าช้าในการรับคำสั่งแรก (First Input Delay)",
+        "cls": "การเปลี่ยนแปลงการจัดวางแบบสะสม (Cumulative Layout Shift)",
+        "ttfb": "เวลาถึงการตอบสนองครั้งแรก (Time to First Byte)"
+      },
+      "memoryTitle": "การใช้งานหน่วยความจำ",
+      "memory": {
+        "used": "หน่วยความจำที่ใช้ไป",
+        "total": "หน่วยความจำทั้งหมด",
+        "usageRate": "อัตราการใช้งาน"
+      },
+      "tipsTitle": "เคล็ดลับการปรับปรุง",
+      "tips": [
+        "ใช้แอปปกติขณะตรวจสอบ; ข้อมูลจะอัปเดตแบบเรียลไทม์",
+        "FCP < 1.8s, LCP < 2.5s, FID < 100ms และ CLS < 0.1 ถือว่าดีเยี่ยม",
+        "หากการใช้งานหน่วยความจำเกิน 80% ควรพิจารณาปรับปรุงโค้ด",
+        "คุณสามารถดาวน์โหลดรายงานที่ละเอียดเพื่อวิเคราะห์ได้"
+      ],
+      "emptyState": "คลิก ?เริ่มการตรวจสอบ? เพื่อเริ่มการวิเคราะห์ประสิทธิภาพ"
+    }
+  }
+}

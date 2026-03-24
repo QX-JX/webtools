@@ -1,0 +1,68 @@
+{
+  "name": "全能站长工具",
+  "short_name": "全能站长工具",
+  "description": "专业的全能站长工具集合，提供网站检测、代码处理、开发工具等功能",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["developer", "productivity", "utilities"],
+  "screenshots": [
+    {
+      "src": "/screenshots/desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshots/mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "网站检测",
+      "short_name": "检测",
+      "description": "快速访问网站检测工具",
+      "url": "/tools/http-status",
+      "icons": [{ "src": "/icons/detection.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "代码工具",
+      "short_name": "代码",
+      "description": "快速访问代码处理工具",
+      "url": "/tools/base64",
+      "icons": [{ "src": "/icons/code.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "开发工具",
+      "short_name": "开发",
+      "description": "快速访问开发工具",
+      "url": "/tools/css-glassmorphism",
+      "icons": [{ "src": "/icons/dev.png", "sizes": "192x192" }]
+    }
+  ],
+  "share_target": {
+    "action": "/share",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "handle_links": "preferred",
+  "scope": "/",
+  "lang": "zh-CN"
+}

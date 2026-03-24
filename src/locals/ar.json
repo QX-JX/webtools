@@ -1,0 +1,2745 @@
+{
+  "common": {
+    "home": "الرئيسية",
+    "websiteDetection": "فحص الموقع",
+    "seoTools": "أدوات التحسين على محركات البحث",
+    "devTools": "أدوات المطور",
+    "encodingConversion": "أدوات تحويل الترميز",
+    "otherTools": "أدوات أخرى",
+    "feedback": "التغذية الراجعة",
+    "customization": "حلول مخصصة / اتصل بنا",
+    "back": "العودة",
+    "appName": "أدوات المدير الشاملة للمواقع",
+    "brandName": "منتج أكونقيونغ",
+    "loading": "جاري التحميل...",
+    "processing": "معالجة",
+    "processingDescription": "يرجى الانتظار بينما نقوم بمعالجة بياناتك...",
+    "inProgress": "في التقدم",
+    "search": "بحث الأدوات...",
+    "my": "الخاص بي",
+    "menu": "القائمة",
+    "settings": "الإعدادات",
+    "all": "الكل",
+    "category": "الفئة",
+    "noToolsFound": "لم يتم العثور على أدوات مطابقة",
+    "recommended": "مُوصى به",
+    "usageCount": "تم استخدامها {{count}} مرة",
+    "toolsCount": "{{count}} أداة",
+    "export": "تصدير",
+    "usageInstructions": "تعليمات الاستخدام"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "userInfo": "معلومات المستخدم",
+    "nickname": "اسم مستعار",
+    "avatar": "صورة الملف الشخصي",
+    "user": "المستخدم",
+    "loggedIn": "تم تسجيل الدخول",
+    "loggingOut": "جارٍ تسجيل الخروج...",
+    "loggingIn": "جارٍ تسجيل الدخول...",
+    "loginInstructions": "يرجى إكمال تسجيل الدخول في متصفحك",
+    "cancelLogin": "إلغاء تسجيل الدخول",
+    "loginFailed": "فشل تسجيل الدخول",
+    "retry": "إعادة المحاولة",
+    "close": "إغلاق",
+    "loginDescription": "اضغط على الزر أدناه لفتح صفحة تسجيل الدخول في متصفحك. بعد إكمال تسجيل الدخول، سيتم مزامنة حالة تسجيل الدخول تلقائيًا.",
+    "loginTip": "ملاحظة: تأكد من أن متصفحك مفتوح أثناء عملية تسجيل الدخول.",
+    "openBrowserLogin": "فتح تسجيل الدخول في المتصفح",
+    "cancel": "إلغاء",
+    "loginReminder": "تذكير تسجيل الدخول",
+    "loginRequiredTitle": "مطلوب تسجيل الدخول",
+    "loginRequiredDescription": "تحتاج إلى تسجيل الدخول قبل استخدام هذه الميزة. بعد تسجيل الدخول، يمكنك الاستمتاع بتجربة خدمة كاملة.",
+    "loginActionDescription": "اضغط على الزر أدناه لفتح صفحة تسجيل الدخول، ثم أكمل تسجيل الدخول هناك.",
+    "loginNow": "سجل الدخول الآن",
+    "loginBenefit": "سجل الدخول لاستخدام جميع الميزات",
+    "loginPageSeoTitle": "تسجيل الدخول / التسجيل — أدوات مشرفي المواقع",
+    "loginPageHeading": "تسجيل الدخول / التسجيل",
+    "loginPageSub": "كما في تطبيق سطح المكتب: تفتح صفحة حساب Kunqiong الموحّدة ويتم مزامنة الجلسة بعد الانتهاء",
+    "loginRegisterTabsAria": "تسجيل الدخول أو التسجيل",
+    "loginTab": "تسجيل الدخول",
+    "registerTab": "التسجيل",
+    "registerDescription": "يفتح زر أدناه صفحة التسجيل في Kunqiong. نفس الحساب للتسجيل وتسجيل الدخول؛ تتم المزامنة هنا بعد الانتهاء.",
+    "registerTip": "إذا ظهر خيار تسجيل الدخول يمكنك استخدامه بعد التسجيل. اترك هذا التبويب مفتوحًا حتى تظهر رسالة النجاح.",
+    "openBrowserRegister": "فتح التسجيل في المتصفح",
+    "userCenter": "مركز المستخدم",
+    "userCenterSeoTitle": "مركز المستخدم — أدوات مشرفي المواقع",
+    "userCenterWelcome": "مركز مستخدم Kunqiong AI (كما في الموقع الرسمي)",
+    "userCenterOpenFull": "فتح مركز الحساب الكامل في نافذة جديدة",
+    "userCenterIframeHint": "يُعرض مركز المستخدم الرسمي أدناه. إذا لم يُحمّل، استخدم الزر أعلاه.",
+    "userCenterIframeTitle": "مركز مستخدم Kunqiong AI",
+    "errors": {
+      "getLoginUrlFailed": "فشل الحصول على عنوان URL للتسجيل: {{message}}",
+      "getLoginUrlException": "خطأ أثناء الحصول على عنوان URL للتسجيل: {{error}}",
+      "loginCancelled": "تم إلغاء تسجيل الدخول",
+      "pollingAbnormal": "تم استلام استجابة غير طبيعية أثناء التحقق: {{message}}",
+      "pollingFailed": "فشل التحقق: {{error}}",
+      "loginTimeout": "انتهت مدة تسجيل الدخول",
+      "checkLoginStatusFailed": "فشل التحقق من حالة تسجيل الدخول، رمز الحالة: {{status}}",
+      "checkLoginException": "خطأ أثناء التحقق من حالة تسجيل الدخول",
+      "getUserInfoFailed": "فشل الحصول على معلومات المستخدم: {{message}}",
+      "getUserInfoException": "خطأ أثناء الحصول على معلومات المستخدم: {{error}}",
+      "logoutFailed": "فشل تسجيل الخروج: {{message}}",
+      "logoutException": "خطأ أثناء تسجيل الخروج: {{error}}",
+      "getFeedbackUrlFailed": "فشل الحصول على عنوان URL لصفحة التغذية الراجعة: {{message}}",
+      "getFeedbackUrlException": "خطأ أثناء الحصول على عنوان URL لصفحة التغذية الراجعة: {{error}}"
+    }
+  },
+  "favorite": {
+    "add": "إضافة إلى المفضلة",
+    "remove": "إزالة من المفضلة",
+    "label": "مفضل",
+    "failed": "فشلت العملية"
+  },
+  "errors": {
+    "fetchCustomUrlFailed": "فشل جلب عنوان URL للصفحة المخصصة:",
+    "fetchFeedbackUrlFailed": "فشل جلب عنوان URL لصفحة التغذية الراجعة:",
+    "copyFailed": "فشل النسخ",
+    "networkError": "خطأ في اتصال الشبكة",
+    "somethingWentWrong": "حدث خطأ ما",
+    "unexpectedError": "عذرًا، حدث خطأ غير متوقع",
+    "noData": "لا توجد بيانات متاحة",
+    "noRelatedData": "لم يتم العثور على بيانات مرتبطة",
+    "noAds": "لا توجد إعلانات متاحة",
+    "fetchAdsError": "فشل جلب الإعلانات",
+    "lookupFailed": "فشل البحث"
+  },
+  "tools": {
+    "csr": {
+      "title": "مُنشئ وعارض CSR",
+      "description": "أنشئ واطلع على ملفات CSR عبر الإنترنت"
+    },
+    "whois": {
+      "title": "استعلام WHOIS للنطاق",
+      "description": "تحقق من معلومات WHOIS وتفاصيل تسجيل النطاق عبر الإنترنت"
+    },
+    "dns": {
+      "title": "استعلام سجل DNS",
+      "description": "استعرض سجلات DNS عبر الإنترنت (A, MX, CNAME، إلخ)"
+    },
+    "dnsEnhanced": {
+      "title": "استعلام سجل DNS (مُحسّن)",
+      "description": "استعلام DNS مع تحسين التمرير الافتراضي للكميات الكبيرة من السجلات"
+    },
+    "httpStatus": {
+      "title": "مُدقق حالة HTTP",
+      "description": "أداة مجانية عبر الإنترنت لفحص كود الحالة HTTP للصفحات الويب"
+    },
+    "gzip": {
+      "title": "فحص ضغط GZIP",
+      "description": "تحقق مما إذا كانت الصفحة الويب مضغوطة باستخدام GZIP وعرض نسبة الضغط"
+    },
+    "ssl": {
+      "title": "فحص شهادة SSL",
+      "description": "تحقق من تفاصيل وصلاحية شهادة SSL عبر الإنترنت"
+    },
+    "browserInfo": {
+      "title": "معلومات المتصفح",
+      "description": "أداة مجانية لعرض معلومات مفصلة عن متصفحك الحالي"
+    },
+    "useragent": {
+      "title": "تحليل مُعرّف المستخدم",
+      "description": "تحليل معلومات المتصفح والجهاز من سلسلة مُعرّف المستخدم"
+    },
+    "websocket": {
+      "title": "اختبار WebSocket",
+      "description": "أداة اختبار API WebSocket مجانية عبر الإنترنت"
+    },
+    "viewSource": {
+      "title": "عرض مصدر الصفحة",
+      "description": "عرض كود مصدر الصفحة عبر الإنترنت"
+    },
+    "metaGenerator": {
+      "title": "منشئ علامات META",
+      "description": "أنشئ علامات META للصفحة عبر الإنترنت"
+    },
+    "metaCheck": {
+      "title": "فحص علامات META",
+      "description": "تحقق من معلومات علامات META على الصفحة"
+    },
+    "robots": {
+      "title": "منشئ ملف robots.txt",
+      "description": "أنشئ ملفات robots.txt عبر الإنترنت"
+    },
+    "emailEncrypt": {
+      "title": "محول عنوان البريد الإلكتروني",
+      "description": "تحويل عناوين البريد الإلكتروني إلى صيغ مشفرة لتقليل الاختراق"
+    },
+    "phpReference": {
+      "title": "دليل دوال PHP",
+      "description": "قائمة مرجعية عبر الإنترنت لدوال PHP"
+    },
+    "htmlPreview": {
+      "title": "معاينة HTML",
+      "description": "أداة تعديل ومعاينة HTML عبر الإنترنت"
+    },
+    "jsDebug": {
+      "title": "مُحلل JavaScript",
+      "description": "تشغيل وتصحيح JavaScript عبر الإنترنت"
+    },
+    "shieldBadge": {
+      "title": "منشئ شارات Shield",
+      "description": "أنشئ شارات Shield SVG عبر الإنترنت"
+    },
+    "favicon": {
+      "title": "منشئ أيقونة الموقع",
+      "description": "أداة تحويل أيقونة الموقع الآمنة عبر الإنترنت"
+    },
+    "cssGlassmorphism": {
+      "title": "منشئ CSS Glassmorphism",
+      "description": "أنشئ كود CSS Glassmorphism في نقرة واحدة"
+    },
+    "cssNeumorphism": {
+      "title": "منشئ CSS Neumorphism",
+      "description": "أنشئ أمثلة لأسلوب CSS Neumorphism في نقرة واحدة"
+    },
+    "pxToRem": {
+      "title": "محول PX إلى REM",
+      "description": "تحويل وحدات PX في CSS إلى REM بشكل دفعة"
+    },
+    "cssBorderRadius": {
+      "title": "منشئ حجم زوايا الحدود CSS",
+      "description": "ضبط أنماط الحدود المنحنية عبر الإنترنت"
+    },
+    "cssTextShadow": {
+      "title": "منشئ ظل النص CSS",
+      "description": "معاينة وإنشاء كود ظل النص CSS عبر الإنترنت"
+    },
+    "cssBoxShadow": {
+      "title": "منشئ ظل الصندوق",
+      "description": "ضبط ظلال الصندوق وكتابة كود CSS"
+    },
+    "base64": {
+      "title": "تشفير وفك تشفير Base64",
+      "description": "أداة تشفير وفك تشفير Base64 عبر الإنترنت"
+    },
+    "urlEncode": {
+      "title": "تشفير وفك تشفير URL",
+      "description": "أداة تشفير وفك تشفير URL عبر الإنترنت"
+    },
+    "htmlEntity": {
+      "title": "تشفير وفك تشفير الكيانات HTML",
+      "description": "أداة تشفير وفك تشفير الكيانات HTML عبر الإنترنت"
+    },
+    "jsMinify": {
+      "title": "تقليل حجم JavaScript وتحسينه",
+      "description": "أداة تقليل حجم وتحسين JavaScript عبر الإنترنت"
+    },
+    "cssMinify": {
+      "title": "تقليل حجم CSS وتحسينه",
+      "description": "أداة تقليل حجم وتحسين CSS عبر الإنترنت"
+    },
+    "desktopShortcut": {
+      "title": "رابط سطح المكتب للموقع",
+      "description": "إنشاء رابط سطح مكتب لموقع ويب للوصول السريع"
+    },
+    "pageRefresh": {
+      "title": "تحديث الصفحة تلقائيًا",
+      "description": "تحديث صفحة ويب بعيدة بجدول زمني"
+    },
+    "httpCodes": {
+      "title": "أكواد الحالة HTTP",
+      "description": "مرجع عبر الإنترنت لأكواد الحالة / الرد HTTP"
+    },
+    "workerDemo": {
+      "title": "نموذج أداء Web Worker",
+      "description": "شاهد كيف يحسن Web Workers الأداء للمهام الثقيلة"
+    },
+    "formValidation": {
+      "title": "نموذج التحقق من صحة النموذج",
+      "description": "يُظهر التحقق الكامل من صحة النموذج مع ملاحظات مباشرة"
+    }
+  },
+  "categories": {
+    "detection": "اختبارات الموقع",
+    "seo": "أدوات تحسين محركات البحث",
+    "dev": "أدوات المطورين",
+    "encode": "أدوات التشفير",
+    "other": "أدوات أخرى"
+  },
+  "kunqiongNav": {
+    "home": "الرئيسية",
+    "aiTools": "أدوات الذكاء الاصطناعي",
+    "office": "المكتب",
+    "multimedia": "الوسائط المتعددة",
+    "development": "أدوات التطوير",
+    "text": "نص",
+    "file": "ملفات",
+    "system": "نظام",
+    "life": "حياة",
+    "news": "أخبار الذكاء الاصطناعي",
+    "custom": "برامج مخصصة",
+    "consult": "استشارات",
+    "industryNews": "أخبار الصناعة",
+    "feedback": "التغذية الراجعة",
+    "imageGen": "إنشاء الصور",
+    "codeDev": "البرمجة والتطوير",
+    "logoAlt": "صندوق أدوات Kunqiong الذكاء الاصطناعي",
+    "footerLogoAlt": "Kunqiong الذكاء الاصطناعي",
+    "loginRegister": "تسجيل الدخول / التسجيل",
+    "navExpandAria": "توسيع",
+    "navSearchAria": "بحث",
+    "navMenuAria": "قائمة"
+  },
+  "footer": {
+    "description": "صندوق أدوات متخصص شامل لمحرري الويب يحتوي على اختبارات الموقع، أدوات تحسين محركات البحث، أدوات المطورين، وغيرها.",
+    "kunqiongBrandDesc": "نحن ملتزمون بتوفير أدوات الذكاء الاصطناعي عالية الجودة والخدمات الاستشارية للأشخاص والشركات لمساعدتك على البقاء في المنافسة في عصر الذكاء الاصطناعي.",
+    "toolCategories": "فئات الأدوات",
+    "quickLinks": "روابط سريعة",
+    "contactTitle": "اتصل بنا",
+    "contactCompany": "شركة جيانغشي هكساجون ستار للتكنولوجيا المحدودة",
+    "contactPhone": "17770307066",
+    "contactRegion": "شانغراو، جيانغشي، الصين",
+    "contactEmail": "11247931@qq.com",
+    "copyrightLine": "© 2026 أدوات Kunqiong الذكاء الاصطناعي. جميع الحقوق محفوظة.",
+    "userAgreement": "شروط الاستخدام",
+    "privacyPolicy": "سياسة الخصوصية",
+    "brandAI": "منتج Kunqiong الذكاء الاصطناعي",
+    "brandAlt": "Kunqiong"
+  },
+  "validation": {
+    "required": "{{field}} مطلوب",
+    "minLength": "يجب أن يكون {{field}} على الأقل {{count}} أحرف",
+    "maxLength": "يمكن أن يكون {{field}} على الأكثر {{count}} أحرف",
+    "invalidFormat": "لديه تنسيق غير صحيح {{field}}",
+    "email": "أدخل عنوان بريد إلكتروني صحيح",
+    "url": "أدخل عنوان URL صحيح",
+    "domain": "أدخل مجالًا صحيحًا",
+    "ip": "أدخل عنوان IP صحيح",
+    "phone": "أدخل رقم هاتف صحيح",
+    "password": "يجب أن تحتوي كلمة المرور على أحرف كبيرة وصغيرة وأرقام، وطولها 6-20 حرفًا"
+  },
+  "exporter": {
+    "unsupportedFormat": "تنسيق تصدير غير مدعوم: {{format}}",
+    "csvRequiresArrayOrObject": "يحتاج تصدير CSV إلى مصفوفة أو كائن",
+    "toolUsageInfo": "معلومات استخدام الأداة",
+    "tool": "الأداة",
+    "time": "الوقت",
+    "url": "العنوان",
+    "version": "الإصدار",
+    "dnsReportTitle": "تقرير بحث DNS",
+    "dnsReportDescription": "معلومات مفصلة عن سجلات DNS",
+    "summaryTitle": "ملخص",
+    "domain": "المجال",
+    "recordCount": "إجمالي السجلات",
+    "recordCountValue": "{{count}} سجلات",
+    "queryTime": "وقت الاستعلام",
+    "typeDescriptions": {
+      "A": "سجل عنوان IPv4",
+      "AAAA": "سجل عنوان IPv6",
+      "MX": "سجل خادم البريد",
+      "TXT": "سجل نصي",
+      "CNAME": "سجل اسم مستعار",
+      "NS": "سجل خادم الاسم",
+      "SOA": "سجل السلطة"
+    },
+    "record": "سجل",
+    "otherRecords": "سجلات أخرى",
+    "recordIndex": "السجل {{index}}",
+    "priority": "ال الأولوية",
+    "class": "التصنيف",
+    "exportData": "البيانات المستوردة",
+    "dnsToolName": "أداة بحث DNS",
+    "exportInfo": "معلومات التصدير",
+    "exportTime": "وقت التصدير",
+    "formats": {
+      "json": "تنسيق بيانات منظم، سهل معالجته بواسطة البرامج",
+      "csv": "تنسيق مناسب للجدول، مناسب لاستيراد Excel",
+      "txt": "تنسيق نص بسيط، سهل القراءة",
+      "xml": "تنسيق ترميز، مناسب لتبادل البيانات",
+      "pdf": "تنسيق وثيقة، مناسب للطباعة والمشاركة"
+    }
+  },
+  "base64": {
+    "title": "تحويل Base64",
+    "description": "أداة تحويل Base64 عبر الإنترنت",
+    "encode": "تحويل",
+    "decode": "فك التشفير",
+    "originalText": "النص الأصلي",
+    "base64String": "سلسلة Base64",
+    "base64Result": "نتيجة Base64",
+    "decodeResult": "نتيجة فك التشفير",
+    "placeholderEncode": "أدخل النص لتحويله...",
+    "placeholderDecode": "أدخل Base64 لفك تشفيره...",
+    "resultPlaceholder": "ستظهر النتيجة هنا...",
+    "inputPlaceholder": "أدخل المحتوى للتحويل",
+    "decodeError": "فشل فك التشفير. يرجى التحقق مما إذا كان الإدخال هو Base64 صالحًا.",
+    "encodeError": "فشل التشفير",
+    "charCount": "{{count}} حرف",
+    "clear": "مسح الإدخال",
+    "copy": "نسخ النتيجة",
+    "copied": "تم النسخ",
+    "convert": "تحويل الآن",
+    "swap": "وضع التبديل",
+    "ariaLabel": "أداة تحويل Base64",
+    "modeSelection": "اختيار وضع التحويل",
+    "encodeMode": "وضع التشفير",
+    "decodeMode": "وضع فك التشفير",
+    "inputLabelEncode": "النص الذي يجب تشفيره",
+    "inputLabelDecode": "سلسلة Base64 التي يجب فك تشفيرها",
+    "outputLabelEncode": "نتيجة التشفير Base64",
+    "outputLabelDecode": "نتيجة فك تشفير Base64",
+    "whatIsBase64": "ما هو Base64؟",
+    "base64Info": "Base64 طريقة تشفير تمثل البيانات الثنائية باستخدام 64 رمزًا قابلًا للطباعة. يتم استخدامه غالبًا لنقل بيانات ثنائية صغيرة في العناوين، ملفات تعريف الارتباط، الصفحات، أو البروتوكولات القائمة على النص."
+  },
+  "dns": {
+    "title": "بحث سجلات DNS",
+    "description": "ابحث عن سجلات DNS عبر الإنترنت (A, MX, CNAME، إلخ)",
+    "placeholder": "أدخل مجالًا، مثل example.com",
+    "invalidDomain": "يرجى إدخال تنسيق مجال صالح (مثل example.com)",
+    "domainInput": "إدخال المجال",
+    "validFormat": "تنسيق المجال صالح",
+    "typeSelect": "نوع سجل DNS",
+    "searchBtn": "بحث سجلات DNS",
+    "loadingTitle": "البحث عن سجلات DNS",
+    "loadingDesc": "يرجى الانتظار بينما نبحث عن سجلات DNS لمجالك...",
+    "resultRegion": "نتائج بحث DNS",
+    "recordCount": "{{count}} سجلات",
+    "typeRecordRegion": "{{type}} سجلات",
+    "querying": "البحث عن سجلات DNS",
+    "queryingDesc": "يرجى الانتظار بينما نبحث عن سجلات DNS لمجالك...",
+    "foundRecords": "{{count}} سجلات تم العثور عليها",
+    "queryTime": "وقت الاستفسار: {{time}}",
+    "export": "تصدير النتائج",
+    "noRecords": "لم يتم العثور على أي سجلات DNS",
+    "noRecordsDesc": "لم يتم العثور على أي سجلات DNS لهذا المجال",
+    "typeInfo": "أنواع سجلات DNS",
+    "priority": "ال الأولوية: {{priority}}",
+    "types": {
+      "ALL": "كل",
+      "A": "سجل A",
+      "AAAA": "سجل AAAA",
+      "MX": "سجل MX",
+      "TXT": "سجل TXT",
+      "CNAME": "سجل CNAME",
+      "NS": "سجل NS",
+      "SOA": "سجل SOA"
+    },
+    "typeDescs": {
+      "A": "عنوان IPv4",
+      "AAAA": "عنوان IPv6",
+      "MX": "خادم البريد",
+      "TXT": "سجل نصي",
+      "CNAME": "سجل اشتقاق",
+      "NS": "خادم اسم",
+      "SOA": "سجل البداية للسلطة"
+    },
+    "typeDetails": {
+      "A": "يربط مجالًا بعنوان IPv4",
+      "AAAA": "يربط مجالًا بعنوان IPv6",
+      "MX": "يحدد عنوان خادم البريد، حيث تشير الأرقام الأقل إلى أولوية أعلى",
+      "TXT": "يحتفظ بمعلومات نصية، غالبًا ما يستخدم لـ SPF وDKIM للتحقق",
+      "CNAME": "يربط مجالًا بمجال آخر (اسم مستعار)",
+      "NS": "حدد خوادم DNS للمجال"
+    }
+  },
+  "whois": {
+    "title": "بحث WHOIS",
+    "description": "ابحث عن معلومات تسجيل WHOIS عبر الإنترنت",
+    "placeholder": "أدخل مجالًا، مثل example.com",
+    "invalidDomain": "الرجاء إدخال تنسيق مجال صالح (مثل example.com)",
+    "querying": "جاري استرداد معلومات WHOIS",
+    "queryingDesc": "يرجى الانتظار بينما نستعيد معلومات التسجيل...",
+    "domainInfo": "معلومات المجال",
+    "registrar": "المسجّل",
+    "creationDate": "تاريخ الإنشاء",
+    "expirationDate": "تاريخ الانتهاء",
+    "updatedDate": "تاريخ التحديث",
+    "dnssec": "DNSSEC",
+    "dnssecDisabled": "معطل",
+    "expired": "انتهت منذ {{days}} أيام",
+    "expiringSoon": "تنتهي في {{days}} أيام",
+    "remaining": "{{days}} يومًا متبقٍ",
+    "dnsServer": "خوادم الأسماء",
+    "domainStatus": "حالة المجال",
+    "registrantInfo": "معلومات المسجل",
+    "name": "الاسم",
+    "organization": "المنظمة",
+    "country": "الدولة",
+    "email": "البريد الإلكتروني",
+    "noInfo": "لم يتم العثور على أي معلومات مرتبطة",
+    "domain": "المجال",
+    "rawData": "بيانات خام",
+    "toggleRawData": "توسيع أو إغلاق البيانات الخام",
+    "copyRawData": "نسخ البيانات الخام",
+    "copy": "نسخ",
+    "copied": "تم النسخ",
+    "whatIsWhois": "ما هو WHOIS؟",
+    "about": "WHOIS هو بروتوكول يستخدم لاستعلام بيانات تسجيل المجال. من خلال بحث WHOIS، يمكنك معرفة المُسجّل، تاريخ التسجيل، تاريخ انتهاء الصلاحية، خوادم DNS، معلومات المسجل، وغيرها. هذا مفيد لشراء وبيع المجالات، حماية العلامات التجارية، والتحقيقات الأمنية."
+  },
+  "httpStatus": {
+    "title": "مُحقق حالة HTTP",
+    "description": "تحقق من رموز حالة HTTP ومعلومات الاستجابة عبر الإنترنت",
+    "placeholder": "أدخل عنوان URL، مثل https://example.com",
+    "check": "التحقق",
+    "followRedirects": "التوجه التلقائي للتحويلات",
+    "urlEmpty": "الرجاء إدخال عنوان URL",
+    "checkFailed": "فشل التحقق",
+    "serverError": "فشل الاتصال بالخادم، يرجى المحاولة لاحقًا",
+    "unknownStatus": "حالة غير معروفة",
+    "responseTime": "وقت الاستجابة",
+    "headers": "الرؤوس",
+    "redirectUrl": "عنوان URL للتحويل",
+    "contentType": "نوع المحتوى",
+    "contentLength": "طول المحتوى",
+    "server": "الخادم",
+    "showHeaders": "عرض رؤوس الاستجابة",
+    "hideHeaders": "إخفاء رؤوس الاستجابة",
+    "status": {
+      "100": "استمرار",
+      "101": "تغيير البروتوكولات",
+      "200": "OK",
+      "201": "تم الإنشاء",
+      "204": "لا محتوى",
+      "301": "تحويل دائم",
+      "302": "تحويل مؤقت",
+      "304": "لم يتم تعديله",
+      "307": "تحويل مؤقت",
+      "308": "تحويل دائم",
+      "400": "طلب خاطئ",
+      "401": "غير مصرح",
+      "403": "ممنوع",
+      "404": "لم يتم العثور عليه",
+      "405": "طريقة غير مسموح بها",
+      "408": "انتهاء الطلب",
+      "429": "عدد طلبات كبير جدًا",
+      "500": "خطأ داخلي في الخادم",
+      "502": "بوابة سيئة",
+      "503": "الخدمة غير متاحة",
+      "504": "انتهاء وقت البوابة"
+    }
+  },
+  "browserInfo": {
+    "title": "معلومات المتصفح",
+    "description": "عرض معلومات مفصلة عن المتصفح الحالي",
+    "os": "نظام التشغيل",
+    "browser": "المتصفح",
+    "version": "الإصدار",
+    "engine": "المحرك",
+    "device": "الجهاز",
+    "screen": "دقة الشاشة",
+    "viewport": "حجم العرض",
+    "language": "اللغة",
+    "timezone": "التوقيت المحلي",
+    "cookieEnabled": "الملفات التعريفية مفعلة",
+    "online": "متصل",
+    "cpu": "معمارية المعالج",
+    "userAgent": "مُعرّف المستخدم",
+    "platform": "المنصة",
+    "vendor": "مُورِّد المتصفح",
+    "languages": "اللغات المدعومة",
+    "cookie": "ملف تعريف",
+    "onlineStatus": "حالة الاتصال",
+    "doNotTrack": "عدم تتبع",
+    "touchPoints": "نقاط اللمس",
+    "enabled": "مفعل",
+    "disabled": "معطل",
+    "offline": "غير متصل",
+    "hardwareInfo": "معلومات الأجهزة",
+    "cpuCores": "عدد أنوية المعالج",
+    "cpuCoresValue": "{{count}} أنوية",
+    "deviceMemory": "ذاكرة الجهاز",
+    "screenInfo": "معلومات الشاشة",
+    "availArea": "المساحة المتاحة",
+    "windowSize": "حجم النافذة",
+    "pixelRatio": "نسبة البكسل",
+    "colorDepth": "عمق الألوان",
+    "screenOrientation": "اتجاه الشاشة",
+    "unknown": "غير معروف",
+    "basicInfo": "معلومات أساسية",
+    "networkInfo": "معلومات الشبكة",
+    "networkType": "نوع الشبكة",
+    "downlink": "التنزيل",
+    "rtt": "وقت الذهاب والإياب",
+    "saveData": "حفظ البيانات",
+    "batteryInfo": "معلومات البطارية",
+    "batteryLevel": "مستوى البطارية",
+    "chargingStatus": "حالة الشحن",
+    "charging": "في الشحن",
+    "notCharging": "ليس في الشحن",
+    "timezoneInfo": "معلومات التوقيت",
+    "utcOffset": "الفرق الزمني UTC"
+  },
+  "viewSource": {
+    "title": "عرض مصدر الصفحة",
+    "description": "عرض كود المصدر للصفحة عبر الإنترنت",
+    "placeholder": "أدخل عنوان URL، مثل https://example.com",
+    "fetch": "استرداد المصدر",
+    "urlEmpty": "الرجاء إدخال عنوان URL",
+    "fetchFailed": "فشل استرداد المصدر",
+    "serverError": "فشل الاتصال بالخادم",
+    "lineCount": "الأسطر: {{count}}",
+    "copy": "نسخ المصدر",
+    "clear": "مسح",
+    "usage1": "أدخل عنوان URL الكامل للصفحة وانقر لاسترداد المصدر",
+    "usage2": "يدعم عرض كود HTML لأي صفحة ويب عامة",
+    "usage3": "يمكنك نسخ أو تنزيل كود المصدر للتحليل",
+    "usage4": "قد تمنع بعض المواقع استرداد المصدر بسبب سياسات الأمان"
+  },
+  "urlEncode": {
+    "title": "مُشفّر/مُفكّر URL",
+    "description": "أداة تشفير وفك تشفير URL عبر الإنترنت",
+    "encode": "تشفير",
+    "decode": "فك التشفير",
+    "placeholder": "أدخل المحتوى لتحويله...",
+    "result": "النتيجة",
+    "error": "فشل التشفير/الفك"
+  },
+  "htmlEntity": {
+    "title": "مُحَوِّل كودات HTML",
+    "description": "أداة تشفير وفك كودات HTML عبر الإنترنت",
+    "encode": "تشفير",
+    "decode": "فك التشفير",
+    "placeholder": "أدخل المحتوى للتحويل...",
+    "result": "النتيجة"
+  },
+  "jsMinify": {
+    "title": "ضغط وتنسيق JavaScript",
+    "description": "أداة ضغط وتنسيق كود JavaScript عبر الإنترنت",
+    "minify": "ضغط",
+    "beautify": "تحسين",
+    "placeholder": "صِفَّ كود JavaScript...",
+    "result": "نتيجة المعالجة",
+    "error": "فشل معالجة الكود"
+  },
+  "cssMinify": {
+    "title": "ضغط وتنسيق CSS",
+    "description": "أداة ضغط وتحسين كود CSS عبر الإنترنت",
+    "minify": "ضغط",
+    "beautify": "تحسين",
+    "placeholder": "صِفَّ كود CSS...",
+    "result": "نتيجة المعالجة",
+    "error": "فشل معالجة الكود"
+  },
+  "pages": {
+    "sslCheck": {
+      "title": "فحص شهادة SSL",
+      "description": "فحص تفاصيل وصلاحية شهادة SSL لمجال",
+      "enterDomain": "من فضلك أدخل مجالًا",
+      "checkFailed": "فشل الفحص",
+      "serverConnectionFailed": "فشل الاتصال بالخادم، يرجى المحاولة لاحقًا",
+      "inputPlaceholder": "أدخل مجالًا، على سبيل المثال: example.com",
+      "check": "فحص",
+      "statusExpired": "منتهية الصلاحية",
+      "statusExpiringSoon": "تنتهي صلاحيتها قريبًا",
+      "statusValid": "صحيحة",
+      "statusProblem": "مشكلة في الشهادة",
+      "expiredDays": "انتهت منذ {{count}} أيام",
+      "remainingDays": "{{count}} يومًا متبقية",
+      "warning": "تحذير: {{message}}",
+      "protocol": "البروتوكول",
+      "validityPeriod": "فترة الصلاحية",
+      "validFrom": "صحيحة من",
+      "validTo": "صحيحة حتى",
+      "certificateInfo": "معلومات الشهادة",
+      "subject": "الموضوع",
+      "issuer": "الجهة المصدرة",
+      "commonName": "الاسم الشائع (CN)",
+      "organization": "المنظمة (O)",
+      "organizationUnit": "وحدة المنظمة (OU)",
+      "country": "الدولة (C)",
+      "subjectAltNames": "أسماء مSubjects بديلة (SAN) - {{count}} إدخالات",
+      "technicalDetails": "تفاصيل تقنية",
+      "serialNumber": "رقم السلسلة",
+      "fingerprintSha1": "بصمة (SHA-1)",
+      "fingerprintSha256": "بصمة (SHA-256)",
+      "cipherSuite": "مجموعة التشفير",
+      "infoTitle": "ملاحظات شهادة SSL",
+      "infoItems": [
+        "شهادات SSL تؤكد هوية الخادم وتشفّر الاتصال",
+        "تحقق من تواريخ انتهاء الصلاحية بشكل دوري لتجنب الانقطاعات",
+        "الشهادات القريبة من انتهاء الصلاحية يجب أن تُجدد مبكرًا",
+        "أسماء SAN (الاسم البديل للموضوع) تشير إلى المجالات التي تغطيها الشهادة"
+      ]
+    },
+    "gzipCheck": {
+      "title": "فحص ضغط Gzip لل сайт",
+      "description": "تحقق مما إذا كان الموقع يدعم ضغط Gzip / Deflate / Brotli",
+      "enterUrl": "من فضلك أدخل عنوان URL",
+      "checkFailed": "فشل الفحص",
+      "serverConnectionFailed": "فشل الاتصال بالخادم، يرجى المحاولة لاحقًا",
+      "inputPlaceholder": "أدخل عنوان URL، على سبيل المثال: https://example.com",
+      "check": "فحص",
+      "enabled": "مفعل",
+      "disabled": "غير مفعل",
+      "compressionType": "نوع الضغط: {{type}}",
+      "enableSuggestion": "فعّل ضغط Gzip لتقليل حجم النقل وتحسين سرعة التحميل",
+      "supportTitle": "دعم الضغط",
+      "gzipDescription": "طريقة ضغط شائعة",
+      "deflateDescription": "خوارزمية ضغط قديمة لـ HTTP",
+      "brotliDescription": "طريقة ضغط جديدة ذات نسب أفضل",
+      "effectTitle": "تأثير الضغط",
+      "originalSize": "الحجم الأصلي",
+      "compressedSize": "الحجم المضغوط",
+      "ratio": "نسبة الضغط",
+      "savedTransfer": "توفير {{value}} في حجم النقل",
+      "detailsTitle": "تفاصيل",
+      "whyTitle": "لماذا تفعيل ضغط Gzip؟",
+      "whyItems": [
+        "يمكن تقليل أحجام الموارد النصية بنسبة 60% إلى 80%",
+        "نقل أقل يحسن سرعة التحميل",
+        "يقلل من استخدام النطاق الترددي",
+        "الأداء الأفضل يمكن أن يساعد في تحسين محركات البحث والتجربة العامة"
+      ]
+    },
+    "dnsLookupEnhanced": {
+      "title": "بحث DNS محسّن",
+      "description": "استعلام عن أنواع سجلات DNS عبر الإنترنت مع تحسين لنتائج كبيرة",
+      "enterDomain": "من فضلك أدخل مجالًا",
+      "lookupFailed": "فشل الاستعلام",
+      "serverConnectionFailed": "فشل الاتصال بالخادم، يرجى المحاولة لاحقًا",
+      "inputPlaceholder": "أدخل مجالًا، على سبيل المثال: example.com",
+      "lookup": "استعلام",
+      "priority": "ال أولوية: {{value}}",
+      "dnsTypes": [
+        {
+          "value": "الجميع",
+          "label": "الجميع"
+        },
+        {
+          "value": "A",
+          "label": "سجل A",
+          "desc": "عنوان IPv4"
+        },
+        {
+          "value": "AAAA",
+          "label": "سجل AAAA",
+          "desc": "عنوان IPv6"
+        },
+        {
+          "value": "MX",
+          "label": "سجل MX",
+          "desc": "خادم البريد"
+        },
+        {
+          "value": "TXT",
+          "label": "سجل TXT",
+          "desc": "بيانات نصية"
+        },
+        {
+          "value": "CNAME",
+          "label": "سجل CNAME",
+          "desc": "سجل اسم مستعار"
+        },
+        {
+          "value": "NS",
+          "label": "سجل NS",
+          "desc": "خادم الاسم"
+        },
+        {
+          "value": "SOA",
+          "label": "سجل SOA",
+          "desc": "بدأ السلطات"
+        }
+      ],
+      "foundRecords": "تم العثور على {{count}} سجلات",
+      "queryTime": "وقت الاستعلام: {{time}}",
+      "virtualScrollEnabled": "تم تمكين التمرير الافتراضي",
+      "recordCount": "{{count}} سجلات",
+      "virtualScrollTag": "عرض محسّن",
+      "noRecords": "لم يتم العثور على أي سجلات DNS",
+      "performanceTitle": "تحسين الأداء",
+      "performanceItems": [
+        "يحافظ التصفح الافتراضي على استجابة استعلام DNS مع {{count}} سجلات",
+        "يتم فقط عرض الصفوف المرئية لتقليل استخدام الذاكرة",
+        "يساعد في تجنب بطء DOM عندما تكون مجموعات النتائج كبيرة",
+        "يبقى التجربة استجابة حتى مع وجود العديد من السجلات"
+      ]
+    },
+    "metaCheck": {
+      "title": "فحص علامات META",
+      "description": "فحص علامات META المستخدمة على صفحة ويب",
+      "enterUrl": "من فضلك أدخل عنوان URL لموقع الويب",
+      "checkFailed": "فشل الفحص",
+      "urlLabel": "عنوان URL للموقع",
+      "inputPlaceholder": "example.com أو https://example.com",
+      "check": "فحص",
+      "resultTitle": "نتيجة الفحص",
+      "totalCount": "تم العثور على {{count}} علامات META",
+      "groups": {
+        "pageTitle": "عنوان الصفحة",
+        "httpEquiv": "HTTP-Equiv",
+        "charset": " Charset",
+        "basicMeta": "علامة META الأساسية"
+      },
+      "emptyContent": "فارغ",
+      "infoTitle": "معلومات",
+      "infoItems": [
+        "هذه الأداة تحقق من علامات العنوان، علامات meta name، علامات meta property (مثل Open Graph)، وعلامات meta http-equiv",
+        "تساعد في مراجعة سريع لبيانات SEO للصفحة",
+        "تساعد أيضًا في تحديد مشاكل العلامات المفقودة أو المكررة"
+      ]
+    },
+    "urlEncode": {
+      "title": "تشفير/فك تشفير URL",
+      "description": "تشفير أو فك تشفير سلاسل URL عبر الإنترنت",
+      "toolName": "تشفير/فك تشفير URL",
+      "toolCategory": "أدوات التشفير",
+      "convertFailed": "فشل التحويل، يرجى التحقق من إدخالك",
+      "copyFailed": "فشل نسخ النتيجة",
+      "modeSelector": "اختر الوضع",
+      "typeSelector": "نوع التشفير",
+      "encode": "تشفير",
+      "decode": "فك التشفير",
+      "componentTitle": "جزء من عنوان URL",
+      "componentDescription": "تشفير جزء فقط من عنوان URL",
+      "fullTitle": "عنوان URL الكامل",
+      "fullDescription": "تشفير العنوان الكامل لـ URL",
+      "inputEncodeLabel": "نص عادي",
+      "inputDecodeLabel": "عنوان URL مُشفر",
+      "clearInput": "مسح الإدخال",
+      "encodePlaceholder": "أدخل النص لتحويله إلى عنوان URL...",
+      "decodePlaceholder": "أدخل عنوان URL مشفر لفك تشفيره...",
+      "outputEncodeLabel": "النتيجة المُشفرة",
+      "outputDecodeLabel": "النتيجة المُفككة",
+      "copyResult": "نسخ النتيجة",
+      "resultPlaceholder": "ستظهر نتيجة التحويل هنا...",
+      "copied": "تم نسخها إلى لوحة المفاتيح",
+      "swap": "تغيير",
+      "swapInputOutput": "تغيير الإدخال والنتيجة",
+      "infoTitle": "أنماط التشفير",
+      "componentModeTitle": "وضع الجزء",
+      "componentModeDescription": "الأفضل لجزء من عنوان URL مثل معايير الاستعلام أو أجزاء المسار.",
+      "componentExample": "مثال: hello world → hello%20world",
+      "fullModeTitle": "وضع العنوان الكامل",
+      "fullModeDescription": "استخدم هذا عند الحاجة إلى تشفير عنوان URL كامل مع الحفاظ على هيكله العام قابل لل reconocimiento.",
+      "fullExample": "مثال: https://example.com/路径 → https://example.com/%E8%B7%AF%E5%BE%84"
+    },
+    "htmlEntity": {
+      "title": "تشفير وفك تشفير الكيانات HTML",
+      "description": "تشفير أو فك تشفير الكيانات HTML عبر الإنترنت",
+      "toolName": "تشفير وفك تشفير الكيانات HTML",
+      "toolCategory": "أدوات التشفير",
+      "convertFailed": "فشل التحويل، يرجى التحقق من إدخالك",
+      "copyFailed": "فشل نسخ النتيجة",
+      "modeSelector": "اختر الوضع",
+      "switchToEncode": "الانتقال إلى وضع التشفير (Alt+1)",
+      "switchToDecode": "الانتقال إلى وضع فك التشفير (Alt+2)",
+      "encode": "تشفير",
+      "decode": "فك التشفير",
+      "encodeAll": "تشفير جميع الرموز",
+      "inputEncodeLabel": "نص عادي",
+      "inputDecodeLabel": "الكيانات HTML",
+      "clearInput": "مسح الإدخال (Ctrl+L)",
+      "encodePlaceholder": "أدخل النص لتحويله إلى كيانات HTML...",
+      "decodePlaceholder": "أدخل الكيانات HTML لفك تشفيرها...",
+      "inputDescriptionEncode": "أدخل النص العادي الذي تريد تحويله إلى كيانات HTML",
+      "inputDescriptionDecode": "أدخل الكيانات HTML التي تريد فك تشفيرها",
+      "outputEncodeLabel": "النتيجة المُشفرة",
+      "outputDecodeLabel": "النتيجة المُفككة",
+      "copyResult": "نسخ النتيجة (Ctrl+C)",
+      "resultPlaceholder": "ستظهر نتيجة التحويل هنا...",
+      "outputDescriptionEncode": "الإخراج الخاص بكائنات HTML المُولدة",
+      "outputDescriptionDecode": "الإخراج الخاص بالنص العادي المُفكك",
+      "copied": "تم نسخها إلى لوحة المفاتيح",
+      "executeEncode": "تشفير (Ctrl+Enter)",
+      "executeDecode": "فك التشفير (Ctrl+Enter)",
+      "swap": "تغيير",
+      "swapMode": "تغيير الإدخال والنتيجة (Ctrl+S)",
+      "commonEntities": "الكيانات الشائعة لـ HTML",
+      "space": "(مسافة)"
+    },
+    "jsMinify": {
+      "title": "تقليل حجم JavaScript وتحسينه",
+      "description": "تقليل حجم أو تحسين شكل كود JavaScript عبر الإنترنت",
+      "toolName": "تقليل حجم وتحسين JavaScript",
+      "toolNameHistory": "تقليل حجم وتحسين JavaScript",
+      "toolCategory": "أدوات المطورين",
+      "processFailed": "فشل المعالجة",
+      "copyFailed": "فشل نسخ النتيجة إلى لوحة المفاتيح",
+      "switchToMinify": "الانتقال إلى وضع التقليل",
+      "switchToMinifyTitle": "الانتقال إلى وضع التقليل (Alt+1)",
+      "switchToBeautify": "الانتقال إلى وضع التحسين",
+      "switchToBeautifyTitle": "الانتقال إلى وضع التحسين (Alt+2)",
+      "minify": "تقليل",
+      "beautify": "تحسين",
+      "input": "إدخال",
+      "output": "النتيجة",
+      "inputPlaceholder": "أدخل كود JavaScript هنا...",
+      "inputAria": "محرر إدخال JavaScript",
+      "inputTitle": "اضغط Ctrl+Enter لتشغيل، Ctrl+L لمسح",
+      "copyOutput": "نسخ النتيجة",
+      "copyOutputTitle": "نسخ النتيجة (Ctrl+C)",
+      "resultPlaceholder": "ستظهر نتيجة المعالجة هنا...",
+      "outputAria": "نتيجة إخراج JavaScript",
+      "executeMinify": "تقليل JavaScript",
+      "executeMinifyTitle": "تقليل JavaScript (Ctrl+Enter)",
+      "executeBeautify": "تحسين JavaScript",
+      "executeBeautifyTitle": "تحسين JavaScript (Ctrl+Enter)",
+      "minifyCode": "تقليل الكود",
+      "beautifyCode": "تحسين الكود",
+      "swap": "تغيير",
+      "swapTitle": "تغيير الإدخال والنتيجة (Ctrl+S)",
+      "clear": "مسح",
+      "clearTitle": "مسح المحتوى (Ctrl+L)",
+      "copied": "تم نسخها إلى لوحة المفاتيح",
+      "infoTitle": "الميزات",
+      "infoItems": [
+        "يُزيل المسافات والخطوط غير الضرورية لتقليل حجم ملف JavaScript",
+        "وضع التحسين يجعل الكود المضغوط أسهل في القراءة والصيانة",
+        "جودة التقليل تعتمد على محرك التحليل وتطبيق المُقلل"
+      ]
+    },
+    "cssMinify": {
+      "title": "تقليل حجم CSS وتحسينه",
+      "description": "تقليل حجم أو تحسين شكل كود CSS عبر الإنترنت",
+      "toolName": "تقليل حجم وتحسين CSS",
+      "toolCategory": "أدوات المطورين",
+      "processFailed": "فشل المعالجة",
+      "copyFailed": "فشل نسخ النتيجة إلى لوحة المفاتيح",
+      "switchToMinify": "الانتقال إلى وضع التقليل",
+      "switchToMinifyTitle": "الانتقال إلى وضع التقليل (Alt+1)",
+      "switchToBeautify": "الانتقال إلى وضع التحسين",
+      "switchToBeautifyTitle": "الانتقال إلى وضع التحسين (Alt+2)",
+      "minify": "تقليل",
+      "beautify": "تحسين",
+      "input": "إدخال",
+      "output": "النتيجة",
+      "inputPlaceholder": "أدخل كود CSS هنا...\n\nمثال:\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 20px;\n}",
+      "inputAria": "محرر إدخال CSS",
+      "inputTitle": "اضغط Ctrl+Enter لتشغيل، Ctrl+L لمسح",
+      "copyOutput": "نسخ النتيجة",
+      "copyOutputTitle": "نسخ النتيجة (Ctrl+C)",
+      "resultPlaceholder": "ستظهر نتيجة المعالجة هنا...",
+      "outputAria": "نتيجة إخراج CSS",
+      "executeMinify": "تقليل CSS",
+      "executeMinifyTitle": "تقليل CSS (Ctrl+Enter)",
+      "executeBeautify": "تحسين CSS",
+      "executeBeautifyTitle": "تحسين CSS (Ctrl+Enter)",
+      "minifyCode": "تقليل الكود",
+      "beautifyCode": "تحسين الكود",
+      "swap": "تغيير",
+      "swapTitle": "تغيير الإدخال والنتيجة (Ctrl+S)",
+      "clear": "مسح",
+      "clearTitle": "مسح المحتوى (Ctrl+L)",
+      "copied": "تم نسخها إلى لوحة المفاتيح",
+      "infoTitle": "الميزات",
+      "infoItems": [
+        "يُزيل المسافات والخطوط غير الضرورية لتقليل حجم الملف",
+        "وضع التحسين يجعل الكود المضغوط أسهل في القراءة والتحرير",
+        "ملفات CSS أصغر يمكن أن تساعد في تقليل حجم نقل HTTP وتحسين أداء التحميل"
+      ]
+    },
+    "httpCodes": {
+      "title": "أكواد حالة HTTP",
+      "description": "مرجع لأكواد الحالة / الردود HTTP",
+      "searchPlaceholder": "ابحث عن أكواد الحالة أو الوصف...",
+      "noMatch": "لم يتم العثور على أكواد حالة متوافقة",
+      "infoTitle": "أساسيات أكواد الحالة HTTP",
+      "infoItems": [
+        "1xx - ردود المعلومات التي تعني أن الطلب تم استلامه ويعالج الآن",
+        "2xx - ردود النجاح التي تعني أن الطلب تم استلامه وفهمه وقبوله",
+        "3xx - ردود التوجيه التي تتطلب إجراءً إضافيًا لإكمال الطلب",
+        "4xx - ردود أخطاء العميل التي تعني أن الطلب لديه صياغة خاطئة أو لا يمكن تنفيذه",
+        "5xx - ردود أخطاء الخادم التي تعني أن الخادم لم يستطع تنفيذ طلب صالح"
+      ],
+      "categories": [
+        {
+          "id": "all",
+          "name": "الجميع",
+          "color": "bg-gray-100 text-gray-700"
+        },
+        {
+          "id": "1xx",
+          "name": "1xx المعلوماتية",
+          "color": "bg-blue-100 text-blue-700"
+        },
+        {
+          "id": "2xx",
+          "name": "2xx النجاح",
+          "color": "bg-green-100 text-green-700"
+        },
+        {
+          "id": "3xx",
+          "name": "إعادة التوجيه 3xx",
+          "color": "bg-yellow-100 text-yellow-700"
+        },
+        {
+          "id": "4xx",
+          "name": "خطأ العميل 4xx",
+          "color": "bg-orange-100 text-orange-700"
+        },
+        {
+          "id": "5xx",
+          "name": "خطأ الخادم 5xx",
+          "color": "bg-red-100 text-red-700"
+        }
+      ],
+      "codes": [
+        {
+          "code": 100,
+          "name": "استمرار",
+          "desc": "تم استلام الجزء الأول من الطلب، ويجب على العميل متابعة إرسال باقي الطلب.",
+          "category": "1xx"
+        },
+        {
+          "code": 101,
+          "name": "تبديل البروتوكولات",
+          "desc": "يتفق الخادم على تغيير البروتوكولات وفقًا لطلب العميل.",
+          "category": "1xx"
+        },
+        {
+          "code": 102,
+          "name": "معالجة",
+          "desc": "لقد تلقى الخادم الطلب ويعالجه، ولكن لا يزال لا يوجد إجابة متاحة.",
+          "category": "1xx"
+        },
+        {
+          "code": 200,
+          "name": "OK",
+          "desc": "نجح الطلب، عادةً للطلبات GET أو POST.",
+          "category": "2xx"
+        },
+        {
+          "code": 201,
+          "name": "تم الإنشاء",
+          "desc": "نجح الطلب وقام بإنشاء موارد جديدة.",
+          "category": "2xx"
+        },
+        {
+          "code": 202,
+          "name": "تم القبول",
+          "desc": "تم قبول الطلب للمعالجة، لكن لم يتم إكماله بعد.",
+          "category": "2xx"
+        },
+        {
+          "code": 203,
+          "name": "معلومات غير رسمية",
+          "desc": "تاتي بيانات التعريف الخاصة بالإجابة من نسخة محلية أو ثالثة بدلًا من الخادم الأصلي.",
+          "category": "2xx"
+        },
+        {
+          "code": 204,
+          "name": "لا محتوى",
+          "desc": "نجح الطلب، ولكن لا يوجد جسم في الاستجابة.",
+          "category": "2xx"
+        },
+        {
+          "code": 205,
+          "name": "إعادة تعيين المحتوى",
+          "desc": "نجح الطلب، والعميل يجب أن يعيد تعيين عرض المستند الحالي.",
+          "category": "2xx"
+        },
+        {
+          "code": 206,
+          "name": "محتوى جزئي",
+          "desc": "يقوم الخادم بإرجاع جزء فقط من المورد بسبب طلب نطاق.",
+          "category": "2xx"
+        },
+        {
+          "code": 300,
+          "name": "خيارات متعددة",
+          "desc": "يوجد أكثر من تمثيل محتمل للمورد المطلوب للعميل لاختياره.",
+          "category": "3xx"
+        },
+        {
+          "code": 301,
+          "name": "تم النقل بشكل دائم",
+          "desc": "تم نقل المورد المطلوب بشكل دائم إلى عنوان URI جديد.",
+          "category": "3xx"
+        },
+        {
+          "code": 302,
+          "name": "وجد",
+          "desc": "المورد المطلوب موقتًا موجود في عنوان URI مختلف.",
+          "category": "3xx"
+        },
+        {
+          "code": 303,
+          "name": "انظر الآخر",
+          "desc": "يمكن العثور على استجابة الطلب تحت عنوان URI آخر باستخدام GET.",
+          "category": "3xx"
+        },
+        {
+          "code": 304,
+          "name": "لم يتم تعديله",
+          "desc": "الموارد المخزنة مؤقتًا لم تتغير، لذلك يمكن للعميل استخدام نسخته المحلية.",
+          "category": "3xx"
+        },
+        {
+          "code": 307,
+          "name": "إعادة توجيه مؤقتة",
+          "desc": "تم إعادة توجيه المورد مؤقتًا، ويجب الحفاظ على الطريقة الأصلية للطلب.",
+          "category": "3xx"
+        },
+        {
+          "code": 308,
+          "name": "إعادة توجيه دائمة",
+          "desc": "تم نقل المورد بشكل دائم، ويجب الحفاظ على الطريقة الأصلية للطلب.",
+          "category": "3xx"
+        },
+        {
+          "code": 400,
+          "name": "طلب خاطئ",
+          "desc": "لا يستطيع الخادم معالجة الطلب بسبب صياغة خاطئة.",
+          "category": "4xx"
+        },
+        {
+          "code": 401,
+          "name": "غير مصادق عليه",
+          "desc": "يُلزم الخادم المصادقة قبل إكمال الطلب.",
+          "category": "4xx"
+        },
+        {
+          "code": 402,
+          "name": "الدفع مطلوب",
+          "desc": "مخصص للاستخدام المستقبلي، غالبًا ما يرتبط بأنظمة الدفع الرقمية.",
+          "category": "4xx"
+        },
+        {
+          "code": 403,
+          "name": "ممنوع",
+          "desc": "فهم الخادم الطلب لكنه يرفض تأكيده.",
+          "category": "4xx"
+        },
+        {
+          "code": 404,
+          "name": "غير موجود",
+          "desc": "لا يستطيع الخادم العثور على المورد المطلوب.",
+          "category": "4xx"
+        },
+        {
+          "code": 405,
+          "name": "طريقة غير مسموح بها",
+          "desc": "طريقة الطلب غير مسموحة للمورد المستهدف.",
+          "category": "4xx"
+        },
+        {
+          "code": 406,
+          "name": "غير مقبول",
+          "desc": "لا يمكن للخادم تقديم استجابة تتوافق مع التنسيقات المقبولة من العميل.",
+          "category": "4xx"
+        },
+        {
+          "code": 407,
+          "name": "المصادقة بالمضيف مطلوبة",
+          "desc": "يجب على العميل المصادقة مع المضي قبل المتابعة.",
+          "category": "4xx"
+        },
+        {
+          "code": 408,
+          "name": "وقت الانتظار منتهي",
+          "desc": "انتهى وقت انتظار الخادم للطلب.",
+          "category": "4xx"
+        },
+        {
+          "code": 409,
+          "name": "صراع",
+          "desc": "يتعارض الطلب مع الحالة الحالية للمورد المستهدف.",
+          "category": "4xx"
+        },
+        {
+          "code": 410,
+          "name": "غائب",
+          "desc": "المورد غير متاح الآن ولا توجد عنوان تحويل معروف.",
+          "category": "4xx"
+        },
+        {
+          "code": 411,
+          "name": "طول المحتوى مطلوب",
+          "desc": "يحتاج الخادم إلى رأس Content-Length صالح.",
+          "category": "4xx"
+        },
+        {
+          "code": 412,
+          "name": "فشل الشروط المسبقة",
+          "desc": "أحد الشروط في رؤوس الطلب تقيمت إلى خطأ.",
+          "category": "4xx"
+        },
+        {
+          "code": 413,
+          "name": "حجم المحتوى كبير جدًا",
+          "desc": "يكون جسم الطلب أكبر من ما يمكن للخادم معالجته.",
+          "category": "4xx"
+        },
+        {
+          "code": 414,
+          "name": "عنوان URL طويل جدًا",
+          "desc": "عنوان URL المطلوب أطول من ما يمكن للخادم معالجته.",
+          "category": "4xx"
+        },
+        {
+          "code": 415,
+          "name": "نوع الوسائط غير مدعوم",
+          "desc": "لا يدعم الخادم نوع الوسائط المستخدم في الطلب.",
+          "category": "4xx"
+        },
+        {
+          "code": 418,
+          "name": "أنا كوب من الشاي",
+          "desc": "كود حالة مضحك يشير إلى أن الخادم يرفض طهي القهوة لأنه كوب شاي.",
+          "category": "4xx"
+        },
+        {
+          "code": 422,
+          "name": "العنصر غير قابل للمعالجة",
+          "desc": "ي understands الخادم تنسيق الطلب لكنه لا يستطيع معالجة التعليمات الموجودة فيه.",
+          "category": "4xx"
+        },
+        {
+          "code": 429,
+          "name": "عدد كبير جدًا من الطلبات",
+          "desc": "أرسل العميل عددًا كبيرًا من الطلبات في فترة زمنية معينة.",
+          "category": "4xx"
+        },
+        {
+          "code": 451,
+          "name": "غير متاح لأسباب قانونية",
+          "desc": "الموارد غير متاحة بسبب القيود القانونية.",
+          "category": "4xx"
+        },
+        {
+          "code": 500,
+          "name": "خطأ خادم داخلي",
+          "desc": "واجه الخادم خطأ غير متوقع أثناء معالجة الطلب.",
+          "category": "5xx"
+        },
+        {
+          "code": 501,
+          "name": "غير مدعوم",
+          "desc": "لا يدعم الخادم الوظيفة المطلوبة لإكمال الطلب.",
+          "category": "5xx"
+        },
+        {
+          "code": 502,
+          "name": "بوابة خاطئة",
+          "desc": "تلقى خادم بوابة أو مُعَرِّض استجابة خاطئة من الخادم الأصلي.",
+          "category": "5xx"
+        },
+        {
+          "code": 503,
+          "name": "الخدمة غير متاحة",
+          "desc": "لا يستطيع الخادم معالجة الطلب مؤقتًا، عادة بسبب التحميل أو الصيانة.",
+          "category": "5xx"
+        },
+        {
+          "code": 504,
+          "name": "وقت انتظار بوابة",
+          "desc": "لم يحصل خادم بوابة أو مُعَرِّض على استجابة في الوقت المحدد من الخادم الأصلي.",
+          "category": "5xx"
+        },
+        {
+          "code": 505,
+          "name": "نسخة بروتوكول HTTP غير مدعومة",
+          "desc": "لا يدعم الخادم نسخة بروتوكول HTTP المستخدمة في الطلب.",
+          "category": "5xx"
+        }
+      ]
+    },
+    "phpReference": {
+      "title": "مرجع دوال PHP",
+      "description": "مرجع سريع للدوال الشائعة في PHP",
+      "searchPlaceholder": "ابحث عن أسماء الدوال أو وصفها...",
+      "noMatch": "لم يتم العثور على أي دوال مطابقة",
+      "infoTitle": "حول",
+      "infoDescription": "تسرد هذه الصفحة الدوال الشائعة في PHP حسب الفئة للبحث السريع. إنها مقصودة كنظرة عامة مفيدة للمطورين ولا تستبدل الوثائق الرسمية لـ PHP.",
+      "categories": [
+        "الكل",
+        "سلسلة",
+        "مصفوفة",
+        "ملف",
+        "التاريخ/الوقت",
+        "JSON",
+        "رياضيات",
+        "آخر"
+      ],
+      "functions": [
+        {
+          "name": "strlen",
+          "desc": "احصل على طول السلسلة",
+          "syntax": "strlen(string $string): int",
+          "category": "سلسلة"
+        },
+        {
+          "name": "substr",
+          "desc": "إرجاع جزء من سلسلة",
+          "syntax": "substr(string $string, int $offset, ?int $length = null): string",
+          "category": "سلسلة"
+        },
+        {
+          "name": "strpos",
+          "desc": "العثور على موضع أول ظهور لجزء من السلسلة",
+          "syntax": "strpos(string $haystack, string $needle, int $offset = 0): int|false",
+          "category": "سلسلة"
+        },
+        {
+          "name": "str_replace",
+          "desc": "استبدال جميع ظهور السلسلة البحثية",
+          "syntax": "str_replace(mixed $search, mixed $replace, mixed $subject): mixed",
+          "category": "سلسلة"
+        },
+        {
+          "name": "explode",
+          "desc": "تقسيم سلسلة إلى مصفوفة باستخدام محدد",
+          "syntax": "explode(string $separator, string $string, int $limit = PHP_INT_MAX): array",
+          "category": "سلسلة"
+        },
+        {
+          "name": "implode",
+          "desc": "دمج عناصر المصفوفة في سلسلة",
+          "syntax": "implode(string $separator, array $array): string",
+          "category": "سلسلة"
+        },
+        {
+          "name": "trim",
+          "desc": "إزالة المسافات البيضاء أو أحرف أخرى من كلا طرفي السلسلة",
+          "syntax": "trim(string $string, string $characters = \" \\n\\r\\t\\v\\x00\"): string",
+          "category": "سلسلة"
+        },
+        {
+          "name": "strtolower",
+          "desc": "تحويل السلسلة إلى أحرف صغيرة",
+          "syntax": "strtolower(string $string): string",
+          "category": "سلسلة"
+        },
+        {
+          "name": "strtoupper",
+          "desc": "تحويل السلسلة إلى أحرف كبيرة",
+          "syntax": "strtoupper(string $string): string",
+          "category": "سلسلة"
+        },
+        {
+          "name": "sprintf",
+          "desc": "إرجاع سلسلة مُنسقة",
+          "syntax": "sprintf(string $format, mixed ...$values): string",
+          "category": "سلسلة"
+        },
+        {
+          "name": "preg_match",
+          "desc": "إجراء مطابقة للتعبير العادي",
+          "syntax": "preg_match(string $pattern, string $subject, array &$matches = null): int|false",
+          "category": "سلسلة"
+        },
+        {
+          "name": "preg_replace",
+          "desc": "إجراء بحث و استبدال بالتعبير العادي",
+          "syntax": "preg_replace(mixed $pattern, mixed $replacement, mixed $subject): mixed",
+          "category": "سلسلة"
+        },
+        {
+          "name": "count",
+          "desc": "عد عناصر المصفوفة أو كائن Countable",
+          "syntax": "count(Countable|array $value, int $mode = COUNT_NORMAL): int",
+          "category": "مصفوفة"
+        },
+        {
+          "name": "array_push",
+          "desc": "إضافة عنصر أو أكثر إلى نهاية المصفوفة",
+          "syntax": "array_push(array &$array, mixed ...$values): int",
+          "category": "مصفوفة"
+        },
+        {
+          "name": "array_pop",
+          "desc": "إزالة آخر عنصر من المصفوفة",
+          "syntax": "array_pop(array &$array): mixed",
+          "category": "مصفوفة"
+        },
+        {
+          "name": "array_merge",
+          "desc": "دمج مصفوفة أو أكثر",
+          "syntax": "array_merge(array ...$arrays): array",
+          "category": "مصفوفة"
+        },
+        {
+          "name": "array_keys",
+          "desc": "إرجاع جميع مفاتيح المصفوفة",
+          "syntax": "array_keys(array $array, mixed $filter_value, bool $strict = false): array",
+          "category": "مصفوفة"
+        },
+        {
+          "name": "array_values",
+          "desc": "إرجاع جميع قيم المصفوفة",
+          "syntax": "array_values(array $array): array",
+          "category": "مصفوفة"
+        },
+        {
+          "name": "in_array",
+          "desc": "التحقق من وجود قيمة في مصفوفة",
+          "syntax": "in_array(mixed $needle, array $haystack, bool $strict = false): bool",
+          "category": "مصفوفة"
+        },
+        {
+          "name": "array_search",
+          "desc": "بحث مصفوفة عن قيمة وإرجاع مفتاحها",
+          "syntax": "array_search(mixed $needle, array $haystack, bool $strict = false): int|string|false",
+          "category": "مصفوفة"
+        },
+        {
+          "name": "array_map",
+          "desc": "تطبيق دالة معادلة على عناصر مصفوفة",
+          "syntax": "array_map(?callable $callback, array $array, array ...$arrays): array",
+          "category": "مصفوفة"
+        },
+        {
+          "name": "array_filter",
+          "desc": "تصفية عناصر المصفوفة باستخدام دالة معادلة",
+          "syntax": "array_filter(array $array, ?callable $callback = null, int $mode = 0): array",
+          "category": "مصفوفة"
+        },
+        {
+          "name": "sort",
+          "desc": "فرز مصفوفة بترتيب تصاعدي",
+          "syntax": "sort(array &$array, int $flags = SORT_REGULAR): bool",
+          "category": "مصفوفة"
+        },
+        {
+          "name": "usort",
+          "desc": "فرز مصفوفة باستخدام دالة مقارنة محددة من المستخدم",
+          "syntax": "usort(array &$array, callable $callback): bool",
+          "category": "مصفوفة"
+        },
+        {
+          "name": "file_get_contents",
+          "desc": "قراءة ملف كامل إلى سلسلة",
+          "syntax": "file_get_contents(string $filename, ...): string|false",
+          "category": "ملف"
+        },
+        {
+          "name": "file_put_contents",
+          "desc": "كتابة بيانات إلى ملف",
+          "syntax": "file_put_contents(string $filename, mixed $data, int $flags = 0): int|false",
+          "category": "ملف"
+        },
+        {
+          "name": "fopen",
+          "desc": "فتح ملف أو عنوان URL",
+          "syntax": "fopen(string $filename, string $mode, ...): resource|false",
+          "category": "ملف"
+        },
+        {
+          "name": "fclose",
+          "desc": "إغلاق مؤشر ملف مفتوح",
+          "syntax": "fclose(resource $stream): bool",
+          "category": "ملف"
+        },
+        {
+          "name": "fread",
+          "desc": "قراءة من مؤشر ملف",
+          "syntax": "fread(resource $stream, int $length): string|false",
+          "category": "ملف"
+        },
+        {
+          "name": "fwrite",
+          "desc": "كتابة إلى مؤشر ملف",
+          "syntax": "fwrite(resource $stream, string $data, ?int $length = null): int|false",
+          "category": "ملف"
+        },
+        {
+          "name": "file_exists",
+          "desc": "التحقق من وجود ملف أو دليل",
+          "syntax": "file_exists(string $filename): bool",
+          "category": "ملف"
+        },
+        {
+          "name": "is_file",
+          "desc": "التحقق مما إذا كان المسار ملفًا عاديًا",
+          "syntax": "is_file(string $filename): bool",
+          "category": "ملف"
+        },
+        {
+          "name": "unlink",
+          "desc": "حذف ملف",
+          "syntax": "unlink(string $filename, ?resource $context = null): bool",
+          "category": "ملف"
+        },
+        {
+          "name": "mkdir",
+          "desc": "إنشاء دليل",
+          "syntax": "mkdir(string $directory, int $permissions = 0777, bool $recursive = false): bool",
+          "category": "ملف"
+        },
+        {
+          "name": "date",
+          "desc": "تنسيق التاريخ والوقت المحلي",
+          "syntax": "date(string $format, ?int $timestamp = null): string",
+          "category": "التاريخ/الوقت"
+        },
+        {
+          "name": "time",
+          "desc": "الحصول على التوقيت UNIX الحالي",
+          "syntax": "time(): int",
+          "category": "التاريخ/الوقت"
+        },
+        {
+          "name": "strtotime",
+          "desc": "تحويل تاريخ ووقت نصي إلى توقيت UNIX",
+          "syntax": "strtotime(string $datetime, ?int $baseTimestamp = null): int|false",
+          "category": "التاريخ/الوقت"
+        },
+        {
+          "name": "mktime",
+          "desc": "الحصول على وقت من نوع Unix لتواريخ",
+          "syntax": "mktime(العدد الصحيح $hour, ?العدد الصحيح $minute = null, ...): عدد صحيح|كاذب",
+          "category": "التاريخ/الوقت"
+        },
+        {
+          "name": "date_create",
+          "desc": "إنشاء كائن DateTime",
+          "syntax": "date_create(السلسلة $datetime = \"now\", ?DateTimeZone $timezone = null): DateTime|كاذب",
+          "category": "التاريخ/الوقت"
+        },
+        {
+          "name": "json_encode",
+          "desc": "تحويل قيمة إلى سلسلة JSON",
+          "syntax": "json_encode(المختلط $value, عدد صحيح $flags = 0, عدد صحيح $depth = 512): سلسلة|كاذب",
+          "category": "JSON"
+        },
+        {
+          "name": "json_decode",
+          "desc": "فك تشفير سلسلة JSON إلى قيمة PHP",
+          "syntax": "json_decode(السلسلة $json, ?boolean $associative = null, عدد صحيح $depth = 512): مختلط",
+          "category": "JSON"
+        },
+        {
+          "name": "abs",
+          "desc": "الحصول على القيمة المطلقة",
+          "syntax": "abs(عدد صحيح|عدد عائم $num): عدد صحيح|عدد عائم",
+          "category": "الرياضيات"
+        },
+        {
+          "name": "ceil",
+          "desc": "تقريب الكسور لأعلى",
+          "syntax": "ceil(عدد صحيح|عدد عائم $num): عدد عائم",
+          "category": "الرياضيات"
+        },
+        {
+          "name": "floor",
+          "desc": "تقريب الكسور لأسفل",
+          "syntax": "floor(عدد صحيح|عدد عائم $num): عدد عائم",
+          "category": "الرياضيات"
+        },
+        {
+          "name": "round",
+          "desc": "تقريب رقم",
+          "syntax": "round(عدد صحيح|عدد عائم $num, عدد صحيح $precision = 0, عدد صحيح $mode = PHP_ROUND_HALF_UP): عدد عائم",
+          "category": "الرياضيات"
+        },
+        {
+          "name": "max",
+          "desc": "العثور على القيمة الأكبر",
+          "syntax": "max(مختلط $value, مختلط ...$values): مختلط",
+          "category": "الرياضيات"
+        },
+        {
+          "name": "min",
+          "desc": "العثور على القيمة الأصغر",
+          "syntax": "min(مختلط $value, مختلط ...$values): مختلط",
+          "category": "الرياضيات"
+        },
+        {
+          "name": "rand",
+          "desc": "إنتاج عدد صحيح عشوائي",
+          "syntax": "rand(عدد صحيح $min, عدد صحيح $max): عدد صحيح",
+          "category": "الرياضيات"
+        },
+        {
+          "name": "isset",
+          "desc": "التحقق مما إذا كانت المتغير محددة وغير فارغة",
+          "syntax": "isset(مختلط $var, مختلط ...$vars): منطقي",
+          "category": "أخرى"
+        },
+        {
+          "name": "empty",
+          "desc": "التحقق مما إذا كانت المتغير فارغة",
+          "syntax": "empty(مختلط $var): منطقي",
+          "category": "أخرى"
+        },
+        {
+          "name": "var_dump",
+          "desc": "طباعة معلومات عن متغير",
+          "syntax": "var_dump(مختلط $value, مختلط ...$values): فارغ",
+          "category": "أخرى"
+        },
+        {
+          "name": "print_r",
+          "desc": "طباعة معلومات قابلة للقراءة عن متغير",
+          "syntax": "print_r(مختلط $value, منطقي $return = false): سلسلة|منطقي",
+          "category": "أخرى"
+        },
+        {
+          "name": "gettype",
+          "desc": "الحصول على نوع المتغير",
+          "syntax": "gettype(مختلط $value): سلسلة",
+          "category": "أخرى"
+        },
+        {
+          "name": "is_array",
+          "desc": "التحقق مما إذا كان المتغير هو مصفوفة",
+          "syntax": "is_array(مختلط $value): منطقي",
+          "category": "أخرى"
+        },
+        {
+          "name": "is_string",
+          "desc": "التحقق مما إذا كان المتغير هو سلسلة",
+          "syntax": "is_string(مختلط $value): منطقي",
+          "category": "أخرى"
+        },
+        {
+          "name": "is_numeric",
+          "desc": "التحقق مما إذا كان المتغير هو رقم أو سلسلة رقمية",
+          "syntax": "is_numeric(مختلط $value): منطقي",
+          "category": "أخرى"
+        }
+      ]
+    },
+    "cssBorderRadius": {
+      "title": "مُولِّد حافة CSS مع دائرة",
+      "description": "تعديل قيم border-radius بصريًا وإنشاء كود CSS",
+      "presetsLabel": "الإعدادات المسبقة",
+      "preview": "معاينة",
+      "settings": "الإعدادات",
+      "linked": "أركان مرتبطة",
+      "unlinked": "أركان منفصلة",
+      "corners": {
+        "topLeft": "اليسار العلوي",
+        "topRight": "اليمين العلوي",
+        "bottomLeft": "اليسار السفلي",
+        "bottomRight": "اليمين السفلي"
+      },
+      "elementColor": "لون العنصر",
+      "codeTitle": "كود CSS",
+      "copy": "نسخ",
+      "copied": "تم النسخ",
+      "presets": [
+        {
+          "name": "لا شيء",
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "صغير",
+          "values": [
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "متوسط",
+          "values": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "كبير",
+          "values": [
+            16,
+            16,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "دائرة",
+          "values": [
+            50,
+            50,
+            50,
+            50
+          ]
+        },
+        {
+          "name": "قلم رصاص",
+          "values": [
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "الجانب الأيسر",
+          "values": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        {
+          "name": "الجانب الأيمن",
+          "values": [
+            0,
+            16,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "فقط الأعلى",
+          "values": [
+            16,
+            16,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "فقط الأسفل",
+          "values": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "مائل",
+          "values": [
+            16,
+            0,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "ورقة",
+          "values": [
+            0,
+            50,
+            0,
+            50
+          ]
+        }
+      ]
+    },
+    "cssNeumorphism": {
+      "title": "مُولِّد CSS نيومورفيزم",
+      "description": "إنشاء كود CSS بأسلوب نيومورفيزم عبر الإنترنت",
+      "previewText": "زر المعاينة",
+      "shapeTitle": "نمط الشكل",
+      "shapeOptions": [
+        {
+          "value": "flat",
+          "label": "مُسطَّح"
+        },
+        {
+          "value": "concave",
+          "label": "مقعر"
+        },
+        {
+          "value": "convex",
+          "label": "مُحدَّب"
+        },
+        {
+          "value": "pressed",
+          "label": "مُضغوط"
+        }
+      ],
+      "colorTitle": "إعدادات اللون",
+      "presetColors": "الألوان المسبقة",
+      "colorPresets": [
+        {
+          "color": "#e0e5ec",
+          "name": "كلاسيكي"
+        },
+        {
+          "color": "#f0f0f3",
+          "name": "أبيض"
+        },
+        {
+          "color": "#d1d9e6",
+          "name": "أزرق"
+        },
+        {
+          "color": "#e8dfd5",
+          "name": "بيج"
+        },
+        {
+          "color": "#dfe6e9",
+          "name": "رمادي"
+        },
+        {
+          "color": "#ffeaa7",
+          "name": "أصفر"
+        },
+        {
+          "color": "#dfe4ea",
+          "name": "سليت"
+        },
+        {
+          "color": "#f8e1e7",
+          "name": "وردي"
+        },
+        {
+          "color": "#d5f5e3",
+          "name": "نعناع"
+        },
+        {
+          "color": "#e8daef",
+          "name": "أرجواني"
+        }
+      ],
+      "backgroundColor": "لون الأساس",
+      "lightColor": "لون الفاتح (الوميض)",
+      "darkColor": "لون الداكن (الظل)",
+      "sliderTitle": "إعدادات الظل",
+      "size": "الحجم",
+      "radius": "النصف القطر",
+      "distance": "مسافة الظل",
+      "blur": "ضبابية الظل",
+      "intensity": "الشدة",
+      "codeTitle": "كود CSS",
+      "copy": "نسخ",
+      "copied": "تم النسخ",
+      "infoTitle": "ما هو نيومورفيزم؟",
+      "infoDescription": "النمط الوردي هو أسلوب واجهة مستخدم لطيف يدمج التأثيرات الخفيفة والظلال لجعل العناصر تبدو مرفوعة أو مضغوطة في الخلفية. يعمل بشكل أفضل مع ألوان منخفضة التباين وتصميمات نظيفة وقليلة."
+    },
+    "cssTextShadow": {
+      "title": "مُنشئ ظل النص CSS",
+      "description": "تعديل قيم ظل النص بصريًا وإنتاج كود CSS",
+      "defaultText": "مثال على ظل النص",
+      "presetsLabel": "التأثيرات المسبقة",
+      "textSettings": "إعدادات النص",
+      "previewText": "نص المعاينة",
+      "fontSize": "حجم الخط",
+      "textColor": "لون النص",
+      "shadowPrefix": "ظل {{index}}",
+      "offsetX": "التحريك X",
+      "offsetY": "التحريك Y",
+      "blur": "ضبابية",
+      "opacity": "شفافية",
+      "color": "اللون",
+      "addShadow": "إضافة ظل",
+      "codeTitle": "كود CSS",
+      "copy": "نسخ",
+      "copied": "تم النسخ",
+      "presets": [
+        {
+          "name": "ظل خفيف",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 2,
+              "y": 2,
+              "blur": 4,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        },
+        {
+          "name": "لمعان نيون",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#00ff00",
+              "opacity": 0.8
+            }
+          ]
+        },
+        {
+          "name": "لمعان بنفسجي",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 5,
+              "color": "#ff00ff",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#ff00ff",
+              "opacity": 0.8
+            },
+            {
+              "id": 3,
+              "x": 0,
+              "y": 0,
+              "blur": 20,
+              "color": "#ff00ff",
+              "opacity": 0.6
+            }
+          ]
+        },
+        {
+          "name": "طبقة ثلاثية الأبعاد",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 1,
+              "y": 1,
+              "blur": 0,
+              "color": "#666666",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 2,
+              "y": 2,
+              "blur": 0,
+              "color": "#888888",
+              "opacity": 1
+            },
+            {
+              "id": 3,
+              "x": 3,
+              "y": 3,
+              "blur": 0,
+              "color": "#aaaaaa",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "name": "مُحْدَّد",
+          "shadows": [
+            {
+              "id": 1,
+              "x": -1,
+              "y": -1,
+              "blur": 1,
+              "color": "#ffffff",
+              "opacity": 0.8
+            },
+            {
+              "id": 2,
+              "x": 1,
+              "y": 1,
+              "blur": 1,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "websocketTest": {
+      "title": "أداة اختبار WebSocket عبر الإنترنت",
+      "description": "اختبار اتصالات WebSocket ورسائل عبر الإنترنت",
+      "defaultUrl": "wss://echo.websocket.org",
+      "connectingTo": "الاتصال بـ {{url}}...",
+      "connectSuccess": "تم الاتصال بنجاح",
+      "connectError": "خطأ في الاتصال",
+      "connectionClosed": "تم إغلاق الاتصال (الرقم: {{code}})",
+      "connectFailed": "فشل الاتصال: {{message}}",
+      "disconnecting": "الانقطاع...",
+      "urlPlaceholder": "أدخل عنوان WebSocket، على سبيل المثال: wss://echo.websocket.org",
+      "disconnect": "قطع الاتصال",
+      "connecting": "الاتصال...",
+      "connect": "الاتصال",
+      "connected": "متصل",
+      "notConnected": "غير متصل",
+      "messageLog": "سجل الرسائل",
+      "clear": "مسح",
+      "noMessages": "لا توجد رسائل بعد",
+      "messagePlaceholder": "أدخل رسالة... (Enter لإرسال، Shift+Enter لإدراج سطر جديد)",
+      "infoTitle": "نصائح WebSocket",
+      "infoItems": [
+        "خدمة الإيكو المدمجة مفيدة لاختبار الإرسال والاستقبال الأساسي",
+        "يدعم عناوين ws:// و wss://",
+        "اضغط Enter لإرسال، Shift+Enter لإدخال سطر جديد",
+        "تأكد من أن خدمة الهدف تسمح بالاتصالات عبر WebSocket من المتصفح"
+      ],
+      "examplesTitle": " أمثلة شائعة",
+      "publicEcho": "خدمة إيكو عامة",
+      "defaultTag": "افتراضي"
+    },
+    "csrGenerator": {
+      "title": "مُنشئ ومشاهد CSR",
+      "description": "إنشاء ملفات CSR عبر الإنترنت وتحليل محتوى CSR",
+      "enterDomain": "يرجى إدخال مجال",
+      "generateFailed": "فشل إنشاء CSR",
+      "parseFailed": "فشل تحليل CSR",
+      "serverConnectionFailed": "فشل الاتصال بالخادم، يرجى المحاولة لاحقًا",
+      "tabs": {
+        "generate": "إنشاء CSR",
+        "view": "عرض CSR"
+      },
+      "formTitle": "معلومات الشهادة",
+      "labels": {
+        "commonName": "المجال (الاسم المشترك)",
+        "organization": "المنظمة",
+        "organizationUnit": "القسم",
+        "city": "المدينة",
+        "state": "الولاية / المقاطعة",
+        "country": "الدولة / المنطقة",
+        "email": "البريد الإلكتروني",
+        "keySize": "حجم المفتاح"
+      },
+      "placeholders": {
+        "commonName": "على سبيل المثال: www.example.com أو *.example.com",
+        "organization": "على سبيل المثال: شركة مثال",
+        "organizationUnit": "على سبيل المثال: قسم المعلومات",
+        "city": "على سبيل المثال: بكين",
+        "state": "على سبيل المثال: بكين",
+        "email": "على سبيل المثال: admin@example.com",
+        "csr": "ضع محتوى CSR هنا، بدءًا من -----BEGIN CERTIFICATE REQUEST-----"
+      },
+      "countries": [
+        {
+          "value": "CN",
+          "label": "CN - الصين"
+        },
+        {
+          "value": "US",
+          "label": "US - الولايات المتحدة"
+        },
+        {
+          "value": "JP",
+          "label": "JP - اليابان"
+        },
+        {
+          "value": "KR",
+          "label": "KR - كوريا الجنوبية"
+        },
+        {
+          "value": "GB",
+          "label": "GB - المملكة المتحدة"
+        },
+        {
+          "value": "DE",
+          "label": "DE - ألمانيا"
+        },
+        {
+          "value": "FR",
+          "label": "FR - فرنسا"
+        },
+        {
+          "value": "SG",
+          "label": "SG - سنغافورة"
+        },
+        {
+          "value": "HK",
+          "label": "HK - هونغ كونغ"
+        },
+        {
+          "value": "TW",
+          "label": "TW - تايوان"
+        }
+      ],
+      "keySizes": [
+        {
+          "value": "2048",
+          "label": "2048 بت (مُوصى به)"
+        },
+        {
+          "value": "4096",
+          "label": "4096 بت (أكثر أمانًا)"
+        }
+      ],
+      "generating": "يُنشئ...",
+      "generateAction": "إنشاء CSR ومفتاح خاص",
+      "csrRequest": "طلب CSR",
+      "privateKey": "المفتاح الخاص (احتفظ به بأمان)",
+      "copy": "نسخ",
+      "copied": "تم النسخ",
+      "download": "تنزيل",
+      "privateKeyWarning": "المفتاح الخاص حساس للغاية. احتفظه بأمان ولا تشاركه علنًا. إذا تم تسريبه، قد يتم تعريض أمان شهادتك للخطر.",
+      "inputCsr": "ضع محتوى CSR",
+      "parsing": "يُحلل...",
+      "parseAction": "تحليل CSR",
+      "csrInfo": "معلومات CSR",
+      "infoItems": [
+        {
+          "label": "المجال (CN)",
+          "key": "commonName"
+        },
+        {
+          "label": "المنظمة (O)",
+          "key": "organization"
+        },
+        {
+          "label": "القسم (OU)",
+          "key": "organizationUnit"
+        },
+        {
+          "label": "المدينة (L)",
+          "key": "city"
+        },
+        {
+          "label": "الولاية / المقاطعة (ST)",
+          "key": "state"
+        },
+        {
+          "label": "الدولة (C)",
+          "key": "country"
+        },
+        {
+          "label": "البريد الإلكتروني",
+          "key": "email"
+        },
+        {
+          "label": "خوارزمية المفتاح",
+          "key": "keyAlgorithm"
+        },
+        {
+          "label": "حجم المفتاح",
+          "key": "keySize"
+        },
+        {
+          "label": "خوارزمية التوقيع",
+          "key": "signatureAlgorithm"
+        }
+      ],
+      "keySizeValue": "{{value}} بت",
+      "aboutTitle": "ما هو CSR؟",
+      "aboutDescription": "يُعد CSR (طلب توقيع الشهادة) ملفًا مشفرًا يُرسل إلى جهة إصدار الشهادة (CA) عند طلب شهادة SSL/TLS. يحتوي على معلومات حول مجالك وتنظيمك، بالإضافة إلى المفتاح العام الذي يتوافق مع مفتاحك الخاص. بعد التحقق، تستخدم جهة الإصدار CSR لإصدار شهادة SSL."
+    },
+    "metaGenerator": {
+      "title": "منشئ وسوم Meta",
+      "description": "إنشاء وسوم صفحة ويب صديقة لمحركات البحث",
+      "basicInfo": "معلومات أساسية",
+      "socialMedia": "الوسائط الاجتماعية (Open Graph)",
+      "generatedCode": "الكود المُنتَج",
+      "copy": "نسخ",
+      "copied": "تم النسخ",
+      "searchPreview": "معاينة البحث",
+      "searchPreviewTitleFallback": "عنوان الصفحة",
+      "searchPreviewDescriptionFallback": "ستظهر وصف صفحة هنا...",
+      "socialPreview": "معاينة التواصل الاجتماعي",
+      "socialPreviewTitleFallback": "العنوان",
+      "socialPreviewDescriptionFallback": "الوصف",
+      "labels": {
+        "title": "عنوان الصفحة",
+        "description": "وصف الصفحة",
+        "keywords": "الكلمات المفتاحية",
+        "author": "المؤلف",
+        "robots": "إرشادات الروبوتات",
+        "ogTitle": "عنوان OG",
+        "ogDescription": "وصف OG",
+        "ogImage": "رابط صورة OG",
+        "ogUrl": "رابط الصفحة",
+        "twitterCard": "نوع بطاقة تويتر"
+      },
+      "placeholders": {
+        "title": "أدخل عنوان الصفحة",
+        "description": "أدخل وصف الصفحة، من الأفضل أن يكون ضمن 150 حرفًا",
+        "keywords": "كلمة مفتاحية1، كلمة مفتاحية2، كلمة مفتاحية3",
+        "author": "أدخل اسم المؤلف",
+        "ogTitle": "أدخل عنوان مشاركة التواصل الاجتماعي",
+        "ogDescription": "أدخل وصف مشاركة التواصل الاجتماعي",
+        "ogImage": "https://example.com/image.jpg",
+        "ogUrl": "https://example.com/page"
+      },
+      "robotsOptions": [
+        {
+          "value": "index, follow",
+          "label": "السماح بالفهرسة والاتباع"
+        },
+        {
+          "value": "index, nofollow",
+          "label": "السماح بالفهرسة، يمنع الاتباع"
+        },
+        {
+          "value": "noindex, follow",
+          "label": "يمنع الفهرسة، يسمح بالاتباع"
+        },
+        {
+          "value": "noindex, nofollow",
+          "label": "يمنع الفهرسة والاتباع"
+        }
+      ],
+      "twitterOptions": [
+        {
+          "value": "summary",
+          "label": "ملخص"
+        },
+        {
+          "value": "summary_large_image",
+          "label": "صورة كبيرة"
+        },
+        {
+          "value": "player",
+          "label": "مشغل"
+        }
+      ]
+    },
+    "toolHistoryDemo": {
+      "confirmClear": "هل أنت متأكد أنك تريد مسح كل سجل الأدوات والمفضلة؟",
+      "exportTitle": "تصدير البيانات",
+      "usageCount": "استُخدم {{count}} مرات",
+      "lastUsed": "الاستخدام الأخير: {{time}}",
+      "favorite": "مفضل: {{value}}",
+      "yes": "نعم",
+      "no": "لا",
+      "exportFailed": "فشل التصدير",
+      "tabs": {
+        "overview": "نظرة عامة",
+        "history": "السجل",
+        "favorites": "المفضلة",
+        "analytics": "التحليلات"
+      },
+      "loading": "تحميل بيانات سجل الأدوات...",
+      "loadFailed": "فشل التحميل: {{error}}",
+      "title": "عرض سجل الأدوات",
+      "description": "يُظهر استخدام الأدوات، المفضلة، والتحليلات",
+      "export": "تصدير",
+      "clear": "مسح",
+      "searchPlaceholder": "ابحث عن أدوات...",
+      "stats": {
+        "totalTools": "الأدوات الإجمالية",
+        "totalUsage": "الاستخدام الإجمالي",
+        "favoriteTools": "الأدوات المفضلة",
+        "averageUsage": "الاستخدام المتوسط"
+      },
+      "favoriteToolsTitle": "أدوات المفضلة",
+      "favoriteToolsDescription": "الأدوات التي قمت بتحديدها كمفضلة",
+      "noFavoriteTools": "لا توجد أدوات مفضلة بعد",
+      "mostUsed": "الأدوات الأكثر استخدامًا",
+      "timesUsed": "استُخدم {{count}} مرات",
+      "recentActivity": "النشاط الأخير",
+      "exportDialogTitle": "تصدير سجل الأدوات",
+      "exportDialogDescription": "اختر تنسيق التصدير",
+      "formats": {
+        "json": {
+          "title": "تنسيق JSON",
+          "description": "أفضل للنسخ الاحتياطي واستخدام المطورين"
+        },
+        "csv": {
+          "title": "تنسيق CSV",
+          "description": "جيد لجداول البيانات مثل إكسيل"
+        },
+        "txt": {
+          "title": "تنسيق TXT",
+          "description": "ملخص نصي بسيط"
+        }
+      },
+      "cancel": "إلغاء"
+    },
+    "userAgentParser": {
+      "title": "مُحلل سلسلة المستخدم (User-Agent)",
+      "description": "تحليل سلسلة User-Agent لتحديد معلومات المتصفح والنظام والجهاز",
+      "label": "سلسلة User-Agent",
+      "useCurrent": "استخدم المتصفح الحالي",
+      "inputPlaceholder": "أدخل سلسلة User-Agent...",
+      "parse": "تحليل",
+      "unknownBrowser": "متصفح غير معروف",
+      "unknown": "غير معروف",
+      "deviceTypes": {
+        "mobile": "جوال",
+        "tablet": "태블릿",
+        "desktop": "كمبيوتر سطح مكتب"
+      },
+      "browserInfo": "معلومات المتصفح",
+      "browser": "المتصفح",
+      "version": "الإصدار",
+      "majorVersion": "الإصدار الرئيسي",
+      "operatingSystem": "نظام التشغيل",
+      "system": "النظام",
+      "deviceInfo": "معلومات الجهاز",
+      "type": "النوع",
+      "vendor": "الشركة المصنعة",
+      "model": "النموذج",
+      "engineAndCpu": "المحرك & وحدة المعالجة المركزية",
+      "engine": "المحرك",
+      "engineVersion": "إصدار المحرك",
+      "cpuArchitecture": "هيكل وحدة المعالجة المركزية",
+      "examplesTitle": "سلسلة User-Agent أمثلة"
+    },
+    "cssBoxShadow": {
+      "title": "مُولِّد ظل العنصر (DIV)",
+      "description": "تعديل قيم ظل العنصر بصريًا وإنشاء شيفرة CSS",
+      "preview": "معاينة",
+      "basicSettings": "إعدادات أساسية",
+      "backgroundColor": "لون الخلفية",
+      "boxColor": "لون الصندوق",
+      "borderRadius": "نصف قطر الحواف",
+      "shadowPrefix": "ظل {{index}}",
+      "inset": "داخل",
+      "offsetX": "الانزلاق X",
+      "offsetY": "الانزلاق Y",
+      "blur": "ضبابية",
+      "spread": "التوزيع",
+      "opacity": "شفافية",
+      "color": "اللون",
+      "addShadow": "إضافة ظل",
+      "codeTitle": "شفرة CSS",
+      "copy": "نسخ",
+      "copied": "تم النسخ"
+    },
+    "cssGlassmorphism": {
+      "title": "مُولِّد CSS زجاجي (Glassmorphism)",
+      "description": "إنشاء شيفرة CSS ذات أسلوب زجاجي (Glassmorphism) عبر الإنترنت",
+      "cardTitle": "بطاقة زجاجية",
+      "cardDescription": "الزجاجية هي أسلوب واجهة مستخدم حديث يستخدم الشفافية والضبابية والحدود اللطيفة لإنشاء تأثير زجاج مُبرد.",
+      "adjustTitle": "تعديل الإعدادات",
+      "blur": "ضبابية الخلفية",
+      "transparency": "الشفافية",
+      "saturation": "التشبع",
+      "borderRadius": "نصف قطر الحواف",
+      "borderOpacity": "شفافية الحواف",
+      "codeTitle": "شفرة CSS",
+      "copy": "نسخ",
+      "copied": "تم النسخ",
+      "infoTitle": "ملاحظات التوافق",
+      "infoDescription": "تحتاج خاصية backdrop-filter إلى دعم المتصفح الحديث. قد تحتاج Firefox إلى إعدادات إضافية، وقد تحتاج Safari إلى البادئة -webkit-. اعتبر استبدالات جيدة لمستعرضات غير مدعومة."
+    },
+    "desktopShortcut": {
+      "title": "رمز تشغيل الموقع على سطح المكتب",
+      "description": "إنشاء رموز تشغيل لموقع الويب على سطح المكتب وتشغيلها بسرعة",
+      "enterUrl": "يرجى إدخال عنوان URL صحيح للموقع",
+      "enterName": "يرجى إدخال اسم الرمز",
+      "redirectingTo": "فتح {{name}}...",
+      "urlLabel": "عنوان URL للموقع",
+      "urlPlaceholder": "example.com أو https://example.com",
+      "nameLabel": "اسم الرمز",
+      "namePlaceholder": "رمز الموقع",
+      "downloadUrlFile": "تنزيل ملف .url",
+      "downloadHtmlFile": "تنزيل ملف .html",
+      "infoTitle": "التعليمات",
+      "urlFileDesc": "ملفات .url هي ملفات روابط إنترنت لسطح المكتب في ويندوز وعادة ما تفتح الموقع المستهدف مباشرة في المتصفح الافتراضي الخاص بك.",
+      "htmlFileDesc": ".html files work across Windows, macOS, and Linux and can also be used as simple website shortcuts.",
+      "afterDownload": "بعد التنزيل، انتقل إلى ملفك إلى سطح المكتب أو ثبته حيث تحتاج."
+    },
+    "htmlPreview": {
+      "title": "عرض HTML",
+      "description": "اكتب واعرض HTML عبر الإنترنت",
+      "defaultMessage": "أهلاً بكم في أداة عرض HTML",
+      "editorTitle": "كود HTML",
+      "clear": "مسح",
+      "editorPlaceholder": "أدخل كود HTML هنا...",
+      "previewTitle": "عرض",
+      "run": "تشغيل",
+      "fullscreen": "الشاشة الكاملة",
+      "exitFullscreen": "خروج من الشاشة الكاملة",
+      "usageTitle": "كيفية الاستخدام",
+      "usageItems": [
+        "أدخل كود HTML الكامل في المحرر على اليسار",
+        "انقر على تشغيل لعرض النتيجة",
+        "يتم دعم CSS والJavaScript الداخلي",
+        "يتم تنفيذ الكود داخل بيئة آمنة للحماية"
+      ]
+    },
+    "pageRefresh": {
+      "title": "إعادة تحميل الصفحة تلقائيًا",
+      "description": "إعادة تحميل صفحة الويب تلقائيًا عبر الإنترنت",
+      "urlRequired": "يرجى إدخال عنوان URL",
+      "urlPlaceholder": "أدخل عنوان URL، مثال: https://example.com",
+      "seconds": "ثانية",
+      "start": "ابدأ",
+      "stop": "توقف",
+      "quickSet": "الإعدادات السريعة:",
+      "secondsValue": "{{count}} ثانية",
+      "minutesValue": "{{count}} دقيقة",
+      "running": "التشغيل",
+      "refreshIn": "تُعاد إعادة التحميل بعد {{count}} ثوانٍ",
+      "refreshedCount": "تم إعادة التحميل {{count}} مرة",
+      "lastRefresh": "آخر تحديث: {{time}}",
+      "previewTitle": "عرض الصفحة",
+      "previewPlaceholder": "أدخل عنوان URL لبدء عرض الصفحة",
+      "usageTitle": "كيفية الاستخدام",
+      "usageItems": [
+        "أدخل عنوان موقع الويب وحدد فترة إعادة التحميل",
+        "انقر على بدء لبدء إعادة التحميل التلقائي",
+        "قد لا يتم عرض بعض المواقع داخل iframe بسبب سياسات الأمان",
+        "مفيد لمراقبة تغييرات الصفحة أو الحفاظ على الجلسات نشطة"
+      ]
+    },
+    "pxToRem": {
+      "title": "محول وحدة PX إلى REM",
+      "description": "تحويل وحدات PX في كود CSS إلى وحدات REM دفعة واحدة",
+      "baseFontSize": "حجم الخط الجذر",
+      "precision": "الدقة العشرية",
+      "precisionOptions": {
+        "2": "2 رقم",
+        "3": "3 أرقام",
+        "4": "4 أرقام",
+        "5": "5 أرقام"
+      },
+      "inputLabel": "كود CSS الإدخال",
+      "convertToRem": "PX إلى REM",
+      "convertToPx": "REM إلى PX",
+      "outputLabel": "النتيجة",
+      "copy": "نسخ",
+      "copied": "نسخ",
+      "outputPlaceholder": "ستظهر نتيجة التحويل هنا...",
+      "quickReferenceTitle": "مرجع سريع (الأساس: {{baseSize}}px)",
+      "whyUseRem": "لماذا استخدام REM؟",
+      "infoItems": [
+        "REM مرتبط بحجم خط الجذر (html)",
+        "استخدام REM يجعل من الأسهل تعديل الخطوط عبر الموقع",
+        "يساعد في تصميم المواقع المتجاوبة والوصول إليها"
+      ],
+      "formula": "الصيغة: rem = px / {{baseSize}}"
+    },
+    "shieldBadge": {
+      "title": "مولد شارة الحماية",
+      "description": "إنشاء شارات SVG حماية عبر الإنترنت",
+      "downloadFailed": "فشل التنزيل، يرجى المحاولة لاحقًا",
+      "basicSettings": "الإعدادات الأساسية",
+      "labelField": "العنوان",
+      "messageField": "الرسالة",
+      "color": "اللون",
+      "style": "النمط",
+      "logoSettings": "إعدادات الشعار",
+      "logo": "الشعار",
+      "none": "لا شيء",
+      "logoColor": "لون الشعار",
+      "preview": "عرض",
+      "downloadSvg": "تنزيل SVG",
+      "codeTitle": "الكود",
+      "copiedToClipboard": "تم نسخها إلى لوحة المفاتيح"
+    },
+    "robotsGenerator": {
+      "title": "مولد ملف robots.txt",
+      "description": "إنشاء ملفات robots.txt عبر الإنترنت",
+      "templatesLabel": "القوالب السريعة:",
+      "templates": {
+        "allowAll": "السماح بكل شيء",
+        "blockAll": "حظر كل شيء",
+        "standard": "التكوين القياسي"
+      },
+      "ruleTitle": "قاعدة {{index}}",
+      "userAgents": {
+        "all": "* (كل الروبوتات)",
+        "baidu": "Baiduspider (بaidu)",
+        "sogou": "Sogou"
+      },
+      "disallow": "المسارات الممنوعة",
+      "allow": "المسارات المسموح بها",
+      "add": "إضافة",
+      "addRule": "إضافة قاعدة",
+      "otherSettings": "إعدادات أخرى",
+      "sitemapUrl": "عنوان Sitemap",
+      "crawlDelay": "تأخير التنزيل (ثوانٍ)",
+      "preview": "عرض robots.txt",
+      "copy": "نسخ",
+      "copied": "نسخ",
+      "saveTip": "احفظ هذا الملف باسم robots.txt ووضعه في مجلد جذر موقعك"
+    },
+    "emailEncrypt": {
+      "title": "مُشفِّر عنوان البريد الإلكتروني",
+      "description": "تشفير عناوين البريد الإلكتروني لتقليل التجميع بواسطة الروبوتات",
+      "inputLabel": "عنوان البريد الإلكتروني",
+      "copy": "نسخ",
+      "copied": "نسخ",
+      "infoTitle": "لماذا يجب تشفير عنوان البريد الإلكتروني؟",
+      "infoItems": [
+        "تقليل خطر تجميع الروبوتات لعناوين بريدك الإلكتروني للبريد العشوائي",
+        "يمكن عرض البريد الإلكتروني المشفر في المتصفح بينما يكون من الصعب على الروبوتات اكتشافه",
+        "يمكن دمج طرق تشفير متعددة لحماية أفضل",
+        "يُنصح بالقيام بإجراءات وقائية ضد البريد العشوائي من خلال الخادم"
+      ],
+      "results": {
+        "unicodeDecimal": {
+          "name": "الرقم الترتيبي للأحرف",
+          "description": "تحويل الأحرف إلى وحدات Unicode الرقمية"
+        },
+        "unicodeHex": {
+          "name": "الرقم الترتيبي hexadecimal للأحرف",
+          "description": "تحويل الأحرف إلى وحدات Unicode hexadecimal"
+        },
+        "javascript": {
+          "name": "إخراج JavaScript",
+          "description": "عرض البريد الإلكتروني بشكل ديناميكي باستخدام JavaScript"
+        },
+        "mailto": {
+          "name": "رابط mailto",
+          "description": "إنشاء رابط mailto مشفر"
+        },
+        "cssReverse": {
+          "name": "عكس عرض CSS",
+          "description": "عرض النص في تسلسل عكسي باستخدام CSS"
+        }
+      }
+    },
+    "workerDemo": {
+      "title": "مثال أداء Web Worker",
+      "description": "مقارنة أداء الحساب بين Web Workers والthread الرئيسي",
+      "invalidInteger": "يرجى إدخال عدد صحيح موجب صالح",
+      "workerError": "خطأ في حساب Web Worker:",
+      "notice": "إشعار",
+      "settingsTitle": "إعدادات الحساب",
+      "inputLabel": "القيمة الإدخالية",
+      "inputPlaceholder": "أدخل عددًا صحيحًا موجبًا",
+      "operationLabel": "العملية",
+      "operations": {
+        "factorial": "الحاصل(factorial) (n!)",
+        "fibonacci": "متسلسلة فيبوناتشي",
+        "prime": "التحقق من العدد الأولي",
+        "factorization": "تحليل العوامل الأولية"
+      },
+      "workerCalculate": "حساب باستخدام Web Worker",
+      "mainThreadCalculate": "حساب على thread الرئيسي",
+      "comparisonTitle": "مقارنة الأداء",
+      "workerResult": "نتيجة Web Worker",
+      "mainThreadResult": "نتيجة thread الرئيسي",
+      "resultLabel": "النتيجة:",
+      "timeLabel": "وقت الحساب:",
+      "calculating": "الحساب...",
+      "emptyState": "انقر على زر أعلاه لبدء الحساب",
+      "infoTitle": "لماذا استخدام Web Workers؟",
+      "workerFeaturesTitle": "خصائص Web Worker",
+      "workerFeatures": [
+        "يعمل في thread خلفي دون إعاقة thread الرئيسي",
+        "مثالي للمهام الحسابية الثقيلة",
+        "يحافظ على واجهة المستخدم استجابة",
+        "يدعم المعالجة المتوازية"
+      ],
+      "useCasesTitle": "حالات الاستخدام",
+      "useCases": [
+        "معالجة البيانات الكبيرة",
+        "الخوارزميات المعقدة",
+        "معالجة الصور",
+        "التشفير والفك التشفير"
+      ]
+    },
+    "jsDebug": {
+      "title": "مُحلل الأخطاء JS",
+      "description": "تشغيل وتصحيح JavaScript عبر الإنترنت",
+      "defaultCode": "// اكتب كود JavaScript هنا\nconsole.log(\"مرحباً بالعالم!\");\n\n// مثال: معالجة المصفوفات\nconst numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(n => n * 2);\nconsole.log(\"المصفوفة الأصلية:\", numbers);\nconsole.log(\"مضاعفة القيم:\", doubled);\n\n// مثال: الكائن\nconst user = {\n  name: \"زhang San\",\n  age: 25,\n  city: \"بكين\"\n};\nconsole.log(\"معلومات المستخدم:\", user);\n\n// مثال: العمليات غير المتزامنة\nsetTimeout(() => {\n  console.log(\"يُنفذ بعد ثانية واحدة\");\n}, 1000);",
+      "editorTitle": "كود JavaScript",
+      "copy": "نسخ",
+      "copied": "تم النسخ!",
+      "clear": "مسح",
+      "placeholder": "أدخل كود JavaScript هنا...",
+      "run": "تشغيل الكود",
+      "consoleTitle": "إخراج المحرك",
+      "consolePlaceholder": "سيظهر إخراج المحرك هنا...",
+      "usageTitle": "كيفية الاستخدام",
+      "usageItems": [
+        "استخدم console.log() و console.error() و console.warn() لطباعة الرسائل",
+        "يدعم صيغة ES6+ مثل الدوال السهمية والتفكيك والنصوص المترابطة",
+        "يدعم العمليات غير المتزامنة مثل setTimeout و Promise",
+        "يتم تشغيل الكود في بيئة آمنة ولا يمكن الوصول إلى DOM أو الموارد الخارجية"
+      ]
+    },
+    "formValidationDemo": {
+      "title": "نموذج التحقق من صحة النموذج",
+      "description": "يوضح التحقق من صحة النموذج الكامل، بما في ذلك التحقق الفوري، الرسائل التوضيحية للأخطاء، وتنظيف البيانات",
+      "validation": {
+        "username": "اسم المستخدم يجب أن يحتوي فقط على أحرف وأرقام ونقاط ترقيم، ويجب أن يكون طوله بين 3 و20 حرفًا",
+        "phone": "يرجى إدخال رقم هاتف محمول صحيح",
+        "age": "يجب أن يكون العمر بين 1 و120",
+        "idCard": "يرجى إدخال رقم هوية شخصية صحيح",
+        "address": "يجب ألا يتجاوز عنوان الشارع 200 حرفًا",
+        "bio": "يجب ألا يتجاوز الوصف الشخصي 500 حرف"
+      },
+      "submitSuccess": "تمت عملية التحقق من صحة النموذج! البيانات المرسلة:",
+      "quickTestTitle": "اختبارات التحقق السريعة",
+      "quickLabels": {
+        "email": "التحقق من صحة البريد الإلكتروني",
+        "phone": "التحقق من صحة رقم الهاتف",
+        "url": "التحقق من صحة الرابط"
+      },
+      "quickPlaceholders": {
+        "email": "أدخل عنوان بريد إلكتروني",
+        "phone": "أدخل رقم هاتف",
+        "url": "أدخل رابطًا"
+      },
+      "valid": "صحيح",
+      "invalid": "غير صحيح",
+      "formTitle": "التحقق من صحة النموذج الكامل",
+      "placeholders": {
+        "username": "اسم المستخدم (أحرف، أرقام، نقاط ترقيم)",
+        "email": "عنوان البريد الإلكتروني",
+        "phone": "رقم الهاتف المحمول",
+        "website": "موقع إلكتروني شخصي (اختياري)",
+        "age": "العمر",
+        "idCard": "رقم الهوية الشخصية",
+        "address": "العنوان التفصيلي (اختياري)",
+        "bio": "الوصف الشخصي (اختياري، حتى 500 حرف)"
+      },
+      "success": {
+        "username": "تنسيق اسم المستخدم صحيح",
+        "email": "تنسيق البريد الإلكتروني صحيح",
+        "phone": "تنسيق رقم الهاتف صحيح",
+        "website": "تنسيق الموقع الإلكتروني صحيح",
+        "age": "العمر صحيح",
+        "idCard": "تنسيق رقم الهوية الشخصية صحيح",
+        "address": "العنوان صحيح",
+        "bio": "الوصف الشخصي صحيح"
+      },
+      "submit": "إرسال النموذج",
+      "summaryTitle": "ملخص التحقق من الصلاحية",
+      "fieldLabels": {
+        "username": "اسم المستخدم",
+        "email": "البريد الإلكتروني",
+        "phone": "الهاتف",
+        "website": "الموقع الإلكتروني",
+        "age": "العمر",
+        "idCard": "رقم الهوية",
+        "address": "العنوان",
+        "bio": "الوصف الشخصي"
+      },
+      "summaryStatus": {
+        "failed": "فشل التحقق من الصلاحية",
+        "passed": "تم التحقق من الصلاحية",
+        "empty": "لم يتم ملء الحقل"
+      },
+      "infoTitle": "مميزات التحقق من صحة النموذج",
+      "infoItems": [
+        {
+          "title": "التحقق الفوري",
+          "description": "يتحقق من التنسيق أثناء الكتابة ويقوم بالتحقق مرة أخرى عند فقدان التركيز"
+        },
+        {
+          "title": "أنواع القواعد المتعددة",
+          "description": "يدعم الحقول الإلزامية، والتحقق من الطول، والتعبيرات العادية، والتحقق المخصص"
+        },
+        {
+          "title": "التغذية الراجعة البصرية",
+          "description": "يعرض حالة التحقق من الصلاحية بشكل واضح باستخدام الألوان والأيقونات والرسائل"
+        },
+        {
+          "title": "تنظيف البيانات",
+          "description": "يقوم بتنظيف البيانات المقدمة تلقائيًا"
+        },
+        {
+          "title": "رسائل تحذيرية مفيدة",
+          "description": "تقدم توجيهات ودية للمساعدة في تصحيح الإدخال"
+        },
+        {
+          "title": "دعم الوصولية",
+          "description": "يساعد في الحفاظ على قابلية استخدام النماذج لجميع المستخدمين"
+        }
+      ]
+    },
+    "faviconGenerator": {
+      "title": "مولد أيقونة الموقع",
+      "description": "تحويل الصور إلى أيقونات موقع إلكتروني",
+      "historyTitle": "مولد أيقونة الموقع",
+      "historyCategory": "أدوات الصور",
+      "uploadImageFile": "يرجى تحميل ملف صورة",
+      "generateFailed": "فشل إنشاء الأيقونة، يرجى المحاولة مرة أخرى",
+      "uploadTitle": "تحميل الصورة",
+      "uploadAria": "تحميل ملف صورة",
+      "dropzoneAria": "اضغط لتحميل صورة، يدعم PNG و JPG و SVG وغيرها",
+      "dropRelease": "افك لتثبيت الصورة",
+      "dropClick": "اضغط أو اسحب الصورة هنا",
+      "supportFormats": "يدعم PNG و JPG و SVG وغيرها",
+      "clearImage": "مسح الصورة",
+      "clearImageTitle": "مسح الصورة (Ctrl+L)",
+      "settingsTitle": "الإعدادات",
+      "removeBackground": "إزالة لون خلفية الصورة",
+      "removeColor": "اللون الذي سيتم إزالته",
+      "removeColorPicker": "اختر لون الخلفية الذي تريد إزالته",
+      "removeColorValue": "قيمة لون الخلفية الذي سيتم إزالته",
+      "tolerance": "المدى المسموح به: {{value}}",
+      "toleranceAria": "مدى اللون",
+      "toleranceTip": "كلما زاد مدى اللون، تم إزالة نطاق ألوان أكبر",
+      "transparentBackground": "خلفية شفافة",
+      "transparentTip": "ملاحظة: إذا كانت الصورة الأصلية تحتوي بالفعل على لون خلفية، فقم بتفعيل «إزالة لون خلفية الصورة».",
+      "backgroundColor": "لون الخلفية",
+      "backgroundColorPicker": "اختر لون الخلفية",
+      "backgroundColorValue": "قيمة لون الخلفية",
+      "selectSize": "حدد الأحجام",
+      "selectedState": " (مُحدد)",
+      "sizeAria": "حجم {{size}}x{{size}} بكسل{{state}}",
+      "toggleSizeTitle": "تبديل حجم {{size}}x{{size}} (Alt+{{shortcut}})",
+      "previewTitle": "معاينة",
+      "generating": "يتم إنشاء...",
+      "downloadSizeAria": "تنزيل أيقونة {{size}}x{{size}}",
+      "download": "تنزيل",
+      "uploadFirst": "يرجى تحميل صورة أولًا",
+      "downloadTitle": "تنزيل",
+      "downloadAllPng": "تنزيل جميع الأحجام (PNG)",
+      "downloadAllPngTitle": "تنزيل جميع أحجام PNG (Ctrl+Enter)",
+      "downloadIco": "تنزيل favicon.ico",
+      "downloadIcoTitle": "تنزيل favicon.ico (Alt+I)",
+      "usageTitle": "كيفية الاستخدام",
+      "usageItems": [
+        "إزالة لون الخلفية: يزيل الخلفيات الثابتة مثل الرمادي أو الأبيض",
+        "المدى المسموح به: زيادة المدى المسموح به لإزالة ألوان مشابهة، مفيد لخلفيات التدرج",
+        "16x16: أيقونة علامة تبويب المتصفح",
+        "32x32: أيقونة اختصار سطح المكتب",
+        "48x48: اختصار موقع ويب في نظام Windows",
+        "ضع أيقونة الموقع المُولدة في دليل الجذر لموقعك"
+      ]
+    }
+  },
+  "components": {
+    "toolHistory": {
+      "usageCount": "تم استخدامه {{count}} مرات",
+      "recentUsed": "تم استخدامه مؤخرًا: {{value}}",
+      "removeFavorite": "إزالة من المفضلة",
+      "addFavorite": "إضافة إلى المفضلة",
+      "removeRecord": "إزالة السجل",
+      "emptyHistory": "لا يوجد تاريخ أدوات بعد",
+      "confirmClear": "هل أنت متأكد من رغبتك في مسح كل تاريخ الأدوات؟",
+      "tabs": {
+        "recent": "مؤخرًا",
+        "favorites": "المفضلة",
+        "mostUsed": "الأكثر استخدامًا"
+      },
+      "title": "تاريخ الأدوات",
+      "clearHistory": "مسح التاريخ",
+      "searchPlaceholder": "ابحث في التاريخ...",
+      "emptyMessages": {
+        "recent": "لا توجد سجلات استخدام مؤخرًا",
+        "favorites": "لا توجد أدوات مفضلة بعد",
+        "mostUsed": "لا توجد أدوات أكثر استخدامًا بعد"
+      }
+    },
+    "exportFormatSelector": {
+      "buttonText": "تصدير النتائج",
+      "exporting": "يتم تصدير...",
+      "exportFailed": "فشل التصدير، يرجى المحاولة مرة أخرى"
+    },
+    "ads": {
+      "loading": "جارٍ تحميل الإعلانات...",
+      "carouselTitle": "شريط إعلانات",
+      "checkConsole": "يرجى التحقق من وحدة التحكم في المتصفح للحصول على سجلات مفصلة"
+    },
+    "networkStatus": {
+      "online": "متصل",
+      "offline": "غير متصل",
+      "connected": "تم الاتصال بالشبكة",
+      "disconnected": "تم قطع الاتصال بالشبكة",
+      "connectedDescription": "جميع الميزات متاحة الآن",
+      "disconnectedDescription": "قد لا تكون بعض الميزات متاحة. يرجى التحقق من اتصال الشبكة الخاص بك.",
+      "requestFailed": "فشل الطلب"
+    },
+    "keyboardShortcutsHelp": {
+      "title": "اختصارات لوحة المفاتيح",
+      "close": "إغلاق",
+      "toggleDescription": "عرض أو إخفاء مساعدة اختصارات لوحة المفاتيح",
+      "helpTextBefore": "اضغط على",
+      "helpTextMiddle": "أو",
+      "helpTextAfter": "لعرض أو إخفاء هذه المساعدة",
+      "tipTitle": "نصائح",
+      "tipItems": [
+        "قد تبدو أسماء اختصارات لوحة المفاتيح مختلفة قليلاً بين أنظمة التشغيل",
+        "قد تتعارض بعض الاختصارات مع اختصارات المتصفح",
+        "استخدم مفتاح Tab للتنقل بين العناصر القابلة للتركيز",
+        "اضغط Enter لتفعيل الأزرار والروابط"
+      ],
+      "closeEsc": "إغلاق (ESC)"
+    },
+    "performanceDashboard": {
+      "title": "لوحة أداء الأداء",
+      "startMonitoring": "시작 المراقبة",
+      "stopMonitoring": "إيقاف المراقبة",
+      "exportReport": "تصدير التقرير",
+      "notMeasured": "لم يتم قياسه",
+      "metrics": {
+        "fcp": "وقت ظهور المحتوى الأول",
+        "lcp": "وقت ظهور أكبر عنصر محتوى",
+        "fid": "تأخر الإدخال الأول",
+        "cls": "انزياح التخطيط التراكمي",
+        "ttfb": "وقت الوصول إلى أول بايت"
+      },
+      "memoryTitle": "استخدام الذاكرة",
+      "memory": {
+        "used": "الذاكرة المستخدمة",
+        "total": "إجمالي الذاكرة",
+        "usageRate": "معدل الاستخدام"
+      },
+      "tipsTitle": "نصائح التحسين",
+      "tips": [
+        "استخدم التطبيق بشكل طبيعي أثناء المراقبة؛ سيتم تحديث البيانات في الوقت الفعلي",
+        "يُعتبر FCP أقل من 1.8 ثانية، وLCP أقل من 2.5 ثانية، وFID أقل من 100 مللي ثانية، وCLS أقل من 0.1 ممتازًا",
+        "إذا تجاوز استهلاك الذاكرة 80٪، فكر في تحسين الكود",
+        "يمكنك تصدير تقرير مفصل لتحليل أعمق"
+      ],
+      "emptyState": "اضغط على ?بدء المراقبة? لبدء تحليل الأداء"
+    }
+  }
+}

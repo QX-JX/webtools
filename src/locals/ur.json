@@ -1,0 +1,2730 @@
+{
+  "common": {
+    "home": "گھر",
+    "websiteDetection": "ویب سائٹ چیکس",
+    "seoTools": "SEO ٹولز",
+    "devTools": "ڈیولپر ٹولز",
+    "encodingConversion": "اینکوڈنگ ٹولز",
+    "otherTools": "دیگر ٹولز",
+    "feedback": "تسلیم کریں",
+    "customization": "کسٹم حل / ہم سے رابطہ کریں",
+    "back": "پیچھے",
+    "appName": "ایک جیسا ویب ماسٹر ٹولز",
+    "brandName": "اک نقونگ پروڈکٹ",
+    "loading": "لوڈ ہورہا ہے...",
+    "processing": "پروسیسنگ",
+    "processingDescription": "براہ کرم ہمارے ذریعہ آپ کے ڈیٹا کی پرولیس کرنے کے لئے انتظار کریں ...",
+    "inProgress": "پر عمل ہے",
+    "search": "ٹولز تلاش کریں ...",
+    "my": "میرا",
+    "menu": "مینو",
+    "settings": "Settings",
+    "all": "سب کچھ",
+    "category": "کیٹگری",
+    "noToolsFound": "کوئی مطابقت رکھنے والے ٹولز نہیں ملے",
+    "recommended": "تجویز کردہ",
+    "usageCount": "استعمال کیا گیا {{count}} بار",
+    "toolsCount": "{{count}} ٹولز",
+    "export": "برآمد کریں",
+    "usageInstructions": "استعمال کی ہدایات"
+  },
+  "auth": {
+    "login": "لاگ ان کریں",
+    "logout": "لاگ آؤٹ کریں",
+    "userInfo": "صارف کی معلومات",
+    "nickname": "نام کے نام",
+    "avatar": "Avatar",
+    "user": "صارف",
+    "loggedIn": "لاگ ان کردہ ہے",
+    "loggingOut": "لاگ آؤٹ ہورہا ہے ...",
+    "loggingIn": "لاگ ان ہورہا ہے ...",
+    "loginInstructions": "براہ کرم اپنے براوزر میں لاگ ان مکمل کریں",
+    "cancelLogin": "لاگ ان منسوخ کریں",
+    "loginFailed": "لاگ ان کامیاب نہیں ہوا",
+    "retry": "دوبارہ کوشش کریں",
+    "close": "بند کریں",
+    "loginDescription": "نیچے دی گئی گزری چاہئے کلک کریں۔ جب آپ لاگ ان مکمل کر لیں تو ایپ خود بخود آپ کی لاگ ان حالت کو سینک کر دے گی۔",
+    "loginTip": "نصیحت: لاگ ان کے دوران آپ کے براوزر کو کھولے رکھنے کا یقین کریں۔",
+    "openBrowserLogin": "براوزر لاگ ان کھولیں",
+    "cancel": "منسوخ کریں",
+    "loginReminder": "لاگ ان یاد دہانی",
+    "loginRequiredTitle": "لاگ ان ضروری ہے",
+    "loginRequiredDescription": "اس فیچر کے استعمال کے لئے آپ کو لاگ ان کرنا ضروری ہے۔ لاگ ان کرنے کے بعد، آپ تمام سہولیات کا استعمال کر سکیں گے۔",
+    "loginActionDescription": "نیچے دی گئی گزری چاہئے کلک کریں۔ پھر وہاں لاگ ان مکمل کریں۔",
+    "loginNow": "اب لاگ ان کریں",
+    "loginBenefit": "تمام فیچرز کا استعمال کرنے کے لئے لاگ ان کریں",
+    "errors": {
+      "getLoginUrlFailed": "لاگ ان URL حاصل کرنے میں ناکام: {{message}}",
+      "getLoginUrlException": "لاگ ان URL حاصل کرنے میں خطا: {{error}}",
+      "loginCancelled": "لاگ ان منسوخ کردیا گیا تھا",
+      "pollingAbnormal": "پولنگ غیر معمولی جواب دیا: {{message}}",
+      "pollingFailed": "پولنگ کامیاب نہیں ہوا: {{error}}",
+      "loginTimeout": "لاگ ان وقت گزرجاتا ہے",
+      "checkLoginStatusFailed": "لاگ ان حالت چیک کرنے میں ناکام، حالت کوڈ: {{status}}",
+      "checkLoginException": "لاگ ان حالت چیک کرنے میں خطا",
+      "getUserInfoFailed": "صارف کی معلومات حاصل کرنے میں ناکام: {{message}}",
+      "getUserInfoException": "صارف کی معلومات حاصل کرنے میں خطا: {{error}}",
+      "logoutFailed": "لاگ آؤٹ کرنے میں ناکام: {{message}}",
+      "logoutException": "لاگ آؤٹ کرنے میں خطا: {{error}}",
+      "getFeedbackUrlFailed": "تسلیم کریں URL حاصل کرنے میں ناکام: {{message}}",
+      "getFeedbackUrlException": "تسلیم کریں URL حاصل کرنے میں خطا: {{error}}"
+    }
+  },
+  "favorite": {
+    "add": "فavourites میں شامل کریں",
+    "remove": "فavourites سے نکالیں",
+    "label": "فavourites",
+    "failed": "عمل ناکام ہو گیا"
+  },
+  "errors": {
+    "fetchCustomUrlFailed": "custom page URL fetch کرنے میں ناکام:",
+    "fetchFeedbackUrlFailed": "feedback page URL fetch کرنے میں ناکام:",
+    "copyFailed": "کاپی کرنے میں ناکام",
+    "networkError": "نیٹ ورک کنکشن کی خطا",
+    "somethingWentWrong": "کچھ گڑبڑ ہو گیا",
+    "unexpectedError": "معذرت، ایک غیر متوقع خطا ہو گئی",
+    "noData": "کوئی ڈیٹا موجود نہیں ہے",
+    "noRelatedData": "کوئی متعلقہ ڈیٹا نہیں ملی",
+    "noAds": "کوئی اعلان موجود نہیں ہے",
+    "fetchAdsError": "اشعارات حاصل کرنے میں ناکام",
+    "lookupFailed": "تلاش کرنے میں ناکام"
+  },
+  "tools": {
+    "csr": {
+      "title": "CSR گینریٹر اور ویوئر",
+      "description": "آن لائن CSR فائلیں بنائیں اور دیکھیں"
+    },
+    "whois": {
+      "title": "ڈومین WHOIS لُک آپ",
+      "description": "آن لائن WHOIS معلومات اور ڈومین رجسٹریشن کی تفصیل چیک کریں"
+    },
+    "dns": {
+      "title": "DNS ریکارڈ لُک آپ",
+      "description": "آن لائن DNS ریکارڈ (A, MX, CNAME، وغیرہ) کی تلاش کریں"
+    },
+    "dnsEnhanced": {
+      "title": "DNS ریکارڈ لُک آپ (اچھا کردہ)",
+      "description": "بڑے ریکارڈ سیٹس کے لئے ڈیجیٹل اسکرولنگ کے ساتھ DNS لُک آپ"
+    },
+    "httpStatus": {
+      "title": "HTTP اسٹیٹس چیکر",
+      "description": "ویب صفحات کے لئے HTTP اسٹیٹس کوڈز کی جانچ کرنے کا مفت آن لائن ٹول"
+    },
+    "gzip": {
+      "title": "GZIP کمپریشن چیکر",
+      "description": "ویب صفحہ GZIP کمپریسڈ ہے یا نہیں چیک کریں اور اس کی کمپریشن شرح دیکھیں"
+    },
+    "ssl": {
+      "title": "SSL سرٹیفکیٹ چیکر",
+      "description": "آن لائن SSL سرٹیفکیٹ کی تفصیل اور قابلیت کی جانچ کریں"
+    },
+    "browserInfo": {
+      "title": "براؤزر کی معلومات",
+      "description": "اپنے موجودہ براؤزر کی تفصیلی معلومات دیکھنے کا مفت ٹول"
+    },
+    "useragent": {
+      "title": "User-Agent ایکسیلائر",
+      "description": "User-Agent سٹرنگ سے براوزر اور ڈیوائس کی معلومات کی تحلیل کریں"
+    },
+    "websocket": {
+      "title": "WebSocket ٹیسٹر",
+      "description": "مفت آن لائن WebSocket API ٹیسٹنگ ٹول"
+    },
+    "viewSource": {
+      "title": "صفحہ سورس دیکھیں",
+      "description": "آن لائن ویب پیج سورس کوڈ دیکھیں"
+    },
+    "metaGenerator": {
+      "title": "Meta Tag گینریٹر",
+      "description": "آن لائن ویب پیج Meta Tag گینریٹ کریں"
+    },
+    "metaCheck": {
+      "title": "META Tag چیکر",
+      "description": "ویب پیج پر META Tag معلومات کی جانچ کریں"
+    },
+    "robots": {
+      "title": "robots.txt گینریٹر",
+      "description": "آن لائن robots.txt فائلیں گینریٹ کریں"
+    },
+    "emailEncrypt": {
+      "title": "ای میل ایڈریس اینکریپٹر",
+      "description": "ای میل ایڈریس کو ایک اینکریپٹڈ فارمیٹ میں تبدیل کریں تاکہ اسکریپنگ کم ہو"
+    },
+    "phpReference": {
+      "title": "PHP فنکشن ریفرنس",
+      "description": "PHP فنکشن کی آن لائن ریفرنس لسٹ"
+    },
+    "htmlPreview": {
+      "title": "HTML پریویو",
+      "description": "آن لائن HTML ایڈیٹنگ اور پریویو ٹول"
+    },
+    "jsDebug": {
+      "title": "JS ڈیبگر",
+      "description": "آن لائن جی ایس چلانے اور ڈیبگ کرنے کا ٹول"
+    },
+    "shieldBadge": {
+      "title": "Shield Badge گینریٹر",
+      "description": "آن لائن SVG Shield بیڈج گینریٹ کریں"
+    },
+    "favicon": {
+      "title": "Favicon گینریٹر",
+      "description": "ایک محفوظ آن لائن favicon تبدیلی ٹول"
+    },
+    "cssGlassmorphism": {
+      "title": "CSS Glassmorphism گینریٹر",
+      "description": "ایک کلک میں CSS glassmorphism کوڈ گینریٹ کریں"
+    },
+    "cssNeumorphism": {
+      "title": "Neumorphism CSS گینریٹر",
+      "description": "ایک کلک میں neumorphism CSS سٹائل مثالیں گینریٹ کریں"
+    },
+    "pxToRem": {
+      "title": "PX سے REM کنورٹر",
+      "description": "CSS میں PX یونٹس کو REM میں بیچ میں کنورٹ کریں"
+    },
+    "cssBorderRadius": {
+      "title": "CSS Border Radius گینریٹر",
+      "description": "آن لائن گردے بیڑی کی اسٹائل کو تخلیق کریں"
+    },
+    "cssTextShadow": {
+      "title": "CSS Text Shadow گینریٹر",
+      "description": "آن لائن CSS text-shadow کوڈ کی جانچ اور گینریٹ کریں"
+    },
+    "cssBoxShadow": {
+      "title": "Box Shadow گینریٹر",
+      "description": "آن لائن div کے ظلال کو تخلیق کریں اور CSS کوڈ گینریٹ کریں"
+    },
+    "base64": {
+      "title": "Base64 Encode/Decode",
+      "description": "آن لائن Base64 اینکوڈنگ اور ڈیکوڈنگ ٹول"
+    },
+    "urlEncode": {
+      "title": "URL Encode/Decode",
+      "description": "آن لائن URL اینکوڈنگ اور ڈیکوڈنگ ٹول"
+    },
+    "htmlEntity": {
+      "title": "HTML Entity Encode/Decode",
+      "description": "آن لائن HTML ایونٹ اینکوڈنگ اور ڈیکوڈنگ ٹول"
+    },
+    "jsMinify": {
+      "title": "JS Minify & Beautify",
+      "description": "آن لائن JavaScript Minification اور Beautification ٹول"
+    },
+    "cssMinify": {
+      "title": "CSS Minify & Beautify",
+      "description": "آن لائن CSS Minification اور Beautification ٹول"
+    },
+    "desktopShortcut": {
+      "title": "ویب سائٹ ڈیسک ٹاپ شارٹکٹ",
+      "description": "مختصر رسائی کے لئے ویب سائٹ کے لئے ڈیسک ٹاپ شارٹکٹ بنائیں"
+    },
+    "pageRefresh": {
+      "title": "آٹو صفحہ ریفریش",
+      "description": "ایک گرامر پر ایک دورہ ویب پیج کو ریفریش کریں"
+    },
+    "httpCodes": {
+      "title": "HTTP اسٹیٹس کوڈز",
+      "description": "HTTP اسٹیٹس / ریسپانس کوڈز کی آن لائن ریفرنس"
+    },
+    "workerDemo": {
+      "title": "Web Worker کی کارکردگی ڈیمو",
+      "description": "وزنی کاموں کے لئے Web Workers کی کارکردگی کیسے بہتر ہوتی ہے دیکھیں"
+    },
+    "formValidation": {
+      "title": "فارم ویلیڈیشن ڈیمو",
+      "description": "زیرو سے فارم ویلیڈیشن کا مظہر"
+    }
+  },
+  "categories": {
+    "detection": "ویب سائٹ چیکس",
+    "seo": "SEO ٹولز",
+    "dev": "ڈیولپر ٹولز",
+    "encode": "اینکوڈنگ ٹولز",
+    "other": "دیگر ٹولز"
+  },
+  "kunqiongNav": {
+    "home": "ہوم",
+    "aiTools": "AI ٹولز",
+    "office": "آفس",
+    "multimedia": "میڈیا",
+    "development": "ڈیولپر ٹولز",
+    "text": "ٹیکسٹ",
+    "file": "فائلز",
+    "system": "سیسٹم",
+    "life": "زندگی",
+    "news": "AI خبریں",
+    "custom": "کسٹم سافٹوئر",
+    "consult": "مشورت",
+    "industryNews": "صنعتی خبریں",
+    "feedback": "رجوع",
+    "imageGen": "تصویر پیدا کرنا",
+    "codeDev": "کوڈ اور ڈیولپمنٹ",
+    "logoAlt": "Kunqiong AI ٹول بکس",
+    "footerLogoAlt": "Kunqiong AI",
+    "loginRegister": "لاگ ان / رجسٹر کریں",
+    "navExpandAria": "وسیع کریں",
+    "navSearchAria": "تلاش کریں",
+    "navMenuAria": "مینو"
+  },
+  "footer": {
+    "description": "ویب ماسٹر ٹول بکس جو ویب سائٹ چیکس، SEO ٹولز، ڈیولپر ٹولز اور دیگر چیزوں کے ساتھ ایک جگہ پر موجود ہے۔",
+    "kunqiongBrandDesc": "ہم لوگوں اور کمپنیوں کو آرتیفیشل انٹیلی جنس کے دور میں اپنی کاروباری حیثیت برقرار رکھنے میں مدد کے لیے بلیک ہیو ٹیکنالوجی کمپنی لمیٹڈ کے ساتھ اعلیٗ معیار کے AI ٹولز اور مشورتی خدمات فراہم کرنے کے لیے ملتے ہیں۔",
+    "toolCategories": "ٹول کیٹیگریز",
+    "quickLinks": "سریع لنکس",
+    "contactTitle": "ہم سے رابطہ کریں",
+    "contactCompany": "جیانگسی ہیکسیونگ سٹار ٹیکنالوجی کمپنی لمیٹڈ",
+    "contactPhone": "17770307066",
+    "contactRegion": "شانگراو، جیانگسی، چین",
+    "contactEmail": "11247931@qq.com",
+    "copyrightLine": "© 2026 Kunqiong AI ٹولز۔ تمام حقوق محفوظ ہیں۔",
+    "userAgreement": "خدمت کی شرائط",
+    "privacyPolicy": "خصوصیت کی پالیسی",
+    "brandAI": "Kunqiong AI کا ایک پروڈکٹ",
+    "brandAlt": "Kunqiong"
+  },
+  "validation": {
+    "required": "{{field}} ضروری ہے",
+    "minLength": "{{field}} کم از کم {{count}} حروف ہونا چاہیے",
+    "maxLength": "{{field}} زیادہ سے زیادہ {{count}} حروف ہوسکتا ہے",
+    "invalidFormat": "{{field}} غلط فارمیٹ ہے",
+    "email": "براہ کرم درست ای میل ایڈریس درج کریں",
+    "url": "براہ کرم درست URL درج کریں",
+    "domain": "براہ کرم درست ڈومین درج کریں",
+    "ip": "براہ کرم درست IP ایڈریس درج کریں",
+    "phone": "براہ کرم درست فون نمبر درج کریں",
+    "password": "پاس ورڈ میں بڑے اور چھوٹے حروف اور نمبر شامل ہونے چاہیے اور 6-20 حروف کا ہونا چاہیے"
+  },
+  "exporter": {
+    "unsupportedFormat": "Unsupported export format: {{format}}",
+    "csvRequiresArrayOrObject": "CSV ایکسپورٹ کے لیے ایک آرای یا اوبجیکٹ کی ضرورت ہے",
+    "toolUsageInfo": "ٹول استعمال کی معلومات",
+    "tool": "ٹول",
+    "time": "وقت",
+    "url": "URL",
+    "version": "ورژن",
+    "dnsReportTitle": "DNS لاک اپ رپورٹ",
+    "dnsReportDescription": "تفصیلی DNS ریکارڈ معلومات",
+    "summaryTitle": "سمری",
+    "domain": "ڈومین",
+    "recordCount": "کل ریکارڈز",
+    "recordCountValue": "{{count}} ریکارڈز",
+    "queryTime": "Query وقت",
+    "typeDescriptions": {
+      "A": "IPv4 ایڈریس ریکارڈ",
+      "AAAA": "IPv6 ایڈریس ریکارڈ",
+      "MX": "میل سرور ریکارڈ",
+      "TXT": "ٹیکسٹ ریکارڈ",
+      "CNAME": "الیاس ریکارڈ",
+      "NS": "نام سرور ریکارڈ",
+      "SOA": "اختیارات ریکارڈ"
+    },
+    "record": "ریکارڈ",
+    "otherRecords": "دیگر ریکارڈز",
+    "recordIndex": "ریکارڈ {{index}}",
+    "priority": "ترجیح",
+    "class": "کلاس",
+    "exportData": "اکسپورٹ کی گئی ڈیٹا",
+    "dnsToolName": "DNS لاک اپ ٹول",
+    "exportInfo": "اکسپورٹ معلومات",
+    "exportTime": "اکسپورٹ وقت",
+    "formats": {
+      "json": "سٹرکچرڈ ڈیٹا فارمیٹ، پروگراموں کے لیے آسان",
+      "csv": "اسپریڈشیٹ کے ساتھ مطابقت رکھنے والی فارمیٹ، ایکسل میں داخل کرنے کے لیے مناسب",
+      "txt": "مختصر ٹیکسٹ فارمیٹ، آسان پڑھنے کے لیے",
+      "xml": "مارک اپ فارمیٹ، ڈیٹا تبادلوں کے لیے مناسب",
+      "pdf": "ڈاکومینٹ فارمیٹ، چھاپنے اور شیئرنگ کے لیے مناسب"
+    }
+  },
+  "base64": {
+    "title": "Base64 اینکوڈ/ڈیکوڈ",
+    "description": "آن لائن Base64 اینکوڈنگ اور ڈیکوڈنگ ٹول",
+    "encode": "اینکوڈ کریں",
+    "decode": "ڈیکوڈ کریں",
+    "originalText": "Original text",
+    "base64String": "Base64 سٹرنگ",
+    "base64Result": "Base64 نتیجہ",
+    "decodeResult": "ڈیکوڈ کردہ نتیجہ",
+    "placeholderEncode": "اینکوڈ کرنے کے لیے ٹیکسٹ داخل کریں...",
+    "placeholderDecode": "ڈیکوڈ کرنے کے لیے Base64 داخل کریں...",
+    "resultPlaceholder": "نتیجہ یہاں ظہور پائے گا...",
+    "inputPlaceholder": "Convert کرنے کے لیے محتوا داخل کریں",
+    "decodeError": "ڈیکوڈنگ کامیاب نہیں ہوئی۔ کیا آپ یقینی ہیں کہ ان پٹ میں درست Base64 ہے؟",
+    "encodeError": "اینکوڈنگ کامیاب نہیں ہوئی",
+    "charCount": "{{count}} حروف",
+    "clear": "ان پٹ کو صاف کریں",
+    "copy": "نتائج کا کاپی کریں",
+    "copied": "کاپی کر دی گئی",
+    "convert": "ابھی تبدیل کریں",
+    "swap": "متبادل ڈیموڈ",
+    "ariaLabel": "Base64 اینکوڈ/ڈیکوڈ ٹول",
+    "modeSelection": "Conversion mode selection",
+    "encodeMode": "اینکوڈ مود",
+    "decodeMode": "ڈیکوڈ مود",
+    "inputLabelEncode": "اینکوڈ کرنے کے لیے ٹیکسٹ",
+    "inputLabelDecode": "ڈیکوڈ کرنے کے لیے Base64 سٹرنگ",
+    "outputLabelEncode": "Base64 اینکوڈ کردہ نتیجہ",
+    "outputLabelDecode": "Base64 ڈیکوڈ کردہ نتیجہ",
+    "whatIsBase64": "Base64 کیا ہے؟",
+    "base64Info": "Base64 ایک ایسا اینکوڈنگ طریقہ ہے جو بائنری ڈیٹا کو 64 قابل پرنٹ کرنے والے حروف کے ذریعے دکھاتا ہے۔ اس کا استعمال عام طور پر یوزر ڈیٹا، کوکیز، ویب پیج یا ٹیکسٹ بنیادی پروٹوکولز میں چھوٹے بائنری ڈیٹا کے منتقل کرنے کے لیے کیا جاتا ہے۔"
+  },
+  "dns": {
+    "title": "DNS ریکارڈ لاک اپ",
+    "description": "DNS ریکارڈز کی آن لائن تلاش (A, MX, CNAME، وغیرہ)",
+    "placeholder": "ایک ڈومین درج کریں، مثال کے طور پر example.com",
+    "invalidDomain": "براہ کرم ایک درست ڈومین فارمیٹ درج کریں (مثال کے طور پر example.com)",
+    "domainInput": "ڈومین ان پٹ",
+    "validFormat": "ڈومین فارمیٹ درست ہے",
+    "typeSelect": "DNS ریکارڈ کی قسم",
+    "searchBtn": "DNS ریکارڈز کی تلاش کریں",
+    "loadingTitle": "DNS ریکارڈز کی تلاش کر رہے ہیں",
+    "loadingDesc": "براہ کرم ہمارے ڈومین کے لیے DNS ریکارڈز کی تلاش کے لیے انتظار کریں...",
+    "resultRegion": "DNS لاک اپ کا نتیجہ",
+    "recordCount": "{{count}} ریکارڈز",
+    "typeRecordRegion": "{{type}} ریکارڈز",
+    "querying": "DNS ریکارڈز کی تلاش کر رہے ہیں",
+    "queryingDesc": "براہ کرم ہمارے ڈومین کے لیے DNS ریکارڈز کی تلاش کے لیے انتظار کریں...",
+    "foundRecords": "{{count}} ریکارڈز مل گئے",
+    "queryTime": "Query وقت: {{time}}",
+    "export": "نتائج کو اکسپورٹ کریں",
+    "noRecords": "کوئی DNS ریکارڈز نہیں ملے",
+    "noRecordsDesc": "اس ڈومین کے لیے کوئی DNS ریکارڈز نہیں ملے",
+    "typeInfo": "DNS ریکارڈز کی قسمیں",
+    "priority": "ترجیح: {{priority}}",
+    "types": {
+      "ALL": "تمام",
+      "A": "A ریکارڈ",
+      "AAAA": "AAAA ریکارڈ",
+      "MX": "MX ریکارڈ",
+      "TXT": "TXT ریکارڈ",
+      "CNAME": "CNAME ریکارڈ",
+      "NS": "NS ریکارڈ",
+      "SOA": "SOA ریکارڈ"
+    },
+    "typeDescs": {
+      "A": "IPv4 ایڈریس",
+      "AAAA": "IPv6 ایڈریس",
+      "MX": "ای میل سرور",
+      "TXT": "ٹیکسٹ ریکارڈ",
+      "CNAME": "الیاس ریکارڈ",
+      "NS": "نام سرور",
+      "SOA": "آؤٹھوریٹی کا شروع کرنے کا ریکارڈ"
+    },
+    "typeDetails": {
+      "A": "ایک ڈومین کو ایک آئی پی وی 4 ایڈریس پر نشاندہ کرتا ہے",
+      "AAAA": "ایک ڈومین کو ایک آئی پی وی 6 ایڈریس پر نشاندہ کرتا ہے",
+      "MX": "ای میل سرور کی ایڈریس کو ظاہر کرتا ہے، کم تر ترجیحی نمبر زیادہ تر ترجیح کی نشاندہی کرتے ہیں",
+      "TXT": "ٹیکسٹ معلومات کو ذخیرہ کرتا ہے، عام طور پر ایس پی ایف، ڈی کی ایم ویریفیکیشن کے لیے استعمال کیا جاتا ہے",
+      "CNAME": "ایک ڈومین کو دوسرے ڈومین (الیاس) پر نشاندہ کرتا ہے",
+      "NS": "ڈومین کے لیے ڈی ان ایس سرورز کو محدد کرتا ہے"
+    }
+  },
+  "whois": {
+    "title": "وہیس لوک اپ",
+    "description": "وہیس اور رجسٹریشن معلومات کی آن لائن تلاش کریں",
+    "placeholder": "ایک ڈومین درج کریں، جیسے example.com",
+    "invalidDomain": "براہ مہربانی ایک معروف ڈومین فارمیٹ درج کریں (مثال: example.com)",
+    "querying": "وہیس معلومات کی تلاش کر رہے ہیں",
+    "queryingDesc": "براہ مہربانی ہم چند منٹ کے لیے رجسٹریشن معلومات حاصل کر رہے ہیں...",
+    "domainInfo": "ڈومین معلومات",
+    "registrar": "رجسٹرار",
+    "creationDate": "بنانے کی تاریخ",
+    "expirationDate": "ختم ہونے کی تاریخ",
+    "updatedDate": "تحت الاطلاع کی تاریخ",
+    "dnssec": "DNSSEC",
+    "dnssecDisabled": "بند",
+    "expired": " {{days}} دنوں قبل ختم ہو گیا",
+    "expiringSoon": " {{days}} دنوں میں ختم ہو جائے گا",
+    "remaining": "{{days}} دن باقی ہیں",
+    "dnsServer": "نام سرورز",
+    "domainStatus": "ڈومین کی حالت",
+    "registrantInfo": "رجسٹریشن معلومات",
+    "name": "نام",
+    "organization": " organisation",
+    "country": "ملک",
+    "email": "ای میل",
+    "noInfo": "کوئی متعلقہ معلومات نہیں ملی",
+    "domain": "ڈومین",
+    "rawData": "رو کیڈا",
+    "toggleRawData": "رو کیڈا کو بڑھانا یا چھوٹا کرنا",
+    "copyRawData": "رو کیڈا کا کاپی کریں",
+    "copy": "کاپی کریں",
+    "copied": "کاپی کر دی گئی",
+    "whatIsWhois": "وہیس کیا ہے؟",
+    "about": "وہیس ایک پروٹوکول ہے جس کا استعمال ڈومین رجسٹریشن ڈیٹا کو چیک کرنے کے لیے کیا جاتا ہے۔ ایک وہیس لوک اپ کے ذریعے آپ رجسٹرار، رجسٹریشن تاریخ، ختم ہونے کی تاریخ، ڈی ان ایس سرورز، رجسٹریشن معلومات اور اس سے بھی زیادہ جان سکتے ہیں۔ یہ ڈومین ٹریڈنگ، برانڈ حفاظت اور سیکیورٹی کی تحقیقات کے لیے مفید ہے۔"
+  },
+  "httpStatus": {
+    "title": "HTTP سٹیٹس چیکر",
+    "description": "HTTP سٹیٹس کوڈ اور ریسپانس معلومات کی آن لائن چیک کریں",
+    "placeholder": "ایک URL درج کریں، جیسے https://example.com",
+    "check": "چیک کریں",
+    "followRedirects": "آutomatically ریڈائریکٹ کریں",
+    "urlEmpty": "براہ مہربانی ایک URL درج کریں",
+    "checkFailed": "چیک ناکام ہو گئی",
+    "serverError": "سرور کنکشن ناکام، براہ مہربانی بعد میں دوبارہ کوشش کریں",
+    "unknownStatus": "معلوم نہیں ہوا حالت",
+    "responseTime": "ریسپانس وقت",
+    "headers": "ہیڈرز",
+    "redirectUrl": "ریڈائریکٹ URL",
+    "contentType": "کنٹینٹ ٹائپ",
+    "contentLength": "کنٹینٹ لمبائی",
+    "server": "سرور",
+    "showHeaders": "ریسپانس ہیڈرز دکھائیں",
+    "hideHeaders": "ریسپانس ہیڈرز چھپائیں",
+    "status": {
+      "100": "جاری رکھیں",
+      "101": "پروٹوکولز تبدیل کر رہے ہیں",
+      "200": "OK",
+      "201": "بنایا گیا",
+      "204": "کوئی محتوا نہیں",
+      "301": "Permanent Redirect",
+      "302": "Temporary Redirect",
+      "304": "Modified نہیں",
+      "307": "Temporary Redirect",
+      "308": "Permanent Redirect",
+      "400": "Bad Request",
+      "401": "Unauthorized",
+      "403": "Forbidden",
+      "404": "Not Found",
+      "405": "Method Not Allowed",
+      "408": "Request Timeout",
+      "429": "Too Many Requests",
+      "500": "Internal Server Error",
+      "502": "Bad Gateway",
+      "503": "Service Unavailable",
+      "504": "Gateway Timeout"
+    }
+  },
+  "browserInfo": {
+    "title": "بروزر معلومات",
+    "description": " موجودہ بروزر کی تفصیل معلومات دیکھیں",
+    "os": "آپریٹنگ سسٹم",
+    "browser": "بروزر",
+    "version": "ورژن",
+    "engine": "موٹر",
+    "device": "ڈیوائس",
+    "screen": "سکرین ریزولیوشن",
+    "viewport": "Viewport کا سائز",
+    "language": "زبان",
+    "timezone": "زون",
+    "cookieEnabled": "کوکیز کو چالو کریں",
+    "online": "آن لائن",
+    "cpu": "CPU Architecture",
+    "userAgent": "User-Agent",
+    "platform": "پلیٹ فارم",
+    "vendor": "بروزر کا گراؤنڈ",
+    "languages": "مدد گار زبانیں",
+    "cookie": "کوکی",
+    "onlineStatus": "آن لائن حالت",
+    "doNotTrack": "نہ ٹریک کریں",
+    "touchPoints": "ٹچ پوائنٹس",
+    "enabled": "فعال",
+    "disabled": "غیر فعال",
+    "offline": "آف لائن",
+    "hardwareInfo": "ہارڈ ویئر معلومات",
+    "cpuCores": "CPU کورز",
+    "cpuCoresValue": "{{count}} کورز",
+    "deviceMemory": "ڈیوائس میموری",
+    "screenInfo": "سکرین معلومات",
+    "availArea": "Available علاقہ",
+    "windowSize": "Window کا سائز",
+    "pixelRatio": "ڈیوائس پکسل تناسب",
+    "colorDepth": "کلر گہرائی",
+    "screenOrientation": "سکرین گردش",
+    "unknown": "معلوم نہیں",
+    "basicInfo": "بنیادی معلومات",
+    "networkInfo": "نیٹ ورک معلومات",
+    "networkType": "نیٹ ورک ٹائپ",
+    "downlink": "Downlink",
+    "rtt": "RTT",
+    "saveData": "ڈیٹا سیور",
+    "batteryInfo": "باتری معلومات",
+    "batteryLevel": "باتری کا سطح",
+    "chargingStatus": "چارجنگ حالت",
+    "charging": "چارجنگ",
+    "notCharging": "چارجنگ نہیں",
+    "timezoneInfo": "زون معلومات",
+    "utcOffset": "UTC offset"
+  },
+  "viewSource": {
+    "title": "صفحہ سورس دیکھیں",
+    "description": "ویب پیج سورس کوڈ کی آن لائن دیکھیں",
+    "placeholder": "ایک URL درج کریں، جیسے https://example.com",
+    "fetch": "سورس حاصل کریں",
+    "urlEmpty": "براہ مہربانی ایک URL درج کریں",
+    "fetchFailed": "سورس حاصل کرنا ناکام ہو گیا",
+    "serverError": "سرور کنکشن ناکام",
+    "lineCount": "خطوط: {{count}}",
+    "copy": "سورس کا کاپی کریں",
+    "clear": "صاف کریں",
+    "usage1": "پوری ویب پیج URL درج کریں اور سورس حاصل کرنے کے لیے کلک کریں",
+    "usage2": "کسی بھی عوامی ویب پیج کے ایچ ٹی ایم ایل سورس کو دیکھنے کی حمایت کرتا ہے",
+    "usage3": "آپ تحلیل کے لیے سورس کوڈ کا کاپی یا ڈاؤن لوڈ کر سکتے ہیں",
+    "usage4": "کچھ ویب سائٹس سیکیورٹی پالیسیوں کی وجہ سے سورس حصول کو روک سکتی ہیں"
+  },
+  "urlEncode": {
+    "title": "URL اینکوڈر/ڈیکوڈر",
+    "description": "آن لائن URL اینکوڈنگ اور ڈیکوڈنگ ٹول",
+    "encode": "اینکوڈ کریں",
+    "decode": "ڈیکوڈ کریں",
+    "placeholder": "تبدیل کرنا چاہتے ہیں محتوا درج کریں...",
+    "result": "نتیجہ",
+    "error": "انکوڈنگ/ڈیکوڈنگ کامیاب نہیں ہوا"
+  },
+  "htmlEntity": {
+    "title": "HTML اینٹیٹی اینکوڈر/ڈیکوڈر",
+    "description": "آن لائن HTML اینٹیٹی اینکوڈر اور ڈیکوڈر ٹول",
+    "encode": "اینکوڈ کریں",
+    "decode": "ڈیکوڈ کریں",
+    "placeholder": "آپ کا محتوا درج کریں...",
+    "result": "نتیجہ"
+  },
+  "jsMinify": {
+    "title": "JS کمپریشن اور فارمیٹنگ",
+    "description": "آن لائن جاوا سکریپٹ کوڈ کمپریشن اور بیوٹیفائر ٹول",
+    "minify": "کمپریس کریں",
+    "beautify": "بیوٹیفائی کریں",
+    "placeholder": "جاوا سکریپٹ کوڈ چسکیں...",
+    "result": "عمل کا نتیجہ",
+    "error": "کوڈ کی معالجہ ناکام ہو گئی"
+  },
+  "cssMinify": {
+    "title": "CSS کمپریشن اور فارمیٹنگ",
+    "description": "آن لائن CSS کوڈ کمپریشن اور بیوٹیفائر ٹول",
+    "minify": "کمپریس کریں",
+    "beautify": "بیوٹیفائی کریں",
+    "placeholder": "CSS کوڈ چسکیں...",
+    "result": "عمل کا نتیجہ",
+    "error": "کوڈ کی معالجہ ناکام ہو گئی"
+  },
+  "pages": {
+    "sslCheck": {
+      "title": "SSL سرٹیفکیٹ چیک",
+      "description": "کسی ڈومین کے لیے SSL سرٹیفکیٹ کی تفصیل اور قابلیت کی جانچ کریں",
+      "enterDomain": "براہ کرم ایک ڈومین درج کریں",
+      "checkFailed": "چیک ناکام ہو گئی",
+      "serverConnectionFailed": "سرور سے کنکشن بنانا ناکام ہو گیا، کچھ دیر بعد دوبارہ کوشش کریں",
+      "inputPlaceholder": "ایک ڈومین درج کریں، مثال کے طور پر: example.com",
+      "check": "چیک کریں",
+      "statusExpired": "ختم ہو چکا",
+      "statusExpiringSoon": "جاری رہنے والے",
+      "statusValid": "واضح",
+      "statusProblem": "سرٹیفکیٹ مسئلہ",
+      "expiredDays": " {{count}} دنوں قبل ختم ہو گیا",
+      "remainingDays": "{{count}} دن باقی ہیں",
+      "warning": "تحفظ: {{message}}",
+      "protocol": "پروٹوکول",
+      "validityPeriod": "اعتباریت کی مدت",
+      "validFrom": "سے اعتباریت",
+      "validTo": "تک اعتباریت",
+      "certificateInfo": "سرٹیفکیٹ کی تفصیل",
+      "subject": "موضوع",
+      "issuer": "جاری کرنے والا",
+      "commonName": "عام نام (CN)",
+      "organization": " organisation (O)",
+      "organizationUnit": "organisation ونٹ (OU)",
+      "country": "ملک (C)",
+      "subjectAltNames": "Subject Alternative Names (SAN) - {{count}} انٹریز",
+      "technicalDetails": "تکنیکی تفصیل",
+      "serialNumber": "سلسلہ نمبر",
+      "fingerprintSha1": "فِنگر پرنٹ (SHA-1)",
+      "fingerprintSha256": "فِنگر پرنٹ (SHA-256)",
+      "cipherSuite": "سیفر سیٹ",
+      "infoTitle": "SSL سرٹیفکیٹ کی ٹپس",
+      "infoItems": [
+        "SSL سرٹیفکیٹ سرور کی شناخت کی تصدیق کرتے ہیں اور کمیونیکیشن کو اینکرپٹ کرتے ہیں",
+        "آپ کو اکثر اس کی میعاد کی جانچ کرنا چاہیے تاکہ آپ کو ہر گزرتے وقت کی مشکلات سے بچایا جا سکے",
+        "میعاد کے قریب ہونے والے سرٹیفکیٹ زیادہ سے زیادہ دیر تک تجدید کریں",
+        "SAN (Subject Alternative Name) سرٹیفکیٹ کے ذریعے کوری ڈومین کی فہرست ہوتی ہے"
+      ]
+    },
+    "gzipCheck": {
+      "title": "ویب سائٹ Gzip کمپریشن چیک",
+      "description": "کیا ایک ویب سائٹ Gzip / Deflate / Brotli کمپریشن کی حمایت کرتی ہے، اس کی جانچ کریں",
+      "enterUrl": "براہ کرم ایک URL درج کریں",
+      "checkFailed": "چیک ناکام ہو گئی",
+      "serverConnectionFailed": "سرور سے کنکشن بنانا ناکام ہو گیا، کچھ دیر بعد دوبارہ کوشش کریں",
+      "inputPlaceholder": "ایک URL درج کریں، مثال کے طور پر: https://example.com",
+      "check": "چیک کریں",
+      "enabled": "فعال",
+      "disabled": "فعال نہیں",
+      "compressionType": "کمپریشن کی قسم: {{type}}",
+      "enableSuggestion": "Gzip کمپریشن کو فعال کریں تاکہ ٹرانس فر کی سائز کم کی جا سکے اور لاڈنگ کی سpped بہتر ہو سکے",
+      "supportTitle": "کمپریشن کی حمایت",
+      "gzipDescription": " عام طور پر استعمال ہونے والی معیاری کمپریشن",
+      "deflateDescription": " پرانی HTTP کمپریشن الگورتھم",
+      "brotliDescription": " ایک نیا کمپریشن طریقہ جو بہتر تناسب کے ساتھ ہے",
+      "effectTitle": "کمپریشن کا اثر",
+      "originalSize": "اصل سائز",
+      "compressedSize": "کمپریسڈ سائز",
+      "ratio": "کمپریشن تناسب",
+      "savedTransfer": " {{value}} کی ٹرانس فر سائز میں بچت ہوئی",
+      "detailsTitle": "تفصیل",
+      "whyTitle": "Gzip کمپریشن کیوں فعال کریں؟",
+      "whyItems": [
+        "اس کے ذریعے ٹیکسٹ ریسورس کی سائز 60% سے 80% تک کم ہو سکتی ہے",
+        "چھوٹی ٹرانس فر لودنگ کی سپیڈ بہتر ہو جاتی ہے",
+        "اس سے بینڈ ویڈتھ کی استعمال کم ہو جاتی ہے",
+        "بہتر کارکردگی SEO اور صارف کے تجربے کو بھی بہتر بن سکتی ہے"
+      ]
+    },
+    "dnsLookupEnhanced": {
+      "title": "متعارف DNS ریکارڈ لوکاپ",
+      "description": "بڑے ریکارڈ سیٹس کے ساتھ آن لائن مختلف DNS ریکارڈ ٹائپس کی کھوج کریں",
+      "enterDomain": "براہ کرم ایک ڈومین درج کریں",
+      "lookupFailed": "لوکاپ ناکام ہو گئی",
+      "serverConnectionFailed": "سرور سے کنکشن بنانا ناکام ہو گیا، کچھ دیر بعد دوبارہ کوشش کریں",
+      "inputPlaceholder": "ایک ڈومین درج کریں، مثال کے طور پر: example.com",
+      "lookup": "لوکاپ کریں",
+      "priority": "Priorities: {{value}}",
+      "dnsTypes": [
+        {
+          "value": "ALL",
+          "label": "سب کچھ"
+        },
+        {
+          "value": "A",
+          "label": "A ریکارڈ",
+          "desc": "IPv4 ایڈریس"
+        },
+        {
+          "value": "AAAA",
+          "label": "AAAA ریکارڈ",
+          "desc": "IPv6 ایڈریس"
+        },
+        {
+          "value": "MX",
+          "label": "MX ریکارڈ",
+          "desc": "ای میل سرور"
+        },
+        {
+          "value": "TXT",
+          "label": "TXT ریکارڈ",
+          "desc": "ٹیکسٹ ڈیٹا"
+        },
+        {
+          "value": "CNAME",
+          "label": "CNAME ریکارڈ",
+          "desc": "الیاس ریکارڈ"
+        },
+        {
+          "value": "NS",
+          "label": "NS ریکارڈ",
+          "desc": "نام سرور"
+        },
+        {
+          "value": "SOA",
+          "label": "SOA ریکارڈ",
+          "desc": "آؤتھارٹی کا شروع"
+        }
+      ],
+      "foundRecords": " {{count}} ریکارڈ ملا",
+      "queryTime": "Query time: {{time}}",
+      "virtualScrollEnabled": "Virtual scrolling فعال ہے",
+      "recordCount": "{{count}} ریکارڈ",
+      "virtualScrollTag": "اوپٹمائزڈ رننگ",
+      "noRecords": "کوئی DNS ریکارڈ نہیں ملا",
+      "performanceTitle": "پرفارمنس اوپٹمائزیشن",
+      "performanceItems": [
+        "Virtualized rendering DNS Lookup کو  {{count}} ریکارڈ کے ساتھ فعال رکھتا ہے",
+        "صرف دیکھے گئے ہیڈرز کو رن کیا جاتا ہے تاکہ میموری کی استعمال کم ہو سکے",
+        "اس سے بڑے ریکارڈ سیٹس کے ساتھ DOM lag کو روکا جا سکتا ہے",
+        "بہت سارے ریکارڈ کے ساتھ بھی تجربہ فعال رہتا ہے"
+      ]
+    },
+    "metaCheck": {
+      "title": "META ٹیگ چیک",
+      "description": "کسی ویب پیج پر استعمال ہونے والے META ٹیگ کی جانچ کریں",
+      "enterUrl": "براہ کرم ایک ویب سائٹ URL درج کریں",
+      "checkFailed": "چیک ناکام ہو گئی",
+      "urlLabel": "ویب سائٹ URL",
+      "inputPlaceholder": "example.com یا https://example.com",
+      "check": "چیک کریں",
+      "resultTitle": "چیک کا نتیجہ",
+      "totalCount": " {{count}} META ٹیگ ملا",
+      "groups": {
+        "pageTitle": "صفحہ کا عنوان",
+        "httpEquiv": "HTTP-Equiv",
+        "charset": "Charset",
+        "basicMeta": "Basic META"
+      },
+      "emptyContent": "خالی",
+      "infoTitle": "معلومات",
+      "infoItems": [
+        "یہ ٹول ٹائٹل ٹیگ، میٹا نام ٹیگ، میٹا گریپ ٹیگ (مثل Open Graph)، اور میٹا HTTP-Equiv ٹیگ کی جانچ کرتا ہے",
+        "یہ صفحہ کے SEO سے متعلق ڈیٹا کی تیزی سے جانچ کی مدد کرتا ہے",
+        "یہ غائب یا دوہرے ٹیگ مسائل کی شناخت کی مدد کرتا ہے"
+      ]
+    },
+    "urlEncode": {
+      "title": "URL اینکوڈ/ڈیکوڈ",
+      "description": "آن لائن URL اسٹرنگز کو اینکوڈ یا ڈیکوڈ کریں",
+      "toolName": "URL اینکوڈ/ڈیکوڈ",
+      "toolCategory": "انکوڈنگ ٹولز",
+      "convertFailed": "Conversion ناکام ہو گئی، کیا آپ اپنی داخلی کی جانچ کریں؟",
+      "copyFailed": "نتائج کا کاپی کرنا ناکام ہو گیا",
+      "modeSelector": "Mode منتخب کریں",
+      "typeSelector": "قیمت کوڈنگ",
+      "encode": "کوڈ کریں",
+      "decode": "ڈیکوڈ کریں",
+      "componentTitle": "URL عنصر",
+      "componentDescription": "URL کے صرف ایک حصہ کو کوڈ کریں",
+      "fullTitle": "پورا URL",
+      "fullDescription": "پورا URL کو کوڈ کریں",
+      "inputEncodeLabel": "مکمل ٹیکسٹ",
+      "inputDecodeLabel": "کوڈ شدہ URL",
+      "clearInput": "ان پٹ خالی کریں",
+      "encodePlaceholder": "URL میں کوڈ کرنے کے لئے ٹیکسٹ درج کریں...",
+      "decodePlaceholder": "ڈیکوڈ کرنے کے لئے کوڈ شدہ URL درج کریں...",
+      "outputEncodeLabel": "کوڈ شدہ نتیجہ",
+      "outputDecodeLabel": "ڈیکوڈ شدہ نتیجہ",
+      "copyResult": "نتیجہ کاپی کریں",
+      "resultPlaceholder": "یہاں تبدیلی کا نتیجہ ظہور ہوگا...",
+      "copied": "کلپ بورڈ میں کاپی کیا گیا",
+      "swap": "بدلیں",
+      "swapInputOutput": "ان پٹ اور آؤٹ پٹ کو بدلا جائے",
+      "infoTitle": "کوڈنگ موڈز",
+      "componentModeTitle": "عنصر موڈ",
+      "componentModeDescription": "ایک سے زیادہ URL حصوں جیسے کہ کوئیری پیارامیٹرز یا راستہ سیگمنٹ کے لئے بہترین۔",
+      "componentExample": "مثال: hello world → hello%20world",
+      "fullModeTitle": "پورا URL موڈ",
+      "fullModeDescription": "جب آپ کسی مکمل URL کو کوڈ کرنے کی ضرورت ہو تو استعمال کریں، اس کی کل ساخت قابل فہم رہے۔",
+      "fullExample": "مثال: https://example.com/路径 → https://example.com/%E8%B7%AF%E5%BE%84"
+    },
+    "htmlEntity": {
+      "title": "HTML ایونٹ کوڈ / ڈیکوڈ",
+      "description": "آن لائن HTML ایونٹ کوڈ / ڈیکوڈ کریں",
+      "toolName": "HTML ایونٹ کوڈ / ڈیکوڈ",
+      "toolCategory": "کوڈنگ ٹولز",
+      "convertFailed": "تبدیلی ناکام، کیلئے اپنے ان پٹ کی جانچ کریں",
+      "copyFailed": "نتائج کاپی کرنے میں ناکام",
+      "modeSelector": "موڈ منتخب کریں",
+      "switchToEncode": "کوڈنگ موڈ میں تبدیل ہو جائیں (Alt+1)",
+      "switchToDecode": "ڈیکوڈنگ موڈ میں تبدیل ہو جائیں (Alt+2)",
+      "encode": "کوڈ کریں",
+      "decode": "ڈیکوڈ کریں",
+      "encodeAll": "سب کی کوڈنگ",
+      "inputEncodeLabel": "مکمل ٹیکسٹ",
+      "inputDecodeLabel": "HTML ایونٹس",
+      "clearInput": "ان پٹ خالی کریں (Ctrl+L)",
+      "encodePlaceholder": "HTML ایونٹس میں تبدیل کرنے کے لئے ٹیکسٹ درج کریں...",
+      "decodePlaceholder": "ڈیکوڈ کرنے کے لئے HTML ایونٹس درج کریں...",
+      "inputDescriptionEncode": "آپ کو HTML ایونٹس میں کوڈ کرنے کے لئے مکمل ٹیکسٹ داخل کریں",
+      "inputDescriptionDecode": "آپ کو ڈیکوڈ کرنے کے لئے HTML ایونٹس داخل کریں",
+      "outputEncodeLabel": "کوڈ شدہ نتیجہ",
+      "outputDecodeLabel": "ڈیکوڈ شدہ نتیجہ",
+      "copyResult": "نتیجہ کاپی کریں (Ctrl+C)",
+      "resultPlaceholder": "تبدیلی کا نتیجہ یہاں ظہور ہوگا...",
+      "outputDescriptionEncode": "جنریٹڈ HTML ایونٹ آؤٹ پٹ",
+      "outputDescriptionDecode": "ڈیکوڈ شدہ مکمل ٹیکسٹ آؤٹ پٹ",
+      "copied": "کلپ بورڈ میں کاپی کیا گیا",
+      "executeEncode": "کوڈ کریں (Ctrl+Enter)",
+      "executeDecode": "ڈیکوڈ کریں (Ctrl+Enter)",
+      "swap": "بدلیں",
+      "swapMode": "ان پٹ اور آؤٹ پٹ کو بدلا جائے (Ctrl+S)",
+      "commonEntities": " عام HTML ایونٹس",
+      "space": "(spaces)"
+    },
+    "jsMinify": {
+      "title": "JS Minify & Beautify",
+      "description": "آن لائن JavaScript کوڈ کو Minify یا Beautify کریں",
+      "toolName": "JavaScript Minify / Beautify",
+      "toolNameHistory": "JS Minify & Beautify",
+      "toolCategory": "ڈیولپر ٹولز",
+      "processFailed": "عمل ناکام",
+      "copyFailed": "نتائج کو کلپ بورڈ میں کاپی کرنے میں ناکام",
+      "switchToMinify": "Minify موڈ میں تبدیل ہو جائیں",
+      "switchToMinifyTitle": "Minify موڈ میں تبدیل ہو جائیں (Alt+1)",
+      "switchToBeautify": "Beautify موڈ میں تبدیل ہو جائیں",
+      "switchToBeautifyTitle": "Beautify موڈ میں تبدیل ہو جائیں (Alt+2)",
+      "minify": "Minify",
+      "beautify": "Beautify",
+      "input": "ان پٹ",
+      "output": "آؤٹ پٹ",
+      "inputPlaceholder": "JavaScript کوڈ یہاں داخل کریں...",
+      "inputAria": "JavaScript ان پٹ ایڈیٹر",
+      "inputTitle": "Ctrl+Enter دبائیں چلانے کے لئے، Ctrl+L دبائیں خالی کرنے کے لئے",
+      "copyOutput": "آؤٹ پٹ کاپی کریں",
+      "copyOutputTitle": "آؤٹ پٹ کاپی کریں (Ctrl+C)",
+      "resultPlaceholder": "عمل شدہ نتیجہ یہاں ظہور ہوگا...",
+      "outputAria": "JavaScript آؤٹ پٹ نتیجہ",
+      "executeMinify": "JavaScript Minify",
+      "executeMinifyTitle": "JavaScript Minify (Ctrl+Enter)",
+      "executeBeautify": "JavaScript Beautify",
+      "executeBeautifyTitle": "JavaScript Beautify (Ctrl+Enter)",
+      "minifyCode": "کوڈ Minify کریں",
+      "beautifyCode": "کوڈ Beautify کریں",
+      "swap": "بدلیں",
+      "swapTitle": "ان پٹ اور آؤٹ پٹ کو بدلا جائے (Ctrl+S)",
+      "clear": "خالی کریں",
+      "clearTitle": "محتوا خالی کریں (Ctrl+L)",
+      "copied": "کلپ بورڈ میں کاپی کیا گیا",
+      "infoTitle": "خصائص",
+      "infoItems": [
+        "JavaScript فائل کے حجم کو کم کرنے کے لئے غیر ضروری جگہ اور لائن بریکس کو دور کرتا ہے",
+        "Beautify موڈ کمپریسڈ کوڈ کو پڑھنا اور تعمیر کرنا آسان بناتا ہے",
+        "Minification کی کوالٹی جاوا سکریپٹ پارسر اور Minifier کے عمل پر منحصر ہوتی ہے"
+      ]
+    },
+    "cssMinify": {
+      "title": "CSS Minify & Beautify",
+      "description": "آن لائن CSS کوڈ کو Minify یا Beautify کریں",
+      "toolName": "CSS Minify & Beautify",
+      "toolCategory": "ڈیولپر ٹولز",
+      "processFailed": "عمل ناکام",
+      "copyFailed": "نتائج کو کلپ بورڈ میں کاپی کرنے میں ناکام",
+      "switchToMinify": "Minify موڈ میں تبدیل ہو جائیں",
+      "switchToMinifyTitle": "Minify موڈ میں تبدیل ہو جائیں (Alt+1)",
+      "switchToBeautify": "Beautify موڈ میں تبدیل ہو جائیں",
+      "switchToBeautifyTitle": "Beautify موڈ میں تبدیل ہو جائیں (Alt+2)",
+      "minify": "Minify",
+      "beautify": "Beautify",
+      "input": "ان پٹ",
+      "output": "آؤٹ پٹ",
+      "inputPlaceholder": "CSS کوڈ یہاں داخل کریں...\n\nمثال:\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 20px;\n}",
+      "inputAria": "CSS ان پٹ ایڈیٹر",
+      "inputTitle": "Ctrl+Enter دبائیں چلانے کے لئے، Ctrl+L دبائیں خالی کرنے کے لئے",
+      "copyOutput": "آؤٹ پٹ کاپی کریں",
+      "copyOutputTitle": "آؤٹ پٹ کاپی کریں (Ctrl+C)",
+      "resultPlaceholder": "عمل شدہ نتیجہ یہاں ظہور ہوگا...",
+      "outputAria": "CSS آؤٹ پٹ نتیجہ",
+      "executeMinify": "CSS Minify",
+      "executeMinifyTitle": "CSS Minify (Ctrl+Enter)",
+      "executeBeautify": "CSS Beautify",
+      "executeBeautifyTitle": "CSS Beautify (Ctrl+Enter)",
+      "minifyCode": "کوڈ Minify کریں",
+      "beautifyCode": "کوڈ Beautify کریں",
+      "swap": "بدلیں",
+      "swapTitle": "ان پٹ اور آؤٹ پٹ کو بدلا جائے (Ctrl+S)",
+      "clear": "خالی کریں",
+      "clearTitle": "محتوا خالی کریں (Ctrl+L)",
+      "copied": "کلپ بورڈ میں کاپی کیا گیا",
+      "infoTitle": "خصائص",
+      "infoItems": [
+        "فائل کے حجم کو کم کرنے کے لئے غیر ضروری جگہ اور لائن بریکس کو دور کرتا ہے",
+        "Beautify موڈ کمپریسڈ کوڈ کو پڑھنا اور ترمیم کرنا آسان بناتا ہے",
+        "چھوٹے CSS فائلیں HTTP ٹرانس فر سائز کو کم کر کے لوڈنگ کی کارکردگی میں بہتری کر سکتی ہیں"
+      ]
+    },
+    "httpCodes": {
+      "title": "HTTP اسٹیٹس کوڈز",
+      "description": "HTTP اسٹیٹس / ریسپانس کوڈز کا ریفرنس",
+      "searchPlaceholder": "اسٹیٹس کوڈز یا وضاحتیں تلاش کریں...",
+      "noMatch": "کوئی مطابقت والے اسٹیٹس کوڈز نہیں ملے",
+      "infoTitle": "HTTP اسٹیٹس کوڈ کی بنیادیات",
+      "infoItems": [
+        "1xx - ایک اشارہ ہے کہ درخواست پہنچ گئی ہے اور اس کی معالجہ کی جا رہی ہے",
+        "2xx - کامیابی کی اطلاع ہے کہ درخواست پہنچ گئی ہے، سمجھ میں آ گئی ہے اور قبول کر لی گئی ہے",
+        "3xx - ریڈائریکشن کی اطلاع ہے جس کے لئے درخواست مکمل کرنے کے لئے اور کارروائی کی ضرورت ہے",
+        "4xx - کلائنٹ کی غلطی کی اطلاع ہے جس کے معنی ہیں کہ درخواست کی سینٹیکس غلط ہے یا پوری نہیں کی جا سکتی",
+        "5xx - سرور کی غلطی کی اطلاع ہے جس کے معنی ہیں کہ سرور نے ایک درست درخواست کو پورا نہیں کیا"
+      ],
+      "categories": [
+        {
+          "id": "all",
+          "name": "تمام",
+          "color": "bg-gray-100 text-gray-700"
+        },
+        {
+          "id": "1xx",
+          "name": "1xx اطلاعاتی",
+          "color": "bg-blue-100 text-blue-700"
+        },
+        {
+          "id": "2xx",
+          "name": "2xx کامیابی",
+          "color": "bg-green-100 text-green-700"
+        },
+        {
+          "id": "3xx",
+          "name": "3xx ریڈائریکشن",
+          "color": "bg-yellow-100 text-yellow-700"
+        },
+        {
+          "id": "4xx",
+          "name": "4xx کلائنٹ ایرر",
+          "color": "bg-orange-100 text-orange-700"
+        },
+        {
+          "id": "5xx",
+          "name": "5xx سرور ایرر",
+          "color": "bg-red-100 text-red-700"
+        }
+      ],
+      "codes": [
+        {
+          "code": 100,
+          "name": "جاری رکھیں",
+          "desc": "درخواست کا پہلا حصہ دریافت کر لیا گیا ہے اور کلائنٹ کو باقی ماندہ چیزوں کو بھیجنا چاہیے۔",
+          "category": "1xx"
+        },
+        {
+          "code": 101,
+          "name": "پروٹوکولز تبدیل کریں",
+          "desc": "سرور کلائنٹ کی درخواست کے مطابق پروٹوکولز تبدیل کرنے پر راضی ہے۔",
+          "category": "1xx"
+        },
+        {
+          "code": 102,
+          "name": "عمل درآمد کیا جا رہا ہے",
+          "desc": "سرور نے درخواست حاصل کر لی ہے اور اس کی معالجہ کر رہا ہے، لیکن ابھی تک کوئی جواب موجود نہیں ہے۔",
+          "category": "1xx"
+        },
+        {
+          "code": 200,
+          "name": "OK",
+          "desc": "درخواست کامیاب رہی، عام طور پر GET یا POST درخواستوں کے لیے۔",
+          "category": "2xx"
+        },
+        {
+          "code": 201,
+          "name": "بنایا گیا",
+          "desc": "درخواست کامیاب رہی اور ایک نیا ذریعہ بنایا گیا۔",
+          "category": "2xx"
+        },
+        {
+          "code": 202,
+          "name": "قبول کیا گیا",
+          "desc": "درخواست کو معالجہ کے لیے قبول کر لیا گیا ہے، لیکن ابھی تک مکمل نہیں ہوئی ہے۔",
+          "category": "2xx"
+        },
+        {
+          "code": 203,
+          "name": "غیر آثراں اطلاعات",
+          "desc": "جواب کی منڈیٹا ایک مقامی یا تیسرے فریق کی کاپی سے آتی ہے، اصل سرور سے نہیں۔",
+          "category": "2xx"
+        },
+        {
+          "code": 204,
+          "name": "کوئی محتوی نہیں",
+          "desc": "درخواست کامیاب رہی، لیکن جواب میں کوئی ٹیکسٹ نہیں ہے۔",
+          "category": "2xx"
+        },
+        {
+          "code": 205,
+          "name": "محتوی کو دوبارہ سیٹ کریں",
+          "desc": "درخواست کامیاب رہی اور کلائنٹ کو موجودہ دستاویز کے ویو کو دوبارہ سیٹ کرنا چاہیے۔",
+          "category": "2xx"
+        },
+        {
+          "code": 206,
+          "name": "جزئی محتوی",
+          "desc": "سرور صرف ایک ہی ریسورس کا ہی حصہ واپس کر رہا ہے کیونکہ ایک رینج درخواست کی گئی ہے۔",
+          "category": "2xx"
+        },
+        {
+          "code": 300,
+          "name": "کئی اختیارات",
+          "desc": "درخواست شدہ ذریعہ کلائنٹ کے لیے منتخب کرنے کے لیے مختلف ممکن تعارف ہیں۔",
+          "category": "3xx"
+        },
+        {
+          "code": 301,
+          "name": "دائمی طور پر منتقل کردیا گیا",
+          "desc": "درخواست شدہ ذریعہ ایک نئی URI پر دائمی طور پر منتقل کر دیا گیا ہے۔",
+          "category": "3xx"
+        },
+        {
+          "code": 302,
+          "name": "موجود ہے",
+          "desc": "درخواست شدہ ذریعہ ایک مختلف URI پر ایک وقت کے لیے موجود ہے۔",
+          "category": "3xx"
+        },
+        {
+          "code": 303,
+          "name": "دругے URI کو دیکھیں",
+          "desc": "درخواست کے جواب کو کسی اور URI کے تحت GET استعمال کر کے دیکھا جا سکتا ہے۔",
+          "category": "3xx"
+        },
+        {
+          "code": 304,
+          "name": "ترقی نہیں کی گئی",
+          "desc": "کیش کردہ ذریعہ میں تبدیلی نہیں ہوئی ہے، لہٰذا کلائنٹ اپنی مقامی کاپی کا استعمال کر سکتا ہے۔",
+          "category": "3xx"
+        },
+        {
+          "code": 307,
+          "name": "اوقاتی ریڈائریکشن",
+          "desc": "ذریعہ اوقاتی طور پر ریڈائریکشن کر دیا گیا ہے اور اصل درخواست کی منیت برقرار رکھی جانی چاہیے۔",
+          "category": "3xx"
+        },
+        {
+          "code": 308,
+          "name": "دائمی ریڈائریکشن",
+          "desc": "ذریعہ دائمی طور پر منتقل ہو گیا ہے اور اصل درخواست کی منیت برقرار رکھی جانی چاہیے۔",
+          "category": "3xx"
+        },
+        {
+          "code": 400,
+          "name": "غلط درخواست",
+          "desc": "سرور درخواست کو معالجہ نہیں کر سکتا کیونکہ غلط سنتیکس ہے۔",
+          "category": "4xx"
+        },
+        {
+          "code": 401,
+          "name": "غیر مجاز",
+          "desc": "درخواست مکمل ہونے سے پہلے ایوتھنٹیکیشن ضروری ہے۔",
+          "category": "4xx"
+        },
+        {
+          "code": 402,
+          "name": "افزودنی ادائیگی",
+          "desc": "مستقبل کے استعمال کے لیے ریزرو کیا گیا ہے، عام طور پر ڈیجیٹل ادائیگی سسٹمز سے منسلک ہوتا ہے۔",
+          "category": "4xx"
+        },
+        {
+          "code": 403,
+          "name": "ممنوع",
+          "desc": "سرور درخواست کو سمجھ گیا ہے لیکن اسے اجازت نہیں دیتا ہے۔",
+          "category": "4xx"
+        },
+        {
+          "code": 404,
+          "name": "موجود نہیں",
+          "desc": "سرور درخواست شدہ ذریعہ کو نہیں پا سکتا ہے۔",
+          "category": "4xx"
+        },
+        {
+          "code": 405,
+          "name": "درخواست کی منیت ممنوع ہے",
+          "desc": "درخواست کی منیت ہدف ذریعہ کے لیے اجازت نہیں ہے۔",
+          "category": "4xx"
+        },
+        {
+          "code": 406,
+          "name": "مقبول نہیں",
+          "desc": "سرور کلائنٹ کے قابل فارمیٹ میں جواب پیش نہیں کر سکتا ہے۔",
+          "category": "4xx"
+        },
+        {
+          "code": 407,
+          "name": "پراکسی ایوتھنٹیکیشن ضروری ہے",
+          "desc": "جاری رکھنے سے پہلے کلائنٹ کو پراکسی سے ایوتھنٹیکیشن کرنا چاہیے۔",
+          "category": "4xx"
+        },
+        {
+          "code": 408,
+          "name": "درخواست وقت گزرنے کے بعد ختم ہو گئی",
+          "desc": "سرور درخواست کے انتظار میں وقت گزرنے کے بعد ٹائم آؤٹ ہو گیا۔",
+          "category": "4xx"
+        },
+        {
+          "code": 409,
+          "name": "کنفلکٹ",
+          "desc": "درخواست ہدف ذریعہ کی موجودہ حالت کے ساتھ تصادم کر رہی ہے۔",
+          "category": "4xx"
+        },
+        {
+          "code": 410,
+          "name": "گویا",
+          "desc": "ذریعہ اب دستیاب نہیں ہے اور کوئی فارورڈنگ ایڈریس جانے والی نہیں ہے۔",
+          "category": "4xx"
+        },
+        {
+          "code": 411,
+          "name": "لینگتھ ضروری ہے",
+          "desc": "سرور ایک قابل عمل Content-Length ہیڈر کی ضرورت ہے۔",
+          "category": "4xx"
+        },
+        {
+          "code": 412,
+          "name": "شرط ناکام ہو گئی",
+          "desc": "درخواست ہیڈرز میں ایک یا زیادہ شرائط غلط ہو گئیں۔",
+          "category": "4xx"
+        },
+        {
+          "code": 413,
+          "name": "پیلیوڈ بہت بڑا ہے",
+          "desc": "درخواست کے بodied کا حجم سرور کے قابل معالجہ سے زیادہ ہے۔",
+          "category": "4xx"
+        },
+        {
+          "code": 414,
+          "name": "URI بہت لمبا ہے",
+          "desc": "درخواست شدہ URI سرور کے قابل معالجہ سے زیادہ لمبا ہے۔",
+          "category": "4xx"
+        },
+        {
+          "code": 415,
+          "name": "میڈیا ٹائپ ناقابل قبول ہے",
+          "desc": "سرور درخواست میں استعمال ہونے والے میڈیا ٹائپ کی سہولت نہیں ہے۔",
+          "category": "4xx"
+        },
+        {
+          "code": 418,
+          "name": "میں چائے کا کاٹر ہوں",
+          "desc": "ایک مزاحیہ اسٹیٹس کوڈ جو سرور کو کافی کے لیے انکار کرتا ہے کیونکہ وہ چائے کا کاٹر ہے۔",
+          "category": "4xx"
+        },
+        {
+          "code": 422,
+          "name": "غیر قابل معالجہ ایٹم",
+          "desc": "سرور درخواست کی فارمیٹ سمجھتا ہے لیکن شامل ہدایات کو معالجہ نہیں کر سکتا ہے۔",
+          "category": "4xx"
+        },
+        {
+          "code": 429,
+          "name": "زیادہ سے زیادہ درخواستیں",
+          "desc": "کلائنٹ نے ایک دیے گئے وقت میں زیادہ سے زیادہ درخواستیں بھیجی ہیں۔",
+          "category": "4xx"
+        },
+        {
+          "code": 451,
+          "name": "قانونی وجوہات کے باعث доступ نہیں",
+          "desc": "ذریعہ قانونی پابندیوں کے باعث دستیاب نہیں ہے۔",
+          "category": "4xx"
+        },
+        {
+          "code": 500,
+          "name": "انٹرنل سرور ایرر",
+          "desc": "درخواست کے معالجہ کے دوران سرور کو انتہائی غیر متوقع خطا کا سامنا کرنا پڑا۔",
+          "category": "5xx"
+        },
+        {
+          "code": 501,
+          "name": "متعارف نہیں",
+          "desc": "سرور درخواست کی ضرورت ہونے والی کارکردگی کی سہولت نہیں ہے۔",
+          "category": "5xx"
+        },
+        {
+          "code": 502,
+          "name": "بری گیٹ وے",
+          "desc": "ایک گیٹ وے یا پراکسی سرور نے اوپر کے سرور سے غلط جواب حاصل کیا۔",
+          "category": "5xx"
+        },
+        {
+          "code": 503,
+          "name": "خدمت دستیاب نہیں",
+          "desc": "سرور درخواست کو ایک وقت کے لیے معالجہ نہیں کر سکتا، عام طور پر بوجھ یا مaintenance کے باعث۔",
+          "category": "5xx"
+        },
+        {
+          "code": 504,
+          "name": "گیٹ وے ٹائم آؤٹ",
+          "desc": "ایک گیٹ وے یا پراکسی سرور نے اوپر کے سرور سے مناسب وقت میں جواب نہیں ملا۔",
+          "category": "5xx"
+        },
+        {
+          "code": 505,
+          "name": "HTTP ورژن متعارف نہیں",
+          "desc": "سرور درخواست میں استعمال ہونے والے HTTP پروٹوکول ورژن کی سہولت نہیں ہے۔",
+          "category": "5xx"
+        }
+      ]
+    },
+    "phpReference": {
+      "title": "PHP فنکشن ریفرنس",
+      "description": "عام PHP فنکشن کے لیے جلدی ریفرنس",
+      "searchPlaceholder": "فنکشن کے نام یا وضاحت تلاش کریں...",
+      "noMatch": "کوئی مطابقت رکھنے والے فنکشن نہیں ملے",
+      "infoTitle": "معلومات",
+      "infoDescription": "یہ صفحہ ترقی کے لیے عام طور پر استعمال ہونے والے PHP فنکشن کی فہرست کرتا ہے۔ اس کا مقصد ڈیولپرز کے لیے ایک مفید جائزہ ہے اور آفیشل PHP دستاویز کی جگہ نہیں ہے۔",
+      "categories": [
+        "سب کچھ",
+        "String",
+        "Array",
+        "File",
+        "Date/Time",
+        "JSON",
+        "ریاضی",
+        "دیگر"
+      ],
+      "functions": [
+        {
+          "name": "strlen",
+          "desc": "ایک سٹرنگ کی لمبائی حاصل کریں",
+          "syntax": "strlen(string $string): int",
+          "category": "سٹرنگ"
+        },
+        {
+          "name": "substr",
+          "desc": "ایک سٹرنگ کا ایک حصہ واپس کریں",
+          "syntax": "substr(string $string, int $offset, ?int $length = null): string",
+          "category": "سٹرنگ"
+        },
+        {
+          "name": "strpos",
+          "desc": "Substring کے پہلی وقوع کی پوزیشن تلاش کریں",
+          "syntax": "strpos(string $haystack, string $needle, int $offset = 0): int|false",
+          "category": "سٹرنگ"
+        },
+        {
+          "name": "str_replace",
+          "desc": "تلاش کردہ سٹرنگ کے تمام واقعات کو بدل دیں",
+          "syntax": "str_replace(mixed $search, mixed $replace, mixed $subject): mixed",
+          "category": "سٹرنگ"
+        },
+        {
+          "name": "explode",
+          "desc": "ایک سٹرنگ کو ایک سیپریٹر کے ذریعے ایک آرای میں تقسیم کریں",
+          "syntax": "explode(string $separator, string $string, int $limit = PHP_INT_MAX): array",
+          "category": "سٹرنگ"
+        },
+        {
+          "name": "implode",
+          "desc": "آرای کے عنصر کو ایک سٹرنگ میں جوڑیں",
+          "syntax": "implode(string $separator, array $array): string",
+          "category": "سٹرنگ"
+        },
+        {
+          "name": "trim",
+          "desc": "ایک سٹرنگ کے دونوں طرف سے وہیل سپیس یا دیگر کیکٹرز ہٹا دیں",
+          "syntax": "trim(string $string, string $characters = \" \\n\\r\\t\\v\\x00\"): string",
+          "category": "سٹرنگ"
+        },
+        {
+          "name": "strtolower",
+          "desc": "ایک سٹرنگ کو لُوور کیس میں تبدیل کریں",
+          "syntax": "strtolower(string $string): string",
+          "category": "سٹرنگ"
+        },
+        {
+          "name": "strtoupper",
+          "desc": "ایک سٹرنگ کو ہائیر کیس میں تبدیل کریں",
+          "syntax": "strtoupper(string $string): string",
+          "category": "سٹرنگ"
+        },
+        {
+          "name": "sprintf",
+          "desc": "ایک فارمیٹڈ سٹرنگ واپس کریں",
+          "syntax": "sprintf(string $format, mixed ...$values): string",
+          "category": "سٹرنگ"
+        },
+        {
+          "name": "preg_match",
+          "desc": "ایک ریگولر اکسپریشن میچ کریں",
+          "syntax": "preg_match(string $pattern, string $subject, array &$matches = null): int|false",
+          "category": "سٹرنگ"
+        },
+        {
+          "name": "preg_replace",
+          "desc": "ایک ریگولر اکسپریشن کی تلاش اور تبدیلی کریں",
+          "syntax": "preg_replace(mixed $pattern, mixed $replacement, mixed $subject): mixed",
+          "category": "سٹرنگ"
+        },
+        {
+          "name": "count",
+          "desc": "ایک آرای یا Countable آبجیکٹ میں عناصر کی گنتی کریں",
+          "syntax": "count(Countable|array $value, int $mode = COUNT_NORMAL): int",
+          "category": "آرای"
+        },
+        {
+          "name": "array_push",
+          "desc": "ایک یا زیادہ عناصر ایک آرای کے آخر میں ڈالیں",
+          "syntax": "array_push(array &$array, mixed ...$values): int",
+          "category": "آرای"
+        },
+        {
+          "name": "array_pop",
+          "desc": "ایک آرای کے آخری عنصر کو نکالیں",
+          "syntax": "array_pop(array &$array): mixed",
+          "category": "آرای"
+        },
+        {
+          "name": "array_merge",
+          "desc": "ایک یا زیادہ آرائیں ملائیں",
+          "syntax": "array_merge(array ...$arrays): array",
+          "category": "آرای"
+        },
+        {
+          "name": "array_keys",
+          "desc": "ایک آرای کے تمام کیز واپس کریں",
+          "syntax": "array_keys(array $array, mixed $filter_value, bool $strict = false): array",
+          "category": "آرای"
+        },
+        {
+          "name": "array_values",
+          "desc": "ایک آرای کے تمام قیمتیں واپس کریں",
+          "syntax": "array_values(array $array): array",
+          "category": "آرای"
+        },
+        {
+          "name": "in_array",
+          "desc": "ایک آرای میں کسی قیمت موجود ہے یا نہیں چیک کریں",
+          "syntax": "in_array(mixed $needle, array $haystack, bool $strict = false): bool",
+          "category": "آرای"
+        },
+        {
+          "name": "array_search",
+          "desc": "ایک آرای میں ایک قیمت تلاش کریں اور اس کی کی  واپس کریں",
+          "syntax": "array_search(mixed $needle, array $haystack, bool $strict = false): int|string|false",
+          "category": "آرای"
+        },
+        {
+          "name": "array_map",
+          "desc": "ایک آرای کے عناصر پر ایک کال بیک لاگو کریں",
+          "syntax": "array_map(?callable $callback, array $array, array ...$arrays): array",
+          "category": "آرای"
+        },
+        {
+          "name": "array_filter",
+          "desc": "ایک کال بیک کے ذریعے ایک آرای کے عناصر فلٹر کریں",
+          "syntax": "array_filter(array $array, ?callable $callback = null, int $mode = 0): array",
+          "category": "آرای"
+        },
+        {
+          "name": "sort",
+          "desc": "ایک آرای کو ایک آرڈر میں ترتیب دیں",
+          "syntax": "sort(array &$array, int $flags = SORT_REGULAR): bool",
+          "category": "آرای"
+        },
+        {
+          "name": "usort",
+          "desc": "ایک آرای کو ایک صارف کے مطابق مقارن کرنے والے فنکشن کے ساتھ ترتیب دیں",
+          "syntax": "usort(array &$array, callable $callback): bool",
+          "category": "آرای"
+        },
+        {
+          "name": "file_get_contents",
+          "desc": "ایک فائل کو ایک سٹرنگ میں پڑھیں",
+          "syntax": "file_get_contents(string $filename, ...): string|false",
+          "category": "فائل"
+        },
+        {
+          "name": "file_put_contents",
+          "desc": "ڈیٹا ایک فائل میں لکھیں",
+          "syntax": "file_put_contents(string $filename, mixed $data, int $flags = 0): int|false",
+          "category": "فائل"
+        },
+        {
+          "name": "fopen",
+          "desc": "ایک فائل یا URL کھولیں",
+          "syntax": "fopen(string $filename, string $mode, ...): resource|false",
+          "category": "فائل"
+        },
+        {
+          "name": "fclose",
+          "desc": "ایک کھلی فائل پوائنٹر بند کریں",
+          "syntax": "fclose(resource $stream): bool",
+          "category": "فائل"
+        },
+        {
+          "name": "fread",
+          "desc": "ایک فائل پوائنٹر سے پڑھیں",
+          "syntax": "fread(resource $stream, int $length): string|false",
+          "category": "فائل"
+        },
+        {
+          "name": "fwrite",
+          "desc": "ایک فائل پوائنٹر میں لکھیں",
+          "syntax": "fwrite(resource $stream, string $data, ?int $length = null): int|false",
+          "category": "فائل"
+        },
+        {
+          "name": "file_exists",
+          "desc": "کیا ایک فائل یا ڈائریکٹری موجود ہے چیک کریں",
+          "syntax": "file_exists(string $filename): bool",
+          "category": "فائل"
+        },
+        {
+          "name": "is_file",
+          "desc": "کیا مسیر ایک عام فائل ہے چیک کریں",
+          "syntax": "is_file(string $filename): bool",
+          "category": "فائل"
+        },
+        {
+          "name": "unlink",
+          "desc": "ایک فائل کو حذف کریں",
+          "syntax": "unlink(string $filename, ?resource $context = null): bool",
+          "category": "فائل"
+        },
+        {
+          "name": "mkdir",
+          "desc": "ایک ڈائریکٹری بنائیں",
+          "syntax": "mkdir(string $directory, int $permissions = 0777, bool $recursive = false): bool",
+          "category": "فائل"
+        },
+        {
+          "name": "date",
+          "desc": " locales کی تاریخ اور وقت کو فارمیٹ کریں",
+          "syntax": "date(string $format, ?int $timestamp = null): string",
+          "category": "تاریخ/وقت"
+        },
+        {
+          "name": "time",
+          "desc": " موجودہ یونکس ٹائم اسٹیمپ حاصل کریں",
+          "syntax": "time(): int",
+          "category": "تاریخ/وقت"
+        },
+        {
+          "name": "strtotime",
+          "desc": "ایک غیر معمولی تاریخ اور وقت کو یونکس ٹائم اسٹیمپ میں تبدیل کریں",
+          "syntax": "strtotime(string $datetime, ?int $baseTimestamp = null): int|false",
+          "category": "تاریخ/وقت"
+        },
+        {
+          "name": "مکتائم",
+          "desc": "ایک تاریخ کے لئے ایک یونکس ٹائم‌اسٹیمپ حاصل کریں",
+          "syntax": "مکتائم(انٹ $گھنٹہ, ?انٹ $منٹ = نل, ...): انٹ|غلط",
+          "category": "تاریخ/وقت"
+        },
+        {
+          "name": "ڈیٹا_بنائیں",
+          "desc": "ایک ڈیٹاٹائم آبجیکٹ بنائیں",
+          "syntax": "ڈیٹا_بنائیں(سٹرنگ $ڈیٹاٹائم = \"نو\", ?ڈیٹاٹائمzone $زون = نل): ڈیٹاٹائم|غلط",
+          "category": "تاریخ/وقت"
+        },
+        {
+          "name": "جیسون_اینکوڈ",
+          "desc": "ایک قیمت کو جیسون سٹرنگ میں بدلیں",
+          "syntax": "جیسون_اینکوڈ(مکسڈ $قیمت, انٹ $فلگز = 0, انٹ $گہرائی = 512): سٹرنگ|غلط",
+          "category": "جیسون"
+        },
+        {
+          "name": "جیسون_ڈیکوڈ",
+          "desc": "جیسون سٹرنگ کو ایک PHP قیمت میں ڈیکوڈ کریں",
+          "syntax": "جیسون_ڈیکوڈ(سٹرنگ $جیسون, ?بولیان $assoctive = نل, انٹ $گہرائی = 512): مکسڈ",
+          "category": "جیسون"
+        },
+        {
+          "name": "اے بی ایس",
+          "desc": "اپنی قیمت کا مطلق قدر حاصل کریں",
+          "syntax": "اے بی ایس(انٹ|فلاٹ $نمبر): انٹ|فلاٹ",
+          "category": "ریاضی"
+        },
+        {
+          "name": "سیل",
+          "desc": "کسر کو اوپر کی طرف گول کریں",
+          "syntax": "سیل(انٹ|فلاٹ $نمبر): فلیٹ",
+          "category": "ریاضی"
+        },
+        {
+          "name": "فلور",
+          "desc": "کسر کو نیچے کی طرف گول کریں",
+          "syntax": "فلور(انٹ|فلاٹ $نمبر): فلیٹ",
+          "category": "ریاضی"
+        },
+        {
+          "name": "روند",
+          "desc": "ایک عدد کو گول کریں",
+          "syntax": "روند(انٹ|فلاٹ $نمبر, انٹ $پریشنس = 0, انٹ $مود = PHP_ROUND_HALF_UP): فلیٹ",
+          "category": "ریاضی"
+        },
+        {
+          "name": "ماکس",
+          "desc": "سب سے بڑی قیمت تلاش کریں",
+          "syntax": "ماکس(مکسڈ $قیمت, مکسڈ ...$قیمت): مکسڈ",
+          "category": "ریاضی"
+        },
+        {
+          "name": "مین",
+          "desc": "سب سے چھوٹی قیمت تلاش کریں",
+          "syntax": "مین(مکسڈ $قیمت, مکسڈ ...$قیمت): مکسڈ",
+          "category": "ریاضی"
+        },
+        {
+          "name": "رانڈ",
+          "desc": "ایک تصادفی عدد پیدا کریں",
+          "syntax": "رانڈ(انٹ $مین, انٹ $ماکس): انٹ",
+          "category": "ریاضی"
+        },
+        {
+          "name": "isset",
+          "desc": "چیک کریں کہ کیا ایک متغیر مقرر ہے اور نل نہیں ہے",
+          "syntax": "isset(مکسڈ $چیز, مکسڈ ...$چیز): بولیان",
+          "category": "دیگر"
+        },
+        {
+          "name": "empty",
+          "desc": "چیک کریں کہ کیا ایک متغیر خالی ہے",
+          "syntax": "empty(مکسڈ $چیز): بولیان",
+          "category": "دیگر"
+        },
+        {
+          "name": "var_dump",
+          "desc": "ایک متغیر کے بارے میں ڈمپ معلومات",
+          "syntax": "var_dump(مکسڈ $قیمت, مکسڈ ...$قیمت): void",
+          "category": "دیگر"
+        },
+        {
+          "name": "print_r",
+          "desc": "ایک متغیر کے بارے میں انسان دوست معلومات پرنٹ کریں",
+          "syntax": "print_r(مکسڈ $قیمت, بولیان $رجوع = false): سٹرنگ|بولیان",
+          "category": "دیگر"
+        },
+        {
+          "name": "گیٹٹائپ",
+          "desc": "ایک متغیر کی قسم حاصل کریں",
+          "syntax": "گیٹٹائپ(مکسڈ $قیمت): سٹرنگ",
+          "category": "دیگر"
+        },
+        {
+          "name": "آررے",
+          "desc": "چیک کریں کہ کیا ایک متغیر ایک آررے ہے",
+          "syntax": "آررے(مکسڈ $قیمت): بولیان",
+          "category": "دیگر"
+        },
+        {
+          "name": "سٹرنگ",
+          "desc": "چیک کریں کہ کیا ایک متغیر ایک سٹرنگ ہے",
+          "syntax": "سٹرنگ(مکسڈ $قیمت): بولیان",
+          "category": "دیگر"
+        },
+        {
+          "name": "نیمرک",
+          "desc": "چیک کریں کہ کیا ایک متغیر ایک عدد یا عددی سٹرنگ ہے",
+          "syntax": "نیمرک(مکسڈ $قیمت): بولیان",
+          "category": "دیگر"
+        }
+      ]
+    },
+    "cssBorderRadius": {
+      "title": "CSS بارڈر ریڈیس جنریٹر",
+      "description": "بارڈر-ریڈیس قیمتیں دیکھ کر تبدیل کریں اور CSS کوڈ تیار کریں",
+      "presetsLabel": "پری سیٹ",
+      "preview": "پری ویو",
+      "settings": "Settings",
+      "linked": "ملکی کورنرز",
+      "unlinked": "معزول کورنرز",
+      "corners": {
+        "topLeft": "اوپری بائیں",
+        "topRight": "اوپری دائیں",
+        "bottomLeft": "نیچے بائیں",
+        "bottomRight": "نیچے دائیں"
+      },
+      "elementColor": "عناصر کا رنگ",
+      "codeTitle": "CSS کوڈ",
+      "copy": "نکالیں",
+      "copied": "نکالا گیا",
+      "presets": [
+        {
+          "name": "کوئی نہیں",
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "چھوٹا",
+          "values": [
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "میڈیم",
+          "values": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "بڑا",
+          "values": [
+            16,
+            16,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "دوائرہ",
+          "values": [
+            50,
+            50,
+            50,
+            50
+          ]
+        },
+        {
+          "name": "پل",
+          "values": [
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "بائیں جانب",
+          "values": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        {
+          "name": "دایں جانب",
+          "values": [
+            0,
+            16,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "صرف اوپر",
+          "values": [
+            16,
+            16,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "صرف نیچے",
+          "values": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "ڈائیگنل",
+          "values": [
+            16,
+            0,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "láfe",
+          "values": [
+            0,
+            50,
+            0,
+            50
+          ]
+        }
+      ]
+    },
+    "cssNeumorphism": {
+      "title": "نیومورفزم سی ایس ایس جنریٹر",
+      "description": "آن لائن نیومورفزم اسٹائل کے سی ایس ایس کوڈ جنریٹ کریں",
+      "previewText": "پری ویو بٹن",
+      "shapeTitle": "شکل کا اسلوب",
+      "shapeOptions": [
+        {
+          "value": "فلیٹ",
+          "label": "فلیٹ"
+        },
+        {
+          "value": "کنکیوو",
+          "label": "کنکیوو"
+        },
+        {
+          "value": "کنواکس",
+          "label": "کنواکس"
+        },
+        {
+          "value": "پریسڈ",
+          "label": "پریسڈ"
+        }
+      ],
+      "colorTitle": "رنگ کی ترتیب",
+      "presetColors": "پری سیٹ رنگ",
+      "colorPresets": [
+        {
+          "color": "#e0e5ec",
+          "name": "کلاسک"
+        },
+        {
+          "color": "#f0f0f3",
+          "name": "سفید"
+        },
+        {
+          "color": "#d1d9e6",
+          "name": "نیلے"
+        },
+        {
+          "color": "#e8dfd5",
+          "name": "بیج"
+        },
+        {
+          "color": "#dfe6e9",
+          "name": "سیاہ"
+        },
+        {
+          "color": "#ffeaa7",
+          "name": "پیلے"
+        },
+        {
+          "color": "#dfe4ea",
+          "name": "سلاٹ"
+        },
+        {
+          "color": "#f8e1e7",
+          "name": "گلابی"
+        },
+        {
+          "color": "#d5f5e3",
+          "name": "مٗنٹ"
+        },
+        {
+          "color": "#e8daef",
+          "name": "برونز"
+        }
+      ],
+      "backgroundColor": "بنیادی رنگ",
+      "lightColor": "ہلکا رنگ (ہائیلائٹ)",
+      "darkColor": "ظلمت رنگ (اچ)",
+      "sliderTitle": "شادو کی ترتیب",
+      "size": "سائز",
+      "radius": "ریڈیس",
+      "distance": "شادو کی دوری",
+      "blur": "شادو برش",
+      "intensity": "Intensity",
+      "codeTitle": "CSS کوڈ",
+      "copy": "نکالیں",
+      "copied": "نکالا گیا",
+      "infoTitle": "نیومورفزم کیا ہے؟",
+      "infoDescription": "نیومورفزم ایک نرم UI اسلائیڈ ہے جو عناصر کو دھندلا ہوئے ہائیلائٹس اور شیڈوز کے ساتھ پیچھے والے بیک گراؤنڈ میں اٹھا یا دبے ہوئے لگتا ہے۔ اس کو کم-کنٹراسٹ پیلٹس اور صاف، کم سے کم لے آؤٹس کے ساتھ سب سے زیادہ کامیاب بنایا جاتا ہے۔"
+    },
+    "cssTextShadow": {
+      "title": "CSS ٹیکسٹ شیڈو گینریٹر",
+      "description": "ٹیکسٹ شیڈو قیمتوں کو ویزوالی ڈیٹ اور CSS کوڈ جنریٹ کریں",
+      "defaultText": "شیڈو ٹیکسٹ کا مثال",
+      "presetsLabel": "پری سیٹ اثرات",
+      "textSettings": "ٹیکسٹ سیٹنگز",
+      "previewText": "پریویو ٹیکسٹ",
+      "fontSize": "فونٹ سائز",
+      "textColor": "ٹیکسٹ کا رنگ",
+      "shadowPrefix": "شیڈو {{index}}",
+      "offsetX": "ایکس آف سیٹ",
+      "offsetY": "واٸ  آف سیٹ",
+      "blur": "بلر",
+      "opacity": "آپیسٹی",
+      "color": "رنگ",
+      "addShadow": "شیڈو شامل کریں",
+      "codeTitle": "CSS کوڈ",
+      "copy": "نکالیں",
+      "copied": "نکال لیا گیا",
+      "presets": [
+        {
+          "name": "نرم شیڈو",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 2,
+              "y": 2,
+              "blur": 4,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        },
+        {
+          "name": "نیون گلو",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#00ff00",
+              "opacity": 0.8
+            }
+          ]
+        },
+        {
+          "name": "سرپریم گلو",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 0,
+              "y": 0,
+              "blur": 5,
+              "color": "#ff00ff",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 0,
+              "y": 0,
+              "blur": 10,
+              "color": "#ff00ff",
+              "opacity": 0.8
+            },
+            {
+              "id": 3,
+              "x": 0,
+              "y": 0,
+              "blur": 20,
+              "color": "#ff00ff",
+              "opacity": 0.6
+            }
+          ]
+        },
+        {
+          "name": "لیئرڈ 3D",
+          "shadows": [
+            {
+              "id": 1,
+              "x": 1,
+              "y": 1,
+              "blur": 0,
+              "color": "#666666",
+              "opacity": 1
+            },
+            {
+              "id": 2,
+              "x": 2,
+              "y": 2,
+              "blur": 0,
+              "color": "#888888",
+              "opacity": 1
+            },
+            {
+              "id": 3,
+              "x": 3,
+              "y": 3,
+              "blur": 0,
+              "color": "#aaaaaa",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "name": "ایمبوسڈ",
+          "shadows": [
+            {
+              "id": 1,
+              "x": -1,
+              "y": -1,
+              "blur": 1,
+              "color": "#ffffff",
+              "opacity": 0.8
+            },
+            {
+              "id": 2,
+              "x": 1,
+              "y": 1,
+              "blur": 1,
+              "color": "#000000",
+              "opacity": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "websocketTest": {
+      "title": "آن لائن ویب سوکٹ ٹیسٹ ٹول",
+      "description": "آن لائن ویب سوکٹ کنکشن اور میسیج کی ٹیسٹنگ",
+      "defaultUrl": "wss://echo.websocket.org",
+      "connectingTo": " {{url}} سے جڑ رہے ہیں ...",
+      "connectSuccess": "کامیابی سے منسلک ہو گئے",
+      "connectError": "کنکشن میں خطا",
+      "connectionClosed": "کنکشن بند ہو گئی (کوڈ: {{code}})",
+      "connectFailed": "کنکشن کامیاب نہیں ہوئی: {{message}}",
+      "disconnecting": "منقطع ہو رہے ہیں ...",
+      "urlPlaceholder": "ایک ویب سوکٹ URL درج کریں، مثال کے طور پر: wss://echo.websocket.org",
+      "disconnect": "منقطع کریں",
+      "connecting": "جڑ رہے ہیں ...",
+      "connect": "جڑیں",
+      "connected": "منسلک",
+      "notConnected": "منسلک نہیں",
+      "messageLog": "میسیج لॉग",
+      "clear": "صاف کریں",
+      "noMessages": "ابھی تک کوئی میسیج نہیں",
+      "messagePlaceholder": "ایک میسیج درج کریں ... (اینٹر کے لیے دبائیں، شفٹ+اینٹر کے لیے نیا لائن شامل کریں)",
+      "infoTitle": "ویب سوکٹ کی ٹپس",
+      "infoItems": [
+        "داخلی ایکو سروس بنیادی بھیجیں/پڑھنے کے ٹیسٹ کے لیے مفید ہے",
+        "ws:// اور wss:// ادرس کی حمایت کرتا ہے",
+        "اینٹر کے لیے دبائیں بھیجیں، شفٹ+اینٹر کے لیے نیا لائن شامل کریں",
+        "یقین کریں کہ آپ کی ہدف سروس براウزر سے ویب سوکٹ کنکشن کی اجازت دیتی ہے"
+      ],
+      "examplesTitle": " عام مثالیں",
+      "publicEcho": "Pubic Echo Service",
+      "defaultTag": "Default"
+    },
+    "csrGenerator": {
+      "title": "CSR گینریٹر اور ویوئر",
+      "description": "آن لائن CSR فائلز بنائیں اور CSR کے مواد کو پارس کریں",
+      "enterDomain": "براہ مہربانی ایک ڈومین درج کریں",
+      "generateFailed": "CSR گینریٹ کرنے میں ناکام رہے",
+      "parseFailed": "CSR کو پارس کرنے میں ناکام رہے",
+      "serverConnectionFailed": "سرور سے کنکشن ناکام، براہ مہربانی بعد میں دوبارہ کوشش کریں",
+      "tabs": {
+        "generate": "CSR گینریٹ کریں",
+        "view": "CSR دیکھیں"
+      },
+      "formTitle": "سیرویٹی کی معلومات",
+      "labels": {
+        "commonName": "ڈومین (Common Name)",
+        "organization": " organisation",
+        "organizationUnit": "Department",
+        "city": "City",
+        "state": "State / Province",
+        "country": "Country / Region",
+        "email": "Email",
+        "keySize": "Key size"
+      },
+      "placeholders": {
+        "commonName": "مثال کے طور پر: www.example.com یا *.example.com",
+        "organization": "مثال کے طور پر: Example Inc.",
+        "organizationUnit": "مثال کے طور پر: IT Department",
+        "city": "مثال کے طور پر: Beijing",
+        "state": "مثال کے طور پر: Beijing",
+        "email": "مثال کے طور پر: admin@example.com",
+        "csr": "CSR کے محتویات یہاں چسپاں کریں، جو -----BEGIN CERTIFICATE REQUEST----- سے شروع ہوتا ہے"
+      },
+      "countries": [
+        {
+          "value": "CN",
+          "label": "CN - چین"
+        },
+        {
+          "value": "US",
+          "label": "US - امریکہ"
+        },
+        {
+          "value": "JP",
+          "label": "JP - جاپان"
+        },
+        {
+          "value": "KR",
+          "label": "KR - دکن کوریا"
+        },
+        {
+          "value": "GB",
+          "label": "GB - برطانیہ"
+        },
+        {
+          "value": "DE",
+          "label": "DE - جرمنی"
+        },
+        {
+          "value": "FR",
+          "label": "FR - فرانس"
+        },
+        {
+          "value": "SG",
+          "label": "SG - سنگاپور"
+        },
+        {
+          "value": "HK",
+          "label": "HK - ہانگ کانگ"
+        },
+        {
+          "value": "TW",
+          "label": "TW - تائیوان"
+        }
+      ],
+      "keySizes": [
+        {
+          "value": "2048",
+          "label": "2048 بٹ (تجویز کردہ)"
+        },
+        {
+          "value": "4096",
+          "label": "4096 بٹ (مزید محفوظ)"
+        }
+      ],
+      "generating": "گینریٹ کر رہے ہیں ...",
+      "generateAction": "CSR اور نجی کی جنریٹ کریں",
+      "csrRequest": "CSR درخواست",
+      "privateKey": "نجی کی (اسے محفوظ رکھیں)",
+      "copy": "نکالیں",
+      "copied": "نکال لیا گیا",
+      "download": "ڈاؤن لوڈ کریں",
+      "privateKeyWarning": "نجی کی بہت حساس ہے۔ اسے محفوظ رکھیں اور کبھی بھی اسے pubically شیئر نہ کریں۔ اگر اسے لیک کر دیا جاتا ہے تو آپ کی سیرویٹی کی سیکیورٹی متاثر ہو سکتی ہے۔",
+      "inputCsr": "CSR کے محتویات چسپاں کریں",
+      "parsing": "پارسن کر رہے ہیں ...",
+      "parseAction": "CSR پارس کریں",
+      "csrInfo": "CSR معلومات",
+      "infoItems": [
+        {
+          "label": "ڈومین (CN)",
+          "key": "commonName"
+        },
+        {
+          "label": "organisation (O)",
+          "key": "organization"
+        },
+        {
+          "label": "Department (OU)",
+          "key": "organizationUnit"
+        },
+        {
+          "label": "City (L)",
+          "key": "city"
+        },
+        {
+          "label": "State / Province (ST)",
+          "key": "state"
+        },
+        {
+          "label": "Country (C)",
+          "key": "country"
+        },
+        {
+          "label": "ای میل",
+          "key": "email"
+        },
+        {
+          "label": "Key algorithm",
+          "key": "keyAlgorithm"
+        },
+        {
+          "label": "Key size",
+          "key": "keySize"
+        },
+        {
+          "label": "Signature algorithm",
+          "key": "signatureAlgorithm"
+        }
+      ],
+      "keySizeValue": "{{value}} بٹ",
+      "aboutTitle": "CSR کیا ہے؟",
+      "aboutDescription": "CSR (Certificate Signing Request) ایک ایسا اینکوڈڈ فائل ہے جو SSL/TLS سیرویٹی کے لیے درخواست دے رہے وقت ایک سیرویٹی اتھارٹی (CA) کو بھیجا جاتا ہے۔ اس میں آپ کے ڈومین اور تنظیم کے بارے میں معلومات، اور آپ کی نجی کی کے ساتھ مطابقت رکھنے والے پبلک کی شامل ہوتی ہے۔ تصدیق کے بعد، CA CSR کا استعمال SSL سیرویٹی جاری کرنے کے لیے کرتا ہے۔"
+    },
+    "metaGenerator": {
+      "title": "Meta Tag گینریٹر",
+      "description": "SEO-friendly ویب پیج Meta Tags گینریٹ کریں",
+      "basicInfo": "بنیادی معلومات",
+      "socialMedia": "سوسیل میڈیا (Open Graph)",
+      "generatedCode": "جنریٹڈ کوڈ",
+      "copy": "نکالیں",
+      "copied": "کاپی کر دیا گیا",
+      "searchPreview": "سرچ پریویزو",
+      "searchPreviewTitleFallback": "صفحہ کا عنوان",
+      "searchPreviewDescriptionFallback": "آپ کی صفحہ کی توضیح یہاں ظاہر ہو جائے گی...",
+      "socialPreview": "سوسال پریویزو",
+      "socialPreviewTitleFallback": "عنوان",
+      "socialPreviewDescriptionFallback": "توضیح",
+      "labels": {
+        "title": "صفحہ کا عنوان",
+        "description": "صفحہ کی توضیح",
+        "keywords": "کلیدی الفاظ",
+        "author": "انشاء کار",
+        "robots": "روبوت کی ہدایت",
+        "ogTitle": "او جی عنوان",
+        "ogDescription": "او جی توضیح",
+        "ogImage": "او جی تصویر کا URL",
+        "ogUrl": "صفحہ کا URL",
+        "twitterCard": "ٹوئٹر کارڈ کی قسم"
+      },
+      "placeholders": {
+        "title": "صفحہ کا عنوان درج کریں",
+        "description": "اکثر 150 حروف تک توضیح درج کریں",
+        "keywords": "کلیدی الفاظ1، کلیدی الفاظ2، کلیدی الفاظ3",
+        "author": "انشاء کار کا نام درج کریں",
+        "ogTitle": "سوسال شیئرنگ کا عنوان درج کریں",
+        "ogDescription": "سوسال شیئرنگ کی توضیح درج کریں",
+        "ogImage": "https://example.com/image.jpg",
+        "ogUrl": "https://example.com/page"
+      },
+      "robotsOptions": [
+        {
+          "value": "انڈیکس، فولو",
+          "label": "انڈیکس اور فولو کی اجازت دیں"
+        },
+        {
+          "value": "انڈیکس، نو فولو",
+          "label": "انڈیکس کی اجازت دیں، فولو کی اجازت نہ دیں"
+        },
+        {
+          "value": "نون انڈیکس، فولو",
+          "label": "انڈیکس کی اجازت نہ دیں، فولو کی اجازت دیں"
+        },
+        {
+          "value": "نون انڈیکس، نو فولو",
+          "label": "انڈیکس اور فولو کی اجازت نہ دیں"
+        }
+      ],
+      "twitterOptions": [
+        {
+          "value": "سمری",
+          "label": "سمری"
+        },
+        {
+          "value": "سمری لارج ایمیج",
+          "label": "بڑی تصویر"
+        },
+        {
+          "value": "پلے ر",
+          "label": "پلے ر"
+        }
+      ]
+    },
+    "toolHistoryDemo": {
+      "confirmClear": "کیا آپ واقعی تمام ٹول تاریخ اور فavourites کو خالی کرنا چاہتے ہیں؟",
+      "exportTitle": "Export data",
+      "usageCount": "استعمال کیا گیا {{count}} بار",
+      "lastUsed": "آخری استعمال: {{time}}",
+      "favorite": "فavourites: {{value}}",
+      "yes": "ہاں",
+      "no": "نہیں",
+      "exportFailed": "Export کامیاب نہیں ہوا",
+      "tabs": {
+        "overview": "اسکوپ",
+        "history": "تاریخ",
+        "favorites": "فavourites",
+        "analytics": "Analytics"
+      },
+      "loading": "ٹول تاریخ کے ڈیٹا میں لاڈ کر رہا ہے...",
+      "loadFailed": "لاڈ کامیاب نہیں ہوا: {{error}}",
+      "title": "ٹول تاریخ ڈیمو",
+      "description": "ٹول استعمال کی تاریخ، فavourites اور Analytics کا نمونہ",
+      "export": "Export",
+      "clear": "صاف کریں",
+      "searchPlaceholder": "ٹولز کے لیے تلاش کریں...",
+      "stats": {
+        "totalTools": "کل ٹولز",
+        "totalUsage": "کل استعمال",
+        "favoriteTools": "فavourites ٹولز",
+        "averageUsage": "اوسط استعمال"
+      },
+      "favoriteToolsTitle": "فavourites ٹولز",
+      "favoriteToolsDescription": "آپ کے دوست ٹولز",
+      "noFavoriteTools": "ابھی تک کوئی فavourites ٹولز نہیں",
+      "mostUsed": "سب سے زیادہ استعمال ہونے والے ٹولز",
+      "timesUsed": "استعمال کیا گیا {{count}} بار",
+      "recentActivity": "تازہ سرگرمی",
+      "exportDialogTitle": "ٹول تاریخ کا ایکسپورٹ کریں",
+      "exportDialogDescription": "ایکسپورٹ فارمیٹ منتخب کریں",
+      "formats": {
+        "json": {
+          "title": "JSON فارمیٹ",
+          "description": "بیک اپ اور ڈیولپر کے لیے بہترین"
+        },
+        "csv": {
+          "title": "CSV فارمیٹ",
+          "description": "ایکسل جیسے ایکسل شیٹ کے لیے اچھا"
+        },
+        "txt": {
+          "title": "TXT فارمیٹ",
+          "description": "سادہ ٹیکسٹ کا خلاصہ"
+        }
+      },
+      "cancel": "منسوخ کریں"
+    },
+    "userAgentParser": {
+      "title": "User-Agent Parser",
+      "description": "User-Agent سٹرنگ کو تقسیم کریں تاکہ براؤزر، نظام اور ڈیوائس کی معلومات کا پتہ لگائیں",
+      "label": "User-Agent سٹرنگ",
+      "useCurrent": " موجودہ براؤزر کا استعمال کریں",
+      "inputPlaceholder": "User-Agent سٹرنگ درج کریں...",
+      "parse": "تقسیم کریں",
+      "unknownBrowser": "معلوم نہیں براوزر",
+      "unknown": "معلوم نہیں",
+      "deviceTypes": {
+        "mobile": "موبائل",
+        "tablet": "ٹیبلٹ",
+        "desktop": "ڈیسک ٹاپ"
+      },
+      "browserInfo": "براؤزر کی معلومات",
+      "browser": "براؤزر",
+      "version": "ورژن",
+      "majorVersion": "ماجور ورژن",
+      "operatingSystem": "آپریٹنگ سسٹم",
+      "system": "سسٹم",
+      "deviceInfo": "ڈیوائس کی معلومات",
+      "type": "قسم",
+      "vendor": "وینڈر",
+      "model": "موڈل",
+      "engineAndCpu": "اینجن & سی پی یو",
+      "engine": "اینجن",
+      "engineVersion": "اینجن ورژن",
+      "cpuArchitecture": "سی پی یو ارکیٹیکچر",
+      "examplesTitle": "مثال User-Agent سٹرنگز"
+    },
+    "cssBoxShadow": {
+      "title": "DIV Box Shadow گینریٹر",
+      "description": "باکس شیڈو قیمتیں دیکھ بھال کریں اور سی ایس ایس کوڈ بنائیں",
+      "preview": "پریویزو",
+      "basicSettings": "بنیادی سیٹنگز",
+      "backgroundColor": "پس منظر کا رنگ",
+      "boxColor": "بوکس کا رنگ",
+      "borderRadius": "بیلڈر ریڈیس",
+      "shadowPrefix": "شیڈو {{index}}",
+      "inset": "انسیٹ",
+      "offsetX": "ایکس آف سیٹ",
+      "offsetY": "ایکس آف سیٹ",
+      "blur": "بلاور",
+      "spread": "اسپریڈ",
+      "opacity": "آپیکیٹی",
+      "color": "رنگ",
+      "addShadow": "شیڈو شامل کریں",
+      "codeTitle": "سی ایس ایس کوڈ",
+      "copy": "کاپی کریں",
+      "copied": "کاپی کر دیا گیا"
+    },
+    "cssGlassmorphism": {
+      "title": "CSS Glassmorphism گینریٹر",
+      "description": "آن لائن گلاس مورفزم سٹائل سی ایس ایس کوڈ جنریٹ کریں",
+      "cardTitle": "گلاس مورفزم کارڈ",
+      "cardDescription": "گلاس مورفزم ایک جدید UI اسٹائل ہے جو ٹرانسپیرنسی، بلور اور نرم بار کے ذریعہ ایک فروسٹڈ گلاس اثر پیدا کرتا ہے۔",
+      "adjustTitle": "سیٹنگز تبدیل کریں",
+      "blur": "پس منظر بلور",
+      "transparency": "ٹرانسپیرنسی",
+      "saturation": "ساتریشن",
+      "borderRadius": "بیلڈر ریڈیس",
+      "borderOpacity": "بیلڈر آپیکیٹی",
+      "codeTitle": "سی ایس ایس کوڈ",
+      "copy": "کاپی کریں",
+      "copied": "کاپی کر دیا گیا",
+      "infoTitle": "مطابقت کے بارے میں نوٹس",
+      "infoDescription": "بیک ڈرپ فلٹر خاص طور پر جدید براوزر کی حمایت کی ضرورت ہوتی ہے۔ فائر فکس کو اضافی سیٹنگز کی ضرورت ہو سکتی ہے، اور سیفری کو -webkit- پریفکس کی ضرورت ہو سکتی ہے۔ غیر متعلق براوزرز کے لیے گریس فل ہیکس کے بارے میں سوچیں۔"
+    },
+    "desktopShortcut": {
+      "title": "ویب سائٹ ڈیسک ٹاپ شارٹکٹ",
+      "description": "ڈیسک ٹاپ پر ویب سائٹ کے شارٹکٹ بنائیں اور انہیں تیزی سے چلانے کے لیے استعمال کریں",
+      "enterUrl": "براہ کرم ایک درست ویب سائٹ URL درج کریں",
+      "enterName": "براہ کرم ایک شارٹکٹ نام درج کریں",
+      "redirectingTo": "{{name}} کھول رہا ہے...",
+      "urlLabel": "ویب سائٹ URL",
+      "urlPlaceholder": "example.com یا https://example.com",
+      "nameLabel": "شارٹکٹ نام",
+      "namePlaceholder": "ویب سائٹ شارٹکٹ",
+      "downloadUrlFile": " .url فائل ڈاؤن لوڈ کریں",
+      "downloadHtmlFile": " .html فائل ڈاؤن لوڈ کریں",
+      "infoTitle": "ہدایات",
+      "urlFileDesc": ".url فائلیں ونڈوز انٹرنیٹ شارٹکٹ فائلیں ہیں اور عام طور پر آپ کے ڈیفالٹ براوزر میں ہدف ویب سائٹ کو ترجیحی طور پر کھولتی ہیں۔",
+      "htmlFileDesc": ".html فائلیں ونڈوز، میک او ایس، اور لینکس کے ساتھ کام کرتی ہیں اور آپ انہیں سادہ ویب سائٹ کے شارٹکٹ کے طور پر بھی استعمال کر سکتے ہیں۔",
+      "afterDownload": "اؤنلوڈ کرنے کے بعد، فائل کو اپنے ڈیسک ٹاپ پر منتقل کریں یا جہاں ضرورت ہو اسے پن کر دیں۔"
+    },
+    "htmlPreview": {
+      "title": "HTML پریویو",
+      "description": "HTML لکھیں اور اونلائن پریویو کریں",
+      "defaultMessage": "آپ HTML پریویو ٹول کے لئے خوش آمدید",
+      "editorTitle": "HTML کوڈ",
+      "clear": "صاف کریں",
+      "editorPlaceholder": "HTML کوڈ یہاں درج کریں...",
+      "previewTitle": "پریویو",
+      "run": "چلانا",
+      "fullscreen": "فل کریم",
+      "exitFullscreen": "فل کریم سے باہر نکلیں",
+      "usageTitle": "استعمال کیسے کریں",
+      "usageItems": [
+        "بائیں طرف ایڈیٹر میں مکمل HTML کوڈ داخل کریں",
+        "نتیجہ دیکھنے کے لئے چلانا پر کلک کریں",
+        "اینلائن CSS اور جاوا سکریپٹ کی حمایت ہے",
+        "کوڈ سیف ہاربر میں چلتا ہے جو ایک سیکیورٹی کے لئے ہے"
+      ]
+    },
+    "pageRefresh": {
+      "title": "آٹو صفحہ ریفرش",
+      "description": "آن لائن صفحہ خود بخود ریفرش کریں",
+      "urlRequired": "براہ کرم ایک URL درج کریں",
+      "urlPlaceholder": "URL درج کریں، مثال کے طور پر https://example.com",
+      "seconds": "سیکنڈ",
+      "start": "شروع کریں",
+      "stop": "روکیں",
+      "quickSet": "سریع ترجیحات:",
+      "secondsValue": "{{count}}s",
+      "minutesValue": "{{count}} منٹ",
+      "running": "چل رہا ہے",
+      "refreshIn": " {{count}} سیکنڈ میں ریفرش ہوگا",
+      "refreshedCount": "ریفرش کی گئی {{count}} بار",
+      "lastRefresh": "آخری ریفرش: {{time}}",
+      "previewTitle": "صفحہ پریویو",
+      "previewPlaceholder": "پریویو شروع کرنے کے لئے ایک URL درج کریں",
+      "usageTitle": "استعمال کیسے کریں",
+      "usageItems": [
+        "وب سائٹ کے URL اور ریفرش کا وقت درج کریں",
+        "آutomatically refresh کے لئے شروع کریں پر کلک کریں",
+        "کچھ ویب سائٹس iframe میں دکھائی نہیں دیں گی کیونکہ سیکیورٹی کی پالیسیوں کی وجہ سے",
+        "اس کا استعمال صفحہ تبدیلیوں کی نگرانی کرنے یا سشنز کو اکٹیو رکھنے کے لئے مفید ہے"
+      ]
+    },
+    "pxToRem": {
+      "title": "PX سے REM کنورٹر",
+      "description": "CSS کوڈ میں PX یونٹس کو REM یونٹس میں بیچ کنورٹ کریں",
+      "baseFontSize": "بیس فونٹ سائز",
+      "precision": "ڈیسیمال پریسیشن",
+      "precisionOptions": {
+        "2": "2 ڈیجیٹس",
+        "3": "3 ڈیجیٹس",
+        "4": "4 ڈیجیٹس",
+        "5": "5 ڈیجیٹس"
+      },
+      "inputLabel": "ان پٹ CSS کوڈ",
+      "convertToRem": "PX سے REM",
+      "convertToPx": "REM سے PX",
+      "outputLabel": "نتائج",
+      "copy": "نقل کریں",
+      "copied": "نقل کر دیا گیا",
+      "outputPlaceholder": "یہاں کنورٹ کرنے کا نتیجہ ظاہر ہوگا...",
+      "quickReferenceTitle": "سریع ریفرنس (بیس: {{baseSize}}px)",
+      "whyUseRem": "REMs کیوں استعمال کریں؟",
+      "infoItems": [
+        "REM ریڑھ کی ہڈی (html) فونٹ سائز کے مطابق ہوتا ہے",
+        "REM کا استعمال ایک سائٹ کے ذریعہ ٹائپوگرافی کو اسکیل کرنے میں آسان بناتا ہے",
+        "اس کا استعمال ریسپانسیو ڈیزائن اور ایکسیسیبیلٹی میں مدد کرتا ہے"
+      ],
+      "formula": "Formula: rem = px / {{baseSize}}"
+    },
+    "shieldBadge": {
+      "title": "شیلڈ بیڈج جنریٹر",
+      "description": "آن لائن SVG شیلڈ بیڈج جنریٹ کریں",
+      "downloadFailed": "ڈاؤن لوڈ ناکام، براہ کرم بعد میں دوبارہ کوشش کریں",
+      "basicSettings": "بنیادی سیٹنگز",
+      "labelField": "لیبل",
+      "messageField": "پیغام",
+      "color": "رنگ",
+      "style": "سٹائل",
+      "logoSettings": "لوگو سیٹنگز",
+      "logo": "لوگو",
+      "none": "کوئی نہیں",
+      "logoColor": "لوگو کا رنگ",
+      "preview": "پریویو",
+      "downloadSvg": "SVG ڈاؤن لوڈ کریں",
+      "codeTitle": "کوڈ",
+      "copiedToClipboard": "کلپ بورڈ میں کاپی کر دیا گیا"
+    },
+    "robotsGenerator": {
+      "title": "robots.txt جنریٹر",
+      "description": "آن لائن robots.txt فائلیں جنریٹ کریں",
+      "templatesLabel": "سریع ٹیمپلیٹس:",
+      "templates": {
+        "allowAll": "تمام کو اجازت دیں",
+        "blockAll": "تمام کو روکیں",
+        "standard": "معیاری کنفیگریشن"
+      },
+      "ruleTitle": "رول {{index}}",
+      "userAgents": {
+        "all": "* (تمام کرالرز)",
+        "baidu": "Baiduspider (بیڈو)",
+        "sogou": "سگو"
+      },
+      "disallow": "مسدود راستے",
+      "allow": "اجازت یافتہ راستے",
+      "add": "اضافہ کریں",
+      "addRule": "رول شامل کریں",
+      "otherSettings": "دیگر سیٹنگز",
+      "sitemapUrl": "سائٹ میپ URL",
+      "crawlDelay": "کرال-دیلے (سیکنڈ میں)",
+      "preview": "robots.txt پریویو",
+      "copy": "نقل کریں",
+      "copied": "نقل کر دیا گیا",
+      "saveTip": "اس فائل کو robots.txt کے نام سے Save کریں اور اسے اپنی ویب سائٹ کے جڑ میں رکھیں"
+    },
+    "emailEncrypt": {
+      "title": "ای میل ایڈریس اینکوڈر",
+      "description": "بٹس کے ذریعہ ای میل ایڈریس کو کم کریں",
+      "inputLabel": "ای میل ایڈریس",
+      "copy": "نقل کریں",
+      "copied": "نقل کر دیا گیا",
+      "infoTitle": "ای میل ایڈریس کو اینکوڈ کیوں کریں؟",
+      "infoItems": [
+        "بٹس کے ذریعہ آپ کے ای میل ایڈریس کو اسپیم کے لئے اسکریپنگ کے خطرہ کو کم کریں",
+        "انکوڈ ای میل براہ راست براﺅزر میں دکھایا جا سکتا ہے جبکہ بٹس کے لئے اس کی نشاندہی مشکل ہو سکتی ہے",
+        "مزید حفاظت کے لئے مختلف اینکوڈنگ طریقوں کو ملا کر استعمال کیا جا سکتا ہے",
+        "اس کے علاوہ سرور سائیڈ اینٹی اسپیم اقدامات کی سفارش بھی کی جاتی ہے"
+      ],
+      "results": {
+        "unicodeDecimal": {
+          "name": "یونیکوڈ ڈیسیمال",
+          "description": "Character کو ڈیسیمال یونیکوڈ اینٹیٹیز میں تبدیل کریں"
+        },
+        "unicodeHex": {
+          "name": "یونیکوڈ ہیکس",
+          "description": "Characters کو ہیکس یونیکوڈ اینٹیٹیز میں تبدیل کریں"
+        },
+        "javascript": {
+          "name": "جاوا سکریپٹ آؤٹ پٹ",
+          "description": "جاوا سکریپٹ کے ساتھ ای میل کو ڈائنا مکلی طرح دکھائیں"
+        },
+        "mailto": {
+          "name": "Mailto لنک",
+          "description": "انکوڈ میلٹو لنک تیار کریں"
+        },
+        "cssReverse": {
+          "name": "CSS ریورس ڈسپلے",
+          "description": "CSS کے ذریعہ ٹیکسٹ کو الٹا کرکے دکھائیں"
+        }
+      }
+    },
+    "workerDemo": {
+      "title": "Web Worker کی کارکردگی ڈیمو",
+      "description": "Web Workers اور مین تھریڈ کے درمیان حساب کی کارکردگی کا موازنہ کریں",
+      "invalidInteger": "براہ کرم ایک صحیح مثبت عدد درج کریں",
+      "workerError": "Worker حساب کی غلطی:",
+      "notice": "ذکر",
+      "settingsTitle": "حساب کی سیٹنگز",
+      "inputLabel": "ان پٹ قیمت",
+      "inputPlaceholder": "ایک مثبت عدد درج کریں",
+      "operationLabel": "عمل",
+      "operations": {
+        "factorial": "Factorial (n!)",
+        "fibonacci": "Fibonacci سیکوئنس",
+        "prime": "Prime چیک",
+        "factorization": "Prime Factorization"
+      },
+      "workerCalculate": "Web Worker کے ساتھ حساب کریں",
+      "mainThreadCalculate": "مین تھریڈ پر حساب کریں",
+      "comparisonTitle": "کارکردگی کا موازنہ",
+      "workerResult": "Web Worker کا نتیجہ",
+      "mainThreadResult": "مین تھریڈ کا نتیجہ",
+      "resultLabel": "نتیجہ:",
+      "timeLabel": "حساب کی وقت:",
+      "calculating": "حساب کر رہا ہے...",
+      "emptyState": "حساب کرنے کے لئے اوپر والے بٹن پر کلک کریں",
+      "infoTitle": "Web Workers کیوں استعمال کریں؟",
+      "workerFeaturesTitle": "Web Worker کی خصوصیات",
+      "workerFeatures": [
+        "مین تھریڈ کو بلاک کئے بغیر پس گراؤنڈ تھریڈ میں چلتا ہے",
+        "وزنی حساب کی کاموں کے لئے اچھا ہے",
+        "UI کو ری ایکٹیو رکھتا ہے",
+        "پیرالل پروسیسنگ کی حمایت کرتا ہے"
+      ],
+      "useCasesTitle": "استعمال کی صورتیں",
+      "useCases": [
+        "بڑے ڈیٹا کی معالجہ",
+        " complexities algorithms",
+        "تصاویر کی معالجہ",
+        "اینکریپشن اور ڈیکریپشن"
+      ]
+    },
+    "jsDebug": {
+      "title": "JS ڈیبگر",
+      "description": "JavaScript کو آن لائن چلانے اور ڈیبگ کریں",
+      "defaultCode": "// اس جگہ JavaScript کو لکھیں\nconsole.log(\"Hello, World!\");\n\n// مثال: ارے کا کام\nconst numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(n => n * 2);\nconsole.log(\"Original array:\", numbers);\nconsole.log(\"Doubled:\", doubled);\n\n// مثال: آبجیکٹ\nconst user = {\n  name: \"Zhang San\",\n  age: 25,\n  city: \"Beijing\"\n};\nconsole.log(\"User information:\", user);\n\n// مثال: غیر متوقع کارروائی\nsetTimeout(() => {\n  console.log(\"After 1 second\");\n}, 1000);",
+      "editorTitle": "JavaScript کوڈ",
+      "copy": "نسخہ کریں",
+      "copied": "نسخہ کر دیا گیا!",
+      "clear": "صاف کریں",
+      "placeholder": "JavaScript کوڈ یہاں درج کریں...",
+      "run": "کوڈ چلائیں",
+      "consoleTitle": "کانسل آؤٹ پٹ",
+      "consolePlaceholder": "کانسل آؤٹ پٹ یہاں ظاہر ہو گا...",
+      "usageTitle": "استعمال کیسے کریں",
+      "usageItems": [
+        "میسج پرنٹ کرنے کے لیے console.log(), console.error() اور console.warn() کا استعمال کریں",
+        "ES6+ سنتاکس جیسے فنکشن کے تیر، ڈیسٹرکچرنگ، اور ٹیمپلیٹ سٹرنگز کی حمایت کرتا ہے",
+        "غیر متوقع کارروائیوں جیسے setTimeout اور Promise کی حمایت کرتا ہے",
+        "کوڈ سینڈ بک میں چلتا ہے اور DOM یا بیرونی وسائل تک رسائی نہیں رکھتا"
+      ]
+    },
+    "formValidationDemo": {
+      "title": "فرم ویلیڈیشن ڈیمو",
+      "description": "مکمل فارم ویلیڈیشن کا مظاہرہ کرتا ہے، جس میں لائیو ویلیڈیشن، خطا کی ہدایات، اور ڈیٹا صاف کرنے شامل ہیں",
+      "validation": {
+        "username": "نام مستخدم میں صرف حروف، اعداد، اور ڈشز ہوسکتے ہیں، اور 3-20 کی لمبائی ہونی چاہیے",
+        "phone": "براہ مہربانی ایک درست موبائل نمبر درج کریں",
+        "age": "عمر 1 سے 120 کے درمیان ہونی چاہیے",
+        "idCard": "براہ مہربانی ایک درست آئی ڈی کارڈ نمبر درج کریں",
+        "address": "ادارہ 200 حروف سے زیادہ نہیں ہونا چاہیے",
+        "bio": "Bio 500 حروف سے زیادہ نہیں ہونا چاہیے"
+      },
+      "submitSuccess": "فارم ویلیڈیشن کامیاب ہو گئی! جمع کردہ ڈیٹا:",
+      "quickTestTitle": "سریع ویلیڈیشن ٹیسٹ",
+      "quickLabels": {
+        "email": "ای میل ویلیڈیشن",
+        "phone": "فن نمبر ویلیڈیشن",
+        "url": "URL ویلیڈیشن"
+      },
+      "quickPlaceholders": {
+        "email": "ای میل ایڈریس درج کریں",
+        "phone": "فن نمبر درج کریں",
+        "url": "URL درج کریں"
+      },
+      "valid": "صحیح",
+      "invalid": "غلط",
+      "formTitle": "کامل فارم ویلیڈیشن",
+      "placeholders": {
+        "username": "نام مستخدم (حروف، اعداد، ڈشز)",
+        "email": "ای میل ایڈریس",
+        "phone": "موبائل نمبر",
+        "website": "شخصی ویب سائٹ (اختیاری)",
+        "age": "عمر",
+        "idCard": "آئی ڈی کارڈ نمبر",
+        "address": "تفصیلی ادارہ (اختیاری)",
+        "bio": "Bio (اختیاری، 500 حروف تک)"
+      },
+      "success": {
+        "username": "نام مستخدم کی شکل صحیح ہے",
+        "email": "ای میل کی شکل صحیح ہے",
+        "phone": "فن نمبر کی شکل صحیح ہے",
+        "website": "URL کی شکل صحیح ہے",
+        "age": "عمر صحیح ہے",
+        "idCard": "آئی ڈی کارڈ کی شکل صحیح ہے",
+        "address": "ادارہ صحیح ہے",
+        "bio": "Bio صحیح ہے"
+      },
+      "submit": "فارم جمع کریں",
+      "summaryTitle": "ویلیڈیشن خلاصہ",
+      "fieldLabels": {
+        "username": "نام مستخدم",
+        "email": "ای میل",
+        "phone": "فن",
+        "website": "ویب سائٹ",
+        "age": "عمر",
+        "idCard": "آئی ڈی کارڈ",
+        "address": "ادارہ",
+        "bio": "Bio"
+      },
+      "summaryStatus": {
+        "failed": "ویلیڈیشن ناکام",
+        "passed": "ویلیڈیشن کامیاب",
+        "empty": "خالی نہیں"
+      },
+      "infoTitle": "فارم ویلیڈیشن خصوصیات",
+      "infoItems": [
+        {
+          "title": "لائیو ویلیڈیشن",
+          "description": "ٹائپ کرتے وقت فارمیٹ چیک کرتا ہے اور بلور پر دوبارہ ویلیڈیشن کرتا ہے"
+        },
+        {
+          "title": "کئی قسم کے قوانین",
+          "description": "ضروری فیلڈز، لمبائی چیک، ریگولر اکسپریشنز، اور کسٹم ویلیڈیشن کی حمایت کرتا ہے"
+        },
+        {
+          "title": " visuals feedback",
+          "description": "رنگ، ایکو، اور میسج کے ساتھ ویلیڈیشن کی حالت واضح طور پر دکھاتا ہے"
+        },
+        {
+          "title": "ڈیٹا صاف کرنے کی کوشش",
+          "description": "Submitted data کو خود بخود ٹرمن اور معیاری بناتا ہے"
+        },
+        {
+          "title": "مددگار خطا ہدایات",
+          "description": "داخل کرنے کے لیے صارف دوست ہدایات فراہم کرتا ہے"
+        },
+        {
+          "title": "Accessibility support",
+          "description": "سب کے لیے فارم کا استعمال ممکن رکھتا ہے"
+        }
+      ]
+    },
+    "faviconGenerator": {
+      "title": "Favicon گینریٹر",
+      "description": "تصاویر کو ویب فاوکن کے لیے تبدیل کریں",
+      "historyTitle": "Favicon گینریٹر",
+      "historyCategory": "تصویر ٹولز",
+      "uploadImageFile": "براہ مہربانی ایک تصویر فائل اپ لوڈ کریں",
+      "generateFailed": "آئکن گینریٹ کرنے میں ناکام، کیا آپ دوبارہ کوشش کریں گے؟",
+      "uploadTitle": "تصویر اپ لوڈ کریں",
+      "uploadAria": "ایک تصویر فائل اپ لوڈ کریں",
+      "dropzoneAria": "تصویر اپ لوڈ کرنے کے لیے کلک کریں، PNG، JPG، SVG اور دیگر کی حمایت کرتا ہے",
+      "dropRelease": "تصویر اپ لوڈ کرنے کے لیے چھوڑیں",
+      "dropClick": "یہاں تصویر کلک یا ڈریگ کریں",
+      "supportFormats": "PNG، JPG، SVG اور دیگر کی حمایت کرتا ہے",
+      "clearImage": "تصویر صاف کریں",
+      "clearImageTitle": "تصویر صاف کریں (Ctrl+L)",
+      "settingsTitle": "Settings",
+      "removeBackground": "تصویر کے پس منظر کے رنگ کو ہٹائیں",
+      "removeColor": "ہٹانے والے رنگ",
+      "removeColorPicker": "ہٹانے کے لیے پس منظر کا رنگ منتخب کریں",
+      "removeColorValue": "ہٹانے والے پس منظر کا رنگ قیمت",
+      "tolerance": "تحمیل: {{value}}",
+      "toleranceAria": "رنگ کی تحمل",
+      "toleranceTip": "ایک اعلی تحمل سے ایک وسیع رنگ کی حد ہٹ جاتی ہے",
+      "transparentBackground": "شفاف پس منظر",
+      "transparentTip": "نوٹ: اگر اصل تصویر میں پس منظر کا رنگ موجود ہو تو، ?تصویر کے پس منظر کے رنگ کو ہٹائیں? کو چالو کریں۔",
+      "backgroundColor": "پس منظر کا رنگ",
+      "backgroundColorPicker": "پس منظر کا رنگ منتخب کریں",
+      "backgroundColorValue": "پس منظر کا رنگ قیمت",
+      "selectSize": "سائز منتخب کریں",
+      "selectedState": " (selected)",
+      "sizeAria": "{{size}}x{{size}} pixel size{{state}}",
+      "toggleSizeTitle": "Toggle {{size}}x{{size}} size (Alt+{{shortcut}})",
+      "previewTitle": "Preview",
+      "generating": "Generating...",
+      "downloadSizeAria": "Download {{size}}x{{size}} icon",
+      "download": "Download",
+      "uploadFirst": "براہ مہربانی پہلے تصویر اپ لوڈ کریں",
+      "downloadTitle": "Download",
+      "downloadAllPng": "Download all sizes (PNG)",
+      "downloadAllPngTitle": "Download all PNG sizes (Ctrl+Enter)",
+      "downloadIco": "Download favicon.ico",
+      "downloadIcoTitle": "Download favicon.ico (Alt+I)",
+      "usageTitle": "How to use",
+      "usageItems": [
+        "Remove background color: solid backgrounds such as gray or white",
+        "Tolerance: increase tolerance to remove similar colors, useful for gradient backgrounds",
+        "16x16: browser tab icon",
+        "32x32: taskbar shortcut icon",
+        "48x48: Windows website shortcut",
+        "Place the generated icon in your website root directory"
+      ]
+    }
+  },
+  "components": {
+    "toolHistory": {
+      "usageCount": "Used {{count}} times",
+      "recentUsed": "Last used: {{value}}",
+      "removeFavorite": "Remove from favorites",
+      "addFavorite": "Add to favorites",
+      "removeRecord": "Remove record",
+      "emptyHistory": "No tool history yet",
+      "confirmClear": "Are you sure you want to clear all tool history?",
+      "tabs": {
+        "recent": "Recent",
+        "favorites": "Favorites",
+        "mostUsed": "Most Used"
+      },
+      "title": "Tool History",
+      "clearHistory": "Clear history",
+      "searchPlaceholder": "Search history...",
+      "emptyMessages": {
+        "recent": "No recent usage records",
+        "favorites": "No favorite tools yet",
+        "mostUsed": "No most-used tools yet"
+      }
+    },
+    "exportFormatSelector": {
+      "buttonText": "Export results",
+      "exporting": "Exporting...",
+      "exportFailed": "Export failed, please try again"
+    },
+    "ads": {
+      "loading": "Loading ads...",
+      "carouselTitle": "Ad carousel",
+      "checkConsole": "Please check the browser console for detailed logs"
+    },
+    "networkStatus": {
+      "online": "Online",
+      "offline": "Offline",
+      "connected": "Network connected",
+      "disconnected": "Network disconnected",
+      "connectedDescription": "تمام خصوصیات ابھی دستیاب ہیں",
+      "disconnectedDescription": "کچھ خصوصیات دستیاب نہ ہوسکیں گی۔ کیپیٹر کنکشن چیک کریں۔",
+      "requestFailed": "درخواست ناکام ہو گئی"
+    },
+    "keyboardShortcutsHelp": {
+      "title": "کیبورڈ شارٹکٹس",
+      "close": "بند کریں",
+      "toggleDescription": "کیبورڈ شارٹکٹس مدد دکھائیں یا چھپائیں",
+      "helpTextBefore": "دبائیں",
+      "helpTextMiddle": "یا",
+      "helpTextAfter": "مدد دکھانے یا چھپانے کے لیے",
+      "tipTitle": "ٹپس",
+      "tipItems": [
+        "شارٹکٹ لیبلز مختلف آپریٹنگ سسٹم میں قلیلا مختلف دکھائی دے سکتے ہیں",
+        "کچھ شارٹکٹس براوزر شارٹکٹس کے ساتھ تصادم پیدا کر سکتے ہیں",
+        "فوسبل عنصر کے درمیان جانے کے لیے ٹیب کی بٹن استعمال کریں",
+        "بٹن اور لنک کے ایکٹیو کرنے کے لیے اینٹر دبائیں"
+      ],
+      "closeEsc": "بند کریں (ایس سی)"
+    },
+    "performanceDashboard": {
+      "title": "پرفارمنس ڈیش بورڈ",
+      "startMonitoring": "ملاحظہ شروع کریں",
+      "stopMonitoring": "ملاحظہ رکو",
+      "exportReport": "رپورٹ برآمد کریں",
+      "notMeasured": " đo نہیں گیا",
+      "metrics": {
+        "fcp": "پہلا کنٹنٹ فل ݙیپنگ",
+        "lcp": "سب سے بڑا کنٹنٹ فل ݙیپنگ",
+        "fid": "پہلا ان پٹ دیلے",
+        "cls": "جمع کردہ لیئیو اشفٹ",
+        "ttfb": "پہلے بائیٹ کا وقت"
+      },
+      "memoryTitle": "میموری کا استعمال",
+      "memory": {
+        "used": "استعمال شدہ میموری",
+        "total": "کل میموری",
+        "usageRate": "استعمال کی شرح"
+      },
+      "tipsTitle": "اپٹیمائزیشن ٹپس",
+      "tips": [
+        "ملاحظہ کرتے ہوئے ایپ کا عام طور پر استعمال کریں؛ ڈیٹا واقعی وقت میں اپ ڈیٹ ہو گا",
+        "FCP < 1.8s، LCP < 2.5s، FID < 100ms، اور CLS < 0.1 کو بہتر سمجھا جاتا ہے",
+        "اگر میموری کا استعمال 80% سے زیادہ ہو تو کوڈ کی اپٹیمائزیشن کا خیال رکھیں",
+        "گہری تحلیل کے لیے تفصیلی رپورٹ برآمد کر سکتے ہیں"
+      ],
+      "emptyState": "پرفارمنس تجزیہ شروع کرنے کے لیے ?ملاحظہ شروع کریں? پر کلک کریں"
+    }
+  }
+}
