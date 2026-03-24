@@ -41,6 +41,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Install server dependencies
+        working-directory: server
+        run: npm ci
+
       - name: Prepare cross-platform icons
         shell: bash
         run: |
