@@ -1,4 +1,4 @@
-﻿name: Desktop Build
+﻿name: macOS Intel Build
 
 on:
   push:
@@ -8,25 +8,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    name: ${{ matrix.label }}
-    runs-on: ${{ matrix.os }}
-    strategy:
-      fail-fast: false
-      matrix:
-        include:
-          - os: windows-latest
-            label: Windows
-            build_args: --win
-            artifact_glob: dist-release-1.0.1/*
-          - os: ubuntu-latest
-            label: Linux
-            build_args: --linux
-            artifact_glob: dist-release-1.0.1/*
-          - os: macos-latest
-            label: macOS
-            build_args: --mac
-            artifact_glob: dist-release-1.0.1/*
+  build-macos-intel:
+    name: macOS Intel
+    runs-on: macos-latest
 
     steps:
       - name: Check out repository
@@ -45,17 +29,12 @@ jobs:
         working-directory: server
         run: npm ci
 
-      - name: Prepare cross-platform icons
+      - name: Prepare build resources
         shell: bash
         run: |
           mkdir -p build-resources
           cp public/app.ico build-resources/icon.ico
           cp public/站长工具.png build-resources/512x512.png
-
-      - name: Prepare macOS icns
-        if: runner.os == 'macOS'
-        shell: bash
-        run: |
           rm -rf build-resources/icon.iconset
           mkdir -p build-resources/icon.iconset
           for size in 16 32 64 128 256 512; do
@@ -64,17 +43,17 @@ jobs:
           done
           iconutil -c icns build-resources/icon.iconset -o build-resources/icon.icns
 
-      - name: Build desktop app
+      - name: Build macOS Intel app
         env:
           CSC_IDENTITY_AUTO_DISCOVERY: "false"
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           npm run prebuild
-          npx electron-builder ${{ matrix.build_args }} --publish never
+          npx electron-builder --mac zip --x64 --publish never
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: desktop-${{ runner.os }}-${{ github.sha }}
-          path: ${{ matrix.artifact_glob }}
+          name: desktop-macos-intel-${{ github.sha }}
+          path: dist-release-1.0.1/*
           if-no-files-found: error
